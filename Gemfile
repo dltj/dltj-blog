@@ -25,3 +25,13 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# Need to put this outside of `group :jekyll_plugins do` in order for it to work
+gem "jekyll-remote-theme"
+
+gem 'jekyll-import'
+gem 'sequel'
+gem 'fileutils'
+gem 'safe_yaml'
+gem 'unidecode'
+gem 'htmlentities'
+gem 'mysql2'
