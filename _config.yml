@@ -24,7 +24,7 @@ github_username:  dltj
 
 # Build settings
 markdown: kramdown
-remote_theme: Balancingrock/classic-jekyll-theme@2.0.0
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
@@ -32,6 +32,8 @@ plugins:
   - jekyll-paginate
 
 paginate: 5
+
+preview_posts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
