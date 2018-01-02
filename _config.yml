@@ -29,6 +29,9 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
