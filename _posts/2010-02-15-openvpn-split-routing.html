@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: wordpress-import
 status: publish
 published: true
 title: Split Routing with OpenVPN
-author:
-  display_name: Peter Murray
-  login: lyrdor
-  email: jester@dltj.org
-  url: http://dltj.org/about
+author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
@@ -157,24 +153,39 @@ comments:
 <!--more--><br />
 In its default configuration, the OpenVPN client establishes a default route pointing to the OpenVPN server as the gateway.  What I needed to do is remove that default route to the OpenVPN server gateway, recreate the original default route to the underlying interface's gateway, and add a new specific route for the machine room network using the OpenVPN server gateway.  These additions to the "ovpn" file were:</p>
 <pre lang="config">route-delay 2
+
 route-up "/some/location/openvpn-default-route-reset.sh"
+
 route 193.20.135.0/24 255.255.255.0 vpn_gateway</pre>
 <p>The "route-delay" line forces the two subsequent changes to happen after all of the OpenVPN-driven routing changes are made.  The "route-up" line runs a shell script that deletes the OpenVPN-supplied default route and adds the one pointing back to the underlying interface's gateway.  (More on this shell script below.)  The "route" line adds the machine room specific network through the OpenVPN tunnel.  ((Note, this really isn't the machine room network of my place of work.))  (The "vpn_gateway" is a keyword in the configuration file that is replaced by the gateway address of the OpenVPN tunnel at runtime.)</p>
 <p>For reasons I don't understand, I couldn't delete and re-add the default route via the OpenVPN configuration file.  Instead, I needed to create an external shell script with those commands and execute that script via the "route-up" configuration line.  The contents of the shell script are really simple:</p>
 <pre lang="bash">#!/bin/bash
+
 /sbin/route delete default
+
 /sbin/route add default $route_net_gateway</pre>
 <p>OpenVPN will push a bunch of environment variables in to the subprocess, and one of them is <code>$route_net_gateway</code> that gets the "pre-existing default IP gateway in the system routing table."  That value is used in the third line to reset the default gateway.  This script gets run as root, so perform due diligence to protect the script (<abbrev title="change file access permissions">chmod</abbrev> it to "700" and <abbrev title="change file owner and group">chown</abbrev> it to "root").</p>
 <p>With that in place, my network routing tables look something like this:</p>
 <pre lang="config">Internet:
+
 Destination        Gateway            Flags        Refs      Use   Netif Expire
+
 default            192.168.2.1        UGSc           40        0     en1
+
 10.242.2.1/32      10.242.2.9         UGSc            0        0    tun0
+
 10.242.2.9         10.242.2.10        UH              4        1    tun0
+
 127                127.0.0.1          UCS             0        0     lo0
+
 127.0.0.1          127.0.0.1          UH             12 15704029     lo0
+
 192.168.2          link#5             UCS             2        0     en1
+
 192.168.2.1        0:c0:49:ff:8c:c5   UHLWI          42      108     en1   1158
+
 192.168.2.3        127.0.0.1          UHS             0        9     lo0
+
 193.20.135         10.242.2.9         UGSc            2        0    tun0
+
 193.20.135.2/32    192.168.2.1        UGSc            1        0     en1</pre>

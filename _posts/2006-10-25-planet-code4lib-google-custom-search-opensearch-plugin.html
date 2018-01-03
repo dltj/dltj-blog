@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: wordpress-import
 status: publish
 published: true
 title: Google Custom Search's Planet Code4Lib as an OpenSearch Plugin
-author:
-  display_name: Peter Murray
-  login: lyrdor
-  email: jester@dltj.org
-  url: http://dltj.org/about
+author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
@@ -62,20 +58,35 @@ comments:
 <p>
 Earlier I mentioned creating a <a href="http://dltj.org/2006/10/google-custom-search-for-planet-code4lib/">Google Custom Search for Planet Code4Lib</a>.  The Google-supplied markup puts a form on your web page that leads to Google's server farm.  (Alternatively, you can create a custom URL that points to an HTML page at Google which contains the form.)  Well, that's really neat, but not far enough.  How about an <a href="http://dltj.org/wp-content/uploads/2006/10/planet-code4lib-search.xml" title="OpenSearch Description of Planet Code4Lib Search via Google Custom Search">OpenSearch plugin</a> suitable for Firefox and MSIE7?  Here is the plugin markup:</p>
 <pre lang="xml">
+
 < ?xml version="1.0" encoding="UTF-8"?>
+
  <opensearchdescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+
    <shortname>Planet Code4Lib</shortname>
+
    <description>Search the bloggers of Planet Code4Lib using Google Custom Search.</description>
+
    <inputencoding>UTF-8</inputencoding>
+
    <tags>code4lib library</tags>
+
    <contact>peter@OhioLINK.edu</contact>
+
    <url type="text/html" template="http://www.google.com/cse?q={searchTerms}&amp;cx=017716194421589436379:zdoxzpetaxk&amp;sa=Search&amp;cof=FORID:0">
+
       <image height="16" width="16" type="image/png">
+
 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAwBQTFRF////s7OzNDQ0SkpKioqKbGxsoaGhe3t7KSkp6enpWFhYHR0dzMzMl5eXYmJivr6+8/PzPj4+2traAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVWdikQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAI1JREFUKFNVTlsCwyAIE0SMLdSV+x92WLuP5SvmISnlgQLgTTcui/gTMGLi52oSDKMUzFbagQ/CXDqO4zEjwMMO0AihImJmQWEUYdOlwEhpLpC6a80KX04JlV75fC4Za8LvFu9hELmotva+TyfvK/RO5ZZ1Zkplb00q1b2pyI50lpafc9bW8ATdy2l1+1/rhQUihcZntwAAAABJRU5ErkJggg==</image>
+
       <adultcontent>false</adultcontent>
+
       <moz :searchform>http://dltj.org/2006/10/google-custom-search-for-planet-code4lib/
+
    </moz></url>
+
 </opensearchdescription>
+
 </pre>
 <p>Pretty neat, eh?  This link will <a href="javascript:window.external.AddSearchProvider(&#039;http://dltj.org/wp-content/uploads/2006/10/planet-code4lib-search.xml&#039;);">install the search definition in Firefox and MSIE7.</a></p>
 <h2>Is this going too far?</h2>

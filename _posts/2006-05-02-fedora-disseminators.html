@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: wordpress-import
 status: publish
 published: true
 title: Thinking about Our Fedora Disseminators
-author:
-  display_name: Peter Murray
-  login: lyrdor
-  email: jester@dltj.org
-  url: http://dltj.org/about
+author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
@@ -163,21 +159,37 @@ This may not be a practical theory once we get to implementation.</p>
 <li>"getThumb" - in the case of still images, same as "getPreview"</li>
 <li>"viewThumb" - the same derivative as "getThumb" wrapped in an HTML div such as:
 <pre>
+
 <div class="viewThumb" id="viewThumb[PID][DS]">
+
   <div class="getThumb" id="getThumb[PID][DS]">
+
     <img class="getThumbImg" id="getThumb[PID][DS]Img" alt="Thumbnail of [DS]" src="..." />
+
   </div>
+
   <div class="getThumbOptions" id="getThumbOptions[PID][DS]">
+
     <span class="getThumbOptionScreen" id="getThumbOptionScreen[PID][DS]">
+
       <a href="[URL to getScreen]">View Screen-sized</a>
+
     </span>
+
     <span class="getThumbOptionDescription"
+
 id="getThumbOptionDescription[PID][DS]">
+
       <a href="[URL to getDescription">View Description</a>
+
     </span>
+
     ....
+
   </div>
+
 </div>
+
 </pre>
 <p>   (where [PID] is the Fedora PID and [DS] is the datastream label)</li>
 </ul>

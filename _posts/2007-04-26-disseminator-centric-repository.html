@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: wordpress-import
 status: publish
 published: true
 title: Disseminators As the Core of an Object Repository
-author:
-  display_name: Peter Murray
-  login: lyrdor
-  email: jester@dltj.org
-  url: http://dltj.org/about
+author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
@@ -56,29 +52,51 @@ comments: []
 <p>The key to this architecture is <em>asking the object to "render itself"</em>.  This puts the task of creating the appropriate representation at the object level.  The object can be an image, a video, a spreadsheet, or a PDF file.  More importantly, the object can be a PDF of a journal article or a PDF of a thesis; in both cases the metadata describing that PDF file will be different (journal/volume/issue in one case and department/degree/advisor in the other).  </p>
 <p>Rather than putting special case code in the interface application to render the description of the journal article one way and the thesis another way, that special case code is bound to the object in the form of a "disseminator".  The disseminator methods for the journal article and the thesis share the same name &mdash; <code>getFullDisplay</code> &mdash; but will return entirely different XHTML fragments &mdash; one for a journal article and one for a thesis.  For both objects, though, the interface application will make a call to the object in the Fedora repository asking for the output of each <code>getFullDisplay</code> dissemination.  In the case of a Dublin Core description, the dissemination output could look like this:</p>
 <pre lang="html"><table class="drc_dublinCore_table">
+
 <tr class="drc_dublinCore_row drc_dublinCore_title">
+
 <td class="drc_dublinCore_label drc_dublinCore_title">Title:</td>
+
 <td class="drc_dublinCore_value drc_dublinCore_title">Jester Example</td>
+
 </tr>
+
 <tr class="drc_dublinCore_row drc_dublinCore_identifier">
+
 <td class="drc_dublinCore_label drc_dublinCore_identifier">Identifier:</td>
+
 <td class="drc_dublinCore_value drc_dublinCore_identifier">demo:exampleObject</td>
+
 </tr>
+
 </table></pre>
 <p>You'll note that there is a liberal application of CSS styles on all of the XHTML elements, allowing for the look of the dissemination to be further transformed in the browser via CSS stylesheets.  A <code>getFullDisplay</code> dissemination for a journal article could look like this:</p>
 <pre lang="html"><table class="drc_ejc_table">
+
 <tr class="drc_ejc_row drc_ejc_title">
+
 <td class="drc_ejc_label drc_ejc_title">Article Title:</td>
+
 <td class="drc_ejc_value drc_ejc_title">Taking Advantage of Fedora Disseminations</td>
+
 </tr>
+
 <tr class="drc_ejc_row drc_ejc_volume">
+
 <td class="drc_ejc_label drc_ejc_volume">Volume:</td>
+
 <td class="drc_ejc_value drc_ejc_volume">3</td>
+
 </tr>
+
 <tr class="drc_ejc_row drc_ejc_issue">
+
 <td class="drc_ejc_label drc_ejc_issue">Issue:</td>
+
 <td class="drc_ejc_value drc_ejc_issue">2</td>
+
 </tr>
+
 </table></pre>
 <h3>Looking at the Pieces</h3>
 <p>There is a demonstration system set up for a short period of time that shows all of the pieces.  First, the disseminator:</p>

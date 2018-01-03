@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: wordpress-import
 status: publish
 published: true
 title: SSL for WordPress Admin and the Problem with  XMLHttpRequest
-author:
-  display_name: Peter Murray
-  login: lyrdor
-  email: jester@dltj.org
-  url: http://dltj.org/about
+author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
@@ -94,30 +90,55 @@ comments:
 <p>The security model in the browser prevents scripts on a page from using XMLHttpRequest ((See <a href="http://en.wikipedia.org/wiki/XMLHttpRequest" title="XMLHttpRequest - Wikipedia">http://en.wikipedia.org/wiki/XMLHttpRequest</a> for more information on XMLHttpRequest.)) back to any host on the internet <em>except</em> for the host where the script came from.  In this case, the difference between "http://..." and "https://..." is enough to trigger the problem.</p>
 <p>So I fixed it with plug-in that uses an undocumented hook in WordPress 2.3.  If a plugin requests the value of 'siteurl' or 'home', a filter is called to check if the requested page is on the SSL server.  If it is, the filter changes the URL from 'http' to 'https'.  In that way, plug-ins will use the proper form of the URL.</p>
 <pre lang="php">< ?php
+
 /*
+
 Plugin Name: Fix Admin SSL
+
 Plugin Script: fix_admin_ssl.php
+
 Plugin URI: http://dltj.org/tag/fix_admin_ssl
+
 Description: Fix the 'siteurl' and 'home' option values to make the protocol 'https' rather than 'http' when the page was requested with SSL.
+
 Version: 1.0
+
 License: GPL
+
 Author: Peter Murray
+
 Author URI: http://dltj.org/about
+
  
+
 === RELEASE NOTES ===
+
 2008-02-18 - v1.0 - first version
+
 */
+
  
+
 function fix_admin_ssl($url) {
+
   if ($_SERVER['HTTPS'] == 'on') {
+
     $url=preg_replace('/^http:\/\//','https://',$url);
+
   }
+
   return $url;
+
 }
+
  
+
 add_action ('option_siteurl', 'fix_admin_ssl', 1);
+
 add_action ('option_home', 'fix_admin_ssl', 1);
+
  
+
 ?></pre>
 <p>One downside to this plug-in, though, is that it will appear to change the values of 'siteurl' and 'home' on the <span class="removed_link" title="http://codex.wordpress.org/General_Options_SubPanel">Options &rarr; General</span> admin page.  The values in the database are still the 'http' ones, but since the Options page is an admin page the filter will run when it pre-loads those form fields.</p>
 <p>If there is interest, I can package up the above code into a legitimate plugin and submit it to the <a href="http://wordpress.org/extend/plugins/" title="WordPress &#8250; WordPress Plugins">WordPress plugins list</a>.

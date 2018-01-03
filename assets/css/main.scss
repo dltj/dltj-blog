@@ -1,0 +1,43 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+section.wp-import-message {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: #f0f7fb;
+  background-image: url(../icons/note.png);
+  background-position: 9px 0px;
+  background-repeat: no-repeat;
+  border: solid 1px #3498db;
+  border-radius: 6px;
+  line-height: 1.1em;
+  overflow: hidden;
+  padding: 15px 15px 15px 60px;
+  margin: 0.75em 0;
+  font-size: 0.85em;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: #3498db;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: -0.6em;
+    margin-right: -0.4em;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}

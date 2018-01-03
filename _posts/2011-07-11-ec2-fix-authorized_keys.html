@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: wordpress-import
 status: publish
 published: true
 title: Fixing a Bad SSH authorized_keys under Amazon EC2
-author:
-  display_name: Peter Murray
-  login: lyrdor
-  email: jester@dltj.org
-  url: http://dltj.org/about
+author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
@@ -157,7 +153,9 @@ comments:
 ---
 <p>I was doing some maintenance on the Amazon EC2 instance that underpins <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> and in the process managed to mess up the .ssh/authorized_keys file.  (Specifically, I changed the permissions so it was group- and world-readable, which <a href="https://help.ubuntu.com/community/SSH/OpenSSH/Keys#Permission%20denied%20%28publickey%29">causes `sshd` to not allow users to log in using those private keys</a>.)  Unfortunately, there is only one user on this server, so effectively I just locked myself out of the box.</p>
 <pre lang="shell">$ ssh -i .ssh/EC2-dltj.pem me@dltj.org
+
 Identity added: .ssh/EC2-dltj.pem (.ssh/EC2-dltj.pem)
+
 Permission denied (publickey).</pre>
 <p>After browsing the Amazon support forums I managed to puzzle this one out.  Since I didn't see this exact solution written up anywhere, I'm posting it here hoping that someone else will find it useful.  And since you are reading this, you know that they worked.</p>
 <h2>Solution Overview</h2>
@@ -176,8 +174,11 @@ Permission denied (publickey).</pre>
 <h2>Detach Root EBS Volume</h2>
 <p>A couple of steps here.  We need to remember where the root filesystem is mounted so we can put it back at the end.  So first get a description of the instance.  It will look something like this.</p>
 <pre lang="shell">$ ec2-describe-instances i-instance
+
 INSTANCE	i-instance	ami-xxxxxxxx	ec2-[your-IP].compute-1.amazonaws.com	[...lots of other stuff....]
+
 BLOCKDEVICE	/dev/sdh    vol-datafs      2011-07-12T01:37:21.000Z
+
 BLOCKDEVICE	/dev/sda1   vol-rootfs      2011-07-12T01:37:21.000Z</pre>
 <p>In this case we need to remember <code>/dev/sda1</code>.  (Note that we can ignore the <code>vol-datafs</code> -- on my instance it is where the database and other data is stored.  If you don't know which volume is your root volume, you might be facing some trial and error in the steps below until you find it.)  Now we detach it:</p>
 <pre lang="shell">$ ec2-detach-volume vol-rootfs</pre>
@@ -197,5 +198,6 @@ BLOCKDEVICE	/dev/sda1   vol-rootfs      2011-07-12T01:37:21.000Z</pre>
 <h2>Reattach the Volume and Start the Server</h2>
 <p>We're on the home stretch now.  Note that in the first command we're using the mount point we found in the second step.</p>
 <pre lang="shell">$ ec2-attach-volume vol-rootfs --instance i-target -d /dev/sda1
+
 $ ec2-start-instances i-target</pre>
 <p>After the instance starts, you should be able to log in.  If not, go through the steps again and read the syslog files in <code>/var/log</code> to figure out what is going on.</p>

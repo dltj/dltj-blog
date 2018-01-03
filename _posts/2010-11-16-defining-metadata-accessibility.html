@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: wordpress-import
 status: publish
 published: true
 title: Defining Metadata and Making Metadata Accessible
-author:
-  display_name: Peter Murray
-  login: lyrdor
-  email: jester@dltj.org
-  url: http://dltj.org/about
+author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
@@ -142,14 +138,23 @@ comments:
 <pre lang="txt">300    |aix, 74 p. :|bill. ;|c23 cm</pre>
 <p>or something like this made-up, <a href="http://www.loc.gov/standards/mods/" title="Metadata Object Description Schema: MODS (Library of Congress)"><acronym title="Metadata Object Description Schema">MODS</acronym></a>-like markup:</p>
 <pre lang="xml"><physicaldescription>
+
   <extent>
+
     <pagination>
+
        <pages type="introductory">9</pages>
+
        <pages type="numbered">74</pages>
+
     </pagination>
+
     <illustration />
+
     <height unit="cm">23</height>
+
   </extent>
+
 </physicaldescription></pre>
 <p>With the second, we can produce something like the first -- or even the abbreviated display version.  But it is considerably more difficult to create the auditory version from the first, particularly with the wide variation of punctuation encoding <acronym title="International Standard Bibliographic Description">ISBD</acronym> offers.  It just isn't machine actionable, which makes it difficult to transform, reuse, and translate that data in another context.</p>
 <p>I'm reminded too of <a href="http://bibwild.wordpress.com/2010/11/03/alcts-rda-presentation/" title="ALCTS RDA presentation &laquo; Bibliographic Wilderness">this recent quote from Jonathan Rochkind</a>:  "Of course, our legacy environment is even worse, with the &lsquo;data model&rsquo; being supplied by an unholy combination of ISBD ... and MARC...."  It would be good to stop doing our data entry in the language of the computer (e.g. MARC).  Based on the chat from the first webinar in the series, we wouldn't expect catalogers to type out the XML fragment above.  There should be computer-assisted workflows to capture the data and store it with all the required semantics.  That XML would be used for machine-to-machine communication and transformation into the output desired by the user -- be it a short-hand visual display or an auditory reading of information.</p>

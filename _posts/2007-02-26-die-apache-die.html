@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: wordpress-import
 status: publish
 published: true
 title: Killing Off Runaway Apache Processes
-author:
-  display_name: Peter Murray
-  login: lyrdor
-  email: jester@dltj.org
-  url: http://dltj.org/about
+author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
@@ -63,14 +59,24 @@ comments:
 <p>In any case, I whipped up this little ditty that is running every five minutes in cron as a way to gloss over the problem for the moment.  Running as root, it looks into all of the processes in the <a href="http://en.wikipedia.org/wiki/Procfs" title="Wikipedia: procfs">virtual /proc file system</a>, specifically in the 'stat' file, and using <a href="http://en.wikipedia.org/wiki/AWK_%28programming_language%29" title="Wikipedia: AWK">awk</a> looks to see if the second space-delimited value is the name of the httpd process (this is the <a href="http://www.gentoo.org/" title="Gentoo Linux -- Gentoo Linux News">Gentoo Linux</a> distribution, so the name of the process is <tt>apache2</tt>) and the 23rd space-delimited value (the virtual size of the process) is bigger than 800MB.  If so, it prints out the PID of the process (the first value in the <tt>stat</tt> file) at which the bash script unceremoniously sends it a <tt>kill</tt> ('-9') signal.  The script looks like this:</p>
 <pre lang="bash">#!/bin/bash
 
+
+
 for i in `/bin/ls -d /proc/[0-9]*`; do
+
         if [ -f $i/stat ]; then
+
                 pid=`/bin/awk '{ if ($2 == "(apache2)" &amp;&amp; $23 > 800000000) print $1}' $i/stat`
+
                 if [ "$pid" != "" ]; then
+
                         echo "Killing $pid because of load average: `awk '{print $1}' /proc/loadavg`"
+
                         kill -9 $pid
+
                 fi
+
         fi
+
 done</pre>
 <p>If anyone has any suggestions as to how to narrow down what the problem might be, I'd appreciate hearing from you.  I've tried eliminating Wordpress plugins, recompiling Wordpress and Apache, and attempted to catch the behavior with a network traffic sniffer, but have come up empty so far.
 <p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://blog.vimagic.de/ip-city-cluster-wordpress-plugin/ to http://wordpress.org/plugins/ipccp/ on August 22nd, 2013.</p>

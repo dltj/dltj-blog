@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: wordpress-import
 status: publish
 published: true
 title: Truly Lossless JPEG2000 Compression
-author:
-  display_name: Peter Murray
-  login: lyrdor
-  email: jester@dltj.org
-  url: http://dltj.org/about
+author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
@@ -150,6 +146,7 @@ comments:
 <pre lang="bash">kdu_compress -i source.tif -o destination.jp2</pre>
 <p>A colleague did offer some help in the form of parameters that he uses to achieve truly lossless compression:</p>
 <pre lang="bash">kdu_compress -i source.tif -o destination.jp2 \
+
        Creversible=yes -rate -,1,0.5,0.25 Clevels=5</pre>
 <p>The parameters mean this (from the Kakadu usage documentation):</p>
 <dl>

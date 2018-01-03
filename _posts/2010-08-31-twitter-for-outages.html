@@ -1,13 +1,9 @@
 ---
-layout: post
+layout: wordpress-import
 status: publish
 published: true
 title: Using Twitter For Service Outage Awareness
-author:
-  display_name: Peter Murray
-  login: lyrdor
-  email: jester@dltj.org
-  url: http://dltj.org/about
+author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
@@ -101,14 +97,23 @@ comments:
 <p>What I ended up doing was <a href="http://github.com/dltj/twitterjs" title="dltj's twitterjs at master - GitHub">adapting</a> JavaScript code by <a href="http://remysharp.com/2007/05/18/add-twitter-to-your-blog-step-by-step/" title="Add Twitter to your blog (step-by-step)">Remy Sharp</a> from his <a href="http://code.google.com/p/twitterjs/" title="twitterjs - Project Hosting on Google Code">twitterjs</a> project.  Modifications include the ability to pass a parameter to limit the number of hours a tweet will be shown before it is ignored (the <strong>ignoreOlderThan</strong> parameter) and to truncate the display of tweets if a particular string is used (the <strong>stopIfSeen</strong> parameter) as well as the caching function.  The code is posted on GitHub at <a href="http://github.com/dltj/twitterjs" title="dltj's twitterjs at master - GitHub">http://github.com/dltj/twitterjs</a>.</p>
 <p>The <a href="http://github.com/dltj/twitterjs/blob/OhioLINK-Prod/src/twitter.js#L472" title="Line 472 of twitter.js on the OhioLINK-Prod branch of twitterjs">bottom of 'twitter.js' in the <em>OhioLINK-Prod</em> branch</a> of the twitterjs project has an example of how to configure the JavaScript function.  It looks like this:</p>
 <pre lang="JavaScript">getTwitters('ohiolinkstatus', {       // <div> to insert text
+
   id: 'OhioLINKstatus',               // Twitter id
+
   count: 20,                          // Maximum number of tweets to show
+
   ignoreReplies: true,                // Ignore @-replies (true or false)
+
   ignoreOlderThan: 36*60*60,          // Ignore tweets older than this (in minutes)
+
   stopIfSeen: 'returned to normal',   // Stop display tweets if this text is in tweet
+
   cookiePrefix: 'TwitterJS',          // Preface cookies with this prefix
+
   cookieDomain: 'dltj.org',           // Cookies stored for this domain
+
   cookieRefresh: 5                    // How often to check tweets (in minutes)
+
 });</div></pre>
 <p>To make this work on your pages, you'd need to follow these steps:</p>
 <ol>
@@ -118,6 +123,7 @@ comments:
 <li>Upload the JavaScript and CSS files to your website.</li>
 <li>Add these lines to the <head> section of any page you want to use this:
 <pre lang="html">    <link rel="stylesheet" href="http://your.host.name/your.directory/twitter.css" type="text/css" media="screen" charset="utf-8" />
+
 	<script src="http://your.host.name/your.directory/twitter.js" type="text/javascript" charset="utf-8"></script></pre>
 </li>
 <li>Add this line to the <body> section of the document where you want the tweets to appear:
