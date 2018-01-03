@@ -24,7 +24,7 @@ github_username:  dltj
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.8.1
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
