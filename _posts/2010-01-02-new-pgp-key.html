@@ -1,0 +1,260 @@
+---
+layout: post
+status: publish
+published: true
+title: A New Year, a New PGP Key
+author:
+  display_name: Peter Murray
+  login: lyrdor
+  email: jester@dltj.org
+  url: http://dltj.org/about
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 1406
+wordpress_url: http://dltj.org/?p=1406
+date: '2010-01-02 21:16:30 -0500'
+date_gmt: '2010-01-03 02:16:30 -0500'
+categories:
+- Raw Technology
+tags:
+- email
+- pgp
+- gnupg
+- security
+comments:
+- id: 648324
+  author: Password managers - Rubber Duck
+  author_email: ''
+  author_url: http://www.rubberduckdistillery.com/blog/2013/04/26/password-managers/
+  date: '2013-08-08 08:22:45 -0400'
+  date_gmt: '2013-08-08 12:22:45 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] to delve more into how and why you should
+    use PGP, good citizen Peter E. Murray wrote an articulate post about it on his
+    blog. In the above case, I am only using PGP for encryption, Peter talks about
+    [...]<!--%kramer-ref-post%-->"
+---
+<p>It is the start of a new year ((Some have even said it is the start of a new decade, but of course that isn't true.  We won't start a new decade until 2011, just like we didn't actually start a new millennium until 2001.)), and it seems like a good time to update my public encryption key.  My previous one -- created in 2004 -- is both a little weaker, cryptographically speaking, than the ones newly created (1024-bit versus 2048-bit) and also an uncomfortable mixing of my professional and personal lives.  For my previous key, I attached all of my professional and personal user ids (e.g. e-mail addresses) to the same <a href="http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0xE3EB78A927CF2072" title="Public Key 0x27cf2072 from pgp.mit.edu">key</a>.  This time I decided to split my work-related user ids from my other ones.  My reasoning for the split is that I might be compelled by my employer to turn over my private key to decrypt messages and files sent in the course of my work.  If my personal user ids are also attached to that private key, my employer (and who ever else got ahold of that key), would be able to decrypt my personal messages and files as well.  That is not necessarily a good thing.  So my solution was to create two keys and cross-sign them.  I've outlined the process below.</p>
+<p>These keys are part of a computer standard and software algorithm called "<a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy" title="http://en.wikipedia.org/wiki/Pretty_Good_Privacy">Pretty Good Privacy</a>", or PGP.  If you are interested in more of a background about PGP, see a companion post on <a href="http://dltj.org/article/pgp-email/">why I digitally sign my e-mail</a>.<br />
+<!--more--></p>
+<h2>The Two New Keys</h2>
+<p>Here are details of my two new keys:
+<dl>
+<dt>Peter Murray -- Professional</dt>
+<dd><i>Key ID</i>: <code>2048D/877838CF</code></dd>
+<dd><i>Fingerprint</i>: <code>B021 8300 6844 E459 A18E  83CF 4C7A 6A28 8778 38CF</code>)</dd>
+<dd><i>Created:</i> 2-Jan-2010; <i>Expires:</i> 5-Feb-2015</dd>
+<dd><a href="http://pgpkeys.mit.edu:11371/pks/lookup?op=vindex&search=0x4C7A6A28877838CF" title="Public Key 0x877838CF from pgp.mit.edu">Public keys</a> as known by keyserver pgp.mit.edu (<a href="http://pgpkeys.mit.edu:11371/pks/lookup?op=get&search=0x4C7A6A28877838CF" title="ASCII Armored Key 0x877838CF from pgp.mit.edu">ASCII-armored version</a>)</dd>
+<dt>Peter Murray -- Personal</dt>
+<dd><i>Key ID</i>: <code>2048D/4637F6A1</code></dd>
+<dd><i>Fingerprint</i>: <code>5781 5786 7D66 D33B 0F54  D9DE 5820 0CEE 4637 F6A1</code>)</dd>
+<dd><i>Created:</i> 2-Jan-2010; <i>Expires:</i> 5-Feb-2015</dd>
+<dd><a href="http://pgpkeys.mit.edu:11371/pks/lookup?op=vindex&search=0x58200CEE4637F6A1" title="Public Key 0x4637F6A1 from pgp.mit.edu">Public key</a> as known by keyserver pgp.mit.edu (<a href="http://pgpkeys.mit.edu:11371/pks/lookup?op=get&search=0x58200CEE4637F6A1" title="ASCII Armored Key 0x4637F6A1 from pgp.mit.edu">ASCII-armored version</a>)</dd>
+</dl>
+<p>The <i>key id</i> is a short identifier for the PGP key, and it is broken up into two parts separated by a slash.  The first part -- "2048D" -- says that this is a 2048-bit DSA signing key.  The second part -- "877838CF" -- is the last eight hexadecimal digits of the key fingerprint.  Taken together, these two pieces of the key id almost assuredly identify the key.  It is a short form, though -- the full identifier is the key fingerprint: 40 hexadecimal digits.  Embedded in the key are creation and expiration dates.  The expiration date can be changed later, and can be eliminated, too (e.g. set to not expire).  There doesn't seem to be much in the way of guidance on how long to set the expiration date, but five years out seems to be a good round number.  </p>
+<h2>Key Creation / Cross-signing Process</h2>
+<p>It took some thought to put together a sequence of commands that executed this creation and cross-signing/identity-splitting process.  I'm including the process below in case I need to remember how to do this five years from now with these new keys expire.  I'm using <a href="http://www.gnupg.org/" title="The GNU Privacy Guard - GnuPG.org">GnuPG</a> 2.0.13 on a Mac at the command line.  My answers to the prompts are bolded.  There are graphical user interfaces for the Mac, PC, and Linux desktops that do the same thing as well.</p>
+<h3>Generating the New Key</h3>
+<p>This is using the built-in key generation process in GnuPG. In the comment field of the user ID, I'm noting that this is my <em>professional</em> key and that it supersedes my previous key (known as 0x27cf2072 -- and yes, I now realize that I misspelled "supersedes" in a comment of my key, and it is now there forever).  I'm also stating that it will be valid until 2015 (62 months).  I'm only showing the process of creating my professional key; the process was nearly identical for my personal key (0x4637f6a1).<br />
+<blockquote style="font-family:monospace;">$ <b>gpg --gen-key</b><br />
+gpg (GnuPG) 2.0.13; Copyright (C) 2009 Free Software Foundation, Inc.<br />
+This is free software: you are free to change and redistribute it.<br />
+There is NO WARRANTY, to the extent permitted by law.</p>
+<p>Please select what kind of key you want:<br />
+&nbsp;&nbsp;&nbsp;(1) RSA and RSA (default)<br />
+&nbsp;&nbsp;&nbsp;(2) DSA and Elgamal<br />
+&nbsp;&nbsp;&nbsp;(3) DSA (sign only)<br />
+&nbsp;&nbsp;&nbsp;(4) RSA (sign only)<br />
+Your selection? <b>2</b><br />
+DSA keys may be between 1024 and 3072 bits long.<br />
+What keysize do you want? (2048) <b>2048</b><br />
+Requested keysize is 2048 bits<br />
+Please specify how long the key should be valid.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0 = key does not expire<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<n>&nbsp;&nbsp;= key expires in n days<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<n>w = key expires in n weeks<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<n>m = key expires in n months<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<n>y = key expires in n years<br />
+Key is valid for? (0) <b>62m</b><br />
+Key expires at Thu Feb&nbsp;&nbsp;5 13:42:53 2015 EST<br />
+Is this correct? (y/N) <b>y</b></p>
+<p>GnuPG needs to construct a user ID to identify your key.</p>
+<p>Real name: <b>Peter E. Murray</b><br />
+Email address: <b>peter@OhioLINK.edu</b><br />
+Comment: <b>Professional -- supercedes 0x27cf2072</b><br />
+You selected this USER-ID:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>"</p>
+<p>Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? <b>o</b><br />
+You need a Passphrase to protect your secret key.</p>
+<p>We need to generate a lot of random bytes. It is a good idea to perform<br />
+some other action (type on the keyboard, move the mouse, utilize the<br />
+disks) during the prime generation; this gives the random number<br />
+generator a better chance to gain enough entropy.<br />
+gpg: WARNING: some OpenPGP programs can't handle a DSA key with this digest size<br />
+We need to generate a lot of random bytes. It is a good idea to perform<br />
+some other action (type on the keyboard, move the mouse, utilize the<br />
+disks) during the prime generation; this gives the random number<br />
+generator a better chance to gain enough entropy.<br />
+gpg: key 877838CF marked as ultimately trusted<br />
+public and secret key created and signed.</p>
+<p>gpg: checking the trustdb<br />
+gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model<br />
+gpg: depth: 0&nbsp;&nbsp;valid:&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;signed:&nbsp;&nbsp;10&nbsp;&nbsp;trust: 0-, 0q, 0n, 0m, 0f, 2u<br />
+gpg: depth: 1&nbsp;&nbsp;valid:&nbsp;&nbsp;10&nbsp;&nbsp;signed:&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;trust: 0-, 1q, 0n, 4m, 5f, 0u<br />
+gpg: depth: 2&nbsp;&nbsp;valid:&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;signed:&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;trust: 0-, 1q, 0n, 0m, 0f, 0u<br />
+gpg: next trustdb check due at 2011-03-13<br />
+pub&nbsp;&nbsp;&nbsp;2048D/877838CF 2010-01-02 [expires: 2015-02-05]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Key fingerprint = B021 8300 6844 E459 A18E&nbsp;&nbsp;83CF 4C7A 6A28 8778 38CF<br />
+uid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>
+sub&nbsp;&nbsp;&nbsp;2048g/96854A46 2010-01-02 [expires: 2015-02-05]</p></blockquote>
+<h3>Add Other Elements to the New Key</h3>
+<p>To this basic key, I'm going to add other elements:  a second user id (my e-mail account at Wright State University) and a picture.  I'm also going to set my OhioLINK e-mail address as the primary user id.<br />
+<blockquote style="font-family:monospace;">$ <b>gpg --edit-key 877838cf</b><br />
+gpg (GnuPG) 2.0.13; Copyright (C) 2009 Free Software Foundation, Inc.<br />
+This is free software: you are free to change and redistribute it.<br />
+There is NO WARRANTY, to the extent permitted by law.</p>
+<p>Secret key is available.</p>
+<p>pub&nbsp;&nbsp;2048D/877838CF&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: SC&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trust: ultimate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validity: ultimate<br />
+sub&nbsp;&nbsp;2048g/96854A46&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: E&nbsp;&nbsp;&nbsp;<br />
+[ultimate] (1). Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>
+<p>Command> <b>adduid</b><br />
+Real name: <b>Peter E. Murray</b><br />
+Email address: <b>peter.murray@wright.edu</b><br />
+Comment:<br />
+You selected this USER-ID:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"Peter E. Murray
+<peter.murray@wright.edu>"</p>
+<p>Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? <b>o</b></p>
+<p>pub&nbsp;&nbsp;2048D/877838CF&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: SC&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trust: ultimate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validity: ultimate<br />
+sub&nbsp;&nbsp;2048g/96854A46&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: E&nbsp;&nbsp;&nbsp;<br />
+[ultimate] (1)&nbsp;&nbsp;Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>
+[ unknown] (2). Peter E. Murray
+<peter.murray@wright.edu>
+<p>Command> <b>addphoto</b></p>
+<p>Pick an image to use for your photo ID.&nbsp;&nbsp;The image must be a JPEG file.<br />
+Remember that the image is stored within your public key.&nbsp;&nbsp;If you use a<br />
+very large picture, your key will become very large as well!<br />
+Keeping the image close to 240x288 is a good size to use.</p>
+<p>Enter JPEG filename for photo ID: <b>~/pmurray.jpg</b><br />
+Is this photo correct (y/N/q)? <b>y</b></p>
+<p>pub&nbsp;&nbsp;2048D/877838CF&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: SC&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trust: ultimate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validity: ultimate<br />
+sub&nbsp;&nbsp;2048g/96854A46&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: E&nbsp;&nbsp;&nbsp;<br />
+[ultimate] (1)&nbsp;&nbsp;Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>
+[ unknown] (2). Peter E. Murray
+<peter.murray@wright.edu>
+[ unknown] (3)&nbsp;&nbsp;[jpeg image of size 4916]</p>
+<p>Command> <b>1</b></p>
+<p>pub&nbsp;&nbsp;2048D/877838CF&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: SC&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trust: ultimate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validity: ultimate<br />
+sub&nbsp;&nbsp;2048g/96854A46&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: E&nbsp;&nbsp;&nbsp;<br />
+[ultimate] (1)* Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>
+[ unknown] (2). Peter E. Murray
+<peter.murray@wright.edu>
+[ unknown] (3)&nbsp;&nbsp;[jpeg image of size 4916]</p>
+<p>Command> <b>primary</b></p>
+<p>pub&nbsp;&nbsp;2048D/877838CF&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: SC&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trust: ultimate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validity: ultimate<br />
+sub&nbsp;&nbsp;2048g/96854A46&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: E&nbsp;&nbsp;&nbsp;<br />
+[ultimate] (1)* Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>
+[ unknown] (2)&nbsp;&nbsp;Peter E. Murray
+<peter.murray@wright.edu>
+[ unknown] (3)&nbsp;&nbsp;[jpeg image of size 4916]</p>
+<p>Command> <b>save</b></p></blockquote>
+<h3>Generate a Revocation Certificate</h3>
+<p>The <a href="http://www.gnupg.org/gph/en/manual.html" title="The Gnu Privacy Handbook">GnuPG handbook</a> recommends creating a "Revocation Certificate" -- and for good reason.  If you ever lose access to the private key (forget the password, or someone figures out the password and changes it to something you don't know), you can use this file to declare that the public key is invalid.  I'm printing this out and putting it in my fireproof safe; I can rekey it and upload it to a public keyserver if I ever need to.<br />
+<blockquote style="font-family:monospace;">$ <b>gpg --output 0x877838cf-revoke.asc --gen-revoke 0x877838cf</b></p>
+<p>sec&nbsp;&nbsp;2048D/877838CF 2010-01-02 Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>
+<p>Create a revocation certificate for this key? (y/N) <b>yes</b><br />
+Please select the reason for the revocation:<br />
+&nbsp;&nbsp;0 = No reason specified<br />
+&nbsp;&nbsp;1 = Key has been compromised<br />
+&nbsp;&nbsp;2 = Key is superseded<br />
+&nbsp;&nbsp;3 = Key is no longer used<br />
+&nbsp;&nbsp;Q = Cancel<br />
+(Probably you want to select 1 here)<br />
+Your decision? <b>1</b><br />
+Enter an optional description; end it with an empty line:<br />
+> <b>Revocation cert created at the time of key generation.</b><br />
+><br />
+Reason for revocation: Key has been compromised<br />
+Revocation cert created at the time of key generation.<br />
+Is this okay? (y/N) <b>y</b></p>
+<p>You need a passphrase to unlock the secret key for<br />
+user: "Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>"<br />
+2048-bit DSA key, ID 877838CF, created 2010-01-02</p>
+<p>ASCII armored output forced.<br />
+Revocation certificate created.</p>
+<p>Please move it to a medium which you can hide away; if Mallory gets<br />
+access to this certificate he can use it to make your key unusable.<br />
+It is smart to print this certificate and store it away, just in case<br />
+your media become unreadable.&nbsp;&nbsp;But have some caution:&nbsp;&nbsp;The print system of<br />
+your machine might store the data and make it available to others!</p></blockquote>
+<h3>Cross-signing Keys</h3>
+<p>Next I'm going to have each of the keys sign each other.  I have three keys -- my old one (0x27cf2072), my new professional one (0x877838cf), and my new personal one (0x4637f6a1).  The entire process will take six signatures; I'm only showing one below (signing 0x877838cf with 0x27cf2072.  </p>
+<p>The command is "tnrsign", which stands for a trusted, no-revokable signature.  The "trusted" part is a little technical, but it basically means that the signed key can trust the signatures of the signing key.  In a practical sense, it means that in my local web-of-trust database, I will continue to trust the keys of people I've signed with my old key.  (The GnuPG-Users list has a <a href="http://lists.gnupg.org/pipermail/gnupg-users/2005-May/025612.html" title="How to change trust model">more in-depth discussion</a> of the meaning of trusted signatures.)  The "non-revokable" part means, of course, that this signature -- this "validation" if you will -- cannot be reversed at a later time.  In this context, that makes since because I control both ends -- the signed key and the signing key.<br />
+<blockquote style="font-family:monospace;">$ <b>gpg --local-user 0x27cf2072 --edit-key 877838cf tnrsign</b><br />
+gpg (GnuPG) 2.0.13; Copyright (C) 2009 Free Software Foundation, Inc.<br />
+This is free software: you are free to change and redistribute it.<br />
+There is NO WARRANTY, to the extent permitted by law.</p>
+<p>Secret key is available.</p>
+<p>gpg: checking the trustdb<br />
+gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model<br />
+gpg: depth: 0&nbsp;&nbsp;valid:&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;signed:&nbsp;&nbsp;10&nbsp;&nbsp;trust: 0-, 0q, 0n, 0m, 0f, 3u<br />
+gpg: depth: 1&nbsp;&nbsp;valid:&nbsp;&nbsp;10&nbsp;&nbsp;signed:&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;trust: 0-, 1q, 0n, 4m, 5f, 0u<br />
+gpg: depth: 2&nbsp;&nbsp;valid:&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;signed:&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;trust: 0-, 1q, 0n, 0m, 0f, 0u<br />
+gpg: next trustdb check due at 2011-03-13<br />
+pub&nbsp;&nbsp;2048D/877838CF&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: SC&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trust: ultimate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validity: ultimate<br />
+sub&nbsp;&nbsp;2048g/96854A46&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: E&nbsp;&nbsp;&nbsp;<br />
+[ultimate] (1). Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>
+[ultimate] (2)&nbsp;&nbsp;Peter E. Murray
+<peter.murray@wright.edu>
+[ultimate] (3)&nbsp;&nbsp;[jpeg image of size 4916]</p>
+<p>Really sign all user IDs? (y/N) <b>yes</b></p>
+<p>pub&nbsp;&nbsp;2048D/877838CF&nbsp;&nbsp;created: 2010-01-02&nbsp;&nbsp;expires: 2015-02-05&nbsp;&nbsp;usage: SC&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trust: ultimate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validity: ultimate<br />
+ Primary key fingerprint: B021 8300 6844 E459 A18E&nbsp;&nbsp;83CF 4C7A 6A28 8778 38CF</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peter E. Murray (Professional -- supercedes 0x27cf2072)
+<peter@OhioLINK.edu>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peter E. Murray
+<peter.murray@wright.edu>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[jpeg image of size 4916]</p>
+<p>This key is due to expire on 2015-02-05.<br />
+Please decide how far you trust this user to correctly verify other users' keys<br />
+(by looking at passports, checking fingerprints from different sources, etc.)</p>
+<p>&nbsp;&nbsp;1 = I trust marginally<br />
+&nbsp;&nbsp;2 = I trust fully</p>
+<p>Your selection? <b>2</b></p>
+<p>Please enter the depth of this trust signature.<br />
+A depth greater than 1 allows the key you are signing to make<br />
+trust signatures on your behalf.</p>
+<p>Your selection? <b>2</b></p>
+<p>Please enter a domain to restrict this signature, or enter for none.</p>
+<p>Your selection? </p>
+<p>Are you sure that you want to sign this key with your<br />
+key "Peter E. Murray
+<peter@pandc.org>" (27CF2072)</p>
+<p>The signature will be marked as non-revocable.</p>
+<p>Really sign? (y/N) <b>y</b></p>
+<p>You need a passphrase to unlock the secret key for<br />
+user: "Peter E. Murray
+<peter@pandc.org>"<br />
+1024-bit DSA key, ID 27CF2072, created 2004-09-15</p>
+<p>Command> <b>save</b></p></blockquote>
+<p>This command is repeated for the other five combinations of old-new and new-new keys.</p>
+<h3>Create ASCII-Armored Exports of the New Public Keys</h3>
+<p>The last step is to create export files of the new public keys so they can be uploaded to a public keyserver.  In my case, I pasted the contents of the file into the form on the <a href="http://pgpkeys.mit.edu:11371/" title="MIT PGP Key Server">MIT PGP keyserver</a>.  PGP keys are binary by nature, so the "ASCII-Armored" process turns it into a text file that can be safely transported across a variety of systems.  (You can also identify such files because they begin with a characteristic "<code style="font-size:90%">-----BEGIN PGP PUBLIC KEY BLOCK-----</code>" line.)<br />
+<blockquote style="font-family:monospace;">$ <b>gpg --armor --output 877838cf.asc --export 877838cf</b></p></blockquote>

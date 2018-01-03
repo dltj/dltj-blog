@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: Results of JPEG2000 Activity in the Google Summer of Code 2007
+author:
+  display_name: Peter Murray
+  login: lyrdor
+  email: jester@dltj.org
+  url: http://dltj.org/about
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 291
+wordpress_url: http://dltj.org/2007/10/j2k-in-gsoc-2007/
+date: '2007-10-22 15:31:11 -0400'
+date_gmt: '2007-10-22 19:31:11 -0400'
+categories:
+- JPEG2000
+- Google Summer of Code
+tags:
+- jpeg2000
+- Google
+- ffmpeg
+- Firefox
+- Mozilla
+comments: []
+---
+<p>Earlier this year I posted <a href="http://dltj.org/2007/04/j2k-in-gsoc/">a summary of planned JPEG2000 activity in the Google Summer of Code</a>.  As you may recall, there were two project:  one mentored by the Mozilla Foundation and another by FFmpeg.  This post is a summary of the results of the efforts of the GSoC students.</p>
+<h2>JPEG2000 in Firefox</h2>
+<p>Ben Karel, a Computer Science undergraduate student at the University of Delaware, and I have been having a running e-mail conversation about his efforts to bring JPEG2000 to the Firefox browser.  He has given me permission to summarize our conversation here.</p>
+<blockquote><p>I was able to successfully create XPIs for the three major platforms that enable in-line decoding of JP2 images.  [This week] I have updated trunk (Firefox 3) builds for Windows and OS X posted to <a href="http://eschew.org/test/jp2/xpi/" title="Index of /test/jp2/xpi">http://eschew.org/test/jp2/xpi/</a>, and will make Linux and Firefox 2 builds in the next few days (hold me to it!). Once I have the major platforms covered, I'm going to submit the extensions to <a href="http://addons.mozilla.org/" title="Extensions and Themes for Firefox and Thunderbird">addons.mozilla.org</a>.</p></blockquote>
+<p>We also talked about the chicken-and-egg problem of getting JPEG2000 support into the core browser code.  The crux of the problem can be summarized as "why include J2K support in the core browser when it is hardly used?" followed closely by "why use J2K when users would have to install extra software to see the images?"</p>
+<blockquote><p>I think, down the road, a list of major users of JP2 would be helpful, but the folks who work on Mozilla full-time are caught up with the transition from the 1.9 version of the the core code (Gecko), to version 2.0, a fairly major task. Once the dust from that has settled down, I think Stuart Parmenter would be much more receptive to the idea of adding an image decoder to Gecko. Until then, I doubt it would hurt, but I also suspect it would fall on deaf ears.</p></blockquote>
+<p>[ Update 20071101T0859 : Ben posted a message on his blog with the<a href="http://eschew.org/blog/2007/i-could-have-sworn-i-already-posted-this" title="eschew / I could have sworn I already posted this&amp;#8230;"> details of building the JP2 renderer for Firefox using the source code</a>.  Thanks, Ben! ]</p>
+<p>Congratulations to Ben for taking the JPEG2000 integration into Firefox this far.  I believe your work will have long-lasting impact.</p>
+<h2>JPEG2000 in FFmpeg</h2>
+<p>Kamil Nowosad from Warsaw University took on the task of embedding a JPEG2000 decoder and encoder for FFmpeg.  Work did not seem to progress as far -- the ambitions may have been higher than what is possible in 12 weeks.  <a href="http://guru.multimedia.cx/googles-summer-of-code-2007/" title="&#038;039;Googles summer of code 2007&#038;039; in Lair Of The Multimedia Guru">Michael Niedermayer posted this summary on his blog</a>:</p>
+<blockquote><p>Kamils jpeg 2000 encoder and decoder, arent in good shape yet (only 2 out of 50 encoded images can be decoded by jasper, only 2 of 23 reference jpeg2k files can be decoded by kamils decoder), but then please dont forget that writing an encoder and decoder at the same time is harder then just one of the 2</p></blockquote>
+<p>Hopefully Kamil will be able to continue his work and bring JPEG2000 to FFmpeg.</p>

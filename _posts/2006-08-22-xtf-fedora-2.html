@@ -1,0 +1,148 @@
+---
+layout: post
+status: publish
+published: true
+title: Analysis of CDL's XTF textIndexer to Replace the Local Files with FEDORA Objects
+author:
+  display_name: Peter Murray
+  login: lyrdor
+  email: jester@dltj.org
+  url: http://dltj.org/about
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 106
+wordpress_url: http://dltj.org/2006/08/xtf-fedora-2/
+date: '2006-08-22 15:57:57 -0400'
+date_gmt: '2006-08-22 20:57:57 -0400'
+categories:
+- DRC
+- Fedora
+tags:
+- DRC
+- digital libraries
+- California Digital Library
+- xtf
+- libraries
+- Fedora Repository
+comments:
+- id: 2993
+  author: Martin Haye
+  author_email: m1@snyder-haye.com
+  author_url: ''
+  date: '2006-08-22 17:52:49 -0400'
+  date_gmt: '2006-08-22 22:52:49 -0400'
+  content: 'One clarification before I get to general comments: processFile() forms
+    the path for the lazy tree, but the file isn''t actually created until the queued
+    documents are processed.'
+- id: 2994
+  author: Martin Haye
+  author_email: m1@snyder-haye.com
+  author_url: ''
+  date: '2006-08-22 18:04:49 -0400'
+  date_gmt: '2006-08-22 23:04:49 -0400'
+  content: "I agree with your strategy. However you get a set of documents from Fedora
+    (I'm not that familiar with it), you basically want to replicate the functionality
+    of SrcTreeProcessor, which does the work of wrapping the input sources and passing
+    them to XMLTextProcessor for the heavy lifting.\r\n\r\nOne thought on lazy files:
+    if you have some mechanism for random byte-level access to a data stream in the
+    Fedora object, you could supply that to XTF through the StructuredStore interface.
+    The interface was designed with this in mind, though we haven't ever used it for
+    that.\r\n\r\nWhat you call a \"disseminator\" is similar to subclasses of IndexSource,
+    such as XMLIndexSource. There is also a PDFIndexSource and HTMLIndexSource that
+    you might be interested in. If you end up creating others for Word or other formats,
+    perhaps you'd consider contributing them back into XTF."
+- id: 3015
+  author: the jester
+  author_email: jester@DLTJ.org
+  author_url: http://dltj.org/
+  date: '2006-08-23 09:57:43 -0400'
+  date_gmt: '2006-08-23 13:57:43 -0400'
+  content: "[quote comment=\"2994\"]One thought on lazy files: if you have some mechanism
+    for random byte-level access to a data stream in the Fedora object, you could
+    supply that to XTF through the StructuredStore interface. The interface was designed
+    with this in mind, though we haven't ever used it for that.[/quote]\r\n\r\nAh,
+    that is a bit of a problem -- at present, access to objects in FEDORA requires
+    a Web Services call and the calls to retrieve data (through a \"disseminator\"
+    or directly a datastream) do not support a byte-range request.  (There has been
+    <a href=\"http://article.gmane.org/gmane.comp.cms.fedora-commons.user/1728/\"
+    rel=\"nofollow\">some talk</a> about this, so it might get done some day.)\r\n\r\n[quote
+    comment=\"2994\"]What you call a \"disseminator\" is similar to subclasses of
+    IndexSource, such as XMLIndexSource. There is also a PDFIndexSource and HTMLIndexSource
+    that you might be interested in. If you end up creating others for Word or other
+    formats, perhaps you'd consider contributing them back into XTF.[/quote]\r\n\r\nExactly
+    -- the point of distinction is where the transformation to XML takes place...as
+    a subclass of IndexSource in XTF or as a function of the repository (the disseminator).
+    \ In either case, the transformation is happening in a piece of Java code.  My
+    inclination, probably borne out by just raw familiarity at the moment, is to do
+    the transformation as a FEDORA disseminator, but the code would certainly be used
+    to write a new IndexSource class.  I'll let you know if we come up with anything
+    new that might be useful to you.\r\n\r\nThank you for your comments!  They have
+    been most helpful.<p style=\"padding:0;margin:0;font-style:italic;\">The text
+    was modified to update a link from http://comm.nsdl.org/pipermail/fedora-users/2006-May/001723.html
+    to http://article.gmane.org/gmane.comp.cms.fedora-commons.user/1728/ on February
+    12th, 2011.</p>"
+- id: 3900
+  author: 'SourceForge.net: xtf-user'
+  author_email: ''
+  author_url: https://sourceforge.net/p/xtf/mailman/message/1123995/
+  date: '2006-09-13 14:48:31 -0400'
+  date_gmt: '2006-09-13 18:48:31 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] To the FEDORA and XTF communities -- At OhioLINK,
+    we're aggressively pursing the California Digital Library's XTF software as a
+    front end for our digital collections in a FEDORA content repository. I've written
+    up some observations about what XTF integrated with FEDORA might look like and
+    would welcome your comments and observations. We'd particularly like to know if
+    anyone else is pursuing as similar path. The URLs are: http://dltj.org/2006/08/xtf-fedora-1/
+    http://dltj.org/2006/08/xtf-fedora-2/ Public comments (in the form of responses
+    on the blog) or private ones (e-mail replies) would be most appreciated. Martin
+    Haye, one of the lead developers of XTF, has been kind enough to offer some replies
+    already and so far this seems like a viable solution. Peter &nbsp; [...]<!--%kramer-ref-post%-->"
+---
+<p>This is a continuation of the investigation about integrating the California Digital Library's XTF software into the FEDORA digital object repository that <a href="http://dltj.org/2006/08/xtf-fedora-1">started earlier</a>.  This analysis looks at the textIndexer module in particular, starting with an overview of how textIndexer works now with filesystem-based objects and ending with an outline of how this could with reading objects from a FEDORA repository instead.</p>
+<h2>XTF's Native File System handler</h2>
+<p>Natively, XTF wants to read content out of the file system.  The core of the processing is done in these two class files:</p>
+<h3>TextIndexer.java</h3>
+<p>The <code>main()</code> driver for ingesting content into the index.  It reads commandline arguments (<code>cfgInfo.readCmdLine( args, startArg );</code>) to determine the various parameters, one of which is the top of the document source directory (<code>String srcRootDir = Path.resolveRelOrAbs( xtfHomeFile, cfgInfo.indexInfo.sourcePath );</code>).  Assuming all goes well, it calls a method to open the Lucene index for writing, process files in the source directory, and close the Lucene index:<br />
+[java]<br />
+srcTreeProcessor.open( cfgInfo );<br />
+srcTreeProcessor.processDir( new File(srcRootDir), 0 );<br />
+srcTreeProcessor.close();<br />
+[/java]</p>
+<h3>SrcTreeProcessor.java</h3>
+<p><code>processDir()</code> is called recursively on the directory structure to process files in that directory.  For each directory, a <code>docBuf</code> XML-as-a-string buffer is consisting of an element for every directory entry.  <code>docBuf</code> is fed into the SAXON processor along with the docSelector XSLT stylesheet.  The resulting XML is read node-by-node looking for file entries that have an "indexFile" tag.  For each matching node, it calls <code>processFile()</code> to index each entry.</p>
+<p><code>processFile()</code> will run the prefilter XSLT against the file content, build the Lazy Tree (if possible and requested), create the <code>IndexSource</code> version by running the source document through the appropriate file type "*IndexSource" method (e.g. <code>PDFIndexSource()</code>, <code>XMLIndexSource</code>, and <code>MARCIndexSource()</code>) and queue the content for indexing by the Lucene indexer.</p>
+<h2>Requirements for an Object Handler for textIndexer</h2>
+<p>Based on this analysis, if one were to replace the TextIndexer.java and SrcTreeProcessor.java "front end" of textIndexer, I think these would be the pieces that would be requried.  (Note that some steps are skipped in this overview -- any replacement of these two classes would need to be sure to do everything that those classes do now.)</p>
+<ol type="1">
+<li>Parse command line and configuration file parameters to create an <span class="removed_link" title="http://texts-stage.cdlib.org/xtf/javadoc/org/cdlib/xtf/textIndexer/IndexerConfig.html">IndexerConfig</span> instance (guiding parameters for the indexer as a whole) and an <span class="removed_link" title="http://texts-stage.cdlib.org/xtf/javadoc/org/cdlib/xtf/textIndexer/IndexInfo.html">IndexInfo</span> instance (parameters specific to the identified index-name).</li>
+<li>Specify a collection of objects that you want in index-name.</li>
+<li>Open up a writable instance of the index-name's Lucene index (<i>a la</i> <code>srcTreeProcessor.open( cfgInfo );</code>)</li>
+<li>For each object to be put into index-name, do these things:
+<ol type="a">
+<li>Optionally, run the source object through a prefilter (an XSLT transformation used to restructure the source document just prior to indexing without changing the stored source document).</li>
+<li>Optionally, remove a DOCTYPE declaration in the source object before it is indexed.</li>
+<li>Set up an transformation object from the native file format to something that is XML and call <code>textProcessor.checkAndQueueText()</code> to add it to a queue to be processed.</li>
+</ol>
+</li>
+<li>Close index-name's Lucene index (<i>a la</i> <code>srcTreeProcessor.close();</code>), which should have the side effect of processing the queued text (<i>a la</i> <code>textProcessor.processQueuedTexts();</code>) which will ultimately create the Lazy Tree (if specified) and add the object to the Lucene index.</li>
+<li>Optionally, compare the collection of objects that you want in index-name with what is actually in index-name before you started, and remove anything that wasn't in the specified collection.</li>
+</ol>
+<h2>Considering a FEDORA-based XTF handler</h2>
+<p>So, all-in-all, that doesn't seem too bad.  Here is where we get to mix in some FEDORA pieces and see what we get in the end.</p>
+<p>First off, in terms of dealing with "collections of source objects to be indexed" I think it would be best to have this start with one of our "collection aggregation" objects as the root level of a source collection.  We'd perform an RDF "isMemberOf" query against the resource index using the FEDORA PID of the aggregation object (and optionally make an "isMemberOf" query recursively against the returned set -- as if one was drilling down a file system).</p>
+<p>Secondly, to get the XML content to be indexed, each object would have a <code>getXML</code> disseminator (see <a href="http://dltj.org/2006/05/fedora-disseminators/">Thinking about Our FEDORA Disseminators</a> for background) that would render to XTF an XML version of itself.  If the source object is an XML-based object, it just returns the XML.  If the source object is a PDF or Word document or something that can be rendered into a text-like form, the disseminator would handle that.  If the source object is an image or audio clip, the disseminator can return the descriptive XML of the object.  The point being, though, by the time the object gets to XTF's textIndexer, it has already be rendered to XML, so just the XML transformation tool would be needed (as in this snipped from SrcTreeProcessor.java):<br />
+[java]<br />
+IndexSource srcFile = null;<br />
+if( format.equalsIgnoreCase("XML") ) {<br />
+    InputSource finalSrc = new InputSource( systemId );<br />
+    srcFile = new XMLIndexSource( finalSrc, srcPath, key,<br />
+                             preFilters, displayStyle, lazyStore );<br />
+    if( removeDoctypeDecl )<br />
+        ((XMLIndexSource)srcFile).removeDoctypeDecl( true );<br />
+}<br />
+[/java]</p>
+<p>Third, a FEDORA-aware driver that replaces TextIndexer.java and SrcTreeProcessor.java.  Given a configuration file location and a starting PID, it would gather the objects to be indexed, "open" the Lucene index, run through the snippet of Java above for each object, and "close" the Lucene index.</p>
+<p>The quick-and-dirty first implementation would copy the XML source to a directory on the hard drive (directory and subdirectory names would be the PID of the aggregation object containing the collection of objects), and have XTF use that local filesystem copy as the indexed source.  Lazy Tree files for each object would also be created and stored locally.  This means we have two copies (three, if you count the Lazy Tree) of the object laying around, so eventually I think we'd want to modify XTF to pull content directly from FEDORA using a REST-based URL.  Eventually I think we may also want to store the Lazy Tree in something other than the local file system.  Could that be another datastream in the FEDORA object?
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://texts-stage.cdlib.org/xtf/javadoc/org/cdlib/xtf/textIndexer/IndexerConfig.html on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://texts-stage.cdlib.org/xtf/javadoc/org/cdlib/xtf/textIndexer/IndexInfo.html on December 31st, 2010.</p>

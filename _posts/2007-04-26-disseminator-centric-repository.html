@@ -1,0 +1,142 @@
+---
+layout: post
+status: publish
+published: true
+title: Disseminators As the Core of an Object Repository
+author:
+  display_name: Peter Murray
+  login: lyrdor
+  email: jester@dltj.org
+  url: http://dltj.org/about
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 215
+wordpress_url: http://dltj.org/2007/04/disseminator-centric-repository/
+date: '2007-04-26 09:58:32 -0400'
+date_gmt: '2007-04-26 13:58:32 -0400'
+categories:
+- DRC
+- Fedora
+tags:
+- seam
+- DRC
+- restlet
+- java
+- digital libraries
+- asset actions
+- Fedora Repository
+comments: []
+---
+<p>I've been working to get JBoss Seam tied into <a href="http://www.fedora.info/" title="Fedora Digital Object Repository homepage">Fedora</a>, and along the way thought it would be wise to stop and document a core concept of this integration:  the centrality of <a href="http://www.fedora.info/download/2.2/userdocs/digitalobjects/objectModel.html#DISS" title="Overview:The Fedora Digital Object Model">Fedora Disseminators</a> in the the design of the <a href="http://info.drc.ohiolink.edu/" title="Information about the Ohio Digital Resource Commons">Ohio Digital Resource Commons</a>.  Although there is nothing specific to <a href="http://www.jboss.com/products/seam" title="JBoss Seam homepage">JBoss Seam (a Java Enterprise Edition application framework)</a> in these concepts, making an object "render itself" does make the Seam-based interface application easier to code and understand.  A disseminator-centric architecture also allows us to put our code investment where it matters the most &mdash; in the repository framework &mdash; and exploit that investment in many places.  So what does it mean to have a disseminator-centric architecture and have objects "render themselves"?</p>
+<h2>How It Works</h2>
+<p><a href="http://dltj.org/wp-content/uploads/2007/04/sequence.png" title="Sequence Diagram"><img src="http://dltj.org/wp-content/uploads/2007/04/sequence.png" alt="Sequence Diagram " style="float:right;width:50%;margin-left:1.5em;" /></a>This is a sequence diagram showing all of the pieces:</p>
+<ul>
+<li>Browser:  The user's browser</li>
+<li>DRCseam:  A JBoss Seam application that generates the user interface and performs much of the business logic.  DRCseam, however, does <strong>not</strong> render the objects or their metadata into browser-consumable artifacts.  Read on!</li>
+<li>Fedora:  A basic Fedora digital object repository.</li>
+<li>Disseminator:  A simple servlet that performs various transformations on object datastreams to render content usable by the browser.</li>
+</ul>
+<p>With these components in play, here is the description of a sequence to render a page showing the metadata for a repository item:</p>
+<ol>
+<li><span style="font-weight:bolder;font-style:italic">request item page</span>: The browser follows a link to an item detail page.</li>
+<li><span style="font-weight:bolder;font-style:italic">API-A ObjectProfile</span>: The interface application asks the repository for the 'Object Profile' of the item...</li>
+<li><span style="font-weight:bolder;font-style:italic">return object profile</span>: ...which the repository returns.  The interface application now knows basic details about the object:  that it exists, the creation and updated timestamps, and so forth.</li>
+<li><span style="font-weight:bolder;font-style:italic">API-A DatastreamDissemination for fullDisplay</span>: The interface application needs the object's metadata display, so it asks the object to "render itself" by making a call to the Fedora repository for the object's "FullDisplay" disseminator.</li>
+<li><span style="font-weight:bolder;font-style:italic">call getFullDisplay</span>: The Fedora repository in turn calls the object's disseminator with the Persistent Identifier (PID) of the object as a parameter.</li>
+<li><span style="font-weight:bolder;font-style:italic">API-A Datastream for metadata</span>: Using the object PID, the disseminator calls back to the Fedora repository for the descriptive metadata datastream (the DC datastream, in this case)...</li>
+<li><span style="font-weight:bolder;font-style:italic">XML metadata</span>: ...which the Fedora repository returns.</li>
+<li><span style="font-weight:bolder;font-style:italic">transform metadata</span>: The disseminator performs some transformation or derivation on the  descriptive datastream to create an XHTML representation...</li>
+<li><span style="font-weight:bolder;font-style:italic">XHTML fragment</span>: ...which it returns to the Fedora software...</li>
+<li><span style="font-weight:bolder;font-style:italic">XHTML fragment</span>: ...which is returned to the interface application...</li>
+<li><span style="font-weight:bolder;font-style:italic">XHTML page</span>: ...which inserts it at the appropriate place in the XHTML page it has built and returns the XHTML page to the browser.</li>
+</ol>
+<p>Step #4 is where we diverge from previous architectures.  Instead of making the interface application transform the metadata into a human-readable format, the interface application calls the object's disseminator to do the job.</p>
+<h3>The Heart of It All:  The Disseminator</h3>
+<p>The key to this architecture is <em>asking the object to "render itself"</em>.  This puts the task of creating the appropriate representation at the object level.  The object can be an image, a video, a spreadsheet, or a PDF file.  More importantly, the object can be a PDF of a journal article or a PDF of a thesis; in both cases the metadata describing that PDF file will be different (journal/volume/issue in one case and department/degree/advisor in the other).  </p>
+<p>Rather than putting special case code in the interface application to render the description of the journal article one way and the thesis another way, that special case code is bound to the object in the form of a "disseminator".  The disseminator methods for the journal article and the thesis share the same name &mdash; <code>getFullDisplay</code> &mdash; but will return entirely different XHTML fragments &mdash; one for a journal article and one for a thesis.  For both objects, though, the interface application will make a call to the object in the Fedora repository asking for the output of each <code>getFullDisplay</code> dissemination.  In the case of a Dublin Core description, the dissemination output could look like this:</p>
+<pre lang="html"><table class="drc_dublinCore_table">
+<tr class="drc_dublinCore_row drc_dublinCore_title">
+<td class="drc_dublinCore_label drc_dublinCore_title">Title:</td>
+<td class="drc_dublinCore_value drc_dublinCore_title">Jester Example</td>
+</tr>
+<tr class="drc_dublinCore_row drc_dublinCore_identifier">
+<td class="drc_dublinCore_label drc_dublinCore_identifier">Identifier:</td>
+<td class="drc_dublinCore_value drc_dublinCore_identifier">demo:exampleObject</td>
+</tr>
+</table></pre>
+<p>You'll note that there is a liberal application of CSS styles on all of the XHTML elements, allowing for the look of the dissemination to be further transformed in the browser via CSS stylesheets.  A <code>getFullDisplay</code> dissemination for a journal article could look like this:</p>
+<pre lang="html"><table class="drc_ejc_table">
+<tr class="drc_ejc_row drc_ejc_title">
+<td class="drc_ejc_label drc_ejc_title">Article Title:</td>
+<td class="drc_ejc_value drc_ejc_title">Taking Advantage of Fedora Disseminations</td>
+</tr>
+<tr class="drc_ejc_row drc_ejc_volume">
+<td class="drc_ejc_label drc_ejc_volume">Volume:</td>
+<td class="drc_ejc_value drc_ejc_volume">3</td>
+</tr>
+<tr class="drc_ejc_row drc_ejc_issue">
+<td class="drc_ejc_label drc_ejc_issue">Issue:</td>
+<td class="drc_ejc_value drc_ejc_issue">2</td>
+</tr>
+</table></pre>
+<h3>Looking at the Pieces</h3>
+<p>There is a demonstration system set up for a short period of time that shows all of the pieces.  First, the disseminator:</p>
+<ul>
+<li><span class="removed_link" title="http://drc-dev.ohiolink.edu:8080/BaseDisseminator/getFullDisplay/demo:exampleObject">http://drc-dev.ohiolink.edu:8080/BaseDisseminator/getFullDisplay/demo:exampleObject</span></li>
+</ul>
+<p>Next, how this disseminator looks as accessed through the Fedora repository:</p>
+<ul>
+<li><span class="removed_link" title="http://drc-dev.ohiolink.edu:8080/fedora/get/demo:exampleObject/demo:bDefExample/getFullDisplay/">http://drc-dev.ohiolink.edu:8080/fedora/get/demo:exampleObject/demo:bDefExample/getFullDisplay/</span></li>
+</ul>
+<p>And finally, how this result looks through the Seam-based interface application.  (A note about this application &mdash; only this URL works at the moment even though there are other links on the page.  This is also the 'trunk' version of our interface code, so it is likely to change and/or break and/or work better at any time.)</p>
+<ul>
+<li><span class="removed_link" title="http://drc-dev.ohiolink.edu:8080/drc/item.seam?itemId=demo%3AexampleObject">http://drc-dev.ohiolink.edu:8080/drc/item.seam?itemId=demo%3AexampleObject</span></li>
+</ul>
+<h2>Fedora Setup</h2>
+<p>In addition to the Seam-based interface application and the disseminator code, there is setup required at the Fedora repository &mdash; specifically, the creation of a Behavior Definition (bDef) that describes the disseminators that the objects share in common and the creation of a Behavior Mechanism (bMech) that describes the implementation of that definition for a particular object type.  Below is a series of screen shots that show the steps to create the bDef and bMech.</p>
+<h3>Disseminator Behavior Definition (bDef)</h3>
+<p>Using the Fedora Admin client, under the "Builders" menu, select "Behavior Definition Builder".  The first pane, "General" parameters, use a specific PID of '<code>demo:bDefExample</code>' and put something in for the Behavior Object Name, Behavior Object Description, and one of the Dublin Core Metadata fields.  (It doesn't matter what you put in for these values.)<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/bdbgeneral.png" title="Fedora Admin Behavior Definition Builder &ldquo;General&rdquo; pane"><img src="http://dltj.org/wp-content/uploads/2007/04/bdbgeneral.png" alt="Fedora Admin Behavior Definition Builder &ldquo;General&rdquo; pane" style="width:85%;" /></a></p>
+<p>Under the "Abstract Methods" pane, create new definitions for each of the disseminator methods.<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/bdbabstractmethods.png" title="Fedora Admin Behavior Definition Builder &ldquo;Abstract Methods&rdquo; pane"><img src="http://dltj.org/wp-content/uploads/2007/04/bdbabstractmethods.png" alt="Fedora Admin Behavior Definition Builder &ldquo;Abstract Methods&rdquo; pane" style="width:85%;" /></a></p>
+<p>Under the "Documentation" pane, put something in the first entry.  Again, it doesn't matter what is put in for these values, but they are required.<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/bdbdocumentation.png" title="Fedora Admin Behavior Definition Builder &ldquo;Documentation&rdquo; pane"><img src="http://dltj.org/wp-content/uploads/2007/04/bdbdocumentation.png" alt="Fedora Admin Behavior Definition Builder &ldquo;Documentation&rdquo; pane" style="width:85%;" /></a></p>
+<p>Select "Ingest" at the bottom of the window, and the <code>demo:bDefExample</code> bDef will be created.  Alternatively, you could import the <span class="removed_link" title="http://drc-dev.ohiolink.edu/browser/BaseDisseminator/trunk/resources/foxml/demo_bDefExample.xml?rev=774"><code>demo:bDefExample</code> saved in the DRC source code repository</span> (choose "original format" at the bottom of that page).</p>
+<h3>Disseminator Mechanism Definition (bMech)</h3>
+<p>The bMech is a little more complicated.  Under the "Builders" menu, select "Behavior Mechanism Builder".  The first pane, "General" parameters, use a specific PID of '<code>demo:bMechExample</code>' and put something in for the Behavior Object Name, Behavior Object Description, and one of the Dublin Core Metadata fields.  (It doesn't matter what you put in for these values.)  In the "Behavior Definition Contract" pick the bDef just created (<code>demo:bDefExample</code>).<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/bmbgeneral.png" title="Fedora Admin Behavior Mechanism Builder &ldquo;General&rdquo; pane"><img src="http://dltj.org/wp-content/uploads/2007/04/bmbgeneral.png" alt="Fedora Admin Behavior Mechanism Builder &ldquo;General&rdquo; pane" style="width:85%;" /></a></p>
+<p>In the "Service Profile" pane, put in values in the "General" area (it doesn't matter what).  In the Service Binding area, make sure the Message Protocol is <code>HTTP GET</code>, put in <code>text/html, text/xml</code> for Input MIME Types and put in <code>text/html, text/xml, text/plain</code> for Output MIME Types.<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/bmbserviceprofile.png" title="Fedora Admin Behavior Mechanism Builder &ldquo;Service Profile&rdquo; pane"><img src="http://dltj.org/wp-content/uploads/2007/04/bmbserviceprofile.png" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Profile&rdquo; pane" style="width:85%;" /></a></p>
+<p>Under the Service Methods pane, put in <code>http://localhost:8080/BaseDisseminator</code> for the Base URL.  (The disseminator is also loaded in the same servlet as the Fedora repository and the Seam interface application, and it is loaded at the "/BaseDisseminator" context path in the servlet.)  Create Service Method Definitions that correspond to the Abstract Methods in the bDef.<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/bmbservicemethods.png" title="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; pane"><img src="http://dltj.org/wp-content/uploads/2007/04/bmbservicemethods.png" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; pane" style="width:85%;" /></a></p>
+<p>Select "Properties" for each one of the Service Method Definitions in turn.  "echo" is a unique disseminator method that simply echos back the context parameters of the disseminator request.  This is useful for seeing exactly what the Fedora server is going to give to the disseminator.<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/bmbservicemethods-echo.png" title="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;echo&rdquo; Method"><img src="http://dltj.org/wp-content/uploads/2007/04/bmbservicemethods-echo.png" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;echo&rdquo; Method" style="width:85%;" /></a></p>
+<p>With the exception of "echo" all of the other Service Method Definitions are the same.  The Method Binding consists of the disseminator method followed by a slash and the PID placeholder followed by a question mark and 'dc' equals the DC placeholder.  Since the Method Binding field has two placeholders, there are two entries in the Method Parameter Definitions area.  The first is for PID &mdash; a "Default" parameter that is required and passed by value to the disseminator.  The default value is the special value <code>$PID</code>, which the repository software will replace with the PID of the object as the disseminator is called.  The second is for DC, a "Datastream" parameter that is required and passed to the disseminator by URL reference.  The disseminator doesn't actually use this reference to a datastream, but it is a requirement that all bMechs pass a datastream of one sort or another to the disseminator.<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/bmbservicemethods-getfulldisplay.png" title="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;getFullDisplay&rdquo; Method"><img src="http://dltj.org/wp-content/uploads/2007/04/bmbservicemethods-getfulldisplay.png" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;getFullDisplay&rdquo; Method" style="width:85%;" /></a></p>
+<p>If you have followed all of the steps so far, under the "Datastream Input" pane there will be one entry for DC in the table.  The only thing that needs to be done here is adding "text/xml" in the MIMEType column.<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/bmbdatastreaminput.png" title="Fedora Admin Behavior Mechanism Builder &ldquo;Datastream Input&rdquo; pane"><img src="http://dltj.org/wp-content/uploads/2007/04/bmbdatastreaminput.png" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Datastream Input&rdquo; pane" style="width:90%;" /></a></p>
+<p>Under the "Documentation" pane, put something in the first entry.  Again, it doesn't matter what is put in for these values, but they are required.<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/bmbdocumentation.png" title="Fedora Admin Behavior Mechanism Builder &ldquo;Documentation&rdquo; pane"><img src="http://dltj.org/wp-content/uploads/2007/04/bmbdocumentation.png" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Documentation&rdquo; pane" style="width:85%;" /></a></p>
+<p>Select "Ingest" at the bottom of the window, and the <code>demo:bMechExample</code> bMech will be created.  Alternatively, you could import the <span class="removed_link" title="http://drc-dev.ohiolink.edu/browser/BaseDisseminator/trunk/resources/foxml/demo_bMechExample.xml?rev=774"><code>demo:bMechExample</code> saved in the DRC source code repository</span> (choose "original format" at the bottom of that page).</p>
+<h3>Sample Object</h3>
+<p>The last step is to add this disseminator bDef/bMech combination to an object.  Edit any object in the repository and go to the "Disseminators" pane.  If there are other disseminators already defined for this object, select "New" along the left side.  Put in a label &mdash; any label will do.  Next to "Behavior defined by..." select <code>demo:bDefExample</code>.  Then next to "Mechanism" select <code>demo:bMechExample</code>.  The admin client will prompt for a DC binding; select "Add" and choose the DC datastream in the pop-up window.<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/objectdisseminatorsdatastream.png" title="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane in progress"><img src="http://dltj.org/wp-content/uploads/2007/04/objectdisseminatorsdatastream.png" alt="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane in progress" style="width:85%;" /></a></p>
+<p>Select "Save Changes" at the bottom.  The completed disseminator looks like this:<br />
+<a href="http://dltj.org/wp-content/uploads/2007/04/objectdisseminators.png" title="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane completed"><img src="http://dltj.org/wp-content/uploads/2007/04/objectdisseminators.png" alt="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane completed" style="width:85%;" /></a></p>
+<p>There is <span class="removed_link" title="http://drc-dev.ohiolink.edu/browser/BaseDisseminator/trunk/resources/foxml/demo_exampleObject.xml?rev=774">a sample object in the DRC source code repository</span> that has the disseminator already defined.</p>
+<h2>Notes</h2>
+<p>Comments about this architecture are certainly welcome.  I'm sure I'll be writing about it more in the future, but here are some thoughts at this point:</p>
+<h3>Future Directions</h3>
+<p>In this case, I'm using an XSLT stylesheet to transform the Dublin Core XML into an XHTML table.  That stylesheet is stored in the BaseDisseminator WAR file.  The stylesheet could just as easily be a datastream of a special "formatting" object in the repository.  One of the key distinctions of OhioLINK's Fedora implementation is that institutions using the repository will be able to "brand" their content in any way they choose.  Having the flexibility of storing metadata transformations just like any other object in the repository would seem to be of great advantage in that scenario.</p>
+<p>On a related front, this style of implementation would be greatly enhanced by the work of the Fedora <a href="http://www.cs.cornell.edu/payette/fedora/designs/cmda/" title="CMDA Proposal">Content Model Dissemination Architecture</a> (CMDA).  Because disseminators must be bound to specific objects rather than classes of objects, management of the variety of bMechs in a scenario such as this will likely become difficult very soon.  I'm heartened by the fact that the CMDA work is going on and will cut our management complexity dramatically when it becomes available.</p>
+<h3>Acknowlegements</h3>
+<p>These concepts are based in part on the work of the Digital Library Federation's <a href="https://wiki.dlib.indiana.edu/display/DLFAquifer/Asset+Action+Project" title="Aquifer Digital Collections Asset Actions homepage">Aquifer Asset Actions</a> technical working group and discussions among members of the OAI <a href="http://www.openarchives.org/ore/" title="Open Archives Initiative Protocol - Object Exchange and Reuse homepage">Object Reuse and Exchange</a> technical committee as well as conversations with many Fedora developers and implementors.  Thanks, everyone.</p>
+<p>[Update 20070426T1147 : Fixed the sample object URL.  Thanks, Jodi.]
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://drc-dev.ohiolink.edu/browser/BaseDisseminator/trunk/resources/foxml/demo_exampleObject.xml?rev=774 on January 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://drc-dev.ohiolink.edu/browser/BaseDisseminator/trunk/resources/foxml/demo_bMechExample.xml?rev=774 on January 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://drc-dev.ohiolink.edu/browser/BaseDisseminator/trunk/resources/foxml/demo_bDefExample.xml?rev=774 on January 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://drc-dev.ohiolink.edu:8080/drc/item.seam?itemId=demo%3AexampleObject on January 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://drc-dev.ohiolink.edu:8080/fedora/get/demo:exampleObject/demo:bDefExample/getFullDisplay/ on January 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://drc-dev.ohiolink.edu:8080/BaseDisseminator/getFullDisplay/demo:exampleObject on January 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://rama.grainger.uiuc.edu/assetActions/ to https://wiki.dlib.indiana.edu/display/DLFAquifer/Asset+Action+Project on January 19th, 2011.</p>
