@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme: "mmistakes/minimal-mistakes@4.8.1"
+theme: minimal-mistakes-jekyll
 
 minimal_mistakes_skin    : "default" 
 
@@ -189,7 +189,6 @@ timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_t
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
@@ -199,7 +198,6 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap

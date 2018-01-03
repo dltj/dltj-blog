@@ -10,19 +10,14 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
-    ethon (0.11.0)
-      ffi (>= 1.3.0)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
-    fastercsv (1.5.5)
     ffi (1.9.18)
-    fileutils (1.0.2)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
     html-pipeline (2.7.1)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    htmlentities (4.3.4)
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
     jekyll (3.6.2)
@@ -36,19 +31,13 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
+    jekyll-data (1.0.0)
+      jekyll (~> 3.3)
     jekyll-feed (0.9.2)
       jekyll (~> 3.3)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
-    jekyll-import (0.13.0)
-      fastercsv
-      jekyll (>= 1.4)
-      nokogiri
     jekyll-paginate (1.1.0)
-    jekyll-remote-theme (0.2.3)
-      jekyll (~> 3.5)
-      rubyzip (>= 1.2.1, < 3.0)
-      typhoeus (>= 0.7, < 2.0)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
     jekyll-seo-tag (2.4.0)
@@ -70,11 +59,16 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
-    minima (2.1.1)
-      jekyll (~> 3.3)
+    minimal-mistakes-jekyll (4.8.1)
+      jekyll (~> 3.6)
+      jekyll-data (~> 1.0)
+      jekyll-feed (~> 0.9.2)
+      jekyll-gist (~> 1.4)
+      jekyll-paginate (~> 1.1)
+      jekyll-sitemap (~> 1.1)
+      jemoji (~> 0.8)
     minitest (5.11.1)
     multipart-post (2.0.0)
-    mysql2 (0.4.10)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
     octokit (4.8.0)
@@ -87,7 +81,6 @@ GEM
       ffi (>= 0.5.0, < 2)
     rouge (2.2.1)
     ruby_dep (1.5.0)
-    rubyzip (1.2.1)
     safe_yaml (1.0.4)
     sass (3.5.4)
       sass-listen (~> 4.0.0)
@@ -97,35 +90,23 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
-    sequel (5.3.0)
     thread_safe (0.3.6)
-    typhoeus (1.3.0)
-      ethon (>= 0.9.0)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
-    unidecode (1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  fileutils
-  htmlentities
   jekyll (~> 3.6.2)
   jekyll-feed (~> 0.6)
   jekyll-gist
-  jekyll-import
   jekyll-paginate
-  jekyll-remote-theme
   jekyll-seo-tag
   jekyll-sitemap
   jemoji
-  minima (~> 2.0)
-  mysql2
-  safe_yaml
-  sequel
+  minimal-mistakes-jekyll (= 4.8.1)
   tzinfo-data
-  unidecode
 
 BUNDLED WITH
    1.16.1
