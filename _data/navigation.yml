@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Comment Policy"
-    url: /comment-policy/
+  # - title: "Comment Policy"
+  #   url: /comment-policy/
   - title: "Resume"
     url: /resume/
