@@ -1,11 +1,7 @@
 # main links
 main:
-  - title: "About the Blog"
-    url: /aboutblog/
-  - title: "About the Author"
+  - title: "About"
     url: /about/
-  - title: "About the Tagline"
-    url: /abouttagline/
   - title: "Comment Policy"
     url: /comment-policy/
   - title: "Resume"
