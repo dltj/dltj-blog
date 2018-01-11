@@ -12,10 +12,11 @@ phases:
   install:
     commands:
       - bundle install --path vendor/bundle
-  #pre_build:
-    #commands:
-      # - command
-      # - command
+  pre_build:
+    commands:
+      - export LC_ALL="C.UTF-8"
+      - export LANG="en_US.UTF-8"
+      - export LANGUAGE="en_US.UTF-8"
   build:
     commands:
       - echo "******** Building Jekyll site ********"
