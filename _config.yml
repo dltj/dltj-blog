@@ -124,6 +124,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - resume
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

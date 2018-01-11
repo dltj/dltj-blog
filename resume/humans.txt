@@ -1,0 +1,11 @@
+FRAMEWORK
+CV Gabriel Pillet, https://tentacode.github.io/curriculum/
+
+VERTICAL NAVBAR
+Vertical menu for Bootstrap 3 | by Jonathan Briehl, http://www.jonathanbriehl.com/2014/01/17/vertical-menu-for-bootstrap-3/
+
+CHANGING THE COLLAPSED MOBILE NAVBAR BREAKPOINT
+Change the Bootstrap NavBar Breakpoint | Carol Skelly, https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
+
+FIX PRINTING
+Fix Bootstrap 3 Printing in Google Chrome (and Other Browsers) | Donnie Ray Jones, https://blog.donnierayjones.com/2014/10/fix-bootstrap3-printing/
