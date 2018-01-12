@@ -106,7 +106,6 @@ DEPENDENCIES
   jekyll-sitemap
   jemoji
   minimal-mistakes-jekyll (= 4.9.0)
-  tzinfo-data
 
 BUNDLED WITH
    1.16.1
