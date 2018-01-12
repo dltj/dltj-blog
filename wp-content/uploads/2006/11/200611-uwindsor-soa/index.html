@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- 
+<a href="http://www.meyerweb.com/eric/tools/s5/">Storyboard created in S5: A Simple Standards-Based Slide Show System</a>
+<a href="http://www.yatil.de/s5/files/pixel.zip">S5 Theme "Pixel" courtesy of Martin Hense</a>
+ -->
+<head>
+<!-- ==**==** CHANGE! ==**==** -->
+<title>Could We Do What They Are Doing?  Applying the Service 
+Oriented Architecture (SOA) Model to Libraries</title>
+<!-- metadata -->
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.2" />
+<meta name="presdate" content="20061115" />
+<meta name="author" content="Peter Murray" />
+<meta name="company" content="OhioLINK" />
+<!-- configuration parameters -->
+<meta name="defaultView" content="presentation" />
+<!-- meta name="controlVis" content="visible" / -->
+
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/i18n/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+<!-- embedded styles -->
+<style type="text/css" title="Page-specific" media="all">
+/* <![CDATA[ */
+.cite { font-size: 65%; }
+h1.section { font-size: 250%; text-align: center; margin-top: 1em; border: 0; }
+th { text-align: left; }
+/* Two Column technique from http://www.thenoodleincident.com/tutorials/box_lesson/basic2_fluid.html */
+#leftContent {
+	float: left;
+	padding: 1px 2% 10px 2%;
+	margin: 2px 1% 20px 2%;
+	width: 44%; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 41%;
+	}
+html>body #leftContent {
+	width: 41%; /* ie5win fudge ends */
+	}
+#rightContent {
+	float: right;
+	padding: 1px 2% 10px 2%;
+	margin: 2px 2% 20px 1%;
+	width: 44%; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 41%;
+	}
+html>body #rightContent {
+	width: 41%; /* ie5win fudge ends */
+	}
+#anim { position: relative; margin-top: 0.5em;}
+#anim img {position: absolute; top: 42px; left: 24px;}
+#anim .animText { margin-left: 490px; }
+img#me00 {top: 0; left: 0; border: 1px solid black;}
+img#me01 {top: 0; left: 0; border: 1px solid black;}
+img#me02 {top: 0; left: 0; border: 1px solid black;}
+img#me03 {top: 166px; left: -5px; border: 5px solid yellow; }
+}
+
+/* ]]> */
+</style>
+<!-- S5 JS -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header"></div>
+<div id="footer">
+<!-- ==**==** CHANGE! ==**==** -->
+<div style="float: right; margin-top: 7px; margin-right: 10px;">http://info.DRC.OhioLINK.edu/presentations/200611-uwindsor-soa/</div>
+<!-- ==**==** CHANGE! ==**==** -->
+<h1><img src="pix/cc-by.gif" alt="Creative Commons 'By'" width="20" height="20" align="left" border="0" /><img src="pix/cc-nc.gif" alt="Creative Commons 'Non Commercial'" width="20" height="20" align="left" border="0" /><img src="pix/cc-sa.gif" alt="Creative Commons 'Share Alike'" width="20" height="20" align="left" border="0" style="margin-right: .5em;" />
+UWindsor ILS Symposium &#8226; 15-Nov-2006</h1>
+</div>
+
+</div>
+<div class="presentation">
+
+<div class="slide">
+<h1 style="padding: 0; margin: 0 0 1em 0; width: 100%; text-align: justify;">Could We Do What They Are Doing?</h1>
+<h2 style="width: 100%; text-align: justify;">Applying the Service 
+Oriented Architecture (SOA) Model to Libraries</h2>
+<!-- ==**==** CHANGE! ==**==** -->
+<h3>UWindsor ILS Symposium &#8226; 15-Nov-2006</h3>
+<div style="font-size: 65%;">
+<p>
+<!--Creative Commons License--><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/"><img src="http://creativecommons.org/images/public/somerights20.png" alt="Creative Commons License" style="border-width: 0; float: left; margin: 5px 15px 15px 0;" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons Attribution-NonCommercial-ShareAlike 2.5  License</a>.<!--/Creative Commons License--> To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/">http://creativecommons.org/licenses/by-nc-sa/2.5/</a> or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.<!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<Work rdf:about="">
+		<license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+	<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+	</Work>
+	<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF> -->
+</p>
+<p>
+Other rights are available; please contact the author for more information.
+</p>
+</div> <!-- license -->
+</div>
+
+<div class="slide">
+<h1>Overview</h1>
+<ul class="incremental">
+	<li>What Is Service Oriented Architecture?</li>
+	<li>Why Should I Care?</li>
+	<li>What Might a Library SOA Look Like?</li>
+	<li>Who Else Is Talking About This?</li>
+</ul>
+</div>  <!-- Slide -->
+
+
+<div class="slide">
+<h1 class="section">What Is Service Oriented Architecture?</h1>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>In Summary...</h1>
+<table cellpadding="1" cellspacing="15" style="margin: 0; padding: 0; font-size: 110%">
+	<tr>
+		<th>It's not about </th> <th>It's about</th>
+	</tr>
+	<tr>
+		<td class="incremental">a programming language or network protocol</td> <td class="incremental">an <strong>architecture</strong> for designing systems</td>
+	</tr>
+	<tr>
+		<td class="incremental">large applications</td> <td class="incremental"><strong>discrete business processes</strong></td>
+	</tr>
+	<tr>
+		<td class="incremental">starting over</td> <td class="incremental"><strong>reuse</strong></td>
+	</tr>
+	<tr>
+		<td class="incremental">only "web services"</td> <td class="incremental">web services as a <strong>means to an end</strong></td>
+	</tr>
+	<tr>
+		<td class="incremental">proprietary systems</td> <td class="incremental"><strong>standards and open protocols</strong></td>
+	</tr>
+</table>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>It's About an Architecture for Designing Systems</h1>
+<ul class="incremental">
+	<li>Pattern or philosophy for creating, enhancing and leveraging software components</li>
+	<li><ul class="incremental show-first" style="display: inline; margin: 0; padding: 0; font-size: larger;">
+		<li style="display: inline;">Programming language-agnostic</li>
+		<li style="display: inline;">... even better, an equalizer</li></ul></li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>It's About Discrete Business Processes</h1>
+<ul class="incremental show-first">
+	<li>Ignoring the "how", focus on the "what"</li>
+	<li>In newspaper production terms:<ul>
+		<li>news reporting</li>
+		<li>selling advertisement space</li>
+		<li>managing subscriptions</li>
+		<li>editing, layout, and printing</li></ul></li>
+</ul>
+
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>It's About Reuse</h1>
+<ul class="incremental show-first">
+	<li><ul class="incremental show-first" style="display: inline; margin: 0; padding: 0; font-size: larger;">
+		<li style="display: inline;">Orchestrating business processes</li>
+		<li style="display: inline;">under the direction of a supervisor</li></ul></li>
+	<li>Using an "adapter" when necessary around legacy applications</li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>It's About Web Services as a Means to an End</h1>
+<ul class="incremental show-first">
+	<li>SOA is to blueprints as web services is to the plumbing</li>
+	<li>Use of web services demands a clean, well-defined interface between applications</li>
+	<li>SOA combines that clean, well-defined interface with business logic plus data to achieve a business function</li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>It's About Standards and Open Protocols</h1>
+<ul>
+	<li>Agreement about the plumbing</li>
+</ul>
+</div>  <!-- Slide -->
+
+
+
+<div class="slide">
+<h1 class="section">Why Should I Care?</h1>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>'The ILS Market Implodes! Film at 11...'</h1>
+<ul class="incremental">
+	<li>Marketplace consolidation along with new market entries <ul class="incremental" style="list-style: none; margin: 0; padding: 0;">
+		<li style="display: inline;">(Clayton Christensen's Theory of Disruptive Innovation at work)</li></ul></li>
+	<li>Monolithic "do everything" applications <ul class="incremental" style="list-style: none; margin: 0; padding: 0;">
+		<li style="display: inline;">(After all, isn't that why we call them "Integrated")</li></ul></li>
+	<li>Dueling "us too" press releases <ul class="incremental" style="list-style: none; margin: 0; padding: 0;">
+		<li style="display: inline;">(a.k.a. Microsoft FUD announcements)</li></ul></li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Can We Afford Not To Care?</h1>
+<ul class="incremental show-first">
+	<li>Cannot afford ILS market trends <ul class="incremental" style="list-style: none; margin: 0; padding: 0;">
+		<li style="display: inline;">(How is your budget these days?)</li></ul></li>
+	<li>Some users already seek componentized business processes <ul class="incremental" style="list-style: none; margin: 0; padding: 0;">
+		<li style="display: inline;">(Except they call them "mashups" and "web 2.0")</li></ul></li>
+	<li>We need to move more nimbly ourselves</li>
+	<li style="list-style: none;"><blockquote style="font-size:80%; margin-top:0; padding-top:0">The major ILS products have long done an excellent job of automating how libraries deal with traditional resources. They have fallen behind, however, in dealing with electronic content.<address>Marshall Breeding. "<a href="http://www.librarytechnology.org/ltg-displaytext.pl?RC=11855">Musings on the State of the ILS in 2006</a>" Computers in Libraries. 26(26): March 2006. pp 26-29.</address></blockquote></li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>The Alternatives</h1>
+<ul class="incremental">
+	<li>Reintegration: <blockquote style="font-size:80%; margin-top:0; padding-top:0">I'm concerned that the current path of relatively nonintegrated products will not be sustainable in the longer term. Would it be better if there were an ILS that would encompass a broader set of capabilities, including one for both print and electronic content, in a more integrated package?<address>Marshall Breeding. "Musings on the State of the ILS in 2006"</address></blockquote></li>
+	<li>Orchestrated Disintegration: <blockquote style="font-size:80%; margin-top:0; padding-top:0">SOA doesn't guarantee a happier, healthier life, free from business concerns.  However, movement toward SOA is usually a movement toward freedom and flexibility and bodes well for the longevity of an organization and for the sanity of those usually held responsible.<address>Judith Hurwitz, <i>et al</i>. Service Oriented Architecture for Dummies. Wiley Publishing, Inc.: Indianapolis, Indiana. 2006.</address></blockquote></li>
+</ul>
+</div>  <!-- Slide -->
+
+
+
+
+<div class="slide">
+<h1 class="section">What Might a Library SOA Look Like?</h1>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Ground Rules</h1>
+<ul>
+	<li>Service-orientation</li>
+	<li>Consistency and cohesiveness</li>
+	<li>Outward-facing</li>
+</ul>
+<address>From Brian Lavoie, <i>et al</i>. "<a href="http://www.dlib.org/dlib/july06/lavoie/07lavoie.html">A Service Framework for Libraries</a>"</address>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>The Business Processes of a Traditional ILS</h1>
+<ul class="incremental">
+	<li>Discovering Content</li>
+	<li>Describing Content</li>
+	<li>Borrowing Physical Item</li>
+	<li>Get New Content</li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Traditional and Non-traditional Services for Discovering Content</h1>
+<ul>
+	<li class="incremental">Search for Known Item (Author/Title/Subject searches plus OpenURL resolution)</li>
+	<li class="incremental">Browse Related Items by Author/Series Title/Subject/Classification</li>
+</ul>
+<ul>
+	<li class="incremental">Make Recommendations</li>
+	<li class="incremental">Read Reviews</li>
+	<li class="incremental">Browse Related Items using Relevance-Ranked Filters</li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Traditional and Non-traditional Services for Describing Content</h1>
+<ul>
+	<li class="incremental">Human-mediated description (a.k.a. "cataloging")</li>
+</ul>
+<ul>
+	<li class="incremental">Automated Description Services<ul style="display: inline; list-style: none; margin: 0; padding: 0; font-size: larger;">
+		<li class="incremental" style="display: inline;">(<i>a la</i> Amazon's Statistically Improbable Phrases and Capitalized Phrases</li>
+		<li class="incremental" style="display: inline;">... Shape Recognition and Color Maps</li>
+		<li class="incremental" style="display: inline;">... Rhythm Indexes and Tonal Maps</li>
+		<li class="incremental" style="display: inline;">... Closed-Caption text parsing and automated scene change marking)</li></ul></li>
+	<li class="incremental">Record Annotation<ul style="display: inline; list-style: none; margin: 0; padding: 0; font-size: larger;">
+		<li class="incremental" style="display: inline;">(folksonomy tags,</li>
+		<li class="incremental" style="display: inline;">user-supplied reviews,</li>
+		<li class="incremental" style="display: inline;">blogging trackbacks)</li></ul></li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Non-traditional Uses of Traditional ILS Functions</h1>
+<div id="leftContent">
+<ul>
+	<li>Discovering Content</li>
+	<li>Describing Content</li>
+	<li>Borrowing Physical Item</li>
+	<li>Get New Content</li>
+</ul>
+</div>
+<div id="rightContent">
+<ul class="incremental">
+	<li>Institutional Repositories and Electronic Portfolios</li>
+	<li>Metasearch</li>
+	<li>E-learning and Course Management Systems</li>
+	<li>Making Content Discoverable Through External Agents</li>
+</ul>
+</div>
+<br clear="all" />
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Non-Traditional Locations of Traditional and Non-Traditional ILS Functions</h1>
+<ul style="list-style: none;" id="anim">
+	<li class="incremental"><div class="animText incremental">OCLC Search Results</div><img src="pix/screenshot_00.png" id="me00" alt="" /></li>
+	<li class="incremental"><div class="animText incremental">Search Results with Inventory Status</div><img src="pix/screenshot_01.png" id="me01" alt="" /></li>
+	<li class="incremental"><div class="animText incremental">Search Results with <em>Useful</em> Inventory Status<span class="incremental">...answering the "when can I have it?" question</span></div><img src="pix/screenshot_02.png" alt="" id="me02" /></li>
+	<li class="incremental"><div class="animText">Useful Inventory Status when you have inventory from more than one location</div><img src="pix/screenshot_03.png" alt="" id="me03" /></li>
+</ul>
+<br clear="all" />
+</div>  <!-- Slide -->
+
+
+
+<div class="slide">
+<h1 class="section">Who Else Is Talking About This?</h1>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Who Else Is Talking About This? (Blogs)</h1>
+<ul>
+	<li><a href="http://orweblog.oclc.org/archives/cat_libraries_distributed_environments.html">"Libraries - distributed environments" category</a> in Lorcan Dempsey's weblog</li>
+	<li><a href="http://scilib.typepad.com/science_library_pad/web_services/">"Web Services" category</a> at Library Science Pad (Richard Akerman)</li>
+	<li><a href="http://www.talis.com/mt/mt-search.cgi?IncludeBlogs=2&amp;search=soa&amp;submit=Search">"soa" search</a> on Panlibus (Talis Information Ltd)</li>
+	<li><a href="http://ea.typepad.com/enterprise_abstraction/soa/">"soa" tag</a> on Enterprise Abstraction (Stephen Anthony)</li>
+	<li><a href="http://dltj.org/tag/librarysoa">"librarysoa" tag</a> at Disruptive Library Technology Jester (Peter Murray)</li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Who Else Is Talking About This? (Articles)</h1> 	
+<ul>
+	<li>Marshall Breeding. "<a href="http://www.techsource.ala.org/ltr/web-services-and-the-service-oriented-architecture.html">Web Services and the Service-Oriented Architecture</a>" Library Technology Reports. 42(3): May/June 2006.</li>
+	<li>Brian Lavoie, Geneva Henry, Lorcan Dempsey. "<a href="http://www.dlib.org/dlib/july06/lavoie/07lavoie.html">A Service Framework for Libraries</a>" D-Lib Magazine. 12(7/8): July/August 2006. doi:10.1045/july2006-lavoie</li>
+	<li>Krisellen Maloney. "<a href="http://www.asis.org/Bulletin/Oct-04/maloney.html">Portals in Libraries: Library Technology and Planning for Change</a>" ASIS&amp;T Bulletin. 31(1): Oct/Nov 2004.</li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Who Else Is Talking About This? (Projects)</h1>
+<ul>
+	<li>Digital Library Federation's <a href="http://www.diglib.org/architectures/serviceframe/">Service Framework Group</a>: <blockquote style="font-size:80%; margin-top:0; padding-top:0">Another possible end point of [the work of the DLF SFG] is the development of a service-oriented architecture for library systems. We are some way away from this as well; moreover the term "service-oriented architecture" is itself ill-defined and used inconsistently. However, one could imagine a service-oriented architecture for libraries as one that represented the library as a collection of autonomous yet linkable services, deployed and discoverable on the network through Web service technologies.<address>Brian Lavoie, Geneva Henry, Lorcan Dempsey. "<a href="http://www.dlib.org/dlib/july06/lavoie/07lavoie.html">A Service Framework for Libraries</a>" D-Lib Magazine. 12(7/8): July/August 2006. doi:10.1045/july2006-lavoie</address></blockquote></li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Who Else Is Talking About This? (Projects)</h1>
+<ul>
+	<li>California Digital Library's <a href="http://www.cdlib.org/inside/projects/common_framework/" title="CDL Common Framework">Common Framework</a>: <blockquote style="font-size:80%; margin-top:0; padding-top:0">The CDL Common Framework is an open, services-oriented technical architecture that provides an integrating framework for services related to digital libraries. As a layered architecture it aims to separate front-end tools from back-end services from underlying data storage so that different components can be reused in multiple applications, reducing the time and money it takes to develop and maintain code.  The Common Framework also supports easy integration of local and third party tools and services through a plug-in approach.  It is available through both machine (i.e. web services) and human interfaces.</blockquote></li>
+</ul>
+</div>  <!-- Slide -->
+
+<div class="slide">
+<h1>Who Else Is Talking About This? (Projects)</h1>
+<ul>
+	<li>The <a href="http://www.e-framework.org/">eFramework for Education and Research</a>: <blockquote style="font-size:80%; margin-top:0; padding-top:0"><a href="http://www.e-framework.org/resources/eframeworkrV1.pdf">The eFramework for Education and Research; an overview</a> briefing paper provides an overview of the e-Framework for Education and Research (the e-Framework), its strategic context, its aims and objectives, its overall approach, the stakeholders, the benefits and its expected outcomes and impact.  <a href="http://www.e-framework.org/resources/SOAandWorkflow2.pdf">Workflow and Webservices</a> examines the topic of coordinating workflows of web services within an elearning context, and identifies the requirements, challenges, and technology choices involved.  <a href="http://www.ukoln.ac.uk/distributed-systems/jisc-ie/arch/" title="JISC Information Environment Architecture - Distributed Systems - UKOLN">The JISC Information Environment (JISC IE)</a> technical architecture specifies a set of standards and protocols that support the development and delivery of an integrated set of networked services that allow the end-user to discover, access, use and publish digital and physical resources as part of their learning and research activities.</blockquote></li>
+</ul>
+</div>  <!-- Slide -->
+
+
+
+
+<div class="slide">
+<h1 class="section"><i>[Insert Group Dialog Here]</i></h1>
+</div>  <!-- Slide -->
+
+
+
+
+<div class="slide">
+  <h1>For followup...</h1>
+  <dl>
+    <dt>This Presentation</dt>
+<!-- ==**==** CHANGE! ==**==** -->
+      <dd>http://info.drc.ohiolink.edu/presentations/200611-uwindsor-soa/</dd>
+  </dl>
+  <p>
+  <span style="font-variant: small-caps; font-weight: bold;">Peter Murray</span><br />
+  http://www.pandc.org/peter/work/<br />
+
+  2455 North Star Rd, Suite 300, Columbus, OH 43221<br />
+
+  E-mail:  peter@OhioLINK.edu<br />
+  Phone:  614-728-3600 x338
+  </p>
+</div>
+
+
+</div> <!-- class="presentation" -->
+
+</body>
+</html>

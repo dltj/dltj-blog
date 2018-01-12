@@ -1,0 +1,268 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<style type="text/css">
+<!--
+
+div.catalist td { background:#ffffff; font-family:times; font-size:12pt;}
+div.catalist li {  font-family:times;   font-size:12pt; }
+div.catalist p { font-family:times;  font-size:12pt; }
+div.catalist h1 { font-family:times;  font-size:24pt; font-weight: bold; }
+div.catalist h2 { font-family:times;  font-size:18pt; font-weight: bold; margin-bottom: }
+div.catalist a:link { color:blue; }
+div.catalist a:visited { color:purple; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Defines body attributes throughout wa */
+body { color:#000000; background:#bbbbbb; font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:11px; line-height: 1.7em;
+ }
+body A { color:#C95000; line-height: 1.7em; }
+
+body a:link { color: #C95000; }
+body a:hover { color: #02008D; }
+body a:visited { color: #C95000; }
+body a:visited:hover { color: #02008D; }
+
+/* .side a { display: block; } */
+
+td { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:11px; ; line-height: 1.7em;
+ }
+h1 { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:15px; font-weight:bold}
+h2 { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:15px; font-weight:bold; margin-bottom: 0}
+h3 { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:15px; font-weight:normal; margin-bottom: 0}
+h4 { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:12px; font-weight:bold}
+ul {list-style-type: square;}
+ul.wizard {list-style-image: url(/archives/images/ls2-wizard-bullet.gif)}
+p.checkbox {text-indent: -0.2in; margin-left: 0.2in}
+pre, code, tt {
+ color: #1c6f00;
+  font-size:12px;
+ line-height: 1.7em;
+}
+hr {
+ width: 100%;
+ color: #999;
+ height: 1px;
+}
+
+
+/* Defines background color of area between header and trailer */
+table.header { background:#ffffff; }
+
+/* Defines colors for panel and body throughout wa */
+td.side { color:#000000; background:#ffedde; }
+td.body { background:#fff; }
+td.popuphelp { background:#ffd5b0; }
+
+/* Defines colors and attributes of listserv messages */
+td.msg { background:#fff; color:#000000; font-weight: bold; border: 1px dotted #666; font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:11px; }
+tr.msg { background:#ffd5b0; color:#000000; font-weight: bold; }
+font.msg { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:11px; }
+
+/* Defines colors and attributes of listserv messages in reports */
+td.rep_msg { background:#ffd5b0; text-align:left; }
+font.rep_msg { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ color:#000000; font-size:11px; }
+table.rep_msg { cellspacing:1; cellpadding:1; width:100%; background:#000000; }
+table.rep { cellspacing: 0; }
+table.enc { background: #000000; cellspacing:1; cellpadding:1; width:100% }
+
+/* Defines row colors in reports */
+tr.rep_high_row { background: #e7e7e7; }
+tr.rep_low_row { background: #d6d6d6; }
+tr.rep_high_row_other { background: #e7e7e7; }
+tr.rep_low_row_other { background: #d6d6d6; }
+tr.rep_top_row { background: #ffd5b0; align:center; }
+tr.rep_bottom_row { background: #ffd5b0; }
+
+/* Defines attributes of cell contents in reports */
+td.rep_col_open { color: #000000; }
+td.rep_int_open { color: #000000; }
+
+/* Defines button width for reporting section */
+ .button {width:60;}
+
+/* Defines font, table attributes for archive search results */
+tr.search { background: #e7e7e7; }
+font.search { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:11px;
+ }
+table.enc_search { background: #000000; cellspacing:1; cellpadding:1; width:100%; }
+
+/* Defines attributes for list selection bar */
+td.listselect { background:#ffd5b0; }
+font.listselect { color: #000000; font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:11px;
+ }
+
+/* Defines font attributes for keyword descriptions in wizard */
+p.BodyTextLeft { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:11px;
+ }
+p.BodyTextIndented { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:11px;
+ }
+
+/* Defines font attributes for body text and headers throughout wa */
+font.bodytext { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:11px;
+ }
+font.headertext { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:15px; }
+
+/* Defines font attributes for host link in trailer */
+font.host { font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ color:#000000; font-size:11px;
+ }
+
+/* Defines font attributes of examples */
+font.XMP { color:#009933; font-family: Verdana, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+ font-size:11px;
+ }
+
+
+-->
+</style>
+
+<script language="javascript" type="text/javascript">
+function subform()
+{
+document.forms[0].submit()
+
+}
+
+</script>
+
+
+
+<title>Login Required</title>
+
+</head>
+<body marginheight=0
+marginwidth=0
+topmargin=0 leftmargin=0
+>
+
+
+
+<table   class="header"  width="100%"   cellspacing="0"  cellpadding="0">
+<tr><td>
+
+<table    width="100%"   height="60"    id="pageheader"   cellspacing="0"
+cellpadding="0">  <tr  bgcolor="#FF7600">  <td  width="501"  align="left"
+style="text-align: left; width: 501;"><a
+href="http://listserv.oclc.org/scripts/wa.exe"><img
+src="http://www.oclc.org/common/images/listserv/logo_text.gif"  alt="OCLC
+E-mail   list   subscriptions   and  archive"   width="501"   height="60"
+border="0"></a></td>  <td align="left"  class="bannernewwindow"></td> <td
+align="right" style="text-align: right;"></td> </tr> </table>
+
+
+
+<A HREF="#skipnavlinks"><IMG SRC="/archives/images/ls2-sep.gif" ALT="Skip repetitive navigational links" WIDTH="1" HEIGHT="1" BORDER="0" HSPACE="0" VSPACE="0" ALIGN="LEFT"></A>
+
+
+
+<a name="skipnavlinks"></a>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr><td class="body">
+<table width="100%" cellpadding="5">
+<tr><td cellspacing="0" cellpadding="0" width="100%" class="side">
+<center><h2>Login Required</h2></center>
+</td></tr></table>
+</td></tr></table>
+
+<table width="100%" cellspacing="0" cellpadding="10">
+<tr><td class="body">
+
+
+<p>
+<center><table cellpadding="5"><tr><td class="msg"><tt>
+Your authentication ticket has expired. Please log in again to continue.
+</tt></td></tr></table></center>
+<p>
+
+The function you have requested requires authentication.
+Please enter your
+e-mail address and your LISTSERV password (<b><i>not</i></b> the password you
+use to login to your computer or read your mail), and click on the "Login"
+button. If this is the first time you see this dialog, or if you have forgotten
+your password, you will need to <a href="/scripts/wa.exe?GETPW1=A2%3Dind1011a%26amp%3BL%3Doclc-cat%26amp%3BD%3D0%26amp%3BF%3DP%26amp%3BT%3D0%26amp%3BX%3D5D7D8800A8770C99F0%26amp%3BP%3D2298">get a new LISTSERV password</a> first.
+<p>
+<form action="/scripts/wa.exe" method=post>
+<input type=hidden name=LOGIN1 value="A2=ind1011a&amp;L=oclc-cat&amp;D=0&amp;F=P&amp;T=0&amp;X=5D7D8800A8770C99F0&amp;P=2298">
+<center>
+<table class="body">
+<tr><td class="body"><b><LABEL FOR="email">E-Mail Address</LABEL>: </b>
+</td><td>
+<input name=Y size=30 id="email"
+>
+</td></tr>
+<tr><td class="body"><b><LABEL FOR="password">Password</LABEL>: </b>
+</td>
+<td><input name=p type=password size=30 id="password">
+</td></tr></table></center>
+<p>
+<center>
+<input type=submit name=e value="&#160;&#160;&#160;&#160;Login&#160;&#160;&#160;&#160;">
+<input type=submit name=c value="Change password"><br>
+</center>
+<p>For your convenience, logging in defines a cookie in your browser, which is removed when you log off. If you are working from a public computer, you <i>must</i> remember to log off when you are done, or someone else will be able to use your account. On a private computer, you may set the cookie once, and never need to log off.
+<p>
+<hr>
+<p>If you prefer not to set a cookie, use this login button instead:<p>
+<center>
+<input type=submit value="Login without setting a cookie">
+</center>
+<p>If you login without a cookie, You should be aware of the following:
+<ul>
+<li>LISTSERV will create a temporary "ticket" which the web interface passes from page to page.  The ticket has a short expiration and you will be required to login again periodically throughout your session.
+<li>You should not use the browser's "Back" button: doing so might lose your ticket and you will be required to log in more frequently.
+<li>You do not need to "Log off" -- the technical purpose of logging off is to remove the cookie. Your ticket will expire within 15 minutes.
+</ul>
+<input type=hidden name=L value="OCLC-CAT">
+</form>
+</td></tr></table>
+
+
+
+
+
+<table width="100%"  border="0" cellspacing="0" bgcolor="#666666" >
+<tr>
+<td style="padding: 3px 10px;"><a href="http://listserv.oclc.org/scripts/wa.exe" title="LISTSERV home page" style="color: #FFF;">listserv.oclc.org</a></td>
+</tr>
+</table>
+
+</td></tr></table>
+</body>
+</html>

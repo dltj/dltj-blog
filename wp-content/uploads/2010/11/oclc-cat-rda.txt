@@ -1,0 +1,54 @@
+From: Wojciech Siemaszkiewicz <wsiemaszkiewicz@NYPL.ORG>
+Date: November 2, 2010 9:46:55 AM EDT
+To: OCLC-CAT@OCLC.ORG
+Subject: [OCLC-CAT] November 2010 Memorandum Against RDA Test
+Reply-To: OCLC-Cataloging <OCLC-CAT@OCLC.ORG>
+
+To all catalogers,
+
+We have found ourselves in an unenviable position of opposing the work that
+supposedly has been authorized by agencies representing our interests. I
+might compare it to a military coup d’état. I mean here the RDA “test” and
+its implications on the cataloging world at large. After extensive
+discussions on the PCC, OCLC cataloging e-mail lists with opinions from the
+British Library, Australia and North America, we can safely conclude that
+there is a broad consensus against principles of RDA and the way RDA “test”
+has been imposed on the cataloging world.
+
+Therefore, I suggest the following memorandum to be implemented by
+catalogers throughout the world in response to the “RDA coup d’état”:
+
+                November 2010 Memorandum Against RDA Test
+
+We instruct the OCLC to do the following:
+
+  Immediately suspend coding the test RDA records as acceptable records
+     and recode them as substandard records with a code “RDA” (no PCC, LC,
+     etc. coding should be allowed on these records). The encoding level
+     for these records should be “K”, which usually triggers a full review
+     of the record by highly trained technical assistants or professional
+     catalogers. The LC records should be coded as level “7”.
+  The RDA test records should be treated the same way as records coded
+     with Spanish, French, German, etc. codes. This would allow catalogers
+     to create parallel records for 040 English records according to
+     existing and widely accepted AACR2 rules.
+  Under no circumstances should RDA testers be allowed to create
+     conflicting NAF or SAF records in LCNAF or LCSAF. This has already
+     created a great deal of confusion and has been universally rejected
+     by catalogers involved in the discussion.
+
+We instruct agencies responsible for the RDA test to instruct its testers
+to follow above mentioned rules as a way to avoid workflow complications
+and growing confusion in libraries around the world.
+
+We understand that the RDA test is just a test and in no way is an
+indicative to a future cataloging procedures and rules that would replace
+universally accepted AACR2 rules.
+
+Wojciech Siemaszkiewicz
+New York Public Library
+Library Services Center
+31-11 Thompson Ave.
+Long Island City, N.Y. 11101
+(917) 229-9603
+e-mail: wsiemaszkiewicz@nypl.org

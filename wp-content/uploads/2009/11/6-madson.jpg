@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<title>Sixth Floor, James Madison Building - Maps and Floor Plans - Visitors (Library of Congress)</title>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" media="print" type="text/css" href="/visit/css/loc_printmaps.css" />
+<link type="text/css" media="screen" rel="stylesheet" href="/visit/css/styles.css" />
+<script type="text/javascript">
+function change(){
+	document.getElementById("return").href = "javascript:window.close();";
+}
+</script>
+</head>
+
+<body onload="change()">
+    <div id="mapDisplay">
+        <p><a class="print" href="javascript:window.print();">Print</a></p><div id="floorplan"><img src="images/lm6.jpg" /></div>    </div>
+</body>
+</html>
