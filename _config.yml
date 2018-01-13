@@ -71,13 +71,15 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : https://dltj.org/assets/images/jester_hat_512x512.png
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Peter Murray
+  links:
+    - "https://twitter.com/DataG"
+    - "https://www.linkedin.com/in/DataGazetteer"
 
 # Analytics
 analytics:
@@ -89,7 +91,7 @@ analytics:
 # Site Author
 author:
   name             : "Peter Murray"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/PMurray.jpg"
   bio              : "Library technologist, open source advocate, striving to think globally while acting locally"
   location         : "Columbus, Ohio"
   email            : jester@dltj.org
@@ -110,7 +112,7 @@ author:
   linkedin         : DataGazetteer
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "201674/peter-murray"
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : DataG
