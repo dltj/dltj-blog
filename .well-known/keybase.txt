@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/dltj
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dltj.org
+  * I am dltj (https://keybase.io/dltj) on keybase.
+  * I have a public key with fingerprint 2DA0 8D60 69D2 483D E5E5  37F3 48E5 203C 304F 1344
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "2da08d6069d2483de5e537f348e5203c304f1344",
+            "host": "keybase.io",
+            "key_id": "48e5203c304f1344",
+            "kid": "0101a734e74dd913ba2553f16c43c50e43028d6b0a8b5315f0f731ff71cfd1fcd1ce0a",
+            "uid": "0734e7c19699d94b090bbc338d0ef000",
+            "username": "dltj"
+        },
+        "service": {
+            "hostname": "dltj.org",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1419298745,
+    "expire_in": 157680000,
+    "prev": "703a2f8ef1b0b710024d66a53c23be5f133753be9bf528cf8f7eaf66093a5ebd",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMMyAnicbZJ5TBxVHMd3OQpFWlsVJBVDM9RA7Ure7MzszGy2HAIVsdJQSQlIxTne
+LMMxs+xBWa4oV7BWSyltF0IiBYSCmEhLSJFuKWhCKYlKpG0qh5GIGtoETJWjZakz
+qIl/+Nd77/v7/j6/I+/rHd6aAG3Swl4TOPJsgnZixOjQpLnGBksRVuadiLEUyYNb
+hyBKZmi1WEXJjhgRPc8AijcAA83rcQrjIQEJjBQwnIKEHmAcBnABxXAc0SE5sk3N
+UDAsY4NRoqxoyiNb5BX1f/x5WwGAApQhMRySOM/TKMYyeoLABNTA4RhHAIhjQK80
+wAKGYgkMJQQgkBgqCCTKCTwqcDzKQcAoOMffuC0Uh9IGmuZpnAU0YFkOwygeQAEA
+oBpt0CoxBVBx8/n2XKRchyhKkchBdXx1iv9Eo2SrWcmxWGW7zMn5ippjt1tsRjXL
+7rSothOQzf4HkM2KEq/sT8koglabKEuIEVWcnF1UiSiO0nqaInFCh8Bii2iF2aLq
+IEgDpfQG1DqwSEGSAGP0AgUFlAUsiQKgx3mDgSEwTo+xkFA2iJGEcqNZgdBTnEAJ
+JGQEgwHQGENAlkfUkQolWS2p9MmYFaZNNEuM3WGFSPnoSJaPRhug2ebrpX4BTcD2
+Xf9+jFrzLk1dRH5W469r73XSrSvb2E8+8BQj7pLxl9P3v7QR5XJ1NR9uOF/f+133
+4jd/5ppa/KS2q1ohw13euPjplZvBgzuea1qayUi4wfzgNer704dS4Bue6YbR6enc
+Fxsv3mtMicbKH+VVX071wOXomvZDd7qQS2JsiXv42HLb4NT5jfr8mY+GVxd7L3m5
+jgaTFbVxH0fuv3/56nRUROtEYkrG5FBhzlpsc8xE8mlwsP/1dam0ODL0zccx4xWH
+Nm8vpD+92bNvYP7J1Erp50OTvYJ2NrJ9/IHueGLIdjaQCnW/vzD67o9ByVWRm9cP
+7Cwp232/4meqLO2Ib+jOqisZLY7uDubkuv/12eCejZs30u9mJmXW1p8ZoG+vjQ44
+nYl6ecnYl2y5kNr4TtiYdGxhxOeZCyfuDj4cXmqdtT3o6pOCQkI38r4/WrvaJiQ2
+pxxngirjzgZx10wF88yewW7XwSftnj+i3NWnwvceHop+KslUE6B7XJyY+lnsvbAI
+H5fz97q54bd3z8+VVHhdPBM/xMS86ud9VhT9/ePq7oRvaoM7nc7l8NJvNboCz7ma
+seqJkxTZ0OH9licp53Rvf3R8l2Vp/bXWa3v6HqWdmqp84fkW+WGVX88XYV+6N3/5
+LSywA+2vN01WvhI6V9XU1mkuXMmqvxV4wBw/s/pVdmFLyLSjw2xaTii75Whays38
+C8ZnqS0=
+=mXpE
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dltj
+
+==================================================================
+
+
