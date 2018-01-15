@@ -136,18 +136,25 @@ comments:
 <li>Using "Images > Calculations..." with 100% opacity difference blending between source images (the TIFF and the JP2) with the results put into a new document shows in a completely black image.  (This is likely equivalent to the test above, but we do it just to be sure).</li>
 </ul>
 <p>Another test uses <code>geoimgcmp</code>, which is <span class="removed_link" title="http://homepage.mac.com/gregcoats/jp2.html">part of GeoJasPer version</span> 1.3.2.  This command should return "0":</p>
-<pre lang="bash">geoimgcmp -f source.tif -F destination.jp2 -m rmse</pre>
+{% highlight bash %}
+geoimgcmp -f source.tif -F destination.jp2 -m rmse
+{% endhighlight %}
 <h2>Jasper via ImageMagick</h2>
 <p>The first thing we tried was <a href="http://www.ece.uvic.ca/~mdadams/jasper/" title="Jasper homepage">Jasper</a> 1.701 as compiled into <a href="http://www.imagemagick.org/" title="ImageMagick homepage">ImageMagick</a> 6.2.9.  The command looked something like this:</p>
-<pre lang="bash">convert source.tif -o destination.jp2</pre>
+{% highlight bash %}
+convert source.tif -o destination.jp2
+{% endhighlight %}
 <p>I ran though the tests, though, and it would appear Jasper/ImageMagick is not using the reversible (integer) wavelet transform.</p>
 <h2>Kakadu</h2>
 <p>Next we tried <a href="http://www.kakadusoftware.com/" title="Kakadu Software homepage">Kakadu</a>.  Although it is commercial software, it is relatively inexpensive and we acquired a developer's license for our work on the Ohio Digital Resource Commons.   A straight compress doesn't get one a reversible transformation:</p>
-<pre lang="bash">kdu_compress -i source.tif -o destination.jp2</pre>
+{% highlight bash %}
+kdu_compress -i source.tif -o destination.jp2
+{% endhighlight %}
 <p>A colleague did offer some help in the form of parameters that he uses to achieve truly lossless compression:</p>
-<pre lang="bash">kdu_compress -i source.tif -o destination.jp2 \
-
-       Creversible=yes -rate -,1,0.5,0.25 Clevels=5</pre>
+{% highlight bash %}
+kdu_compress -i source.tif -o destination.jp2 \
+       Creversible=yes -rate -,1,0.5,0.25 Clevels=5
+{% endhighlight %}
 <p>The parameters mean this (from the Kakadu usage documentation):</p>
 <dl>
 <dt><code>Creversible=yes</code></dt>

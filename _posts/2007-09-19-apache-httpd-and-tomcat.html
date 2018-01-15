@@ -231,83 +231,46 @@ comments:
 <p>The first half of this problem, modifying a request as they come into the Apache HTTPD server, will be handled by a <a href="http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html" title="Apache HTTPD mod_rewrite documentation">mod_rewrite</a> rule that rewrites the request to something Tomcat can understand then internally redirects it Tomcat via the AJP proxy.  (Note that we are not using simply <a href="http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#proxypass" title="'ProxyPass' directive in HTTPD mod_proxy documentation">ProxyPass</a> here because we want to send the request through the AJP interface to the Tomcat server, and <a href="http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html#rewriterule" title="'RewriteRule' directive in HTTPD mod_rewrite documentation">RewriteRule</a> allows us to do that with a <code>[P]</code> flag at the end of the RewriteRule line.)  The second uses a combination of <a href="http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#proxypassreverse" title="'ProxyPassReverse' directive in HTTPD mod_proxy documentation">ProxyPassReverse</a> (a part of Apache-supplied mod_proxy extension that adjusts the URL in the Location, Content-Location and URI headers), <a href="http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#proxypassreversecookiepath" title="'ProxyPassReverseCookiePath' directive in HTTPD mod_proxy documentation">ProxyPassReverseCookiePath</a> (also a part of the Apache-supplied mod_proxy extension; it rewrites the path string in Set-Cookie headers), and <a href="http://apache.webthing.com/mod_proxy_html/config.html" title="mod_proxy_html configuration documentation">ProxyHTMLURLMap</a> (from mod_proxy_html, a third-party extension that rewrites URLs inside X/HTML documents). </p>
 <h2>Preparations</h2>
 <p>The 'mod_proxy_html' extension is likely new to your Apache HTTPD installation, so we need to download the source, compile it, and move it into the proper directory.  Fortunately, this is rather straight forward:</p>
-<pre lang="bash">
-
+{% highlight bash %}
 wget 'http://apache.webthing.com/mod_proxy_html/mod_proxy_html-2.5.2.c'
-
 apxs -c -I/usr/include/libxml2 -i mod_proxy_html-2.5.2.c
-
-</pre>
+{% endhighlight %}
 <p>Note that we are not using the mod_proxy_html author's 3.0 version here.  In my set-up, the 3.0 version was causing Apache HTTPD to dump core on <em>every</em> request (whether proxied or not), and the prior release works just fine for our purposes.  The <code>apxs</code> line will compile, link, and copy the resulting library to the Apache modules directory for us.</p>
 <h2>The Configuration</h2>
 <p>This is the contents a 'tomcat-proxy.conf' file that is placed in the 'conf.d' directory of the Apache HTTPD configuration directory (most likely <code>/etc/httpd/conf.d/tomcat-proxy.conf</code>, although your installation may vary).</p>
-<pre lang="config">
-
+{% highlight config %}
 #
-
 #  Information about 'mod_proxy_html' can be found at 
-
 #   http://apache.webthing.com/mod_proxy_html/
-
 LoadFile    /usr/lib/libxml2.so
-
 LoadModule  proxy_html_module    modules/mod_proxy_html-2.5.2.so
 
-
-
 # DON'T TURN ProxyRequests ON!  Bad things will happen
-
 # http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#access
-
 # http://www.akadia.com/services/prevent_abuse_proxy.html
-
 ProxyRequests off
 
-
-
 # Necessary to have mod_proxy_html do the rewriting
-
 RequestHeader      unset  Accept-Encoding
 
-
-
 # Rewrite the URLs to proxy ("[P]") into the Tomcat server
-
 RewriteEngine     on
-
 RewriteRule ^(/.*)      ajp://localhost:8009/context_path/$1    [P]
 
-
-
 # Be prepared to rewrite the HTML/CSS files as they come back
-
 # from Tomcat
-
 SetOutputFilter proxy-html
 
-
-
 # Rewrite JavaScript and CSS files in addition to HTML files
-
 ProxyHTMLExtended on
 
-
-
 # Output Strict XHTML (add "Legacy" to the end of the line below
-
 # to output Transitional XHTML)
-
 ProxyHTMLDoctype XHTML 
 
-
-
 # Rewrite HTTP headers and HTML/CSS links for everything else
-
 ProxyPassReverse /context_path/ /
-
 ProxyPassReverseCookiePath /context_path/ /
-
 ProxyHTMLURLMap /context_path/ /
-
-</pre>
+{% endhighlight %}
 <p>That's pretty much all there is to it.  You should note that mod_proxy_html, like any HTML scraper, requires modestly well-formed X/HTML.  If the markup is bad, the output from mod_proxy_html is likely to be unpredictable.</p>

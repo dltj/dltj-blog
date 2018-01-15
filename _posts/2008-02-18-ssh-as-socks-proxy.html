@@ -281,7 +281,9 @@ comments:
 <p>After about a half an hour of this, you started looking for solutions and found that the secure shell client can act as a <a href="http://en.wikipedia.org/wiki/SOCKS" title="SOCKS - Wikipedia">SOCKS proxy</a> ((Version of the <a href="http://en.wikipedia.org/wiki/SOCKS?oldid=192280146" title="">SOCKS Wikipedia page when this posting was written</a>)).  Using 'ssh', you set up a tunnel between your laptop and a server in the office that encrypted and effectively hid all of your network communications from the interception proxy.  And if you are reading this again you want to remember how you did it.</p>
 <h2>Set up the SOCKS proxy</h2>
 <p>SOCKS is a client protocol that can be used to tunnel all of your traffic to a remote host before it fans out across the internet.  The <a href="http://www.openssh.com/" title="OpenSSH homepage">OpenSSH client</a> can set up a local SOCKS proxy that uses an 'ssh' session as the network tunnel.  To set up the tunnel, use the <code>-D</code> option followed by a local port number: </p>
-<pre lang="bash">ssh -D 9050 [username]@[remote.server.name]</pre>
+{% highlight bash %}
+ssh -D 9050 [username]@[remote.server.name]
+{% endhighlight %}
 <p>To refresh your memory, here is an extract from the 'ssh' manual page for the -D option:<br />
 <blockquote>
 <dl>

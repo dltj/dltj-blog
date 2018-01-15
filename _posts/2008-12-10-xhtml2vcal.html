@@ -31,7 +31,7 @@ comments: []
 <p>I've used this so much that I decided not to sponge on Brian's translation service any more and create an equivalent translation service that runs on <acronym title="Disruptive Library Technology Jester"><i>DLTJ</i></acronym>.  Included below is some PHP code that will drive the XSLT transformation process.  If you copy and paste this PHP into a file in the same directory with <span class="removed_link" title="http://hg.microformats.org/">Brian's "x2v" implementation</span>, then you can do the same thing.</p>
 <h2>The Script</h2>
 <p>Here is the script itself:</p>
-<pre lang="php">
+{% highlight php %}
 # Copyright 2008 by Peter Murray.   Licensed under the
 # Educational Community License, Version 2.0 (the "License"); you may
 # not use this file except in compliance with the License. You may
@@ -121,5 +121,5 @@ echo $proc->transformToXML($xml);
 # Add a Control-M to the end of the file and flush the output
 echo " 15n";
 flush();
-</pre>
+{% endhighlight %}
 <p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://hg.microformats.org/ on November 21st, 2012.</p>

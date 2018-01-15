@@ -104,13 +104,13 @@ Give the variable a name and paste the image data into the Expressions field sur
 <h2>Step 3: Add image to the report</h2>
 <p>[caption id="attachment_26980" align="alignright" width="300"]<img src="/wp-content/uploads/2015/12/3-Create_new_image_element-300x300.png" alt="Select "Custom expression" and paste Java snippet" width="300" height="300" class="size-medium wp-image-26980" /> Select "Custom expression" and paste Java snippet[/caption]<br />
 Click and drag an image element from the Palette onto the report.  A "Create new image element" dialog box pops up with several choices for "Image creation mode", including a workspace resource, an absolute path, or a URL.  Pick the last choice, "Custom expression", and enter this snippet of Java below.  There is a place in the snippet where the variable with the base64-encoded image is included (<code>CSpaceLogo</code> in this case); replace this with the variable name from the previous step.</p>
-<pre lang="java">
+{% highlight java %}
 new ByteArrayInputStream(Base64.decodeBase64($V{CSpaceLogo}.getBytes()))
-</pre>
+{% endhighlight %}
 <h2>Step 4: Add Base64 class import to the report</h2>
 <p>One final step...in order to use the <code>Base64.decodeBase64</code> function when the report is run, we need to explicitly import that class when the report is run.  In the report editor there are tabs for "Design", "Source", and "Preview".  Click on "Source" to see the raw JRXML.  Below the last line that starts with <code>
 <property name=</code> and above the <code><queryString></code> line, add this line:</p>
-<pre lang="xml">
+{% highlight xml %}
 <import value="org.apache.commons.codec.binary.Base64"></import>
-</pre>
+{% endhighlight %}
 <p>All done!  Save and preview your report, and you'll see the image included in the report.</p>

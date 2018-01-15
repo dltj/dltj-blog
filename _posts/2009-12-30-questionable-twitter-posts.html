@@ -179,55 +179,36 @@ comments:
 </ul>
 <p>At this point, I'm not sure what is introducing those parameters.  I can't find documentation for it in the Google Analytics help system, but I suspect it might be coming as a part of Feedburner.  I'm pretty much a newbie when it comes to Google Analytics, so if anyone has any insights, I'd appreciate it.</p>
 <p>There are two cases where 'twitterfeed' is being used as part of a user agent string (or <code>"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3 twitterfeed"</code> more specifically).  I'm going to set up a <a href="http://en.wikipedia.org/wiki/Honeypot_%28computing%29" title="Honeypot (computing) - Wikipedia, the free encyclopedia">honeypot</a> for twitterfeed using mod_rewrite conditions on my server:</p>
-<pre lang="bash">## Attempt to block twitterfeed
+{% highlight bash %}
+## Attempt to block twitterfeed
 
 RewriteCond %{USER_AGENT} "twitterfeed"
+RewriteRule feed.* /atom-feed-for-twitterfeed.xml [R=302,L]
+{% endhighlight %}
 
-RewriteRule feed.* /atom-feed-for-twitterfeed.xml [R=302,L]</pre>
 <p>The "atom-feed-for-twitterfeed.xml" file consists of:</p>
-<pre lang="xml">< ?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-
+{% highlight xml %}
+< ?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
-
-
 	<title>DLTJ Twitter Honeypot</title>
-
 	<link rel="alternate" type="text/html" href="http://dltj.org"/>
-
 	<id>http://dltj.org</id>
-
 	<updated>2009-12-30T17:47:10+00:00</updated>
-
 	<generator uri="http://dltj.org/about/">An annoyed jester</generator>
-
-
-
 	<entry>
-
 		<title>Twitter and Twitterfeed honeypot</title>
-
 		<link rel="alternate" type="text/html"
-
 			href="/article/questionable-twitter-posts/"/>
-
 		<id>http://dltj.org/article/questionable-twitter-posts/</id>
-
 		<updated>2009-12-30T17:28:07+00:00</updated>
-
 		<content type="html"><p>This is a honeypot to try to catch Twitterfeed when it injects postings into Twitter.  For more information on why I'm trying this, see <a href="/article/questionable-twitter-posts/">this blog post on <acronym title="Disruptive Library Technology Jester"><i>DLTJ</i></acronym></a>.</p></content>
-
 		<author>
-
 			<name>Murray, Peter</name>
-
 			<uri>http://dltj.org/about</uri>
-
 		</author>
-
 	</entry>
-
-</feed></pre>
+</feed>
+{% endhighlight %}
 <p>Yeah -- I know I'm breaking the rules by giving different content for the same URI.  But remember, this is just a honeypot.</p>
 <p>With this, I'm going to see if my honeypot entry shows up in one of these Twitterfeed-injected posts.  Am I showing signs of being obsessed with this?  Yep, no doubt.  But I really want to know how and where my content is being used.  This itch definitely needs to be scratched.
 <p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://www.ubervu.com/conversations/dltj.org/article/alamw10-schedule/ on December 30th, 2010.</p>

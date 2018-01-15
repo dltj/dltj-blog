@@ -147,7 +147,8 @@ comments:
 <div style="padding 1em; border: 1px solid red; margin: 1em; background: yellow; color: black;">
 Note &mdash; the Perl script included below was updated in February 2007 to include <a href="/article/update-to-embedded-web-video/">a fix for the deprecation of the MMS protocol</a> in Windows Media Player.</div>
 <p>Second -- again for those with eagle eyes -- is the dynamic generation of an .asx file.  As it turns out, one can relate a .smi text-track file with a .wmv video file by including it as a SAMI parameter on the URL.  By far the best practice for doing this seems to be to relate the .smi and the .wmv files in a .asx container file.  So we create one on-the-fly.  The PERL code looks like this:</p>
-<pre lang="perl">#!/usr/bin/perl -w
+{% highlight perl %}
+#!/usr/bin/perl -w
 # Copyright (C) 2006 OhioLINK
 #
 # This file is part of the OhioLINK Digital Resource Commons (DRC) Project.
@@ -213,7 +214,8 @@ EoMarkup
   } else {
     print "Location: http://invalid-format-given/$format/$id\r\n\r\n";
   }
-}</pre>
+}
+{% endhighlight %}
 <p>The first part of the script parses the PATH_INFO variable -- everything left over from the <i>blah</i> script name -- and if what is requested is the Real Media or the Quicktime version of the video it sends the redirect back to the client (in the form of the "Location:" header with Apache HTTP daemon handling the 302 response code).  If what is requested is the Windows variety, it further parses the PATH_INFO piece for the file type and acts according to that:  for wmv, it redirects; for asx, it generates the .asx file; and for .smi, it pulls the content off the video server and returns it to the client.</p>
 <h2>The Markup</h2>
 <p>So now that we can serve up the video content with persistent URLs, we need to tackle the HTML markup.  As a general rule, we can't use the <a href="http://www.webstandards.org/learn/articles/askw3c/may2005/" title="Adding Multimedia in Web Documents (part 2) - The Web Standards Project">popular yet non-standard <code><embed></code> tag</a>; since it is not part of any formal specification, validation will always fail.  As a consequence, use in future browsers is less assured.  So we need to use <code><object></code> -- and unfortunately due to varied, if not outright broken implementations of the <code><object></code> tag, we need to be a little tricky in how we code it.  Other tricks are in play here as well -- check the list of "Resources Consulted" below for more information.</p>
@@ -221,7 +223,8 @@ EoMarkup
 <p>So based on the URLs to the media objects described above, this is what the HTML markup looks like:</p>
 <h3>Quicktime</h3>
 <p><br clear="all" /></p>
-<pre lang="html"><object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="320" height="380">
+{% highlight html %}
+<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="320" height="380">
   <param name="src" value="http://rave.ohiolink.edu/dmc/blah/quicktime/[id].mov" />
   <param name="controller" value="true" />
   <param name="autoplay" value="true" />
@@ -233,10 +236,13 @@ EoMarkup
    <!--<![endif]-->
 
 <br />
-<span class="removed_link" title="http://rave.ohiolink.edu/dmc/blah/quicktime/[id].mov">View Video with External Player</span></pre>
+<span class="removed_link" title="http://rave.ohiolink.edu/dmc/blah/quicktime/[id].mov">View Video with External Player</span>
+{% endhighlight %}
+
 <h3>Windows Media</h3>
 <p><br clear="all" /></p>
-<pre lang="html"><object classid="clsid:6bf52a52-394a-11d3-b153-00c04f79faa6" type="application/x-oleobject" width="320" height="304" id="Player1">
+{% highlight html %}
+<object classid="clsid:6bf52a52-394a-11d3-b153-00c04f79faa6" type="application/x-oleobject" width="320" height="304" id="Player1">
   <param name="url" value="http://rave.ohiolink.edu/dmc/blah/windows/asx/[id].asx" />
   <param name="src" value="http://rave.ohiolink.edu/dmc/blah/windows/asx/[id].asx" />
   <param name="autostart" value="true" />
@@ -256,10 +262,13 @@ EoMarkup
    <!--!<[endif]-->
 
 <br />
-<span class="removed_link" title="http://rave.ohiolink.edu/dmc/blah/windows/asx/[id].asx">View Video with External Player (including captions)</span></pre>
+<span class="removed_link" title="http://rave.ohiolink.edu/dmc/blah/windows/asx/[id].asx">View Video with External Player (including captions)</span>
+{% endhighlight %}
+
 <h3>Real Media</h3>
 <p>One last caveat.  As if the shenanigans above weren't bad enough, apparently as part of a court settlement against Microsoft a number of years ago, there was an injunction placed against the creator of Internet Explorer that prevented that browser from automatically launching content embedded in a web page.  For whatever reason (I didn't have time to investigate <em>why</em> this happened), it only impacts Real Media content.  Somehow, though, it is okay for the browser to start it if the action is called from an external piece of JavaScript.  Go figure.  You can read more about it at Real Media's support site for <a href="http://www.realnetworks.com/resources/howto/embedded/iechanges/index.html" title="">Web Page Embedding > Internet Explorer Changes</a>.  In actuality, though, it makes the Real Media part of the equation pretty easy:</p>
-<pre lang="html"><script language="JavaScript" type="text/javascript">
+{% highlight html %}
+<script language="JavaScript" type="text/javascript">
   AC_RunRealContent( 
     "id", "player",  
     "width", "320",  
@@ -282,7 +291,9 @@ EoMarkup
   );
 </script>
 <br />
-<span class="removed_link" title="http://rave.ohiolink.edu/dmc/fame/Real/scott.smi">View Video with External Player (including captions)</span></pre>
+<span class="removed_link" title="http://rave.ohiolink.edu/dmc/fame/Real/scott.smi">View Video with External Player (including captions)</span>
+{% endhighlight %}
+
 <h2>Conclusion</h2>
 <ol>
 <li>It seems to work for me and the machines I test with; your mileage may vary.</li>

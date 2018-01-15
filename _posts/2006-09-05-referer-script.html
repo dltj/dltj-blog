@@ -34,7 +34,7 @@ This value should be <em>http://www.ohiolink.edu/cgi-bin/check-refer.pl</em> ins
 <p>For assistance with correcting this problem, please see <a href="http://karmak.org/2004/reftest/fix" title="HTTP_REFERER Fix">this support page from karmak.org</a>.</p>
 </blockquote>
 <p>This 'referrer problem' seems to be happening more as a result of personal firewall software and other "helpful" agents.  Setting aside for the moment the question of whether relying on the HTTP Referer <footnote>By the way, "Referer" is not a typo here &mdash; it is arguably a typo in the original HTTP specification</footnote> URL is an acceptable or wise programming choice, if one of your standard troubleshooting tactics doesn't work you may want to try this one.</p>
-<pre lang="perl">
+{% highlight perl %}
 #!/usr/bin/perl
 ##
 ###########################################################################
@@ -257,4 +257,4 @@ sub handle_die {
   print HTMLfooter();
   exit;
 }
-</pre>
+{% endhighlight %}

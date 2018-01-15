@@ -20,13 +20,19 @@ tags:
 - bot
 comments: []
 ---
-<p>So I had an idea for a Twitter bot I would like to see.  Occasionally I'll be listening to a story on <abbr title="National Public Radio">NPR</abbr> and I'll want to know more about it.  Sometimes the host will say something like: "come to npr.org for more information and click on..."  Other times it will be because I missed a crucial bit of the story and I'll want to know more about it.  So why not have a Twitter bot that I can call upon to say "Tell me more about that story":</p>
-<p>https://twitter.com/DataG/status/700138826472140802</p>
-<p>https://twitter.com/NPRnow/status/700138909154545664</p>
-<p>The workflow for such a system doesn't seem that hard.  The bot would have to know my current location, and from that guess which NPR station(s) I'm listening to.  (If I didn't have geolocated tweets turn on, the bot could engage in a direct message conversation with me to ask which radio station I was listening to.)  It would know the time of my tweet, so it know which segment I was listening to.  Sure, there is variation in local program listings, but for the most part it could probably rely on the national program segment lineups.</p>
-<p>The technology isn't all that hard either.  <a href="https://aws.amazon.com/kinesis/">Amazon Kinesis</a> could be used for tapping into <a href="https://dev.twitter.com/streaming/overview/messages-types">Twitter's streaming API</a>.  Kinesis would fire off <a href="https://aws.amazon.com/lambda/">AWS Lambda</a> events in response to tweets to the bot, and the Lambda function could do the work of figuring out how to respond to the user.  There is already some <a href="https://github.com/awslabs/lambda-refarch-streamprocessing">nice sample code from AWS</a> for how to put this together.</p>
-<p>I'd do this, but there is one piece missing that I can't find -- the NPR segment lineup.  A time-stamped listing of when the segments appear in the national audio stream.  There is some nice semantic markup in the program listing page (<a href="http://www.npr.org/programs/morning-edition/?prgDate=02-17-2016" title="Morning Edition : NPR">today's Morning Edition show</a>, for example):</p>
-<pre lang="html">
+So I had an idea for a Twitter bot I would like to see. Occasionally I'll be listening to a story on NPR and I'll want to know more about it. Sometimes the host will say something like: "come to npr.org for more information and click on..." Other times it will be because I missed a crucial bit of the story and I'll want to know more about it. So why not have a Twitter bot that I can call upon to say "Tell me more about that story":
+
+https://twitter.com/DataG/status/700138826472140802
+
+https://twitter.com/NPRnow/status/700138909154545664
+
+The workflow for such a system doesn't seem that hard. The bot would have to know my current location, and from that guess which NPR station(s) I'm listening to. (If I didn't have geolocated tweets turn on, the bot could engage in a direct message conversation with me to ask which radio station I was listening to.) It would know the time of my tweet, so it know which segment I was listening to. Sure, there is variation in local program listings, but for the most part it could probably rely on the national program segment lineups.
+
+The technology isn't all that hard either. [Amazon Kinesis][0] could be used for tapping into [Twitter's streaming API][1]. Kinesis would fire off [AWS Lambda][2] events in response to tweets to the bot, and the Lambda function could do the work of figuring out how to respond to the user. There is already some [nice sample code from AWS][3] for how to put this together.
+
+I'd do this, but there is one piece missing that I can't find -- the NPR segment lineup. A time-stamped listing of when the segments appear in the national audio stream. There is some nice semantic markup in the program listing page ([today's Morning Edition show][4], for example):
+
+{% highlight html %}
 <article class="story clearfix">
   <p class="segment-num"><b>1</b></p>
   <div class="storyinfo noimg">
@@ -68,5 +74,12 @@ comments: []
     </ul>
   </div>
 </article>
-</pre>
-<p>But it doesn't have the time-stamped rundown of when the segments occur in the show.  I've done some moderately intense Google searches, but I haven't turned up anything.  This kind of thing is probably on the dark web since it is intended just for station managers.  Does anyone know how I might get ahold of it?</p>
+{% endhighlight %}
+
+But it doesn't have the time-stamped rundown of when the segments occur in the show.  I've done some moderately intense Google searches, but I haven't turned up anything.  This kind of thing is probably on the dark web since it is intended just for station managers.  Does anyone know how I might get ahold of it?
+
+[0]: https://aws.amazon.com/kinesis/
+[1]: https://dev.twitter.com/streaming/overview/messages-types
+[2]: https://aws.amazon.com/lambda/
+[3]: https://github.com/awslabs/lambda-refarch-streamprocessing
+[4]: http://www.npr.org/programs/morning-edition/?prgDate=02-17-2016 "Morning Edition : NPR"

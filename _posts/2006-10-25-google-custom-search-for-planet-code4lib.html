@@ -85,153 +85,83 @@ comments:
 </form>
 <p><!-- Google CSE Search Box Ends --></p>
 <p>To build it, I started with the <a href="http://planet.code4lib.org/opml.xml" title="planet code4lib">Planet Code4Lib OPML feed</a> and ran some regular expression transformations against it, replacing these matches with empty strings (I used BBEdit on the Mac for this one-off, but it could probably be automated with a PERL script to a certain degree):</p>
-<pre lang="txt">
-
+{% highlight text %}
 /feed/?(rss|atom)?/?$
-
 (\?|<pre wp-pre-tag-0></pre>|<pre wp-pre-tag-0></pre>amp;)feed=(atom|rss2)$
-
 (\?|<pre wp-pre-tag-0></pre>(amp;)?)feed=(atom|rss2)(<pre wp-pre-tag-0></pre>(amp;)?)
-
 /?(wp-rss2.php|rss|index.*|atom.*|rdf)[^/\r]*$
+{% endhighlight %}
 
-</pre>
 <p>After a minimal amount of manual cleanup, I ended up with this list:</p>
-<pre lang="txt">
-
+{% highlight text %}
 catalogablog.blogspot.com/*
-
 www.wallandbinkley.com/quaedam*
-
 maisonbisson.com/blog*
-
 www.blyberg.net/*
-
 use.perl.org/~LTjake/journal*
-
 foam.lib.muohio.edu/blog/*
-
 schenizzle.wordpress.com/*
-
 onebiglibrary.net/node*
-
 weblog.kevinclarke.info/*
-
 feeds.feedburner.com/DanCohen*
-
 www.librarywebchic.net/wordpress*
-
 www.ecorrado.us/*
-
 beta.blogger.com/feeds/3338174527262061848/posts/full*
-
 textsfornothing.com/blog/*
-
 orweblog.oclc.org/*
-
 feeds.feedburner.com/hublog*
-
 blog.ryaneby.com/*
-
 meredith.wolfwater.com/wordpress*
-
 fawcett.blogspot.com/*
-
 kados.org/cgi-bin/blosxom.cgi*
-
 lisletters.blogspot.com/*
-
 digitallibrarian.org/*
-
 www.patronizing.org/*
-
 www.lackoftalent.org/*
-
 www.kentongood.com/?cat=26*
-
 www.epistemographer.com/*
-
 blogdriverswaltz.com/*
-
 outgoing.typepad.com/outgoing*
-
 shelter.nu/blog*
-
 interoperating.info/mark/blog/1*
-
 www.tomkeays.com/blog*
-
 lxming.blogspot.com/*
-
 john.mignault.net/blog*
-
 infomotions.com/musings/musings*
-
 dltj.org/*
-
 benostrowsky.wordpress.com/*
-
 www.daveyp.com/blog*
-
 efoundations.typepad.com/efoundations*
-
 oregonstate.edu/~reeset/blog*
-
 librarycog.uwindsor.ca:8087/artblog/librarycog*
-
 inquiringlibrarian.blogspot.com/*
-
 www.ibiblio.org/bess/*
-
 thedil.wordpress.com/*
-
 cavlec.yarinareth.net/archives/category/computers*
-
 cavlec.yarinareth.net/archives/category/librariana*
-
 coffeecode.net/feeds/categories/16-Coding*
-
 dilettantes.code4lib.org/*
-
 umlaut.library.gatech.edu/blog/*
-
 www.inkdroid.org/journal*
-
 techessence.info/node*
-
 techessence.info/blog/1*
-
 roytennant.com/*
-
 vielmetti.typepad.com/vacuum*
-
 dystmesis.com:8081/*
-
 weibel-lines.typepad.com/weibelines*
-
 dataunbound.wordpress.com/*
-
 q6.oclc.org/*
-
 del.icio.us/rss/tag/code4lib*
-
 www.frbr.org/*
-
 libdev.plymouth.edu/*
-
 makinglinks.uwindsor.ca:8087/mitas/sfxblog*
-
 open-ils.org/blog/*
-
 oss4lib.org/node*
-
 blogs.talis.com/panlibus*
-
 feeds.technorati.com/feed/posts/tag/code4lib*
-
 unalog.com/group/code4lib*
+{% endhighlight %}
 
-</pre>
 <p>...and fed that into the Google Custom Search control panel.</p>
 <h2>Items of note in the Terms of Service</h2>
 <p>Along the way I found some curious bits in the <a href="http://www.google.com/coop/docs/cse/tos.html" title="Google Co-op - Custom Search Engine">Google Custom Search Terms of Service</a>.  In particular:</p>

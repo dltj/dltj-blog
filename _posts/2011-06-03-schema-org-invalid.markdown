@@ -250,88 +250,70 @@ comments:
   content: "<!--%kramer-ref-pre%-->[&#8230;] otherwise my template wouldn&#039;t be
     parsed. I found the solution here [&#8230;]<!--%kramer-ref-post%-->"
 ---
-<p>[Update on 10-Jun-2011: The answer to the question of the title is "not really" -- see the update at the bottom of this post and the comments for more information.]</p>
-<p>Yesterday <a href="http://googleblog.blogspot.com/2011/06/introducing-schemaorg-search-engines.html" title="Official Google Blog: Introducing schema.org: Search engines come together for a richer web">Google</a>, <a href="http://www.bing.com/community/site_blogs/b/search/archive/2011/06/01/bing-google-and-yahoo-unite-to-build-the-web-of-objects.aspx" title="Bing Introducing Schema.org: Bing, Google and Yahoo Unite to Build the Web of Objects - Search Blog - Site Blogs - Bing Community">Microsoft Bing</a>, and <a href="http://www.ysearchblog.com/2011/06/02/introducing-schema-org-a-collaboration-on-structured-data/" title="Introducing schema.org: A Collaboration on Structured Data">Yahoo!</a> announced a <a href="http://schema.org/" title="schema.org - Home">project</a> to promote machine-readable markup for structured data on web pages.<br />
-<blockquote>Many sites are generated from structured data, which is often stored in databases. When this data is formatted into HTML, it becomes very difficult to recover the original structured data. Many applications, especially search engines, can benefit greatly from direct access to this structured data. On-page markup enables search engines to understand the information on web pages and provide richer search results in order to make it easier for users to find relevant information on the web. Markup can also enable new tools and applications that make use of the structure.
-<div style="text-align: right; width: 100%;"><cite>- <a href="http://schema.org/" title="schema.org homepage" rel="homepage">schema.org - Home</a></cite></div>
-</blockquote>
-<p> The problem is, I think, that the markup they describe on there site generates invalid HTML.  Did they really do this?</p>
-<p>Take this example from the <a href="http://schema.org/Event" title="Event - schema.org">Event</a> description page:</p>
-<pre lang="xml">
+\[Update on 10-Jun-2011: The answer to the question of the title is "not really" -- see the update at the bottom of this post and the comments for more information.\]
 
+Yesterday [Google][0], [Microsoft Bing][1], and [Yahoo!][2] announced a [project][3] to promote machine-readable markup for structured data on web pages.  
+
+> Many sites are generated from structured data, which is often stored in databases. When this data is formatted into HTML, it becomes very difficult to recover the original structured data. Many applications, especially search engines, can benefit greatly from direct access to this structured data. On-page markup enables search engines to understand the information on web pages and provide richer search results in order to make it easier for users to find relevant information on the web. Markup can also enable new tools and applications that make use of the structure.
+> 
+> _- [schema.org - Home][4]_
+> 
+
+The problem is, I think, that the markup they describe on there site generates invalid HTML. Did they really do this?
+
+Take this example from the [Event][5] description page:
+
+{% highlight xml %}
 < !DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-
   <title>Test</title>
-
 </head>
-
 <body>
-
 <div itemscope itemtype="http://schema.org/Event">
-
   <a itemprop="url" href="nba-miami-philidelphia-game3.html">
-
   NBA Eastern Conference First Round Playoff Tickets:
-
   Miami Heat at Philadelphia 76ers - Game 3 (Home Game 1)
-
   </a>
 
-
-
   <time itemprop="startDate" datetime="2011-04-21T20:00">
-
     Thu, 04/21/11
-
     8:00 p.m.
-
   </time>
 
-
-
   <div itemprop="location" itemscope itemtype="http://schema.org/Place">
-
     <a itemprop="url" href="wells-fargo-center.html">
-
     Wells Fargo Center
-
     </a>
-
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-
       <span itemprop="addressLocality">Philadelphia</span>,
-
       <span itemprop="addressRegion">PA</span>
-
     </div>
-
   </div>
-
-
 
   <div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
-
     Priced from: <span itemprop="lowPrice">$35</span>
-
     <span itemprop="offerCount">1,938</span> tickets left
-
   </div>
-
 </div>
-
 </body>
-
 </html>
+{% endhighlight %}
 
-</pre>
-<p>The problem is in the first
-<div> line and the attribute 'itemscope' that has no value associated with it.  If you copy-and-paste that markup into the <a href="http://validator.w3.org/#validate_by_input" title="ec<br />
-The W3C Markup Validation Service">W3 validator</a> (using the "Validate by Direct Input" option and manually removing the space between the less-than sign and the exclamation point in the first line), it comes back with:</p>
-<blockquote><p><em>Line 7, Column 16</em>: <strong>required character (found i) (expected =)</strong></p></blockquote>
-<p>A bare attribute may be valid in some forms of HTML, but it certainly isn't valid XML, and I think that will cause all sorts of problems down the line.  Does anyone else see this as an issue?</p>
-<h2>Update</h2>
-<p>I heard back from one of the keepers of W3C's validator, and the <code>xmlns="http://www.w3.org/1999/xhtml"</code> attribute of the <code>html</code> tag was triggering the XML version of the validator.  The bare <code>itemscope</code> attribute is valid HTML but invalid XML (important for the XML serialization of HTML), but can be fixed by making it <code>itemscope="itemscope"</code>.  See the comments for more information.</p>
+The problem is in the first &lt;div&gt; line and the attribute 'itemscope' that has no value associated with it. If you copy-and-paste that markup into the [W3 validator][0] (using the "Validate by Direct Input" option and manually removing the space between the less-than sign and the exclamation point in the first line), it comes back with:
+
+> _Line 7, Column 16_: **required character (found i) (expected =)**
+
+A bare attribute may be valid in some forms of HTML, but it certainly isn't valid XML, and I think that will cause all sorts of problems down the line. Does anyone else see this as an issue?
+
+## Update
+
+I heard back from one of the keepers of W3C's validator[6], and the `xmlns="http://www.w3.org/1999/xhtml"` attribute of the `html` tag was triggering the XML version of the validator. The bare `itemscope` attribute is valid HTML but invalid XML (important for the XML serialization of HTML), but can be fixed by making it `itemscope="itemscope"`. See the comments for more information.
+
+[0]: http://googleblog.blogspot.com/2011/06/introducing-schemaorg-search-engines.html "Official Google Blog: Introducing schema.org: Search engines come together for a richer web"
+[1]: http://www.bing.com/community/site_blogs/b/search/archive/2011/06/01/bing-google-and-yahoo-unite-to-build-the-web-of-objects.aspx "Bing Introducing Schema.org: Bing, Google and Yahoo Unite to Build the Web of Objects - Search Blog - Site Blogs - Bing Community"
+[2]: http://www.ysearchblog.com/2011/06/02/introducing-schema-org-a-collaboration-on-structured-data/ "Introducing schema.org: A Collaboration on Structured Data"
+[3]: http://schema.org/ "schema.org - Home"
+[4]: http://schema.org/ "schema.org homepage"
+[5]: http://schema.org/Event "Event - schema.org"
+[6]: http://validator.w3.org/#validate_by_input

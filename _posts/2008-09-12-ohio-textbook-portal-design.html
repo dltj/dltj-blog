@@ -146,7 +146,8 @@ comments:
 <p>Each of them has minor, but important, configuration parameters that you'll need to set up in the Drupal installation's <code>/admin/settings</code> directory.  In particular, the CourseSmart Search module will have parameters for the discount coupon code plus the username/password for the private API (the private API is discussed in the module-specific section below).</p>
 <h2>Structure of the Search Modules</h2>
 <p>Each of the search modules -- CourseSmart, OhioLINK EBC, OhioLINK Library Catalog, and Safari -- follow the same basic structure.  (The "all" metasearch module is a little different and is covered below.)  The outline, hooks followed by supporting functions, is:</p>
-<pre lang="php">function module_menu() {
+{% highlight php %}
+function module_menu() {
   ...
 }
 
@@ -183,7 +184,8 @@ function module_search_box_form_submit($form, &$form_state) {
 
 function module_search_query($keys = '', $query = array(), $search = 'web', $version = 'v1') {
   ...
-}</pre>
+}
+{% endhighlight %}
 <p>Some explanation for each of these:</p>
 <ul type="disc">
 <li><code><i>module</i>_menu()</code> is a <a href="http://api.drupal.org/api/function/hook_menu/6" title="hook_menu | Drupal 6 API">Drupal hook that defines the menu options</a> for the setting screen.  The code to generate the menus themselves will be in a file in the module called "<i>module</i>.admin.inc".</li>

@@ -145,12 +145,14 @@ comments:
 <ol type="1" start="1">
 <li>Select the <em>Administration</em> tab then the <em>Commands</em> tab.</li>
 <li>Put this in the <em>Commands</em> text box, then select <em>Save Startup</em>:
-<pre lang="bash">#!/bin/sh
+{% highlight bash %}
+#!/bin/sh
 sed -i -e 's/mppe .*/mppe required,stateless/' /tmp/pptpd/options.pptpd
 echo "nopcomp" >> /tmp/pptpd/options.pptpd
 echo "noaccomp" >> /tmp/pptpd/options.pptpd
 kill `ps | grep pptp | cut -d ' ' -f 1`
-pptpd -c /tmp/pptpd/pptpd.conf -o /tmp/pptpd/options.pptpd</pre>
+pptpd -c /tmp/pptpd/pptpd.conf -o /tmp/pptpd/options.pptpd
+{% endhighlight %}
 </li>
 <li>Go to the <em>Management</em> subtab of <em>Administration</em> and at the bottom select <em>Reboot Router</em>.</li>
 </ol>
