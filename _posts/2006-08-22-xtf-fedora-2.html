@@ -100,11 +100,11 @@ comments:
 <p>Natively, XTF wants to read content out of the file system.  The core of the processing is done in these two class files:</p>
 <h3>TextIndexer.java</h3>
 <p>The <code>main()</code> driver for ingesting content into the index.  It reads commandline arguments (<code>cfgInfo.readCmdLine( args, startArg );</code>) to determine the various parameters, one of which is the top of the document source directory (<code>String srcRootDir = Path.resolveRelOrAbs( xtfHomeFile, cfgInfo.indexInfo.sourcePath );</code>).  Assuming all goes well, it calls a method to open the Lucene index for writing, process files in the source directory, and close the Lucene index:<br />
-[java]<br />
-srcTreeProcessor.open( cfgInfo );<br />
-srcTreeProcessor.processDir( new File(srcRootDir), 0 );<br />
-srcTreeProcessor.close();<br />
-[/java]</p>
+{% highlight java %}
+srcTreeProcessor.open( cfgInfo );
+srcTreeProcessor.processDir( new File(srcRootDir), 0 );
+srcTreeProcessor.close();
+{% endhighlight %}
 <h3>SrcTreeProcessor.java</h3>
 <p><code>processDir()</code> is called recursively on the directory structure to process files in that directory.  For each directory, a <code>docBuf</code> XML-as-a-string buffer is consisting of an element for every directory entry.  <code>docBuf</code> is fed into the SAXON processor along with the docSelector XSLT stylesheet.  The resulting XML is read node-by-node looking for file entries that have an "indexFile" tag.  For each matching node, it calls <code>processFile()</code> to index each entry.</p>
 <p><code>processFile()</code> will run the prefilter XSLT against the file content, build the Lazy Tree (if possible and requested), create the <code>IndexSource</code> version by running the source document through the appropriate file type "*IndexSource" method (e.g. <code>PDFIndexSource()</code>, <code>XMLIndexSource</code>, and <code>MARCIndexSource()</code>) and queue the content for indexing by the Lucene indexer.</p>
@@ -128,16 +128,16 @@ srcTreeProcessor.close();<br />
 <p>So, all-in-all, that doesn't seem too bad.  Here is where we get to mix in some FEDORA pieces and see what we get in the end.</p>
 <p>First off, in terms of dealing with "collections of source objects to be indexed" I think it would be best to have this start with one of our "collection aggregation" objects as the root level of a source collection.  We'd perform an RDF "isMemberOf" query against the resource index using the FEDORA PID of the aggregation object (and optionally make an "isMemberOf" query recursively against the returned set -- as if one was drilling down a file system).</p>
 <p>Secondly, to get the XML content to be indexed, each object would have a <code>getXML</code> disseminator (see <a href="/article/fedora-disseminators/">Thinking about Our FEDORA Disseminators</a> for background) that would render to XTF an XML version of itself.  If the source object is an XML-based object, it just returns the XML.  If the source object is a PDF or Word document or something that can be rendered into a text-like form, the disseminator would handle that.  If the source object is an image or audio clip, the disseminator can return the descriptive XML of the object.  The point being, though, by the time the object gets to XTF's textIndexer, it has already be rendered to XML, so just the XML transformation tool would be needed (as in this snipped from SrcTreeProcessor.java):<br />
-[java]<br />
-IndexSource srcFile = null;<br />
-if( format.equalsIgnoreCase("XML") ) {<br />
-    InputSource finalSrc = new InputSource( systemId );<br />
-    srcFile = new XMLIndexSource( finalSrc, srcPath, key,<br />
-                             preFilters, displayStyle, lazyStore );<br />
-    if( removeDoctypeDecl )<br />
-        ((XMLIndexSource)srcFile).removeDoctypeDecl( true );<br />
-}<br />
-[/java]</p>
+{% highlight java %}
+IndexSource srcFile = null;
+if( format.equalsIgnoreCase("XML") ) {
+    InputSource finalSrc = new InputSource( systemId );
+    srcFile = new XMLIndexSource( finalSrc, srcPath, key,
+                             preFilters, displayStyle, lazyStore );
+    if( removeDoctypeDecl )
+        ((XMLIndexSource)srcFile).removeDoctypeDecl( true );
+}
+{% endhighlight %}
 <p>Third, a FEDORA-aware driver that replaces TextIndexer.java and SrcTreeProcessor.java.  Given a configuration file location and a starting PID, it would gather the objects to be indexed, "open" the Lucene index, run through the snippet of Java above for each object, and "close" the Lucene index.</p>
 <p>The quick-and-dirty first implementation would copy the XML source to a directory on the hard drive (directory and subdirectory names would be the PID of the aggregation object containing the collection of objects), and have XTF use that local filesystem copy as the indexed source.  Lazy Tree files for each object would also be created and stored locally.  This means we have two copies (three, if you count the Lazy Tree) of the object laying around, so eventually I think we'd want to modify XTF to pull content directly from FEDORA using a REST-based URL.  Eventually I think we may also want to store the Lazy Tree in something other than the local file system.  Could that be another datastream in the FEDORA object?
 <p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://texts-stage.cdlib.org/xtf/javadoc/org/cdlib/xtf/textIndexer/IndexerConfig.html on December 31st, 2010.</p>
