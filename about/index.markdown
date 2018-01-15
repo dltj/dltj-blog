@@ -18,7 +18,7 @@ comments: []
 ---
 <h1>Peter E. Murray</h1>
 <div class="about-main-left">
-<img src="http://dltj.org/wp-content/uploads/2006/05/pmurray.jpg" height="175" width="150" style="float: left; padding-right: 2em;" alt="Picture of Peter Murray" /><br />
+<img src="/wp-content/uploads/2006/05/pmurray.jpg" height="175" width="150" style="float: left; padding-right: 2em;" alt="Picture of Peter Murray" /><br />
 <span style="font-weight: bold; font-size: 105%">Open Source Community Advocate</span><br /><span style="font-size: 105%"><a href="https://indexdata.com/" title="Index Data homepage">Index Data, LLC</a></span>
 <table style="border:0px">
 <tr>
@@ -43,7 +43,7 @@ comments: []
 > Of at least equal importance with his entertainer's cap was the jester's function as adviser and critic. This is what distinguishes him from a pure entertainer who would juggle batons, swallow swords, or strum on a lute or a clown who would play the fool simply to amuse people. The jester everywhere employed the same techniques to carry out this delicate role, and it would take an obtuse king or emperor not to realize what he was driving at, since "other court functionaries cooked up the king's facts for him before delivery; the jester delivered them raw." An informal survey of the man in the street has shown that most people will pinpoint the jester's right to speak his mind as one of his salient characteristics.<br />
 Beatrice K. Otto<br />
 _[Fools Are Everywhere: The Court Jester Around the World](http://www.press.uchicago.edu/ucp/books/book/chicago/F/bo3615397.html)_<br>
-ISBN: 0-226-64091-4, &copy;2001, [<img src="http://dltj.org/wp-content/uploads/2005/12/libraries_worldcat.gif" alt="" width="12" height="11" border="0" />&nbsp;Find in your library](http://www.worldcat.org/title/fools-are-everywhere-the-court-jester-around-the-world/oclc/44425502)
+ISBN: 0-226-64091-4, &copy;2001, [<img src="/wp-content/uploads/2005/12/libraries_worldcat.gif" alt="" width="12" height="11" border="0" />&nbsp;Find in your library](http://www.worldcat.org/title/fools-are-everywhere-the-court-jester-around-the-world/oclc/44425502)
 
 
 Does one need to mention anymore that the world is changing?
