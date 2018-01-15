@@ -22,7 +22,7 @@ phases:
       - jekyll build
   post_build:
     commands:
-      - aws s3 sync --delete --size-only --cache-control max-age=7200 _site/ "s3://${BUCKET_NAME}"
+      - aws s3 sync --delete --size-only --cache-control max-age=7201 _site/ "s3://${BUCKET_NAME}"
       - aws cloudfront create-invalidation --distribution-id "${CLOUDFRONTDIST}" --paths "/*"
       - aws s3api put-bucket-website --bucket "${BUCKET_NAME}" --website-configuration file://s3-website-config.json
 #artifacts:
