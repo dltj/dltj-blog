@@ -31,7 +31,7 @@ comments: []
 </tr>
 <tr>
 <td><b>R&eacute;sum&eacute;</b></td>
-<td align="right"><a href="http://dltj.org/resume/" title="R&amp;eacute;sum&amp;eacute;: Peter E. Murray">http://dltj.org/resume/</a></td>
+<td align="right"><a href="/resume/" title="R&amp;eacute;sum&amp;eacute;: Peter E. Murray">http://dltj.org/resume/</a></td>
 </tr>
 <tr>
 <td valign="top"><span style="line-height:100%;"><b>PGP Key<br />Fingerprint:<br />(Professional)</b></span><br /><a href="http://pgp.surfnet.nl:11371/pks/lookup?op=get&amp;search=0x48E5203C304F1344" style="font-size: 87%; font-style: italic;" title="PGP Public Key for Peter Murray">Get Public Key</a></td>
@@ -74,7 +74,7 @@ A time when we were "in the loop" of research because our scholars had no choice
 
 Well, [the times, they are a-changing](http://www.bobdylan.com/us/songs/times.html "Bob Dylan: The Times They Are A-Changin&#039;").
 
-Over the course of the past decade or so, I've put thoughts to bits-on-disk on why, in <a href="http://dltj.org/category/christensen/">Christensen</a> meaning of the term, the library profession is facing time of disruptive technology.
+Over the course of the past decade or so, I've put thoughts to bits-on-disk on why, in <a href="/category/christensen/">Christensen</a> meaning of the term, the library profession is facing time of disruptive technology.
 But if you take for granted for a moment that you feel disrupted -- a kind of loss -- where do you fit in these stages?
 <dl>
 <dt>Denial</dt>
@@ -95,7 +95,7 @@ But if you take for granted for a moment that you feel disrupted -- a kind of lo
 <li>
       <img alt="" class="a-c-B-qg" src="//s2.googleusercontent.com/s2/favicons?alt=p&amp;domain=dltj.org"/>
 <div class="a-c-B-h h">
-        <a class="a-c-B-h-cj url" href="http://dltj.org/foaf/#me" target="_blank" title="FOAF File">FOAF File</a>
+        <a class="a-c-B-h-cj url" href="/foaf/#me" target="_blank" title="FOAF File">FOAF File</a>
       </div>
 </li>
 <li>
