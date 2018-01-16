@@ -19,10 +19,15 @@ tags:
 - Fedora Repository
 comments: []
 ---
-<p>
-We had a need today to transform an XML file with a custom DTD into Dublin Core; the custom XML file is a datastream in our <a href="http://www.fedora.info/" title="FEDORA Digital Object Repository homepage">FEDORA repository</a> and we want to put the Dublin Core XML file back into the FEDORA object as the DC datastream.  This took a slew of technologies and techniques:  reading a datastream out of the FEDORA repository using <a href="http://www.fedora.info/definitions/1/0/api/Fedora-API-A.html" title="FEDORA API-A WSDL Documentation">API-A</a>, parsing XML documents using the <a href="http://java.sun.com/j2se/1.5.0/docs/api/org/w3c/dom/package-summary.html" title="org.w3c.dom (Java 2 Platform SE 5.0) documentation">Java DOM library</a>, creating a new document with the correct namespaces using Java DOM, and modifying the DC datastream in the repository using <a href="http://www.fedora.info/definitions/1/0/api/Fedora-API-M.html" title="FEDORA API-M WSDL Documentation">API-M</a>.</p>
-<p>
-I'm posting the code here in case someone else might find it useful.  Of course, if you know a better way please let me know.  We'll probably need to do things like this again...</p>
+We had a need today to transform an XML file with a custom DTD into Dublin Core; the custom XML file is a datastream in our [FEDORA repository][0] and we want to put the Dublin Core XML file back into the FEDORA object as the DC datastream. This took a slew of technologies and techniques: reading a datastream out of the FEDORA repository using [API-A][1], parsing XML documents using the [Java DOM library][2], creating a new document with the correct namespaces using Java DOM, and modifying the DC datastream in the repository using [API-M][3].
+
+I'm posting the code here in case someone else might find it useful. Of course, if you know a better way please let me know. We'll probably need to do things like this again...
+
+[0]: http://www.fedora.info/ "FEDORA Digital Object Repository homepage"
+[1]: http://www.fedora.info/definitions/1/0/api/Fedora-API-A.html "FEDORA API-A WSDL Documentation"
+[2]: http://java.sun.com/j2se/1.5.0/docs/api/org/w3c/dom/package-summary.html "org.w3c.dom (Java 2 Platform SE 5.0) documentation"
+[3]: http://www.fedora.info/definitions/1/0/api/Fedora-API-M.html "FEDORA API-M WSDL Documentation"
+
 {% highlight java %}
 /**********************************************************************************
  *

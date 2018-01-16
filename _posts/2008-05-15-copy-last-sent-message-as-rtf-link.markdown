@@ -60,10 +60,12 @@ comments:
     &hellip; -rtf-link/ but needed to modify it a bit.Re-creating the .sh file that
     Brett Terpstra had written was easy [...]<!--%kramer-ref-post%-->"
 ---
-<p>I've been a fan of <a href="http://en.wikipedia.org/wiki/Getting_Things_Done" title="Getting Things Done article in Wikipedia">Getting Things Done</a> as a technique for managing projects, but it was only recently that I settled on OmniFocus as the "trusted system" collecting all of my next actions.  One of the things I like about <a href="http://www.omnigroup.com/applications/omnifocus/" title="OmniFocus product information page">OmniFocus</a> -- as a rich, Mac-only application -- is its ability to hold links to messages from Mail.app as notes for each action.  This occurs, for instance, when you use the "Clippings" function of OmniFocus to create a new action based on the message that you are currently viewing in Mail.app.  (There are other ways to do it, such as the method described by <a href="http://www.earth2adam.com/omnifocus-gtd-actions-from-mail-redux/" title="OmniFocus GTD: Actions from Mail (redux)">Adam Sneller</a>.)</p>
-<p>One of the things I find myself doing is creating actions in a "Waiting" context based on e-mail messages I've just sent.  Initially, I'd just create the action via the OmniFocus Quick Entry window.  But I found myself needing to refer back to the message I sent when the person I'm waiting on doesn't come through.  So I started clicking and dragging the message from the Sent mailbox to the action.  But to do that I'd have to click into the Sent mailbox and have the Mail.app and the OmniFocus windows set up just right.  Or I'd have to follow a select-sent-mailbox, select-message, OmniFocus-quick-entry-with-clipping, select-Inbox, select-next-message workflow.  And that took time and effort.  So I've created an AppleScript ditty that does the work of creating a hyperlink on the clipboard of the last sent message.  The results can then be pasted into any RTF-aware application, including OmniFocus.<br />
-<!--more--><br />
-The script is based heavily on <a href="http://www.tuaw.com/2008/04/14/speedy-creation-of-rich-text-links-to-mail-messages/" title="Speedy creation of rich text links to Mail messages">Speedy creation of rich text links to Mail messages</a> by <a href="http://www.tuaw.com/bloggers/brett-terpstra/" title="Posts by Brett Terpstra at The Unofficial Apple Weblog (TUAW)">Brett Terpstra</a>.  In particular, he had the missing link about creating RTF hyperlinks on the clipboard using a bash shell script.  The meat of the AppleScript is:</p>
+I've been a fan of [Getting Things Done](http://en.wikipedia.org/wiki/Getting_Things_Done) as a technique for managing projects, but it was only recently that I settled on OmniFocus as the "trusted system" collecting all of my next actions. One of the things I like about [OmniFocus](http://www.omnigroup.com/applications/omnifocus/) -- as a rich, Mac-only application -- is its ability to hold links to messages from Mail.app as notes for each action. This occurs, for instance, when you use the "Clippings" function of OmniFocus to create a new action based on the message that you are currently viewing in Mail.app. (There are other ways to do it, such as the method described by [Adam Sneller](http://www.earth2adam.com/omnifocus-gtd-actions-from-mail-redux/).)
+
+One of the things I find myself doing is creating actions in a "Waiting" context based on e-mail messages I've just sent. Initially, I'd just create the action via the OmniFocus Quick Entry window. But I found myself needing to refer back to the message I sent when the person I'm waiting on doesn't come through. So I started clicking and dragging the message from the Sent mailbox to the action. But to do that I'd have to click into the Sent mailbox and have the Mail.app and the OmniFocus windows set up just right. Or I'd have to follow a select-sent-mailbox, select-message, OmniFocus-quick-entry-with-clipping, select-Inbox, select-next-message workflow. And that took time and effort. So I've created an AppleScript ditty that does the work of creating a hyperlink on the clipboard of the last sent message. The results can then be pasted into any RTF-aware application, including OmniFocus.  
+  
+The script is based heavily on [Speedy creation of rich text links to Mail messages](http://www.tuaw.com/2008/04/14/speedy-creation-of-rich-text-links-to-mail-messages/) by [Brett Terpstra](http://www.tuaw.com/bloggers/brett-terpstra/). In particular, he had the missing link about creating RTF hyperlinks on the clipboard using a bash shell script. The meat of the AppleScript is:
+
 {% highlight AppleScript %}
 tell application "Mail"
 
@@ -116,8 +118,9 @@ tell application "Mail"
 	do shell script "/bin/bash -c \"" & _script & " \\"" & _anchorText & "\\" \\"" & _msglnk & "\\"\""
 end tell
 {% endhighlight %}
-<p>It first prompts the user for which account to use based on the list of active accounts.  Then it gets the last message in the Sent mailbox of that account, gets various metadata properties, and sends the results to the bash shell script.  The shell script comes from Brett; it creates the RTF snippet and pipes it into '<a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/pbcopy.1.html" title="Mac OS X<br />
- Manual Page For pbcopy(1)">pbcopy</a>' to put it on the clipboard:</p>
+
+It first prompts the user for which account to use based on the list of active accounts. Then it gets the last message in the Sent mailbox of that account, gets various metadata properties, and sends the results to the bash shell script. The shell script comes from Brett; it creates the RTF snippet and pipes it into '[pbcopy](http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/pbcopy.1.html)' to put it on the clipboard:
+
 {% highlight bash %}
 #!/bin/bash
 # Places a rich text link on the clipboard
@@ -133,10 +136,18 @@ echo "{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf270
 {\field{\*\fldinst{HYPERLINK \"$2\"}}{\fldrslt 
 \f0\fs24 \cf0 $1}}}" | pbcopy -Prefer rtf
 {% endhighlight %}
-<p>The end result is a hyperlink with an anchor that looks something like:</p>
+
+The end result is a hyperlink with an anchor that looks something like:
+
 <pre>    Message sent Thursday, May 15, 2008 8:36:33 AM to Jane Partner regarding 'Can you pick up milk?'</pre>
-<p>...waiting on the clipboard to be pasted into an action note.  With that bound to <span class="removed_link" title="http://docs.blacktree.com/quicksilver/triggers">a keyboard trigger via QuickSilver</span>, copying a link to a message is now a simple matter of keystrokes.</p>
-<p>If you are interested, you can <a href="/wp-content/uploads/2008/05/copy-last-sent-message-as-rtf-link.zip">download the "Copy last sent message as RTF link" AppleScript bundle</a> and try it yourself.  Let me know what you think.</p>
-<p>Update 20080516T1219 : I had to modify the part of the code that gets the recipient name or (for recipients without name parts) the e-mail address.  The downloaded version has been updated.</p>
-<p>Update 20110405T1946 : The script has been improved!  See this <a href="http://forums.omnigroup.com/showthread.php?t=20397" title="Copy last sent message to Clippings - The Omni Group Forums">thread on the Omni Group forums</a> for the update.  Thanks to <a href="http://forums.omnigroup.com/member.php?u=5000" title="The Omni Group Forums - View Profile: whpalmer4">whpalmer4</a> for the modifications.</p>
-<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://docs.blacktree.com/quicksilver/triggers on January 28th, 2011.</p>
+
+...waiting on the clipboard to be pasted into an action note. With that bound to a keyboard trigger via QuickSilver, copying a link to a message is now a simple matter of keystrokes.
+
+If you are interested, you can [download the "Copy last sent message as RTF link" AppleScript bundle](http://localhost:4000/wp-content/uploads/2008/05/copy-last-sent-message-as-rtf-link.zip) and try it yourself. Let me know what you think.
+
+Update 20080516T1219 : I had to modify the part of the code that gets the recipient name or (for recipients without name parts) the e-mail address. The downloaded version has been updated.
+
+Update 20110405T1946 : The script has been improved! See this [thread on the Omni Group forums](http://forums.omnigroup.com/showthread.php?t=20397) for the update. Thanks to [whpalmer4](http://forums.omnigroup.com/member.php?u=5000) for the modifications.
+
+The text was modified to remove a link to http://docs.blacktree.com/quicksilver/triggers on January 28th, 2011.
+

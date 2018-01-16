@@ -197,11 +197,16 @@ comments:
     modul mod_proxy_html, kter&yacute; v&scaron;ak nen&iacute; ve standardn&iacute;
     distribuci Apache. Kdyby v&aacute;s zaj&iacute;mali detaily. [&#8230;]<!--%kramer-ref-post%-->"
 ---
-<p>In this How-To guide, I show a combination of software and configuration to clean up URLs by removing the port numbers of the Java servlet engine (Tomcat) and the context path of the application.  The goal is to create "<a href="http://www.w3.org/Provider/Style/URI" title="Hypertext Style: Cool URIs don't change.">cool URLs</a>" that are are short (removing the unnecessary context path) and follow conventions (using the default port "80" rather than "8080").  OhioLINK also uses a custom access control module -- built for Apache HTTPD -- which makes the fronting of Apache HTTPD for Tomcat even more desirable.</p>
-<h2>Requirement</h2>
-<p>We're making use of the latest line of development for the Apache HTTPD series:  <a href="http://httpd.apache.org/docs/2.2/" title="Apache HTTPD 2.2.x documentation">version 2.2.x</a>.  The inclusion of <a href="http://httpd.apache.org/docs/2.2/mod/mod_proxy_ajp.html" title="Apache HTTPD mod_proxy_ajp documentation">mod_proxy_ajp</a> -- replacing the custom "mod_jk" with a module that extends the httpd proxy engine -- in the latest major release of HTTPD makes our task much easier.  This solution also uses HTTPD's mod_rewrite and an add-on module called <a href="http://apache.webthing.com/mod_proxy_html/" title="mod_proxy_html Apache HTTPD module homepage">mod_proxy_html</a>.  No additions or changes are needed to the stock Tomcat installation.</p>
-<h2>The Plan</h2>
-<p>There are two overall tasks that we're going to ask the HTTPD server to do.  First, receive the incoming HTTP request and proxy it to the Tomcat servlet engine using the AJP protocol.  Second, rewrite the URL paths of the headers and the X/HTML body from the Tomcat servlet engine to eliminate any instances of the context path.  In a visual sense, what we are trying to is rewrite the path so it can be processed by Tomcat (the green box) then remove the extraneous parts of the path in the resulting headers and X/HTML (the red box):</p>
+In this How-To guide, I show a combination of software and configuration to clean up URLs by removing the port numbers of the Java servlet engine (Tomcat) and the context path of the application. The goal is to create "[cool URLs](http://www.w3.org/Provider/Style/URI)" that are are short (removing the unnecessary context path) and follow conventions (using the default port "80" rather than "8080"). OhioLINK also uses a custom access control module -- built for Apache HTTPD -- which makes the fronting of Apache HTTPD for Tomcat even more desirable.
+
+## Requirement
+
+We're making use of the latest line of development for the Apache HTTPD series: [version 2.2.x](http://httpd.apache.org/docs/2.2/). The inclusion of [mod_proxy_ajp](http://httpd.apache.org/docs/2.2/mod/mod_proxy_ajp.html) -- replacing the custom "mod_jk" with a module that extends the httpd proxy engine -- in the latest major release of HTTPD makes our task much easier. This solution also uses HTTPD's mod_rewrite and an add-on module called [mod_proxy_html](http://apache.webthing.com/mod_proxy_html/). No additions or changes are needed to the stock Tomcat installation.
+
+## The Plan
+
+There are two overall tasks that we're going to ask the HTTPD server to do. First, receive the incoming HTTP request and proxy it to the Tomcat servlet engine using the AJP protocol. Second, rewrite the URL paths of the headers and the X/HTML body from the Tomcat servlet engine to eliminate any instances of the context path. In a visual sense, what we are trying to is rewrite the path so it can be processed by Tomcat (the green box) then remove the extraneous parts of the path in the resulting headers and X/HTML (the red box):
+
 <table cellpadding="2" cellspacing="0">
 <tr>
 <td align="right"><i>Public Request URLs:&nbsp;&nbsp;</i></td>
@@ -228,16 +233,24 @@ comments:
 <td colspan="2">/next/page</td>
 </tr>
 </table>
-<p>The first half of this problem, modifying a request as they come into the Apache HTTPD server, will be handled by a <a href="http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html" title="Apache HTTPD mod_rewrite documentation">mod_rewrite</a> rule that rewrites the request to something Tomcat can understand then internally redirects it Tomcat via the AJP proxy.  (Note that we are not using simply <a href="http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#proxypass" title="'ProxyPass' directive in HTTPD mod_proxy documentation">ProxyPass</a> here because we want to send the request through the AJP interface to the Tomcat server, and <a href="http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html#rewriterule" title="'RewriteRule' directive in HTTPD mod_rewrite documentation">RewriteRule</a> allows us to do that with a <code>[P]</code> flag at the end of the RewriteRule line.)  The second uses a combination of <a href="http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#proxypassreverse" title="'ProxyPassReverse' directive in HTTPD mod_proxy documentation">ProxyPassReverse</a> (a part of Apache-supplied mod_proxy extension that adjusts the URL in the Location, Content-Location and URI headers), <a href="http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#proxypassreversecookiepath" title="'ProxyPassReverseCookiePath' directive in HTTPD mod_proxy documentation">ProxyPassReverseCookiePath</a> (also a part of the Apache-supplied mod_proxy extension; it rewrites the path string in Set-Cookie headers), and <a href="http://apache.webthing.com/mod_proxy_html/config.html" title="mod_proxy_html configuration documentation">ProxyHTMLURLMap</a> (from mod_proxy_html, a third-party extension that rewrites URLs inside X/HTML documents). </p>
-<h2>Preparations</h2>
-<p>The 'mod_proxy_html' extension is likely new to your Apache HTTPD installation, so we need to download the source, compile it, and move it into the proper directory.  Fortunately, this is rather straight forward:</p>
+
+The first half of this problem, modifying a request as they come into the Apache HTTPD server, will be handled by a [mod_rewrite](http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html) rule that rewrites the request to something Tomcat can understand then internally redirects it Tomcat via the AJP proxy. (Note that we are not using simply [ProxyPass](http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#proxypass) here because we want to send the request through the AJP interface to the Tomcat server, and [RewriteRule](http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html#rewriterule) allows us to do that with a `[P]` flag at the end of the RewriteRule line.) The second uses a combination of [ProxyPassReverse](http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#proxypassreverse) (a part of Apache-supplied mod_proxy extension that adjusts the URL in the Location, Content-Location and URI headers), [ProxyPassReverseCookiePath](http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#proxypassreversecookiepath) (also a part of the Apache-supplied mod_proxy extension; it rewrites the path string in Set-Cookie headers), and [ProxyHTMLURLMap](http://apache.webthing.com/mod_proxy_html/config.html) (from mod_proxy_html, a third-party extension that rewrites URLs inside X/HTML documents).
+
+## Preparations
+
+The 'mod_proxy_html' extension is likely new to your Apache HTTPD installation, so we need to download the source, compile it, and move it into the proper directory. Fortunately, this is rather straight forward:
+
 {% highlight bash %}
 wget 'http://apache.webthing.com/mod_proxy_html/mod_proxy_html-2.5.2.c'
 apxs -c -I/usr/include/libxml2 -i mod_proxy_html-2.5.2.c
 {% endhighlight %}
-<p>Note that we are not using the mod_proxy_html author's 3.0 version here.  In my set-up, the 3.0 version was causing Apache HTTPD to dump core on <em>every</em> request (whether proxied or not), and the prior release works just fine for our purposes.  The <code>apxs</code> line will compile, link, and copy the resulting library to the Apache modules directory for us.</p>
-<h2>The Configuration</h2>
-<p>This is the contents a 'tomcat-proxy.conf' file that is placed in the 'conf.d' directory of the Apache HTTPD configuration directory (most likely <code>/etc/httpd/conf.d/tomcat-proxy.conf</code>, although your installation may vary).</p>
+
+Note that we are not using the mod_proxy_html author's 3.0 version here. In my set-up, the 3.0 version was causing Apache HTTPD to dump core on _every_request (whether proxied or not), and the prior release works just fine for our purposes. The `apxs` line will compile, link, and copy the resulting library to the Apache modules directory for us.
+
+## The Configuration
+
+This is the contents a 'tomcat-proxy.conf' file that is placed in the 'conf.d' directory of the Apache HTTPD configuration directory (most likely `/etc/httpd/conf.d/tomcat-proxy.conf`, although your installation may vary).
+
 {% highlight config %}
 #
 #  Information about 'mod_proxy_html' can be found at 
@@ -273,4 +286,5 @@ ProxyPassReverse /context_path/ /
 ProxyPassReverseCookiePath /context_path/ /
 ProxyHTMLURLMap /context_path/ /
 {% endhighlight %}
-<p>That's pretty much all there is to it.  You should note that mod_proxy_html, like any HTML scraper, requires modestly well-formed X/HTML.  If the markup is bad, the output from mod_proxy_html is likely to be unpredictable.</p>
+
+That's pretty much all there is to it.  You should note that mod_proxy_html, like any HTML scraper, requires modestly well-formed X/HTML.  If the markup is bad, the output from mod_proxy_html is likely to be unpredictable.

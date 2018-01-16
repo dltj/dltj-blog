@@ -115,38 +115,61 @@ comments:
   content: "<!--%kramer-ref-pre%-->[...]  http://dltj.org/article/standards-compliant-web-video/
     Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way [...]<!--%kramer-ref-post%-->"
 ---
-<p>The word "Successful" in the title, when juxtaposed with "Standards-Compliant" and "Accessible," should be big, bold and flashing (except that the flashing style would then go against web accessibility best practice).  The goal is to embed a video clip into a web page that validates as "XHTML4.01 Transitional", includes a Closed Captioning text track to be displayed in the web page, and could be viewed in one of three flavors:  Windows Media, QuickTime, and Real.  And the content being presented is about using accessible technologies in the classroom, so it had to be "right."  This task was much harder than I thought, and I'll offer much harder than it should have been.  Piecing together sources too numerous to mention, I managed to make it happen ... with just a few caveats.  Here, documented for all time, or at least until dltj.org goes away or the next major browser/streaming-client revision (which ever comes first) is how it can be done.</p>
-<h2>The Content</h2>
-<p>I hope someday soon to actually post a link to this content online where you can see at least the public face of this solution at play.  The content is for a series of web-based modules for faculty and administrators to help improve the quality of education for students with disabilities.  It is top-notch stuff, and it has been a real honor to work with the team that put it together.  For my piece of it, though, they gave me a set of directories, broken out by media type, with this content:</p>
-<dl>
-<dt>Windows/</dt>
-<dd>.wmv (the video) and .smi (the closed caption text track)</dd>
-<dt>Real/</dt>
-<dd>.rm (the video), .rt (the closed caption text track) and .smi (the container that pulls the first two together)</dd>
-<dt>Quicktime/</dt>
-<dd>.mov (the video)</dd>
-</dl>
-<p>Now right out of the gate we're fudging things a little bit.  For whatever reason the team developing the content decided to punt when it came to the text track in Quicktime.  I don't know if there was an insurmountable barrier or some other reason, but the practical upshot is that the Quicktime version of the video includes the text track an "open caption" encoded right into the video stream.  That makes Quicktime, from my perspective, very easy to deal with.</p>
-<p>Those with a keen eye will notice that both the Windows Media and the Real Media version have  a .smi file.  This is true, but they are not identical.  Windows media wants to use a .asx file as its container object and only uses the .smi for the text stream.  The Real Media version has the text stream in .rt files.  Could these be combined?  Perhaps, but I've got real-world problems to solve and this is what I was given.  In any case, I don't think it makes the end result any easier or harder than it would be otherwise.</p>
-<h2>Serving Up the Content</h2>
-<p>We use a Helix Streaming Media server from Real Networks, Inc., as our content server, but that isn't the really interesting part of this quest.  Another requirement, was that the URLs to these various media files needed to be persistent, <em>is</em> an interesting problem.  The HTML that will include the URLs could be copied and distributed to hundreds if not thousands of sites eventually, so updating the URLs in web pages because a machine name changed or we decide to use a Darwin Streaming Server rather than a Helix Streaming Server for Quicktime would be impossible to get done right.  OhioLINK (my employer), being a content provider for member libraries, created a persistent URL service years ago for its content called "RAVE" (or <b><u>R</u></b>andom <b><u>A</u></b>ccess to <b><u>V</u></b>irtually <b><u>E</u></b>verything), so it made sense to have the URLs to the media pieces be "RAVE URLs".  RAVE URLs are handled by PERL scripts running on an Apache virtual host called "rave.ohiolink.edu".  These PERL scripts read the parameters of the request and issue an HTTP 302 ("Moved Temporarily") redirect to the real location of the content.  In doing so, we only need to change the address of the content in one place -- the RAVE script -- when the location moves (rather than in the hundreds of web pages or bookmarks or what-have-you).</p>
-<p>For the purposes of this project, these RAVE URLs were defined as this (the http protocol prefix is omitted so over-anxious RSS readers will not attempt to turn them into hyperlinks; "blah" is a placeholder for the project name; and [id] represents the identifier for the video segment):</p>
-<dl style="margin-left: 3em">
-<dt>rave.ohiolink.edu/dmc/blah/quicktime/[id]</dt>
-<dd>Redirects to the location of the Quicktime file (a hinted .mov file, so it starts playing in the browser right away)</dd>
-<dt>rave.ohiolink.edu/dmc/blah/real/[id]</dt>
-<dd>Redirects to the location of the .smi container file via the mms protocol through the Helix streaming server</dd>
-<dt>rave.ohiolink.edu/dmc/blah/windows/wmv/[id]</dt>
-<dd>Redirects to the location of the wmv video file via the mms protocol through the Helix streaming server</dd>
-<dt>rave.ohiolink.edu/dmc/blah/windows/smi/[id]</dt>
-<dd>Pulls the .smi file off of the streaming server and sends it back to the browser with the appropriate MIME type</dd>
-<dt>rave.ohiolink.edu/dmc/blah/windows/asx/[id]</dt>
-<dd>Dynamically creates a .asx container that pulls together the <code>windows/smi</code> and the <code>windows/wmv</code> files</dd>
-</dl>
-<p>Here are the first of the tricky bits.  First, it seems like Windows Media Player can't cope with a 302 redirect message in response to its request for a .smi file.  "Can't cope" can be restated as "ignores"; it doesn't throw an error, it just plays the file as if there was no closed captioning text.  To get around this, the RAVE script has a bit of PERL where it asks like a web client to pull the .smi file off of the video server and send it back out to the media player.</p>
-<div style="padding 1em; border: 1px solid red; margin: 1em; background: yellow; color: black;">
-Note &mdash; the Perl script included below was updated in February 2007 to include <a href="/article/update-to-embedded-web-video/">a fix for the deprecation of the MMS protocol</a> in Windows Media Player.</div>
-<p>Second -- again for those with eagle eyes -- is the dynamic generation of an .asx file.  As it turns out, one can relate a .smi text-track file with a .wmv video file by including it as a SAMI parameter on the URL.  By far the best practice for doing this seems to be to relate the .smi and the .wmv files in a .asx container file.  So we create one on-the-fly.  The PERL code looks like this:</p>
+The word "Successful" in the title, when juxtaposed with "Standards-Compliant" and "Accessible," should be big, bold and flashing (except that the flashing style would then go against web accessibility best practice). The goal is to embed a video clip into a web page that validates as "XHTML4.01 Transitional", includes a Closed Captioning text track to be displayed in the web page, and could be viewed in one of three flavors: Windows Media, QuickTime, and Real. And the content being presented is about using accessible technologies in the classroom, so it had to be "right." This task was much harder than I thought, and I'll offer much harder than it should have been. Piecing together sources too numerous to mention, I managed to make it happen ... with just a few caveats. Here, documented for all time, or at least until dltj.org goes away or the next major browser/streaming-client revision (which ever comes first) is how it can be done.
+
+## The Content
+
+I hope someday soon to actually post a link to this content online where you can see at least the public face of this solution at play. The content is for a series of web-based modules for faculty and administrators to help improve the quality of education for students with disabilities. It is top-notch stuff, and it has been a real honor to work with the team that put it together. For my piece of it, though, they gave me a set of directories, broken out by media type, with this content:
+
+**Windows/**
+
+> .wmv (the video) and .smi (the closed caption text track)
+
+**Real/**
+
+> .rm (the video), .rt (the closed caption text track) and .smi (the container that pulls the first two together)
+
+**Quicktime/**
+
+> .mov (the video)
+
+Now right out of the gate we're fudging things a little bit. For whatever reason the team developing the content decided to punt when it came to the text track in Quicktime. I don't know if there was an insurmountable barrier or some other reason, but the practical upshot is that the Quicktime version of the video includes the text track an "open caption" encoded right into the video stream. That makes Quicktime, from my perspective, very easy to deal with.
+
+Those with a keen eye will notice that both the Windows Media and the Real Media version have a .smi file. This is true, but they are not identical. Windows media wants to use a .asx file as its container object and only uses the .smi for the text stream. The Real Media version has the text stream in .rt files. Could these be combined? Perhaps, but I've got real-world problems to solve and this is what I was given. In any case, I don't think it makes the end result any easier or harder than it would be otherwise.
+
+## Serving Up the Content
+
+We use a Helix Streaming Media server from Real Networks, Inc., as our content server, but that isn't the really interesting part of this quest. Another requirement, was that the URLs to these various media files needed to be persistent, _is_ an interesting problem. The HTML that will include the URLs could be copied and distributed to hundreds if not thousands of sites eventually, so updating the URLs in web pages because a machine name changed or we decide to use a Darwin Streaming Server rather than a Helix Streaming Server for Quicktime would be impossible to get done right. OhioLINK (my employer), being a content provider for member libraries, created a persistent URL service years ago for its content called "RAVE" (or **_R_**andom **_A_**ccess to **_V_**irtually **_E_**verything), so it made sense to have the URLs to the media pieces be "RAVE URLs". RAVE URLs are handled by PERL scripts running on an Apache virtual host called "rave.ohiolink.edu". These PERL scripts read the parameters of the request and issue an HTTP 302 ("Moved Temporarily") redirect to the real location of the content. In doing so, we only need to change the address of the content in one place -- the RAVE script -- when the location moves (rather than in the hundreds of web pages or bookmarks or what-have-you).
+
+For the purposes of this project, these RAVE URLs were defined as this (the http protocol prefix is omitted so over-anxious RSS readers will not attempt to turn them into hyperlinks; "blah" is a placeholder for the project name; and \[id\] represents the identifier for the video segment):
+
+**rave.ohiolink.edu/dmc/blah/quicktime/\[id\]**
+
+> Redirects to the location of the Quicktime file (a hinted .mov file, so it starts playing in the browser right away)
+
+**rave.ohiolink.edu/dmc/blah/real/\[id\]**
+
+> Redirects to the location of the .smi container file via the mms protocol through the Helix streaming server
+
+**rave.ohiolink.edu/dmc/blah/windows/wmv/\[id\]**
+
+> Redirects to the location of the wmv video file via the mms protocol through the Helix streaming server
+
+**rave.ohiolink.edu/dmc/blah/windows/smi/\[id\]**
+
+> Pulls the .smi file off of the streaming server and sends it back to the browser with the appropriate MIME type
+
+**rave.ohiolink.edu/dmc/blah/windows/asx/\[id\]**
+
+> Dynamically creates a .asx container that pulls together the `windows/smi` and the `windows/wmv` files
+
+Here are the first of the tricky bits. First, it seems like Windows Media Player can't cope with a 302 redirect message in response to its request for a .smi file. "Can't cope" can be restated as "ignores"; it doesn't throw an error, it just plays the file as if there was no closed captioning text. To get around this, the RAVE script has a bit of PERL where it asks like a web client to pull the .smi file off of the video server and send it back out to the media player.
+
+Note --- the Perl script included below was updated in February 2007 to include [a fix for the deprecation of the MMS protocol](/article/update-to-embedded-web-video) in Windows Media Player.
+
+Second -- again for those with eagle eyes -- is the dynamic generation of an .asx file. As it turns out, one can relate a .smi text-track file with a .wmv video file by including it as a SAMI parameter on the URL. By far the best practice for doing this seems to be to relate the .smi and the .wmv files in a .asx container file. So we create one on-the-fly. The PERL code looks like this:
+
+
 {% highlight perl %}
 #!/usr/bin/perl -w
 # Copyright (C) 2006 OhioLINK

@@ -19,22 +19,24 @@ tags:
 - libraries
 comments: []
 ---
-<p>I've just had the third occasion where in support of a user I suspect that user has a piece of software which is blocking or modifying the HTTP "referrer" header that comes normally with most interactions between a web browser and a web server.  Rather than asking that user to run a complicated test I found elsewhere on the web, I whipped up a little ditty that tests for this with (hopefully) non-technical words and advice.  At the bottom of this post is the source code for the script; feel free to take it and modify it for your own circumstances.</p>
-<p>The URL to start the test is <span class="removed_link" title="http://www.ohiolink.edu/cgi-bin/check-refer.pl">http://www.ohiolink.edu/cgi-bin/check-refer.pl</span>.</p>
-<p>I suspect most everyone will see the "correct behavior" as a result of the test.  For the sake of describing the problem completely, there are two possible "error" messages that one might see, though, if something is wrong.  First, if there was not a "Referrer" field received at the web server:</p>
-<blockquote><p>
-Either your browser did not return a 'Referrer' URL as a result of following the link on the previous page or an intermediary has stripped the referrer URL from your browser's request before it reached this server. (This symptom can also happen if you typed the results URL, http://www.ohiolink.edu/cgi-bin/check-refer.pl/test, directly in the browser address window rather beginning from the start page.)
-</p></blockquote>
-<p>Second, if what was received was not what was expected:</p>
-<blockquote>
-<p>As a result of following the link on the previous page, your browser returned this as the 'Referrer' field:<br /><span style="font-family:monospace; margin-left: 5em; margin-top: 1em;">[... something else ...]</span></p>
-<p>This was not what was expected, and as a result you may have problems using some OhioLINK services.<br />
-This value should be <em>http://www.ohiolink.edu/cgi-bin/check-refer.pl</em> instead.<br />
-(Make sure you start from <span class="removed_link" title="http://www.ohiolink.edu/cgi-bin/check-refer.pl">http://www.ohiolink.edu/cgi-bin/check-refer.pl</span> when performing this test.)</p>
-<p>For assistance with correcting this problem, please see <a href="http://karmak.org/2004/reftest/fix" title="HTTP_REFERER Fix">this support page from karmak.org</a>.</p>
-</blockquote>
-<p>This 'referrer problem' seems to be happening more as a result of personal firewall software and other "helpful" agents.  Setting aside for the moment the question of whether relying on the HTTP Referer <footnote>By the way, "Referer" is not a typo here &mdash; it is arguably a typo in the original HTTP specification</footnote> URL is an acceptable or wise programming choice, if one of your standard troubleshooting tactics doesn't work you may want to try this one.</p>
-{% highlight perl %}
+I've just had the third occasion where in support of a user I suspect that user has a piece of software which is blocking or modifying the HTTP "referrer" header that comes normally with most interactions between a web browser and a web server.  Rather than asking that user to run a complicated test I found elsewhere on the web, I whipped up a little ditty that tests for this with (hopefully) non-technical words and advice.  At the bottom of this post is the source code for the script; feel free to take it and modify it for your own circumstances.
+
+The URL to start the test is <span class="removed_link" title="http://www.ohiolink.edu/cgi-bin/check-refer.pl">http://www.ohiolink.edu/cgi-bin/check-refer.pl</span>.
+
+I suspect most everyone will see the "correct behavior" as a result of the test.  For the sake of describing the problem completely, there are two possible "error" messages that one might see, though, if something is wrong.  First, if there was not a "Referrer" field received at the web server:
+
+> Either your browser did not return a 'Referrer' URL as a result of following the link on the previous page or an intermediary has stripped the referrer URL from your browser's request before it reached this server. (This symptom can also happen if you typed the results URL, http://www.ohiolink.edu/cgi-bin/check-refer.pl/test, directly in the browser address window rather beginning from the start page.)
+
+Second, if what was received was not what was expected:
+
+> As a result of following the link on the previous page, your browser returned this as the 'Referrer' field:<br /><span style="font-family:monospace; margin-left: 5em; margin-top: 1em;">[... something else ...]</span>
+> This was not what was expected, and as a result you may have problems using some OhioLINK services.
+> This value should be <em>http://www.ohiolink.edu/cgi-bin/check-refer.pl</em> instead.
+> (Make sure you start from <span class="removed_link" title="http://www.ohiolink.edu/cgi-bin/check-refer.pl">http://www.ohiolink.edu/cgi-bin/check-refer.pl</span> when performing this test.)
+> For assistance with correcting this problem, please see <a href="http://karmak.org/2004/reftest/fix" title="HTTP_REFERER Fix">this support page from karmak.org</a>.
+
+This 'referrer problem' seems to be happening more as a result of personal firewall software and other "helpful" agents.  Setting aside for the moment the question of whether relying on the HTTP Referer <footnote>By the way, "Referer" is not a typo here &mdash; it is arguably a typo in the original HTTP specification</footnote> URL is an acceptable or wise programming choice, if one of your standard troubleshooting tactics doesn't work you may want to try this one.
+
 #!/usr/bin/perl
 ##
 ###########################################################################
@@ -257,4 +259,3 @@ sub handle_die {
   print HTMLfooter();
   exit;
 }
-{% endhighlight %}
