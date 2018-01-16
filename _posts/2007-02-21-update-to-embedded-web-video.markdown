@@ -45,7 +45,7 @@ comments:
 ---
 With the release of Microsoft's [Windows Media Player version 11](http://www.microsoft.com/windows/windowsmedia/player/11/default.aspx), the Microsoft Media Server (MMS) protocol is [officially no longer supported](http://web.archive.org/web/20121021035215/http://www.microsoft.com/windows/windowsmedia/licensing/netprokit.aspx). (Except, of course, for the confusing/amusing footnote on that page that says 'mms://' URIs are "highly recommended" as a [protocol rollover URL](http://msdn2.microsoft.com/en-gb/library/aa390673.aspx) — only Microsoft can at the same time make something deprecated and highly recommended.) As Ryan Eby noted earlier this year, those generating ASX files for Windows Media Player need to adjust their scripts.
 
-Last year I published an entry called [Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way](http://localhost:4000/article/standards-compliant-web-video/) on how to embed (without using the non-standard &lt;embed&gt; tag) video on an HTML page. It has been one of the most widely read articles on_DLTJ.org_, and so I wanted to publish an updated version of the script from that article to take into account this new wrinkle from Microsoft. The change is at line #41 below:
+Last year I published an entry called [Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way](/article/standards-compliant-web-video/) on how to embed (without using the non-standard &lt;embed&gt; tag) video on an HTML page. It has been one of the most widely read articles on_DLTJ.org_, and so I wanted to publish an updated version of the script from that article to take into account this new wrinkle from Microsoft. The change is at line #41 below:
 
 
 {% highlight perl %}

@@ -143,7 +143,7 @@ The end result is a hyperlink with an anchor that looks something like:
 
 ...waiting on the clipboard to be pasted into an action note. With that bound to a keyboard trigger via QuickSilver, copying a link to a message is now a simple matter of keystrokes.
 
-If you are interested, you can [download the "Copy last sent message as RTF link" AppleScript bundle](http://localhost:4000/wp-content/uploads/2008/05/copy-last-sent-message-as-rtf-link.zip) and try it yourself. Let me know what you think.
+If you are interested, you can [download the "Copy last sent message as RTF link" AppleScript bundle](/wp-content/uploads/2008/05/copy-last-sent-message-as-rtf-link.zip) and try it yourself. Let me know what you think.
 
 Update 20080516T1219 : I had to modify the part of the code that gets the recipient name or (for recipients without name parts) the e-mail address. The downloaded version has been updated.
 

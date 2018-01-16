@@ -119,7 +119,7 @@ Here are the results. In all cases except for one, the 'twitterfeed' service was
   * Ubervu service view of www.lisnews.org/librarian_h_o_p_e_hackers_planet_earth_conference
   * Ubervu service view of orweblog.oclc.org/archives/001392.html
   * Ubervu service view of scienceblogs.com/bookoftrogool/2009/12/top-down_or_bottom-up.php
-  * Ubervu service view of dltj.org/article/alamw10-schedule/ [Me again -- 5 questionable tweets, described in [previous post](http://localhost:4000/article/twitter-spam/)]
+  * Ubervu service view of dltj.org/article/alamw10-schedule/ [Me again -- 5 questionable tweets, described in [previous post](/article/twitter-spam/)]
   * Ubervu service view of infomotions.com/blog/2009/12/good-and-best-open-source-software/ [2 questionable tweets: Twitter ID 'audio_college' (3,240 followers) and ID 'DTcomputers' (10,204 followers)]
   * Ubervu service view of catalogablog.blogspot.com/2009/12/isbd-area-0-in-rusian.html [1 questionable tweet: Twitter ID 'rem_simanovski' (658 followers)
   * Ubervu service view of go-to-hellman.blogspot.com/2009/12/case-against-using-spoofed-e-books-to.html [1 questionable tweet: Twitter ID 'ispicey' (8,177 followers)
