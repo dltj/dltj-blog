@@ -24,6 +24,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-gist"
   gem "jekyll-archives"
+  gem "jekyll-lazy-tweet-embedding"
   gem "jemoji"
 end
 
