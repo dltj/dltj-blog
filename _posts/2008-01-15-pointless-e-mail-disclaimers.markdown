@@ -1,5 +1,4 @@
 ---
-layout: wordpress-import
 status: publish
 published: true
 title: Pointless E-mail Disclaimers
@@ -286,57 +285,103 @@ comments:
     companies have different pricing levels, if you reveal your price to another company
     they can close your account
 ---
-<p>I've been collecting disclaimers that appear on the bottom of e-mail messages in a draft post on <acronym title="Disruptive Library Technology Jester"><i>DLTJ</i></acronym> for about a year now -- every time I'd get a new one with a different twist, I'd save it anticipating the day would come that there would be enough humor here to share with the rest of you.  That day has come.  There wasn't one that disclaimer that finally pushed the publication of this post over the edge; just the accumulation of examples.  Identifying information has been removed, but the humor was left intact.  If you recognize your institution/company in these examples, please laugh along with me.  If you are the lawyer or pseudo-lawyer that drafted these, please do us all a favor and find something else to work on.  Like drafting disclaimers for toothpicks and such.</p>
-<h2>An Institution By Any Other Name is Just a Number</h2>
-<p>This educational institution felt the need not only to identify itself by name several times, but also include four specific numeric identifiers for itself.</p>
-<blockquote><p><tt>YOU MUST READ THIS NOTICE  <i>[And you must do so while suppressing any giggling about it.]</i><br />
-This email has been sent by <i>institution</i> (<i>institution's random numeric identifier</i>). This email (and any attachment) is confidential and is intended for the use of the addressee(s) only. If you are not the intended recipient of this email you must not copy, distribute, take any action in reliance on it or disclose it to anyone. Any confidentiality is not waived or lost by reason of mistaken delivery to you. The views expressed in this email are not necessarily those of <i>institution</i>. It is very important that before opening any attachments to this email you check them for viruses and defects. <i>institution</i> does not accept liability for any corruption or viruses or any consequence which arise as a result of this email transmission. Email communications with <i>institution</i> may be subject to automated email filtering, which could result in the delay or deletion of a legitimate email before it is read by its intended recipient at <i>institution</i>. Please tell us if you have concerns about this automatic filtering. The Commonwealth Register of Institutions and Courses for Overseas Students (CRICOS) Provider Number is <i>another numeric identifier</i> (<i>institution branch</i>), <i>yet another random numeric identifier</i> (<i>institution branch</i>), and <i>a final numeric identifier</i> (<i>institution branch</i>) for <i>institution</i>.<br />
-</tt></p></blockquote>
-<p>I don't have concerns about the automatic filtering, just the automatic insertion of needless disclaimers.  Which brings us to...</p>
-<h2>Disclaimers as a Form of Spam?</h2>
-<blockquote><p><tt>CONFIDENTIALITY NOTICE AND DISCLAIMER</p>
-<p>Information in this transmission is intended only for the person(s) to whom it is addressed and may contain privileged and/or confidential information. If you are not the intended recipient, any disclosure, copying or dissemination of the information is unauthorised and you should delete/destroy all copies and notify the sender. No liability is accepted for any unauthorised use of the information contained in this transmission.</p>
-<p>This disclaimer has been automatically added.<br />
-</tt></p></blockquote>
-<p>So the disclaimer was automatically added.  Thank goodness for that, because I can't imagine having to copy and paste needless disclaimers into every e-mail that I sent.  But does the fact that it was automatically sent to me make it a form of spam?  Hmmm -- maybe there is a market for software that automatically removes disclaimers from e-mail messages.</p>
-<h2>Speaking of Spam</h2>
-<blockquote><p><tt>The information in this email is confidential, and intended solely for the Addressee. If you have erroneously received this message, please delete it immediately and notify the sender. Any copying or further distribution beyond the original addressee is not intended, and may be unlawful.</tt></p></blockquote>
-<p>This one arrived in a spam message sent to me.  I decided to risk breaking the law by posting this portion of the message in a public forum.</p>
-<h2>Have Your Agents Talk To My Agents</h2>
-<blockquote><p><tt>DISCLAIMER: This e-mail is confidential and should not be used by anyone who is not the original intended recipient. If you have received this e-mail in error please inform the sender and delete it from your mailbox or any other storage mechanism. Neither <i>company</i> nor any of its agents accept liability for any statements made which are clearly the sender's own and not expressly made on behalf of <i>company</i> or one of its agents. Please note that neither <i>company</i> nor any of its agents accept any responsibility for viruses that may be contained in this e-mail or its attachments and it is your responsibility to scan the e-mail and attachments (if any). No contracts may be concluded on behalf of <i>company</i> or its agents by means of e-mail communication.  <i>Company</i> in England and Wales with registered number <i>company's random number</i> Registered Office <i>company's address</i>.</tt></p></blockquote>
-<p>I wish I had agents who would act on my behalf that would read through this gobblety-gook so I wouldn't have to read through the message and decide if I may or may not be entering into some sort of contract by reading the message.</p>
-<h2>You are hereby informally notified that I could care less about your disclaimer</h2>
-<blockquote><p><tt>This communication is for use by the intended recipient and contains information that may be Privileged, confidential or copyrighted under applicable law. If you are not the intended recipient, you are hereby formally notified that any use, copying or distribution of this e-mail, in whole or in part, is strictly prohibited. Please notify the sender by return e-mail and delete this e-mail from your system. Unless explicitly and conspicuously designated as "E-Contract Intended", this e-mail does not constitute a contract offer, a contract amendment, or an acceptance of a contract offer. This e-mail does not constitute a consent to the use of sender's contact information for direct marketing purposes or for transfers of data to third parties.</tt></p></blockquote>
-<p>Can I imply the inverse of the sentence that begins, "If you are not the intended recipient..."?  That is to say, if I am the intended recipient, that I can use, copy and distribute the e-mail in any way that I see fit?</p>
-<h2>Caveats:  Humorless</h2>
-<p>In messages from us.army.mil,</p>
-<blockquote><p><tt>Classification:  UNCLASSIFIED<br />
-Caveats: NONE</tt></p></blockquote>
-<p>Damn -- and I was hoping to find out the secret plans for invading Canada.  By the way, is it conceivable that there could ever be a <tt>russia.army.mil</tt> and <tt>china.army.mil</tt> along side <tt>us.army.mil</tt>?</p>
-<h2>From the My-Disclaimer-Is-Three-Times-Longer-Than-My-Message Category...</h2>
-<blockquote><p><tt>DISCLAIMER and CONFIDENTIALITY CAUTION:</p>
-<p>This e-mail and any attached files are confidential, proprietary, and may also be legally privileged information, and are intended solely for the use of the individual or entity to whom they are addressed. If you are not the intended recipient of this e-mail, please send it back to the person who sent it to you and delete the e-mail and any attached files and destroy any copies of it; you may call us immediately at  <i>company's phone number</i> or email us at <i>company e-mail address</i>.</p>
-<p><i>Company</i> and/or any of its sister companies owns no responsibility for the views presented in the e-mail and any attached files unless the sender mentions so, with due authority of <i>company</i>.</p>
-<p>Unauthorized reading, reproduction, publication, use, dissemination, forwarding, printing or copying of this e-mail and its attachments is prohibited.</p>
-<p>We have checked this message for any known viruses; however we decline any liability, in case of any damage caused by a non-detected virus.</p>
-<p>For more details about our company, visit <i>company website</i>.</tt></p></blockquote>
-<p>This one came in a message posted to a mailing list that contained exactly five lines of real content -- line 1: greeting, line 2: blank, line 3: a quick question, line 4: blank, line 5: author's name.  Talk about a bad signal to noise ratio!</p>
-<h2>No Bogosity ((Definition: <a href="http://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion/Quantum_bogodynamics_%282nd_nomination%29" title="Quantum bogodynamics - Wikipedia, the free encyclopedia">http://en.wikipedia.org/wiki/Quantum_bogodynamics</a>)) Here!</h2>
-<blockquote><p><tt>READ CAREFULLY. By reading this email, you agree, on behalf of your employer, to release me from all obligations and waivers arising from any and all NON-NEGOTIATED agreements, licenses, terms-of-service, shrinkwrap, clickwrap, browsewrap, confidentiality, non-disclosure, non-compete and acceptable use policies ("BOGUS AGREEMENTS") that I have entered into with your employer, its partners, licensors, agents and assigns, in perpetuity, without prejudice to my ongoing rights and privileges. You further represent that you have the authority to release me from any BOGUS AGREEMENTS on behalf of your employer.</tt></p></blockquote>
-<p>It is good to know that there are companies out there that are trying to stamp out needless b*llsh*t ((See <a href="http://www.slate.com/id/2114268/" title="Article by Timothy Noah in Slate Magazine">http://www.slate.com/id/2114268/</a> if you need it spelled out for you.)).  But let me see if I got this straight -- by reading your message, I agree to release you from <span style="font-variant: small-caps">Bogus Agreements</span> because I am able to do so.  But what if I don't have that authority?  Should I not read your message?  Perhaps you should have told me that before I read it...</p>
-<h2>There are No Guarantees on the Internet</h2>
-<blockquote><p><tt>Disclaimer: This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. Please note that any views or opinions presented in this email are solely those of the author and do not necessarily represent those of the company. The integrity and security of this message cannot be guaranteed on the Internet.</tt></p></blockquote>
-<p>There are, of course, ways to guarantee the integrity and security of messages on the internet.  PGP-signed e-mail is one such way.</p>
-<h2>Let the Lawyers Have the Last Say</h2>
-<p>And finally, there is this "****** disclaimer ******" (complete with unnecessary asterisks) that honestly had nothing to do with any kind of legal proposition, but a legal professional felt the need to insert the fact that no "legal professional privilege" should be implied by receipt and reading of the message.</p>
-<blockquote><p><tt>******************* Disclaimer *******************</p>
-<p>This e-mail, together with any attachments, is intended for the named recipient(s) only. This e-mail may contain information which is confidential, of a private nature or which is subject to legal professional privilege or copyright. Accordingly, any form of disclosure, modification, distribution and/or publication of this email message is prohibited unless expressly authorised by the sender acting with the authority of or on behalf of the <i>institution</i>.</p>
-<p>If you have received this email by mistake, please inform the sender as soon as possible and delete the message and any copies of this message from your computer system network.</p>
-<p>The confidentiality, privacy or legal professional privilege attached to this email is not waived or destroyed by that mistake.</p>
-<p>The <i>institution</i> uses virus scanning software. However, it is your responsibility to ensure that this email does not contain and is not infected by a computer virus.</p>
-<p>Unless expressly attributed, the views expressed in this email do not necessarily represent the views of the <i>institution</i>.</p>
-<p>******************** Disclaimer *******************</tt></p></blockquote>
-<p>So just to be sure, should I run the entire message past my legal counsel just to be sure they do not want to assert some sort of legal professional privilege on the correspondence?</p>
-<h2>Your Turn</h2>
-<p>Do you have a favorite legal disclaimer?  Let me know in the comments...
+I've been collecting disclaimers that appear on the bottom of e-mail messages in a draft post on <acronym title="Disruptive Library Technology Jester">_DLTJ_</acronym> for about a year now -- every time I'd get a new one with a different twist, I'd save it anticipating the day would come that there would be enough humor here to share with the rest of you.  That day has come.  There wasn't one that disclaimer that finally pushed the publication of this post over the edge; just the accumulation of examples.  Identifying information has been removed, but the humor was left intact.  If you recognize your institution/company in these examples, please laugh along with me.  If you are the lawyer or pseudo-lawyer that drafted these, please do us all a favor and find something else to work on.  Like drafting disclaimers for toothpicks and such.
+
+## An Institution By Any Other Name is Just a Number
+This educational institution felt the need not only to identify itself by name several times, but also include four specific numeric identifiers for itself.
+> YOU MUST READ THIS NOTICE  _[And you must do so while suppressing any giggling about it.]_<br />
+This email has been sent by _institution_ (_institution's random numeric identifier_). This email (and any attachment) is confidential and is intended for the use of the addressee(s) only. If you are not the intended recipient of this email you must not copy, distribute, take any action in reliance on it or disclose it to anyone. Any confidentiality is not waived or lost by reason of mistaken delivery to you. The views expressed in this email are not necessarily those of _institution_. It is very important that before opening any attachments to this email you check them for viruses and defects. _institution_ does not accept liability for any corruption or viruses or any consequence which arise as a result of this email transmission. Email communications with _institution_ may be subject to automated email filtering, which could result in the delay or deletion of a legitimate email before it is read by its intended recipient at _institution_. Please tell us if you have concerns about this automatic filtering. The Commonwealth Register of Institutions and Courses for Overseas Students (CRICOS) Provider Number is _another numeric identifier_ (_institution branch_), _yet another random numeric identifier_ (_institution branch_), and _a final numeric identifier_ (_institution branch_) for _institution_.
+
+I don't have concerns about the automatic filtering, just the automatic insertion of needless disclaimers.  Which brings us to...
+
+## Disclaimers as a Form of Spam?
+> CONFIDENTIALITY NOTICE AND DISCLAIMER
+> 
+> Information in this transmission is intended only for the person(s) to whom it is addressed and may contain privileged and/or confidential information. If you are not the intended recipient, any disclosure, copying or dissemination of the information is unauthorised and you should delete/destroy all copies and notify the sender. No liability is accepted for any unauthorised use of the information contained in this transmission.
+>
+> This disclaimer has been automatically added.
+
+So the disclaimer was automatically added.  Thank goodness for that, because I can't imagine having to copy and paste needless disclaimers into every e-mail that I sent.  But does the fact that it was automatically sent to me make it a form of spam?  Hmmm -- maybe there is a market for software that automatically removes disclaimers from e-mail messages.
+
+## Speaking of Spam
+> The information in this email is confidential, and intended solely for the Addressee. If you have erroneously received this message, please delete it immediately and notify the sender. Any copying or further distribution beyond the original addressee is not intended, and may be unlawful.
+
+This one arrived in a spam message sent to me.  I decided to risk breaking the law by posting this portion of the message in a public forum.
+
+## Have Your Agents Talk To My Agents
+> DISCLAIMER: This e-mail is confidential and should not be used by anyone who is not the original intended recipient. If you have received this e-mail in error please inform the sender and delete it from your mailbox or any other storage mechanism. Neither _company_ nor any of its agents accept liability for any statements made which are clearly the sender's own and not expressly made on behalf of _company_ or one of its agents. Please note that neither _company_ nor any of its agents accept any responsibility for viruses that may be contained in this e-mail or its attachments and it is your responsibility to scan the e-mail and attachments (if any). No contracts may be concluded on behalf of _company_ or its agents by means of e-mail communication.  _Company_ in England and Wales with registered number _company's random number_ Registered Office _company's address_.
+
+I wish I had agents who would act on my behalf that would read through this gobblety-gook so I wouldn't have to read through the message and decide if I may or may not be entering into some sort of contract by reading the message.
+
+## You are hereby informally notified that I could care less about your disclaimer
+> This communication is for use by the intended recipient and contains information that may be Privileged, confidential or copyrighted under applicable law. If you are not the intended recipient, you are hereby formally notified that any use, copying or distribution of this e-mail, in whole or in part, is strictly prohibited. Please notify the sender by return e-mail and delete this e-mail from your system. Unless explicitly and conspicuously designated as "E-Contract Intended", this e-mail does not constitute a contract offer, a contract amendment, or an acceptance of a contract offer. This e-mail does not constitute a consent to the use of sender's contact information for direct marketing purposes or for transfers of data to third parties.
+
+Can I imply the inverse of the sentence that begins, "If you are not the intended recipient..."?  That is to say, if I am the intended recipient, that I can use, copy and distribute the e-mail in any way that I see fit?
+
+## Caveats:  Humorless
+In messages from us.army.mil,
+> Classification:  UNCLASSIFIED<br />Caveats: NONE
+
+Damn -- and I was hoping to find out the secret plans for invading Canada.  By the way, is it conceivable that there could ever be a <tt>russia.army.mil</tt> and <tt>china.army.mil</tt> along side <tt>us.army.mil</tt>?
+
+## From the My-Disclaimer-Is-Three-Times-Longer-Than-My-Message Category...
+> DISCLAIMER and CONFIDENTIALITY CAUTION:
+>
+> This e-mail and any attached files are confidential, proprietary, and may also be legally privileged information, and are intended solely for the use of the individual or entity to whom they are addressed. If you are not the intended recipient of this e-mail, please send it back to the person who sent it to you and delete the e-mail and any attached files and destroy any copies of it; you may call us immediately at  _company's phone number_ or email us at _company e-mail address_.
+> 
+>_Company_ and/or any of its sister companies owns no responsibility for the views presented in the e-mail and any attached files unless the sender mentions so, with due authority of _company_.
+>
+> Unauthorized reading, reproduction, publication, use, dissemination, forwarding, printing or copying of this e-mail and its attachments is prohibited.
+> We have checked this message for any known viruses; however we decline any liability, in case of any damage caused by a non-detected virus.
+> 
+> For more details about our company, visit _company website_.</tt>
+
+This one came in a message posted to a mailing list that contained exactly five lines of real content -- line 1: greeting, line 2: blank, line 3: a quick question, line 4: blank, line 5: author's name.  Talk about a bad signal to noise ratio!
+
+## No Bogosity [^1] Here!
+> READ CAREFULLY. By reading this email, you agree, on behalf of your employer, to release me from all obligations and waivers arising from any and all NON-NEGOTIATED agreements, licenses, terms-of-service, shrinkwrap, clickwrap, browsewrap, confidentiality, non-disclosure, non-compete and acceptable use policies ("BOGUS AGREEMENTS") that I have entered into with your employer, its partners, licensors, agents and assigns, in perpetuity, without prejudice to my ongoing rights and privileges. You further represent that you have the authority to release me from any BOGUS AGREEMENTS on behalf of your employer.
+
+It is good to know that there are companies out there that are trying to stamp out needless b*llsh*t[^2].  But let me see if I got this straight -- by reading your message, I agree to release you from <span style="font-variant: small-caps">Bogus Agreements</span> because I am able to do so.  But what if I don't have that authority?  Should I not read your message?  Perhaps you should have told me that before I read it...
+
+[^1]: Definition: <a href="http://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion/Quantum_bogodynamics_%282nd_nomination%29" title="Quantum bogodynamics - Wikipedia, the free encyclopedia">http://en.wikipedia.org/wiki/Quantum_bogodynamics</a>
+[^2]: See <a href="http://www.slate.com/id/2114268/" title="Article by Timothy Noah in Slate Magazine">http://www.slate.com/id/2114268/</a> if you need it spelled out for you.
+
+## There are No Guarantees on the Internet
+> Disclaimer: This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. Please note that any views or opinions presented in this email are solely those of the author and do not necessarily represent those of the company. The integrity and security of this message cannot be guaranteed on the Internet.
+
+There are, of course, ways to guarantee the integrity and security of messages on the internet.  PGP-signed e-mail is one such way.
+
+## Let the Lawyers Have the Last Say
+And finally, there is this "****** disclaimer ******" (complete with unnecessary asterisks) that honestly had nothing to do with any kind of legal proposition, but a legal professional felt the need to insert the fact that no "legal professional privilege" should be implied by receipt and reading of the message.
+
+> ******************* Disclaimer *******************
+> 
+> This e-mail, together with any attachments, is intended for the named recipient(s) only. This e-mail may contain information which is confidential, of a private nature or which is subject to legal professional privilege or copyright. Accordingly, any form of disclosure, modification, distribution and/or publication of this email message is prohibited unless expressly authorised by the sender acting with the authority of or on behalf of the _institution_.
+>
+> If you have received this email by mistake, please inform the sender as soon as possible and delete the message and any copies of this message from your computer system network.
+>
+> The confidentiality, privacy or legal professional privilege attached to this email is not waived or destroyed by that mistake.
+>
+>The _institution_ uses virus scanning software. However, it is your responsibility to ensure that this email does not contain and is not infected by a computer virus.
+>
+>Unless expressly attributed, the views expressed in this email do not necessarily represent the views of the _institution_.
+>
+>******************** Disclaimer *******************
+
+So just to be sure, should I run the entire message past my legal counsel just to be sure they do not want to assert some sort of legal professional privilege on the correspondence?
+
+## Your Turn
+Do you have a favorite legal disclaimer?  Let me know in the comments...
+
+## December 2018 Addition: Angry Sibling Edition
+So for the near-11-year anniversary for this post, I'm adding this one that I received from a DLTJ reader.
+> This was actually sent to me by my brother, who hates me. So, now, in order for me not to forward his emails to my lawyer, he has placed this disclaimer at the bottom:
+
+>> This is a private message between the sender and recipient only and information contained in or attached to this communication is privileged, confidential and intended only for the person or persons named. Any message being forwarded without the consent of the sender is in violation of the Governing Privacy Laws and will be prosecuted to the extent the Law will allow.    If you are not the intended recipient of this transmission, you are hereby notified that any dissemination, distribution or copying of this communication to anyone other than the intended recipient or recipients is strictly prohibited.  If you receive this communication in error, do not read it.  Please immediately reply to the sender that you have received this communication in error and then please delete this communication from your computer.  Thank you.
+
+> I didn't see any of your disclaimers showing the second sentence, so I was wondering if it made it any more valid than the other ones. If not, well then you have one more to add to your list.
+
+No, I haven't seen anything like this either.  Thanks for sending!
+
+
 <p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://en.wikipedia.org/wiki/Quantum_bogodynamics to http://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion/Quantum_bogodynamics_%282nd_nomination%29 on January 19th, 2011.</p>
