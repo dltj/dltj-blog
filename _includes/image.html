@@ -1,0 +1,24 @@
+<!-- _based on https://stackoverflow.com/a/51682829 -->
+<figure>
+    {% if include.url %}
+    <a href="{{ include.url }}">
+    {% endif %}
+    <img
+        {% if include.width %}
+            width="{{ include.width }}"
+        {% endif %}
+        {% if include.srcabs %}
+            src="{{ include.srcabs }}"
+        {% elsif include.wpsrc %}
+            src="{{ site.baseurl }}/wp-content/uploads/{{ include.wpsrc }}"
+        {% else %}
+            src="{{ site.baseurl }}/assets/images/{{ include.src }}"
+        {% endif %}
+    alt="{{ include.alt }}">
+    {% if include.url %}
+    </a>
+    {% endif %}
+    {% if include.caption %}
+        <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
+</figure>
