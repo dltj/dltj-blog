@@ -3,6 +3,9 @@
     {% if include.url %}
     <a href="{{ include.url }}">
     {% endif %}
+    {% if include.wpurl %}
+    <a href="{{ site.baseurl }}/wp-content/uploads/{{ include.wpurl }}">
+    {% endif %}
     <img
         {% if include.width %}
             width="{{ include.width }}"
@@ -15,7 +18,7 @@
             src="{{ site.baseurl }}/assets/images/{{ include.src }}"
         {% endif %}
     alt="{{ include.alt }}">
-    {% if include.url %}
+    {% if include.url or include.wpurl %}
     </a>
     {% endif %}
     {% if include.caption %}
