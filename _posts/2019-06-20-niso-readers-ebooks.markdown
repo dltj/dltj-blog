@@ -5,7 +5,7 @@ tags:
 - conference
 - standards
 ---
-These are the presentation notes for the _Ensuring System Interoperability_ presentation during the [Readers and Ebooks: Making The Connection](https://www.niso.org/events/2018/04/information-freedom-ethics-and-integrity) during the NISO/BISG Forum on Friday, June 21, 2019.
+These are the presentation notes for the _Ensuring System Interoperability_ presentation during the [Readers and Ebooks: Making The Connection](https://www.niso.org/events/2019/06/12th-annual-niso-bisg-changing-standards-landscape-forum) during the NISO/BISG Forum on Friday, June 21, 2019.
 
 * [EPUB](https://w3c.github.io/publ-epub-revision/epub32/spec/epub-overview.html)
 * [NISO FASTEN Working Group](https://www.niso.org/standards-committees/fasten)
@@ -15,5 +15,5 @@ These are the presentation notes for the _Ensuring System Interoperability_ pres
 <script async class="speakerdeck-embed" data-id="1ab75b3434af42ff9f9674b95f194db9" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Photo Acknowledgments
-* Slide 1: “[Codex Claustroneoburgensis 980](https://dp.la/item/403f4ea93955bc62fce72b984c95dc40)” from College of Saint Benedict & Saint John's University via DPLA
+* Slide 1: “[Codex Claustroneoburgensis 980](https://dp.la/item/dc1526fc73a2abcb78fd456a12778de3)” from College of Saint Benedict & Saint John's University via DPLA
 * Slide 15: “[Sunset](https://dp.la/item/807707cd1b03aae74545cc7c99d6bd80)” from the National Archives and Records Administration via DPLA
