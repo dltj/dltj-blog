@@ -12,14 +12,14 @@ minimal_mistakes_skin    : "default"
 # Site Settings
 locale                   : "en-US"
 title                    : "Disruptive Library Technology Jester"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Peter Murray"
 description              : "We're Disrupted, We're Librarians, and We're Not Going to Take It Anymore"
 url                      : https://dltj.org
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : dltj/dltj-org
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/jester_cap_64x64.png
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
