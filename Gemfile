@@ -8,19 +8,19 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.5"
+gem "jekyll" #, "~> 3.8.5"
 
 gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.16.4"
 
 # These are from https://github.com/jch/html-pipeline/blob/master/Gemfile
-gem 'commonmarker',         '~> 0.16'
-gem 'email_reply_parser',   '~> 0.5'
-gem 'gemoji' #,               '~> 2.0'
-gem 'RedCloth',             '~> 4.2.9'
-gem 'rinku',                '~> 1.7'
-gem 'sanitize',             '~> 4.6'
-gem 'escape_utils',         '~> 1.0'
-gem 'rouge',                '~> 3.1'
+# gem 'commonmarker',         '~> 0.16'
+# gem 'email_reply_parser',   '~> 0.5'
+# gem 'gemoji' #,               '~> 2.0'
+# gem 'RedCloth',             '~> 4.2.9'
+# gem 'rinku',                '~> 1.7'
+# gem 'sanitize',             '~> 4.6'
+# gem 'escape_utils',         '~> 1.0'
+# gem 'rouge',                '~> 3.1'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -28,7 +28,7 @@ gem 'rouge',                '~> 3.1'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.11.0"
+  gem "jekyll-feed" #, "~> 0.11.0"
   gem "jekyll-seo-tag"
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
