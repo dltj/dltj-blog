@@ -35,6 +35,7 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-archives"
   gem "jemoji"
+  gem "jekyll-last-modified-at", :git => "https://github.com/gjtorikian/jekyll-last-modified-at.git"
   gem "jekyll-include-cache"
 end
 

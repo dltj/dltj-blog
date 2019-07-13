@@ -17,7 +17,7 @@ name                     : "Peter Murray"
 description              : "We're Disrupted, We're Librarians, and We're Not Going to Take It Anymore"
 url                      : https://dltj.org
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : dltj/dltj-org
+repository               : dltj/dltj-blog
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/jester_cap_64x64.png
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -250,6 +250,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-last-modified-at
 
 # mimic GitHub Pages with --safe
 whitelist:
