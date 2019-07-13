@@ -1,17 +1,15 @@
 ---
-title: 'Multiple Google Accounts? Use ‘authuser’ to Get to the One You Want'
+title: 'Multiple Google Accounts? Use ‘authuser’ in the URL to Get to the One You Want'
 categories:
 - Raw technology
 tags:
-- 
+- Google
 - 
 - 
 - 
 ---
 
-# Multiple Google Accounts? Use ‘authuser’ to Get to the One You Want
-
-I have four Google accounts, and I often want to start a task in a particular one: open Google Drive in my work account, see the list of Google Slides presentations in my professional account, and read email in my personal account.  
+I have four Google Apps accounts, and I often want to start a task in a particular one: open Google Drive in my work account, see the list of Google Slides presentations in my professional account, and read email in my personal account.  
 For a while I would just go to `mail.google.com` and see which account comes up; if it isn’t the right one, I would switch using the drop-down menu in the upper right of the page.  
 That is kind of a pain, though.
 
@@ -27,6 +25,6 @@ For instance:
 * Google Slides:
 * Google Voice:
 
-I have folders of these in my Firefox Bookmark bar, so I am just two clicks away from getting into any one of these services.  
+I have a folder of these for each of my Google Apps accounts in my Firefox Bookmark bar, so I am just two clicks away from getting into any one of these services.  
 The `authuser` trick might work for other Google services, too.  
 Did you find one that I didn’t mention?  Let me know @DataG on Twitter or @dltj@
