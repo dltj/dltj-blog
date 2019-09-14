@@ -7,7 +7,7 @@ tags:
 ---
 
 
-Eighteen years ago, on Friday, September 7th, 2001, I was honored to be asked to participate in a naturalization ceremony for 46 new citizens of the United States in a courtroom in Hartford, Connecticut.
+Eighteen years ago, on Friday, September 7th, 2001, I was honored to be asked to participate in a naturalization ceremony for 46 new citizens of the United States in a courtroom of [Judge Alvin Thompson](https://en.wikipedia.org/wiki/Alvin_W._Thompson) in Hartford, Connecticut.
 I [published](http://web.archive.org/web/20011109130845/www.pandc.org/peter/naturalization.html) those remarks on a website that has long since gone dormant.
 In light of the politics of the day, I was thinking back to that ceremony and what it meant to me to participate.
 I regret the corny reference to _Star Trek_, but I regret nothing else I said on that day.
