@@ -33,9 +33,9 @@ Librarians will not get to decide the "alternative pathway" that is appropriate 
 (Roger goes on to say that he "expect[s] publishers will typically enable some alternative version for their content, in which case the vast majority of scholarly content will be freely available through publishers even if it is not open access in terms of licensing."  I'm not so confident.)
 
 No, thank you.
-If publishers want to engage in technical work to enable libraries can have web services to publishers that determine the direct link to an article based on a DOI, then great.
+If publishers want to engage in technical work to enable libraries and others to build web services that determine the direct link to an article based on a DOI, then great.
 Libraries can build a tool that consumes that information as well as takes into account information about preprint services, open access versions, interlibrary loan and other methods of access.
-But to ask libraries to accept this publisher-controlled access button in our discovery layers, our learning management systems, our scholarly profile services, and our other tools?
+But to ask libraries to accept this publisher-controlled access button in their discovery layers, their learning management systems, their scholarly profile services, and their other tools?
 That sounds destined for disappointment.
 
 I am only somewhat encouraged by the fact that RA21 started out as a small, isolated collaboration of publishers before they brought in NISO and invited libraries to join the discussion.
