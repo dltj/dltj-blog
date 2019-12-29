@@ -7,6 +7,7 @@ tags:
 - ra21
 - seamlessaccess
 - niso
+- getftr
 ---
 In early December 2019, a group of publishers announced [Get-Full-Text-Research](https://www.getfulltextresearch.com/), or GetFTR for short.
 I read about this first in Roger Schonfeld's "[Publishers Announce a Major New Service to Plug Leakage](https://scholarlykitchen.sspnet.org/2019/12/03/publishers-announce-plug-leakage/)" piece in _The Scholarly Kitchen_ via Jeff Pooley's [Twitter thread](https://twitter.com/jeffersonpooley/status/1201867300229517313) and [blog post](https://www.jeffpooley.com/2019/12/publishers-announce-a-major-new-service-to-plug-leakage/).
