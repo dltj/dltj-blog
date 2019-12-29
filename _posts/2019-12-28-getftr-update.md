@@ -95,6 +95,17 @@ That said, it would be useful for an API call from a library's discovery layer t
 If that were possible, then the Seamless Access Where-Are-You-From service could be bypassed for the GetFTR purpose of determining whether a user's institution has access to an article on the publisher's site. 
 It would sure be nice if librarians were involved in the specification of the underlying protocols early on so these use cases could be offered.
 
+#### Update
+Lisa reached out on Twitter to [say](https://twitter.com/lisalibrarian/status/1211166457037574144) (in part): _"Issue is GetFTR doesn't redirect and SA doesnt when you are IPauthenticated. Hence user ends up w mishmash of experience."_ 
+I went back to read her _Scholarly Kitchen_ post and realized I did not fully understand her point. 
+If GetFTR is relying on a Seamless Access token to know which institution a user is coming from, then that token must get into the user's  browser. 
+The details we have seen about GetFTR don't address how that Seamless Access institution token is put in the user's browser if the user has not been to the Seamless Access select-your-institution portal.
+One such case is when the user is coming from an IP-address-authenticated computer on a campus network. 
+Do the GetFTR indicators appear even when the Seamless Access institution token is not stored in the browser?
+If at the publisher site the GetFTR response also uses the institution IP address table to determine entitlements, what does a user see when they have neither the Seamless Access institution token nor the institution IP address? 
+And, to Lisa's point, how does one explain this disparity to users? 
+Is the situation better if the GetFTR determination is made in the link resolver rather than in the user browser?
+
 ### Librarian Concern: Exclusion from Advisory Committee
 See previous paragraph. 
 That librarians are not at the table offering use cases and technical advice means that the developers are likely closing off options that meet library needs. 
