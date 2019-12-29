@@ -75,18 +75,18 @@ This _Updating the Community_ is a good start, but the project has dug a deep ho
 Posted on [December 10th in _The Scholarly Kitchen_](https://scholarlykitchen.sspnet.org/2019/12/10/why-are-librarians-concerned-about-getftr/), Lisa outlines a series of concerns from a librarian perspective. 
 I agree with some of these; others are not an issue in my opinion.
 
-### Lisa's Concern: The Connection to Seamless Access
+### Librarian Concern: The Connection to Seamless Access
 Many librarians have expressed a concern about how patron information can leak to the publisher through ill-considered settings at an institution's identity provider. 
 Seamless Access can ease access control because it leverages a campus' single sign-on solution—something that a library patron is likely to be familiar with. 
 If the institution's identity provider is overly permissive in the attributes about a patron that get transmitted to the publisher, then there is a serious risk of tying a user's research activity to their identity and the bad things that come from that (patrons self-censoring their research paths, commoditization of patron activity, etc.). 
 I'm serving on a Seamless Access task force that is addressing this issue, and I think there are technical, policy, and education solutions to this concern. 
 In particular, I think some sort of intermediate display of the attributes being transmitted to the publisher is most appropriate.
 
-### Lisa's Concern: The Limited User Base Enabled
+### Librarian Concern: The Limited User Base Enabled
 As Lisa points out, the population of institutions that can take advantage of Seamless Access, a prerequisite for GetFTR, is very small and weighted heavily towards well-resourced institutions. 
 To the extent that projects like Seamless Access (spurred on by a desire to have GetFTR-like functionality) helps with the adoption of SAML-based infrastructure like Shibboleth, then the whole academic community benefits from a shared authentication/identity layer that can be assumed to exist.
 
-### Lisa's Concern: The Insertion of New Stumbling Blocks
+### Librarian Concern: The Insertion of New Stumbling Blocks
 Of the issues Lisa mentioned here, I'm not concerned about users being redirected to their campus single sign-on system in multiple browsers on multiple machines. 
 This is something we should be training users about—there is a single website to put your username/password into for whatever you are accessing at the institution. 
 That a user might already be logged into the institution single sign-on system in the course of doing other school work and never see a logon screen is an attractive benefit to this system.
@@ -95,14 +95,14 @@ That said, it would be useful for an API call from a library's discovery layer t
 If that were possible, then the Seamless Access Where-Are-You-From service could be bypassed for the GetFTR purpose of determining whether a user's institution has access to an article on the publisher's site. 
 It would sure be nice if librarians were involved in the specification of the underlying protocols early on so these use cases could be offered.
 
-### Lisa's Concern: Exclusion from Advisory Committee
+### Librarian Concern: Exclusion from Advisory Committee
 See previous paragraph. 
 That librarians are not at the table offering use cases and technical advice means that the developers are likely closing off options that meet library needs. 
 Addressing those needs would ease the acceptance of the GetFTR project as mutually beneficial.
 So an emphatic "AGREE!" with Lisa on her points in this section. 
 Publishers—what were you thinking?
 
-### Lisa's Concern: GetFTR Replacing the Library Link Resolver
+### Librarian Concern: GetFTR Replacing the Library Link Resolver
 Libraries and library technology companies are making significant investments in tools that ease the path from discovery to delivery. 
 Would the library's link resolver benefit from a real-time API call to a publisher's service that determines the direct URL to a specific DOI?
 Oh, yes—that would be mighty beneficial.
