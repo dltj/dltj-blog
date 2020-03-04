@@ -64,7 +64,7 @@ In the "very meta" category, this morning I gave a lightning talk about lightnin
 More specifically, it was a brief presentation on how [Code4Lib](http://www.code4lib.org/) uses Google Hangouts-on-Air for its [Virtual Lightning Talks](http://wiki.code4lib.org/index.php/Virtual_Lightning_Talks). 
 The slides and links from the slides are included below.
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/23663886" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/23663886" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 ## URLs from the presentation
 
