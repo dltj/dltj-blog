@@ -1,5 +1,4 @@
 ---
-layout: wordpress-import
 status: publish
 published: true
 title: Host Your Own Virtual Lightning Talks Using Google Hangout -- Slides and Links
@@ -61,17 +60,21 @@ comments:
     librarians to connect for meetings, or present materials &ndash; Maybe OA week?
     &nbsp;Presentation Slides [...]"
 ---
-<p>In the "very meta" category, this morning I gave a lightning talk about lightning talks to a crowd of about 150 at the <a href="http://litablog.org/2013/06/lita-lightning-rounds-at-ala-annual/" title="LITA Lightning Rounds at ALA Annual | LITA Blog">LITA Lightning Talks</a> session.  More specifically, it was a brief presentation on how <a href="http://www.code4lib.org/" title="code4lib homepage | coders for libraries, libraries for coders">Code4Lib</a> uses Google Hangouts-on-Air for its <a href="http://wiki.code4lib.org/index.php/Virtual_Lightning_Talks" title="Virtual Lightning Talks | Code4Lib Wiki">Virtual Lightning Talks</a>.  The slides and links from the slides are included below.</p>
-<p><iframe src="http://www.slideshare.net/slideshow/embed_code/23663886" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
-<h2>URLs from the presentation</h2>
-<p>As promised, here are the URLs from the presentation.</p>
-<ul>
-<li>Host must have a &ldquo;Verified&rdquo; YouTube account: <a href="https://www.youtube.com/verify">https://www.youtube.com/verify</a></li>
-<li>Host and Presenters must install the Hangouts plugin: <a href="https://tools.google.com/dlpage/hangoutplugin/">https://tools.google.com/dlpage/hangoutplugin/</a></li>
-<li>&ldquo;Hangouts-on-Air&rdquo; Documentation: <a href="https://support.google.com/plus/answer/2553119">https://support.google.com/plus/answer/2553119</a></li>
-<li>Presenters share their entire screen or just a window <a href="https://support.google.com/plus/answer/1660627">https://support.google.com/plus/answer/1660627</a></li>
-<li>Use the &ldquo;Cameraman App&rdquo; function to hide and mute other presenters: <a href="https://support.google.com/plus/answer/2660854">https://support.google.com/plus/answer/2660854</a></li>
-<li>Code4Lib Virtual Lightning Talks: <a href="http://wiki.code4lib.org/index.php/Virtual_Lightning_Talks" title="Virtual Lightning Talks | Code4Lib Wiki">http://wiki.code4lib.org/index.php/Virtual_Lightning_Talks</a></li>
-<li>My Notes on Hosting C4L Lightning Talks: <a href="/article/c4l-virtual-lightning-talk-notes/">http://dltj.org/article/c4l-virtual-lightning-talk-notes/</a></li>
-<li>Other&rsquo;s Wisdom <a href="https://plus.google.com/u/0/%2BFraserCain/posts/PaeeynDx34L">https://plus.google.com/u/0/%2BFraserCain/posts/PaeeynDx34L</a> and <a href="https://code.google.com/p/course-builder/wiki/OnlineOfficeHours">https://code.google.com/p/course-builder/wiki/OnlineOfficeHours</a></li>
-</ul>
+In the "very meta" category, this morning I gave a lightning talk about lightning talks to a crowd of about 150 at the [LITA Lightning Talks](http://litablog.org/2013/06/lita-lightning-rounds-at-ala-annual/) session. 
+More specifically, it was a brief presentation on how [Code4Lib](http://www.code4lib.org/) uses Google Hangouts-on-Air for its [Virtual Lightning Talks](http://wiki.code4lib.org/index.php/Virtual_Lightning_Talks). 
+The slides and links from the slides are included below.
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/23663886" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+## URLs from the presentation
+
+As promised, here are the URLs from the presentation.
+
+* Host must have a “Verified” YouTube account: [https://www.youtube.com/verify](https://www.youtube.com/verify)
+* Host and Presenters must install the Hangouts plugin: [https://tools.google.com/dlpage/hangoutplugin/](https://tools.google.com/dlpage/hangoutplugin/)
+* “Hangouts-on-Air” Documentation: [https://support.google.com/plus/answer/2553119](https://support.google.com/plus/answer/2553119)
+* Presenters share their entire screen or just a window [https://support.google.com/plus/answer/1660627](https://support.google.com/plus/answer/1660627)
+* Use the “Cameraman App” function to hide and mute other presenters: [https://support.google.com/plus/answer/2660854](https://support.google.com/plus/answer/2660854)
+* Code4Lib Virtual Lightning Talks: [http://wiki.code4lib.org/index.php/Virtual_Lightning_Talks](http://wiki.code4lib.org/index.php/Virtual_Lightning_Talks)
+* My Notes on Hosting C4L Lightning Talks: [http://dltj.org/article/c4l-virtual-lightning-talk-notes/](http://localhost:4000/article/c4l-virtual-lightning-talk-notes/)
+* Other’s Wisdom [https://plus.google.com/u/0/%2BFraserCain/posts/PaeeynDx34L](https://plus.google.com/u/0/%2BFraserCain/posts/PaeeynDx34L) and [https://code.google.com/p/course-builder/wiki/OnlineOfficeHours](https://code.google.com/p/course-builder/wiki/OnlineOfficeHours)
