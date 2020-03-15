@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="156 187.332 683 202.668" width="683" height="202.668">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="14" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#7f8080">
+      <g>
+        <path d="M 3.7333333 0 L 0 -1.4 L 0 1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.13 
+    <dc:date>2020-03-14 20:43:57 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke="none" stroke-dasharray="none" fill="none" stroke-opacity="1" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" x="156" y="187.332" width="683" height="202.668"/>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_7">
+        <title>Laptop</title>
+        <g id="Graphic_5">
+          <rect x="585" y="265" width="129.27273" height="118.5" id="path"/>
+          <clipPath id="clip_path">
+            <use xl:href="#path"/>
+          </clipPath>
+          <g clip-path="url(#clip_path)">
+            <image xl:href="image1.pdf" width="48" height="44" transform="translate(585 265) scale(2.6931818)"/>
+          </g>
+        </g>
+        <g id="Graphic_6">
+          <text transform="translate(616.84836 285)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="14" font-weight="700" fill="black" x="4618528e-19" y="14">Receiving</tspan>
+            <tspan font-family="Helvetica Neue" font-size="14" font-weight="700" fill="black" x="13.356" y="31.406097">Zoom</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_17">
+        <g id="Graphic_8">
+          <rect x="322.5" y="300" width="99.5" height="83.5" fill="white"/>
+          <rect x="322.5" y="300" width="99.5" height="83.5" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        </g>
+        <g id="Graphic_9">
+          <rect x="337.25" y="314" width="29" height="20.5" fill="white"/>
+          <rect x="337.25" y="314" width="29" height="20.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+        </g>
+        <g id="Graphic_10">
+          <rect x="378.25" y="314" width="29" height="20.5" fill="white"/>
+          <rect x="378.25" y="314" width="29" height="20.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+        </g>
+        <g id="Graphic_11">
+          <rect x="337.5" y="348" width="7" height="7.5" fill="white"/>
+          <rect x="337.5" y="348" width="7" height="7.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        </g>
+        <g id="Graphic_12">
+          <rect x="358.25" y="348" width="7" height="7.5" fill="white"/>
+          <rect x="358.25" y="348" width="7" height="7.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        </g>
+        <g id="Graphic_14">
+          <rect x="378.5" y="348" width="7" height="7.5" fill="white"/>
+          <rect x="378.5" y="348" width="7" height="7.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        </g>
+        <g id="Graphic_13">
+          <rect x="399.25" y="348" width="7" height="7.5" fill="white"/>
+          <rect x="399.25" y="348" width="7" height="7.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        </g>
+        <g id="Graphic_15">
+          <text transform="translate(328.962 361.0939)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="14" font-weight="700" fill="black" x="4618528e-19" y="14">Video Switch</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_18">
+        <rect x="162.5" y="271.5" width="88.5" height="112" fill="white"/>
+        <rect x="162.5" y="271.5" width="88.5" height="112" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+      </g>
+      <g id="Line_20">
+        <path d="M 177 319.5 L 177 372.3008 L 177.42969 369.52734" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Line_21">
+        <path d="M 191 319.5 L 191 372.3008 L 191.42969 369.52734" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Line_22">
+        <path d="M 205 319.5 L 205 372.3008 L 205.42969 369.52734" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_23">
+        <rect x="167.5" y="330" width="18" height="7.5" fill="white"/>
+        <rect x="167.5" y="330" width="18" height="7.5" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_24">
+        <rect x="182" y="344" width="18" height="7.5" fill="white"/>
+        <rect x="182" y="344" width="18" height="7.5" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_25">
+        <rect x="196.5" y="330" width="18" height="7.5" fill="white"/>
+        <rect x="196.5" y="330" width="18" height="7.5" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Line_30">
+        <path d="M 222.5 319.5 L 222.5 372.3008 L 222.9297 369.52734" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Line_29">
+        <path d="M 236.5 319.5 L 236.5 372.3008 L 236.9297 369.52734" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_27">
+        <rect x="213.5" y="344" width="18" height="7.5" fill="white"/>
+        <rect x="213.5" y="344" width="18" height="7.5" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_26">
+        <rect x="228" y="330" width="18" height="7.5" fill="white"/>
+        <rect x="228" y="330" width="18" height="7.5" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_32">
+        <text transform="translate(167.5 281)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="700" fill="black" x="0" y="14">Audio Mixer</tspan>
+        </text>
+      </g>
+      <g id="Line_33">
+        <path d="M 589.5 359.5 L 538.5 359.5 L 538.5 276 L 391.5 276 L 391.5 284.1" marker-end="url(#FilledArrow_Marker)" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_35">
+        <rect x="444.83197" y="263.832" width="40.672" height="24.335999" fill="white"/>
+        <text transform="translate(449.83197 268.832)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">HDMI</tspan>
+        </text>
+      </g>
+      <g id="Line_36">
+        <path d="M 353.5 296.5 L 353.5 243.69922 L 224.22727 243.69922 L 224.22727 254.6" marker-end="url(#FilledArrow_Marker)" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_37">
+        <rect x="231.20216" y="231.53122" width="102.916" height="24.335999" fill="white"/>
+        <text transform="translate(236.20216 236.53122)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="53290705e-20" y="11">Audio from HDMI</tspan>
+        </text>
+      </g>
+      <g id="Graphic_38">
+        <rect x="749.5" y="334.75" width="83.5" height="32" fill="white"/>
+        <rect x="749.5" y="334.75" width="83.5" height="32" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+        <text transform="translate(754.5 342.04695)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="700" fill="black" x=".84" y="14">USB Audio</tspan>
+        </text>
+      </g>
+      <g id="Line_39">
+        <path d="M 191.5 269.5 L 191.5 202.5 L 791.25 202.5 L 791.25 315.85" marker-end="url(#FilledArrow_Marker)" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_40">
+        <rect x="350.5427" y="190.332" width="222.496" height="24.335999" fill="white"/>
+        <text transform="translate(355.5427 195.332)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Program Audio minus HDMI (Zoom call)</tspan>
+        </text>
+      </g>
+      <g id="Line_41">
+        <line x1="746.5" y1="351.1642" x2="726.1181" y2="351.35284" marker-end="url(#FilledArrow_Marker)" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
