@@ -128,6 +128,8 @@ Explanation of lines:
 5. Bring up the bridge interface
 
 The bridge is now live!
+Thanks to [Amitkumar Pal](https://stackoverflow.com/a/41768606) for the hints about using the Pi as a network bridge. 
+[More details about the bridge networking software](https://wiki.debian.org/BridgeNetworkConnections) is on the Debian Wiki.
 
 ## Configuring the UniFi Security Gateway
 
