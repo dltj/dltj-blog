@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="163 160 860 455" width="860" height="455">
+  <defs>
+    <font-face font-family="Avenir Next" font-size="7.383" panose-1="2 11 5 3 2 2 2 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="400">
+      <font-face-src>
+        <font-face-name name="AvenirNext-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Avenir Next" font-size="4.922" panose-1="2 11 5 3 2 2 2 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="400">
+      <font-face-src>
+        <font-face-name name="AvenirNext-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Avenir Next" font-size="2.461" panose-1="2 11 5 3 2 2 2 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="400">
+      <font-face-src>
+        <font-face-name name="AvenirNext-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#b1001c">
+      <g>
+        <path d="M 3.2 0 L 0 -1.2 L 0 1.2 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <clipPath id="inner_stroke_clip_path">
+      <path d="M 905.5493 190.21498 C 905.2409 190.2456 905 190.50582 905 190.8223 L 905 199.26945 C 905 199.58593 905.2409 199.84615 905.5493 199.87678 L 905.5493 210.86897 C 905.2409 210.8996 905 211.15982 905 211.4763 L 905 227.61376 C 905 227.93025 905.2409 228.19047 905.5493 228.2211 L 905.5493 232.62159 C 905.2409 232.6522 905 232.91243 905 233.22891 L 905 249.36638 C 905 249.68286 905.2409 249.94308 905.5493 249.9737 L 905.5493 382.40887 C 905.5493 391.8472 913.2006 399.49846 922.6389 399.49846 L 1004.9131 399.49846 C 1014.3514 399.49846 1022.0027 391.8472 1022.0027 382.40887 L 1022.0027 228.2241 L 1022.552 228.2241 L 1022.552 210.97582 L 1022.0027 210.97582 L 1022.0027 177.0896 C 1022.0027 167.65127 1014.3514 160 1004.9131 160 L 922.6389 160 C 913.2006 160 905.5493 167.65127 905.5493 177.0896 Z"/>
+    </clipPath>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.15 
+    <dc:date>2020-04-21 23:38:42 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke="none" stroke-dasharray="none" stroke-opacity="1" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" x="163" y="160" width="860" height="455"/>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_3">
+        <g id="Graphic_147">
+          <path d="M 598 340.90285 L 598 499.607 L 838.6723 499.607 L 838.6723 340.90285 L 598 340.90285 M 777.1068 347.14956 C 778.58245 348.6252 778.58245 351.01774 777.1068 352.4934 C 775.6311 353.96907 773.2386 353.96907 771.7629 352.4934 C 770.2873 351.01774 770.2873 348.6252 771.7629 347.14956 C 773.2386 345.6739 775.6311 345.6739 777.1068 347.14956 M 777.1068 487.9099 C 778.58245 489.38555 778.58245 491.7781 777.1068 493.25373 C 775.6311 494.7294 773.2386 494.7294 771.7629 493.25373 C 770.2873 491.7781 770.2873 489.38555 771.7629 487.9099 C 773.2386 486.4342 775.6311 486.4342 777.1068 487.9099 M 611.1359 347.14956 C 612.6116 348.6252 612.6116 351.01774 611.1359 352.4934 C 609.6603 353.96907 607.26775 353.96907 605.7921 352.4934 C 604.3164 351.01774 604.3164 348.6252 605.7921 347.14956 C 607.26775 345.6739 609.6603 345.6739 611.1359 347.14956 M 611.1359 487.9099 C 612.6116 489.38555 612.6116 491.7781 611.1359 493.25373 C 609.6603 494.7294 607.26775 494.7294 605.7921 493.25373 C 604.3164 491.7781 604.3164 489.38555 605.7921 487.9099 C 607.26775 486.4342 609.6603 486.4342 611.1359 487.9099 M 611.4787 381.41356 C 611.9327 380.9595 612.6689 380.9595 613.12295 381.41356 C 613.577 381.8676 613.577 382.60377 613.12295 383.0578 C 612.6689 383.51187 611.9327 383.51187 611.4787 383.0578 C 611.0246 382.60377 611.0246 381.8676 611.4787 381.41356 M 604.0376 381.41356 C 604.49166 380.9595 605.2278 380.9595 605.6819 381.41356 C 606.1359 381.8676 606.1359 382.60377 605.6819 383.0578 C 605.2278 383.51187 604.49166 383.51187 604.0376 383.0578 C 603.58355 382.60377 603.58355 381.8676 604.0376 381.41356" fill="#009554"/>
+          <path d="M 598 340.90285 L 598 499.607 L 838.6723 499.607 L 838.6723 340.90285 L 598 340.90285 M 777.1068 347.14956 C 778.58245 348.6252 778.58245 351.01774 777.1068 352.4934 C 775.6311 353.96907 773.2386 353.96907 771.7629 352.4934 C 770.2873 351.01774 770.2873 348.6252 771.7629 347.14956 C 773.2386 345.6739 775.6311 345.6739 777.1068 347.14956 M 777.1068 487.9099 C 778.58245 489.38555 778.58245 491.7781 777.1068 493.25373 C 775.6311 494.7294 773.2386 494.7294 771.7629 493.25373 C 770.2873 491.7781 770.2873 489.38555 771.7629 487.9099 C 773.2386 486.4342 775.6311 486.4342 777.1068 487.9099 M 611.1359 347.14956 C 612.6116 348.6252 612.6116 351.01774 611.1359 352.4934 C 609.6603 353.96907 607.26775 353.96907 605.7921 352.4934 C 604.3164 351.01774 604.3164 348.6252 605.7921 347.14956 C 607.26775 345.6739 609.6603 345.6739 611.1359 347.14956 M 611.1359 487.9099 C 612.6116 489.38555 612.6116 491.7781 611.1359 493.25373 C 609.6603 494.7294 607.26775 494.7294 605.7921 493.25373 C 604.3164 491.7781 604.3164 489.38555 605.7921 487.9099 C 607.26775 486.4342 609.6603 486.4342 611.1359 487.9099 M 611.4787 381.41356 C 611.9327 380.9595 612.6689 380.9595 613.12295 381.41356 C 613.577 381.8676 613.577 382.60377 613.12295 383.0578 C 612.6689 383.51187 611.9327 383.51187 611.4787 383.0578 C 611.0246 382.60377 611.0246 381.8676 611.4787 381.41356 M 604.0376 381.41356 C 604.49166 380.9595 605.2278 380.9595 605.6819 381.41356 C 606.1359 381.8676 606.1359 382.60377 605.6819 383.0578 C 605.2278 383.51187 604.49166 383.51187 604.0376 383.0578 C 603.58355 382.60377 603.58355 381.8676 604.0376 381.41356" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+        </g>
+        <g id="Graphic_146">
+          <rect x="600.9067" y="379.1546" width="14.99841" height="6.16214" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+        </g>
+        <g id="Graphic_145">
+          <rect x="791.5842" y="449.6123" width="60.458734" height="47.669386" fill="#d6d6d6"/>
+          <rect x="791.5842" y="449.6123" width="60.458734" height="47.669386" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          <text transform="translate(793.635 468.447)" fill="black">
+            <tspan font-family="Avenir Next" font-size="7.383" font-weight="400" fill="black" x="9.732125" y="7">ETHERNET</tspan>
+          </text>
+        </g>
+        <g id="Graphic_144">
+          <rect x="802.0482" y="398.4549" width="49.99472" height="38.368043" fill="#d6d6d6"/>
+          <rect x="802.0482" y="398.4549" width="49.99472" height="38.368043" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          <text transform="translate(804.099 412.63893)" fill="black">
+            <tspan font-family="Avenir Next" font-size="7.383" font-weight="400" fill="black" x="15.89578" y="7">USB</tspan>
+          </text>
+        </g>
+        <g id="Graphic_143">
+          <rect x="802.0482" y="343.0441" width="49.99472" height="38.368043" fill="#d6d6d6"/>
+          <rect x="802.0482" y="343.0441" width="49.99472" height="38.368043" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          <text transform="translate(804.099 357.2281)" fill="black">
+            <tspan font-family="Avenir Next" font-size="7.383" font-weight="400" fill="black" x="15.89578" y="7">USB</tspan>
+          </text>
+        </g>
+        <g id="Graphic_142">
+          <rect x="667.7601" y="469.959" width="44.18138" height="35.461373" fill="#d6d6d6"/>
+          <rect x="667.7601" y="469.959" width="44.18138" height="35.461373" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          <text transform="translate(669.8109 482.6897)" fill="black">
+            <tspan font-family="Avenir Next" font-size="7.383" font-weight="400" fill="black" x="10.364454" y="7">HDMI</tspan>
+          </text>
+        </g>
+        <g id="Graphic_141">
+          <rect x="617.76536" y="487.399" width="22.09069" height="16.277351" fill="#d6d6d6"/>
+          <rect x="617.76536" y="487.399" width="22.09069" height="16.277351" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          <text transform="translate(619.8162 492.0377)" fill="black">
+            <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x=".5656038" y="5">PWR IN</tspan>
+          </text>
+        </g>
+        <g id="Graphic_140">
+          <rect x="743.9148" y="464.727" width="16.277351" height="44.18138" fill="#797979"/>
+          <rect x="743.9148" y="464.727" width="16.277351" height="44.18138" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+        </g>
+        <g id="Graphic_139">
+          <rect x="723.5681" y="435.07895" width="9.301344" height="64.52807" fill="#797979"/>
+          <rect x="723.5681" y="435.07895" width="9.301344" height="64.52807" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+        </g>
+        <g id="Graphic_138">
+          <rect x="756.7042" y="392.06024" width="24.416027" height="24.416027" fill="#424242"/>
+          <rect x="756.7042" y="392.06024" width="24.416027" height="24.416027" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          <text transform="translate(758.755 399.26825)" fill="white">
+            <tspan font-family="Avenir Next" font-size="7.383" font-weight="400" fill="white" x="5.395162" y="7">U2</tspan>
+          </text>
+        </g>
+        <g id="Graphic_137">
+          <rect x="655.5521" y="389.15357" width="41.856047" height="41.856047" fill="#424242"/>
+          <rect x="655.5521" y="389.15357" width="41.856047" height="41.856047" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          <text transform="translate(657.6029 405.0816)" fill="white">
+            <tspan font-family="Avenir Next" font-size="7.383" font-weight="400" fill="white" x="14.115172" y="7">U1</tspan>
+          </text>
+        </g>
+        <g id="Graphic_136">
+          <rect x="603.232" y="389.15357" width="10.464012" height="63.365404" fill="#797979"/>
+          <rect x="603.232" y="389.15357" width="10.464012" height="63.365404" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+        </g>
+        <g id="Graphic_135">
+          <rect x="600.9067" y="358.44944" width="2.325336" height="7.557342" fill="#de1f00"/>
+          <rect x="600.9067" y="358.44944" width="2.325336" height="7.557342" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+        </g>
+        <g id="Graphic_134">
+          <rect x="600.9067" y="369.49156" width="2.325336" height="7.557342" fill="#78c545"/>
+          <rect x="600.9067" y="369.49156" width="2.325336" height="7.557342" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+        </g>
+        <g id="Group_130">
+          <g id="Graphic_133">
+            <rect x="619.50936" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_132">
+            <rect x="621.9655" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="621.9655" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_131">
+            <rect x="621.9655" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="621.9655" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_126">
+          <g id="Graphic_129">
+            <rect x="626.747" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_128">
+            <rect x="629.2031" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="629.2031" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_127">
+            <rect x="629.2031" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="629.2031" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_122">
+          <g id="Graphic_125">
+            <rect x="633.9846" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_124">
+            <rect x="636.4407" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="636.4407" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_123">
+            <rect x="636.4407" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="636.4407" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_118">
+          <g id="Graphic_121">
+            <rect x="641.2222" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_120">
+            <rect x="643.6783" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="643.6783" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_119">
+            <rect x="643.6783" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="643.6783" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_114">
+          <g id="Graphic_117">
+            <rect x="648.4598" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_116">
+            <rect x="650.9159" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="650.9159" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_115">
+            <rect x="650.9159" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="650.9159" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_110">
+          <g id="Graphic_113">
+            <rect x="655.6974" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_112">
+            <rect x="658.1535" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="658.1535" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_111">
+            <rect x="658.1535" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="658.1535" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_106">
+          <g id="Graphic_109">
+            <rect x="662.935" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_108">
+            <rect x="665.39114" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="665.39114" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_107">
+            <rect x="665.39114" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="665.39114" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_102">
+          <g id="Graphic_105">
+            <rect x="670.1726" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_104">
+            <rect x="672.62875" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="672.62875" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_103">
+            <rect x="672.62875" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="672.62875" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_98">
+          <g id="Graphic_101">
+            <rect x="677.4102" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_100">
+            <rect x="679.86636" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="679.86636" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_99">
+            <rect x="679.86636" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="679.86636" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_94">
+          <g id="Graphic_97">
+            <rect x="684.6478" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_96">
+            <rect x="687.104" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="687.104" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_95">
+            <rect x="687.104" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="687.104" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_90">
+          <g id="Graphic_93">
+            <rect x="691.8854" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_92">
+            <rect x="694.3416" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="694.3416" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_91">
+            <rect x="694.3416" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="694.3416" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_86">
+          <g id="Graphic_89">
+            <rect x="699.12304" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_88">
+            <rect x="701.5792" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="701.5792" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_87">
+            <rect x="701.5792" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="701.5792" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_82">
+          <g id="Graphic_85">
+            <rect x="706.36065" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_84">
+            <rect x="708.8168" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="708.8168" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_83">
+            <rect x="708.8168" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="708.8168" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_78">
+          <g id="Graphic_81">
+            <rect x="713.5983" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_80">
+            <rect x="716.0544" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="716.0544" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_79">
+            <rect x="716.0544" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="716.0544" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_74">
+          <g id="Graphic_77">
+            <rect x="720.8359" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_76">
+            <rect x="723.292" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="723.292" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_75">
+            <rect x="723.292" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="723.292" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_70">
+          <g id="Graphic_73">
+            <rect x="728.0735" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_72">
+            <rect x="730.5296" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="730.5296" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_71">
+            <rect x="730.5296" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="730.5296" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_66">
+          <g id="Graphic_69">
+            <rect x="735.3111" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_68">
+            <rect x="737.7672" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="737.7672" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_67">
+            <rect x="737.7672" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="737.7672" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_62">
+          <g id="Graphic_65">
+            <rect x="742.5487" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_64">
+            <rect x="745.0048" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="745.0048" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_63">
+            <rect x="745.0048" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="745.0048" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_58">
+          <g id="Graphic_61">
+            <rect x="749.7863" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_60">
+            <rect x="752.2424" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="752.2424" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_59">
+            <rect x="752.2424" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="752.2424" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Group_54">
+          <g id="Graphic_57">
+            <rect x="757.0239" y="343.0441" width="7.237608" height="13.55477" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8203268"/>
+          </g>
+          <g id="Graphic_56">
+            <rect x="759.48" y="346.0428" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="759.48" y="346.0428" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+          <g id="Graphic_55">
+            <rect x="759.48" y="351.2748" width="2.325336" height="2.325336" fill="black"/>
+            <rect x="759.48" y="351.2748" width="2.325336" height="2.325336" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4101634"/>
+          </g>
+        </g>
+        <g id="Graphic_53">
+          <text transform="translate(748.5593 506.85755) rotate(-90)" fill="white">
+            <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="15.873402" y="5">A/V</tspan>
+          </text>
+        </g>
+        <g id="Graphic_52">
+          <text transform="translate(724.9668 497.49536) rotate(-90)" fill="white">
+            <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="19.883513" y="5">CAMERA</tspan>
+          </text>
+        </g>
+        <g id="Graphic_51">
+          <text transform="translate(605.1539 450.46815) rotate(-90)" fill="white">
+            <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="20.001993" y="5">DISPLAY</tspan>
+          </text>
+        </g>
+        <g id="Graphic_50">
+          <text transform="translate(617.3254 385.31676) rotate(-90)" fill="white">
+            <tspan font-family="Avenir Next" font-size="2.461" font-weight="400" fill="white" x=".53024345" y="2">RUN</tspan>
+          </text>
+        </g>
+        <g id="Graphic_49">
+          <text transform="translate(604.3778 377.0489) rotate(-90)" fill="white">
+            <tspan font-family="Avenir Next" font-size="2.461" font-weight="400" fill="white" x="1.3595078" y="2">ACT</tspan>
+          </text>
+        </g>
+        <g id="Graphic_48">
+          <text transform="translate(604.3778 366.0068) rotate(-90)" fill="white">
+            <tspan font-family="Avenir Next" font-size="2.461" font-weight="400" fill="white" x="1.1318653" y="2">PWR</tspan>
+          </text>
+        </g>
+        <g id="Graphic_47">
+          <text transform="translate(612.2623 356.59886) rotate(-90)" fill="white">
+            <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x=".70117576" y="5">GPIO</tspan>
+          </text>
+        </g>
+        <g id="Group_26">
+          <g id="Graphic_46">
+            <text transform="translate(634.1179 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="5.375027" y="5">GPIO 3 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_45">
+            <text transform="translate(699.3087 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="2.5202672" y="5">GPIO 11 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_44">
+            <text transform="translate(757.2561 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="4.233123" y="5">Ground </tspan>
+            </text>
+          </g>
+          <g id="Graphic_43">
+            <text transform="translate(619.6311 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="12.836779" y="5">3V3</tspan>
+            </text>
+          </g>
+          <g id="Graphic_42">
+            <text transform="translate(742.7692 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="2.5202672" y="5">GPIO 19 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_41">
+            <text transform="translate(713.79555 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="7.644069" y="5">ID_SD </tspan>
+            </text>
+          </g>
+          <g id="Graphic_40">
+            <text transform="translate(626.8745 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="5.375027" y="5">GPIO 2 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_39">
+            <text transform="translate(750.01265 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="2.5202672" y="5">GPIO 26 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_38">
+            <text transform="translate(706.5521 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="4.233123" y="5">Ground </tspan>
+            </text>
+          </g>
+          <g id="Graphic_37">
+            <text transform="translate(692.0653 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="5.375027" y="5">GPIO 9 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_36">
+            <text transform="translate(677.5784 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="12.836779" y="5">3V3 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_35">
+            <text transform="translate(663.0916 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="2.5202672" y="5">GPIO 27 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_34">
+            <text transform="translate(655.8482 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="2.5202672" y="5">GPIO 17 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_33">
+            <text transform="translate(648.60475 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="4.233123" y="5">Ground </tspan>
+            </text>
+          </g>
+          <g id="Graphic_32">
+            <text transform="translate(684.8219 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="2.5202672" y="5">GPIO 10 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_31">
+            <text transform="translate(728.2824 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="5.375027" y="5">GPIO 6 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_30">
+            <text transform="translate(641.3613 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="5.375027" y="5">GPIO 4 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_29">
+            <text transform="translate(721.039 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="5.375027" y="5">GPIO 5 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_28">
+            <text transform="translate(735.5258 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="2.5202672" y="5">GPIO 13 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_27">
+            <text transform="translate(670.335 379.58316) rotate(-90)" fill="white">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="white" x="2.5202672" y="5">GPIO 22 </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Group_5">
+          <g id="Graphic_25">
+            <text transform="translate(757.2561 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 21</tspan>
+            </text>
+          </g>
+          <g id="Graphic_24">
+            <text transform="translate(750.01265 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 20</tspan>
+            </text>
+          </g>
+          <g id="Graphic_23">
+            <text transform="translate(742.7692 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 16</tspan>
+            </text>
+          </g>
+          <g id="Graphic_22">
+            <text transform="translate(735.5258 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">Ground</tspan>
+            </text>
+          </g>
+          <g id="Graphic_21">
+            <text transform="translate(728.2824 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 12</tspan>
+            </text>
+          </g>
+          <g id="Graphic_20">
+            <text transform="translate(721.039 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">Ground</tspan>
+            </text>
+          </g>
+          <g id="Graphic_19">
+            <text transform="translate(713.79555 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">ID_SC</tspan>
+            </text>
+          </g>
+          <g id="Graphic_18">
+            <text transform="translate(706.5521 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 7</tspan>
+            </text>
+          </g>
+          <g id="Graphic_17">
+            <text transform="translate(699.3087 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 8</tspan>
+            </text>
+          </g>
+          <g id="Graphic_16">
+            <text transform="translate(692.0653 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 25</tspan>
+            </text>
+          </g>
+          <g id="Graphic_15">
+            <text transform="translate(684.8219 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">Ground</tspan>
+            </text>
+          </g>
+          <g id="Graphic_14">
+            <text transform="translate(677.5784 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 24</tspan>
+            </text>
+          </g>
+          <g id="Graphic_13">
+            <text transform="translate(670.335 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 23</tspan>
+            </text>
+          </g>
+          <g id="Graphic_12">
+            <text transform="translate(663.0916 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">Ground</tspan>
+            </text>
+          </g>
+          <g id="Graphic_11">
+            <text transform="translate(655.8482 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 18</tspan>
+            </text>
+          </g>
+          <g id="Graphic_10">
+            <text transform="translate(648.60475 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 15</tspan>
+            </text>
+          </g>
+          <g id="Graphic_9">
+            <text transform="translate(641.3613 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">GPIO 14 </tspan>
+            </text>
+          </g>
+          <g id="Graphic_8">
+            <text transform="translate(634.1179 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">Ground </tspan>
+            </text>
+          </g>
+          <g id="Graphic_7">
+            <text transform="translate(626.8745 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">5V </tspan>
+            </text>
+          </g>
+          <g id="Graphic_6">
+            <text transform="translate(619.6311 339.43303) rotate(-90)" fill="black">
+              <tspan font-family="Avenir Next" font-size="4.922" font-weight="400" fill="black" x="0" y="5">5V</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_4">
+          <text transform="translate(697.4081 394.35103)" fill="black">
+            <tspan font-family="Avenir Next" font-size="7.383" font-weight="400" fill="black" x="5.6542307" y="7">Raspberry Pi 2</tspan>
+            <tspan font-family="Avenir Next" font-size="7.383" font-weight="400" fill="black" x="15.46993" y="17">Model B</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_2">
+        <rect x="303" y="424" width="259" height="64" fill="white"/>
+        <rect x="303" y="424" width="259" height="64" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <text transform="translate(306.705 402.76)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="42.251" y="15">UniFi Security Gateway</tspan>
+        </text>
+      </g>
+      <g id="Graphic_148">
+        <rect x="316" y="446" width="37" height="32.908366" fill="white"/>
+        <rect x="316" y="446" width="37" height="32.908366" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_152">
+        <text transform="translate(312.39 429)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="5790923e-19" y="11">Console</tspan>
+        </text>
+      </g>
+      <g id="Graphic_154">
+        <rect x="414.52147" y="446" width="37" height="32.908366" fill="white"/>
+        <rect x="414.52147" y="446" width="37" height="32.908366" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_153">
+        <text transform="translate(416.05348 429)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="7602807e-19" y="11">WAN1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_156">
+        <rect x="465.7415" y="446" width="37" height="32.908366" fill="white"/>
+        <rect x="465.7415" y="446" width="37" height="32.908366" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_155">
+        <text transform="translate(469.3495 429)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">LAN1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_158">
+        <rect x="515.65295" y="446" width="37" height="32.908366" fill="white"/>
+        <rect x="515.65295" y="446" width="37" height="32.908366" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_157">
+        <text transform="translate(518.25895 429)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="23270275e-20" y="11">W/L 2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_182">
+        <title>Label: Ethernet</title>
+        <rect x="679.8699" y="553.832" width="55.336" height="24.335999" fill="white"/>
+        <text transform="translate(684.8699 571)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Ethernet</tspan>
+        </text>
+      </g>
+      <g id="Line_159">
+        <path d="M 852.043 473.447 L 881 473.447 L 881 566 L 534.15295 566 L 534.15295 480.90837" stroke="#b1001c" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Line_161">
+        <line x1="484.2415" y1="480.90837" x2="484.2415" y2="568.88906" marker-end="url(#FilledArrow_Marker)" stroke="#b1001c" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_162">
+        <text transform="translate(427.556 591)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Home Network</tspan>
+        </text>
+      </g>
+      <g id="Graphic_163">
+        <rect x="174" y="259.09163" width="62.664" height="228.90837" fill="white"/>
+        <rect x="174" y="259.09163" width="62.664" height="228.90837" stroke="#4b4b4b" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <text transform="translate(147.668 217.7528)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="17.800001" y="15">Broadband </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="30.24" y="33.448">Modem</tspan>
+        </text>
+      </g>
+      <g id="Graphic_165">
+        <rect x="186.832" y="443" width="37" height="32.908366" fill="white"/>
+        <rect x="186.832" y="443" width="37" height="32.908366" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_164">
+        <text transform="translate(182.664 426)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Ethernet</tspan>
+        </text>
+      </g>
+      <g id="Line_166">
+        <path d="M 433.0215 480.90837 L 433.0215 567 L 206 567 L 206 565.5 L 205.332 565.5 L 205.332 477.90837" stroke="#b1001c" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Group_173">
+        <title>iPhone 8</title>
+        <g id="Graphic_179">
+          <path d="M 905.5493 190.21498 C 905.2409 190.2456 905 190.50582 905 190.8223 L 905 199.26945 C 905 199.58593 905.2409 199.84615 905.5493 199.87678 L 905.5493 210.86897 C 905.2409 210.8996 905 211.15982 905 211.4763 L 905 227.61376 C 905 227.93025 905.2409 228.19047 905.5493 228.2211 L 905.5493 232.62159 C 905.2409 232.6522 905 232.91243 905 233.22891 L 905 249.36638 C 905 249.68286 905.2409 249.94308 905.5493 249.9737 L 905.5493 382.40887 C 905.5493 391.8472 913.2006 399.49846 922.6389 399.49846 L 1004.9131 399.49846 C 1014.3514 399.49846 1022.0027 391.8472 1022.0027 382.40887 L 1022.0027 228.2241 L 1022.552 228.2241 L 1022.552 210.97582 L 1022.0027 210.97582 L 1022.0027 177.0896 C 1022.0027 167.65127 1014.3514 160 1004.9131 160 L 922.6389 160 C 913.2006 160 905.5493 167.65127 905.5493 177.0896 Z" fill="#5b5f60"/>
+          <path d="M 905.5493 190.21498 C 905.2409 190.2456 905 190.50582 905 190.8223 L 905 199.26945 C 905 199.58593 905.2409 199.84615 905.5493 199.87678 L 905.5493 210.86897 C 905.2409 210.8996 905 211.15982 905 211.4763 L 905 227.61376 C 905 227.93025 905.2409 228.19047 905.5493 228.2211 L 905.5493 232.62159 C 905.2409 232.6522 905 232.91243 905 233.22891 L 905 249.36638 C 905 249.68286 905.2409 249.94308 905.5493 249.9737 L 905.5493 382.40887 C 905.5493 391.8472 913.2006 399.49846 922.6389 399.49846 L 1004.9131 399.49846 C 1014.3514 399.49846 1022.0027 391.8472 1022.0027 382.40887 L 1022.0027 228.2241 L 1022.552 228.2241 L 1022.552 210.97582 L 1022.0027 210.97582 L 1022.0027 177.0896 C 1022.0027 167.65127 1014.3514 160 1004.9131 160 L 922.6389 160 C 913.2006 160 905.5493 167.65127 905.5493 177.0896 Z" stroke="#666b6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" clip-path="url(#inner_stroke_clip_path)"/>
+        </g>
+        <g id="Graphic_178">
+          <ellipse cx="963.7065" cy="383.23894" rx="8.8730289203977" ry="9.00867233887685" fill="#dae2e3"/>
+          <ellipse cx="963.7065" cy="383.23894" rx="8.8730289203977" ry="9.00867233887685" stroke="#b9bfc1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_177">
+          <path d="M 913.1261 189.00348 L 1014.0536 189.00348 C 1014.4392 189.00348 1014.7518 189.31946 1014.7518 189.70924 L 1014.7518 369.13005 C 1014.7518 369.51983 1014.4392 369.8358 1014.0536 369.8358 L 913.1261 369.8358 C 912.7405 369.8358 912.4279 369.51983 912.4279 369.13005 L 912.4279 189.70924 C 912.4279 189.31946 912.7405 189.00348 913.1261 189.00348 Z" fill="white"/>
+          <path d="M 913.1261 189.00348 L 1014.0536 189.00348 C 1014.4392 189.00348 1014.7518 189.31946 1014.7518 189.70924 L 1014.7518 369.13005 C 1014.7518 369.51983 1014.4392 369.8358 1014.0536 369.8358 L 913.1261 369.8358 C 912.7405 369.8358 912.4279 369.51983 912.4279 369.13005 L 912.4279 189.70924 C 912.4279 189.31946 912.7405 189.00348 913.1261 189.00348 Z" stroke="#c2cccd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_176">
+          <ellipse cx="945.3338" cy="175.4905" rx="1.83953038593619" ry="1.86765158245008" fill="#dae2e3"/>
+          <ellipse cx="945.3338" cy="175.4905" rx="1.83953038593619" ry="1.86765158245008" stroke="#b9bfc1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_175">
+          <ellipse cx="963.7867" cy="168.12976" rx="1.29849203713141" ry="1.31834229349417" fill="#c2cccc"/>
+        </g>
+        <g id="Graphic_174">
+          <path d="M 954.3279 174.94119 L 972.7175 174.94119 C 973.0816 174.94119 973.3767 175.2363 973.3767 175.60036 L 973.3767 175.60036 C 973.3767 175.9644 973.0816 176.25953 972.7175 176.25953 L 954.3279 176.25953 C 953.9638 176.25953 953.6687 175.9644 953.6687 175.60036 L 953.6687 175.60036 C 953.6687 175.2363 953.9638 174.94119 954.3279 174.94119 Z" fill="#dae2e3"/>
+          <path d="M 954.3279 174.94119 L 972.7175 174.94119 C 973.0816 174.94119 973.3767 175.2363 973.3767 175.60036 L 973.3767 175.60036 C 973.3767 175.9644 973.0816 176.25953 972.7175 176.25953 L 954.3279 176.25953 C 953.9638 176.25953 953.6687 175.9644 953.6687 175.60036 L 953.6687 175.60036 C 953.6687 175.2363 953.9638 174.94119 954.3279 174.94119 Z" stroke="#b9bfc1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Graphic_181">
+        <rect x="911.8198" y="405.31833" width="34.66" height="24.335999" fill="white"/>
+        <text transform="translate(916.8198 422.48633)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">USB</tspan>
+        </text>
+      </g>
+      <g id="Line_180">
+        <path d="M 852.043 417.63893 L 864.043 417.63893 L 944.9844 417.4492 L 963.7065 417.4492 L 963.7065 393.2476" stroke="#006dc4" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
