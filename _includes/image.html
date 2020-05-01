@@ -1,5 +1,5 @@
 <!-- _based on https://stackoverflow.com/a/51682829 -->
-<figure>
+<figure {%if include.float %} class="align-{{ include.float }}" {% endif %}>
     {% if include.url %}
     <a href="{{ include.url }}">
     {% endif %}

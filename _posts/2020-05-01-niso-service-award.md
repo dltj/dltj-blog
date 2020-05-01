@@ -1,12 +1,9 @@
 ---
-title: 'With Gratitude for the NISO Anne Marie Cunningham Service Award'
+title: 'With Gratitude for the NISO Ann Marie Cunningham Service Award'
 categories:
-- 
+- Personal
 tags:
-- NISO
-- 
-- 
-- 
+- niso
 ---
 During the inaugural NISO Plus meeting at the end of February, I was surprised and proud to receive the Ann Marie Cunningham Service award. 
 Todd Carpenter, NISO’s executive director, [let me know by tweet](https://twitter.com/nisoinfo/status/1232370410479587329) as I was not able to attend the conference.  
@@ -14,6 +11,13 @@ Pictured in that tweet is my co-recipient, Christine Stohn, who serves NISO with
 This got me thinking about what NISO has meant to me. 
 As I think back on it, my activity in NISO spans at least four employers and many hours of standard working group meetings, committee meetings, presentations, and ballot reviews.
 
+{% include image.html 
+  wpsrc="2020/2020-05-01-niso-service-award.jpg"
+  caption="NISO Ann Marie Cunningham Service Award"
+  alt="Picture of the award plaque"
+  width="100"
+  float="right"
+%}
 I did not know Ms Cunningham, the award’s namesake. 
 My first job started when she was the NFAIS executive director in the early 1990s, and I hadn’t been active in the profession yet. 
 I read her [brief biography](https://www.niso.org/nisoplus2020/awards) on the NISO website:
