@@ -151,3 +151,10 @@ Maybe you will find inspiration here.
 
 Democracy is participatory.
 You've got to tune in and show up to make it happen.
+
+{% include image.html 
+  wpsrc="2020/2020-11-04-certificate.jpg"
+  caption="Certificate of Appreciation"
+  alt="Picture of certificate from Franklin County Board of Elections in appreciation for serving as a voting location manager for the November 3, 2020, general election."
+  width="524"
+%} 
