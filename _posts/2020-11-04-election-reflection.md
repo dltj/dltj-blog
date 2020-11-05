@@ -37,7 +37,7 @@ The real thing only vaguely looked like this, but it got us started.
 %} 
 
 We could set up tables, unpack equipment, hang signs, and other tasks that don't involve turning on machines or breaking open packets of ballots.
-This year, one of the early setup tasks was updating the voters' roster on the electronic poll pads.
+One of the early setup tasks was updating the voters' roster on the electronic poll pads.
 As happened around the country, there was _a lot_ of early voting activity in Franklin County, so the update file must have been massive.
 The electronic poll pads couldn't handle the update; they hung at step 8-of-9 for over an hour.
 I called the Board of Elections and got ahold of someone in the equipment warehouse.
