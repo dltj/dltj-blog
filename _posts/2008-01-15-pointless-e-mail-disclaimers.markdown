@@ -383,5 +383,14 @@ So for the near-11-year anniversary for this post, I'm adding this one that I re
 
 No, I haven't seen anything like this either.  Thanks for sending!
 
+## November 2020 Addition: Not Pointless, More Hopeful
+Nearing the 13th anniversary for this post, I saw an email disclaimer on Twitter that was too good to pass up.
+It comes from Cory Doctorow [by way of _Ray [REDACTED]_](https://twitter.com/rayredacted/status/1324117810927276032).
 
-<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://en.wikipedia.org/wiki/Quantum_bogodynamics to http://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion/Quantum_bogodynamics_%282nd_nomination%29 on January 19th, 2011.</p>
+> For avoidance of doubt: This email does not constitute permission to add me to your mailing list.
+>
+> READ CAREFULLY. By reading this email, you agree, on behalf of your employer, to release me from all obligations and waivers arising from any and all NON-NEGOTIATED agreements, licenses, terms-of-service, shrinkwrap, clickwrap, browsewrap, confidentiality, non-disclosure, non-compete and acceptable use policies ("BOGUS AGREEMENTS") that I have entered into with your employer, its partners, licensors, agents and assigns, in perpetuity, without prejudice to my ongoing rights and privileges. You further represent that you have the authority to release me from any BOGUS AGREEMENTS on behalf of your employer.
+>
+> As is the case with every email you've ever received, this email has not been scanned for all known viruses.
+
+As I was typing it from the image in the tweet, I couldn't help but notice that Mr. Doctorow may not be a believer in the Oxford comma.
