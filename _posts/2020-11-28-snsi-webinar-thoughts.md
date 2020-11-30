@@ -92,7 +92,7 @@ Also, in designing the system, there needs to be clarity about how the signals a
 
 Although it was the tweet to the [Coda Story](https://www.codastory.com/authoritarian-tech/spyware-in-libraries/) about the presentation that blew up, the thread of the story goes through [TechDirt](https://www.techdirt.com/articles/20201029/04034145611/to-prevent-free-frictionless-access-to-human-knowledge-publishers-want-librarians-to-be-afraid-very-afraid.shtml) to a tangential paragraph from [Netzpolitik](https://netzpolitik.org/2020/news-from-elsevier-no-open-access-deal-but-spyware-against-shadow-libraries/) in an article about Germany's licensing struggle with Elsevier.  
 
-With this heritage, any review of the webinar's ideas are automatically tainted by the distain the library community in general has towards Elsevier. 
+With this heritage, any review of the webinar's ideas are automatically tainted by the disdain the library community in general has towards Elsevier. 
 It is reality—an unfortunate reality, in my opinion—that the traditional scholarly journal model has publishers exerting strong copyright protection on research and ideas behind paywalls. 
 (Wouldn't it be better if we poured the anti-piracy effort into improving scholarly communication tools in an Open Access world? Yes, but that isn't the world we live in.) 
 Almost every library deals with this friction by employing a web proxy server as an agent between the patron and the publisher's content. 
