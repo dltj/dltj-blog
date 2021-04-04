@@ -7,20 +7,20 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-section.wp-import-message {
+section.wp-import-message, p.dltj-note {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   background-color: #F0F7FB;
   background-image: url(../icons/note.png);
   background-position: 9px 0;
   background-repeat: no-repeat;
-  border: solid 1px #3498db;
+  border: solid 1px #3498DB;
   border-radius: 6px;
+  font-size: 0.85em;
   line-height: 1.1em;
+  margin: 0.75em 0;
   overflow: hidden;
   padding: 15px 15px 15px 60px;
-  margin: 0.75em 0;
-  font-size: 0.85em;
 }
 
 /* The close button */
