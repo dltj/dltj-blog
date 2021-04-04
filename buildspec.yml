@@ -7,6 +7,9 @@ version: 0.2
   #parameter-store:
      # key: "value"
      # key: "value"
+env:
+  variables:
+    s3deploy_version: 2.3.5
 
 phases:
   install:
@@ -14,6 +17,8 @@ phases:
       ruby: 2.6
     commands:
       - bundle install --path vendor/bundle
+      - curl -s -S -L -f https://github.com/bep/s3deploy/releases/download/v${s3deploy_version}/s3deploy_${s3deploy_version}_Linux-64bit.tar.gz -z vendor/s3deploy.tar.gz -o vendor/s3deploy.tmp && mv -f vendor/s3deploy.tmp vendor/s3deploy.tar.gz 2>/dev/null || rm -f vendor/s3deploy.tmp vendor/s3deploy.tar.gz
+      - tar -xf vendor/s3deploy.tar.gz --directory vendor
   pre_build:
     commands:
       - export LC_ALL="C.UTF-8"
@@ -24,7 +29,8 @@ phases:
       - bundler exec jekyll build
   post_build:
     commands:
-      - aws s3 sync --delete --size-only --cache-control max-age=7201 _site/ "s3://${BUCKET_NAME}"
+#      - aws s3 sync --delete --size-only --cache-control max-age=7201 _site/ "s3://${BUCKET_NAME}"
+      - vendor/s3deploy -bucket "${BUCKET_NAME}" -region us-east-1 -source _site/
       - aws s3api put-bucket-website --bucket "${BUCKET_NAME}" --website-configuration file://s3-website-config.json
 #artifacts:
   #files:
