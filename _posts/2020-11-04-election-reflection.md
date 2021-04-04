@@ -1,6 +1,7 @@
 ---
 title: 'As a Cog in the Election System: Reflections on My Role as a Precinct Election Official'
-categories: personal
+categories:
+- Personal
 tags:
 - Columbus OH
 ---

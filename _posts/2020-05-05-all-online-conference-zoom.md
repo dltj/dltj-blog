@@ -1,6 +1,7 @@
 ---
 title: 'Running an All-Online Conference with Zoom [post removed]'
-categories: raw-technology
+categories:
+- Raw Technology
 tags:
 - howto
 - zoom

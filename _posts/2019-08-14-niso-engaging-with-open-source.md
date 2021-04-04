@@ -1,11 +1,10 @@
 ---
 title: 'Engaging with Open Source Technologies'
-categories: lis-profession
+categories:
+- L/IS Profession
 tags:
 - open-source
 - publishing
-- 
-- 
 ---
 
 These are the presentation notes for the _Engaging with Open Source Technologies_ presentation during the [Open Source Publishing Technologies: Current Status and Emerging Possibilities](https://www.niso.org/events/2019/08/open-source-publishing-technologies-current-status-and-emerging-possibilities) webinar on Wednesday, August 14, 2019.

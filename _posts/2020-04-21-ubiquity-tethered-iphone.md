@@ -1,6 +1,7 @@
 ---
 title: 'Tethering a Ubiquity Network to a Mobile Hotspot'
-categories: raw-technology
+categories:
+- Raw Technology
 tags:
 - howto
 - networking

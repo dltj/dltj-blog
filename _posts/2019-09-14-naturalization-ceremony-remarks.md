@@ -1,6 +1,7 @@
 ---
 title: 'Reflections on "Responsibilities of Citizenship for Immigrants and our Daughter"'
-categories: personal
+categories:
+- Personal
 tags:
 - politics
 - history

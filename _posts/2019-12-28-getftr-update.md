@@ -5,9 +5,9 @@ tags:
 - openurl
 - discovery
 - ra21
-- seamlessaccess
+- SeamlessAccess
 - niso
-- getftr
+- GetFTR
 ---
 In early December 2019, a group of publishers announced [Get-Full-Text-Research](https://www.getfulltextresearch.com/), or GetFTR for short. 
 There was a heck of a response on social media, and the response was—on the whole—not positive from my librarian-dominated corner of Twitter. 

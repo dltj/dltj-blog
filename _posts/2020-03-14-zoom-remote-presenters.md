@@ -1,6 +1,7 @@
 ---
 title: 'Managing Remote Conference Presenters with Zoom'
-categories: raw-technology
+categories:
+- Raw Technology
 tags:
 - howto
 - zoom

@@ -1,6 +1,7 @@
 ---
 title: 'Ensuring System Interoperability: Readers and Ebooks — A NISO/BISG Forum'
-categories: lis-profession
+categories:
+- L/IS Profession
 tags: 
 - conference
 - standards
