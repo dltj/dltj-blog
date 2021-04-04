@@ -1,6 +1,7 @@
 ---
 title: 'Should All Conference Talks be Pre-recorded?'
-categories: 'L/IS Profession'
+categories:
+- L/IS Profession
 tags:
 - code4lib
 - NISOplus
