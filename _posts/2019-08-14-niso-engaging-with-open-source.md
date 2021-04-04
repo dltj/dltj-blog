@@ -3,7 +3,7 @@ title: 'Engaging with Open Source Technologies'
 categories:
 - L/IS Profession
 tags:
-- open-source
+- open source
 - publishing
 ---
 

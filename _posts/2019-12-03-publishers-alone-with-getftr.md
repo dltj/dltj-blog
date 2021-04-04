@@ -1,6 +1,7 @@
 ---
 title: 'Publishers going-it-alone (for now?) with GetFTR'
-categories: linking-technologies
+categories:
+- Linking Technologies
 tags:
 - openurl
 - discovery

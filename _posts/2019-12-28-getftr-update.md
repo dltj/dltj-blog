@@ -1,6 +1,7 @@
 ---
 title: 'What is known about GetFTR at the end of 2019'
-categories: linking-technologies
+categories:
+- Linking Technologies
 tags:
 - openurl
 - discovery
