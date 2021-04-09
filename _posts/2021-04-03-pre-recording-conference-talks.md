@@ -13,6 +13,8 @@ tags:
 The <a href="https://2021.Code4Lib.org/" data-versionurl="https://archive.li/wip/xCo7x" data-versiondate="2021-04-03">Code4Lib conference</a> was last week.  That meeting used all pre-recorded talks, and we saw the benefits of pre-recording for attendees, presenters, and conference organizers.
 Should all talks be pre-recorded, even when we are back face-to-face?
 
+{% include note.html notetext="After I posted a link to this article on Twitter, there was a great response of thoughtful comments.  I've included new bullet points below and <a href='https://dltj.org/article/pre-recording-conference-talks-redux'>summarized the responses in another blog post.</a>" %}
+
 As an entirely virtual conference, I think we can call Code4Lib 2021 a success.
 Success ≠ Perfect, of course, and last week the conference coordinating team got together on a Zoom call for a debriefing session.
 We had a lengthy discussion about what we learned and what we wanted to take forward to the 2022 conference, which we're anticipating will be something with a face-to-face component.
@@ -72,6 +74,10 @@ Pre-recording all talks is better for:
 Downsides for pre-recording all talks:
 * _Feels weird:_ yeah, it would be different
 * _Erodes justification:_ indeed a problem, especially for those for whom giving a speech is the only path to getting the networking benefits of face-to-face interaction
+* _Limits presentation format:_  it forces every session into being a lecture. For two decades CfPs have emphasized how will this season be engaging/not just a talking head? ([Lisa Janicke Hinchliffe](https://twitter.com/lisalibrarian/status/1379060316634497025))
+* _Increased Technical Burden on Speaker and Organizers:_ conference organizers asking presenters to do their own pre-recording is a barrier ([Junior Tidal](https://twitter.com/JuniorTidal/status/1379075950617452547)), and organizers have added new requirements for themselves
+* _No Audience Feedback:_ pre-recording forces the presenter into an unnatural state relative to the audience ([Andromeda Yelton](https://twitter.com/ThatAndromeda/status/1379068453030670354))
+* _Currency of information:_ pre-recording talks before en event naturally introduces a delay between the recording and the playback. ([Lisa Janicke Hinchliffe](https://twitter.com/lisalibrarian/status/1379065709687402497))
 
 I'm curious to hear of other reasons, for and against.
 <a href="https://twitter.com/intent/tweet?text=Hey%20%40DataG%2C%20about%20all%20pre-recorded%20presentations%3A%20">Reach out to me on Twitter</a> if you have some.
