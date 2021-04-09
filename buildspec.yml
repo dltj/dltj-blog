@@ -17,7 +17,7 @@ phases:
       ruby: 2.6
     commands:
       - bundle install --path vendor/bundle
-      - curl -s -S -L -f https://github.com/bep/s3deploy/releases/download/v${s3deploy_version}/s3deploy_${s3deploy_version}_Linux-64bit.tar.gz -z vendor/s3deploy.tar.gz -o vendor/s3deploy.tmp && mv -f vendor/s3deploy.tmp vendor/s3deploy.tar.gz 2>/dev/null || rm -f vendor/s3deploy.tmp vendor/s3deploy.tar.gz
+      - curl -s -S -L -f https://github.com/bep/s3deploy/releases/download/v${s3deploy_version}/s3deploy_${s3deploy_version}_Linux-64bit.tar.gz -o vendor/s3deploy.tar.gz || rm -f vendor/s3deploy.tar.gz
       - tar -xf vendor/s3deploy.tar.gz --directory vendor
   pre_build:
     commands:
