@@ -106,13 +106,15 @@ Let's keep talking about what that looks like and sharing discoveries with each 
 ## The Tree of Tweets
 
 It was a great discussion, and I think I pulled in the major ideas in the summary above.
-With some guidance from [Ed Summers](https://twitter.com/edsu), I'm going to embed the [Twitter threads](https://treeverse.app/view/dhJ4irUj) below using [Treeverse](https://treeverse.app) by [Paul GB](https://twitter.com/paulgb).
+With some guidance from [Ed Summers](https://twitter.com/edsu), I'm going to embed the [Twitter threads](https://treeverse.app/view/dhJ4irUj) below using [Treeverse](https://treeverse.app) by [Paul Butler](https://twitter.com/paulgb).
 We might be stretching the boundaries of what is possible, so no guarantees that this will be viewable for the long term.
 
-<script src="/assets/js/replayweb-ui.js"></script>
-<replay-web-page source="/assets/attachments/2021-04-08-treeverse.wacz"
-url="https://treeverse.app/view/dhJ4irUj" embed="replayonly" replayBase="/assets/js/replayweb-sw.js"></replay-web-page>
-
-
+<script src="/assets/js/replayweb/ui.js"></script>
+<replay-web-page 
+	style="height:700px;display: flex;" 
+	source="/assets/attachments/2021-04-08-treeverse.wacz"
+	url="https://treeverse.app/view/dhJ4irUj" 
+	embed="replayonly" 
+	replayBase="/assets/js/replayweb/"></replay-web-page>
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
