@@ -99,6 +99,12 @@ But if you take for granted for a moment that you feel disrupted -- a kind of lo
       </div>
 </li>
 <li>
+      <img alt="" class="a-c-B-qg" src="//s2.googleusercontent.com/s2/favicons?alt=p&amp;domain=code4lib.social"/>
+<div class="a-c-B-h h">
+        <a class="a-c-B-h-cj url" rel="me" href="https://code4lib.social/@dltj">Mastodon @ Code4Lib</a>
+      </div>
+</li>
+<li>
       <img alt="" class="a-c-B-qg" src="//s2.googleusercontent.com/s2/favicons?alt=p&amp;domain=www.linkedin.com"/>
 <div class="a-c-B-h h">
         <a class="a-c-B-h-cj url" href="http://www.linkedin.com/in/datagazetteer" rel="me" target="_blank" title="LinkedIn Profile">LinkedIn Profile</a>
