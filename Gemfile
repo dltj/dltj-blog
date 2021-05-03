@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll" #, "~> 3.8.5"
 
-gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.19.2"
+gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.22.0"
 
 # These are from https://github.com/jch/html-pipeline/blob/master/Gemfile
 # gem 'commonmarker',         '~> 0.16'

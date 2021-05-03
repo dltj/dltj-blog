@@ -8,10 +8,10 @@ GIT
 
 GIT
   remote: https://github.com/mmistakes/minimal-mistakes.git
-  revision: 3b76e53f7ae077a21c57320db26afec6b9ae1695
-  tag: 4.19.2
+  revision: 30ae2357c9a07abcdf6fceb8221f463564a154df
+  tag: 4.22.0
   specs:
-    minimal-mistakes-jekyll (4.19.2)
+    minimal-mistakes-jekyll (4.22.0)
       jekyll (>= 3.7, < 5.0)
       jekyll-feed (~> 0.1)
       jekyll-gist (~> 1.5)
