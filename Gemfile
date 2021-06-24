@@ -10,6 +10,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll" #, "~> 3.8.5"
 
+gem "kramdown-parser-gfm"
+
 gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.22.0"
 
 # These are from https://github.com/jch/html-pipeline/blob/master/Gemfile
@@ -37,6 +39,7 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-last-modified-at", :git => "https://github.com/gjtorikian/jekyll-last-modified-at.git"
   gem "jekyll-include-cache"
+  gem 'jekyll-webmention_io'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

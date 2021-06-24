@@ -301,3 +301,18 @@ defaults:
       comments: # true
       share: true
       related: true
+
+webmentions:
+  username: dltj.org
+  # Use my own cache folder
+  cache_folder: vendor/webmentions
+  # skip bad URLs for 5 days
+  cache_bad_uris_for: 5
+  # I moved to www and then to https, so…
+  legacy_domains:
+    - http://dltj.org
+  throttle_lookups:
+    last_week: daily
+    last_month: weekly
+    last_year: every 2 weeks
+    older: monthly
