@@ -1,4 +1,9 @@
+{% unless site.atom_feed.hide %}
+  <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="feed" title="{{ site.title }} Feed">
+{% endunless %}
+
 {% webmentions_head %}
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@master/css/academicons.min.css">
 <meta name="monetization" content="$coil.xrptipbot.com/PQUEPWW9Q86JygbJ55QffA">
