@@ -41,3 +41,175 @@ section.wp-import-message, p.dltj-note {
 .closebtn:hover {
     color: black;
 }
+
+/*------------------------------------*\
+    Webmentions
+\*------------------------------------*/
+
+$avatar-width: 48;
+$default-spacing: 4;
+$font-size-default: 12;
+$font-size-small: 10;
+$font-weight-sansserif-bold: 800;
+
+// REM values
+// Adapted from http://hugogiraudel.com/2013/03/18/ultimate-rem-mixin/
+@mixin rem( $property, $values )
+{
+  $px: ();
+  $rem: ();
+  
+  @each $value in $values
+  {
+    @if $value == 0 or $value == auto
+    {
+      $px : append( $px , $value );
+      $rem: append( $rem, $value );
+    }
+    @else
+    {
+      $unit: unit( $value );
+      $val: parseInt( $value );
+      
+      // enforce pixels on unitless measurements
+      @if $unit == ""
+      {
+        $value: $value + 0px;
+        $unit: "px";
+      }
+      
+      // assume pixels
+      @if $unit == "px"
+      {
+        $px : append( $px,  $value );
+        $rem: append( $rem, ( $val / $font-size-default + rem ) );
+      }
+      
+      @if $unit == "rem"
+      {
+        $px : append( $px,  ( $val * $font-size-default + px ) );
+        $rem: append( $rem, $value );
+      }
+    }
+  }
+  
+  @if $px == $rem
+  {
+    #{$property}: $px;
+  }
+  @else
+  {
+    #{$property}: $px;
+    #{$property}: $rem;
+  }
+}
+
+.page__socialmedia {
+    h2 {
+      color: $muted-text-color;
+      font-size: $type-size-3;
+      margin-top: 15px;
+    }
+}
+
+.webmentions {
+    @include rem( font-size, $font-size-default );
+    @include rem( margin-top, $default-spacing / 2 );
+    
+    h3 { 
+      color: $muted-text-color;
+      font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+      font-size: $type-size-4;
+      margin-top: 10px;
+    }
+
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        clear: both;
+
+        border-top: 1px solid black;
+        margin: 0;
+        @include rem( padding, $default-spacing 0 $default-spacing ( $avatar-width + $default-spacing ) );
+        @include rem( min-height, $avatar-width );
+
+        position: relative;
+
+        &:first-child {
+            border-top: 0;
+        }
+    }
+}
+
+.webmention {
+
+    &__author {
+        @include rem( font-size, $font-size-small );
+        font-weight: $font-weight-sansserif-bold;
+    }
+    
+    // &--author-starts .h-card .p-name {
+    //     @include breakup-placeholder( hidden );
+    // }
+    
+    &__author__photo {
+        border-radius: 3px;
+
+        display: block;
+        @include rem( width, $avatar-width );
+        @include rem( height, $avatar-width );
+
+        position: absolute;
+        @include rem( top, $default-spacing );
+        
+        left: 0;
+    }
+    
+    &__title,
+    &__content,
+    &__meta {
+        margin: 0;
+    }
+    
+    &__meta {
+        color: $muted-text-color;
+        @include rem( font-size, $font-size-small );
+    }
+
+    &--activity &__author,
+    &--activity &__title {
+        display: inline;
+    }
+
+    &--like,
+    &--repost {
+
+        border: 0;
+        display: inline;
+        margin: 0 5px 0 0;
+        padding: 0;
+
+        .webmention__author {
+            display: inline;
+
+            &__photo {
+                border: 1px solid;
+                border-radius: 50%;
+                
+                display: inline;
+                max-width: 48px;
+                margin: 0;
+                
+                position: static;
+            }
+
+            a {
+                background-image: none !important;
+            }
+        }
+    }
+}

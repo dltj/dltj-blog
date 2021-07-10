@@ -311,6 +311,10 @@ webmentions:
   # I moved to www and then to https, so…
   legacy_domains:
     - http://dltj.org
+  templates:
+    likes: _includes/webmentions/likes.html
+    reposts: _includes/webmentions/reposts.html
+    webmentions: _includes/webmentions/webmentions.html
   throttle_lookups:
     last_week: daily
     last_month: weekly
