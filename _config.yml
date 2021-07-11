@@ -314,6 +314,9 @@ webmentions:
   # I moved to www and then to https, so…
   legacy_domains:
     - http://dltj.org
+  js:
+    source: false
+    destination: /assets/js/
   templates:
     likes: _includes/webmentions/likes.html
     reposts: _includes/webmentions/reposts.html
