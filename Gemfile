@@ -14,7 +14,7 @@ gem "kramdown-parser-gfm"
 
 #gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.22.0"
 #gem "minimal-mistakes-jekyll", :path => "/Users/peter/code/minimal-mistakes"
-gem "minimal-mistakes-jekyll", :git => "https://github.com/dltj/minimal-mistakes.git", :tag => "microformats"
+gem "minimal-mistakes-jekyll", :git => "https://github.com/dltj/minimal-mistakes.git", :tag => "master"
 
 # These are from https://github.com/jch/html-pipeline/blob/master/Gemfile
 # gem 'commonmarker',         '~> 0.16'

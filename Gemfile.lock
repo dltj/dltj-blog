@@ -14,10 +14,10 @@ GIT
 
 GIT
   remote: https://github.com/dltj/minimal-mistakes.git
-  revision: 4558a01e9dace7174dea8cb9b27bf4ca511da9b7
-  tag: microformats
+  revision: 75bf6886eb5cfa7cbbf290f19a2e4325dee2fd37
+  tag: master
   specs:
-    minimal-mistakes-jekyll (4.23.0)
+    minimal-mistakes-jekyll (4.24.0)
       jekyll (>= 3.7, < 5.0)
       jekyll-feed (~> 0.1)
       jekyll-gist (~> 1.5)
