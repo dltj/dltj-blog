@@ -316,7 +316,7 @@ webmentions:
     - http://dltj.org
   js:
     source: false
-    destination: /assets/js/
+    destination: assets/js
   templates:
     likes: _includes/webmentions/likes.html
     reposts: _includes/webmentions/reposts.html
