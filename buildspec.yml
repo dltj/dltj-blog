@@ -30,9 +30,10 @@ phases:
   post_build:
     commands:
 #      - aws s3 sync --delete --size-only --cache-control max-age=7201 _site/ "s3://${BUCKET_NAME}"
-      - vendor/s3deploy -v -bucket "${BUCKET_NAME}" -region us-east-1 -source _site/
+      - vendor/s3deploy -bucket "${BUCKET_NAME}" -region us-east-1 -source _site/
       - aws s3api put-bucket-website --bucket "${BUCKET_NAME}" --website-configuration file://s3-website-config.json
       - ls -lR _site/assets
+      - find . -name "JekyllWebmentionIO.js" -print
 #artifacts:
   #files:
     # - location
