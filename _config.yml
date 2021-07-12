@@ -315,7 +315,6 @@ webmentions:
   legacy_domains:
     - http://dltj.org
   js:
-    source: false
     destination: assets/js
   templates:
     likes: _includes/webmentions/likes.html
