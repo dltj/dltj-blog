@@ -26,7 +26,7 @@ phases:
       - export LANGUAGE="en_US.UTF-8"
   build:
     commands:
-      - bundler exec jekyll build
+      - bundler exec jekyll build --trace
   post_build:
     commands:
 #      - aws s3 sync --delete --size-only --cache-control max-age=7201 _site/ "s3://${BUCKET_NAME}"

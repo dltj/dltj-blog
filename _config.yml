@@ -165,6 +165,7 @@ include:
   - _pages
   - resume
   - .well-known
+  - assets/js/JekyllWebmentionIO.js
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -315,7 +316,7 @@ webmentions:
   legacy_domains:
     - http://dltj.org
   js:
-    destination: _site/assets/js
+    destination: assets/js
   templates:
     likes: _includes/webmentions/likes.html
     reposts: _includes/webmentions/reposts.html
