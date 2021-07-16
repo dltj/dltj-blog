@@ -9,7 +9,7 @@ version: 0.2
      # key: "value"
 env:
   variables:
-    s3deploy_version: 2.3.5
+    s3deploy_version: 2.3.6-dltj
 
 phases:
   install:
@@ -17,7 +17,7 @@ phases:
       ruby: 2.6
     commands:
       - bundle install --path vendor/bundle
-      - curl -s -S -L -f https://github.com/bep/s3deploy/releases/download/v${s3deploy_version}/s3deploy_${s3deploy_version}_Linux-64bit.tar.gz -o vendor/s3deploy.tar.gz || rm -f vendor/s3deploy.tar.gz
+      - curl -s -S -L -f https://github.com/dltj/s3deploy/releases/download/v${s3deploy_version}/s3deploy_${s3deploy_version}_Linux-64bit.tar.gz -o vendor/s3deploy.tar.gz || rm -f vendor/s3deploy.tar.gz
       - tar -xf vendor/s3deploy.tar.gz --directory vendor
   pre_build:
     commands:
@@ -33,8 +33,6 @@ phases:
 #      - aws s3 sync --delete --size-only --cache-control max-age=7201 _site/ "s3://${BUCKET_NAME}"
       - vendor/s3deploy -bucket "${BUCKET_NAME}" -region us-east-1 -source _site/
       - aws s3api put-bucket-website --bucket "${BUCKET_NAME}" --website-configuration file://s3-website-config.json
-      - ls -lR _site/assets
-      - find . -name "JekyllWebmentionIO.js" -print
 #artifacts:
   #files:
     # - location
