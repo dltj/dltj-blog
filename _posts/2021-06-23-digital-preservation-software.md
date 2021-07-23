@@ -6,7 +6,6 @@ tags:
   - Fedora
   - standards
   - preservation
-  - Future
   - web architecture
   - html
   - http
