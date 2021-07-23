@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/dltj/jekyll-last-modified-at.git
+  revision: b52c3c2b01efbbc48e03555f51a844cdc24322fa
+  tag: meta-matters
+  specs:
+    jekyll-last-modified-at (1.3.0)
+      jekyll (>= 3.7, < 5.0)
+      posix-spawn (~> 0.3.9)
+
+GIT
   remote: https://github.com/dltj/jekyll-webmention_io
   revision: 5029139e7b4cecee43789960eef7b85215fa6b31
   tag: main
@@ -14,7 +23,7 @@ GIT
 
 GIT
   remote: https://github.com/dltj/minimal-mistakes.git
-  revision: 75bf6886eb5cfa7cbbf290f19a2e4325dee2fd37
+  revision: af0ede25876984350903df270df1ba32a1e6fea8
   tag: master
   specs:
     minimal-mistakes-jekyll (4.24.0)
@@ -24,14 +33,6 @@ GIT
       jekyll-include-cache (~> 0.1)
       jekyll-paginate (~> 1.1)
       jekyll-sitemap (~> 1.3)
-
-GIT
-  remote: https://github.com/gjtorikian/jekyll-last-modified-at.git
-  revision: 173bcfda0375fab2f49ea9f5dfaa36d8aa957056
-  specs:
-    jekyll-last-modified-at (1.3.0)
-      jekyll (>= 3.7, < 5.0)
-      posix-spawn (~> 0.3.9)
 
 GEM
   remote: https://rubygems.org/

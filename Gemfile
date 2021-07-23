@@ -39,7 +39,9 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-archives"
   gem "jemoji"
-  gem "jekyll-last-modified-at", :git => "https://github.com/gjtorikian/jekyll-last-modified-at.git"
+#  gem "jekyll-last-modified-at", :git => "https://github.com/gjtorikian/jekyll-last-modified-at.git"
+#  gem "jekyll-last-modified-at", :path => "/Users/peter/code/jekyll-last-modified-at"
+  gem "jekyll-last-modified-at", :git => "https://github.com/dltj/jekyll-last-modified-at.git", :tag=>"meta-matters"
   gem "jekyll-include-cache"
 #  gem 'jekyll-webmention_io'
 #  gem "jekyll-webmention_io", :path => "/Users/peter/code/jekyll-webmention_io"
