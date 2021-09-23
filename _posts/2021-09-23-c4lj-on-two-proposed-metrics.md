@@ -6,7 +6,7 @@ tags:
   - code4Lib Journal
   - privacy
 ---
-Code4Lib Journal (C4LJ) editor here. Becky's Twitter thread has stirred up a great deal of attention to one of the articles published yesterday. This thread has my own thoughts on the issue...published on Twitter to match Becky's medium and here on my blog for posterity.
+Code4Lib Journal (C4LJ) editor here. Becky Yoose's Twitter thread has stirred up a great deal of attention to an article published yesterday. This post has my own thoughts on the issue...[published on Twitter](https://twitter.com/DataG/status/1441152347992846340) to match Becky's medium and here on my blog for posterity.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">So yeah that Code4Lib Journal editorial and article privacy debacle.<br><br>I have a story to tell you all.<br><br>Grab a beverage of your choice and get comfortable. It&#39;s going to be a long story.<br><br>🧵</p>&mdash; Becky Yoose (@yo_bj) <a href="https://twitter.com/yo_bj/status/1441038646480556035?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
