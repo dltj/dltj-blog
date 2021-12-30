@@ -1,0 +1,18 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - rvm use $VERSION_RUBY_2_6
+        - bundle install --path vendor/bundle
+    build:
+      commands:
+        - rvm use $VERSION_RUBY_2_6
+        - bundle exec jekyll build --trace
+  artifacts:
+    baseDirectory: _site
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - 'vendor/**/*'
