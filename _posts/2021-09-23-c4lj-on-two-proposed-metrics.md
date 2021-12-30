@@ -3,12 +3,12 @@ title: On the Code4Lib Journal's Two Proposed Metrics article
 categories:
   - L/IS Profession
 tags:
-  - code4Lib Journal
+  - code4lib Journal
   - privacy
 ---
 Code4Lib Journal (C4LJ) editor here. Becky Yoose's Twitter thread has stirred up a great deal of attention to an article published yesterday. This post has my own thoughts on the issue...[published on Twitter](https://twitter.com/DataG/status/1441152347992846340) to match Becky's medium and here on my blog for posterity.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">So yeah that Code4Lib Journal editorial and article privacy debacle.<br><br>I have a story to tell you all.<br><br>Grab a beverage of your choice and get comfortable. It&#39;s going to be a long story.<br><br>🧵</p>&mdash; Becky Yoose (@yo_bj) <a href="https://twitter.com/yo_bj/status/1441038646480556035?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">So yeah that Code4Lib Journal editorial and article privacy debacle.<br><br>I have a story to tell you all.<br><br>Grab a beverage of your choice and get comfortable. It&#39;s going to be a long story.<br><br>🧵</p>&mdash; Becky Yoose (@yo_bj) <a href="https://twitter.com/yo_bj/status/1441038646480556035?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This first part is going to come across as defensive. "The Code4Lib Journal exists to foster community and share information among those interested in the intersection of libraries, technology, and the future." ([mission](https://journal.code4lib.org/mission)) Its editorial committee are volunteers. (I'm not paid by my employer to be on the editorial committee; the time I'm using during the middle of the work day to write these thoughts will have to be made up later. I don't think any of the committee members have it in their job description to be on the committee.)
 
