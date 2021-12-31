@@ -309,7 +309,7 @@ defaults:
 webmentions:
   username: dltj.org
   # Use my own cache folder
-  cache_folder: org.dltj.webmentions-cache
+  cache_folder: webmentions-cache
   # skip bad URLs for 5 days
   cache_bad_uris_for: 5
   # I moved to www and then to https, so…
