@@ -12,7 +12,7 @@ The next few posts will be about the changes I'm making over this winter break.
 Right now I think the updating will look something like this:
 
 * Ramp up automation for adding reading sources to Obsidian (this post)
-* Refactor the process of building this static website on AWS
+* [Refactor the process of building this static website on AWS](/article/aws-amplify-jekyll)
 * Recreate the ability for readers to get updates by email
 * Turn the old DLTJ "Thursday Threads" concept into a newsletter
 
