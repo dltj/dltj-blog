@@ -7,7 +7,7 @@
 
 theme: minimal-mistakes-jekyll
 
-minimal_mistakes_skin    : "default" 
+minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
@@ -91,7 +91,7 @@ analytics:
   google:
     tracking_id          : UA-3855982-1
     anonymize_ip         : # true, false (default)
-    
+
 
 # Site Author
 author:
@@ -309,7 +309,7 @@ defaults:
 webmentions:
   username: dltj.org
   # Use my own cache folder
-  cache_folder: vendor/webmentions
+  cache_folder: org.dltj.webmentions-cache
   # skip bad URLs for 5 days
   cache_bad_uris_for: 5
   # I moved to www and then to https, so…

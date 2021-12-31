@@ -3,12 +3,16 @@ frontend:
   phases:
     preBuild:
       commands:
+        - aws s3 cp s3://org.dltj.webmentions-cache . --recursive
         - rvm use $VERSION_RUBY_2_6
         - bundle install --path vendor/bundle
     build:
       commands:
         - rvm use $VERSION_RUBY_2_6
         - bundle exec jekyll build --trace
+    postBuild:
+      commands:
+        - aws s3 cp org.dltj.webmentions-cache/* s3://org.dltj.webmentions-cache --recursive
   artifacts:
     baseDirectory: _site
     files:
