@@ -73,6 +73,8 @@ build:
 
 After that, everything built perfectly.
 
+{% include note.html notetext='Jumping in here a day later to say there was another problem...the webmention cache was left behind in the old CodeBuild configuration so <a href="/article/fixing-webmentions">I had to fix it</a>."' %}
+
 ## Downsides: Lots of Invisible AWS Services and Poor Pricing Comparison
 One problem with using AWS Amplify is that the underlying AWS services—S3 bucket, CloudFront distribution, CodeBuild instance, etc.—are not visible in the AWS Console. 
 In other words, you can't go to the CloudFront console page and see the configuration.
