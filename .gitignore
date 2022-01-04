@@ -4,3 +4,5 @@ _site/
 .jekyll-metadata
 vendor/
 .bundle/config
+assets/js/JekyllWebmentionIO.js
+webmentions-cache/*
