@@ -58,7 +58,7 @@ $font-weight-sansserif-bold: 800;
 {
   $px: ();
   $rem: ();
-  
+
   @each $value in $values
   {
     @if $value == 0 or $value == auto
@@ -70,21 +70,21 @@ $font-weight-sansserif-bold: 800;
     {
       $unit: unit( $value );
       $val: parseInt( $value );
-      
+
       // enforce pixels on unitless measurements
       @if $unit == ""
       {
         $value: $value + 0px;
         $unit: "px";
       }
-      
+
       // assume pixels
       @if $unit == "px"
       {
         $px : append( $px,  $value );
         $rem: append( $rem, ( $val / $font-size-default + rem ) );
       }
-      
+
       @if $unit == "rem"
       {
         $px : append( $px,  ( $val * $font-size-default + px ) );
@@ -92,7 +92,7 @@ $font-weight-sansserif-bold: 800;
       }
     }
   }
-  
+
   @if $px == $rem
   {
     #{$property}: $px;
@@ -115,8 +115,8 @@ $font-weight-sansserif-bold: 800;
 .webmentions {
     @include rem( font-size, $font-size-default );
     @include rem( margin-top, $default-spacing / 2 );
-    
-    h3 { 
+
+    h3 {
       color: $muted-text-color;
       font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
       font-size: $type-size-4;
@@ -151,11 +151,11 @@ $font-weight-sansserif-bold: 800;
         @include rem( font-size, $font-size-small );
         font-weight: $font-weight-sansserif-bold;
     }
-    
+
     // &--author-starts .h-card .p-name {
     //     @include breakup-placeholder( hidden );
     // }
-    
+
     &__author__photo {
         border-radius: 3px;
 
@@ -165,16 +165,16 @@ $font-weight-sansserif-bold: 800;
 
         position: absolute;
         @include rem( top, $default-spacing );
-        
+
         left: 0;
     }
-    
+
     &__title,
     &__content,
     &__meta {
         margin: 0;
     }
-    
+
     &__meta {
         color: $muted-text-color;
         @include rem( font-size, $font-size-small );
@@ -199,11 +199,11 @@ $font-weight-sansserif-bold: 800;
             &__photo {
                 border: 1px solid;
                 border-radius: 50%;
-                
+
                 display: inline;
                 max-width: 48px;
                 margin: 0;
-                
+
                 position: static;
             }
 
@@ -212,4 +212,24 @@ $font-weight-sansserif-bold: 800;
             }
         }
     }
+}
+
+.thursdaythread {
+  margin: 0 0 0.75em 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+  border-left: 0.25em solid #6f777d;
+}
+
+.thursdaythread blockquote {
+  margin: 0;
+  font-size: smaller;
+  border-left: 0;
+  text-indent: -0.45em;
+}
+
+.thursdaythread figcaption {
+  text-align: right;
+  width: 100%;
 }
