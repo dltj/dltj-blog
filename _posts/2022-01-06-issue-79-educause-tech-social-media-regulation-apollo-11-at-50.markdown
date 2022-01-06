@@ -1,10 +1,11 @@
 ---
-title: "Issue 79: EDUCAUSE Tech"
+title: "Issue 79: Educational Technology Futures, Social Media Legislation, Apollo 11 Launch at 50"
 categories:
 - Thursday Threads
 tags:
 - Educause
 - Facebook
+- social media
 ---
 Welcome to the re-inaugural issue of _DLTJ Thursday Threads._ 
 Counting backward, there were [78 previous issues](/category/thursday-threads/) (all by the most recent still need to be converted from the old WordPress style of formatting) with—all told—several hundred references and commentary. 
