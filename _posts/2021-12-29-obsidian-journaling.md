@@ -12,8 +12,8 @@ The next few posts will be about the changes I'm making over this winter break.
 Right now I think the updating will look something like this:
 
 * Ramp up automation for adding reading sources to Obsidian (this post)
-* [Refactor the process of building this static website on AWS](/article/aws-amplify-jekyll)
-* Recreate the ability for readers to get updates by email
+* [Refactor the process of building this static website on AWS]({% post_url  2021-12-30-aws-amplify-jekyll %})
+* [Recreate the ability for readers to get updates by email]({% post_url 2022-01-05-newsletter-launching %})
 * Turn the old DLTJ "Thursday Threads" concept into a newsletter
 
 I'll go back and link the bullet points above when (if?) I create the corresponding blog posts.

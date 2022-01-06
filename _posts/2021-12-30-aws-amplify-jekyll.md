@@ -11,9 +11,9 @@ Look at that!
 Progress is being made down the list of to-dos for this blog in order to start the new year on a fresh footing. 
 As you might recall from the last blog post, I set out to do some upgrades across the calendar year boundary:
 
-* [Ramp up automation for adding reading sources to Obsidian](/article/obsidian-journaling)
+* [Ramp up automation for adding reading sources to Obsidian]({% post_url 2021-12-29-obsidian-journaling %})
 * Refactor the process of building this static website on AWS (this post)
-* Recreate the ability for readers to get updates by email
+* [Recreate the ability for readers to get updates by email]({% post_url 2022-01-05-newsletter-launching %})
 * Turn the old DLTJ "Thursday Threads" concept into a newsletter
 
 DLTJ is a "static site" blog, meaning that the page you are reading right now is a straight-up HTML file. 
