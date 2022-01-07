@@ -13,7 +13,7 @@ Here are the refactor-DLTJ activities so far:
 * [Refactor the process of building this static website on AWS]({% post_url  2021-12-30-aws-amplify-jekyll %})
 	* [Fix the webmentions cache, an unanticipated diversion]({% post_url 2021-12-31-fixing-webmentions %})
 * Recreate the ability for readers to get updates by email (this post)
-* Turn the old DLTJ “Thursday Threads” concept into a newsletter (coming tomorrow)
+* [Turn the old DLTJ “Thursday Threads” concept into a newsletter]({% post_url 2022-01-06-refactoring-complete %})
 
 Since New Years Day, I've been working on a way to send the contents of blog posts by email...commonly known nowadays as a newsletter. 
 Years ago, I was using the Feedburner service to do that. 
