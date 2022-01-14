@@ -233,3 +233,7 @@ $font-weight-sansserif-bold: 800;
   text-align: right;
   width: 100%;
 }
+
+figure img, figure iframe, figure .fluid-width-video-wrapper {
+  margin-bottom: 0;
+}
