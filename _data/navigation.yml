@@ -4,5 +4,11 @@ main:
     url: /about/
   # - title: "Comment Policy"
   #   url: /comment-policy/
+  - title: "Newsletter"
+    url: /category/thursday-threads/
+  - title: "Categories"
+    url: /category/
+  - title: "Tags"
+    url: /tag/
   - title: "Resume"
     url: /resume/

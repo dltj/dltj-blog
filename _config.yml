@@ -270,13 +270,13 @@ category_archive:
 tag_archive:
   type: jekyll-archives
   path: /tag/
-  
+
 jekyll-archives:
   enabled:
     - categories
     - tags
   layouts:
-    category: archive-taxonomy
+    category: category
     tag: archive-taxonomy
   permalinks:
     category: /category/:name/
