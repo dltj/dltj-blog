@@ -1,7 +1,7 @@
 ---
 status: publish
 published: true
-title: 'Thursday Threads: Battles over strong encryption, IPv4 addresses exhausted while IPv6 surges'
+title: 'Issue 78: Battles over strong encryption, IPv4 addresses exhausted while IPv6 surges'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
