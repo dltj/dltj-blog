@@ -270,6 +270,7 @@ category_archive:
 tag_archive:
   type: jekyll-archives
   path: /tag/
+  
 jekyll-archives:
   enabled:
     - categories

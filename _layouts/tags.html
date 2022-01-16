@@ -1,0 +1,29 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% comment %} Why we need this: https://stackoverflow.com/a/49549166/201674 {% endcomment %}
+{% comment %} Creates an empty array {% endcomment %}
+{% assign tags = "" | split:"" %}
+
+{% comment %}Creates an array of tags names{% endcomment %}
+{% for t in site.tags %}
+  {% assign tags = tags | push: t[0] %}
+{% endfor %}
+
+{% assign sorted_tags = tags | sort_natural %}
+
+<ul class="taxonomy__index">
+    {% for tag in sorted_tags %}
+      {% if site.tags[tag].size < 2 %}
+      {% continue %}
+      {% endif %}
+        <li>
+          <a href="{{ page.url }}{{ tag | slugify }}">
+            <strong>{{ tag }}</strong> <span class="taxonomy__count">{{ site.tags[tag].size }}</span>
+          </a>
+        </li>
+    {% endfor %}
+</ul>
