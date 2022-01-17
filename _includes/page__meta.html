@@ -10,8 +10,10 @@
     {% endif %}
     {% if page.last_modified_at and page.layout == 'single' %}
       {% assign page_date_epoch = page.date | date: "%s" %}
-      {% assign update_seconds_diff = page.last_modified_at | date: "%s" | minus: page_date_epoch %}
-      {% if update_seconds_diff > 129600 %}
+      {% assign page_modified_epoch = page.last_modified_at | date: "%s" | plus: 0 %}
+      {% assign update_seconds_diff = page_modified_epoch | minus: page_date_epoch %}
+      {% comment %} Skip printing update if less than 36 hours _or_ update was a result of WP->Jekyll conversion {% endcomment %}
+      {% if update_seconds_diff > 129600 and page_modified_epoch > 1516165200 %}
         {% if page.date %}
           <strong>and updated on</strong>
         {% else %}
