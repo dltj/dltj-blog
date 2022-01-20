@@ -4,7 +4,7 @@
     <a href="{{ include.url }}">
     {% endif %}
     {% if include.wpurl %}
-    <a href="{{ site.baseurl }}/wp-content/uploads/{{ include.wpurl }}">
+    <a href="{{ site.url }}/wp-content/uploads/{{ include.wpurl }}">
     {% endif %}
     <img
         {% if include.width %}
@@ -13,9 +13,9 @@
         {% if include.srcabs %}
             src="{{ include.srcabs }}"
         {% elsif include.wpsrc %}
-            src="{{ site.baseurl }}/wp-content/uploads/{{ include.wpsrc }}"
+            src="{{ site.url }}/wp-content/uploads/{{ include.wpsrc }}"
         {% else %}
-            src="{{ site.baseurl }}/assets/images/{{ include.src }}"
+            src="{{ site.url }}/assets/images/{{ include.src }}"
         {% endif %}
     alt="{{ include.alt }}">
     {% if include.url or include.wpurl %}
