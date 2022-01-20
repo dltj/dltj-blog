@@ -106,7 +106,7 @@ There are some serious problems with this technology, and the problems threaten 
 
 {% include thursday-threads-quote.html
 blockquote='<a href="https://twitter.com/Tippen22/status/1476985855981993984"
-data-versionurl=""><img src="/wp-content/uploads/2022/2022-01-20-cats-starlink-dish.png" width="512" height="767" alt="A cluster of at least 5 cats huddled on top of a small satellite dish that is mounted about a foot above snowy ground"></a>' 
+data-versionurl=""><img src="https://dltj.org/wp-content/uploads/2022/2022-01-20-cats-starlink-dish.png" width="512" height="767" alt="A cluster of at least 5 cats huddled on top of a small satellite dish that is mounted about a foot above snowy ground"></a>' 
 href="https://twitter.com/Tippen22/status/1476985855981993984"
 versionurl="https://archive.li/wip/7JmLK"
 versiondate="2022-01-19"
