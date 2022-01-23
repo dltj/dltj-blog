@@ -1,5 +1,5 @@
 ---
-title: "A Better Structlog Processor for Python for CLoudWatch Logs Using AWS Lambda"
+title: "A Better Structlog Processor for Python for CloudWatch Logs Using AWS Lambda"
 categories:
 - Raw Technology
 tags:
@@ -15,7 +15,7 @@ Unfortunately, in its default configuration, the output is less than useful:
 
 AWS has configured the default Python logger in the Lambdas to automatically put the timestamp and the HTTP API request ID from the context in the display when the log line is collapsed. 
 When you expand the log line, you can see the additional detail in structured JSON. 
-That timestamp is duplicated in the column on to the left, and the UUID are really not useful in this context. 
+That timestamp is duplicated in the column to the left, and the UUID is really not useful in this context. 
 What I'd rather see is the _event_ that caused the line to be logged and any corresponding _error message_.
 
 {% include image.html wpsrc="2022/2022-01-22-modified-cloudwatch.png" width="782" alt="Screencapture of Amazon Web Services Cloud Watch Logs demonstrating that the collapsed detail line now includes the event and error message." caption="Enhanced configuration structured logs" %} 
@@ -37,7 +37,7 @@ This post describes that process in case I or anyone else needs this in the futu
 
 This quote is from a 2011 blog post. 
 It's only now that I'm getting involved with troubleshooting distributed systems running on AWS that I appreciate the value of Paul's insight.
-The ability to _search_ the contents of log files combined with the ability to correlate log messages from disparate programs is a real game changer. 
+The ability to _search_ the contents of log files combined with the ability to correlate log messages from disparate programs is a real game-changer. 
 (This coming from a programmer who still feels most comfortable trolling through `/var/log` with liberal `grep` and `awk` commands.) 
 
 I've seen the light. 
@@ -66,7 +66,7 @@ The second line of this code snippet is the start of the solution to address the
 In its place, we will put our own formatted string.
 
 ## Tricking CloudWatch to Display Useful Content
-I couldn't find this documented anywhere, but there is a special format to CloudWatch lines that make them machine processable. 
+I couldn't find this documented anywhere, but there is a special format to CloudWatch lines that make them machine-processable. 
 If a program logs a line with three space-delimited fields followed by a string of JSON, CloudWatch will parse that JSON in the display and make it searchable. 
 In the default configuration, the three space-delimited fields are the log level (e.g. "[INFO]"), timestamp, and request UUID. 
 With our own Structlogs procesor, we can put what we want in those space-delimited fields. 
