@@ -10,8 +10,8 @@ tags:
 - legislation
 ---
 {% include image.html wpsrc="2022/2022-01-27-tweet-poll.png" float="right" width="320" url="https://twitter.com/DataG/status/1484163269988335624" alt="Screen capture of a Twitter poll showing 80% of votes for 'Cats' and 20% of votes for 'Controlled Digital ILL' out of 5 votes total cast" caption="The People Have Spoken" %} 
-On a whim, last Thursday I put out a poll with the announcement of <a href="{ post_url 2022-01-20-issue-81-cdill-nfts-cats }">last week's issue</a>. 
-Out of the three threads, [controlled digital lending]({ post_url 2022-01-20-issue-81-cdill-nfts-cats}#controlled-digital-lending}), [gamers and NFTs]({ post_url 2022-01-20-issue-81-cdill-nfts-cats}#gamers-nfts), and [cats]({ post_url 2022-01-20-issue-81-cdill-nfts-cats}#cat-dish), the winner was cats. 
+On a whim, last Thursday I put out a poll with the announcement of <a href="{% post_url 2022-01-20-issue-81-cdill-nfts-cats %}">last week's issue</a>. 
+Out of the three threads, [controlled digital lending]({% post_url 2022-01-20-issue-81-cdill-nfts-cats%}#controlled-digital-lending}), [gamers and NFTs]({% post_url 2022-01-20-issue-81-cdill-nfts-cats%}#gamers-nfts), and [cats]({% post_url 2022-01-20-issue-81-cdill-nfts-cats %}#cat-dish), the winner was cats. 
 The sample size was small—five votes—so I'm not ready to throw out the digital quill pen yet. 
 But if it readers want cats, readers shall have cats. 
 I have plenty of cat pictures. 
@@ -19,10 +19,10 @@ And keep the feedback coming.
 
 The threads this week:
 
-* <a href="{ post_url 2022-01-27-issue-82 }#india-rare-books">Attorney General of India's Online Collection of Rare Books</a>
-* <a href="{ post_url 2022-01-27-issue-82 }#wwe-video-preservation">"Inside WWE's massive video vault"</a>
-* <a href="{ post_url 2022-01-27-issue-82 }#targeted-prayers">Prayers For Sale</a>
-* <a href="{ post_url 2022-01-27-issue-82 }#library-ebook-legislation">Ebooks Wanted For Sale (for reasonable terms)</a>
+* <a href="{% post_url 2022-01-27-issue-82 %}#india-rare-books">Attorney General of India's Online Collection of Rare Books</a>
+* <a href="{% post_url 2022-01-27-issue-82 %}#wwe-video-preservation">"Inside WWE's massive video vault"</a>
+* <a href="{% post_url 2022-01-27-issue-82 %}#targeted-prayers">Prayers For Sale</a>
+* <a href="{% post_url 2022-01-27-issue-82 %}#library-ebook-legislation">Ebooks Wanted For Sale (for reasonable terms)</a>
 
 {% include thursday-threads-header.html %}
 
