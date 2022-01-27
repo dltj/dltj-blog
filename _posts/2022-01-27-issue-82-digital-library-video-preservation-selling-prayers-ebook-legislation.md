@@ -19,10 +19,10 @@ And keep the feedback coming.
 
 The threads this week:
 
-* <a href="{% post_url 2022-01-27-issue-82 %}#india-rare-books">Attorney General of India's Online Collection of Rare Books</a>
-* <a href="{% post_url 2022-01-27-issue-82 %}#wwe-video-preservation">"Inside WWE's massive video vault"</a>
-* <a href="{% post_url 2022-01-27-issue-82 %}#targeted-prayers">Prayers For Sale</a>
-* <a href="{% post_url 2022-01-27-issue-82 %}#library-ebook-legislation">Ebooks Wanted For Sale (for reasonable terms)</a>
+* <a href="{% post_url 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#india-rare-books">Attorney General of India's Online Collection of Rare Books</a>
+* <a href="{% post_url 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#wwe-video-preservation">"Inside WWE's massive video vault"</a>
+* <a href="{% post_url 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#targeted-prayers">Prayers For Sale</a>
+* <a href="{% post_url 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#library-ebook-legislation">Ebooks Wanted For Sale (for reasonable terms)</a>
 
 {% include thursday-threads-header.html %}
 
