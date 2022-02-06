@@ -1,5 +1,5 @@
 ---
-title: "Starting a Python Serverless-dot-com Project"
+title: "Starting a Python-oriented Serverless-dot-com Project"
 categories:
 - Raw Technology
 tags:
