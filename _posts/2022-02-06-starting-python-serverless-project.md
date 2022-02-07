@@ -3,9 +3,9 @@ title: "Starting a Python-oriented Serverless-dot-com Project"
 categories:
 - Raw Technology
 tags:
-- serverless
-- python
-- node
+- Serverless computing
+- Python programming language
+- Node programming language
 - Amazon Web Services
 ---
 
