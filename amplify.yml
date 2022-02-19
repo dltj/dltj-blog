@@ -1,4 +1,11 @@
 version: 1
+backend:
+  phases:
+    build:
+      commands:
+        # When needed, uncomment this line to clear the Amplify builder cache
+        # See https://github.com/aws-amplify/amplify-console/issues/229#issuecomment-552637405
+        # - envCache --set stackInfo ""
 frontend:
   phases:
     preBuild:
