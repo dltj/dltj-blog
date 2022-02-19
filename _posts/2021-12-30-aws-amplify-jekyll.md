@@ -60,7 +60,7 @@ At that point, I went back to searching for an answer that used the AWS-supplied
 
 The real solution came in {% include robustlink.html href="https://stackoverflow.com/questions/56444337/how-to-change-node-version-in-provision-step-in-amplify-console/56453511#56453511" versionurl="https://web.archive.org/web/20210119205725/https://github.com/aws-amplify/amplify-console/issues/1146" versiondate="2021-12-30" title="'How to change Node Version in Provision Step in Amplify Console' | Stack Exchange" anchor="an answer about using a different version of Node in Amplify" %}, which was to add a command to the `preBuild` and `build` steps to switch Ruby versions:
 
-```yaml
+{% highlight yaml %}
 preBuild:
   commands:
     - rvm use $VERSION_RUBY_2_6
@@ -69,7 +69,7 @@ build:
   commands:
     - rvm use $VERSION_RUBY_2_6
     - bundle exec jekyll build --trace
-````
+{% endhighlight %}
 
 After that, everything built perfectly.
 
