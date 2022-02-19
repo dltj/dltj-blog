@@ -16,7 +16,7 @@ Four parts plus a half (or a "re-do"" of part 2):
 3. [Recreate the ability for readers to get updates by email]({% post_url 2022-01-05-newsletter-launching %})
 4. Turn the old DLTJ “Thursday Threads” concept into a newsletter (this post)
 
-Earlier today, the newsletter launched with [issue 79](% post_url 2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50 %). 
+Earlier today, the newsletter launched with [issue 79]({% post_url 2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50 %}). 
 It wasn't without hiccups, but I don't think any of the problems leaked out to the subscribers. 
 I started with a list of 286 email addresses that were subscribed to the 2015 edition. 
 This morning I sent an email to all of them on the blind-carbon-copy line from my regular email. 
@@ -34,16 +34,17 @@ Like everything on this static site blog, an issue starts as a Markdown file.
 Markdown is a light-weight markup language that translates very easily into HTML, and makes it easy for a writer to create valid HTML. 
 It is also possible to mix HTML inside a Markdown file and have the right thing happen. 
 The Jekyll processor (the program that turns a folder of Markdown files into a folder of HTML files) has a mechanism for including macros in the markup, and each "thread" in the issue is a macro file. 
-If you look at the [Markdown source for issue 79](https://raw.githubusercontent.com/dltj/dltj-blog/master/_posts/2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50.markdown), you'll see each heading (marked with `##`) has a `{% raw %}{% include thursday-threads-quote.html{% endraw %}` macro definition.
+If you look at the [Markdown source for issue 79](https://raw.githubusercontent.com/dltj/dltj-blog/master/_posts/2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50.markdown), you'll see each heading (marked with `##`) has a `{% raw %}{% include thursday-threads-quote.html %}{% endraw %}` macro definition.
 
-{% highlight ruby %}
+{% highlight ruby %}{% raw %}
+{% include thursday-threads-quote.html
 blockquote="The EDUCAUSE 2022 Top 10 IT Issues take an optimistic view of how technology can help make the higher education we deserve—through a shared transformational vision and strategy for the institution, a recognition of the need to place students’ success at the center, and a sustainable business model that has redefined 'the campus.'" 
 url="https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve" 
 versiondate="2021-11-12"
 versionurl="https://web.archive.org/20211127031010/https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve"
 anchor="Top 10 IT Issues, 2022: The Higher Education We Deserve" 
-post="EDUCAUSE"
-{% endhighlight %}
+post="EDUCAUSE" %}
+{% endraw %}{% endhighlight %}
 
 Each of those variables are used in the include processor, which at the moment looks like this (see [current version](https://github.com/dltj/dltj-blog/blob/master/_includes/thursday-threads-quote.html)):
 
