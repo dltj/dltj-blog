@@ -19,7 +19,7 @@
         {% else %}
           <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated on</strong>
         {% endif %}
-        <a href="https://github.com/{{ site.repository }}/commits/master/{{ page.path }}" title="Link to page history"><time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></a>
+        <a href="https://github.com/{{ site.repository }}/commits/main/{{ page.path }}" title="Link to page history"><time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></a>
       {% endif %}
     {% endif %}
 
