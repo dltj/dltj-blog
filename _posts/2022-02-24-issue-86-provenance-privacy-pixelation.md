@@ -12,10 +12,10 @@ I've deleted what I originally had here as newsletter-opening-banter. These are 
 
 The threads this week:
 
-* [Specification for Media Content Provenance]({% post_url_absolute 2022-02-24-issue-86 %}#content-provenance)
-* [Encroaching on Digital Privacy in the Classroom]({% post_url_absolute 2022-02-24-issue-86 %}#surveillance-university)
-* [Pixelation for Redaction → bad]({% post_url_absolute 2022-02-24-issue-86 %}#pixelation-redation)
-* [Google Changes Up In-App Advertising]({% post_url_absolute 2022-02-24-issue-86 %}#android-privacy-sandbox)
+* [Specification for Media Content Provenance]({% post_url_absolute 2022-02-24-issue-86-provenance-privacy-pixelation %}#content-provenance)
+* [Encroaching on Digital Privacy in the Classroom]({% post_url_absolute 2022-02-24-issue-86-provenance-privacy-pixelation %}#surveillance-university)
+* [Pixelation for Redaction → bad]({% post_url_absolute 2022-02-24-issue-86-provenance-privacy-pixelation %}#pixelation-redation)
+* [Google Changes Up In-App Advertising]({% post_url_absolute 2022-02-24-issue-86-provenance-privacy-pixelation %}#android-privacy-sandbox)
 
 {% include thursday-threads-header.html %}
 
