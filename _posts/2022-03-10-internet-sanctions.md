@@ -3,7 +3,7 @@ title: "Sanctioning Governments on the Internet"
 categories:
 - Meta Category
 tags:
-- internet-governance
+- internet governance
 - internet
 - governance
 ---
