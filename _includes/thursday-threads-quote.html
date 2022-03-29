@@ -4,7 +4,7 @@
   </blockquote>
   <figcaption>&mdash;
 {% if include.pre %}{{ include.pre }}{% endif %}
-{% if include.href %}<a href="{{ include.href }}"{% if include.versionurl %} data-versionurl="{{ include.versionurl }}"{% endif%}{% if include.versiondate %} data-versiondate="{{ include.versiondate }}"{% endif %}{% if include.title %} title="{{ include.title }}"{% endif %}>{{ include.anchor}}</a>{% endif %}
+{% if include.href %}<a href="{{ include.href }}"{% if include.versionurl %} data-versionurl="{{ include.versionurl }}"{% endif%}{% if include.originalurl %} data-originalurl="{{ include.originalurl }}"{% endif%}{% if include.versiondate %} data-versiondate="{{ include.versiondate }}"{% endif %}{% if include.title %} title="{{ include.title }}"{% endif %}>{{ include.anchor}}</a>{% endif %}
 {% if include.post %}{{ include.post }}{% endif %}
   </figcaption>
 </figure>
