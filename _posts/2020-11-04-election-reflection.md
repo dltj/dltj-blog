@@ -6,10 +6,10 @@ tags:
 - Columbus OH
 ---
 
-I may nod off several times in composing this post the day after election day. 
-Hopefully, in reading it, you won't. 
-It is a story about one corner of democracy. 
-It is a journal entry about how it felt to be a citizen doing what I could do to make other citizens' voices be heard. 
+I may nod off several times in composing this post the day after election day.
+Hopefully, in reading it, you won't.
+It is a story about one corner of democracy.
+It is a journal entry about how it felt to be a citizen doing what I could do to make other citizens' voices be heard.
 It needed to be written down before the memories and emotions are erased by time and naps.
 
 Yesterday I was a precinct election officer (PEO—a poll worker) for Franklin County—home of Columbus, Ohio.
@@ -30,12 +30,12 @@ Because of the complexity of the election day voting process, last year Franklin
 The early setup started at 6 o'clock.
 I was so anxious to get it right that the day before I took the printout of the polling room dimensions from my VLM packet, scanned it into OmniGraffle on my computer, and designed a to-scale diagram of what I thought the best layout would be.
 The real thing only vaguely looked like this, but it got us started.
-{% include image.html 
+{% include image.html
   wpsrc="2020/2020-11-04-location-layout.png"
   caption="What I imagined our polling place would look like"
   alt="A schematic showing the voting position and the flow of voters through the polling place."
   width="524"
-%} 
+%}
 
 We could set up tables, unpack equipment, hang signs, and other tasks that don't involve turning on machines or breaking open packets of ballots.
 One of the early setup tasks was updating the voters' roster on the electronic poll pads.
@@ -51,17 +51,17 @@ I even "went rogue" towards the end.
 I searched the web for the messages on the screen to see if anyone else had seen the same problem with the poll pads.
 The electronic poll pad is an iPad with a single, dedicated application, so I even tried some iPad reset options to clear the device cache and perform a hard reboot.
 Nothing worked—still stuck at step 8-of-9.
-The election office people sent us home at 10 o'clock. 
+The election office people sent us home at 10 o'clock.
 Even on the way out the door, I tried a rogue option: I hooked a portable battery to one of the electronic polling pads to see if the update would complete overnight and be ready for us the next day.
 It didn't, and it wasn't.
 
-{% include image.html 
+{% include image.html
   wpsrc="2020/2020-11-04-boe-text.png"
   caption="Text from Board of Elections"
   alt="Picture of a text with the contents: '(Franklin County Board Of Elections) Franklin County is going to ALL Paper Signature Poll Books.  Open your BUMPER PACKET and have voters sign in on the Paper Signature Poll Books.  Use the Paper Authority To Vote Slips.  Go thru your Paper Supplemental Absentee List and record AB/PROV on the Signature Line of all voters on that list.  Mark Names off of the White and Green Register of Voters Lists.'"
   width="234"
   float="right"
-%} 
+%}
 Polling locations in Ohio open at 6:30 in the morning, and PEOs must report to their sites by 5:30.
 So I was up at 4:30 for a quick shower and packing up stuff for the day.
 Early in the setup process, the Board of Elections sent a text that the electronic poll pads were not going to be used and to break out the "BUMPer Packets" to determine a voter's eligibility to vote.
@@ -82,11 +82,11 @@ By the time our polling location opened at 6:30 in the morning, they were wrappe
 We were moving them quickly through the process: three roster tables for checking in, eight ballot-marking machines, and one ballot counter.
 At our peak capacity, I think we were doing 80 to 90 voters an hour.
 As good as we were doing, the line never seemed to end.
-The Franklin County Board of Elections received a grant to cover the costs of two greeters outside that helped keep the line orderly. 
+The Franklin County Board of Elections received a grant to cover the costs of two greeters outside that helped keep the line orderly.
 They did their job with a welcoming smile, as did our inside greeter that offered masks and a squirt of hand sanitizer.
 Still, the voters kept back-filling that line, and we didn't see a break until 12:30.
 
-The PEOs serving as machine judges were excellent.  
+The PEOs serving as machine judges were excellent.
 This was the first time that many voters had seen the new ballot equipment that Franklin County put in place last year.
 I like this new equipment: the ballot marker prints your choices on a card that it spits out.
 You can see and verify your choices on the card before you slide it into a separate ballot counter.
@@ -98,13 +98,11 @@ We would all pause and cheer.
 
 The third group of PEOs at our location were the paper table judges.
 They handle all of the exceptions.
-* _Someone wants to vote with a pre-printed paper ballot rather than using a machine?_
-To the paper table!
-* _The roster shows that someone requested an absentee ballot?_
-That voter needs to vote a "provisional" ballot that will be counted at the Board of Elections office if the absentee ballot isn't received in the mail.
+
+* _Someone wants to vote with a pre-printed paper ballot rather than using a machine?_ To the paper table!
+* _The roster shows that someone requested an absentee ballot?_ That voter needs to vote a "provisional" ballot that will be counted at the Board of Elections office if the absentee ballot isn't received in the mail.
 The paper table judges explain that with kindness and grace.
-* _In the wrong location?_
-The paper table judges would find the correct place.
+* _In the wrong location?_ The paper table judges would find the correct place.
 
 The two paper table PEOs clearly had experience helping voters with the nuances of election processes.
 
@@ -139,13 +137,14 @@ One of the VLD rode along with me to the board of elections to drop off the ball
 We were among the first reporting results for Franklin County.
 I was home again by a quarter of 10—exhausted but proud.
 
-I'm so happy that I had something to do yesterday. 
+I'm so happy that I had something to do yesterday.
 After weeks of concern and anxiety for how the election was going to turn out, it was a welcome bit of activity to ensure the election was held safely and that voters got to have their say.
-It was certainly more productive than continually reloading news and election results pages. 
+It was certainly more productive than continually reloading news and election results pages.
 The anxiety of being put in charge of a polling location was set at ease, too.
 I'm proud of our polling place team and that the voters in our charge seemed pleased and confident about the process.
 
 Maybe you will find inspiration here.
+
 * If you voted, hopefully it felt good (whether or not the result turned out as you wanted).
 * If you voted for the first time, congratulations and welcome to the club (be on the look-out for the next voting opportunity...likely in the spring).
 * If being a poll worker sounded like fun, get in touch with your local board of elections (here is [information about being a poll worker in Franklin County](https://vote.franklincountyohio.gov/Poll-Worker)).
@@ -153,9 +152,9 @@ Maybe you will find inspiration here.
 Democracy is participatory.
 You've got to tune in and show up to make it happen.
 
-{% include image.html 
+{% include image.html
   wpsrc="2020/2020-11-04-certificate.jpg"
   caption="Certificate of Appreciation"
   alt="Picture of certificate from Franklin County Board of Elections in appreciation for serving as a voting location manager for the November 3, 2020, general election."
   width="524"
-%} 
+%}
