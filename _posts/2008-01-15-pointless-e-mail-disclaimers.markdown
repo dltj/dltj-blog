@@ -296,7 +296,7 @@ I don't have concerns about the automatic filtering, just the automatic insertio
 
 ## Disclaimers as a Form of Spam?
 > CONFIDENTIALITY NOTICE AND DISCLAIMER
-> 
+>
 > Information in this transmission is intended only for the person(s) to whom it is addressed and may contain privileged and/or confidential information. If you are not the intended recipient, any disclosure, copying or dissemination of the information is unauthorised and you should delete/destroy all copies and notify the sender. No liability is accepted for any unauthorised use of the information contained in this transmission.
 >
 > This disclaimer has been automatically added.
@@ -328,12 +328,12 @@ Damn -- and I was hoping to find out the secret plans for invading Canada.  By t
 > DISCLAIMER and CONFIDENTIALITY CAUTION:
 >
 > This e-mail and any attached files are confidential, proprietary, and may also be legally privileged information, and are intended solely for the use of the individual or entity to whom they are addressed. If you are not the intended recipient of this e-mail, please send it back to the person who sent it to you and delete the e-mail and any attached files and destroy any copies of it; you may call us immediately at  _company's phone number_ or email us at _company e-mail address_.
-> 
+>
 >_Company_ and/or any of its sister companies owns no responsibility for the views presented in the e-mail and any attached files unless the sender mentions so, with due authority of _company_.
 >
 > Unauthorized reading, reproduction, publication, use, dissemination, forwarding, printing or copying of this e-mail and its attachments is prohibited.
 > We have checked this message for any known viruses; however we decline any liability, in case of any damage caused by a non-detected virus.
-> 
+>
 > For more details about our company, visit _company website_.</tt>
 
 This one came in a message posted to a mailing list that contained exactly five lines of real content -- line 1: greeting, line 2: blank, line 3: a quick question, line 4: blank, line 5: author's name.  Talk about a bad signal to noise ratio!
@@ -355,7 +355,7 @@ There are, of course, ways to guarantee the integrity and security of messages o
 And finally, there is this "****** disclaimer ******" (complete with unnecessary asterisks) that honestly had nothing to do with any kind of legal proposition, but a legal professional felt the need to insert the fact that no "legal professional privilege" should be implied by receipt and reading of the message.
 
 > ******************* Disclaimer *******************
-> 
+>
 > This e-mail, together with any attachments, is intended for the named recipient(s) only. This e-mail may contain information which is confidential, of a private nature or which is subject to legal professional privilege or copyright. Accordingly, any form of disclosure, modification, distribution and/or publication of this email message is prohibited unless expressly authorised by the sender acting with the authority of or on behalf of the _institution_.
 >
 > If you have received this email by mistake, please inform the sender as soon as possible and delete the message and any copies of this message from your computer system network.
@@ -394,3 +394,15 @@ It comes from Cory Doctorow [by way of _Ray [REDACTED]_](https://twitter.com/ray
 > As is the case with every email you've ever received, this email has not been scanned for all known viruses.
 
 As I was typing it from the image in the tweet, I couldn't help but notice that Mr. Doctorow may not be a believer in the Oxford comma.
+
+## August 2022 Addition to the November 2020 Addition — Cory Doctorow's backstory
+
+In a {% include robustlink.html href="https://pluralistic.net/2022/08/10/be-reasonable/" versionurl="https://web.archive.org/web/20220810153942/https://pluralistic.net/2022/08/10/be-reasonable/" versiondate="2022-08-10" title="A modest proposal to fix contracts | Pluralistic: 10 Aug 2022" anchor="post describing the insidious nature of powerful corporate take-it-or-leave-it contract terms" %}, Cory describes the origin of his email disclaimer:
+
+> I once threw away a couple years' worth of my life fighting against the standardization of DRM in web browsers. The representatives from the giant corporations pushing for this all argued that it was okay to hijack control over your browser while you were watching a movie because you "agreed" to it when you created an account with Netflix or another streamer. And yet, these same engineers went absolutely bananas because my emails to the group mailing list had this gag disclaimer, which I've used off and on since the early 2000s.
+>
+> ["READ CAREFULLY" statement above.]
+>
+> They were right to be outraged. Taken at face value, this is an _outrageous_ "agreement." And yet, I was merely proposing to bind a couple dozen engineers and lawyers from giant multinational corporations to it – and they were proposing to bind _billions_ of people – every person who used a web browser, forever – to far more onerous terms.
+>
+> Anyway, I lost that one, but it sure was ironic, huh?
