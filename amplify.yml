@@ -13,7 +13,8 @@ frontend:
         - aws s3 cp s3://org.dltj.webmentions-cache webmentions-cache --recursive
         - rvm use $VERSION_RUBY_2_6
         - gem install bundler
-        - bundle install --path vendor/bundle
+        - bundle config set --local path 'vendor/bundle'
+        - bundle install
     build:
       commands:
         - rvm use $VERSION_RUBY_2_6
