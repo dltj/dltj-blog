@@ -165,7 +165,7 @@ include:
   - _pages
   - resume
   - .well-known
-  - assets/js/JekyllWebmentionIO.js
+#  - assets/js/JekyllWebmentionIO.js
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -193,6 +193,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - amplify*
 keep_files:
   - .git
   - .svn
