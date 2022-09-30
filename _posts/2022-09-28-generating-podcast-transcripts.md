@@ -53,7 +53,7 @@ Each statement is numbered, followed by a time interval, followed by the caption
 (WebVTT can be much more complicated than this...to include CSS-like text styling and other features; read the specs if you want more detail.)
 
 ## What the script does
-The code for up [on GitHub](https://github.com/dltj/unchecked-transcript) now.
+The code for this is up [on GitHub](https://github.com/dltj/unchecked-transcript) now.
 The links to the code below point to the version of software at the time this blog post was written.
 Be sure to click the "History" button near the upper right corner of the code listing to see if it has been updated.
 
@@ -86,6 +86,7 @@ And I'm comfortable with the copyright implications of publicly posting uncorrec
 
 ## Issues
 So there are some issues with this setup.
+
 * *Copying and pasting episode data required*: This is running as a command line program with four parameters: audio URL, episode title, episode landing page URL, and podcast title. Sometimes this takes a bit of hunting because podcast sites are not the most friendly for finding the audio URL. Viewing the page source is often necessary, and sometimes digging into the RSS/Atom XML is needed.
 * *Times will vary with advertisement inserts*: Because podcast networks insert ads with different lengths over time, the timestamps that were found when the transcription was made probably won't correspond to later playbacks. But I think they will be close enough that I can go back and find the audio clip when I need to.
 * *Default directory document doesn't work*: Right now, the "index.html" is required as part of the web link. It would be nice if one could remove that and just refer to the root directory, but AWS CloudFront doesn't work like that.
