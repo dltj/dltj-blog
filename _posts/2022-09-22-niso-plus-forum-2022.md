@@ -23,6 +23,8 @@ After three rounds of 15 minutes, a scribe that stayed at the same table the who
 What makes this style interesting is that everyone's experience is different.
 We agreed to use the {% include robustlink.html href="https://www.chathamhouse.org/about-us/chatham-house-rule" versionurl="https://web.archive.org/web/20220923020029/https://www.chathamhouse.org/about-us/chatham-house-rule" versiondate="2022-09-22" title="" anchor="Chatham House Rule" %}; what is reported here is my interpretation of my table's discussion and my take on the broader outcomes.
 
+<em>Edited on 5-Oct-2022 to add:</em> NISO published a summary of the in-person meeting in the October issue of NISO I/O — {% include robustlink.html href="https://www.niso.org/niso-io/2022/09/are-you-ready-metadata-musical" versionurl="https://web.archive.org/web/20221005203438/https://www.niso.org/niso-io/2022/09/are-you-ready-metadata-musical" versiondate="2022-10-05" title="Are You Ready? Metadata -- The Musical! | NISO I/O" anchor="Are You Ready? Metadata -- The Musical!" %}.
+
 ## Identifiers
 The most fascinating idea I discovered here was how much the metadata ecosystem relies on "Publication Date".
 Not only do several parts use publication date as an anchor, but different understandings of the meaning of "publication date" cause many problems downstream.
