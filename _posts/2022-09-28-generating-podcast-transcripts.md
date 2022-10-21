@@ -20,6 +20,7 @@ Podcast creators that take the time to make transcripts available are somewhat u
 Podcasts from NPR and NPR member stations are pretty good about this, but everyone else is slacking off.
 My task management system has about a dozen podcast episodes where I'd like to annotate transcripts (and one podcast that seemingly _stopped_ making transcripts just before the episode I wanted to annotate!).
 So I wrote a little script that creates a good-enough transcript HTML page.
+You can see a [sample of what this looks like](https://media.dltj.org/unchecked-transcript/20220928T194120-99-_Invisible--Search_and_Ye_Might_Find/index.html) (from the [Search and Ye Might Find](https://99percentinvisible.org/episode/search-and-ye-might-find/) episode of 99% Invisible).
 
 ## _AWS Transcribe_ to the rescue
 Amazon Web Services has a [Transcribe](https://aws.amazon.com/transcribe/) service that takes audio, runs it through its machine learning algorithms, and outputs a [WebVTT](https://www.w3.org/TR/webvtt1/) file.
