@@ -5,11 +5,12 @@ backend:
       commands:
         # When needed, uncomment this line to clear the Amplify builder cache
         # See https://github.com/aws-amplify/amplify-console/issues/229#issuecomment-552637405
-        - envCache --set stackInfo ""
+        # - envCache --set stackInfo ""
 frontend:
   phases:
     preBuild:
       commands:
+        - yum install -y xz
         - aws s3 cp s3://org.dltj.webmentions-cache webmentions-cache --recursive
         - rvm use $VERSION_RUBY_2_6
         - gem install bundler
