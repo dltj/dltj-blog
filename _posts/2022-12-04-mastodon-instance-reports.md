@@ -15,8 +15,25 @@ If you see other reports (or have posted a report of your own Mastodon instance)
 notetext='There is now a <a href="https://github.com/dltj/dltj-blog/pull/14">branch and pull request</a> on GitHub where you can suggest changes to this list and/or subscribe to notifications for updates. <a href="https://rss-bridge.bb8.fun/?action=display&bridge=GithubIssueBridge&context=Issue+comments&i=14&u=dltj&p=dltj-blog&format=Html">Updates to the page</a> are also available via <a href="https://rss-bridge.bb8.fun/">RSS-Bridge</a>.'
 %}
 
+## mindly.social
+{: #mindly}
+
+{% include thursday-threads-quote.html
+blockquote='Since April of this year I&lsquo;ve been running my own Mastodon server and 3 days ago we hit 100 users which was a huge milestone for my tiny little server... and then all of a sudden something happened, the other Mastodon servers started to get full and new users were looking for homes. Less than 72 hours after being excited for hitting 100 users we hit 10,000 users.'
+href="https://kujoe.blog/2022/11/running-a-mastodon-server-part-1"
+versionurl="https://web.archive.org/web/20221205152349/https://kujoe.blog/2022/11/running-a-mastodon-server-part-1"
+versiondate="2022-12-05"
+anchor="Running a Mastodon server - Part 1?"
+post=', KuJoe&lsquo;s blog, 29-Nov-2022'
+%}
+
+Includes sections for:
+
+- Statistics for activity growth
+- Process for managing growth (technical)
+
 ## chaos.social
-{: #chaos.social}
+{: #chaos}
 
 {% include thursday-threads-quote.html
 blockquote='The past month has changed the Fediverse, and, by extension, our instance. We&lsquo;ve continued as normal (apart from limiting sign-ups) to give ourselves time to figure out which changes were only temporary, what seems to be changed for good, and how to react. A month seems ample time, and here we are with a set of changes in how chaos.social will work in the future.'
@@ -31,6 +48,20 @@ Includes sections for:
 
 - Statistics for activity growth
 - Process for managing growth (new user moderation, instance rules)
+
+{% include thursday-threads-quote.html
+blockquote='I was going to write an article for a while now, but there was too much work to do with the latest influx. Together with my co-admin @rixx we run the chaos.social instance. As of writing this, we are one of the biggest and most active instances on the fediverse and one of the oldest mastodon instances, starting mid of April 2017. For the last 5 years everything was simple, one VM with 10 cores, 500GB NVMe SSD Storage and 32GB RAM. This VM did everything from the database to the webserving. Then Musk happened.'
+href="https://leah.is/posts/scaling-the-mastodon/"
+versionurl="https://web.archive.org/web/20221204201002/https://leah.is/posts/scaling-the-mastodon/"
+versiondate="2022-12-05"
+anchor="Scaling the Mastodon"
+post=', Leahs Gedanken&lsquo; blog, 2-Dec-2022'
+%}
+
+Includes sections for:
+
+- Infrastructure, including breakout of server functions
+- Process for managing growth (technical)
 
 
 ## Scaling Mastodon
