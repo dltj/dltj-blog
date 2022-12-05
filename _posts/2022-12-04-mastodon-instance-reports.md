@@ -197,6 +197,23 @@ Includes sections for:
 - Process for managing growth
 - Postmortem(s) on outages caused by growth
 
+{% include thursday-threads-quote.html
+blockquote='Thank you to everyone who has been patient with Hachyderm as we have had to make some adjustments to how we do things. Finding ourselves launched into scale has impacted our people more than it has impacted our systems. I wanted to provide some visibility into our intentions with Hachyderm, our priorities, and immediate initiatives.'
+href="https://community.hachyderm.io/blog/2022/12/04/growth-and-sustainability/"
+versionurl="https://web.archive.org/web/20221205200647/https://community.hachyderm.io/blog/2022/12/04/growth-and-sustainability/"
+versiondate="2022-12-05"
+anchor="Growth and Sustainability"
+post=', Hachyderm Community, Kris Nóva, 4-Dec-2022'
+%}
+
+Includes sections for:
+
+- Statistics of activity growth
+- Financials/fundraising
+- Governance changes (considering legal entity, call for volunteers)
+- User registrations
+
+
 ## Cloud Island (New Zealand)
 {: #cloud-island}
 
