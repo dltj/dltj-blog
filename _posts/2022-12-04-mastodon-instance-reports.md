@@ -11,6 +11,10 @@ I started gathering these because I was curious about what it takes to run a pub
 These reports are full of those kinds of details, but they also describe evolutions of policy and operations that are just as interesting. 
 If you see other reports (or have posted a report of your own Mastodon instance), please tag me at [@dltj@code4lib.social](https://code4lib.social/@dltj) and I'll add it to this list.
 
+{% include note.html 
+notetext=''
+%}
+
 ## Mastodon Canada
 {: #mastodon-canada}
 
