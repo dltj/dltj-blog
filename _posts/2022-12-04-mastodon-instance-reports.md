@@ -15,6 +15,25 @@ If you see other reports (or have posted a report of your own Mastodon instance)
 notetext='<del>There is now a <a href="https://github.com/dltj/dltj-blog/pull/14">branch and pull request</a> on GitHub where you can suggest changes to this list and/or subscribe to notifications for updates. <a href="https://rss-bridge.bb8.fun/?action=display&bridge=GithubIssueBridge&context=Issue+comments&i=14&u=dltj&p=dltj-blog&format=Html">Updates to the page</a> are also available via <a href="https://rss-bridge.bb8.fun/">RSS-Bridge</a></del>. This didn&lsquo;t work as I expected it to when the commits got to GitHub. (The pull request was automatically closed.)  Will need to rethink this.'
 %}
 
+## sfba.social (San Francisco Bay Area)
+{: #sfba}
+
+{% include thursday-threads-quote.html
+blockquote='This report covers the San Francisco Bay regional Mastodon instance sfba.social, including general statistics, financial details including income (donations) and expenses (hosting costs), moderation efforts, and changes made and considered. It has been wonderful to welcome all of our new friends and neighbors. We have expanded our server capacity and refined our moderation process, including a new version of the code of conduct and updated the server rules to match. This has helped to improve expectations and free our users to be nice and have fun!'
+href="https://hub.sfba.social/2022/12/02/transparency-report-november-2022/"
+versionurl="https://web.archive.org/web/20221206002521/https://hub.sfba.social/2022/12/02/transparency-report-november-2022/"
+versiondate="2022-12-05"
+anchor="Transparency Report (November 2022)"
+post=', SFBA Community Hub, 2-Dec-2022'
+%}
+
+Includes sections for:
+
+- Statistics for activity growth
+- Financials/fundraising
+- Governance changes (new moderators, code of conduct revisions, )
+- Future plans
+
 
 ## mindly.social
 {: #mindly}
