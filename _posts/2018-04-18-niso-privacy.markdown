@@ -2,7 +2,10 @@
 title:  "Privacy in the Context of Content Platforms and Discovery Tools"
 categories:
 - L/IS Profession
-tags: conference
+tags:
+- conference
+- GDPR
+- privacy
 ---
 These are the presentation notes for the _Privacy in the Context of Content Platforms and Discovery Tools_ presentation during the [NISO Information Freedom, Ethics, and Integrity](https://www.niso.org/events/2018/04/information-freedom-ethics-and-integrity) virtual conference on Wednesday, April 18, 2018.
 
