@@ -42,6 +42,14 @@ section.wp-import-message, p.dltj-note {
     color: black;
 }
 
+ul li, ol li {
+  margin-bottom: 0px;
+}
+
+blockquote {
+	line-height: 1.25em;
+}
+
 /*------------------------------------*\
     Webmentions
 \*------------------------------------*/
