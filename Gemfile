@@ -45,7 +45,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
 #  gem 'jekyll-webmention_io'
 #  gem "jekyll-webmention_io", :path => "/Users/peter/code/jekyll-webmention_io"
-  gem "jekyll-webmention_io", :git => "https://github.com/dltj/jekyll-webmention_io", :tag=>"main"
+  gem "jekyll-webmention_io", :git => "https://github.com/dltj/jekyll-webmention_io", :tag=>"fix-content-p-tag"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
