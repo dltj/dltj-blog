@@ -22,9 +22,9 @@ GIT
       webmention (~> 7.0)
 
 GIT
-  remote: https://github.com/dltj/minimal-mistakes.git
-  revision: af0ede25876984350903df270df1ba32a1e6fea8
-  tag: master
+  remote: https://github.com/dltj/minimal-mistakes
+  revision: c8cbfae49b4cc0dbc80b36a85e1d2dd9f0c0101e
+  ref: c8cbfae49b4cc0dbc80b36a85e1d2dd9f0c0101e
   specs:
     minimal-mistakes-jekyll (4.24.0)
       jekyll (>= 3.7, < 5.0)
