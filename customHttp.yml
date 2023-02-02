@@ -10,6 +10,6 @@ customHeaders:
       - key: 'X-Content-Type-Options'
         value: 'nosniff'
       - key: 'Content-Security-Policy'
-        value: "default-src default-src https: 'unsafe-inline'"
+        value: "default-src https: 'unsafe-inline'; script-src 'unsafe-inline' 'self' 'wasm-unsafe-eval' https://webmention.io/"
       - key: 'Referrer-Policy'
         value: "strict-origin"

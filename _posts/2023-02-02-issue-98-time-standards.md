@@ -117,15 +117,14 @@ Even if you don't care about the time standards, it is interesting to read about
 ## Explaining our concept of time to aliens
 {: #aliens}
 {% include thursday-threads-quote.html
-blockquote='<img src="https://dltj.org/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.png">'
+blockquote='<replay-web-page replayBase="/assets/js/replayweb/" source="https://dltj.org/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.wacz" url="https://oembed.link/https://twitter.com/foone/status/1572260363764400129" embed="replay-with-info" newwindowbase="https://dev.replayweb.page/" style="width: 30rem;  height: 20rem;"></replay-web-page><noscript><img src="https://dltj.org/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.png"></noscript>'
 href="https://twitter.com/foone/status/1572260363764400129"
 versionurl="https://web.archive.org/20221002135008/https://threadreaderapp.com/thread/1572260363764400129.html"
 versiondate="2022-10-02T09:50:05"
 anchor="@Foone on Twitter"
 post=', 20-Sep-2022'
 %}
-<!-- replay-web-page replayBase="/assets/js/replayweb/" source="/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.wacz" url="https://oembed.link/https://twitter.com/foone/status/1572260363764400129" embed="replay-with-info" newwindowbase="https://dev.replayweb.page/" style="width: 30rem;  height: 20rem;"></replay-web-page><noscript><img src="https://dltj.org/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.png"></noscript>
-<script src="/assets/js/replayweb/ui.js"></script -->
+<script src="/assets/js/replayweb/ui.js"></script>
 
 An imaginary conversation in 68 tweets, including bits like:
 
