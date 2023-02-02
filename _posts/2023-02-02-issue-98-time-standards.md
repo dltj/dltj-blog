@@ -1,11 +1,11 @@
 ---
-title: "Issue 98: Time Standards — leap seconds forwards and backwards, moon time, internet time (then and now), and aliens"
+title: "Issue 98: Time Standards - leap seconds forwards and backwards, moon time, internet time (then and now), and aliens"
 categories:
 - Thursday Threads
 mastodon:
-- "What then is time? If no one asks me, I know: if I wish to explain it to one that asketh, I know not" This week's DLTJ Thursday Threads looks at time standards. 1/7
+- "Saint Augustine wrote: 'What then is time? If no one asks me, I know: if I wish to explain it to one that asketh, I know not' This week's DLTJ Thursday Threads looks at time standards. https://dltj.org/article/issue-98-time-standards/ 1/7"
 - There is a faction of Earthlings that want to eliminate the leap second as a distinct unit of time. Instead, they propose "smearing" that second across an entire day so software developers can avoid having to think about a quirky minute that has 61 seconds. https://dltj.org/article/issue-98-time-standards/#leap-second 2/7
-- If you thought _adding_ a second was bad, what are we going to do when we have to _remove_ a second from our clocks to keep solar time in sync with caesium time. https://dltj.org/article/issue-98-time-standards/#backwards-second 3/7
+- If you thought adding a second was bad, what are we going to do when we have to remove a second from our clocks to keep solar time in sync with caesium time. https://dltj.org/article/issue-98-time-standards/#backwards-second 3/7
 - And what if we leave Earth for the Moon. How are we going to keep track of time there? https://dltj.org/article/issue-98-time-standards/#moon-time 4/7
 - Synchronizing time is "black magic" according to one of the pioneers of the internet. Why is it like that? https://dltj.org/article/issue-98-time-standards/#ntp-black-magic 5/7
 - Synchronizing clocks to millisecond accuracy isn't good enough for some applications. Read about the move to nanosecond accuracy. https://dltj.org/article/issue-98-time-standards/#ptp 6/7
@@ -117,7 +117,7 @@ Even if you don't care about the time standards, it is interesting to read about
 ## Explaining our concept of time to aliens
 {: #aliens}
 {% include thursday-threads-quote.html
-blockquote='<replay-web-page replayBase="/assets/js/replayweb/" source="/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.wacz" url="https://oembed.link/https://twitter.com/foone/status/1572260363764400129" embed="replay-with-info" newwindowbase="https://dev.replayweb.page/" style="width: 30rem;  height: 20rem;"></replay-web-page>'
+blockquote='<replay-web-page replayBase="/assets/js/replayweb/" source="/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.wacz" url="https://oembed.link/https://twitter.com/foone/status/1572260363764400129" embed="replay-with-info" newwindowbase="https://dev.replayweb.page/" style="width: 30rem;  height: 20rem;"></replay-web-page><noscript><img src="https://dltj.org/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.png"></noscript>'
 href="https://twitter.com/foone/status/1572260363764400129"
 versionurl="https://web.archive.org/20221002135008/https://threadreaderapp.com/thread/1572260363764400129.html"
 versiondate="2022-10-02T09:50:05"
