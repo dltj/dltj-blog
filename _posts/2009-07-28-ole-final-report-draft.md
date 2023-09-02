@@ -1,5 +1,4 @@
 ---
-layout: wordpress-import
 status: publish
 published: true
 title: Open Library Environment Final Report Draft Released
@@ -45,7 +44,9 @@ comments:
     class="topsy_trackback_content">Murray, Peter: Open Library Environment Final
     Report Draft Released http://snipurl.com/o50yv</span></span>'
 ---
-<p>Over the weekend, the folks at Duke University coordinating the development of the OLE Project Design Final Report <a href="http://www.kuali.org/sites/default/files/old/OLE_FINAL_Report.pdf" title="The OLE Project |   Final OLE Project Report">released a draft</a> for public comment.  Weighing in at 100 pages (don't let that put you off -- there are lots of pictures), it represents the best thinking of a couple dozen individuals listening to hundreds of professionals working in libraries.  Participants were challenged to consider not only their existing environments and workflows, but also how things could be put together differently.  And "differently" -- in this context -- means thinking about  tighter integration with information systems and processes at the host institution.</p>
-<p>I'm proud to have worked on and been associated with the project to this point.  My future participation will depend on whether OhioLINK finds itself in the governance structure being set up to oversee the build process.  I'm excited about the direction this project is going, and hope that enough build partners can be found to propel it to the next phase.</p>
-<p>This is a project of and for the community.  Comments are welcome on the draft.
-<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://oleproject.org/final-ole-project-report/ to http://www.kuali.org/sites/default/files/old/OLE_FINAL_Report.pdf on November 16th, 2012.</p>
+Over the weekend, the folks at Duke University coordinating the development of the OLE Project Design Final Report {% include robustlink.html href="https://web.archive.org/web/20131020092857/http://www.kuali.org/sites/default/files/old/OLE_FINAL_Report.pdf" originalurl="http://www.kuali.org/sites/default/files/old/OLE_FINAL_Report.pdf" versiondate='2009-07-28' title="The OLE Project | Final OLE Project Report" anchor="released a draft" %} for public comment.  Weighing in at 100 pages (don't let that put you off -- there are lots of pictures), it represents the best thinking of a couple dozen individuals listening to hundreds of professionals working in libraries.  Participants were challenged to consider not only their existing environments and workflows, but also how things could be put together differently.  And "differently" -- in this context -- means thinking about  tighter integration with information systems and processes at the host institution.
+
+I'm proud to have worked on and been associated with the project to this point.  My future participation will depend on whether OhioLINK finds itself in the governance structure being set up to oversee the build process.  I'm excited about the direction this project is going, and hope that enough build partners can be found to propel it to the next phase.
+
+This is a project of and for the community.  Comments are welcome on the draft.
+
