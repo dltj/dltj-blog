@@ -45,7 +45,7 @@ group :jekyll_plugins do
 #  gem "jekyll-last-modified-at", :path => "/Users/peter/code/jekyll-last-modified-at"
   gem "jekyll-last-modified-at", :git => "https://github.com/dltj/jekyll-last-modified-at.git", :tag=>"meta-matters"
   gem "jekyll-include-cache"
-  gem 'jekyll-webmention_io'
+  gem "jekyll-webmention_io", git: "git@github.com:aarongustafson/jekyll-webmention_io"
 #  gem "jekyll-webmention_io", :path => "/Users/peter/code/jekyll-webmention_io"
 #  gem "jekyll-webmention_io", :git => "https://github.com/dltj/jekyll-webmention_io", :tag=>"fix-content-p-tag"
 end
