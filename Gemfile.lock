@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:aarongustafson/jekyll-webmention_io
+  remote: https://github.com/aarongustafson/jekyll-webmention_io.git
   revision: aed2a46235acf7caf9802b8608bd73bac2656c4d
   specs:
     jekyll-webmention_io (4.0.0)
@@ -54,7 +54,7 @@ GEM
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
-    domain_name (0.6.20231109)
+    domain_name (0.6.20240107)
     drb (2.2.0)
       ruby2_keywords
     em-websocket (0.5.3)
@@ -136,7 +136,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    link-header-parser (5.1.0)
+    link-header-parser (5.1.1)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
