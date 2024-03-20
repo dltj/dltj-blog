@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.0"
+gem "jekyll" #, "~> 4.0"
 
 gem "kramdown-parser-gfm"
 
@@ -40,7 +40,7 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jemoji"
 ## See https://github.com/jekyll/jekyll-sass-converter/issues/145#issuecomment-1363069829
-  gem 'jekyll-sass-converter', '~> 2.2'
+#  gem 'jekyll-sass-converter', '~> 2.2'
 #  gem "jekyll-last-modified-at", :git => "https://github.com/gjtorikian/jekyll-last-modified-at.git"
 #  gem "jekyll-last-modified-at", :path => "/Users/peter/code/jekyll-last-modified-at"
   gem "jekyll-last-modified-at", :git => "https://github.com/dltj/jekyll-last-modified-at.git", :tag=>"meta-matters"
