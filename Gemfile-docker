@@ -43,7 +43,7 @@ group :jekyll_plugins do
 #  gem 'jekyll-sass-converter', '~> 2.2'
 #  gem "jekyll-last-modified-at", :git => "https://github.com/gjtorikian/jekyll-last-modified-at.git"
 #  gem "jekyll-last-modified-at", :path => "/Users/peter/code/jekyll-last-modified-at"
-  gem "jekyll-last-modified-at", :git => "https://github.com/dltj/jekyll-last-modified-at.git", :tag=>"meta-matters"
+  gem "jekyll-last-modified-at", :git => "https://github.com/dltj/jekyll-last-modified-at.git", :branch=>"meta-matters"
   gem "jekyll-include-cache"
   gem "jekyll-webmention_io", git: "https://github.com/aarongustafson/jekyll-webmention_io.git"
 #  gem "jekyll-webmention_io", :path => "/Users/peter/code/jekyll-webmention_io"
