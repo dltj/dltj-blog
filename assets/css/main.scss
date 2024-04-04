@@ -1,13 +1,13 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
+--- 
+# Only the main Sass file needs front matter (the dashes are enough) 
+--- 
 @charset "UTF-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-section.wp-import-message, p.dltj-note {
+section.wp-import-message,
+p.dltj-note {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   background-color: #F0F7FB;
@@ -25,29 +25,30 @@ section.wp-import-message, p.dltj-note {
 
 /* The close button */
 .closebtn {
-    margin-left: 15px;
-    color: #3498db;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-top: -0.6em;
-    margin-right: -0.4em;
+  margin-left: 15px;
+  color: #3498db;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: -0.6em;
+  margin-right: -0.4em;
 }
 
 /* When moving the mouse over the close button */
 .closebtn:hover {
-    color: black;
+  color: black;
 }
 
-ul li, ol li {
+ul li,
+ol li {
   margin-bottom: 0px;
 }
 
 blockquote {
-	line-height: 1.25em;
+  line-height: 1.25em;
 }
 
 /*------------------------------------*\
@@ -62,164 +63,165 @@ $font-weight-sansserif-bold: 800;
 
 // REM values
 // Adapted from http://hugogiraudel.com/2013/03/18/ultimate-rem-mixin/
-@mixin rem( $property, $values )
-{
-  $px: ();
-  $rem: ();
+@mixin rem($property, $values ) {
+  $px: (
+  );
+$rem: (
+);
 
-  @each $value in $values
-  {
-    @if $value == 0 or $value == auto
-    {
-      $px : append( $px , $value );
-      $rem: append( $rem, $value );
+@each $value in $values {
+  @if $value ==0 or $value ==auto {
+    $px : append($px , $value );
+    $rem: append($rem, $value );
+  }
+
+  @else {
+    $unit: unit($value );
+    $val: parseInt($value );
+
+    // enforce pixels on unitless measurements
+    @if $unit ==""
+
+      {
+      $value: $value + 0px;
+      $unit: "px";
     }
-    @else
-    {
-      $unit: unit( $value );
-      $val: parseInt( $value );
 
-      // enforce pixels on unitless measurements
-      @if $unit == ""
-      {
-        $value: $value + 0px;
-        $unit: "px";
-      }
+    // assume pixels
+    @if $unit =="px"
 
-      // assume pixels
-      @if $unit == "px"
       {
-        $px : append( $px,  $value );
-        $rem: append( $rem, ( $val / $font-size-default + rem ) );
-      }
+      $px : append($px, $value );
+      $rem: append($rem, ($val / $font-size-default + rem));
+    }
 
-      @if $unit == "rem"
+    @if $unit =="rem"
+
       {
-        $px : append( $px,  ( $val * $font-size-default + px ) );
-        $rem: append( $rem, $value );
-      }
+      $px : append($px, ($val * $font-size-default + px));
+      $rem: append($rem, $value );
     }
   }
+}
 
-  @if $px == $rem
-  {
-    #{$property}: $px;
-  }
-  @else
-  {
-    #{$property}: $px;
-    #{$property}: $rem;
-  }
+@if $px ==$rem {
+  #{$property}: $px;
+}
+
+@else {
+  #{$property}: $px;
+  #{$property}: $rem;
+}
 }
 
 .page__socialmedia {
-    h2 {
-      color: $muted-text-color;
-      font-size: $type-size-3;
-      margin-top: 15px;
-    }
+  h2 {
+    color: $muted-text-color;
+    font-size: $type-size-3;
+    margin-top: 15px;
+  }
 }
 
 .webmentions {
-    @include rem( font-size, $font-size-default );
-    @include rem( margin-top, $default-spacing / 2 );
+  @include rem(font-size, $font-size-default );
+  @include rem(margin-top, $default-spacing / 2);
 
-    h3 {
-      color: $muted-text-color;
-      font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-      font-size: $type-size-4;
-      margin-top: 10px;
+  h3 {
+    color: $muted-text-color;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: $type-size-4;
+    margin-top: 10px;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    clear: both;
+
+    border-top: 1px solid black;
+    margin: 0;
+    @include rem(padding, $default-spacing 0 $default-spacing ($avatar-width + $default-spacing ));
+    @include rem(min-height, $avatar-width );
+
+    position: relative;
+
+    &:first-child {
+      border-top: 0;
     }
-
-    &__list {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    &__item {
-        clear: both;
-
-        border-top: 1px solid black;
-        margin: 0;
-        @include rem( padding, $default-spacing 0 $default-spacing ( $avatar-width + $default-spacing ) );
-        @include rem( min-height, $avatar-width );
-
-        position: relative;
-
-        &:first-child {
-            border-top: 0;
-        }
-    }
+  }
 }
 
 .webmention {
 
-    &__author {
-        @include rem( font-size, $font-size-small );
-        font-weight: $font-weight-sansserif-bold;
-    }
+  &__author {
+    @include rem(font-size, $font-size-small );
+    font-weight: $font-weight-sansserif-bold;
+  }
 
-    // &--author-starts .h-card .p-name {
-    //     @include breakup-placeholder( hidden );
-    // }
+  // &--author-starts .h-card .p-name {
+  //     @include breakup-placeholder( hidden );
+  // }
 
-    &__author__photo {
-        border-radius: 3px;
+  &__author__photo {
+    border-radius: 3px;
 
-        display: block;
-        @include rem( width, $avatar-width );
-        @include rem( height, $avatar-width );
+    display: block;
+    @include rem(width, $avatar-width );
+    @include rem(height, $avatar-width );
 
-        position: absolute;
-        @include rem( top, $default-spacing );
+    position: absolute;
+    @include rem(top, $default-spacing );
 
-        left: 0;
-    }
+    left: 0;
+  }
 
-    &__title,
-    &__content,
-    &__meta {
+  &__title,
+  &__content,
+  &__meta {
+    margin: 0;
+  }
+
+  &__meta {
+    color: $muted-text-color;
+    @include rem(font-size, $font-size-small );
+  }
+
+  &--activity &__author,
+  &--activity &__title {
+    display: inline;
+  }
+
+  &--like,
+  &--repost {
+
+    border: 0;
+    display: inline;
+    margin: 0 5px 0 0;
+    padding: 0;
+
+    .webmention__author {
+      display: inline;
+
+      &__photo {
+        border: 1px solid;
+        border-radius: 50%;
+
+        display: inline;
+        max-width: 48px;
         margin: 0;
+
+        position: static;
+      }
+
+      a {
+        background-image: none !important;
+      }
     }
-
-    &__meta {
-        color: $muted-text-color;
-        @include rem( font-size, $font-size-small );
-    }
-
-    &--activity &__author,
-    &--activity &__title {
-        display: inline;
-    }
-
-    &--like,
-    &--repost {
-
-        border: 0;
-        display: inline;
-        margin: 0 5px 0 0;
-        padding: 0;
-
-        .webmention__author {
-            display: inline;
-
-            &__photo {
-                border: 1px solid;
-                border-radius: 50%;
-
-                display: inline;
-                max-width: 48px;
-                margin: 0;
-
-                position: static;
-            }
-
-            a {
-                background-image: none !important;
-            }
-        }
-    }
+  }
 }
 
 .thursdaythread {
@@ -242,7 +244,21 @@ $font-weight-sansserif-bold: 800;
   width: 100%;
 }
 
-figure img, figure iframe, figure .fluid-width-video-wrapper {
+figure img,
+figure iframe,
+figure .fluid-width-video-wrapper {
   margin-bottom: 0;
   border: 1px solid gray;
+}
+
+.btn--mastodon {
+  background-color: #6364FF;
+  color: #fff;
+}
+.btn--mastodon:hover {
+    color: white;
+    background-color: #4344ff;
+}
+.btn--mastodon:visited {
+    color: white;
 }
