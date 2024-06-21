@@ -1,0 +1,1 @@
+If we can isolate those activities, the rest of the system is less at risk of being hacked. The goal is to isolate the areas where personally identifiable information is stored and put tight security controls on those areas. 

@@ -89,4 +89,4 @@ This same three-word phrase is sent in the hold-pickup message to the library pa
 
 ## But could we build it?
 While this thought experiment is theoretical, could a real-world library system actually function this way? 
-In the next post, we'll explore possible adaptations for the FOLIO Library Services Platform to turn theory into practice.
+In the [next post](https://dltj.org/article/ils-without-patron-data-folio/), we'll explore possible adaptations for the FOLIO Library Services Platform to turn theory into practice.
