@@ -15,7 +15,7 @@ A year earlier, Robert Bork was nominated to the U.S. Supreme Court.
 In the course of his confirmation hearing, a reporter published Bork's video rental history. 
 Although this list of videos were not a factor in his rejected nomination, that the list was published was found to be outrageous enough spur Congress to pass the law. 
 Similarly, if your library records were made public, it could well be embarrassing and intrusive. 
-(Side note: While there is no federal protection for personal library records like those for video rental records, {% include robustlink.html href="https://www.ala.org/advocacy/privacy/statelaws" versionurl="https://web.archive.org/web/20240409035540/https://www.ala.org/advocacy/privacy/statelaws" versiondate="20240409035540" title="State Privacy Laws Regarding Library Records | American Library Association" anchor="state laws offer a patchwork of protections" %}.)
+(Side note: While there is no federal protection for personal library records like those for video rental records, {% include robustlink.html href="https://www.ala.org/advocacy/privacy/statelaws" versionurl="https://web.archive.org/web/20240409035540/https://www.ala.org/advocacy/privacy/statelaws" versiondate="20240620" title="State Privacy Laws Regarding Library Records | American Library Association" anchor="state laws offer a patchwork of protections" %}.)
 
 Library systems, like the video rental systems of old, tie personally identifiable details with patron activity. 
 So, what if we could separate these details? 
@@ -42,13 +42,13 @@ In a Federated Identity system, the same subject identifier is given to every SP
 
 However, if we don't want multiple SPs correlating a user's activities, we can use a "pairwise-subject-identifier". 
 Within this workflow, the IdP sends different identifiers to different SPs for the same person, making the identifiers unique to each IdP-SP pair. 
-More {% include robustlink.html href="https://docs.oasis-open.org/security/saml-subject-id-attr/v1.0/cs01/saml-subject-id-attr-v1.0-cs01.html#_Toc536097230" versionurl="https://web.archive.org/web/20230624171232/https://docs.oasis-open.org/security/saml-subject-id-attr/v1.0/cs01/saml-subject-id-attr-v1.0-cs01.html#_Toc536097230" versiondate="20230624171232" title="SAML V2.0 Subject Identifier Attributes Profile Version 1.0 | OASIS" anchor="formally" %}, pairwise-subject-identifier ("pairwise-id") is defined this way:
+More {% include robustlink.html href="https://docs.oasis-open.org/security/saml-subject-id-attr/v1.0/cs01/saml-subject-id-attr-v1.0-cs01.html#_Toc536097230" versionurl="https://web.archive.org/web/20230624171232/https://docs.oasis-open.org/security/saml-subject-id-attr/v1.0/cs01/saml-subject-id-attr-v1.0-cs01.html#_Toc536097230" versiondate="20240620" title="SAML V2.0 Subject Identifier Attributes Profile Version 1.0 | OASIS" anchor="formally" %}, pairwise-subject-identifier ("pairwise-id") is defined this way:
 
 > This is a long-lived, non-reassignable, uni-directional identifier suitable for use as a unique external key specific to a particular relying party. Its value for a given subject depends upon the relying party to whom it is given, thus preventing unrelated systems from using it as a basis for correlation. 
 
 Typically opaque, these identifiers don't offer additional information to the SPs trying to correlate activities between users. 
 For instance, the pairwise-id between IdP-SP#1 is `uGDJVRxK48E@dltj.org` and the pairwise-id between IdP-SP#2 is `T6vNM9v5tUna@dltj.org`. 
-Not only can the two SPs figure out if this is the same person, there is also no meaning in the identifier to find out who this person is in the first place.
+Not only are the two Service Providers (SPs) unable to determine if the identifiers belong to the same person, but the identifiers themselves also lack any inherent information that would allow the SPs to ascertain the individual's identity.
 
 ## Pairwise-ID as _THE_ library system ID
 In our ideal library system aiming to minimize personal data collection, the pairwise-id becomes the unique identifier in the library system. 
