@@ -88,7 +88,7 @@ An important point in this description of how the pairwise-id is used in FOLIO i
 Currently, FOLIO performs circulation operations like a typical integrated library system: to check out an item to a patron, a staff member logs into FOLIO with privileges to perform the checkout function. 
 That checkout function allows staff members (with the required permissions) to check out any item to any user record. 
 
-In our FILP FOLIO, though, the staff member won't be able to scan a patron's barcode to identify the patron...the patron will need to log in through the IdP single sign-on system so the pairwise-id is transmitted to FOLIO. 
+~~In our FILP FOLIO, though, the staff member won't be able to scan a patron's barcode to identify the patron...the patron will need to log in through the IdP single sign-on system so the pairwise-id is transmitted to FOLIO.~~ There is a [correction in the next blog post](https://dltj.org/article/ils-without-patron-data-details/#staff-checkout-correction) about how it is possible to use the existing Check-out app.
 Since it is the patron that is logged into FOLIO at this point, we will need a new API endpoint for a function that checks out an item _only to the logged-in user record_ (rather than any user record).
 
 FOLIO differs from previous library systems in that patrons are "first class" users. 
@@ -100,7 +100,7 @@ Several other endpoints will need similar modifications: an endpoint that record
 ## Conclusion and the Way Forward
 {: #call-to-action}
 FILP, as described above, still has some potential ways to correlate library activity to a specific patron and possibly de-anonymize that person. 
-This blog post is already nearly 2,000 words, so I'll save that discussion for another post. 
+This blog post is already nearly 2,000 words, so I put [that discussion plus a few other open questions](https://dltj.org/article/ils-without-patron-data-details/) in the next post.
 
 FOLIO's architecture is excellent because it is _almost possible_ to build the FOLIO Identity Limited Platform—FILP—today. 
 Replace a few back-end modules and add API endpoints where capabilities are scoped to an individual user record, and we're pretty much there. 
