@@ -13,6 +13,14 @@
       "Redirect": {
         "ReplaceKeyWith": "doc/api"
       }
+    },
+    {
+      "Condition": {
+        "KeyPrefixEquals": "article/ils-witout-patron-data-details"
+      },
+      "Redirect": {
+        "ReplaceKeyWith": "article/ils-without-patron-data-details"
+      }
     }
   ]
 }
