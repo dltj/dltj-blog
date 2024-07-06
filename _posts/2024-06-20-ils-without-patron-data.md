@@ -8,14 +8,14 @@ tags:
 ---
 Library systems hold significant information about patrons, including their search and reading histories. 
 For librarians, ensuring the privacy and confidentiality of this data is an essential component of professional ethics. 
-In the United States, for example, the third point in the {% include robustlink.html href="https://www.ala.org/tools/ethics" versionurl="https://web.archive.org/web/20240611061632/https://www.ala.org/tools/ethics" versiondate="20240620" title="ALA Code of Ethics | American Library Association" anchor="American Library Association Code of Ethics" %}  is _"We protect each library user's right to privacy and confidentiality with respect to information sought or received and resources consulted, borrowed, acquired or transmitted."_
+In the United States, for example, the third point in the {% include robustlink.html href="https://www.ala.org/tools/ethics" versionurl="https://web.archive.org/web/20240611061632/https://www.ala.org/tools/ethics" versiondate="2024-06-20" title="ALA Code of Ethics | American Library Association" anchor="American Library Association Code of Ethics" %}  is _"We protect each library user's right to privacy and confidentiality with respect to information sought or received and resources consulted, borrowed, acquired or transmitted."_
 
-To understand this better, consider how the {% include robustlink.html href="https://en.wikipedia.org/wiki/Video_Privacy_Protection_Act" versionurl="https://en.wikipedia.org/w/index.php?title=Video_Privacy_Protection_Act&oldid=1221687857" versiondate="20240620" title="Video Privacy Protection Act | Wikipedia" anchor="Video Privacy Protection Act of 1988" %} arose in the U.S. after the controversy surrounding the publication of Robert Bork's video rental history. 
+To understand this better, consider how the {% include robustlink.html href="https://en.wikipedia.org/wiki/Video_Privacy_Protection_Act" versionurl="https://en.wikipedia.org/w/index.php?title=Video_Privacy_Protection_Act&oldid=1221687857" versiondate="2024-06-20" title="Video Privacy Protection Act | Wikipedia" anchor="Video Privacy Protection Act of 1988" %} arose in the U.S. after the controversy surrounding the publication of Robert Bork's video rental history. 
 A year earlier, Robert Bork was nominated to the U.S. Supreme Court. 
 In the course of his confirmation hearing, a reporter published Bork's video rental history. 
 Although this list of videos were not a factor in his rejected nomination, that the list was published was found to be outrageous enough spur Congress to pass the law. 
 Similarly, if your library records were made public, it could well be embarrassing and intrusive. 
-(Side note: While there is no federal protection for personal library records like those for video rental records, {% include robustlink.html href="https://www.ala.org/advocacy/privacy/statelaws" versionurl="https://web.archive.org/web/20240409035540/https://www.ala.org/advocacy/privacy/statelaws" versiondate="20240620" title="State Privacy Laws Regarding Library Records | American Library Association" anchor="state laws offer a patchwork of protections" %}.)
+(Side note: While there is no federal protection for personal library records like those for video rental records, {% include robustlink.html href="https://www.ala.org/advocacy/privacy/statelaws" versionurl="https://web.archive.org/web/20240409035540/https://www.ala.org/advocacy/privacy/statelaws" versiondate="2024-06-20" title="State Privacy Laws Regarding Library Records | American Library Association" anchor="state laws offer a patchwork of protections" %}.)
 
 Library systems, like the video rental systems of old, tie personally identifiable details with patron activity. 
 So, what if we could separate these details? 
@@ -42,7 +42,7 @@ In a Federated Identity system, the same subject identifier is given to every SP
 
 However, if we don't want multiple SPs correlating a user's activities, we can use a "pairwise-subject-identifier". 
 Within this workflow, the IdP sends different identifiers to different SPs for the same person, making the identifiers unique to each IdP-SP pair. 
-More {% include robustlink.html href="https://docs.oasis-open.org/security/saml-subject-id-attr/v1.0/cs01/saml-subject-id-attr-v1.0-cs01.html#_Toc536097230" versionurl="https://web.archive.org/web/20230624171232/https://docs.oasis-open.org/security/saml-subject-id-attr/v1.0/cs01/saml-subject-id-attr-v1.0-cs01.html#_Toc536097230" versiondate="20240620" title="SAML V2.0 Subject Identifier Attributes Profile Version 1.0 | OASIS" anchor="formally" %}, pairwise-subject-identifier ("pairwise-id") is defined this way:
+More {% include robustlink.html href="https://docs.oasis-open.org/security/saml-subject-id-attr/v1.0/cs01/saml-subject-id-attr-v1.0-cs01.html#_Toc536097230" versionurl="https://web.archive.org/web/20230624171232/https://docs.oasis-open.org/security/saml-subject-id-attr/v1.0/cs01/saml-subject-id-attr-v1.0-cs01.html#_Toc536097230" versiondate="2024-06-20" title="SAML V2.0 Subject Identifier Attributes Profile Version 1.0 | OASIS" anchor="formally" %}, pairwise-subject-identifier ("pairwise-id") is defined this way:
 
 > This is a long-lived, non-reassignable, uni-directional identifier suitable for use as a unique external key specific to a particular relying party. Its value for a given subject depends upon the relying party to whom it is given, thus preventing unrelated systems from using it as a basis for correlation. 
 
@@ -52,7 +52,7 @@ Not only are the two Service Providers (SPs) unable to determine if the identifi
 
 ## Pairwise-ID as _THE_ library system ID
 In our ideal library system aiming to minimize personal data collection, the pairwise-id becomes the unique identifier in the library system. 
-(There are some drawbacks to using the pairwise-id as the unique identifier...we'll get to those later.) 
+(There are some drawbacks to using the pairwise-id as the unique identifier...[see the discussion](https://dltj.org/article/ils-without-patron-data-details/#deanonymization) in the third post of this series.) 
 The first time the library system's SP gets a new pairwise-id, it creates a new user record in the system. 
 The system uses other attributes from the IdP to determine privileges for this new record - for instance, a "student" status gets a normal loan period, a "faculty" status gets an extended loan period, and a "conference visitor" status gets blocked from borrowing.
 
