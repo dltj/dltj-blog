@@ -1,0 +1,5 @@
+.git
+vendor/*
+Gemfile*
+README.md
+.DS_Store
