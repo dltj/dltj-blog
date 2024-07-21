@@ -1,6 +1,7 @@
 ---
 title: 'Automatically Generating Podcast Transcripts'
 modified: 2022-09-28T20:12:24-04:00
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

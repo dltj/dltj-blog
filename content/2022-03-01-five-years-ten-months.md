@@ -1,6 +1,7 @@
 ---
 title: 'Five Years and Ten Months'
 modified: 2022-03-01T21:00:16-05:00
+category: Personal
 categories:
 - Personal
 tags:

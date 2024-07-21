@@ -1,6 +1,7 @@
 ---
 title: 'Running an All-Online Conference with Zoom [post removed]'
 modified: 2020-10-13T09:47:46-04:00
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: HarperCollins, Google Book Search Settlement, DPLA, Juggling Robots'
 modified: 2022-03-28T20:44:19-04:00
@@ -11,6 +11,7 @@ wordpress_id: 2768
 wordpress_url: http://dltj.org/?p=2768
 date: '2011-03-31 06:40:19 -0400'
 date_gmt: '2011-03-31 10:40:19 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

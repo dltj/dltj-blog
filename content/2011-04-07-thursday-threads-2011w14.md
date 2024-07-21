@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: HarperCollins/OverDrive (still), Wikimedia Survey, Microsoft Academic Search'
 modified: 2011-04-07T06:10:52+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2784
 wordpress_url: http://dltj.org/?p=2784
 date: '2011-04-07 06:10:52 -0400'
 date_gmt: '2011-04-07 10:10:52 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

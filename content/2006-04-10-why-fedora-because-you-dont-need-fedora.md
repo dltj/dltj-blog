@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Why Fedora?  Because You Don''t Need Fedora'
 modified: 2021-06-23T21:15:00-04:00
@@ -11,6 +11,7 @@ wordpress_id: 38
 wordpress_url: http://dltj.org/2006/04/why-fedora-because-you-dont-need-fedora/
 date: '2006-04-10 20:39:17 -0400'
 date_gmt: '2006-04-11 01:39:17 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

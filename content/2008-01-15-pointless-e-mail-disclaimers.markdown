@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: Pointless E-mail Disclaimers
 modified: 2018-12-31T20:15:24-05:00
@@ -11,6 +11,7 @@ wordpress_id: 207
 wordpress_url: http://dltj.org/2008/01/pointless-e-mail-disclaimers/
 date: '2008-01-15 21:26:48 -0500'
 date_gmt: '2008-01-16 01:26:48 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

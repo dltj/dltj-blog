@@ -1,6 +1,7 @@
 ---
 title: 'Publishers going-it-alone (for now?) with GetFTR'
 modified: 2019-12-03T19:18:03-05:00
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: Notes on the Code4Lib Virtual Lightning Talks
 modified: 2020-03-03T19:48:51-05:00
@@ -29,6 +29,7 @@ wordpress_id: 4103
 wordpress_url: http://dltj.org/?p=4103
 date: '2013-04-08 21:22:41 -0400'
 date_gmt: '2013-04-09 01:22:41 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

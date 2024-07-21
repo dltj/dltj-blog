@@ -1,6 +1,6 @@
 ---
 layout: single
-status: publish
+status: published
 published: true
 title: 'DLTJ Comment Policy'
 author: Peter Murray
@@ -14,6 +14,7 @@ wordpress_id: 149
 wordpress_url: http://dltj.org/2006/12/dltj-comment-policy/
 date: '2006-12-11 13:13:49 -0500'
 date_gmt: '2006-12-11 18:13:49 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: Getting a Hyperlink of the Last Sent Message from Mail.app using Applescript
 modified: 2018-01-15T22:38:08-05:00
@@ -12,6 +12,7 @@ wordpress_id: 363
 wordpress_url: https://dltj.org/?p=363
 date: '2008-05-15 12:15:15 -0400'
 date_gmt: '2008-05-15 16:15:15 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

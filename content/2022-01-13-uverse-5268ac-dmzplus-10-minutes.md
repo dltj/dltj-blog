@@ -1,6 +1,7 @@
 ---
 title: 'Router Behind a Uverse/Pace 5268ac Gateway Loses its Mind Every 10 Minutes'
 modified: 2022-01-13T20:09:15-05:00
+category: Thursday Threads
 categories:
   - Raw Technology
 tags:

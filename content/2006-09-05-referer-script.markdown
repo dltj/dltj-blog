@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: Script for Testing HTTP Referer Headers
 modified: 2018-01-15T22:38:08-05:00
@@ -12,6 +12,7 @@ wordpress_id: 111
 wordpress_url: http://dltj.org/2006/09/referer-script/
 date: '2006-09-05 16:12:59 -0400'
 date_gmt: '2006-09-05 21:12:59 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

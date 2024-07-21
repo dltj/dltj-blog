@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Correction Added to Guardian Story on OCLC Record Use Policy'
 modified: 2009-01-31T18:26:36+00:00
@@ -11,6 +11,7 @@ wordpress_id: 711
 wordpress_url: http://dltj.org/?p=711
 date: '2009-01-31 18:26:36 -0500'
 date_gmt: '2009-01-31 23:26:36 -0500'
+category: Policy
 categories:
 - Policy
 tags:

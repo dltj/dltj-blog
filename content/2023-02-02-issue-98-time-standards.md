@@ -1,6 +1,7 @@
 ---
 title: 'Issue 98: Time Standards - leap seconds forwards and backwards, moon time, internet time (then and now), and aliens'
 modified: 2023-02-01T23:59:05-05:00
+category: Thursday Threads
 categories:
 - Thursday Threads
 mastodon:

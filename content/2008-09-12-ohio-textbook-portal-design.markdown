@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: Drupal as the Foundation of Ohio Textbook Portal
 modified: 2018-01-15T22:38:08-05:00
@@ -12,6 +12,7 @@ wordpress_id: 487
 wordpress_url: http://dltj.org/?p=487
 date: '2008-09-12 16:34:03 -0400'
 date_gmt: '2008-09-12 20:34:03 -0400'
+category: Textbooks
 categories:
 - Textbooks
 tags:

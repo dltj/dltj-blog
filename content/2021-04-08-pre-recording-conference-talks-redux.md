@@ -1,6 +1,7 @@
 ---
 title: 'More Thoughts on Pre-recording Conference Talks'
 modified: 2021-04-08T21:28:16-04:00
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

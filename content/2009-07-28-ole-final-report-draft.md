@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Open Library Environment Final Report Draft Released'
 modified: 2009-07-28T10:17:49+00:00
@@ -11,6 +11,7 @@ wordpress_id: 1201
 wordpress_url: http://dltj.org/?p=1201
 date: '2009-07-28 10:17:49 -0400'
 date_gmt: '2009-07-28 14:17:49 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

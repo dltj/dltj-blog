@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'OCLC Introduces "A Web Presence for Small Libraries"'
 modified: 2011-01-11T20:35:41+00:00
@@ -11,6 +11,7 @@ wordpress_id: 2114
 wordpress_url: http://dltj.org/?p=2114
 date: '2011-01-11 20:35:41 -0500'
 date_gmt: '2011-01-12 01:35:41 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

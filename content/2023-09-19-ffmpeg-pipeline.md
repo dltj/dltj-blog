@@ -1,6 +1,7 @@
 ---
 title: 'Processing WOLFcon Conference Recordings with FFMPEG'
 modified: 2023-09-19T17:13:03-04:00
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

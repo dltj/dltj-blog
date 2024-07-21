@@ -1,6 +1,7 @@
 ---
 title: 'On Open Library Services: Reflections from the GIL User Group Meeting'
 modified: 2023-09-02T15:15:27-04:00
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

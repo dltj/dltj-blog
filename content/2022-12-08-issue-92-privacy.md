@@ -1,6 +1,7 @@
 ---
 title: 'Issue 92: Privacy Stories From 2014 Still Echo Today'
 modified: 2022-12-07T22:10:45-05:00
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

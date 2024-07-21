@@ -1,6 +1,7 @@
 ---
 title: 'Refactoring DLTJ, Winter 2021 Part 3: "Serverless" Newsletter System'
 modified: 2022-01-05T21:09:02-05:00
+category: Linking Technologies
 categories:
   - Meta Category
 tags:

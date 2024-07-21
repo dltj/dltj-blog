@@ -1,6 +1,7 @@
 ---
 title: 'Starting a Python-oriented Serverless-dot-com Project'
 modified: 2022-02-06T11:56:25-05:00
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

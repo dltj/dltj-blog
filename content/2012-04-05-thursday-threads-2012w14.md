@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads:  Open Source Advocates Twitch at Blackboard''s Strategy and Effect of Copyright/DRM on Access'
 modified: 2012-04-05T06:22:06+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3644
 wordpress_url: http://dltj.org/?p=3644
 date: '2012-04-05 06:22:06 -0400'
 date_gmt: '2012-04-05 10:22:06 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

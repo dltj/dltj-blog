@@ -1,6 +1,6 @@
 ---
 layout: single
-status: publish
+status: published
 published: true
 title: 'About the Jester'
 author: Peter Murray
@@ -11,6 +11,7 @@ wordpress_id: 55
 wordpress_url: http://dltj.org/about-the-jester/
 date: '2006-05-14 18:42:37 -0400'
 date_gmt: '2006-05-14 23:42:37 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags: []

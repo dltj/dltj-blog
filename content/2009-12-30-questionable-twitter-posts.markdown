@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: On Being Fodder for Questionable Twitter Posts
 modified: 2018-01-15T22:38:08-05:00
@@ -12,6 +12,7 @@ wordpress_id: 1397
 wordpress_url: http://dltj.org/?p=1397
 date: '2009-12-30 15:44:29 -0500'
 date_gmt: '2009-12-30 20:44:29 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

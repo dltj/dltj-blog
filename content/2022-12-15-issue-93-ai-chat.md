@@ -1,6 +1,7 @@
 ---
 title: 'Issue 93: Chat-bots Powered by Artificial Intelligence'
 modified: 2022-12-14T22:50:19-05:00
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

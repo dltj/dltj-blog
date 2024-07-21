@@ -1,6 +1,7 @@
 ---
 title: 'You''re getting &quot;Invalid request provided: AWS::CloudFront::PublicKey&quot; because CloudFront Public Keys are immutable'
 modified: 2022-02-11T22:01:06-05:00
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Issue 97: Again with the AI Chatbots'
 modified: 2023-01-25T21:41:24-05:00
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

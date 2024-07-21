@@ -1,6 +1,7 @@
 ---
 title: 'Digital versus Digitized: On the Hachette v. Internet Archive Appeal Oral Argument'
 modified: 2024-07-06T15:52:12-04:00
+category: L/IS Profession
 categories: L/IS Profession
 tags:
 - controlled digital lending

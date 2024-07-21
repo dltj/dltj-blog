@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Amazon Pressures Publishers, Academic Spam, Mechanical Turk Spam, Multispectral Imaging'
 modified: 2010-12-30T07:07:28+00:00
@@ -11,6 +11,7 @@ wordpress_id: 1931
 wordpress_url: http://dltj.org/?p=1931
 date: '2010-12-30 07:07:28 -0500'
 date_gmt: '2010-12-30 12:07:28 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

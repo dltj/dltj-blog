@@ -1,6 +1,7 @@
 ---
 title: 'Controlled Digital Lending…What''s the Fuss?'
 modified: 2023-03-16T11:44:22-04:00
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

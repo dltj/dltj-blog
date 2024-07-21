@@ -1,6 +1,7 @@
 ---
 title: 'Reflections on "Responsibilities of Citizenship for Immigrants and our Daughter"'
 modified: 2019-09-14T14:22:29-04:00
+category: Personal
 categories:
 - Personal
 tags:

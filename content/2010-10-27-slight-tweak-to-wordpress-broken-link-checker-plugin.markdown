@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: Slight Tweak to WordPress Broken Link Checker Plugin
 modified: 2018-01-15T22:38:08-05:00
@@ -12,6 +12,8 @@ wordpress_id: 1805
 wordpress_url: http://dltj.org/?p=1805
 date: '2010-10-27 22:34:38 -0400'
 date_gmt: '2010-10-28 02:34:38 -0400'
+category: Raw Technology
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

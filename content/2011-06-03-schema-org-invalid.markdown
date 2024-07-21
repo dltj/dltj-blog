@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: Does the Google/Bing/Yahoo Schema.org Markup Promote Invalid HTML?
 modified: 2018-01-15T17:35:29-05:00
@@ -12,6 +12,7 @@ wordpress_id: 2920
 wordpress_url: http://dltj.org/?p=2920
 date: '2011-06-03 12:32:10 -0400'
 date_gmt: '2011-06-03 16:32:10 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

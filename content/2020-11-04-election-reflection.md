@@ -1,6 +1,7 @@
 ---
 title: 'As a Cog in the Election System: Reflections on My Role as a Precinct Election Official'
 modified: 2020-11-04T23:18:57-05:00
+category: Personal
 categories:
 - Personal
 tags:

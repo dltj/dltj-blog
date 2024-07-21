@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: Fronting Tomcat with Apache HTTPD to Remove Ports and Context Paths
 modified: 2018-01-15T22:38:08-05:00
@@ -12,6 +12,7 @@ wordpress_id: 281
 wordpress_url: http://dltj.org/2007/09/apache-httpd-and-tomcat/
 date: '2007-09-19 22:31:33 -0400'
 date_gmt: '2007-09-20 02:31:33 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

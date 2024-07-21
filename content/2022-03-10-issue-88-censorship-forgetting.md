@@ -1,6 +1,7 @@
 ---
 title: 'Issue 88: Battling Censorship, Considering the Right to be Forgotten'
 modified: 2022-03-09T20:47:52-05:00
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

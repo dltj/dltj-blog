@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: Managing a Gentoo Linux Server Configuration with Subversion, GLCU, and Trac
 modified: 2018-01-15T22:38:08-05:00
@@ -13,7 +13,6 @@ wordpress_url: http://dltj.org/2006/12/gentoo-config-subversion-glcu-trac/
 date: '2006-12-22 12:49:00 -0500'
 date_gmt: '2006-12-22 17:49:00 -0500'
 categories:
-- DRC
 - Raw Technology
 tags:
 - Gentoo

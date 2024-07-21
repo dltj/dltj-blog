@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'A New Year, a New PGP Key'
 modified: 2020-10-13T09:47:19-04:00
@@ -11,6 +11,7 @@ wordpress_id: 1406
 wordpress_url: http://dltj.org/?p=1406
 date: '2010-01-02 21:16:30 -0500'
 date_gmt: '2010-01-03 02:16:30 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

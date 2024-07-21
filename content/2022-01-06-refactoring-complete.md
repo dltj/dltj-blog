@@ -1,6 +1,7 @@
 ---
 title: 'Refactoring DLTJ, Winter 2021 Part 4: Thursday Threads Newsletter Launches'
 modified: 2022-01-06T21:47:47-05:00
+category: Meta Category
 categories:
   - Meta Category
 tags:

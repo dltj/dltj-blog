@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Issue 77: New and Interesting from ALA Exhibits'
 modified: 2015-07-02T06:51:45+00:00
@@ -11,6 +11,7 @@ wordpress_id: 26028
 wordpress_url: http://dltj.org/?p=26028
 date: '2015-07-02 06:51:45 -0400'
 date_gmt: '2015-07-02 10:51:45 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 comments: []

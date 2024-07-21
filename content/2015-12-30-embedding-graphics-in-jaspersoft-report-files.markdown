@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: Embedding Graphics in Jaspersoft Report Files
 modified: 2018-12-31T21:13:40-05:00
@@ -11,6 +11,7 @@ wordpress_id: 26977
 wordpress_url: http://dltj.org/?p=26977
 date: '2015-12-30 12:27:54 -0500'
 date_gmt: '2015-12-30 17:27:54 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

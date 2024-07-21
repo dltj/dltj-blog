@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Open Source in Health Care, The Big Deal, Archives of Web Pages'
 modified: 2011-03-17T06:46:53+00:00
@@ -11,6 +11,7 @@ wordpress_id: 2719
 wordpress_url: http://dltj.org/?p=2719
 date: '2011-03-17 06:46:53 -0400'
 date_gmt: '2011-03-17 10:46:53 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,7 @@
 ---
 title: 'Issue 99: Copyright for Generative Artificial Intelligence (ChatGPT, DALL·E 2, and the like)'
 modified: 2023-03-01T23:00:24-05:00
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

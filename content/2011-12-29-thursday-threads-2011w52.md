@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Looking Backwards and Looking Forwards'
 modified: 2011-12-29T14:42:09+00:00
@@ -11,6 +11,7 @@ wordpress_id: 3560
 wordpress_url: http://dltj.org/?p=3560
 date: '2011-12-29 14:42:09 -0500'
 date_gmt: '2011-12-29 19:42:09 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

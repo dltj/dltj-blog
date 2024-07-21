@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Update to "Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way"'
 modified: 2018-01-15T22:38:08-05:00
@@ -12,6 +12,7 @@ wordpress_id: 187
 wordpress_url: http://dltj.org/2007/02/update-to-embedded-web-video/
 date: '2007-02-21 15:41:09 -0500'
 date_gmt: '2007-02-21 20:41:09 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

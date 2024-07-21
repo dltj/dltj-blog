@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: Java Application for Batch Processing FEDORA Objects
 modified: 2018-01-15T22:38:08-05:00
@@ -12,6 +12,7 @@ wordpress_id: 150
 wordpress_url: http://dltj.org/2006/12/fedora-batch-processing/
 date: '2006-12-13 21:18:30 -0500'
 date_gmt: '2006-12-14 02:18:30 -0500'
+category: Library Technology
 categories:
 - Fedora
 tags:

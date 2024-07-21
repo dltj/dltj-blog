@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Host Your Own Virtual Lightning Talks Using Google Hangout -- Slides and Links from ALA2013 Presentation'
 modified: 2020-03-03T19:48:51-05:00
@@ -11,6 +11,7 @@ wordpress_id: 4129
 wordpress_url: http://dltj.org/?p=4129
 date: '2013-06-29 13:29:01 -0400'
 date_gmt: '2013-06-29 17:29:01 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

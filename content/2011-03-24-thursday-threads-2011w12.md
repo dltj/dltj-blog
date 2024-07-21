@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Google Books Settlement, Cornell on NDAs, Hans Rosling on Literacy'
 modified: 2011-03-24T06:40:29+00:00
@@ -11,6 +11,7 @@ wordpress_id: 2747
 wordpress_url: http://dltj.org/?p=2747
 date: '2011-03-24 06:40:29 -0400'
 date_gmt: '2011-03-24 10:40:29 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

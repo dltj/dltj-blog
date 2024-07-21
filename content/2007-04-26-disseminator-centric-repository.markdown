@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: Disseminators As the Core of an Object Repository
 modified: 2018-01-15T22:38:08-05:00
@@ -12,6 +12,7 @@ wordpress_id: 215
 wordpress_url: http://dltj.org/2007/04/disseminator-centric-repository/
 date: '2007-04-26 09:58:32 -0400'
 date_gmt: '2007-04-26 13:58:32 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora
