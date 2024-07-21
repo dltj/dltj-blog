@@ -2,7 +2,7 @@
 layout: single
 status: publish
 published: true
-title: DLTJ Comment Policy
+title: 'DLTJ Comment Policy'
 author: Peter Murray
 login: lyrdor
 email: jester@dltj.org

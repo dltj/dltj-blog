@@ -2,7 +2,7 @@
 layout: wordpress-import
 status: publish
 published: true
-title: Thursday Threads: HarperCollins/OverDrive (still), Wikimedia Survey, Microsoft Academic Search
+title: 'Thursday Threads: HarperCollins/OverDrive (still), Wikimedia Survey, Microsoft Academic Search'
 modified: 2011-04-07T06:10:52+00:00
 author: Peter Murray
 author_login: lyrdor

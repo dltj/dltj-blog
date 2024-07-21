@@ -1,7 +1,7 @@
 ---
 status: publish
 published: true
-title: A New Year, a New PGP Key
+title: 'A New Year, a New PGP Key'
 modified: 2020-10-13T09:47:19-04:00
 author: Peter Murray
 author_login: lyrdor

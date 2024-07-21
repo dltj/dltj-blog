@@ -1,5 +1,5 @@
 ---
-title: Engaging with Open Source Technologies
+title: 'Engaging with Open Source Technologies'
 modified: 2019-08-14T12:39:49-04:00
 categories:
 - L/IS Profession

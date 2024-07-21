@@ -2,7 +2,7 @@
 layout: wordpress-import
 status: publish
 published: true
-title: Thursday Threads:  Open Source Advocates Twitch at Blackboard's Strategy and Effect of Copyright/DRM on Access
+title: 'Thursday Threads:  Open Source Advocates Twitch at Blackboard''s Strategy and Effect of Copyright/DRM on Access'
 modified: 2012-04-05T06:22:06+00:00
 author: Peter Murray
 author_login: lyrdor

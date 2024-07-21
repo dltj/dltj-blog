@@ -2,7 +2,7 @@
 layout: single
 status: publish
 published: true
-title: About the Jester
+title: 'About the Jester'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

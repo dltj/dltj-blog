@@ -1,7 +1,7 @@
 ---
 status: publish
 published: true
-title: Issue 77: New and Interesting from ALA Exhibits
+title: 'Issue 77: New and Interesting from ALA Exhibits'
 modified: 2015-07-02T06:51:45+00:00
 author: Peter Murray
 author_login: lyrdor

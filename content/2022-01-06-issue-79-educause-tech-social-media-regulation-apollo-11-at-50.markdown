@@ -1,5 +1,5 @@
 ---
-title: Issue 79: Educational Technology Futures, Social Media Legislation, Apollo 11 Launch at 50
+title: 'Issue 79: Educational Technology Futures, Social Media Legislation, Apollo 11 Launch at 50'
 modified: 2022-01-05T23:36:39-05:00
 categories:
 - Thursday Threads

@@ -1,7 +1,7 @@
 ---
 status: publish
 published: true
-title: OCLC Introduces "A Web Presence for Small Libraries"
+title: 'OCLC Introduces "A Web Presence for Small Libraries"'
 modified: 2011-01-11T20:35:41+00:00
 author: Peter Murray
 author_login: lyrdor

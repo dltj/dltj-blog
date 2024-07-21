@@ -1,5 +1,5 @@
 ---
-title: Issue 94: Controlled Digital Lending
+title: 'Issue 94: Controlled Digital Lending'
 modified: 2022-12-28T16:16:06-05:00
 categories:
 - Thursday Threads

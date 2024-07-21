@@ -1,5 +1,5 @@
 ---
-title: Anxious Anger -- or: why does my profession want to become a closed club
+title: 'Anxious Anger -- or: why does my profession want to become a closed club'
 modified: 2018-01-10T16:42:49-06:00
 date:   2018-01-10 13:38:00 -0500 
 categories:

@@ -1,7 +1,7 @@
 ---
 status: publish
 published: true
-title: Thursday Threads: Amazon Pressures Publishers, Academic Spam, Mechanical Turk Spam, Multispectral Imaging
+title: 'Thursday Threads: Amazon Pressures Publishers, Academic Spam, Mechanical Turk Spam, Multispectral Imaging'
 modified: 2010-12-30T07:07:28+00:00
 author: Peter Murray
 author_login: lyrdor

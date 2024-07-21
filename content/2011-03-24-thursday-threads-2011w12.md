@@ -1,7 +1,7 @@
 ---
 status: publish
 published: true
-title: Thursday Threads: Google Books Settlement, Cornell on NDAs, Hans Rosling on Literacy
+title: 'Thursday Threads: Google Books Settlement, Cornell on NDAs, Hans Rosling on Literacy'
 modified: 2011-03-24T06:40:29+00:00
 author: Peter Murray
 author_login: lyrdor

@@ -1,5 +1,5 @@
 ---
-title: Refactoring DLTJ, Winter 2021 Part 2.5: Fixing the Webmentions Cache
+title: 'Refactoring DLTJ, Winter 2021 Part 2.5: Fixing the Webmentions Cache'
 modified: 2021-12-31T12:39:33-05:00
 categories:
   - Meta Category

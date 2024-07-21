@@ -1,5 +1,5 @@
 ---
-title: Issue 83: Author's CDL Thoughts, WWE's Monopsony, Child's Library Book
+title: 'Issue 83: Author''s CDL Thoughts, WWE''s Monopsony, Child''s Library Book'
 modified: 2022-02-02T18:19:33-05:00
 categories:
 - Thursday Threads

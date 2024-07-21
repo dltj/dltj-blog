@@ -1,5 +1,5 @@
 ---
-title: What EDUCAUSE's 2022 Top 10 IT Issues Mean for Libraries
+title: 'What EDUCAUSE''s 2022 Top 10 IT Issues Mean for Libraries'
 modified: 2021-12-05T23:17:46-05:00
 categories:
   - Meta Category

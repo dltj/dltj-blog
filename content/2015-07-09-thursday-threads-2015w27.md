@@ -1,7 +1,7 @@
 ---
 status: publish
 published: true
-title: Issue 78: Battles over strong encryption, IPv4 addresses exhausted while IPv6 surges
+title: 'Issue 78: Battles over strong encryption, IPv4 addresses exhausted while IPv6 surges'
 modified: 2015-07-09T06:43:13+00:00
 author: Peter Murray
 author_login: lyrdor

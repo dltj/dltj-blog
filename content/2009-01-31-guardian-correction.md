@@ -1,7 +1,7 @@
 ---
 status: publish
 published: true
-title: Correction Added to Guardian Story on OCLC Record Use Policy
+title: 'Correction Added to Guardian Story on OCLC Record Use Policy'
 modified: 2009-01-31T18:26:36+00:00
 author: Peter Murray
 author_login: lyrdor

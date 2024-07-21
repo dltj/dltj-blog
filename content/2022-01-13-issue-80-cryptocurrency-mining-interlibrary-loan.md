@@ -1,5 +1,5 @@
 ---
-title: Issue 80: Cryptocurrency's Wasteful Energy Consumption and an Ode to Interlibrary Loan
+title: 'Issue 80: Cryptocurrency''s Wasteful Energy Consumption and an Ode to Interlibrary Loan'
 modified: 2022-01-12T21:38:21-05:00
 categories:
 - Thursday Threads

@@ -1,5 +1,5 @@
 ---
-title: Tethering a Ubiquity Network to a Mobile Hotspot
+title: 'Tethering a Ubiquity Network to a Mobile Hotspot'
 modified: 2020-04-21T19:41:48-04:00
 categories:
 - Raw Technology

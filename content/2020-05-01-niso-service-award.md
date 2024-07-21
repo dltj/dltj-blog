@@ -1,5 +1,5 @@
 ---
-title: With Gratitude for the NISO Ann Marie Cunningham Service Award
+title: 'With Gratitude for the NISO Ann Marie Cunningham Service Award'
 modified: 2020-05-01T17:08:45-04:00
 categories:
 - Personal

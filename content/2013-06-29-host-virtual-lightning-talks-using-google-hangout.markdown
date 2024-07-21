@@ -1,9 +1,8 @@
 ---
 status: publish
 published: true
-title: Host Your Own Virtual Lightning Talks Using Google Hangout -- Slides and Links
+title: 'Host Your Own Virtual Lightning Talks Using Google Hangout -- Slides and Links from ALA2013 Presentation'
 modified: 2020-03-03T19:48:51-05:00
-  from ALA2013 Presentation
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

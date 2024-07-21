@@ -1,5 +1,5 @@
 ---
-title: Refactoring DLTJ, Winter 2021 Part 1: Picking up Obsidian
+title: 'Refactoring DLTJ, Winter 2021 Part 1: Picking up Obsidian'
 modified: 2021-12-29T21:07:35-05:00
 categories:
   - Raw Technology
