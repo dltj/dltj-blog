@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Experiential Learning Enhanced with 2-D Barcodes'
 modified: 2010-02-02T18:52:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1503
 wordpress_url: http://dltj.org/?p=1503
 date: '2010-02-02 13:52:38 -0500'
 date_gmt: '2010-02-02 18:52:38 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

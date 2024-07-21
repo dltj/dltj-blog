@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Protect Your Keyboards, Mice and Cables from Theft with a Flat Washer'
 modified: 2010-10-18T00:17:17+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1720
 wordpress_url: http://dltj.org/?p=1720
 date: '2010-10-17 20:17:17 -0400'
 date_gmt: '2010-10-18 00:17:17 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Two Lectures on Copyright and Fair Use Today'
 modified: 2007-09-27T13:34:08+00:00
@@ -12,6 +12,7 @@ wordpress_id: 282
 wordpress_url: http://dltj.org/2007/09/copyright-lectures/
 date: '2007-09-27 09:34:08 -0400'
 date_gmt: '2007-09-27 13:34:08 -0400'
+category: Policy
 categories:
 - Policy
 tags:

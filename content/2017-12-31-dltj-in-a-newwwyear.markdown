@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'DLTJ in a #NEWWWYEAR'
 modified: 2017-12-31T22:36:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 27751
 wordpress_url: http://dltj.org/?p=27751
 date: '2017-12-31 17:36:10 -0500'
 date_gmt: '2017-12-31 22:36:10 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

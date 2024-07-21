@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OhioLINK Has Moved!'
 modified: 2009-07-24T18:12:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1194
 wordpress_url: http://dltj.org/?p=1194
 date: '2009-07-24 14:12:39 -0400'
 date_gmt: '2009-07-24 18:12:39 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OAI-ORE Thoughts on Compound Documents'
 modified: 2007-06-04T20:58:22+00:00
@@ -12,6 +12,7 @@ wordpress_id: 251
 wordpress_url: http://dltj.org/2007/06/thoughts-on-compound-documents/
 date: '2007-06-04 16:58:22 -0400'
 date_gmt: '2007-06-04 20:58:22 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Xerox and Library of Congress Collaborate on JPEG2000 for Image Preservation'
 modified: 2007-10-31T16:01:36+00:00
@@ -12,6 +12,7 @@ wordpress_id: 293
 wordpress_url: http://dltj.org/2007/10/j2k-xerox-lc/
 date: '2007-10-31 12:01:36 -0400'
 date_gmt: '2007-10-31 16:01:36 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

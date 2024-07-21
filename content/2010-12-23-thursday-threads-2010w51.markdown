@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Digital Reference Librarians, First Sale Danger, Open Access, Data Modeling'
 modified: 2010-12-23T12:06:53+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1917
 wordpress_url: http://dltj.org/?p=1917
 date: '2010-12-23 07:06:53 -0500'
 date_gmt: '2010-12-23 12:06:53 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

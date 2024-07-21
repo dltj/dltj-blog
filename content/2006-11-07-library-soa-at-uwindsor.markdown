@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"Applying the SOA Model to Libraries" talk coming up at the U-Windsor "Future of the Integrated Library System" symposium'
 modified: 2006-11-07T22:05:04+00:00
@@ -12,6 +12,7 @@ wordpress_id: 142
 wordpress_url: http://dltj.org/2006/11/library-soa-at-uwindsor/
 date: '2006-11-07 17:05:04 -0500'
 date_gmt: '2006-11-07 22:05:04 -0500'
+category: Library Technology
 categories:
 - Library SOA
 - Meeting

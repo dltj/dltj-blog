@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: HarperCollins (again), Digital Public Library of America, Kindle Millionaires'
 modified: 2011-03-10T02:53:53+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2704
 wordpress_url: http://dltj.org/?p=2704
 date: '2011-03-09 21:53:53 -0500'
 date_gmt: '2011-03-10 02:53:53 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

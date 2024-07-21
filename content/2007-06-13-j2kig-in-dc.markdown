@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Meeting of the JPEG 2000 Interest Group on Jun 23rd in Washington, DC'
 modified: 2007-06-13T19:36:20+00:00
@@ -12,6 +12,7 @@ wordpress_id: 253
 wordpress_url: http://dltj.org/2007/06/meeting-of-the-jpeg-2000-interest-group-on-jun-23rd-in-washington-dc/
 date: '2007-06-13 15:36:20 -0400'
 date_gmt: '2007-06-13 19:36:20 -0400'
+category: Meeting
 categories:
 - JPEG2000
 - Meeting

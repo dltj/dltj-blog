@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'When Closed Source Companies Contribute to Open Source Communities'
 modified: 2010-12-17T02:58:06+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1908
 wordpress_url: http://dltj.org/?p=1908
 date: '2010-12-16 21:58:06 -0500'
 date_gmt: '2010-12-17 02:58:06 -0500'
+category: Open Source
 categories:
 - Open Source
 tags:

@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Can Google's New "My Account" Page be a Model for Libraries?'
+title: 'Can Google''s New "My Account" Page be a Model for Libraries?'
 modified: 2015-06-11T00:30:21+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 25842
 wordpress_url: http://dltj.org/?p=25842
 date: '2015-06-10 20:30:21 -0400'
 date_gmt: '2015-06-11 00:30:21 -0400'
+category: Policy
 categories:
 - Policy
 tags:

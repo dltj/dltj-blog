@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The PERL Way to Add OmniFocus Inbox Entries from Twitter'
 modified: 2010-10-20T02:09:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1734
 wordpress_url: http://dltj.org/?p=1734
 date: '2010-10-19 22:09:16 -0400'
 date_gmt: '2010-10-20 02:09:16 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

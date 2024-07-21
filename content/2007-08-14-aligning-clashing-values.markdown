@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Aligning Clashing Values'
 modified: 2007-08-14T16:52:30+00:00
@@ -12,6 +12,7 @@ wordpress_id: 272
 wordpress_url: http://dltj.org/2007/08/aligning-clashing-values/
 date: '2007-08-14 12:52:30 -0400'
 date_gmt: '2007-08-14 16:52:30 -0400'
+category: Policy
 categories:
 - Policy
 tags:

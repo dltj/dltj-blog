@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Killing Off Runaway Apache Processes'
 modified: 2007-02-26T22:03:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 191
 wordpress_url: http://dltj.org/2007/02/die-apache-die/
 date: '2007-02-26 17:03:10 -0500'
 date_gmt: '2007-02-26 22:03:10 -0500'
+category: Raw Technology
 categories:
 - Meta Category
 - Raw Technology

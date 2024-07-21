@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Updated Disruption in Libraries Bibliography; New Location'
 modified: 2006-03-22T14:09:26+00:00
@@ -12,6 +12,7 @@ wordpress_id: 30
 wordpress_url: http://dltj.org/2006/03/updated-bibliography/
 date: '2006-03-22 09:09:26 -0500'
 date_gmt: '2006-03-22 14:09:26 -0500'
+category: Disruption in Libraries
 categories:
 - Meta Category
 - Clayton Christensen

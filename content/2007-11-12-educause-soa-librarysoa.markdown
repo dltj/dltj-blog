@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Adding Educause Connect's "Service Oriented Architecture" Term to Planet LibrarySOA'
+title: 'Adding Educause Connect''s "Service Oriented Architecture" Term to Planet LibrarySOA'
 modified: 2007-11-12T20:26:43+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 296
 wordpress_url: http://dltj.org/2007/11/educause-soa-librarysoa/
 date: '2007-11-12 15:26:43 -0500'
 date_gmt: '2007-11-12 19:26:43 -0500'
+category: Library Technology
 categories:
 - Library SOA
 tags:

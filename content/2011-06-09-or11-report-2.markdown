@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Open Repositories 2011 Report: Day 1 with Apache, Technology Trends, and Bolded Labels'
 modified: 2011-06-09T04:16:30+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2959
 wordpress_url: http://dltj.org/?p=2959
 date: '2011-06-09 00:16:30 -0400'
 date_gmt: '2011-06-09 04:16:30 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

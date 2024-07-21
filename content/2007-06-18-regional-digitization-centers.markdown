@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'A View of Regional Digitization Centers'
 modified: 2007-06-18T19:29:02+00:00
@@ -12,6 +12,7 @@ wordpress_id: 254
 wordpress_url: http://dltj.org/2007/06/regional-digitization-centers/
 date: '2007-06-18 15:29:02 -0400'
 date_gmt: '2007-06-18 19:29:02 -0400'
+category: Library Technology
 categories:
 - DRC
 tags:

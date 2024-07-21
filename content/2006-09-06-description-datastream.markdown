@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Best Practice Proposal for a DESCRIPTION Datastream'
 modified: 2006-09-06T18:58:42+00:00
@@ -12,6 +12,7 @@ wordpress_id: 109
 wordpress_url: http://dltj.org/2006/09/description-datastream/
 date: '2006-09-06 14:58:42 -0400'
 date_gmt: '2006-09-06 19:58:42 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

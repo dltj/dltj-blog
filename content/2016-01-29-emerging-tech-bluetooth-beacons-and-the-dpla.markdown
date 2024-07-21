@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Emerging Tech: Bluetooth Beacons and the DPLA'
 modified: 2016-01-29T21:16:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 27106
 wordpress_url: http://dltj.org/?p=27106
 date: '2016-01-29 16:16:44 -0500'
 date_gmt: '2016-01-29 21:16:44 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

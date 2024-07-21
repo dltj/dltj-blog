@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'A Vision for FEDORA's Future, an Implementation Plan to Get There, and a Project Update'
+title: 'A Vision for FEDORA''s Future, an Implementation Plan to Get There, and a Project Update'
 modified: 2007-01-24T22:46:09+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 173
 wordpress_url: http://dltj.org/2007/01/fedora-update/
 date: '2007-01-24 17:46:09 -0500'
 date_gmt: '2007-01-24 22:46:09 -0500'
+category: Library Technology
 categories:
 - Fedora
 - Meeting

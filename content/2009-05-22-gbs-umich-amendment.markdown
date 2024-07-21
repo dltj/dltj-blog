@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Interesting Bits in the Univ of Michigan Amendment to Google Book Search Agreement'
 modified: 2009-05-22T19:16:12+00:00
@@ -12,6 +12,7 @@ wordpress_id: 979
 wordpress_url: http://dltj.org/?p=979
 date: '2009-05-22 15:16:12 -0400'
 date_gmt: '2009-05-22 19:16:12 -0400'
+category: Policy
 categories:
 - Policy
 tags:

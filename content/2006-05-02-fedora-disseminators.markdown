@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thinking about Our Fedora Disseminators'
 modified: 2006-05-02T18:19:03+00:00
@@ -12,6 +12,7 @@ wordpress_id: 49
 wordpress_url: http://dltj.org/2006/05/fedora-disseminators/
 date: '2006-05-02 14:19:03 -0400'
 date_gmt: '2006-05-02 19:19:03 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

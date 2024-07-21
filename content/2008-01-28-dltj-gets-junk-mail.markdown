@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'DLTJ the Target of Real Dead-Tree Junk Mail'
 modified: 2008-01-28T22:06:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 320
 wordpress_url: http://dltj.org/article/dltj-gets-junk-mail/
 date: '2008-01-28 17:06:10 -0500'
 date_gmt: '2008-01-28 22:06:10 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

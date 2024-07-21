@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Setting the Right Environment: Remote Staff, Service Provider Participants, and Big-Tent Open Source Communities'
 modified: 2015-05-29T13:45:25+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25743
 wordpress_url: http://dltj.org/?p=25743
 date: '2015-05-29 09:45:25 -0400'
 date_gmt: '2015-05-29 13:45:25 -0400'
+category: Open Source
 categories:
 - Open Source
 tags:

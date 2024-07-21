@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Libraries as Provisioner, Quartermaster, and Curator'
 modified: 2012-08-10T21:08:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3703
 wordpress_url: http://dltj.org/?p=3703
 date: '2012-08-10 17:08:32 -0400'
 date_gmt: '2012-08-10 21:08:32 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

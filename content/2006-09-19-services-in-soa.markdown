@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Services in a Service Oriented Architecture'
 modified: 2006-09-20T03:08:36+00:00
@@ -12,6 +12,7 @@ wordpress_id: 118
 wordpress_url: http://dltj.org/2006/09/services-in-soa/
 date: '2006-09-19 23:08:36 -0400'
 date_gmt: '2006-09-20 03:08:36 -0400'
+category: Library Technology
 categories:
 - Library SOA
 - Raw Technology

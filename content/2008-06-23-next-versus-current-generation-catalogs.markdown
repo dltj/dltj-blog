@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'A Catalog for the "Next Generation" or the Current Generation?'
 modified: 2008-06-23T19:44:48+00:00
@@ -12,6 +12,7 @@ wordpress_id: 382
 wordpress_url: https://dltj.org/?p=382
 date: '2008-06-23 15:44:48 -0400'
 date_gmt: '2008-06-23 19:44:48 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"Archiving and Preserving the Web" from the Internet Archive perspective'
 modified: 2006-04-20T16:03:21+00:00
@@ -12,6 +12,7 @@ wordpress_id: 44
 wordpress_url: http://dltj.org/2006/04/archive-it/
 date: '2006-04-20 12:03:21 -0400'
 date_gmt: '2006-04-20 17:03:21 -0400'
+category: Library Technology
 categories:
 - Economies of Scale
 - Unified Content Repository

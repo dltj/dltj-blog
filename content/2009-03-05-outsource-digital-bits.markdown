@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Can We Outsource the Preservation of Digital Bits?'
 modified: 2009-03-05T19:55:25+00:00
@@ -12,6 +12,7 @@ wordpress_id: 800
 wordpress_url: http://dltj.org/?p=800
 date: '2009-03-05 14:55:25 -0500'
 date_gmt: '2009-03-05 19:55:25 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

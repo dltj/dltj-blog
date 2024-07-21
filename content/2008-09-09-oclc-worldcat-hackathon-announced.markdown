@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OCLC WorldCat Hackathon -- New York City -- November 7-8'
 modified: 2008-09-10T02:15:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 481
 wordpress_url: http://dltj.org/?p=481
 date: '2008-09-09 22:15:43 -0400'
 date_gmt: '2008-09-10 02:15:43 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

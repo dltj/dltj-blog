@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Trip Report of DPLA Chattanooga Appfest: Project Shows Signs of Life'
 modified: 2012-12-07T19:18:52+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4049
 wordpress_url: http://dltj.org/?p=4049
 date: '2012-12-07 14:18:52 -0500'
 date_gmt: '2012-12-07 19:18:52 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

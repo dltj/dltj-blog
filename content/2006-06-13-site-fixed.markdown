@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Jester Site Was Broken; Fixed Now'
 modified: 2006-06-13T13:47:29+00:00
@@ -12,6 +12,7 @@ wordpress_id: 66
 wordpress_url: http://dltj.org/2006/06/site-fixed/
 date: '2006-06-13 09:47:29 -0400'
 date_gmt: '2006-06-13 14:47:29 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags: []

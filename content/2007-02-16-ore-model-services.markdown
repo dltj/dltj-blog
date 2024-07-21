@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Intersection of the Web Architecture with Scholarly Communication'
 modified: 2007-02-16T20:01:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 184
 wordpress_url: http://dltj.org/2007/02/ore-model-services/
 date: '2007-02-16 15:01:32 -0500'
 date_gmt: '2007-02-16 20:01:32 -0500'
+category: Raw Technology
 categories:
 - Linking Technologies
 - Raw Technology

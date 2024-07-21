@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Model Language on Library Data Ownership'
 modified: 2012-11-08T02:26:58+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3816
 wordpress_url: http://dltj.org/?p=3816
 date: '2012-11-07 21:26:58 -0500'
 date_gmt: '2012-11-08 02:26:58 -0500'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

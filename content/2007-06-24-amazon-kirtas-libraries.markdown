@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Out of Print Books Get New Life via Amazon and Participating Libraries'
 modified: 2007-06-24T12:31:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 259
 wordpress_url: http://dltj.org/2007/06/amazon-kirtas-libraries/
 date: '2007-06-24 08:31:38 -0400'
 date_gmt: '2007-06-24 12:31:38 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

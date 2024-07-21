@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Latest Views on JPEG2000 for Presentation and Archiving'
 modified: 2010-11-29T20:22:17+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1874
 wordpress_url: http://dltj.org/?p=1874
 date: '2010-11-29 15:22:17 -0500'
 date_gmt: '2010-11-29 20:22:17 -0500'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

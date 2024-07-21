@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'A Great iPad Keyboard/Case Combination: New Trent Airbender'
 modified: 2013-02-22T14:46:18+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4090
 wordpress_url: http://dltj.org/?p=4090
 date: '2013-02-22 09:46:18 -0500'
 date_gmt: '2013-02-22 14:46:18 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

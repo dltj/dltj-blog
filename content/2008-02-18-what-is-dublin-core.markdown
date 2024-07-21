@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Would the Real "Dublin Core" Please Stand Up?'
 modified: 2008-02-18T16:43:42+00:00
@@ -12,6 +12,7 @@ wordpress_id: 328
 wordpress_url: http://dltj.org/article/what-is-dublin-core/
 date: '2008-02-18 11:43:42 -0500'
 date_gmt: '2008-02-18 16:43:42 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

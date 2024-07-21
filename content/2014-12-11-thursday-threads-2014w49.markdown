@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: All about online privacy, or lack thereof'
 modified: 2014-12-11T11:44:08+00:00
@@ -12,6 +12,7 @@ wordpress_id: 24188
 wordpress_url: http://dltj.org/?p=24188
 date: '2014-12-11 06:44:08 -0500'
 date_gmt: '2014-12-11 11:44:08 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'What's the Deal with NCIP?'
+title: 'What''s the Deal with NCIP?'
 modified: 2008-01-24T18:11:07+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 317
 wordpress_url: http://dltj.org/2008/01/whats-the-deal-with-ncip/
 date: '2008-01-24 13:11:07 -0500'
 date_gmt: '2008-01-24 17:11:07 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

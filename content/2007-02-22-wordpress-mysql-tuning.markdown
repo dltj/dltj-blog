@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'WordPress/MySQL Tuning'
 modified: 2007-02-22T18:56:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 188
 wordpress_url: http://dltj.org/2007/02/wordpress-mysql-tuning/
 date: '2007-02-22 13:56:45 -0500'
 date_gmt: '2007-02-22 18:56:45 -0500'
+category: Raw Technology
 categories:
 - Meta Category
 - Raw Technology

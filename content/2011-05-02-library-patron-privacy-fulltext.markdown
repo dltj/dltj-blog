@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Full Text of ARL SPEC Kit 278 on Library Patron Privacy Now Online'
 modified: 2011-05-02T16:27:05+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2839
 wordpress_url: http://dltj.org/?p=2839
 date: '2011-05-02 12:27:05 -0400'
 date_gmt: '2011-05-02 16:27:05 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

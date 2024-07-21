@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Recordings from Code4Lib Virtual Lightning Talks Available'
 modified: 2011-05-02T18:56:41+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2849
 wordpress_url: http://dltj.org/?p=2849
 date: '2011-05-02 14:56:41 -0400'
 date_gmt: '2011-05-02 18:56:41 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

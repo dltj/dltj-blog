@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Thursday Threads: RDA Test Results, Author's Rights Denied, Future Copyright Scenario'
+title: 'Thursday Threads: RDA Test Results, Author''s Rights Denied, Future Copyright Scenario'
 modified: 2011-06-17T01:47:21+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 3020
 wordpress_url: http://dltj.org/?p=3020
 date: '2011-06-16 21:47:21 -0400'
 date_gmt: '2011-06-17 01:47:21 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

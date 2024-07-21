@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'On How Physical and Electronic Differ for Library Materials'
 modified: 2009-03-12T14:03:48+00:00
@@ -12,6 +12,7 @@ wordpress_id: 813
 wordpress_url: http://dltj.org/?p=813
 date: '2009-03-12 10:03:48 -0400'
 date_gmt: '2009-03-12 14:03:48 -0400'
+category: Library Technology
 categories:
 - Library SOA
 tags:

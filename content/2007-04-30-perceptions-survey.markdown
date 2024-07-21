@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Survey on Library Professional Perceptions'
 modified: 2007-04-30T18:55:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 230
 wordpress_url: http://dltj.org/2007/04/perceptions-survey/
 date: '2007-04-30 14:55:45 -0400'
 date_gmt: '2007-04-30 18:55:45 -0400'
+category: Policy
 categories:
 - Policy
 tags:

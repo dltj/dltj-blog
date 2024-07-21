@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Processing Raw Fedora Objects'
 modified: 2006-05-03T16:08:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 50
 wordpress_url: http://dltj.org/2006/05/processing-raw-fedora-objects/
 date: '2006-05-03 12:08:43 -0400'
 date_gmt: '2006-05-03 17:08:43 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Kindle Singles and Kindle Accessibility, Sped-up Discourse, ISBN Troubles'
 modified: 2011-01-27T11:50:30+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2408
 wordpress_url: http://dltj.org/?p=2408
 date: '2011-01-27 06:50:30 -0500'
 date_gmt: '2011-01-27 11:50:30 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

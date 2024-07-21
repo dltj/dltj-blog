@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Analysis of PubGet -- An Expedited Fulltext Service for Life Science Journal Articles'
 modified: 2009-08-05T02:23:03+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1008
 wordpress_url: http://dltj.org/?p=1008
 date: '2009-08-04 22:23:03 -0400'
 date_gmt: '2009-08-05 02:23:03 -0400'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

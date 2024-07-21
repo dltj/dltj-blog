@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Administrative Note -- Feeds Moved on FeedBurner'
 modified: 2009-02-03T01:17:12+00:00
@@ -12,6 +12,7 @@ wordpress_id: 729
 wordpress_url: http://dltj.org/?p=729
 date: '2009-02-02 20:17:12 -0500'
 date_gmt: '2009-02-03 01:17:12 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

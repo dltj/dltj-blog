@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '2nd Workshop on Sustainable Software for Science: Practice and Experiences -- Accepted Papers and Travel Support'
 modified: 2014-09-04T02:08:00+00:00
@@ -12,6 +12,7 @@ wordpress_id: 19846
 wordpress_url: http://dltj.org/?p=19846
 date: '2014-09-03 22:08:00 -0400'
 date_gmt: '2014-09-04 02:08:00 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

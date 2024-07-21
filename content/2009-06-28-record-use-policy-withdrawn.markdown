@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OCLC Formally Withdraws Proposed Record Use Policy'
 modified: 2009-06-28T19:03:05+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1090
 wordpress_url: http://dltj.org/?p=1090
 date: '2009-06-28 15:03:05 -0400'
 date_gmt: '2009-06-28 19:03:05 -0400'
+category: Policy
 categories:
 - Policy
 tags:

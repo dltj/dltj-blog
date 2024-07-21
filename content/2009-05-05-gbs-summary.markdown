@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Summary of Recent Google Book Search Settlement Activities'
 modified: 2009-05-06T01:14:03+00:00
@@ -12,6 +12,7 @@ wordpress_id: 924
 wordpress_url: http://dltj.org/?p=924
 date: '2009-05-05 21:14:03 -0400'
 date_gmt: '2009-05-06 01:14:03 -0400'
+category: Policy
 categories:
 - Policy
 tags:

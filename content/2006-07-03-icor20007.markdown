@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Heads up!  International Conference on Open Repositories (01/23/07 - 01/27/07, San Antonio, TX, US)'
 modified: 2006-07-04T00:28:22+00:00
@@ -12,6 +12,7 @@ wordpress_id: 83
 wordpress_url: http://dltj.org/2006/07/heads-up-international-conference-on-open-repositories-012307-012707-san-antonio-tx-us/
 date: '2006-07-03 20:28:22 -0400'
 date_gmt: '2006-07-04 01:28:22 -0400'
+category: Library Technology
 categories:
 - Fedora
 - Meeting

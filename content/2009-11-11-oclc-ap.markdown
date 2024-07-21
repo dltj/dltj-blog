@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OCLC and the Associated Press -- Two Sides of the Same Information Provider Coin?'
 modified: 2009-11-11T21:52:29+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1325
 wordpress_url: http://dltj.org/?p=1325
 date: '2009-11-11 16:52:29 -0500'
 date_gmt: '2009-11-11 21:52:29 -0500'
+category: Policy
 categories:
 - Policy
 tags:

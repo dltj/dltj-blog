@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Kindle Ebook Lending, Google Ngram Viewer, Collaborative Open Source Development'
 modified: 2011-09-29T10:23:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3412
 wordpress_url: http://dltj.org/?p=3412
 date: '2011-09-29 06:23:38 -0400'
 date_gmt: '2011-09-29 10:23:38 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

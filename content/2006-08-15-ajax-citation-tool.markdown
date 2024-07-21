@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'A Known Citation Discovery Tool in a Library2.0 World'
 modified: 2006-08-15T14:14:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 103
 wordpress_url: http://dltj.org/2006/08/ajax-citation-tool/
 date: '2006-08-15 10:14:43 -0400'
 date_gmt: '2006-08-15 15:14:43 -0400'
+category: Blue Sky
 categories:
 - Linking Technologies
 - Blue Sky

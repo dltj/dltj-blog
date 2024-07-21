@@ -16,13 +16,13 @@ repo = Repo(".")
 posts = []
 for dirpath, dirnames, files in os.walk("content"):
     for file_name in files:
-        if file_name.endswith("html") or file_name.endswith("md"):
+        if file_name.endswith("markdown"):
             with open(f"{dirpath}/{file_name}", "r", encoding="utf-8") as file:
                 lines = file.readlines()
                 for i, line in enumerate(lines):
                     if line.startswith("title:"):
-                        title_string = line[7:].strip()
-                        lines[i] = f"title: '{title_string}'\n"
+                        title_string = line[7:].strip().strip("'")
+                        lines[i] = f"title: '{title_string.replace("'","''")}'\n"
                         break
 
             with open(f"{dirpath}/{file_name}", "w", encoding="utf-8") as file:

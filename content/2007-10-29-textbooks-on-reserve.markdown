@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Textbooks On Reserve Program at Miami University'
 modified: 2007-10-29T16:58:30+00:00
@@ -12,6 +12,7 @@ wordpress_id: 292
 wordpress_url: http://dltj.org/2007/10/textbooks-on-reserve/
 date: '2007-10-29 12:58:30 -0400'
 date_gmt: '2007-10-29 16:58:30 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

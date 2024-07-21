@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Looking Forward to Version 2.2 of FEDORA'
 modified: 2007-01-01T01:46:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 165
 wordpress_url: http://dltj.org/2006/12/fedora-2-point-2/
 date: '2006-12-31 20:46:39 -0500'
 date_gmt: '2007-01-01 01:46:39 -0500'
+category: Library Technology
 categories:
 - DRC
 - Fedora

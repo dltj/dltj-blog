@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Getting the Word Out:  LISWire and LISEvents'
 modified: 2008-04-29T15:25:03+00:00
@@ -12,6 +12,7 @@ wordpress_id: 352
 wordpress_url: https://dltj.org/?p=352
 date: '2008-04-29 11:25:03 -0400'
 date_gmt: '2008-04-29 15:25:03 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

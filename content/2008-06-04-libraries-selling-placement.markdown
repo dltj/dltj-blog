@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Selling Placement in Library Search Results'
 modified: 2008-06-04T15:20:35+00:00
@@ -12,6 +12,7 @@ wordpress_id: 371
 wordpress_url: https://dltj.org/?p=371
 date: '2008-06-04 11:20:35 -0400'
 date_gmt: '2008-06-04 15:20:35 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

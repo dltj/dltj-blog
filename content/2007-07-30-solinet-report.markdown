@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'SOLINET's Collective Vision of the Future of Libraries'
+title: 'SOLINET''s Collective Vision of the Future of Libraries'
 modified: 2007-07-30T19:21:34+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 266
 wordpress_url: http://dltj.org/2007/07/solinet-report/
 date: '2007-07-30 15:21:34 -0400'
 date_gmt: '2007-07-30 19:21:34 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

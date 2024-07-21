@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Hourglass of a National E-Book Program'
 modified: 2015-04-19T20:42:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25409
 wordpress_url: http://dltj.org/?p=25409
 date: '2015-04-19 16:42:45 -0400'
 date_gmt: '2015-04-19 20:42:45 -0400'
+category: Blue Sky
 categories:
 - Blue Sky
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Evergreen Goes Beta, Signals the End of the World As We Know It'
 modified: 2006-06-07T19:15:40+00:00
@@ -12,6 +12,7 @@ wordpress_id: 65
 wordpress_url: http://dltj.org/2006/06/evergreen-goes-beta/
 date: '2006-06-07 15:15:40 -0400'
 date_gmt: '2006-06-07 20:15:40 -0400'
+category: Disruption in Libraries
 categories:
 - Economies of Scale
 - Disruption in Libraries

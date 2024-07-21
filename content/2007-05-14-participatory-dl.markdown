@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Creating Participatory Digital Libraries'
 modified: 2007-05-14T20:58:46+00:00
@@ -12,6 +12,7 @@ wordpress_id: 235
 wordpress_url: http://dltj.org/2007/05/participatory-dl/
 date: '2007-05-14 16:58:46 -0400'
 date_gmt: '2007-05-14 20:58:46 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

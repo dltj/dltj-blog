@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Long-term Preservation Storage:  OCLC Digital Archive versus Amazon S3'
 modified: 2008-05-16T11:55:36+00:00
@@ -12,6 +12,7 @@ wordpress_id: 361
 wordpress_url: https://dltj.org/?p=361
 date: '2008-05-16 07:55:36 -0400'
 date_gmt: '2008-05-16 11:55:36 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

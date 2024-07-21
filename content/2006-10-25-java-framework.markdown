@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Picking a Java Web Application Framework'
 modified: 2006-10-25T15:16:21+00:00
@@ -12,6 +12,7 @@ wordpress_id: 136
 wordpress_url: http://dltj.org/2006/10/java-framework/
 date: '2006-10-25 11:16:21 -0400'
 date_gmt: '2006-10-25 15:16:21 -0400'
+category: Library Technology
 categories:
 - DRC
 - Raw Technology

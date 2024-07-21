@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'LYRASIS' "Reposervice" Setup Pushed to GitHub'
+title: 'LYRASIS'' "Reposervice" Setup Pushed to GitHub'
 modified: 2013-06-19T17:58:26+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 4123
 wordpress_url: http://dltj.org/?p=4123
 date: '2013-06-19 13:58:26 -0400'
 date_gmt: '2013-06-19 17:58:26 -0400'
+category: Open Source
 categories:
 - Open Source
 tags:

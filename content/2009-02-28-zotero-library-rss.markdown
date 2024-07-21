@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Zotero Library to RSS Feed'
 modified: 2009-02-28T17:03:54+00:00
@@ -12,6 +12,7 @@ wordpress_id: 774
 wordpress_url: http://dltj.org/?p=774
 date: '2009-02-28 12:03:54 -0500'
 date_gmt: '2009-02-28 17:03:54 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

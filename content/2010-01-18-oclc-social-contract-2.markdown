@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'More on What Does It Mean to Be a Member of OCLC'
 modified: 2010-01-18T15:35:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1467
 wordpress_url: http://dltj.org/?p=1467
 date: '2010-01-18 10:35:45 -0500'
 date_gmt: '2010-01-18 15:35:45 -0500'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

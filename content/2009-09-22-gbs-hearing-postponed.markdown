@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google Book Search Settlement Hearing Is Likely Postponed'
 modified: 2009-09-23T00:28:18+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1293
 wordpress_url: http://dltj.org/?p=1293
 date: '2009-09-22 20:28:18 -0400'
 date_gmt: '2009-09-23 00:28:18 -0400'
+category: Policy
 categories:
 - Policy
 tags:

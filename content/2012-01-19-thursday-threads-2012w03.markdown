@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: SOPA, PROTECT-IP, Research Works Act, and Broad E-Textbook Pilot'
 modified: 2012-01-19T11:20:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3594
 wordpress_url: http://dltj.org/?p=3594
 date: '2012-01-19 06:20:56 -0500'
 date_gmt: '2012-01-19 11:20:56 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

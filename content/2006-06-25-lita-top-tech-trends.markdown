@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'It's All About User Services:  A Summary and Commentary on the LITA Top Technology Trends meeting'
+title: 'It''s All About User Services:  A Summary and Commentary on the LITA Top Technology Trends meeting'
 modified: 2006-06-26T02:34:55+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 81
 wordpress_url: http://dltj.org/2006/06/lita-top-tech-trends/
 date: '2006-06-25 22:34:55 -0400'
 date_gmt: '2006-06-26 03:34:55 -0400'
+category: Disruption in Libraries
 categories:
 - Blue Sky
 - Disruption in Libraries

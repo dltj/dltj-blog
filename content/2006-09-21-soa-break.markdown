@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Taking a Day's Break from SOA'
+title: 'Taking a Day''s Break from SOA'
 modified: 2006-09-21T21:21:16+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 127
 wordpress_url: http://dltj.org/2006/09/soa-break/
 date: '2006-09-21 17:21:16 -0400'
 date_gmt: '2006-09-21 21:21:16 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Collector of Code4Lib Conference Tweets Now Turned On'
 modified: 2014-03-18T14:10:50+00:00
@@ -12,6 +12,7 @@ wordpress_id: 6884
 wordpress_url: http://dltj.org/?p=6884
 date: '2014-03-18 10:10:50 -0400'
 date_gmt: '2014-03-18 14:10:50 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Possible Resolution to Technorati Update Problem'
 modified: 2006-09-12T01:49:59+00:00
@@ -12,6 +12,7 @@ wordpress_id: 114
 wordpress_url: http://dltj.org/2006/09/resolving-technorati-update-problem/
 date: '2006-09-11 21:49:59 -0400'
 date_gmt: '2006-09-12 02:49:59 -0400'
+category: Raw Technology
 categories:
 - Meta Category
 - Raw Technology

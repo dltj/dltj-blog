@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Pocket-sized Graph of the Theory of Disruptive Innovation'
 modified: 2006-12-21T21:50:48+00:00
@@ -12,6 +12,7 @@ wordpress_id: 161
 wordpress_url: http://dltj.org/2006/12/disruptive-innovation-card/
 date: '2006-12-21 16:50:48 -0500'
 date_gmt: '2006-12-21 21:50:48 -0500'
+category: Disruption in Libraries
 categories:
 - Clayton Christensen
 - Disruption in Libraries

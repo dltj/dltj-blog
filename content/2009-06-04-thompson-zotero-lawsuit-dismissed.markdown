@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thompson Reuters Lawsuit Against Zotero Creators Dismissed'
 modified: 2009-06-04T23:44:23+00:00
@@ -12,6 +12,7 @@ wordpress_id: 991
 wordpress_url: http://dltj.org/?p=991
 date: '2009-06-04 19:44:23 -0400'
 date_gmt: '2009-06-04 23:44:23 -0400'
+category: Policy
 categories:
 - Policy
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Introducing "Planet Library SOA"'
 modified: 2007-06-19T18:21:11+00:00
@@ -12,6 +12,7 @@ wordpress_id: 257
 wordpress_url: http://dltj.org/2007/06/planet-librarysoa/
 date: '2007-06-19 14:21:11 -0400'
 date_gmt: '2007-06-19 18:21:11 -0400'
+category: Library Technology
 categories:
 - Library SOA
 tags:

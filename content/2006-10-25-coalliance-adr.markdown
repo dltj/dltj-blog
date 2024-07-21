@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Colorado Alliance of Research Libraries to build a consortial repository using FEDORA'
 modified: 2006-10-25T16:38:33+00:00
@@ -12,6 +12,7 @@ wordpress_id: 138
 wordpress_url: http://dltj.org/2006/10/coalliance-adr/
 date: '2006-10-25 12:38:33 -0400'
 date_gmt: '2006-10-25 16:38:33 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

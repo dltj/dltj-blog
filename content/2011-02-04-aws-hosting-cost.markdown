@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'First Bill for DLTJ Hosting on Amazon Web Services'
 modified: 2011-02-05T02:55:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2534
 wordpress_url: http://dltj.org/?p=2534
 date: '2011-02-04 21:55:10 -0500'
 date_gmt: '2011-02-05 02:55:10 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

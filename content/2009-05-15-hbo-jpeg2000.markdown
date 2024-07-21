@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Use of JPEG2000 for Broadcast Video Transmission'
 modified: 2009-05-15T14:17:01+00:00
@@ -12,6 +12,7 @@ wordpress_id: 958
 wordpress_url: http://dltj.org/?p=958
 date: '2009-05-15 10:17:01 -0400'
 date_gmt: '2009-05-15 14:17:01 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

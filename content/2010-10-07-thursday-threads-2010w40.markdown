@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Technical Debt, QR Codes in National Parks, WebP Image Format, and SSL Cautions'
 modified: 2010-10-07T16:17:11+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1706
 wordpress_url: http://dltj.org/?p=1706
 date: '2010-10-07 12:17:11 -0400'
 date_gmt: '2010-10-07 16:17:11 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Alternative to SOPA/PROTECT-IP, Costs of Resource Sharing, Communicating with IT Staff'
 modified: 2011-12-15T11:06:07+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3504
 wordpress_url: http://dltj.org/?p=3504
 date: '2011-12-15 06:06:07 -0500'
 date_gmt: '2011-12-15 11:06:07 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

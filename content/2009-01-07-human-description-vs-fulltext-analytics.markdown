@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'For the heart and soul of librarianship -- human description versus fulltext analytics'
 modified: 2009-01-07T21:57:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 652
 wordpress_url: http://dltj.org/?p=652
 date: '2009-01-07 16:57:27 -0500'
 date_gmt: '2009-01-07 21:57:27 -0500'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

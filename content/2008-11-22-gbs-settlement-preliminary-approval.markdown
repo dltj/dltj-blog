@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Preliminary Court Approval of Google Book Settlement; Final Approval Hearing Set'
 modified: 2008-11-23T00:48:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 598
 wordpress_url: http://dltj.org/?p=598
 date: '2008-11-22 19:48:38 -0500'
 date_gmt: '2008-11-23 00:48:38 -0500'
+category: Policy
 categories:
 - Policy
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Minutes of the ALA/LITA JPEG2000 for Libraries and Archives interest group meeting'
 modified: 2006-06-24T20:25:51+00:00
@@ -12,6 +12,7 @@ wordpress_id: 77
 wordpress_url: http://dltj.org/2006/06/j2kig-minutes/
 date: '2006-06-24 16:25:51 -0400'
 date_gmt: '2006-06-24 21:25:51 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

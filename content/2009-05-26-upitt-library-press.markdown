@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Online Editions of Out-of-Print Books Result from Library/Press Partnership at Univ of Pittsburgh'
 modified: 2009-05-26T20:54:26+00:00
@@ -12,6 +12,7 @@ wordpress_id: 984
 wordpress_url: http://dltj.org/?p=984
 date: '2009-05-26 16:54:26 -0400'
 date_gmt: '2009-05-26 20:54:26 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

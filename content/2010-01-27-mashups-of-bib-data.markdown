@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Mashups of Bibliographic Data: A Report of the ALCTS Midwinter Forum'
 modified: 2010-01-27T21:14:52+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1478
 wordpress_url: http://dltj.org/?p=1478
 date: '2010-01-27 16:14:52 -0500'
 date_gmt: '2010-01-27 21:14:52 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Germany is at it, too'
 modified: 2005-12-20T13:39:50+00:00
@@ -12,6 +12,7 @@ wordpress_id: 8
 wordpress_url: http://dltj.org/?p=8
 date: '2005-12-20 08:39:50 -0500'
 date_gmt: '2005-12-20 13:39:50 -0500'
+category: Library Technology
 categories:
 - DRC
 - Economies of Scale

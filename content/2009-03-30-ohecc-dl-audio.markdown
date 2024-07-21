@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Audio Added to the New Directions for Discovering Information Presentation'
 modified: 2009-03-31T00:46:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 840
 wordpress_url: http://dltj.org/?p=840
 date: '2009-03-30 20:46:38 -0400'
 date_gmt: '2009-03-31 00:46:38 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

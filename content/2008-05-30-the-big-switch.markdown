@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"We are scanning them to be read by an AI."'
 modified: 2008-05-30T18:14:33+00:00
@@ -12,6 +12,7 @@ wordpress_id: 368
 wordpress_url: https://dltj.org/?p=368
 date: '2008-05-30 14:14:33 -0400'
 date_gmt: '2008-05-30 18:14:33 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 - L/IS Profession

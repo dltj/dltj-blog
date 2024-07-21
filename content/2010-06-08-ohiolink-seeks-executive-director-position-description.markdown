@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OhioLINK Seeks Executive Director'
 modified: 2010-06-08T14:58:08+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1604
 wordpress_url: http://dltj.org/?p=1604
 date: '2010-06-08 10:58:08 -0400'
 date_gmt: '2010-06-08 14:58:08 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

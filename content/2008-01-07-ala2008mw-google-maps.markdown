@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google Map of ALA Midwinter Hotels'
 modified: 2008-01-08T04:12:07+00:00
@@ -12,6 +12,7 @@ wordpress_id: 312
 wordpress_url: http://dltj.org/2008/01/ala2008mw-google-maps/
 date: '2008-01-07 23:12:07 -0500'
 date_gmt: '2008-01-08 03:12:07 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

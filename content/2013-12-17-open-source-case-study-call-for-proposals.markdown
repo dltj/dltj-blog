@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Implemented Open Source in your Library? Get Paid to Write a Case Study'
 modified: 2013-12-17T19:53:21+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4515
 wordpress_url: http://dltj.org/?p=4515
 date: '2013-12-17 14:53:21 -0500'
 date_gmt: '2013-12-17 19:53:21 -0500'
+category: Open Source
 categories:
 - Open Source
 tags:

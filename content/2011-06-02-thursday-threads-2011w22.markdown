@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Google Book Search summary, Bad Side of Filtering, Academics Editing Wikipedia'
 modified: 2011-06-02T10:15:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2910
 wordpress_url: http://dltj.org/?p=2910
 date: '2011-06-02 06:15:27 -0400'
 date_gmt: '2011-06-02 10:15:27 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

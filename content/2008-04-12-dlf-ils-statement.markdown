@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'On Innovation in the ILS Marketplace'
 modified: 2008-04-13T02:15:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 349
 wordpress_url: https://dltj.org/?p=349
 date: '2008-04-12 22:15:32 -0400'
 date_gmt: '2008-04-13 02:15:32 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

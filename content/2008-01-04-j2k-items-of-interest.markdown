@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Wireless JPEG2000 Video and a Paper on How JPEG2000 Works'
 modified: 2008-01-04T18:07:33+00:00
@@ -12,6 +12,7 @@ wordpress_id: 311
 wordpress_url: http://dltj.org/2008/01/j2k-items-of-interest/
 date: '2008-01-04 13:07:33 -0500'
 date_gmt: '2008-01-04 17:07:33 -0500'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

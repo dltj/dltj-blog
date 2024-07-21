@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Is the Writing on the Wall for the Integrated Library System?'
 modified: 2006-06-14T01:50:31+00:00
@@ -12,6 +12,7 @@ wordpress_id: 71
 wordpress_url: http://dltj.org/2006/06/dis-ils/
 date: '2006-06-13 21:50:31 -0400'
 date_gmt: '2006-06-14 02:50:31 -0400'
+category: Library Technology
 categories:
 - Blue Sky
 - Disruption in Libraries

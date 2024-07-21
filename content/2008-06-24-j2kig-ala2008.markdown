@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Archiving in Practice with JPEG2000:  ALA Annual Conference, June 29, 8am-10am'
 modified: 2008-06-24T15:34:05+00:00
@@ -12,6 +12,7 @@ wordpress_id: 383
 wordpress_url: https://dltj.org/?p=383
 date: '2008-06-24 11:34:05 -0400'
 date_gmt: '2008-06-24 15:34:05 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

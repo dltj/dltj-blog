@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"Applying the Service Oriented Architecture (SOA) Model to Libraries" &mdash; A Presentation'
 modified: 2006-11-15T17:49:28+00:00
@@ -12,6 +12,7 @@ wordpress_id: 145
 wordpress_url: http://dltj.org/2006/11/windsor-soa-presentation/
 date: '2006-11-15 12:49:28 -0500'
 date_gmt: '2006-11-15 17:49:28 -0500'
+category: Library Technology
 categories:
 - Library SOA
 - Meeting

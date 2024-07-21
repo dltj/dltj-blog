@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Two Weeks to Submit your Program Proposal for Ohio's Technology in Higher Education Conference'
+title: 'Two Weeks to Submit your Program Proposal for Ohio''s Technology in Higher Education Conference'
 modified: 2008-10-02T14:39:57+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 525
 wordpress_url: http://dltj.org/?p=525
 date: '2008-10-02 10:39:57 -0400'
 date_gmt: '2008-10-02 14:39:57 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

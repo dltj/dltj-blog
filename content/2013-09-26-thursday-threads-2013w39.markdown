@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Windows XP end-of-life, Maturing open source models, Trashcans that track you'
 modified: 2013-09-26T10:52:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4151
 wordpress_url: http://dltj.org/?p=4151
 date: '2013-09-26 06:52:56 -0400'
 date_gmt: '2013-09-26 10:52:56 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

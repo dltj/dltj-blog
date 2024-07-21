@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Information Explorers versus Editors'
 modified: 2007-05-26T02:12:15+00:00
@@ -12,6 +12,7 @@ wordpress_id: 242
 wordpress_url: http://dltj.org/2007/05/information-explorers-versus-editors/
 date: '2007-05-25 22:12:15 -0400'
 date_gmt: '2007-05-26 02:12:15 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

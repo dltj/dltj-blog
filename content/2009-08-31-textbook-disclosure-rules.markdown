@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Federal Textbook Disclosure Rules Now Law'
 modified: 2009-08-31T14:29:57+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1228
 wordpress_url: http://dltj.org/?p=1228
 date: '2009-08-31 10:29:57 -0400'
 date_gmt: '2009-08-31 14:29:57 -0400'
+category: Campus Technology
 categories:
 - Textbooks
 tags:

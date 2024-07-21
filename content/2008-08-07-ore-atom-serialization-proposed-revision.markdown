@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Revision Proposed to ORE Atom Serialization'
 modified: 2008-08-07T17:18:29+00:00
@@ -12,6 +12,7 @@ wordpress_id: 436
 wordpress_url: http://dltj.org/?p=436
 date: '2008-08-07 13:18:29 -0400'
 date_gmt: '2008-08-07 17:18:29 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

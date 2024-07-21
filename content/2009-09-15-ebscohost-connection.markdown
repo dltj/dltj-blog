@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'EBSCOhost Connection Records Found In-The-Wild'
 modified: 2009-09-16T02:36:46+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1272
 wordpress_url: http://dltj.org/?p=1272
 date: '2009-09-15 22:36:46 -0400'
 date_gmt: '2009-09-16 02:36:46 -0400'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

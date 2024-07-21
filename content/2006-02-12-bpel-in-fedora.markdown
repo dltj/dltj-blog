@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'To BPEL or not to BPEL, quite a good question'
 modified: 2006-02-13T00:41:18+00:00
@@ -12,6 +12,7 @@ wordpress_id: 21
 wordpress_url: http://dltj.org/?p=21
 date: '2006-02-12 19:41:18 -0500'
 date_gmt: '2006-02-13 00:41:18 -0500'
+category: Library Technology
 categories:
 - DRC
 - Workflow

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Interoperability and Its Role In Standardization, Plus A ResourceSync Overview: Slidecast from ALA2013'
 modified: 2013-07-20T17:35:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4134
 wordpress_url: http://dltj.org/?p=4134
 date: '2013-07-20 13:35:45 -0400'
 date_gmt: '2013-07-20 17:35:45 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Fedora plus Sakai &mdash; a marriage made in heaven?'
 modified: 2006-04-13T01:24:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 39
 wordpress_url: http://dltj.org/2006/04/fedora-plus-sakai/
 date: '2006-04-12 21:24:10 -0400'
 date_gmt: '2006-04-13 02:24:10 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Minutes of the FEDORA Workflow Working Group meeting of 18-Jun-2006'
 modified: 2006-06-21T00:10:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 74
 wordpress_url: http://dltj.org/2006/06/fedora-workflow-minutes/
 date: '2006-06-20 20:10:44 -0400'
 date_gmt: '2006-06-21 01:10:44 -0400'
+category: Library Technology
 categories:
 - Meta Category
 - Workflow

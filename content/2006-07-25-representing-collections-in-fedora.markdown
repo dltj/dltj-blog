@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Representing Collections In FEDORA'
 modified: 2006-07-25T18:28:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 91
 wordpress_url: http://dltj.org/2006/07/representing-collections-in-fedora/
 date: '2006-07-25 14:28:44 -0400'
 date_gmt: '2006-07-25 19:28:44 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

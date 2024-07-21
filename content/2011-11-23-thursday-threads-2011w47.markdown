@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Thursday Threads: Thanksgiving Edition 2011 -- What I'm Thankful For'
+title: 'Thursday Threads: Thanksgiving Edition 2011 -- What I''m Thankful For'
 modified: 2011-11-24T03:45:13+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 3489
 wordpress_url: http://dltj.org/?p=3489
 date: '2011-11-23 22:45:13 -0500'
 date_gmt: '2011-11-24 03:45:13 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

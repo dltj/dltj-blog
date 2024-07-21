@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'What a NASA/Google Mashup Might Mean for Libraries'
 modified: 2006-12-20T04:25:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 159
 wordpress_url: http://dltj.org/2006/12/nasa-google-mashup/
 date: '2006-12-19 23:25:39 -0500'
 date_gmt: '2006-12-20 04:25:39 -0500'
+category: Library Technology
 categories:
 - Unified Content Repository
 - Disruption in Libraries

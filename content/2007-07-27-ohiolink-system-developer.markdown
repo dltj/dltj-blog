@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OhioLINK Position available: Systems Developer'
 modified: 2007-07-27T13:19:02+00:00
@@ -12,6 +12,7 @@ wordpress_id: 264
 wordpress_url: http://dltj.org/2007/07/ohiolink-system-developer/
 date: '2007-07-27 09:19:02 -0400'
 date_gmt: '2007-07-27 13:19:02 -0400'
+category: OhioLINK
 categories:
 - OhioLINK
 tags:

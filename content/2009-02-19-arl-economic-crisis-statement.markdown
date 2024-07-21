@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'ARL Statement to Scholarly Publishers on the Global Economic Crisis'
 modified: 2009-02-19T22:07:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 760
 wordpress_url: http://dltj.org/?p=760
 date: '2009-02-19 17:07:45 -0500'
 date_gmt: '2009-02-19 22:07:45 -0500'
+category: Policy
 categories:
 - Policy
 tags:

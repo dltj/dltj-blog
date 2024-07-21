@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: '"Everyone's Guide to By-Passing Internet Censorship for Citizens Worldwide"'
+title: '"Everyone''s Guide to By-Passing Internet Censorship for Citizens Worldwide"'
 modified: 2007-10-18T20:36:17+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 288
 wordpress_url: http://dltj.org/2007/10/bypassing-internet-censorship/
 date: '2007-10-18 16:36:17 -0400'
 date_gmt: '2007-10-18 20:36:17 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

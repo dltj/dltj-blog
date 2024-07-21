@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Position Announcement: OhioLINK Systems Developer'
 modified: 2008-09-05T17:59:25+00:00
@@ -12,6 +12,7 @@ wordpress_id: 467
 wordpress_url: http://dltj.org/?p=467
 date: '2008-09-05 13:59:25 -0400'
 date_gmt: '2008-09-05 17:59:25 -0400'
+category: OhioLINK
 categories:
 - OhioLINK
 tags:

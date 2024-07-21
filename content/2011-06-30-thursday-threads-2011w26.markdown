@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Thursday Threads: Google's Social Strategy, Big Data, Patriot Act outside U.S., Frightening Copyright Revisited'
+title: 'Thursday Threads: Google''s Social Strategy, Big Data, Patriot Act outside U.S., Frightening Copyright Revisited'
 modified: 2011-06-30T10:23:13+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 3046
 wordpress_url: http://dltj.org/?p=3046
 date: '2011-06-30 06:23:13 -0400'
 date_gmt: '2011-06-30 10:23:13 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Questioning the Future of JPEG2000 Support in Photoshop'
 modified: 2007-04-05T19:17:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 208
 wordpress_url: http://dltj.org/2007/04/j2k-in-photoshop/
 date: '2007-04-05 15:17:56 -0400'
 date_gmt: '2007-04-05 19:17:56 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

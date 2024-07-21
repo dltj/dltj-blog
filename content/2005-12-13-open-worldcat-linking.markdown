@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Introducing Geographic Scope to Physical Collections'
 modified: 2005-12-13T13:57:30+00:00
@@ -12,6 +12,7 @@ wordpress_id: 5
 wordpress_url: http://dltj.org/?p=5
 date: '2005-12-13 08:57:30 -0500'
 date_gmt: '2005-12-13 13:57:30 -0500'
+category: Linking Technologies
 categories:
 - Linking Technologies
 - Economies of Scale

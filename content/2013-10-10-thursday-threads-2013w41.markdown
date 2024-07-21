@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Password Managers, DRM coming to the Browser, Personal Data Brokers'
 modified: 2013-10-10T10:54:58+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4186
 wordpress_url: http://dltj.org/?p=4186
 date: '2013-10-10 06:54:58 -0400'
 date_gmt: '2013-10-10 10:54:58 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

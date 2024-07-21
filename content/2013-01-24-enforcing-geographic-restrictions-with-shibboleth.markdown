@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Interesting Shibboleth Use Case: Enforcing Geographic Restrictions'
 modified: 2013-01-25T02:52:22+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4080
 wordpress_url: http://dltj.org/?p=4080
 date: '2013-01-24 21:52:22 -0500'
 date_gmt: '2013-01-25 02:52:22 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

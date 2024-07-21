@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Scripted Searches for Java Code in Popular Source Code Search Engines'
 modified: 2007-01-19T18:58:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 170
 wordpress_url: http://dltj.org/2007/01/java-code-searches/
 date: '2007-01-19 13:58:19 -0500'
 date_gmt: '2007-01-19 18:58:19 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

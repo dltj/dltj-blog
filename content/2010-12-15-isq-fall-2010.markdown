@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"Do More ... With Someone Else" -- Guest Editor Introduction to NISO ISQ Fall Issue'
 modified: 2010-12-15T16:57:47+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1894
 wordpress_url: http://dltj.org/?p=1894
 date: '2010-12-15 11:57:47 -0500'
 date_gmt: '2010-12-15 16:57:47 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

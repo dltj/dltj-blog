@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'IAB to Address Concerns About Internet Routing Scalability'
 modified: 2006-12-21T04:22:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 160
 wordpress_url: http://dltj.org/2006/12/internet-routing-scalability/
 date: '2006-12-20 23:22:32 -0500'
 date_gmt: '2006-12-21 04:22:32 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

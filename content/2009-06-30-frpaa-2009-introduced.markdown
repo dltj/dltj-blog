@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Federal Research Public Access Act Reintroduced'
 modified: 2009-06-30T19:29:02+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1069
 wordpress_url: http://dltj.org/?p=1069
 date: '2009-06-30 15:29:02 -0400'
 date_gmt: '2009-06-30 19:29:02 -0400'
+category: Policy
 categories:
 - Policy
 tags:

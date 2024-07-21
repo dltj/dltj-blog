@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'On the Need for a General Purpose Digital Object Repository'
 modified: 2006-01-21T13:22:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 13
 wordpress_url: http://dltj.org/2006/01/general-purpose-repository/
 date: '2006-01-21 08:22:45 -0500'
 date_gmt: '2006-01-21 13:22:45 -0500'
+category: Library Technology
 categories:
 - DRC
 - Fedora

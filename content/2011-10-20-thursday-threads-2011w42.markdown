@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Infinite Virtual Bookshelf, Free Learning Management System, List of Cyber Threats'
 modified: 2011-10-21T02:30:18+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3449
 wordpress_url: http://dltj.org/?p=3449
 date: '2011-10-20 22:30:18 -0400'
 date_gmt: '2011-10-21 02:30:18 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

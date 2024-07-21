@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Video Tour of OPAC Discovery Layer Tools'
 modified: 2008-07-25T15:34:55+00:00
@@ -12,6 +12,7 @@ wordpress_id: 422
 wordpress_url: http://dltj.org/?p=422
 date: '2008-07-25 11:34:55 -0400'
 date_gmt: '2008-07-25 15:34:55 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

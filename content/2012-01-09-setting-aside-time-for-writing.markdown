@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Setting Aside Time for Writing'
 modified: 2012-01-10T02:59:59+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3579
 wordpress_url: http://dltj.org/?p=3579
 date: '2012-01-09 21:59:59 -0500'
 date_gmt: '2012-01-10 02:59:59 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

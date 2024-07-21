@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Consumer E-book Commitment, University Press Shorts, Improv Everwhere'
 modified: 2011-11-17T11:24:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3482
 wordpress_url: http://dltj.org/?p=3482
 date: '2011-11-17 06:24:32 -0500'
 date_gmt: '2011-11-17 11:24:32 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

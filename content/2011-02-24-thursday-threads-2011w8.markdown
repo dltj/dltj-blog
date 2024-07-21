@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Free Music Scores, Hiring for Attitude, National Broadband Map'
 modified: 2011-02-25T04:06:22+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2669
 wordpress_url: http://dltj.org/?p=2669
 date: '2011-02-24 23:06:22 -0500'
 date_gmt: '2011-02-25 04:06:22 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

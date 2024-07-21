@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Payment Card Security, Crap Detection, VoIP in your Hand'
 modified: 2014-08-14T10:56:09+00:00
@@ -12,6 +12,7 @@ wordpress_id: 19098
 wordpress_url: http://dltj.org/?p=19098
 date: '2014-08-14 06:56:09 -0400'
 date_gmt: '2014-08-14 10:56:09 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

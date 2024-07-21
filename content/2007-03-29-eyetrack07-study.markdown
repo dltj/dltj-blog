@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'What Librarians Could Learn From Journalists'
 modified: 2007-03-29T15:30:07+00:00
@@ -12,6 +12,7 @@ wordpress_id: 201
 wordpress_url: http://dltj.org/2007/03/eyetrack07-study/
 date: '2007-03-29 11:30:07 -0400'
 date_gmt: '2007-03-29 16:30:07 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 - Raw Technology

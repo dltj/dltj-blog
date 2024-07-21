@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Registration Now Open for a Fall Forum on the Future of Library Discovery'
 modified: 2015-08-26T14:23:36+00:00
@@ -12,6 +12,7 @@ wordpress_id: 26520
 wordpress_url: http://dltj.org/?p=26520
 date: '2015-08-26 10:23:36 -0400'
 date_gmt: '2015-08-26 14:23:36 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

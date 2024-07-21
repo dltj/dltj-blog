@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Thursday Threads: Research Works Act, Amazon Kindle Give and Take, OCLC's Website for Small Libraries'
+title: 'Thursday Threads: Research Works Act, Amazon Kindle Give and Take, OCLC''s Website for Small Libraries'
 modified: 2012-03-01T02:58:28+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 3637
 wordpress_url: http://dltj.org/?p=3637
 date: '2012-02-29 21:58:28 -0500'
 date_gmt: '2012-03-01 02:58:28 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

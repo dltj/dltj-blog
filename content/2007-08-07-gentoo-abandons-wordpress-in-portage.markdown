@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Gentoo Abandons WordPress in Portage'
 modified: 2007-08-07T14:43:05+00:00
@@ -12,6 +12,7 @@ wordpress_id: 269
 wordpress_url: http://dltj.org/2007/08/gentoo-abandons-wordpress-in-portage/
 date: '2007-08-07 10:43:05 -0400'
 date_gmt: '2007-08-07 14:43:05 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

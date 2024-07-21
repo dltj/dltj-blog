@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Preserving Digital Video'
 modified: 2008-04-08T20:22:14+00:00
@@ -12,6 +12,7 @@ wordpress_id: 348
 wordpress_url: https://dltj.org/?p=348
 date: '2008-04-08 16:22:14 -0400'
 date_gmt: '2008-04-08 20:22:14 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

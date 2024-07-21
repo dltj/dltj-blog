@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Bandwidth of Large Airplanes'
 modified: 2010-06-09T01:40:55+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1600
 wordpress_url: http://dltj.org/?p=1600
 date: '2010-06-08 21:40:55 -0400'
 date_gmt: '2010-06-09 01:40:55 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

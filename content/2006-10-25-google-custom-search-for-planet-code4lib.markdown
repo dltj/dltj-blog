@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google Custom Search for Planet Code4Lib'
 modified: 2006-10-25T14:18:41+00:00
@@ -12,6 +12,7 @@ wordpress_id: 137
 wordpress_url: http://dltj.org/2006/10/google-custom-search-for-planet-code4lib/
 date: '2006-10-25 10:18:41 -0400'
 date_gmt: '2006-10-25 14:18:41 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

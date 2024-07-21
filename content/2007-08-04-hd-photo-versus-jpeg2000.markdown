@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'JPEG XR Could Be Neat, but JPEG2000 is Still Neater'
 modified: 2007-08-04T22:23:37+00:00
@@ -12,6 +12,7 @@ wordpress_id: 267
 wordpress_url: http://dltj.org/2007/08/hd-photo-versus-jpeg2000/
 date: '2007-08-04 18:23:37 -0400'
 date_gmt: '2007-08-04 22:23:37 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

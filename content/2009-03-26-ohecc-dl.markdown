@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'New Directions for Discovering Information'
 modified: 2009-03-26T20:30:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 823
 wordpress_url: http://dltj.org/?p=823
 date: '2009-03-26 16:30:45 -0400'
 date_gmt: '2009-03-26 20:30:45 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

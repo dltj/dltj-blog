@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Electronic Resource Management Systems in Consortial Environments'
 modified: 2006-06-26T17:49:02+00:00
@@ -12,6 +12,7 @@ wordpress_id: 82
 wordpress_url: http://dltj.org/2006/06/erm-in-consortial-environments/
 date: '2006-06-26 13:49:02 -0400'
 date_gmt: '2006-06-26 18:49:02 -0400'
+category: Linking Technologies
 categories:
 - Linking Technologies
 - Economies of Scale

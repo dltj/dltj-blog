@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Discussions of Textbooks Hit the Mainstream Media'
 modified: 2008-04-30T15:20:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 354
 wordpress_url: https://dltj.org/?p=354
 date: '2008-04-30 11:20:43 -0400'
 date_gmt: '2008-04-30 15:20:43 -0400'
+category: Campus Technology
 categories:
 - Textbooks
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OAI-ORE Alpha Specifications Updated'
 modified: 2008-04-16T02:20:33+00:00
@@ -12,6 +12,7 @@ wordpress_id: 350
 wordpress_url: https://dltj.org/?p=350
 date: '2008-04-15 22:20:33 -0400'
 date_gmt: '2008-04-14 14:11:07 -0400'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

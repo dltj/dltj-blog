@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Advertising and Privacy, Giving Away Linux, A View of the Future'
 modified: 2015-06-11T10:49:59+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25857
 wordpress_url: http://dltj.org/?p=25857
 date: '2015-06-11 06:49:59 -0400'
 date_gmt: '2015-06-11 10:49:59 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Open Access Attitudes of Computer Science Professors'
 modified: 2015-04-16T14:33:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25388
 wordpress_url: http://dltj.org/?p=25388
 date: '2015-04-16 10:33:56 -0400'
 date_gmt: '2015-04-16 14:33:56 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

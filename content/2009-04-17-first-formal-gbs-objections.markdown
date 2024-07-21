@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Letters Begin Flying in Objection to the Proposed Google Book Search Settlement'
 modified: 2009-04-17T18:41:17+00:00
@@ -12,6 +12,7 @@ wordpress_id: 867
 wordpress_url: http://dltj.org/?p=867
 date: '2009-04-17 14:41:17 -0400'
 date_gmt: '2009-04-17 18:41:17 -0400'
+category: Policy
 categories:
 - Policy
 tags:

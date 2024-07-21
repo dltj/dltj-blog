@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Disruption in Library Acquisitions, Publishing, and Remedial Education plus Checking Assumptions of Cloud Computing and a National Digital Library'
 modified: 2010-10-14T19:44:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1713
 wordpress_url: http://dltj.org/?p=1713
 date: '2010-10-14 15:44:56 -0400'
 date_gmt: '2010-10-14 19:44:56 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

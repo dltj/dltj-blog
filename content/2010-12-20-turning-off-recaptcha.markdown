@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Attempting to Run Comments without reCAPTCHA'
 modified: 2010-12-20T15:19:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1915
 wordpress_url: http://dltj.org/?p=1915
 date: '2010-12-20 10:19:56 -0500'
 date_gmt: '2010-12-20 15:19:56 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

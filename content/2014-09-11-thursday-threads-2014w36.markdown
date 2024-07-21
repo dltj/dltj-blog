@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Sakai Reverberations, Ada Initiative Fundraising, Cost of Bandwidth'
 modified: 2014-09-11T10:43:51+00:00
@@ -12,6 +12,7 @@ wordpress_id: 20135
 wordpress_url: http://dltj.org/?p=20135
 date: '2014-09-11 06:43:51 -0400'
 date_gmt: '2014-09-11 10:43:51 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

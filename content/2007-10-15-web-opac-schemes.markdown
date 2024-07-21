@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Schemes to Add Functionality to the Web OPAC'
 modified: 2007-10-15T15:55:46+00:00
@@ -12,6 +12,7 @@ wordpress_id: 284
 wordpress_url: http://dltj.org/2007/10/web-opac-schemes/
 date: '2007-10-15 11:55:46 -0400'
 date_gmt: '2007-10-15 15:55:46 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

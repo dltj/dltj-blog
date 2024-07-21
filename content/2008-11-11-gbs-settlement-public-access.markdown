@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google Book Search Settlement: Public Access Service'
 modified: 2008-11-11T17:10:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 582
 wordpress_url: http://dltj.org/?p=582
 date: '2008-11-11 12:10:32 -0500'
 date_gmt: '2008-11-11 17:10:32 -0500'
+category: Policy
 categories:
 - Policy
 tags:

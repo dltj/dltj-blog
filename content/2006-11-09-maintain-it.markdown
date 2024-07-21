@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'MaintainIT Project Gears Up to Support Public Access Computing'
 modified: 2006-11-10T00:58:01+00:00
@@ -12,6 +12,7 @@ wordpress_id: 144
 wordpress_url: http://dltj.org/2006/11/maintain-it/
 date: '2006-11-09 19:58:01 -0500'
 date_gmt: '2006-11-10 00:58:01 -0500'
+category: Disruption in Libraries
 categories:
 - Economies of Scale
 - Disruption in Libraries

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'What Does the Google Book Settlement Mean for the Online Book Market?'
 modified: 2009-02-24T03:20:49+00:00
@@ -12,6 +12,7 @@ wordpress_id: 770
 wordpress_url: http://dltj.org/?p=770
 date: '2009-02-23 22:20:49 -0500'
 date_gmt: '2009-02-24 03:20:49 -0500'
+category: Policy
 categories:
 - Policy
 tags:

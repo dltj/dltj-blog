@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Just In Time Acquisitions versus Just In Case Acquisitions'
 modified: 2006-08-02T13:30:51+00:00
@@ -12,6 +12,7 @@ wordpress_id: 22
 wordpress_url: http://dltj.org/2006/08/just-in-time-versus-just-in-case-acquisitions/
 date: '2006-08-02 09:30:51 -0400'
 date_gmt: '2006-08-02 14:30:51 -0400'
+category: Library Technology
 categories:
 - Economies of Scale
 - Disruption in Libraries

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Library RFP Registry, Transformed Libraries talk at IMLSfocus, DIY VPN'
 modified: 2015-05-07T13:39:25+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25525
 wordpress_url: http://dltj.org/?p=25525
 date: '2015-05-07 09:39:25 -0400'
 date_gmt: '2015-05-07 13:39:25 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

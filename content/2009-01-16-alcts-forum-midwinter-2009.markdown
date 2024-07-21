@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'ALCTS Forum on Creating and Sustaining Communities Around Shared Library Data'
 modified: 2009-01-16T20:03:55+00:00
@@ -12,6 +12,7 @@ wordpress_id: 671
 wordpress_url: http://dltj.org/?p=671
 date: '2009-01-16 15:03:55 -0500'
 date_gmt: '2009-01-16 20:03:55 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

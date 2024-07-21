@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Note to Future Self:  Use `ssh -D` to bypass annoying interception proxies'
 modified: 2008-02-18T22:12:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 329
 wordpress_url: https://dltj.org/article/ssh-as-socks-proxy/
 date: '2008-02-18 17:12:56 -0500'
 date_gmt: '2008-02-18 22:12:56 -0500'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

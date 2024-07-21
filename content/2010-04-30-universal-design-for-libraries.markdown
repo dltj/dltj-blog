@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'UDL: Universal Design...for Libraries?'
 modified: 2010-04-30T15:38:49+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1577
 wordpress_url: http://dltj.org/?p=1577
 date: '2010-04-30 11:38:49 -0400'
 date_gmt: '2010-04-30 15:38:49 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'On the Internet, How Do You Know If You Are Talking to a Dog?'
 modified: 2008-07-16T02:51:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 387
 wordpress_url: https://dltj.org/?p=387
 date: '2008-07-15 22:51:10 -0400'
 date_gmt: '2008-07-16 02:51:10 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

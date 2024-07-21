@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'RDA-as-Service Only'
 modified: 2010-06-27T13:40:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1650
 wordpress_url: http://dltj.org/?p=1650
 date: '2010-06-27 09:40:19 -0400'
 date_gmt: '2010-06-27 13:40:19 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

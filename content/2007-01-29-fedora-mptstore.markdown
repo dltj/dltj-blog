@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Presentation Summary: "MPTStore: Implementing a fast, scalable, and stable RDBMS-backed triplestore for Fedora and the NSDL"'
 modified: 2007-01-29T19:03:09+00:00
@@ -12,6 +12,7 @@ wordpress_id: 176
 wordpress_url: http://dltj.org/2007/01/fedora-mptstore/
 date: '2007-01-29 14:03:09 -0500'
 date_gmt: '2007-01-29 19:03:09 -0500'
+category: Library Technology
 categories:
 - Fedora
 - Meeting

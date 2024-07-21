@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'ODCE Conference Proposals Due in 10 Days'
 modified: 2006-11-07T16:09:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 141
 wordpress_url: http://dltj.org/2006/11/odce-proposals/
 date: '2006-11-07 11:09:27 -0500'
 date_gmt: '2006-11-07 16:09:27 -0500'
+category: Meeting
 categories:
 - OhioLINK
 - Meeting

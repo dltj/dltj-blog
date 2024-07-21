@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Article-Level OAI-PMH Harvest Available from DOAJ'
 modified: 2007-07-11T20:51:54+00:00
@@ -12,6 +12,7 @@ wordpress_id: 261
 wordpress_url: http://dltj.org/2007/07/doaj-articles/
 date: '2007-07-11 16:51:54 -0400'
 date_gmt: '2007-07-11 20:51:54 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

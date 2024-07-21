@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'OhioLINK's Google Summer of Code ideas'
+title: 'OhioLINK''s Google Summer of Code ideas'
 modified: 2006-04-28T13:12:36+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 47
 wordpress_url: http://dltj.org/2006/04/ohiolinks-google-summer-of-code-ideas/
 date: '2006-04-28 09:12:36 -0400'
 date_gmt: '2006-04-28 14:12:36 -0400'
+category: Library Technology
 categories:
 - OhioLINK
 - DRC

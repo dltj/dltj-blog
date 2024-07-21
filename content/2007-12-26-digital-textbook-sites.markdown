@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Seeking Details on Websites for Digital Textbooks'
 modified: 2007-12-26T17:53:24+00:00
@@ -12,6 +12,7 @@ wordpress_id: 309
 wordpress_url: http://dltj.org/2007/12/digital-textbook-sites/
 date: '2007-12-26 12:53:24 -0500'
 date_gmt: '2007-12-26 16:53:24 -0500'
+category: Campus Technology
 categories:
 - Textbooks
 tags:

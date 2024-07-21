@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: History of the Future, Kuali change-of-focus, 2018 Mindset List'
 modified: 2014-09-04T10:22:47+00:00
@@ -12,6 +12,7 @@ wordpress_id: 19841
 wordpress_url: http://dltj.org/?p=19841
 date: '2014-09-04 06:22:47 -0400'
 date_gmt: '2014-09-04 10:22:47 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

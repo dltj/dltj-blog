@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'A: "Communication and Honesty"'
 modified: 2006-01-15T20:29:49+00:00
@@ -12,6 +12,7 @@ wordpress_id: 14
 wordpress_url: http://dltj.org/?p=14
 date: '2006-01-15 15:29:49 -0500'
 date_gmt: '2006-01-15 20:29:49 -0500'
+category: Clayton Christensen
 categories:
 - Clayton Christensen
 tags: []

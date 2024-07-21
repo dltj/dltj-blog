@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Voting open for Code4Lib 2009; Central Ohio is a candidate'
 modified: 2008-02-21T14:37:58+00:00
@@ -12,6 +12,7 @@ wordpress_id: 332
 wordpress_url: https://dltj.org/article/code4lib-2009-site-voting/
 date: '2008-02-21 09:37:58 -0500'
 date_gmt: '2008-02-21 14:37:58 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

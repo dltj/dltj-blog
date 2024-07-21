@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Unprotected Social Media Sites, Value of Free, and Real Life Net Neutrality'
 modified: 2010-10-28T19:41:20+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1813
 wordpress_url: http://dltj.org/?p=1813
 date: '2010-10-28 15:41:20 -0400'
 date_gmt: '2010-10-28 19:41:20 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

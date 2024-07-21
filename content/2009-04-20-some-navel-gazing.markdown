@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Some Navel-Gazing:  A Meta-Post about DLTJ'
 modified: 2009-04-21T01:29:23+00:00
@@ -12,6 +12,7 @@ wordpress_id: 865
 wordpress_url: http://dltj.org/?p=865
 date: '2009-04-20 21:29:23 -0400'
 date_gmt: '2009-04-21 01:29:23 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

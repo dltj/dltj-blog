@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'NPR's Headquarters'
+title: 'NPR''s Headquarters'
 modified: 2007-08-05T22:41:31+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 268
 wordpress_url: http://dltj.org/2007/08/npr-headquarters/
 date: '2007-08-05 18:41:31 -0400'
 date_gmt: '2007-08-05 22:41:31 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

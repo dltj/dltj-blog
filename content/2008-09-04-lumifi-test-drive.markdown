@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Test Driving Lumifi'
 modified: 2008-09-04T14:09:49+00:00
@@ -12,6 +12,7 @@ wordpress_id: 444
 wordpress_url: http://dltj.org/?p=444
 date: '2008-09-04 10:09:49 -0400'
 date_gmt: '2008-09-04 14:09:49 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

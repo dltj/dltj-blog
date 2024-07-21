@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Slidecast of David Lewis' "Collections Futures" Talk'
+title: 'Slidecast of David Lewis'' "Collections Futures" Talk'
 modified: 2011-03-02T15:43:01+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 2680
 wordpress_url: http://dltj.org/?p=2680
 date: '2011-03-02 10:43:01 -0500'
 date_gmt: '2011-03-02 15:43:01 -0500'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

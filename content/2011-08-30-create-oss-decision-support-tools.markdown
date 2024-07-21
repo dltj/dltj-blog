@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Seeking consultants to create decision support tools for open source software selection'
 modified: 2011-08-31T01:24:50+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3150
 wordpress_url: http://dltj.org/?p=3150
 date: '2011-08-30 21:24:50 -0400'
 date_gmt: '2011-08-31 01:24:50 -0400'
+category: Open Source
 categories:
 - Open Source
 tags:

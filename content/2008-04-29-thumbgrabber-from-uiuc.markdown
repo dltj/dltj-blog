@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thumbgrabber: a metadata augmentation tool'
 modified: 2008-04-29T20:21:00+00:00
@@ -12,6 +12,7 @@ wordpress_id: 353
 wordpress_url: https://dltj.org/?p=353
 date: '2008-04-29 16:21:00 -0400'
 date_gmt: '2008-04-29 20:21:00 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

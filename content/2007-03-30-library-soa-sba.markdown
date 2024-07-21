@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Combining Service Oriented Architecture with a Single Business Approach'
 modified: 2007-03-30T18:27:11+00:00
@@ -12,6 +12,7 @@ wordpress_id: 204
 wordpress_url: http://dltj.org/2007/03/library-soa-sba/
 date: '2007-03-30 14:27:11 -0400'
 date_gmt: '2007-03-30 18:27:11 -0400'
+category: Library Technology
 categories:
 - Library SOA
 tags:

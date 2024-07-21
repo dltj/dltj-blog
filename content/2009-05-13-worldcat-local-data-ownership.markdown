@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'At the Intersection of the OCLC Records Use Policy and the WorldCat Local Cloud-based Library Management Service'
 modified: 2009-05-14T02:21:47+00:00
@@ -12,6 +12,7 @@ wordpress_id: 948
 wordpress_url: http://dltj.org/?p=948
 date: '2009-05-13 22:21:47 -0400'
 date_gmt: '2009-05-14 02:21:47 -0400'
+category: Policy
 categories:
 - Policy
 tags:

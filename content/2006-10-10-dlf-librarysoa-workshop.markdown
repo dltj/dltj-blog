@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'DLF's Upcoming Workshop on Developing a Services Framework for Digital Libraries'
+title: 'DLF''s Upcoming Workshop on Developing a Services Framework for Digital Libraries'
 modified: 2006-10-10T15:46:20+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 133
 wordpress_url: http://dltj.org/2006/10/dlf-librarysoa-workshop/
 date: '2006-10-10 11:46:20 -0400'
 date_gmt: '2006-10-10 15:46:20 -0400'
+category: Library Technology
 categories:
 - Library SOA
 - Meeting

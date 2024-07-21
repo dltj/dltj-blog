@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Governance in Open Source Software Projects'
 modified: 2011-09-27T23:52:11+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3406
 wordpress_url: http://dltj.org/?p=3406
 date: '2011-09-27 19:52:11 -0400'
 date_gmt: '2011-09-27 23:52:11 -0400'
+category: Open Source
 categories:
 - Open Source
 tags:

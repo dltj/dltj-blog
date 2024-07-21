@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Mobile Device Encryption, Getty Images for Free'
 modified: 2014-10-02T10:42:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 21020
 wordpress_url: http://dltj.org/?p=21020
 date: '2014-10-02 06:42:39 -0400'
 date_gmt: '2014-10-02 10:42:39 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

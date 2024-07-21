@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Open Repositories Presentation:  Building an IR Interface Using EJB3 and JBoss Seam'
 modified: 2007-01-24T04:12:58+00:00
@@ -12,6 +12,7 @@ wordpress_id: 172
 wordpress_url: http://dltj.org/2007/01/or2007-presentation/
 date: '2007-01-23 23:12:58 -0500'
 date_gmt: '2007-01-24 04:12:58 -0500'
+category: Library Technology
 categories:
 - Fedora
 - Meeting

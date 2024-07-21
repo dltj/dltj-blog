@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Seeking Details About Mystery Discovery Layer Company'
 modified: 2008-09-24T02:49:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 504
 wordpress_url: http://dltj.org/?p=504
 date: '2008-09-23 22:49:43 -0400'
 date_gmt: '2008-09-24 02:49:43 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

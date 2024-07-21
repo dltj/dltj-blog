@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: OCLC Moves to Dismiss SkyOCLC, UCLA Sued For Streaming, Paving Cow Paths, Origins of #'
 modified: 2010-12-16T11:52:54+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1901
 wordpress_url: http://dltj.org/?p=1901
 date: '2010-12-16 06:52:54 -0500'
 date_gmt: '2010-12-16 11:52:54 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

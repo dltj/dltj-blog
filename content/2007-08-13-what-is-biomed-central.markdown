@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'What Is BioMed Central?'
 modified: 2007-08-13T15:59:03+00:00
@@ -12,6 +12,7 @@ wordpress_id: 271
 wordpress_url: http://dltj.org/2007/08/what-is-biomed-central/
 date: '2007-08-13 11:59:03 -0400'
 date_gmt: '2007-08-13 15:59:03 -0400'
+category: Policy
 categories:
 - Policy
 tags:

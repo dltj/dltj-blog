@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'A History of the OCLC Tax-Exemption Status'
 modified: 2010-10-06T03:47:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1701
 wordpress_url: http://dltj.org/?p=1701
 date: '2010-10-05 23:47:38 -0400'
 date_gmt: '2010-10-06 03:47:38 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'ODCE 2008 Call-For-Proposals'
 modified: 2007-09-04T17:14:15+00:00
@@ -12,6 +12,7 @@ wordpress_id: 278
 wordpress_url: http://dltj.org/2007/09/odce-2008-call-for-proposals/
 date: '2007-09-04 13:14:15 -0400'
 date_gmt: '2007-09-04 17:14:15 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

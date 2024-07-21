@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'DLTJ is Registered with the Academic Blog Portal; Are You?'
 modified: 2006-10-12T02:32:55+00:00
@@ -12,6 +12,7 @@ wordpress_id: 134
 wordpress_url: http://dltj.org/2006/10/academic-blog-portal/
 date: '2006-10-11 22:32:55 -0400'
 date_gmt: '2006-10-12 02:32:55 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

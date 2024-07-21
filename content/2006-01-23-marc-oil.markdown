@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The MARC format:  the Library Equivalent to Reliance on Oil?'
 modified: 2006-01-23T14:02:33+00:00
@@ -12,6 +12,7 @@ wordpress_id: 17
 wordpress_url: http://dltj.org/?p=17
 date: '2006-01-23 09:02:33 -0500'
 date_gmt: '2006-01-23 14:02:33 -0500'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags: []

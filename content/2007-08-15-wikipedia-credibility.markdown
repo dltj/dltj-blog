@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'On the Internet, nobody knows you&rsquo;re a dog.  But we can tell if you are a major news organization or corporation.'
 modified: 2007-08-15T15:16:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 274
 wordpress_url: http://dltj.org/2007/08/wikipedia-credibility/
 date: '2007-08-15 11:16:19 -0400'
 date_gmt: '2007-08-15 15:16:19 -0400'
+category: Policy
 categories:
 - Policy
 tags:

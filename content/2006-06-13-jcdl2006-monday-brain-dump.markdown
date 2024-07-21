@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'JCDL2006 Monday Brain Dump'
 modified: 2006-06-13T14:32:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 67
 wordpress_url: http://dltj.org/2006/06/jcdl2006-monday-brain-dump/
 date: '2006-06-13 10:32:19 -0400'
 date_gmt: '2006-06-13 15:32:19 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

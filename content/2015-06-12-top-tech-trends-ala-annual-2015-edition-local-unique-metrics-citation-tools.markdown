@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Top Tech Trends, ALA Annual 2015 edition: Local and Unique; New metrics and citation tools'
 modified: 2015-06-12T17:50:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25875
 wordpress_url: http://dltj.org/?p=25875
 date: '2015-06-12 13:50:38 -0400'
 date_gmt: '2015-06-12 17:50:38 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Demonstrating the Mouse's Absurd Copyright Practices by Using the Mouse's Work'
+title: 'Demonstrating the Mouse''s Absurd Copyright Practices by Using the Mouse''s Work'
 modified: 2007-05-21T14:55:49+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 238
 wordpress_url: http://dltj.org/2007/05/demonstrating-the-mouses-absurd-copyright-practices-by-using-the-mouses-work/
 date: '2007-05-21 10:55:49 -0400'
 date_gmt: '2007-05-21 14:55:49 -0400'
+category: Policy
 categories:
 - Policy
 tags:

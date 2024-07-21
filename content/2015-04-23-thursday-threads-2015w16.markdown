@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Fake Social Media, Netflix is Huge, Secret TPP is Bad'
 modified: 2015-04-23T10:55:17+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25432
 wordpress_url: http://dltj.org/?p=25432
 date: '2015-04-23 06:55:17 -0400'
 date_gmt: '2015-04-23 10:55:17 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Blocking /xmlrpc.php Scans in the Apache .htaccess File'
 modified: 2014-09-04T02:41:47+00:00
@@ -12,6 +12,7 @@ wordpress_id: 19848
 wordpress_url: http://dltj.org/?p=19848
 date: '2014-09-03 22:41:47 -0400'
 date_gmt: '2014-09-04 02:41:47 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

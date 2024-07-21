@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Is OCLC's Change of WorldCat Record Use/Transfer Policy Related to the Google Book Search Agreement?'
+title: 'Is OCLC''s Change of WorldCat Record Use/Transfer Policy Related to the Google Book Search Agreement?'
 modified: 2008-10-30T18:26:14+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 570
 wordpress_url: http://dltj.org/?p=570
 date: '2008-10-30 14:26:14 -0400'
 date_gmt: '2008-10-30 18:26:14 -0400'
+category: Policy
 categories:
 - Policy
 tags:

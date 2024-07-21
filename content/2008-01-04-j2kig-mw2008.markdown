@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Meeting of the JPEG 2000 Interest Group on Jan 12th in Philadelphia'
 modified: 2008-01-04T17:25:00+00:00
@@ -12,6 +12,7 @@ wordpress_id: 310
 wordpress_url: http://dltj.org/2008/01/j2kig-mw2008/
 date: '2008-01-04 12:25:00 -0500'
 date_gmt: '2008-01-04 16:25:00 -0500'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

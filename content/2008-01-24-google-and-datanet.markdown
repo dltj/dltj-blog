@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google and DataNet:  Two Ships Passing in the Night, or Maybe Something More?'
 modified: 2008-01-24T23:00:55+00:00
@@ -12,6 +12,7 @@ wordpress_id: 318
 wordpress_url: http://dltj.org/2008/01/google-and-datanet/
 date: '2008-01-24 18:00:55 -0500'
 date_gmt: '2008-01-24 22:00:55 -0500'
+category: Library Technology
 categories:
 - Unified Content Repository
 tags:

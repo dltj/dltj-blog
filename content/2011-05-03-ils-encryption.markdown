@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Encryption of Patron Data in Modern Integrated Library Systems'
 modified: 2011-05-04T00:30:24+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2853
 wordpress_url: http://dltj.org/?p=2853
 date: '2011-05-03 20:30:24 -0400'
 date_gmt: '2011-05-04 00:30:24 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

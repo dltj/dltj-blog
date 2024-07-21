@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Who Said You Couldn't Catalog the Internet?'
+title: 'Who Said You Couldn''t Catalog the Internet?'
 modified: 2006-06-06T12:42:00+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 64
 wordpress_url: http://dltj.org/2006/06/who-said-you-couldnt-catalog-the-internet/
 date: '2006-06-06 08:42:00 -0400'
 date_gmt: '2006-06-06 13:42:00 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

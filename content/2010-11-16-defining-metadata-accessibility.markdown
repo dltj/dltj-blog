@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Defining Metadata and Making Metadata Accessible'
 modified: 2010-11-17T01:40:20+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1842
 wordpress_url: http://dltj.org/?p=1842
 date: '2010-11-16 20:40:20 -0500'
 date_gmt: '2010-11-17 01:40:20 -0500'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

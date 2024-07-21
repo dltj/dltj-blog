@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Draft Specifications of OAI Object Reuse and Exchange Now Available'
 modified: 2007-12-12T17:03:13+00:00
@@ -12,6 +12,7 @@ wordpress_id: 300
 wordpress_url: http://dltj.org/2007/12/ore-draft-specs/
 date: '2007-12-12 12:03:13 -0500'
 date_gmt: '2007-12-12 16:03:13 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

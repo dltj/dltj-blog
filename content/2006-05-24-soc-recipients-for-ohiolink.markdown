@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OhioLINK Mentors Three Students in the Google Summer of Code'
 modified: 2006-05-24T13:03:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 61
 wordpress_url: http://dltj.org/2006/05/soc-recipients-for-ohiolink/
 date: '2006-05-24 09:03:16 -0400'
 date_gmt: '2006-05-24 14:03:16 -0400'
+category: Google Summer of Code
 categories:
 - OhioLINK
 - JPEG2000

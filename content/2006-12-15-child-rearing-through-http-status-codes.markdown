@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Child Rearing Through HTTP Status Codes'
 modified: 2006-12-15T21:24:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 152
 wordpress_url: http://dltj.org/2006/12/child-rearing-through-http-status-codes/
 date: '2006-12-15 16:24:10 -0500'
 date_gmt: '2006-12-15 21:24:10 -0500'
+category: Personal
 categories:
 - Personal
 tags:

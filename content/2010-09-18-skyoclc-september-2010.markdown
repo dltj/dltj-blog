@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Early September Summary of the SkyRiver/Innovative vs. OCLC Case'
 modified: 2010-09-18T22:12:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1674
 wordpress_url: http://dltj.org/?p=1674
 date: '2010-09-18 18:12:16 -0400'
 date_gmt: '2010-09-18 22:12:16 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

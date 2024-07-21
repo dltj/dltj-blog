@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Library Linked Data, Shifts in Publishing, Questions for Software Migrations, Hypothes.is Announcement'
 modified: 2011-10-27T10:04:53+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3469
 wordpress_url: http://dltj.org/?p=3469
 date: '2011-10-27 06:04:53 -0400'
 date_gmt: '2011-10-27 10:04:53 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

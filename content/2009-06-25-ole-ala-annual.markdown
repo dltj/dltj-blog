@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Two ways to learn about the OLE Project at ALA'
 modified: 2009-06-25T15:25:13+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1058
 wordpress_url: http://dltj.org/?p=1058
 date: '2009-06-25 11:25:13 -0400'
 date_gmt: '2009-06-25 15:25:13 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Midwinter Meeting Schedule (Plus News of a Free Midwinter Airport Shuttle)'
 modified: 2009-12-28T22:29:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1384
 wordpress_url: http://dltj.org/?p=1384
 date: '2009-12-28 17:29:27 -0500'
 date_gmt: '2009-12-28 22:29:27 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

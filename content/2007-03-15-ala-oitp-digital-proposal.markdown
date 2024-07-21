@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: '"Draft Principles for Digitized Content" from the Digitization Policy Task Force of ALA's Office for Information Technology Policy'
+title: '"Draft Principles for Digitized Content" from the Digitization Policy Task Force of ALA''s Office for Information Technology Policy'
 modified: 2007-03-15T22:31:35+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 196
 wordpress_url: http://dltj.org/2007/03/ala-oitp-digital-proposal/
 date: '2007-03-15 18:31:35 -0400'
 date_gmt: '2007-03-15 23:31:35 -0400'
+category: Policy
 categories:
 - Policy
 tags:

@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Do I Want to be a Warrior in ALA's Battle?'
+title: 'Do I Want to be a Warrior in ALA''s Battle?'
 modified: 2007-02-28T19:17:05+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 193
 wordpress_url: http://dltj.org/2007/02/ala-renewal/
 date: '2007-02-28 14:17:05 -0500'
 date_gmt: '2007-02-28 19:17:05 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

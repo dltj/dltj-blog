@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'BarCampOhio and LibraryCampOhio, August 11, 2008'
 modified: 2008-07-17T18:18:51+00:00
@@ -12,6 +12,7 @@ wordpress_id: 412
 wordpress_url: http://dltj.org/?p=412
 date: '2008-07-17 14:18:51 -0400'
 date_gmt: '2008-07-17 18:18:51 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

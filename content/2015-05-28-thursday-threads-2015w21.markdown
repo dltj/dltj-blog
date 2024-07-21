@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Man Photocopies Ebook, Google AutoAwesomes Photos, Librarians Called to HTTPS'
 modified: 2015-05-28T10:35:55+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25738
 wordpress_url: http://dltj.org/?p=25738
 date: '2015-05-28 06:35:55 -0400'
 date_gmt: '2015-05-28 10:35:55 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

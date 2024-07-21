@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Specifications for Object Reuse and Exchange (ORE) published'
 modified: 2008-10-17T20:39:08+00:00
@@ -12,6 +12,7 @@ wordpress_id: 543
 wordpress_url: http://dltj.org/?p=543
 date: '2008-10-17 16:39:08 -0400'
 date_gmt: '2008-10-17 20:39:08 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Open Source for Open Repositories &mdash; New Models for Software Development and Sustainability'
 modified: 2007-01-25T04:37:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 175
 wordpress_url: http://dltj.org/2007/01/open-source-for-open-repositories/
 date: '2007-01-24 23:37:10 -0500'
 date_gmt: '2007-01-25 04:37:10 -0500'
+category: Library Technology
 categories:
 - Unified Content Repository
 - Sakai

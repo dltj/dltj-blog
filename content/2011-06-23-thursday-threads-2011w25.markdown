@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Publisher/Librarian Rights, Cultural Commons, HTML5 Web Apps, Wifi Management'
 modified: 2011-06-23T21:36:52+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3035
 wordpress_url: http://dltj.org/?p=3035
 date: '2011-06-23 17:36:52 -0400'
 date_gmt: '2011-06-23 21:36:52 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

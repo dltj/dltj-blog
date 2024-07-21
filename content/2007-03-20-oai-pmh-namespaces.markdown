@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'A Report on Namespaces Used by OAI-PMH Repositories'
 modified: 2007-03-20T20:00:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 197
 wordpress_url: http://dltj.org/2007/03/oai-pmh-namespaces/
 date: '2007-03-20 16:00:43 -0400'
 date_gmt: '2007-03-20 21:00:43 -0400'
+category: Raw Technology
 categories:
 - Linking Technologies
 - Raw Technology

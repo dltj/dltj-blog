@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Modifications to FreePress Recent Comments Plugin'
 modified: 2006-08-23T15:10:37+00:00
@@ -12,6 +12,11 @@ wordpress_id: 107
 wordpress_url: http://dltj.org/2006/08/modified-freepress-recent-comments-plugin/
 date: '2006-08-23 11:10:37 -0400'
 date_gmt: '2006-08-23 16:10:37 -0400'
+category: Meta Category
+category: Meta Category
+category: Meta Category
+category: Meta Category
+category: Meta Category
 categories:
 - Meta Category
 tags:

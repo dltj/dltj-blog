@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Digital Public Library of America Sends Out Call For a Beta Sprint'
 modified: 2011-05-20T23:52:57+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2898
 wordpress_url: http://dltj.org/?p=2898
 date: '2011-05-20 19:52:57 -0400'
 date_gmt: '2011-05-20 23:52:57 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

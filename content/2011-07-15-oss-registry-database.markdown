@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Seeking feedback on database design for an open source software registry'
 modified: 2011-07-15T18:58:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3103
 wordpress_url: http://dltj.org/?p=3103
 date: '2011-07-15 14:58:10 -0400'
 date_gmt: '2011-07-15 18:58:10 -0400'
+category: LYRASIS
 categories:
 - LYRASIS
 tags:

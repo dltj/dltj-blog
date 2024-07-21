@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Why FEDORA?  Answers to the FEDORA Users Interview Survey'
 modified: 2006-09-15T22:48:40+00:00
@@ -12,6 +12,7 @@ wordpress_id: 116
 wordpress_url: http://dltj.org/2006/09/fedora-users-interview-survey/
 date: '2006-09-15 18:48:40 -0400'
 date_gmt: '2006-09-15 22:48:40 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

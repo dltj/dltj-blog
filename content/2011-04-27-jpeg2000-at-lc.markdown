@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'JPEG2000 Summit at Library of Congress, May 12-13, 2011'
 modified: 2011-04-27T19:25:26+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2826
 wordpress_url: http://dltj.org/?p=2826
 date: '2011-04-27 15:25:26 -0400'
 date_gmt: '2011-04-27 19:25:26 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

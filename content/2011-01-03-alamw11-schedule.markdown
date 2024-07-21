@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'My ALA Midwinter 2011 Schedule'
 modified: 2011-01-04T01:39:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2089
 wordpress_url: http://dltj.org/?p=2089
 date: '2011-01-03 20:39:44 -0500'
 date_gmt: '2011-01-04 01:39:44 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Thursday Threads: Authors Guild Sues Hathi Trust, Libraries Learn from Blockbuster, Publisher's View of Self-Publishing'
+title: 'Thursday Threads: Authors Guild Sues Hathi Trust, Libraries Learn from Blockbuster, Publisher''s View of Self-Publishing'
 modified: 2011-09-15T10:19:11+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 3398
 wordpress_url: http://dltj.org/?p=3398
 date: '2011-09-15 06:19:11 -0400'
 date_gmt: '2011-09-15 10:19:11 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

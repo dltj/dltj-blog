@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Defining "Service Oriented Architecture" by Analogy'
 modified: 2006-09-19T03:05:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 117
 wordpress_url: http://dltj.org/2006/09/defining-soa-by-analogy/
 date: '2006-09-18 23:05:45 -0400'
 date_gmt: '2006-09-19 03:05:45 -0400'
+category: Library Technology
 categories:
 - Library SOA
 - Raw Technology

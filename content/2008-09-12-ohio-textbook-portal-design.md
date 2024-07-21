@@ -12,7 +12,7 @@ wordpress_id: 487
 wordpress_url: http://dltj.org/?p=487
 date: '2008-09-12 16:34:03 -0400'
 date_gmt: '2008-09-12 20:34:03 -0400'
-category: Textbooks
+category: Campus Technology
 categories:
 - Textbooks
 tags:

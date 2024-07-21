@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Adding Islandora Viewers Capability to Basic Image Solution Pack'
 modified: 2017-08-29T01:15:58+00:00
@@ -12,6 +12,7 @@ wordpress_id: 27716
 wordpress_url: http://dltj.org/?p=27716
 date: '2017-08-28 21:15:58 -0400'
 date_gmt: '2017-08-29 01:15:58 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

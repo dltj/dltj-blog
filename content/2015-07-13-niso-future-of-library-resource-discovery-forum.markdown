@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Announcing "The Future of Library Resource Discovery" -- a NISO Two-day Forum in October in Baltimore'
 modified: 2015-07-13T20:44:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 26112
 wordpress_url: http://dltj.org/?p=26112
 date: '2015-07-13 16:44:43 -0400'
 date_gmt: '2015-07-13 20:44:43 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

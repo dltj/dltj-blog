@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'ICOLC Issues Statement on the Global Economic Crisis and Its Impact on Consortial Licenses'
 modified: 2009-02-01T02:16:01+00:00
@@ -12,6 +12,7 @@ wordpress_id: 717
 wordpress_url: http://dltj.org/?p=717
 date: '2009-01-31 21:16:01 -0500'
 date_gmt: '2009-02-01 02:16:01 -0500'
+category: Policy
 categories:
 - Policy
 tags:

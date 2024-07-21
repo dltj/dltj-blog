@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Midwinter Travel Tip:  Flying United?  Checking Luggage?  Save $3!'
 modified: 2009-01-20T13:47:07+00:00
@@ -12,6 +12,7 @@ wordpress_id: 685
 wordpress_url: http://dltj.org/?p=685
 date: '2009-01-20 08:47:07 -0500'
 date_gmt: '2009-01-20 13:47:07 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

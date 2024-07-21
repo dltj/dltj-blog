@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Internet Comes of Age'
 modified: 2009-10-01T00:29:51+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1298
 wordpress_url: http://dltj.org/?p=1298
 date: '2009-09-30 20:29:51 -0400'
 date_gmt: '2009-10-01 00:29:51 -0400'
+category: Policy
 categories:
 - Policy
 tags:

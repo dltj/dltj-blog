@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'In Opposition to the PROTECT IP Act (Also)'
 modified: 2011-11-29T03:43:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3496
 wordpress_url: http://dltj.org/?p=3496
 date: '2011-11-28 22:43:16 -0500'
 date_gmt: '2011-11-29 03:43:16 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

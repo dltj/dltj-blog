@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google Book Search Settlement and Library Consortia'
 modified: 2008-11-25T17:54:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 607
 wordpress_url: http://dltj.org/?p=607
 date: '2008-11-25 12:54:16 -0500'
 date_gmt: '2008-11-25 17:54:16 -0500'
+category: Policy
 categories:
 - Policy
 tags:

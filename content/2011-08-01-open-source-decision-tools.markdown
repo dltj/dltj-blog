@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'How Do You Decide To Use Open Source Software and What Software to Use?'
 modified: 2011-08-01T20:12:42+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3133
 wordpress_url: http://dltj.org/?p=3133
 date: '2011-08-01 16:12:42 -0400'
 date_gmt: '2011-08-01 20:12:42 -0400'
+category: Open Source
 categories:
 - Open Source
 tags:

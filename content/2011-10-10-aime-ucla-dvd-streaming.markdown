@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'AIME v UCal Decision Says Streaming Equivalent to Public Performance'
 modified: 2011-10-10T20:04:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3434
 wordpress_url: http://dltj.org/?p=3434
 date: '2011-10-10 16:04:44 -0400'
 date_gmt: '2011-10-10 20:04:44 -0400'
+category: Policy
 categories:
 - Policy
 tags:

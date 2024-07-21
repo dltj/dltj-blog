@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Notes from the OCLC Record Use Policy Council discussion'
 modified: 2010-01-18T13:04:08+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1454
 wordpress_url: http://dltj.org/?p=1454
 date: '2010-01-18 08:04:08 -0500'
 date_gmt: '2010-01-18 13:04:08 -0500'
+category: Policy
 categories:
 - Policy
 tags:

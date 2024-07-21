@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Minutes of the JPEG2000 Interest Group Posted'
 modified: 2007-06-23T18:56:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 258
 wordpress_url: http://dltj.org/2007/06/minutes-of-the-jpeg2000-interest-group-posted/
 date: '2007-06-23 14:56:16 -0400'
 date_gmt: '2007-06-23 18:56:16 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

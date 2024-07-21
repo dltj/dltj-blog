@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Passing on ResearcherID'
 modified: 2008-05-02T19:09:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 356
 wordpress_url: https://dltj.org/?p=356
 date: '2008-05-02 15:09:39 -0400'
 date_gmt: '2008-05-02 19:09:39 -0400'
+category: Policy
 categories:
 - Policy
 tags:

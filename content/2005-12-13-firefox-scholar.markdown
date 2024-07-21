@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Onto the Scholar's Desktop with Firefox Scholar'
+title: 'Onto the Scholar''s Desktop with Firefox Scholar'
 modified: 2005-12-13T14:47:04+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 6
 wordpress_url: http://dltj.org/?p=6
 date: '2005-12-13 09:47:04 -0500'
 date_gmt: '2005-12-13 14:47:04 -0500'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags: []

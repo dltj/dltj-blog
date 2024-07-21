@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Estimating and Understanding Big Data, Key Loggers Steal Patron Keystrokes'
 modified: 2011-02-17T11:39:12+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2647
 wordpress_url: http://dltj.org/?p=2647
 date: '2011-02-17 06:39:12 -0500'
 date_gmt: '2011-02-17 11:39:12 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

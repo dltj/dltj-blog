@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads Bonus: Statistics (Election Polls) and Statistics (World Stats)'
 modified: 2010-10-08T01:20:25+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1710
 wordpress_url: http://dltj.org/?p=1710
 date: '2010-10-07 21:20:25 -0400'
 date_gmt: '2010-10-08 01:20:25 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

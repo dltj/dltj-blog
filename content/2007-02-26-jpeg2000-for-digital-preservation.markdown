@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'JPEG2000 for Digital Preservation'
 modified: 2007-02-26T21:09:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 166
 wordpress_url: http://dltj.org/2007/02/jpeg2000-for-digital-preservation/
 date: '2007-02-26 16:09:32 -0500'
 date_gmt: '2007-02-26 21:09:32 -0500'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

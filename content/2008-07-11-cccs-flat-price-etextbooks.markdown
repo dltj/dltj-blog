@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Colorado Community College System Announces Flat-price Electronic Textbooks from Pearson Education'
 modified: 2008-07-11T13:55:28+00:00
@@ -12,6 +12,7 @@ wordpress_id: 386
 wordpress_url: https://dltj.org/?p=386
 date: '2008-07-11 09:55:28 -0400'
 date_gmt: '2008-07-11 13:55:28 -0400'
+category: Campus Technology
 categories:
 - Textbooks
 tags:

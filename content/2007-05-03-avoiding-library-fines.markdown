@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"How can I Avoid Library Fines?" -- Return Your Items!'
 modified: 2007-05-04T02:10:02+00:00
@@ -12,6 +12,7 @@ wordpress_id: 232
 wordpress_url: http://dltj.org/2007/05/avoiding-library-fines/
 date: '2007-05-03 22:10:02 -0400'
 date_gmt: '2007-05-04 02:10:02 -0400'
+category: Policy
 categories:
 - Policy
 tags:

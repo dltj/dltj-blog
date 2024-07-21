@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Google Custom Search's Planet Code4Lib as an OpenSearch Plugin'
+title: 'Google Custom Search''s Planet Code4Lib as an OpenSearch Plugin'
 modified: 2006-10-25T21:21:50+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 139
 wordpress_url: http://dltj.org/2006/10/planet-code4lib-google-custom-search-opensearch-plugin/
 date: '2006-10-25 17:21:50 -0400'
 date_gmt: '2006-10-25 21:21:50 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

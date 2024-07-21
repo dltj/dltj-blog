@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'SSL for WordPress Admin and the Problem with  XMLHttpRequest'
 modified: 2008-03-20T15:38:34+00:00
@@ -12,6 +12,7 @@ wordpress_id: 344
 wordpress_url: https://dltj.org/article/wordpress-ssl-xmlhttprequest/
 date: '2008-03-20 11:38:34 -0400'
 date_gmt: '2008-03-20 15:38:34 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

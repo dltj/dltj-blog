@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Textbook Disclosure Rules in U.S. House Bill'
 modified: 2008-02-01T03:39:53+00:00
@@ -12,6 +12,7 @@ wordpress_id: 323
 wordpress_url: http://dltj.org/article/hr4137-on-textbooks/
 date: '2008-01-31 22:39:53 -0500'
 date_gmt: '2008-02-01 03:39:53 -0500'
+category: Campus Technology
 categories:
 - Textbooks
 tags:

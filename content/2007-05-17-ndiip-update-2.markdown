@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'NDIIP Update:  Requests for Funding and Other Activities'
 modified: 2007-05-17T20:16:26+00:00
@@ -12,6 +12,7 @@ wordpress_id: 236
 wordpress_url: http://dltj.org/2007/05/ndiip-update-2/
 date: '2007-05-17 16:16:26 -0400'
 date_gmt: '2007-05-17 20:16:26 -0400'
+category: Policy
 categories:
 - Policy
 tags:

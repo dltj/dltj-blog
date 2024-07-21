@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'ALA Virtual Conference Includes Talk on Open Source in Libraries'
 modified: 2012-07-06T20:20:09+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3693
 wordpress_url: http://dltj.org/?p=3693
 date: '2012-07-06 16:20:09 -0400'
 date_gmt: '2012-07-06 20:20:09 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

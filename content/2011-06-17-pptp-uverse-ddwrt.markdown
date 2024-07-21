@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'PPTP VPN for iOS with AT&T Uverse and DD-WRT'
 modified: 2011-06-17T16:41:33+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3025
 wordpress_url: http://dltj.org/?p=3025
 date: '2011-06-17 12:41:33 -0400'
 date_gmt: '2011-06-17 16:41:33 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Legal Implications of SOPA/PROTECT-IP, Learning from Best Buy, Open Source in Medicine'
 modified: 2012-01-05T11:17:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3567
 wordpress_url: http://dltj.org/?p=3567
 date: '2012-01-05 06:17:39 -0500'
 date_gmt: '2012-01-05 11:17:39 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

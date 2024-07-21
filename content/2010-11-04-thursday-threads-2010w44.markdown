@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Thursday Threads: RDA Revolt, Google Book Search Algorithm, Google Helps Improve Web Servers, Google's Internet Traffic Hugeness'
+title: 'Thursday Threads: RDA Revolt, Google Book Search Algorithm, Google Helps Improve Web Servers, Google''s Internet Traffic Hugeness'
 modified: 2010-11-04T16:00:57+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 1829
 wordpress_url: http://dltj.org/?p=1829
 date: '2010-11-04 12:00:57 -0400'
 date_gmt: '2010-11-04 16:00:57 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

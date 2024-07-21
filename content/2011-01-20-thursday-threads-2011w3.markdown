@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Personal Book Digitizer, Status of Book Piracy, Core Elements of Description'
 modified: 2011-01-20T11:50:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2330
 wordpress_url: http://dltj.org/?p=2330
 date: '2011-01-20 06:50:44 -0500'
 date_gmt: '2011-01-20 11:50:44 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'HitchHikr Page for ALA 2007 Annual Conference'
 modified: 2007-05-09T02:37:42+00:00
@@ -12,6 +12,7 @@ wordpress_id: 233
 wordpress_url: http://dltj.org/2007/05/hitchhikr-page-for-ala-2007-annual-conference/
 date: '2007-05-08 22:37:42 -0400'
 date_gmt: '2007-05-09 02:37:42 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

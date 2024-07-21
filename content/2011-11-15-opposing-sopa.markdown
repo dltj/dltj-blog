@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'In Opposition to the Stop Online Privacy Act'
 modified: 2011-11-15T19:29:49+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3474
 wordpress_url: http://dltj.org/?p=3474
 date: '2011-11-15 14:29:49 -0500'
 date_gmt: '2011-11-15 19:29:49 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'My ALA Anaheim 2012 Schedule'
 modified: 2012-06-12T02:52:29+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3683
 wordpress_url: http://dltj.org/?p=3683
 date: '2012-06-11 22:52:29 -0400'
 date_gmt: '2012-06-12 02:52:29 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

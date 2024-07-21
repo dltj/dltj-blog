@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'My View of the NISO Patron Privacy Working Group'
 modified: 2015-06-09T21:34:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25836
 wordpress_url: http://dltj.org/?p=25836
 date: '2015-06-09 17:34:38 -0400'
 date_gmt: '2015-06-09 21:34:38 -0400'
+category: Policy
 categories:
 - Policy
 tags:

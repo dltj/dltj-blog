@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Passion Quilt Meme: Take Time to Wonder'
 modified: 2008-05-03T03:01:58+00:00
@@ -12,6 +12,7 @@ wordpress_id: 358
 wordpress_url: https://dltj.org/?p=358
 date: '2008-05-02 23:01:58 -0400'
 date_gmt: '2008-05-03 03:01:58 -0400'
+category: Personal
 categories:
 - Personal
 tags:

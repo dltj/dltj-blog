@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Can Google be Out-Googled?'
 modified: 2006-07-30T23:30:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 94
 wordpress_url: http://dltj.org/2006/07/can-google-be-out-googled/
 date: '2006-07-30 19:30:16 -0400'
 date_gmt: '2006-07-31 00:30:16 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Christensen on "Disruption in Education"'
 modified: 2006-03-20T14:00:47+00:00
@@ -12,6 +12,7 @@ wordpress_id: 28
 wordpress_url: http://dltj.org/2006/03/christensen-on-disruption-in-education/
 date: '2006-03-20 09:00:47 -0500'
 date_gmt: '2006-03-20 14:00:47 -0500'
+category: Disruption in Libraries
 categories:
 - Clayton Christensen
 - Disruption in Libraries

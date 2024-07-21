@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Links to OPAC Enhancements, Wrappers, and Replacements'
 modified: 2008-03-28T18:30:37+00:00
@@ -12,6 +12,7 @@ wordpress_id: 345
 wordpress_url: https://dltj.org/article/niso-discovery-presentation-links/
 date: '2008-03-28 14:30:37 -0400'
 date_gmt: '2008-03-28 18:30:37 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

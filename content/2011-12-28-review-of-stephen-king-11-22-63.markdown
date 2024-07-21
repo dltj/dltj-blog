@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'What Happens When History Fights Back -- A Review of "11/22/63: A Novel" by Stephen King'
 modified: 2011-12-28T21:05:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3552
 wordpress_url: http://dltj.org/?p=3552
 date: '2011-12-28 16:05:10 -0500'
 date_gmt: '2011-12-28 21:05:10 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

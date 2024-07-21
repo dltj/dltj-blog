@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Eric Schnell's Introduction to Library SOA'
+title: 'Eric Schnell''s Introduction to Library SOA'
 modified: 2007-10-17T16:16:07+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 287
 wordpress_url: http://dltj.org/2007/10/schnell-on-librarysoa/
 date: '2007-10-17 12:16:07 -0400'
 date_gmt: '2007-10-17 16:16:07 -0400'
+category: Library Technology
 categories:
 - Library SOA
 tags:

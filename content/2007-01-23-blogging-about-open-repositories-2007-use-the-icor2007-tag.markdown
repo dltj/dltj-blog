@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Blogging About Open Repositories 2007?  Use the 'icor2007' tag.'
+title: 'Blogging About Open Repositories 2007?  Use the ''icor2007'' tag.'
 modified: 2007-01-24T03:46:55+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 171
 wordpress_url: http://dltj.org/2007/01/blogging-about-open-repositories-2007-use-the-icor2007-tag/
 date: '2007-01-23 22:46:55 -0500'
 date_gmt: '2007-01-24 03:46:55 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

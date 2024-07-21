@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OAI-ORE Open Meeting, April 4 2008, Johns Hopkins University'
 modified: 2008-02-01T17:19:24+00:00
@@ -12,6 +12,7 @@ wordpress_id: 324
 wordpress_url: http://dltj.org/article/ore-open-meeting-uk/
 date: '2008-02-01 12:19:24 -0500'
 date_gmt: '2008-02-01 17:19:24 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

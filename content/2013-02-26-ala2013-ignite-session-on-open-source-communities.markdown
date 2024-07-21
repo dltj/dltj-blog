@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Vote for an ALA2013 Ignite Session on Open Source Communities'
 modified: 2013-02-26T22:41:26+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4091
 wordpress_url: http://dltj.org/?p=4091
 date: '2013-02-26 17:41:26 -0500'
 date_gmt: '2013-02-26 22:41:26 -0500'
+category: Open Source
 categories:
 - Open Source
 tags:

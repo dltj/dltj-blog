@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: '"Show Me The Code!!!" -or- It Isn't Open Source Until We Can See the Source'
+title: '"Show Me The Code!!!" -or- It Isn''t Open Source Until We Can See the Source'
 modified: 2007-07-26T14:06:24+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 263
 wordpress_url: http://dltj.org/2007/07/show-me-the-code/
 date: '2007-07-26 10:06:24 -0400'
 date_gmt: '2007-07-26 14:06:24 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

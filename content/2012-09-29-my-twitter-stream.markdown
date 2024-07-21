@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'What You'll Find in My Twitter Stream'
+title: 'What You''ll Find in My Twitter Stream'
 modified: 2012-09-30T00:34:00+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 3760
 wordpress_url: http://dltj.org/?p=3760
 date: '2012-09-29 20:34:00 -0400'
 date_gmt: '2012-09-30 00:34:00 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

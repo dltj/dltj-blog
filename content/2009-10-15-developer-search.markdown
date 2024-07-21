@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OhioLINK is Seeking Two Senior Repository Software Developers'
 modified: 2009-10-15T16:03:07+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1316
 wordpress_url: http://dltj.org/?p=1316
 date: '2009-10-15 12:03:07 -0400'
 date_gmt: '2009-10-15 16:03:07 -0400'
+category: OhioLINK
 categories:
 - OhioLINK
 tags:

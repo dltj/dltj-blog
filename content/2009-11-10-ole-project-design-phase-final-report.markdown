@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OLE Project Design Phase Final Report'
 modified: 2009-11-10T19:44:00+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1322
 wordpress_url: http://dltj.org/?p=1322
 date: '2009-11-10 14:44:00 -0500'
 date_gmt: '2009-11-10 19:44:00 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

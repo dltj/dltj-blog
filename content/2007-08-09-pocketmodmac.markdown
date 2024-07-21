@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'PocketModMac:  MacOSX PocketMod Generator Via Print Dialog'
 modified: 2007-08-09T19:24:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 270
 wordpress_url: http://dltj.org/2007/08/pocketmodmac/
 date: '2007-08-09 15:24:43 -0400'
 date_gmt: '2007-08-09 19:24:43 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

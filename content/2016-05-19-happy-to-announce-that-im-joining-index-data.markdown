@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Happy to Announce that I'm Joining Index Data'
+title: 'Happy to Announce that I''m Joining Index Data'
 modified: 2016-05-19T21:25:44+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 27236
 wordpress_url: http://dltj.org/?p=27236
 date: '2016-05-19 17:25:44 -0400'
 date_gmt: '2016-05-19 21:25:44 -0400'
+category: Personal
 categories:
 - Personal
 - Open Source

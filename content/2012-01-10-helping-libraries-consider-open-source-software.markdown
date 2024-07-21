@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Helping Libraries Consider Open Source Software'
 modified: 2012-01-11T02:31:15+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3585
 wordpress_url: http://dltj.org/?p=3585
 date: '2012-01-10 21:31:15 -0500'
 date_gmt: '2012-01-11 02:31:15 -0500'
+category: Open Source
 categories:
 - Open Source
 tags:

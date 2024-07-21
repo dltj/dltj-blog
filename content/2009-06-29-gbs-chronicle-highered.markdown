@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google Book Search Privacy, Orphan Works, and Monopoly'
 modified: 2009-06-29T12:37:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1100
 wordpress_url: http://dltj.org/?p=1100
 date: '2009-06-29 08:37:39 -0400'
 date_gmt: '2009-06-29 12:37:39 -0400'
+category: Policy
 categories:
 - Policy
 tags:

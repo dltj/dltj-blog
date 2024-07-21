@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Ann Arbor District Library Camp, 20 March 2008'
 modified: 2008-01-17T16:59:14+00:00
@@ -12,6 +12,7 @@ wordpress_id: 314
 wordpress_url: http://dltj.org/2008/01/aadl-library-camp-2008/
 date: '2008-01-17 11:59:14 -0500'
 date_gmt: '2008-01-17 15:59:14 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

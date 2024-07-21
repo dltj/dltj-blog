@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Cost of a Phone Call Drops to Near Zero'
 modified: 2008-01-28T04:01:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 316
 wordpress_url: http://dltj.org/article/gizmo-private-peering/
 date: '2008-01-27 23:01:10 -0500'
 date_gmt: '2008-01-28 04:01:10 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

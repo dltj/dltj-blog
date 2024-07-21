@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Make Plans to Attend the ResourceSync Post-Conference Tutorial at LITA Forum'
 modified: 2013-08-21T23:49:29+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4140
 wordpress_url: http://dltj.org/?p=4140
 date: '2013-08-21 19:49:29 -0400'
 date_gmt: '2013-08-21 23:49:29 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

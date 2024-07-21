@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'CDL's XTF as a Front End to Fedora'
+title: 'CDL''s XTF as a Front End to Fedora'
 modified: 2006-08-22T12:29:09+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 105
 wordpress_url: http://dltj.org/2006/08/xtf-fedora-1/
 date: '2006-08-22 08:29:09 -0400'
 date_gmt: '2006-08-22 13:29:09 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

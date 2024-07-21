@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'More About OhioLINK's Discovery Layer Desires'
+title: 'More About OhioLINK''s Discovery Layer Desires'
 modified: 2008-11-24T18:43:41+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 601
 wordpress_url: http://dltj.org/?p=601
 date: '2008-11-24 13:43:41 -0500'
 date_gmt: '2008-11-24 18:43:41 -0500'
+category: OhioLINK
 categories:
 - OhioLINK
 tags:

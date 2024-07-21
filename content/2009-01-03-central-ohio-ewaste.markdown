@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Central Ohio E-Waste Drop-off Locations'
 modified: 2009-01-04T03:44:35+00:00
@@ -12,6 +12,7 @@ wordpress_id: 647
 wordpress_url: http://dltj.org/?p=647
 date: '2009-01-03 22:44:35 -0500'
 date_gmt: '2009-01-04 03:44:35 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

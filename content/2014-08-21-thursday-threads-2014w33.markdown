@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Twitter Timeline Changes, Report on Future Library Technology, USB Security'
 modified: 2014-08-21T10:48:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 19443
 wordpress_url: http://dltj.org/?p=19443
 date: '2014-08-21 06:48:38 -0400'
 date_gmt: '2014-08-21 10:48:38 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Teaching Search, OCLC Research Library Partnership, Shelvar App'
 modified: 2011-04-14T03:38:06+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2802
 wordpress_url: http://dltj.org/?p=2802
 date: '2011-04-13 23:38:06 -0400'
 date_gmt: '2011-04-14 03:38:06 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'LC's Adoption of Silverlight -- Good Deal for Microsoft, Bad Deal for the Rest of Us'
+title: 'LC''s Adoption of Silverlight -- Good Deal for Microsoft, Bad Deal for the Rest of Us'
 modified: 2008-03-31T20:59:18+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 346
 wordpress_url: https://dltj.org/article/lc-microsoft-silverlight/
 date: '2008-03-31 16:59:18 -0400'
 date_gmt: '2008-03-31 20:59:18 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Complex World of the Textbook'
 modified: 2008-07-08T20:43:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 384
 wordpress_url: https://dltj.org/?p=384
 date: '2008-07-08 16:43:43 -0400'
 date_gmt: '2008-07-08 20:43:43 -0400'
+category: Campus Technology
 categories:
 - Textbooks
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Open Library Environment Project Picks Up the Pace'
 modified: 2009-03-30T23:34:37+00:00
@@ -12,6 +12,7 @@ wordpress_id: 835
 wordpress_url: http://dltj.org/?p=835
 date: '2009-03-30 19:34:37 -0400'
 date_gmt: '2009-03-30 23:34:37 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

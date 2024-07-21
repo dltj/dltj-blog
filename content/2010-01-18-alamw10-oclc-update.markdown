@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Interesting Bits from the OCLC Update Breakfast'
 modified: 2010-01-18T13:10:46+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1458
 wordpress_url: http://dltj.org/?p=1458
 date: '2010-01-18 08:10:46 -0500'
 date_gmt: '2010-01-18 13:10:46 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

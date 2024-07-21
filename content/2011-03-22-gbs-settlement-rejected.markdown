@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google Book Search Settlement Rejected'
 modified: 2011-03-22T21:29:15+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2737
 wordpress_url: http://dltj.org/?p=2737
 date: '2011-03-22 17:29:15 -0400'
 date_gmt: '2011-03-22 21:29:15 -0400'
+category: Policy
 categories:
 - Policy
 tags:

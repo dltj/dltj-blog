@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Downloading the ALA Annual Meeting Planner to Your Mac iCal'
 modified: 2008-05-27T14:41:55+00:00
@@ -12,6 +12,7 @@ wordpress_id: 367
 wordpress_url: http://dltj.org/?p=367
 date: '2008-05-27 10:41:55 -0400'
 date_gmt: '2008-05-27 14:41:55 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

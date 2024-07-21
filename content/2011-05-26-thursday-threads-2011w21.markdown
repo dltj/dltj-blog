@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Beyond MARC, Library-controlled DRM, Spam Study'
 modified: 2011-05-27T01:01:21+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2906
 wordpress_url: http://dltj.org/?p=2906
 date: '2011-05-26 21:01:21 -0400'
 date_gmt: '2011-05-27 01:01:21 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

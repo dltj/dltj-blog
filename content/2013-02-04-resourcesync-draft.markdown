@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'ResourceSync Specification Draft Published for Comment'
 modified: 2013-02-04T20:33:00+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4086
 wordpress_url: http://dltj.org/?p=4086
 date: '2013-02-04 15:33:00 -0500'
 date_gmt: '2013-02-04 20:33:00 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

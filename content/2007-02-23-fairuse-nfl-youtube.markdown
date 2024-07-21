@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Fair Use Versus the NFL with YouTube Caught in the Middle'
 modified: 2007-02-23T21:22:06+00:00
@@ -12,6 +12,7 @@ wordpress_id: 190
 wordpress_url: http://dltj.org/2007/02/fairuse-nfl-youtube/
 date: '2007-02-23 16:22:06 -0500'
 date_gmt: '2007-02-23 21:22:06 -0500'
+category: Policy
 categories:
 - Policy
 tags:

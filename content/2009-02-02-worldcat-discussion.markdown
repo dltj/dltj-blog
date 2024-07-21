@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'On the Role of WorldCat and -Please- Open Up the Discussion'
 modified: 2009-02-02T20:34:53+00:00
@@ -12,6 +12,7 @@ wordpress_id: 725
 wordpress_url: http://dltj.org/?p=725
 date: '2009-02-02 15:34:53 -0500'
 date_gmt: '2009-02-02 20:34:53 -0500'
+category: Policy
 categories:
 - Policy
 tags:

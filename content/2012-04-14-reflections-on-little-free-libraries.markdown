@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'But Is It a Library? -- Reflections on 'Little Free Libraries''
+title: 'But Is It a Library? -- Reflections on ''Little Free Libraries'
 modified: 2012-04-14T20:43:30+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 3655
 wordpress_url: http://dltj.org/?p=3655
 date: '2012-04-14 16:43:30 -0400'
 date_gmt: '2012-04-14 20:43:30 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

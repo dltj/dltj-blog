@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google Search Engine Adds Support for RDFa, Or Do They?'
 modified: 2009-05-13T02:38:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 934
 wordpress_url: http://dltj.org/?p=934
 date: '2009-05-12 22:38:27 -0400'
 date_gmt: '2009-05-13 02:38:27 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Code4Lib Journal Issue #20 Published; My Editorial: "It is Volunteers All the Way Down..."'
 modified: 2013-04-17T17:51:00+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4108
 wordpress_url: http://dltj.org/?p=4108
 date: '2013-04-17 13:51:00 -0400'
 date_gmt: '2013-04-17 17:51:00 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

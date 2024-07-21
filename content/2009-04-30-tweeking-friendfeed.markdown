@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Tweaking the New FriendFeed Interface'
 modified: 2009-04-30T20:15:59+00:00
@@ -12,6 +12,7 @@ wordpress_id: 912
 wordpress_url: http://dltj.org/?p=912
 date: '2009-04-30 16:15:59 -0400'
 date_gmt: '2009-04-30 20:15:59 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

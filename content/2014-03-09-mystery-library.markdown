@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Mystery in the Library'
 modified: 2014-03-09T22:13:28+00:00
@@ -12,6 +12,7 @@ wordpress_id: 6638
 wordpress_url: http://dltj.org/?p=6638
 date: '2014-03-09 18:13:28 -0400'
 date_gmt: '2014-03-09 22:13:28 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

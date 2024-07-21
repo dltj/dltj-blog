@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'OCLC Review Board's Blog'
+title: 'OCLC Review Board''s Blog'
 modified: 2009-02-10T14:57:11+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 740
 wordpress_url: http://dltj.org/?p=740
 date: '2009-02-10 09:57:11 -0500'
 date_gmt: '2009-02-10 14:57:11 -0500'
+category: Policy
 categories:
 - Policy
 tags:

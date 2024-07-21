@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thanks to Summer of Code applicants'
 modified: 2006-05-13T16:02:12+00:00
@@ -12,6 +12,7 @@ wordpress_id: 53
 wordpress_url: http://dltj.org/2006/05/soc-thank-you/
 date: '2006-05-13 12:02:12 -0400'
 date_gmt: '2006-05-13 17:02:12 -0400'
+category: Library Technology
 categories:
 - DRC
 - JPEG2000

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"Have you seen AccessMyLibrary?"'
 modified: 2006-04-26T12:20:00+00:00
@@ -12,6 +12,7 @@ wordpress_id: 46
 wordpress_url: http://dltj.org/2006/04/access-my-library/
 date: '2006-04-26 08:20:00 -0400'
 date_gmt: '2006-04-26 13:20:00 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags: []

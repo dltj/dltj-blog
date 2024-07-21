@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Institution-wide ORCID Adoption Test in U.K. Shows Promise'
 modified: 2015-05-22T21:24:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25677
 wordpress_url: http://dltj.org/?p=25677
 date: '2015-05-22 17:24:19 -0400'
 date_gmt: '2015-05-22 21:24:19 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Security Implications of Teaching Librarians to Program'
 modified: 2012-10-28T20:57:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3774
 wordpress_url: http://dltj.org/?p=3774
 date: '2012-10-28 16:57:38 -0400'
 date_gmt: '2012-10-28 20:57:38 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

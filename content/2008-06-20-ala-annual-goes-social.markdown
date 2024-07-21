@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'ALA Annual Goes Social'
 modified: 2008-06-20T19:46:53+00:00
@@ -12,6 +12,7 @@ wordpress_id: 379
 wordpress_url: https://dltj.org/?p=379
 date: '2008-06-20 15:46:53 -0400'
 date_gmt: '2008-06-20 19:46:53 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

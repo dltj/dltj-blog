@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Challenges and Rewards of Open Source'
 modified: 2011-03-09T15:52:58+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2697
 wordpress_url: http://dltj.org/?p=2697
 date: '2011-03-09 10:52:58 -0500'
 date_gmt: '2011-03-09 15:52:58 -0500'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

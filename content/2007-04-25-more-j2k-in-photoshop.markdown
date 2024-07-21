@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Following Up on Adobe Photoshop and JPEG2000'
 modified: 2007-04-25T19:42:28+00:00
@@ -12,6 +12,7 @@ wordpress_id: 214
 wordpress_url: http://dltj.org/2007/04/more-j2k-in-photoshop/
 date: '2007-04-25 15:42:28 -0400'
 date_gmt: '2007-04-25 19:42:28 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

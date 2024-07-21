@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Google's Watching What We're Doing -- At Least In Aggregate'
+title: 'Google''s Watching What We''re Doing -- At Least In Aggregate'
 modified: 2009-08-27T01:00:54+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 1218
 wordpress_url: http://dltj.org/?p=1218
 date: '2009-08-26 21:00:54 -0400'
 date_gmt: '2009-08-27 01:00:54 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

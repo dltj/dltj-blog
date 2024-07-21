@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Google Scholar Coverage, Effective Meetings, Librarians as Obstacles, Cable TV'
 modified: 2010-11-25T16:43:03+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1869
 wordpress_url: http://dltj.org/?p=1869
 date: '2010-11-25 11:43:03 -0500'
 date_gmt: '2010-11-25 16:43:03 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OhioLINK Selects the Affero License for DRC Development'
 modified: 2006-04-25T19:45:54+00:00
@@ -12,6 +12,7 @@ wordpress_id: 45
 wordpress_url: http://dltj.org/2006/04/affero-license/
 date: '2006-04-25 15:45:54 -0400'
 date_gmt: '2006-04-25 20:45:54 -0400'
+category: Library Technology
 categories:
 - DRC
 tags: []

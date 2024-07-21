@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Refining Data, Ebook Costs, Open Bibliographic Data, Copyright Infringement'
 modified: 2010-11-12T03:20:20+00:00
@@ -15,6 +15,7 @@ wordpress_id: 1838
 wordpress_url: http://dltj.org/?p=1838
 date: '2010-11-11 22:20:20 -0500'
 date_gmt: '2010-11-12 03:20:20 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

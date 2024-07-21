@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Advancing Patron Privacy on Vendor Systems with a Shared Understanding'
 modified: 2015-05-26T13:59:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25680
 wordpress_url: http://dltj.org/?p=25680
 date: '2015-05-26 09:59:10 -0400'
 date_gmt: '2015-05-26 13:59:10 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

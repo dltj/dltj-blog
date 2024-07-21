@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google Sets Its Sights On Hosting Knowledge'
 modified: 2007-12-15T05:45:33+00:00
@@ -12,6 +12,7 @@ wordpress_id: 304
 wordpress_url: http://dltj.org/2007/12/google-knol/
 date: '2007-12-15 00:45:33 -0500'
 date_gmt: '2007-12-15 04:45:33 -0500'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

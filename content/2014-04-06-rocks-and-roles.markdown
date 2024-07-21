@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Rocks and Roles'
 modified: 2014-04-06T17:51:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 7776
 wordpress_url: http://dltj.org/?p=7776
 date: '2014-04-06 13:51:38 -0400'
 date_gmt: '2014-04-06 17:51:38 -0400'
+category: Personal
 categories:
 - Personal
 tags: []

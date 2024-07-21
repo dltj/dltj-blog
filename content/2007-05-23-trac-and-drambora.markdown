@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Planning a digital preservation assessment using TRAC:CC and DRAMBORA'
 modified: 2007-05-23T20:06:51+00:00
@@ -12,6 +12,7 @@ wordpress_id: 241
 wordpress_url: http://dltj.org/2007/05/trac-and-drambora/
 date: '2007-05-23 16:06:51 -0400'
 date_gmt: '2007-05-23 20:06:51 -0400'
+category: Library Technology
 categories:
 - DRC
 - Policy

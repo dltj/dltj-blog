@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OhioLINK Joins the Google Summer of Code'
 modified: 2006-04-17T18:57:37+00:00
@@ -12,6 +12,7 @@ wordpress_id: 43
 wordpress_url: http://dltj.org/2006/04/google-soc/
 date: '2006-04-17 14:57:37 -0400'
 date_gmt: '2006-04-17 19:57:37 -0400'
+category: Google Summer of Code
 categories:
 - OhioLINK
 - Google Summer of Code

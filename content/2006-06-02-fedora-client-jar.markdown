@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Client JAR for FEDORA Server Access'
 modified: 2006-06-02T17:23:30+00:00
@@ -12,6 +12,7 @@ wordpress_id: 62
 wordpress_url: http://dltj.org/2006/06/fedora-client-jar/
 date: '2006-06-02 13:23:30 -0400'
 date_gmt: '2006-06-02 18:23:30 -0400'
+category: Library Technology
 categories:
 - Fedora
 tags:

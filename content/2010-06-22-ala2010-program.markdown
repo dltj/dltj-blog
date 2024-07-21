@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"What Is Your Library Doing about Emerging Technologies?"'
 modified: 2010-06-23T01:38:06+00:00
@@ -30,6 +30,7 @@ wordpress_id: 1638
 wordpress_url: http://dltj.org/?p=1638
 date: '2010-06-22 21:38:06 -0400'
 date_gmt: '2010-06-23 01:38:06 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

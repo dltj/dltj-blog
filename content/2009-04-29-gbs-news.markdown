@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Intervention by IA Denied; Deadline for Objections Extended'
 modified: 2009-04-29T15:46:59+00:00
@@ -12,6 +12,7 @@ wordpress_id: 901
 wordpress_url: http://dltj.org/?p=901
 date: '2009-04-29 11:46:59 -0400'
 date_gmt: '2009-04-29 15:46:59 -0400'
+category: Policy
 categories:
 - Policy
 tags:

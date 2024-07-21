@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Near Consensus for Tag "fedora-dr"'
 modified: 2006-05-19T19:46:46+00:00
@@ -12,6 +12,7 @@ wordpress_id: 60
 wordpress_url: http://dltj.org/2006/05/fedora-dr/
 date: '2006-05-19 15:46:46 -0400'
 date_gmt: '2006-05-19 20:46:46 -0400'
+category: Library Technology
 categories:
 - Fedora
 tags:

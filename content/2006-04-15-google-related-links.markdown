@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Google's "Related Links" as a library's "Find More Items Like This"?'
+title: 'Google''s "Related Links" as a library''s "Find More Items Like This"?'
 modified: 2006-04-15T19:58:56+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 41
 wordpress_url: http://dltj.org/2006/04/google-related-links/
 date: '2006-04-15 15:58:56 -0400'
 date_gmt: '2006-04-15 20:58:56 -0400'
+category: Disruption in Libraries
 categories:
 - Linking Technologies
 - Disruption in Libraries

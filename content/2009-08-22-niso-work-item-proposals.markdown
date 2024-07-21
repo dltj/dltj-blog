@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Proposals for NISO Work Items: Physical Delivery Best Practices and Standardized Markup for Journal Articles'
 modified: 2009-08-22T21:17:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1213
 wordpress_url: http://dltj.org/?p=1213
 date: '2009-08-22 17:17:19 -0400'
 date_gmt: '2009-08-22 21:17:19 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

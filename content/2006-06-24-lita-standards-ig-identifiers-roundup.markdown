@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"Identifiers Roundup" &mdash; LITA Standards Interest Group in conjunction with NISO'
 modified: 2006-06-25T01:18:13+00:00
@@ -12,6 +12,7 @@ wordpress_id: 78
 wordpress_url: http://dltj.org/2006/06/lita-standards-ig-identifiers-roundup/
 date: '2006-06-24 21:18:13 -0400'
 date_gmt: '2006-06-25 02:18:13 -0400'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

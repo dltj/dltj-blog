@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: History and How-To of Search, DPLA Update, Searching for Jim Gray'
 modified: 2011-07-08T02:01:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3056
 wordpress_url: http://dltj.org/?p=3056
 date: '2011-07-07 22:01:45 -0400'
 date_gmt: '2011-07-08 02:01:45 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

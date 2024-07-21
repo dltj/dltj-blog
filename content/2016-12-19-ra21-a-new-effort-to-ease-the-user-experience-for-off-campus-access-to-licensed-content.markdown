@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'RA21: A new effort to ease the user experience for off-campus access to licensed content'
 modified: 2016-12-19T19:35:07+00:00
@@ -12,6 +12,7 @@ wordpress_id: 27664
 wordpress_url: http://dltj.org/?p=27664
 date: '2016-12-19 14:35:07 -0500'
 date_gmt: '2016-12-19 19:35:07 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

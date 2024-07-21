@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Soundprint's 'Who Needs Libraries?''
+title: 'Soundprint''s ''Who Needs Libraries?'
 modified: 2008-02-01T20:15:49+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 325
 wordpress_url: http://dltj.org/article/who-needs-libraries/
 date: '2008-02-01 15:15:49 -0500'
 date_gmt: '2008-02-01 20:15:49 -0500'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

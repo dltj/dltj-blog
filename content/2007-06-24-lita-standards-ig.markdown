@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Notes from the LITA Standards IG meeting'
 modified: 2007-06-24T17:17:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 260
 wordpress_url: http://dltj.org/2007/06/lita-standards-ig/
 date: '2007-06-24 13:17:32 -0400'
 date_gmt: '2007-06-24 17:17:32 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'My O'Reilly Wish List'
+title: 'My O''Reilly Wish List'
 modified: 2011-02-20T20:58:43+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 2505
 wordpress_url: http://dltj.org/?p=2505
 date: '2011-02-20 15:58:43 -0500'
 date_gmt: '2011-02-20 20:58:43 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

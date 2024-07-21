@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Proposals Now Being Accepted for the Ohio Educational Technology Conference, February 2010'
 modified: 2009-09-01T22:02:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1243
 wordpress_url: http://dltj.org/?p=1243
 date: '2009-09-01 18:02:16 -0400'
 date_gmt: '2009-09-01 22:02:16 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'DLTJ Updated to WordPress 2.5'
 modified: 2008-04-04T21:07:20+00:00
@@ -12,6 +12,7 @@ wordpress_id: 347
 wordpress_url: http://dltj.org/article/dltj-updated-to-wordpress-25/
 date: '2008-04-04 17:07:20 -0400'
 date_gmt: '2008-04-04 21:07:20 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Kindle Library Lending, Ebooks #1 in Sales, Recommendation Engines'
 modified: 2011-04-21T07:10:25+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2811
 wordpress_url: http://dltj.org/?p=2811
 date: '2011-04-21 03:10:25 -0400'
 date_gmt: '2011-04-21 07:10:25 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

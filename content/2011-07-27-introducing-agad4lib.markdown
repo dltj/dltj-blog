@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Teaching Search Engine Literacy with A Google A Day'
 modified: 2011-07-27T19:36:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3115
 wordpress_url: http://dltj.org/?p=3115
 date: '2011-07-27 15:36:39 -0400'
 date_gmt: '2011-07-27 19:36:39 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

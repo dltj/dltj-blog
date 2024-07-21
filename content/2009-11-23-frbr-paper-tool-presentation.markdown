@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Presentation Announcement:  Re-Imagining the Bibliographic Universe -- FRBR, Physics and the World Wide Web'
 modified: 2009-11-23T19:31:01+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1342
 wordpress_url: http://dltj.org/?p=1342
 date: '2009-11-23 14:31:01 -0500'
 date_gmt: '2009-11-23 19:31:01 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

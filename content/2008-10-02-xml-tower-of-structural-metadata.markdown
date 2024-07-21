@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'XML Tower of Structural Metadata'
 modified: 2008-10-02T14:24:12+00:00
@@ -12,6 +12,7 @@ wordpress_id: 522
 wordpress_url: http://dltj.org/?p=522
 date: '2008-10-02 10:24:12 -0400'
 date_gmt: '2008-10-02 14:24:12 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

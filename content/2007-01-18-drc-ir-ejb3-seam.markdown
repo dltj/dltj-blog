@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Building an Institutional Repository Interface Using EJB3 and JBoss Seam'
 modified: 2007-01-19T04:00:49+00:00
@@ -12,6 +12,7 @@ wordpress_id: 167
 wordpress_url: http://dltj.org/2007/01/drc-ir-ejb3-seam/
 date: '2007-01-18 23:00:49 -0500'
 date_gmt: '2007-01-19 04:00:49 -0500'
+category: Library Technology
 categories:
 - DRC
 - Fedora

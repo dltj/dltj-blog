@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Thursday Threads: Gobs of Video, Memento Submitted, Everybody's Digital, and Cell Phone as Credit Card'
+title: 'Thursday Threads: Gobs of Video, Memento Submitted, Everybody''s Digital, and Cell Phone as Credit Card'
 modified: 2010-11-18T22:11:05+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 1865
 wordpress_url: http://dltj.org/?p=1865
 date: '2010-11-18 17:11:05 -0500'
 date_gmt: '2010-11-18 22:11:05 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

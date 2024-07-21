@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Seeking Information about Regional Digitization Centers'
 modified: 2007-05-18T20:35:48+00:00
@@ -12,6 +12,7 @@ wordpress_id: 237
 wordpress_url: http://dltj.org/2007/05/seeking-information-about-regional-digitization-centers/
 date: '2007-05-18 16:35:48 -0400'
 date_gmt: '2007-05-18 20:35:48 -0400'
+category: Economies of Scale
 categories:
 - OhioLINK
 - Economies of Scale

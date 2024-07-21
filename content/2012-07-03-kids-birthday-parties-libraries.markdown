@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Kids Birthday Parties in Libraries?'
 modified: 2012-07-03T20:21:49+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3690
 wordpress_url: http://dltj.org/?p=3690
 date: '2012-07-03 16:21:49 -0400'
 date_gmt: '2012-07-03 20:21:49 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

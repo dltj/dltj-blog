@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Analysis of Google Scholar and Google Books'
 modified: 2007-08-15T20:34:29+00:00
@@ -12,6 +12,7 @@ wordpress_id: 275
 wordpress_url: http://dltj.org/2007/08/google-scholar-and-books/
 date: '2007-08-15 16:34:29 -0400'
 date_gmt: '2007-08-15 20:34:29 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

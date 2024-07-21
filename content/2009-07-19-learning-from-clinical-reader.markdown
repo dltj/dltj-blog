@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'On the Pitfalls of Social Media: Learning from Clinical Reader'
 modified: 2009-07-20T03:07:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1182
 wordpress_url: http://dltj.org/?p=1182
 date: '2009-07-19 23:07:56 -0400'
 date_gmt: '2009-07-20 03:07:56 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

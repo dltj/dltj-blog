@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'A Note to ILS Vendors:  Can't We All Just Get Along?'
+title: 'A Note to ILS Vendors:  Can''t We All Just Get Along?'
 modified: 2008-06-16T15:29:43+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 377
 wordpress_url: https://dltj.org/?p=377
 date: '2008-06-16 11:29:43 -0400'
 date_gmt: '2008-06-16 15:29:43 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

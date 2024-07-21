@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Friday Followups: RDA Revolt and Cable TV vs. Internet Streaming'
 modified: 2010-12-10T20:21:11+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1888
 wordpress_url: http://dltj.org/?p=1888
 date: '2010-12-10 15:21:11 -0500'
 date_gmt: '2010-12-10 20:21:11 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

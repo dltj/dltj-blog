@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Access Management and Provisioning Technology'
 modified: 2006-07-18T18:21:41+00:00
@@ -12,6 +12,7 @@ wordpress_id: 90
 wordpress_url: http://dltj.org/2006/07/access-management-and-provisioning-technology/
 date: '2006-07-18 14:21:41 -0400'
 date_gmt: '2006-07-18 19:21:41 -0400'
+category: Library Technology
 categories:
 - Fedora
 - Library SOA

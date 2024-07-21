@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Interesting Google Book Search Settlement Bits in Advance of Thursday's Fairness Hearing'
+title: 'Interesting Google Book Search Settlement Bits in Advance of Thursday''s Fairness Hearing'
 modified: 2010-02-16T02:22:04+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 1529
 wordpress_url: http://dltj.org/?p=1529
 date: '2010-02-15 21:22:04 -0500'
 date_gmt: '2010-02-16 02:22:04 -0500'
+category: Policy
 categories:
 - Policy
 tags:

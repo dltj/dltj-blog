@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Undergraduates Own More Laptops than Desktops'
 modified: 2007-09-18T14:45:00+00:00
@@ -12,6 +12,7 @@ wordpress_id: 279
 wordpress_url: http://dltj.org/2007/09/laptop-vs-desktop/
 date: '2007-09-18 10:45:00 -0400'
 date_gmt: '2007-09-18 14:45:00 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

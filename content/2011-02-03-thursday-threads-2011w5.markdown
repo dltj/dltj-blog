@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: So-called "Internet Kill-switch", IP address exhaustion, demographics of P2P piracy'
 modified: 2011-02-03T11:53:01+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2525
 wordpress_url: http://dltj.org/?p=2525
 date: '2011-02-03 06:53:01 -0500'
 date_gmt: '2011-02-03 11:53:01 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

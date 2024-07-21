@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Unconference Experiment at ALA Annual 2009'
 modified: 2009-02-12T00:53:51+00:00
@@ -12,6 +12,7 @@ wordpress_id: 745
 wordpress_url: http://dltj.org/?p=745
 date: '2009-02-11 19:53:51 -0500'
 date_gmt: '2009-02-12 00:53:51 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

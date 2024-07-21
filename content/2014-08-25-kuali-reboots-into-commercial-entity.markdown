@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Kuali Reboots Itself into a Commercial Entity'
 modified: 2014-08-25T14:10:18+00:00
@@ -12,6 +12,7 @@ wordpress_id: 19587
 wordpress_url: http://dltj.org/?p=19587
 date: '2014-08-25 10:10:18 -0400'
 date_gmt: '2014-08-25 14:10:18 -0400'
+category: Open Source
 categories:
 - Open Source
 tags:

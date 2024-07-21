@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Clay Shirky on the Need for Better Information Filters'
 modified: 2008-10-06T02:56:42+00:00
@@ -12,6 +12,7 @@ wordpress_id: 528
 wordpress_url: http://dltj.org/?p=528
 date: '2008-10-05 22:56:42 -0400'
 date_gmt: '2008-10-06 02:56:42 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

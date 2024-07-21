@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'OCLC's WorldCat Local "Quick Start"'
+title: 'OCLC''s WorldCat Local "Quick Start"'
 modified: 2009-04-29T20:48:03+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 905
 wordpress_url: http://dltj.org/?p=905
 date: '2009-04-29 16:48:03 -0400'
 date_gmt: '2009-04-29 20:48:03 -0400'
+category: Economies of Scale
 categories:
 - Economies of Scale
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Dr. Michael Wesch to Give Keynote at LLT 2009'
 modified: 2009-01-15T20:59:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 664
 wordpress_url: http://dltj.org/?p=664
 date: '2009-01-15 15:59:19 -0500'
 date_gmt: '2009-01-15 20:59:19 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

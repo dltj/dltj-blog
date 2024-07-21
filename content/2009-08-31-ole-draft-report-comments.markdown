@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'A Thread of Comments on the OLE Project Draft Report'
 modified: 2009-09-01T00:50:18+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1234
 wordpress_url: http://dltj.org/?p=1234
 date: '2009-08-31 20:50:18 -0400'
 date_gmt: '2009-09-01 00:50:18 -0400'
+category: Library Technology
 categories:
 - Library SOA
 tags:

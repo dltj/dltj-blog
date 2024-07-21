@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'ODCE2008 Preliminary Program, Registration Now Available'
 modified: 2007-12-17T23:02:50+00:00
@@ -12,6 +12,7 @@ wordpress_id: 305
 wordpress_url: http://dltj.org/2007/12/odce2008-registration/
 date: '2007-12-17 18:02:50 -0500'
 date_gmt: '2007-12-17 22:02:50 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

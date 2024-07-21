@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Marketing Malpractice'
 modified: 2005-12-12T16:42:49+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3
 wordpress_url: http://dltj.org/?p=3
 date: '2005-12-12 11:42:49 -0500'
 date_gmt: '2005-12-12 16:42:49 -0500'
+category: Clayton Christensen
 categories:
 - Clayton Christensen
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Campaign Contributions and Judiciary Committee Votes on SOPA (and a Plug for Rootstrikers)'
 modified: 2011-12-17T03:08:02+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3510
 wordpress_url: http://dltj.org/?p=3510
 date: '2011-12-16 22:08:02 -0500'
 date_gmt: '2011-12-17 03:08:02 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

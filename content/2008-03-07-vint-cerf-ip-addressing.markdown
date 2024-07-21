@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Vint Cerf on the Origins of 32-bit IP Addressing'
 modified: 2008-03-08T03:55:42+00:00
@@ -12,6 +12,7 @@ wordpress_id: 337
 wordpress_url: https://dltj.org/article/vint-cerf-ip-addressing/
 date: '2008-03-07 22:55:42 -0500'
 date_gmt: '2008-03-08 03:55:42 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

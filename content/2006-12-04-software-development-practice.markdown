@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Traditional Development/Integration/Staging/Production Practice for Software Development'
 modified: 2006-12-05T02:20:53+00:00
@@ -12,6 +12,7 @@ wordpress_id: 147
 wordpress_url: http://dltj.org/2006/12/software-development-practice/
 date: '2006-12-04 21:20:53 -0500'
 date_gmt: '2006-12-05 02:20:53 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

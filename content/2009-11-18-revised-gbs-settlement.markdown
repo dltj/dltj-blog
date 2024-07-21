@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Revised Google Book Search Settlement from a Library Perspective'
 modified: 2009-11-19T01:02:14+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1337
 wordpress_url: http://dltj.org/?p=1337
 date: '2009-11-18 20:02:14 -0500'
 date_gmt: '2009-11-19 01:02:14 -0500'
+category: Policy
 categories:
 - Policy
 tags:

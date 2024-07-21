@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'NELLCO's Universal Search Solution Project'
+title: 'NELLCO''s Universal Search Solution Project'
 modified: 2007-11-29T18:59:15+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 298
 wordpress_url: http://dltj.org/2007/11/nellco-uss/
 date: '2007-11-29 13:59:15 -0500'
 date_gmt: '2007-11-29 17:59:15 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

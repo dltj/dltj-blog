@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Real Life Example of Creative Commons License Applied to MARC Records'
 modified: 2011-03-18T16:45:06+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2727
 wordpress_url: http://dltj.org/?p=2727
 date: '2011-03-18 12:45:06 -0400'
 date_gmt: '2011-03-18 16:45:06 -0400'
+category: Policy
 categories:
 - Policy
 tags:

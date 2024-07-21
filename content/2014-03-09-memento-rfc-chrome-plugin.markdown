@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Memento: An RFC and a Chrome Plugin'
 modified: 2014-03-10T00:19:11+00:00
@@ -12,6 +12,7 @@ wordpress_id: 6643
 wordpress_url: http://dltj.org/?p=6643
 date: '2014-03-09 20:19:11 -0400'
 date_gmt: '2014-03-10 00:19:11 -0400'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

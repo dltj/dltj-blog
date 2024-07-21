@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Call for Papers: 2nd Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)'
 modified: 2014-06-01T01:09:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 13930
 wordpress_url: http://dltj.org/?p=13930
 date: '2014-05-31 21:09:39 -0400'
 date_gmt: '2014-06-01 01:09:39 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

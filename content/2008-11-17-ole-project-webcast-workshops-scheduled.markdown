@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OLE Project Webcast, Workshops Scheduled'
 modified: 2008-11-17T16:32:35+00:00
@@ -12,6 +12,7 @@ wordpress_id: 588
 wordpress_url: http://dltj.org/?p=588
 date: '2008-11-17 11:32:35 -0500'
 date_gmt: '2008-11-17 16:32:35 -0500'
+category: Library Technology
 categories:
 - Library SOA
 tags:

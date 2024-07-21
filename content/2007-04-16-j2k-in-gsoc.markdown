@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'JPEG2000 Activity in the Google Summer of Code'
 modified: 2007-04-16T14:24:46+00:00
@@ -12,6 +12,7 @@ wordpress_id: 210
 wordpress_url: http://dltj.org/2007/04/j2k-in-gsoc/
 date: '2007-04-16 10:24:46 -0400'
 date_gmt: '2007-04-16 14:24:46 -0400'
+category: Google Summer of Code
 categories:
 - JPEG2000
 - Google Summer of Code

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Separating Configuration from Code in CollectionSpace'
 modified: 2015-12-01T01:58:14+00:00
@@ -12,6 +12,7 @@ wordpress_id: 26878
 wordpress_url: http://dltj.org/?p=26878
 date: '2015-11-30 20:58:14 -0500'
 date_gmt: '2015-12-01 01:58:14 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

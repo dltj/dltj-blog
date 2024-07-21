@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'AJAX-based Video Editing Tool'
 modified: 2006-04-05T20:22:58+00:00
@@ -12,6 +12,7 @@ wordpress_id: 36
 wordpress_url: http://dltj.org/2006/04/ajax-video-editing/
 date: '2006-04-05 16:22:58 -0400'
 date_gmt: '2006-04-05 21:22:58 -0400'
+category: Library Technology
 categories:
 - Blue Sky
 - Unified Content Repository

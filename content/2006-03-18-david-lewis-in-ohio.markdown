@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'David Lewis in Ohio'
 modified: 2006-03-18T16:56:37+00:00
@@ -12,6 +12,7 @@ wordpress_id: 27
 wordpress_url: http://dltj.org/2006/03/david-lewis-in-ohio/
 date: '2006-03-18 11:56:37 -0500'
 date_gmt: '2006-03-18 16:56:37 -0500'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

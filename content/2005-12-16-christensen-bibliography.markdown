@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Bibliography of Christensen's "Disruptive Technology" on Libraries and Higher Education'
+title: 'Bibliography of Christensen''s "Disruptive Technology" on Libraries and Higher Education'
 modified: 2005-12-16T14:50:26+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 7
 wordpress_url: http://dltj.org/?p=7
 date: '2005-12-16 09:50:26 -0500'
 date_gmt: '2005-12-16 14:50:26 -0500'
+category: Clayton Christensen
 categories:
 - Clayton Christensen
 tags: []

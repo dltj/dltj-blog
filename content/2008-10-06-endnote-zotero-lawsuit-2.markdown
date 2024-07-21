@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Updates on the EndNote/Zotero Lawsuit'
 modified: 2008-10-06T15:42:17+00:00
@@ -12,6 +12,7 @@ wordpress_id: 535
 wordpress_url: http://dltj.org/?p=535
 date: '2008-10-06 11:42:17 -0400'
 date_gmt: '2008-10-06 15:42:17 -0400'
+category: Policy
 categories:
 - Policy
 tags:

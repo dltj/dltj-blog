@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'IETF May Form Working Group on "Reputation Services"'
 modified: 2011-10-04T01:58:18+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3426
 wordpress_url: http://dltj.org/?p=3426
 date: '2011-10-03 21:58:18 -0400'
 date_gmt: '2011-10-04 01:58:18 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

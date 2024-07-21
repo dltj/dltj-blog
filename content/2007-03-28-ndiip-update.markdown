@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'NDIIP Funding Statement by the Librarian of Congress'
 modified: 2007-03-28T23:55:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 200
 wordpress_url: http://dltj.org/2007/03/ndiip-update/
 date: '2007-03-28 19:55:32 -0400'
 date_gmt: '2007-03-29 00:55:32 -0400'
+category: Policy
 categories:
 - Policy
 tags:

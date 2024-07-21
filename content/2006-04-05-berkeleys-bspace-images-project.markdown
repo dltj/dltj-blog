@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Berkeley's "bSpace Images" project'
+title: 'Berkeley''s "bSpace Images" project'
 modified: 2006-04-05T17:49:36+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 34
 wordpress_url: http://dltj.org/2006/04/berkeleys-bspace-images-project/
 date: '2006-04-05 13:49:36 -0400'
 date_gmt: '2006-04-05 18:49:36 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

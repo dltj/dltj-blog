@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Clarification Offered for "Technology: The textbook of the future" in Nature'
 modified: 2009-04-07T19:32:59+00:00
@@ -12,6 +12,7 @@ wordpress_id: 855
 wordpress_url: http://dltj.org/?p=855
 date: '2009-04-07 15:32:59 -0400'
 date_gmt: '2009-04-07 19:32:59 -0400'
+category: Campus Technology
 categories:
 - Textbooks
 tags:

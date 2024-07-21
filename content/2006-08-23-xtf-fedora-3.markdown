@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'XTF and FEDORA &mdash; Comments from the Community'
 modified: 2006-08-23T23:29:22+00:00
@@ -12,6 +12,7 @@ wordpress_id: 108
 wordpress_url: http://dltj.org/2006/08/xtf-fedora-3/
 date: '2006-08-23 19:29:22 -0400'
 date_gmt: '2006-08-24 00:29:22 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

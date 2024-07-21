@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Is JPEG Good Enough for Archival Masters?'
 modified: 2008-02-06T03:51:24+00:00
@@ -12,6 +12,7 @@ wordpress_id: 326
 wordpress_url: http://dltj.org/article/jpeg-as-master/
 date: '2008-02-05 22:51:24 -0500'
 date_gmt: '2008-02-06 03:51:24 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

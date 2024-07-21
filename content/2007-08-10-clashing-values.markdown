@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Educational Patents, Open Access Journals, and Clashing Values'
 modified: 2007-08-10T16:17:40+00:00
@@ -12,6 +12,7 @@ wordpress_id: 158
 wordpress_url: http://dltj.org/2006/12/clashing-values/
 date: '2007-08-10 12:17:40 -0400'
 date_gmt: '2007-08-10 16:17:40 -0400'
+category: Policy
 categories:
 - Policy
 tags:

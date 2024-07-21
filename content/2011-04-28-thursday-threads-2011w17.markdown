@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Cloud Computing and Data Centers -- Amazon, Facebook, and Google'
 modified: 2011-04-28T10:22:29+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2831
 wordpress_url: http://dltj.org/?p=2831
 date: '2011-04-28 06:22:29 -0400'
 date_gmt: '2011-04-28 10:22:29 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'LANL Releases Open Source JPEG2000 Image Server'
 modified: 2008-09-16T15:38:48+00:00
@@ -12,6 +12,7 @@ wordpress_id: 490
 wordpress_url: http://dltj.org/?p=490
 date: '2008-09-16 11:38:48 -0400'
 date_gmt: '2008-09-16 15:38:48 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

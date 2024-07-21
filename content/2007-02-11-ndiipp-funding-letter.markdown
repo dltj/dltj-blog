@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'To:  Ohio's Senators; Re: Proposed cuts to the NDIIPP'
+title: 'To:  Ohio''s Senators; Re: Proposed cuts to the NDIIPP'
 modified: 2007-02-12T03:39:00+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 180
 wordpress_url: http://dltj.org/2007/02/ndiipp-funding-letter/
 date: '2007-02-11 22:39:00 -0500'
 date_gmt: '2007-02-12 03:39:00 -0500'
+category: Policy
 categories:
 - Policy
 tags:

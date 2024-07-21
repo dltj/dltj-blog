@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Advocates of the Balance Between the Rights of Intellectual Property Owners and the Rights of Information Users'
 modified: 2007-12-13T22:29:07+00:00
@@ -12,6 +12,7 @@ wordpress_id: 301
 wordpress_url: http://dltj.org/2007/12/ala-code-changes/
 date: '2007-12-13 17:29:07 -0500'
 date_gmt: '2007-12-13 21:29:07 -0500'
+category: Policy
 categories:
 - Policy
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Stop SOPA and Protect-IP'
 modified: 2012-01-18T15:02:03+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3605
 wordpress_url: http://dltj.org/?p=3605
 date: '2012-01-18 10:02:03 -0500'
 date_gmt: '2012-01-18 15:02:03 -0500'
+category: Policy
 categories:
 - Policy
 tags:

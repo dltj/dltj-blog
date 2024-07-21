@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Want to buy a can opener?'
 modified: 2016-11-25T13:25:22+00:00
@@ -12,6 +12,7 @@ wordpress_id: 27649
 wordpress_url: http://dltj.org/?p=27649
 date: '2016-11-25 08:25:22 -0500'
 date_gmt: '2016-11-25 13:25:22 -0500'
+category: Personal
 categories:
 - Personal
 tags:

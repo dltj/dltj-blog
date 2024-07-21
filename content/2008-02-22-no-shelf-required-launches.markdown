@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'New Blog for Ebooks in Libraries:  "No Shelf Required"'
 modified: 2008-02-22T18:43:46+00:00
@@ -12,6 +12,7 @@ wordpress_id: 333
 wordpress_url: https://dltj.org/article/no-shelf-required-launches/
 date: '2008-02-22 13:43:46 -0500'
 date_gmt: '2008-02-22 18:43:46 -0500'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

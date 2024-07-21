@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Machine-Meaningful Web Content and Successful IPv6 Test'
 modified: 2011-06-09T10:23:07+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2946
 wordpress_url: http://dltj.org/?p=2946
 date: '2011-06-09 06:23:07 -0400'
 date_gmt: '2011-06-09 10:23:07 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Durham Statement on Open Access to Legal Scholarship'
 modified: 2009-02-23T01:01:14+00:00
@@ -12,6 +12,7 @@ wordpress_id: 765
 wordpress_url: http://dltj.org/?p=765
 date: '2009-02-22 20:01:14 -0500'
 date_gmt: '2009-02-23 01:01:14 -0500'
+category: Policy
 categories:
 - Policy
 tags:

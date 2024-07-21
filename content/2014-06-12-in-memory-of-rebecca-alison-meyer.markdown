@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'In Memory of Miss Rebecca Alison Meyer #663399Becca'
 modified: 2014-06-12T14:03:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 14739
 wordpress_url: http://dltj.org/?p=14739
 date: '2014-06-12 10:03:32 -0400'
 date_gmt: '2014-06-12 14:03:32 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags: []

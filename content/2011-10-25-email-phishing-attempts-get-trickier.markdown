@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'E-mail Phishing Attempts Get Trickier: Fake bounced mail and Fake mail-from-scanner'
 modified: 2011-10-26T02:42:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3458
 wordpress_url: http://dltj.org/?p=3458
 date: '2011-10-25 22:42:19 -0400'
 date_gmt: '2011-10-26 02:42:19 -0400'
+category: Raw Technology
 categories:
 - Meta Category
 - Raw Technology

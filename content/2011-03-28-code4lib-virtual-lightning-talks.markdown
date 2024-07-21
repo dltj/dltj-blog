@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Code4Lib Virtual Lightning Talks -- First round, April 4th 2011'
 modified: 2011-03-28T14:14:58+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2766
 wordpress_url: http://dltj.org/?p=2766
 date: '2011-03-28 10:14:58 -0400'
 date_gmt: '2011-03-28 14:14:58 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

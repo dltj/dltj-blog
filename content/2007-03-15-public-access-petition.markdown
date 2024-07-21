@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Petition for Public Access to Publicly Funded Research in the U.S.'
 modified: 2007-03-15T11:17:51+00:00
@@ -12,6 +12,7 @@ wordpress_id: 195
 wordpress_url: http://dltj.org/2007/03/public-access-petition/
 date: '2007-03-15 07:17:51 -0400'
 date_gmt: '2007-03-15 12:17:51 -0400'
+category: Policy
 categories:
 - Policy
 tags:

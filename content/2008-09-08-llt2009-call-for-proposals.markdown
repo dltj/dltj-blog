@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Call for Presentations, Workshops and Demonstrations of Innovation -- Ohio LLT Conference -- March 1-3, 2009'
 modified: 2008-09-08T17:49:51+00:00
@@ -12,6 +12,7 @@ wordpress_id: 472
 wordpress_url: http://dltj.org/?p=472
 date: '2008-09-08 13:49:51 -0400'
 date_gmt: '2008-09-08 17:49:51 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

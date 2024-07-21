@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'More on Commercial Versus Not-For-Profit Open Access Publishing'
 modified: 2007-09-04T16:32:49+00:00
@@ -12,6 +12,7 @@ wordpress_id: 277
 wordpress_url: http://dltj.org/2007/09/open-access-publishing-models/
 date: '2007-09-04 12:32:49 -0400'
 date_gmt: '2007-09-04 16:32:49 -0400'
+category: Policy
 categories:
 - Policy
 tags:

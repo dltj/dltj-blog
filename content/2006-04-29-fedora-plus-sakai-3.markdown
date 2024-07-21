@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Fedora plus Sakai: A view from 30,000 feet'
 modified: 2006-04-30T00:55:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 48
 wordpress_url: http://dltj.org/2006/04/fedora-plus-sakai-3/
 date: '2006-04-29 20:55:16 -0400'
 date_gmt: '2006-04-30 01:55:16 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

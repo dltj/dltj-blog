@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Feeling the Holiday Spirit?  Check With Your Lawyers To See if it is Okay'
 modified: 2007-12-22T22:11:47+00:00
@@ -12,6 +12,7 @@ wordpress_id: 308
 wordpress_url: http://dltj.org/2007/12/over-exuberant-lawyers/
 date: '2007-12-22 17:11:47 -0500'
 date_gmt: '2007-12-22 21:11:47 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Ebooks in Libraries, Prognostications for the Year, Open Source Adoption, Public Domain Day'
 modified: 2011-01-06T11:37:12+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2095
 wordpress_url: http://dltj.org/?p=2095
 date: '2011-01-06 06:37:12 -0500'
 date_gmt: '2011-01-06 11:37:12 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

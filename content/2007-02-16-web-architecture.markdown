@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Working With the Web Architecture'
 modified: 2007-02-16T15:29:09+00:00
@@ -12,6 +12,7 @@ wordpress_id: 182
 wordpress_url: http://dltj.org/2007/02/web-architecture/
 date: '2007-02-16 10:29:09 -0500'
 date_gmt: '2007-02-16 15:29:09 -0500'
+category: Raw Technology
 categories:
 - Linking Technologies
 - Raw Technology

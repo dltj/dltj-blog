@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google Book Search Settlement: Reviewing the Notice of Settlement'
 modified: 2008-10-29T20:59:52+00:00
@@ -12,6 +12,7 @@ wordpress_id: 565
 wordpress_url: http://dltj.org/?p=565
 date: '2008-10-29 16:59:52 -0400'
 date_gmt: '2008-10-29 20:59:52 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

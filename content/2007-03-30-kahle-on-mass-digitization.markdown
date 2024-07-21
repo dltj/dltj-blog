@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Brewster Kahle on the Economics and Feasibility of Mass Book Digitization'
 modified: 2007-03-30T20:42:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 205
 wordpress_url: http://dltj.org/2007/03/kahle-on-mass-digitization/
 date: '2007-03-30 16:42:32 -0400'
 date_gmt: '2007-03-30 20:42:32 -0400'
+category: Disruption in Libraries
 categories:
 - Economies of Scale
 - Blue Sky

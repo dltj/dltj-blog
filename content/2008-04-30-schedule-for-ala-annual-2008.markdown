@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Schedule for ALA Annual 2008'
 modified: 2008-05-01T00:57:26+00:00
@@ -12,6 +12,7 @@ wordpress_id: 355
 wordpress_url: https://dltj.org/?p=355
 date: '2008-04-30 20:57:26 -0400'
 date_gmt: '2008-05-01 00:57:26 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

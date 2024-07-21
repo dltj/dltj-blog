@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Options in Storage for Digital Preservation'
 modified: 2011-01-09T22:45:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2101
 wordpress_url: http://dltj.org/?p=2101
 date: '2011-01-09 17:45:10 -0500'
 date_gmt: '2011-01-09 22:45:10 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

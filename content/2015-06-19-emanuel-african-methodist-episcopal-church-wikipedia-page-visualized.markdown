@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Changes to "Emanuel African Methodist Episcopal Church" Wikipedia Page, Visualized'
 modified: 2015-06-20T03:06:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25925
 wordpress_url: http://dltj.org/?p=25925
 date: '2015-06-19 23:06:16 -0400'
 date_gmt: '2015-06-20 03:06:16 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

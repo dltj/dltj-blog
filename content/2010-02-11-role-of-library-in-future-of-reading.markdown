@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Role of the Library in the Future of Reading'
 modified: 2010-02-12T00:52:39+00:00
@@ -20,6 +20,7 @@ wordpress_id: 1511
 wordpress_url: http://dltj.org/?p=1511
 date: '2010-02-11 19:52:39 -0500'
 date_gmt: '2010-02-12 00:52:39 -0500'
+category: Policy
 categories:
 - Policy
 tags:

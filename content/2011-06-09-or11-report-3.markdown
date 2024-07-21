@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Open Repositories 2011 Report: Day 2 with DSpace plus Fedora and Lots of Lightning Talks'
 modified: 2011-06-10T03:58:20+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3004
 wordpress_url: http://dltj.org/?p=3004
 date: '2011-06-09 23:58:20 -0400'
 date_gmt: '2011-06-10 03:58:20 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

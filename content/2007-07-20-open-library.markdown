@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Open Library Demonstration Screencast'
 modified: 2007-07-20T14:05:12+00:00
@@ -33,6 +33,7 @@ wordpress_id: 262
 wordpress_url: http://dltj.org/2007/07/open-library/
 date: '2007-07-20 10:05:12 -0400'
 date_gmt: '2007-07-20 14:05:12 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

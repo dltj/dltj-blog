@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Pro-Library Protest Song, How Google Improves it Search, Learning Programming Skills'
 modified: 2011-08-31T20:50:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3154
 wordpress_url: http://dltj.org/?p=3154
 date: '2011-08-31 16:50:27 -0400'
 date_gmt: '2011-08-31 20:50:27 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

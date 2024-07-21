@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Getting On With 'The Future of Descriptive Enrichment''
+title: 'Getting On With ''The Future of Descriptive Enrichment'
 modified: 2007-12-13T22:12:17+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 302
 wordpress_url: http://dltj.org/2007/12/descriptive-enhancement/
 date: '2007-12-13 17:12:17 -0500'
 date_gmt: '2007-12-13 21:12:17 -0500'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

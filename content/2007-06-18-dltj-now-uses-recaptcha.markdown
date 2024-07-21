@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'DLTJ Now Uses reCAPTCHA'
 modified: 2007-06-19T03:05:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 255
 wordpress_url: http://dltj.org/2007/06/dltj-now-uses-recaptcha/
 date: '2007-06-18 23:05:44 -0400'
 date_gmt: '2007-06-19 03:05:44 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

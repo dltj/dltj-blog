@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Disruption in Publishing'
 modified: 2006-06-20T01:21:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 73
 wordpress_url: http://dltj.org/2006/06/disruption-in-publishing/
 date: '2006-06-19 21:21:56 -0400'
 date_gmt: '2006-06-20 02:21:56 -0400'
+category: Disruption in Libraries
 categories:
 - Blue Sky
 - Disruption in Libraries

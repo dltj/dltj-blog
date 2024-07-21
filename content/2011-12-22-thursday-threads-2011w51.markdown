@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: SOPA Suspended, Lending Chromebooks, OCLC Introduces WorldShare'
 modified: 2011-12-22T21:07:52+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3543
 wordpress_url: http://dltj.org/?p=3543
 date: '2011-12-22 16:07:52 -0500'
 date_gmt: '2011-12-22 21:07:52 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

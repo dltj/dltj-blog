@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Same Cubicle, New Title, New Challenges'
 modified: 2007-01-31T21:27:34+00:00
@@ -12,6 +12,7 @@ wordpress_id: 178
 wordpress_url: http://dltj.org/2007/01/new-title-new-challenges/
 date: '2007-01-31 16:27:34 -0500'
 date_gmt: '2007-01-31 21:27:34 -0500'
+category: Personal
 categories:
 - OhioLINK
 - Personal

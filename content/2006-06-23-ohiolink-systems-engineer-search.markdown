@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OhioLINK is seeking to fill a Systems Engineer position.  Interested?'
 modified: 2006-06-23T22:15:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 75
 wordpress_url: http://dltj.org/2006/06/ohiolink-systems-engineer-search/
 date: '2006-06-23 18:15:44 -0400'
 date_gmt: '2006-06-23 23:15:44 -0400'
+category: OhioLINK
 categories:
 - OhioLINK
 tags:

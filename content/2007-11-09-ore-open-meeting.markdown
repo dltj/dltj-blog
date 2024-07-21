@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OAI-ORE Open Meeting, March 3 2008, Johns Hopkins University'
 modified: 2007-11-10T02:36:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 295
 wordpress_url: http://dltj.org/2007/11/ore-open-meeting/
 date: '2007-11-09 21:36:32 -0500'
 date_gmt: '2007-11-10 01:36:32 -0500'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

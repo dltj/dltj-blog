@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'From Joshua Kim, Ideas for Working with Vendors'
 modified: 2010-03-25T01:17:20+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1550
 wordpress_url: http://dltj.org/?p=1550
 date: '2010-03-24 21:17:20 -0400'
 date_gmt: '2010-03-25 01:17:20 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

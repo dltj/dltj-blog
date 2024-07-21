@@ -1,5 +1,5 @@
 ---
-status: publish
+status: published
 published: true
 title: 'Free Stanford AI Class is a "Beta" for a Commercial Launch?'
 modified: 2011-09-05T20:11:36+00:00
@@ -11,6 +11,7 @@ wordpress_id: 3164
 wordpress_url: http://dltj.org/?p=3164
 date: '2011-09-05 16:11:36 -0400'
 date_gmt: '2011-09-05 20:11:36 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

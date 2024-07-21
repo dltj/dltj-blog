@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Now Working for LYRASIS'
 modified: 2010-09-29T00:12:09+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1686
 wordpress_url: http://dltj.org/?p=1686
 date: '2010-09-28 20:12:09 -0400'
 date_gmt: '2010-09-29 00:12:09 -0400'
+category: LYRASIS
 categories:
 - LYRASIS
 tags:

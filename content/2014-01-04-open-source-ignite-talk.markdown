@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Join the Community: Open Source is Nothing Without You'
 modified: 2014-01-04T21:17:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4686
 wordpress_url: http://dltj.org/?p=4686
 date: '2014-01-04 16:17:32 -0500'
 date_gmt: '2014-01-04 21:17:32 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

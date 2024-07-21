@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'What Does it Mean to Have Unlimited Storage in the Cloud?'
 modified: 2015-04-01T00:33:01+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25269
 wordpress_url: http://dltj.org/?p=25269
 date: '2015-03-31 20:33:01 -0400'
 date_gmt: '2015-04-01 00:33:01 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

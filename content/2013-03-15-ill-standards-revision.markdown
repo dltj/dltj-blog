@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Interlibrary Loan Standards Undergoing Revision at the ISO Level'
 modified: 2013-03-15T13:25:29+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4097
 wordpress_url: http://dltj.org/?p=4097
 date: '2013-03-15 09:25:29 -0400'
 date_gmt: '2013-03-15 13:25:29 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'U.S. House Votes to Rescind NDIIPP Funding; Bill Now Under Consideration by Senate'
 modified: 2007-02-12T02:42:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 179
 wordpress_url: http://dltj.org/2007/02/ndiipp-funding/
 date: '2007-02-11 21:42:44 -0500'
 date_gmt: '2007-02-12 02:42:44 -0500'
+category: Policy
 categories:
 - Policy
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Support Public Access to Research Funded by the National Institutes of Health'
 modified: 2007-10-22T16:49:15+00:00
@@ -12,6 +12,7 @@ wordpress_id: 290
 wordpress_url: http://dltj.org/2007/10/nih-public-access/
 date: '2007-10-22 12:49:15 -0400'
 date_gmt: '2007-10-22 16:49:15 -0400'
+category: Policy
 categories:
 - Policy
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OCLC Record Use Policy Issue Coming to a Head'
 modified: 2009-05-13T03:10:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 941
 wordpress_url: http://dltj.org/?p=941
 date: '2009-05-12 23:10:19 -0400'
 date_gmt: '2009-05-13 03:10:19 -0400'
+category: Policy
 categories:
 - Policy
 tags:

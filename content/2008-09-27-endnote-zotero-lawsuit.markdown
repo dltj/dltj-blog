@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'George Mason University Sued by Thomson Reuters over Zotero'
 modified: 2008-09-27T23:43:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 511
 wordpress_url: http://dltj.org/?p=511
 date: '2008-09-27 19:43:56 -0400'
 date_gmt: '2008-09-27 23:43:56 -0400'
+category: Policy
 categories:
 - Policy
 tags:

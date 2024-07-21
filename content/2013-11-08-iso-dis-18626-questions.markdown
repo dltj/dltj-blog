@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'On questions regarding ISO/DIS 18626, Information and documentation &mdash; Interlibrary Loan Transactions'
 modified: 2013-11-09T02:41:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4234
 wordpress_url: http://dltj.org/?p=4234
 date: '2013-11-08 21:41:43 -0500'
 date_gmt: '2013-11-09 02:41:43 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

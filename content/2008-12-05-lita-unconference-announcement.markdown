@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'LITA Announces an Unconference for May 2009'
 modified: 2008-12-05T19:13:35+00:00
@@ -12,6 +12,7 @@ wordpress_id: 611
 wordpress_url: http://dltj.org/?p=611
 date: '2008-12-05 14:13:35 -0500'
 date_gmt: '2008-12-05 19:13:35 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

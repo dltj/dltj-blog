@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Disruptive Innovation and the Amazon Kindle Fire'
 modified: 2011-10-07T02:55:26+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3429
 wordpress_url: http://dltj.org/?p=3429
 date: '2011-10-06 22:55:26 -0400'
 date_gmt: '2011-10-07 02:55:26 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

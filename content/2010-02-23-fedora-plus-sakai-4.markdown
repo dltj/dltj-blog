@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Fedora plus Sakai, Any Interest?'
 modified: 2010-02-23T16:02:51+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1538
 wordpress_url: http://dltj.org/?p=1538
 date: '2010-02-23 11:02:51 -0500'
 date_gmt: '2010-02-23 16:02:51 -0500'
+category: Library Technology
 categories:
 - Fedora
 - Sakai

@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Flat World Knowledge and U.S. Gov't on Open Access Course Materials'
+title: 'Flat World Knowledge and U.S. Gov''t on Open Access Course Materials'
 modified: 2009-06-05T20:13:37+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 995
 wordpress_url: http://dltj.org/?p=995
 date: '2009-06-05 16:13:37 -0400'
 date_gmt: '2009-06-05 20:13:37 -0400'
+category: Campus Technology
 categories:
 - Textbooks
 tags:

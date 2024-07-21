@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Modify Islandora objects on-the-fly using Devel "Execute PHP Code"'
 modified: 2016-03-22T15:45:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 27171
 wordpress_url: http://dltj.org/?p=27171
 date: '2016-03-22 11:45:10 -0400'
 date_gmt: '2016-03-22 15:45:10 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

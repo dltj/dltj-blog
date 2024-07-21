@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'FulfILLment from Equinox Selected for Statewide Resource Sharing System'
 modified: 2009-03-20T13:43:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 818
 wordpress_url: http://dltj.org/?p=818
 date: '2009-03-20 09:43:27 -0400'
 date_gmt: '2009-03-20 13:43:27 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

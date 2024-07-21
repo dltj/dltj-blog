@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Final Version of the Higher Education Reauthorization Act Leaves Textbook Provisions Intact'
 modified: 2008-07-31T20:59:34+00:00
@@ -12,6 +12,7 @@ wordpress_id: 427
 wordpress_url: http://dltj.org/?p=427
 date: '2008-07-31 16:59:34 -0400'
 date_gmt: '2008-07-31 20:59:34 -0400'
+category: Campus Technology
 categories:
 - Textbooks
 tags:

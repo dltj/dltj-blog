@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'WorldCat May Become Available as Library Linked Data under ODC-BY'
 modified: 2012-04-18T02:46:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3665
 wordpress_url: http://dltj.org/?p=3665
 date: '2012-04-17 22:46:39 -0400'
 date_gmt: '2012-04-18 02:46:39 -0400'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

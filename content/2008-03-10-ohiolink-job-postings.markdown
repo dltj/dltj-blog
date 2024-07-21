@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OhioLINK seeks applicants for two positions: User Services Development and Electronic Licensing'
 modified: 2008-03-10T12:53:17+00:00
@@ -12,6 +12,7 @@ wordpress_id: 341
 wordpress_url: https://dltj.org/article/ohiolink-job-postings/
 date: '2008-03-10 08:53:17 -0400'
 date_gmt: '2008-03-10 13:53:17 -0400'
+category: OhioLINK
 categories:
 - OhioLINK
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Resource for Improving Higher Education Instruction'
 modified: 2007-03-03T22:14:22+00:00
@@ -12,6 +12,7 @@ wordpress_id: 192
 wordpress_url: http://dltj.org/2007/03/fame/
 date: '2007-03-03 17:14:22 -0500'
 date_gmt: '2007-03-03 22:14:22 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

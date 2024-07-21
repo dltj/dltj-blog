@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Trip Report of DPLA Audience & Participation Workstream'
 modified: 2012-12-07T21:32:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4059
 wordpress_url: http://dltj.org/?p=4059
 date: '2012-12-07 16:32:10 -0500'
 date_gmt: '2012-12-07 21:32:10 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

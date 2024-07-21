@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Can You Hear Me Now?  DLTJ as a Podcast'
 modified: 2007-03-26T02:07:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 198
 wordpress_url: http://dltj.org/2007/03/dltj-podcast/
 date: '2007-03-25 22:07:27 -0400'
 date_gmt: '2007-03-26 03:07:27 -0400'
+category: Raw Technology
 categories:
 - Meta Category
 - Raw Technology

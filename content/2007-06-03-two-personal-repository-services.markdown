@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Two Personal Repository Services'
 modified: 2007-06-04T03:03:23+00:00
@@ -12,6 +12,7 @@ wordpress_id: 244
 wordpress_url: http://dltj.org/2007/06/two-personal-repository-services/
 date: '2007-06-03 23:03:23 -0400'
 date_gmt: '2007-06-04 03:03:23 -0400'
+category: Library Technology
 categories:
 - DRC
 - Unified Content Repository

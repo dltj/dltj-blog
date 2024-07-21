@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Appreciating our Heritage while Embracing a Future'
 modified: 2006-07-13T16:21:31+00:00
@@ -12,6 +12,7 @@ wordpress_id: 87
 wordpress_url: http://dltj.org/2006/07/heritage-and-future/
 date: '2006-07-13 12:21:31 -0400'
 date_gmt: '2006-07-13 17:21:31 -0400'
+category: Disruption in Libraries
 categories:
 - Clayton Christensen
 - Economies of Scale

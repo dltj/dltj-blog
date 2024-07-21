@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Thursday Threads: Let's Encrypt is coming, Businesses want you coming to the office, OR2015 Summary'
+title: 'Thursday Threads: Let''s Encrypt is coming, Businesses want you coming to the office, OR2015 Summary'
 modified: 2015-06-18T10:47:37+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -15,6 +15,7 @@ wordpress_id: 25908
 wordpress_url: http://dltj.org/?p=25908
 date: '2015-06-18 06:47:37 -0400'
 date_gmt: '2015-06-18 10:47:37 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

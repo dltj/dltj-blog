@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Automating Withdrawn Actions: Maximixing the Long Tail of Acquisitions'
 modified: 2007-07-05T14:49:22+00:00
@@ -12,6 +12,7 @@ wordpress_id: 37
 wordpress_url: http://dltj.org/2007/07/automated-withdrawn-actions/
 date: '2007-07-05 10:49:22 -0400'
 date_gmt: '2007-07-05 14:49:22 -0400'
+category: Economies of Scale
 categories:
 - Economies of Scale
 tags:

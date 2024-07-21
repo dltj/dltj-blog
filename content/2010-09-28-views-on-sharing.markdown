@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Views on Sharing (or, What Do We Want From OCLC?)'
 modified: 2010-09-29T01:51:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1681
 wordpress_url: http://dltj.org/?p=1681
 date: '2010-09-28 21:51:16 -0400'
 date_gmt: '2010-09-29 01:51:16 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

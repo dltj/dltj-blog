@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Repositories Visualized'
 modified: 2005-12-16T14:32:23+00:00
@@ -12,6 +12,7 @@ wordpress_id: 9
 wordpress_url: http://dltj.org/?p=9
 date: '2005-12-16 09:32:23 -0500'
 date_gmt: '2005-12-16 14:32:23 -0500'
+category: Library Technology
 categories:
 - DRC
 - Fedora

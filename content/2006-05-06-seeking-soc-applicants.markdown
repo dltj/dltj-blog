@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OhioLINK seeking additional applicants for the Summer of Code'
 modified: 2006-05-06T10:58:11+00:00
@@ -12,6 +12,7 @@ wordpress_id: 52
 wordpress_url: http://dltj.org/2006/05/seeking-soc-applicants/
 date: '2006-05-06 06:58:11 -0400'
 date_gmt: '2006-05-06 11:58:11 -0400'
+category: Google Summer of Code
 categories:
 - Google Summer of Code
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'DLTJ page rendering updated (sorry Bloglines users)'
 modified: 2006-08-03T16:20:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 99
 wordpress_url: http://dltj.org/2006/08/dltj-page-rendering-updated/
 date: '2006-08-03 12:20:56 -0400'
 date_gmt: '2006-08-03 17:20:56 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

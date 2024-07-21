@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Thursday Threads: Learn to Code in 2012, Issues with Apple's iBooks Author, SOPA/PIPA Are Dead'
+title: 'Thursday Threads: Learn to Code in 2012, Issues with Apple''s iBooks Author, SOPA/PIPA Are Dead'
 modified: 2012-01-26T11:16:40+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 3624
 wordpress_url: http://dltj.org/?p=3624
 date: '2012-01-26 06:16:40 -0500'
 date_gmt: '2012-01-26 11:16:40 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

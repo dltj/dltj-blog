@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'DLTJ In a State of Flux'
 modified: 2010-12-28T16:45:54+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1927
 wordpress_url: http://50.16.230.151/?p=1927
 date: '2010-12-28 11:45:54 -0500'
 date_gmt: '2010-12-28 16:45:54 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

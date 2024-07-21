@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'How US Airways Became My Airline-of-Last-Resort (And Why You Should Never Fly With Them, Too)'
 modified: 2007-05-21T19:25:06+00:00
@@ -12,6 +12,7 @@ wordpress_id: 239
 wordpress_url: http://dltj.org/2007/05/usairways-no-more/
 date: '2007-05-21 15:25:06 -0400'
 date_gmt: '2007-05-21 19:25:06 -0400'
+category: Personal
 categories:
 - Meta Category
 - Personal

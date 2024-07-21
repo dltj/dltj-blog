@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Google Maps is Good, DRM is Bad, and Two-factor Authentication can be Ugly'
 modified: 2014-12-18T12:08:28+00:00
@@ -12,6 +12,7 @@ wordpress_id: 24327
 wordpress_url: http://dltj.org/?p=24327
 date: '2014-12-18 07:08:28 -0500'
 date_gmt: '2014-12-18 12:08:28 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

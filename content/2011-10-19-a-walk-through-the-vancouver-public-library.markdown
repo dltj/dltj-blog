@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'A Walk Through the Vancouver Public Library'
 modified: 2011-10-19T04:04:03+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3441
 wordpress_url: http://dltj.org/?p=3441
 date: '2011-10-19 00:04:03 -0400'
 date_gmt: '2011-10-19 04:04:03 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

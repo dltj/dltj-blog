@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Charleston, SC Visitor's Center A/V Display'
+title: 'Charleston, SC Visitor''s Center A/V Display'
 modified: 2010-03-31T01:27:39+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 1554
 wordpress_url: http://dltj.org/article/charleston-sc-visitors-center-av-display/
 date: '2010-03-30 21:27:39 -0400'
 date_gmt: '2010-03-31 01:27:39 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

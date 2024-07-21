@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Using Twitter For Service Outage Awareness'
 modified: 2010-09-01T00:20:32+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1661
 wordpress_url: http://dltj.org/?p=1661
 date: '2010-08-31 20:20:32 -0400'
 date_gmt: '2010-09-01 00:20:32 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Looking For a Comprehensive Discovery Layer'
 modified: 2008-10-22T20:59:37+00:00
@@ -12,6 +12,7 @@ wordpress_id: 549
 wordpress_url: http://dltj.org/?p=549
 date: '2008-10-22 16:59:37 -0400'
 date_gmt: '2008-10-22 20:59:37 -0400'
+category: OhioLINK
 categories:
 - OhioLINK
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '2007 Web Design Survey'
 modified: 2007-04-24T20:43:43+00:00
@@ -12,6 +12,7 @@ wordpress_id: 211
 wordpress_url: http://dltj.org/2007/04/i-took-the-2007-web-design-survey-too/
 date: '2007-04-24 16:43:43 -0400'
 date_gmt: '2007-04-24 20:43:43 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

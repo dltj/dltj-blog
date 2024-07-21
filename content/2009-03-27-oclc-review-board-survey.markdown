@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Survey Responses Sought from the OCLC Review Board on Shared Data Creation and Stewardship'
 modified: 2009-03-27T15:03:14+00:00
@@ -12,6 +12,7 @@ wordpress_id: 831
 wordpress_url: http://dltj.org/?p=831
 date: '2009-03-27 11:03:14 -0400'
 date_gmt: '2009-03-27 15:03:14 -0400'
+category: Policy
 categories:
 - Policy
 tags:

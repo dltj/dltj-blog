@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'NISO Workshop Exploring the Discovery Layer; March 27-28, 2008; Chapel Hill, NC'
 modified: 2008-03-12T19:05:40+00:00
@@ -12,6 +12,7 @@ wordpress_id: 342
 wordpress_url: https://dltj.org/article/niso-discovery-layer-workshop/
 date: '2008-03-12 15:05:40 -0400'
 date_gmt: '2008-03-12 20:05:40 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

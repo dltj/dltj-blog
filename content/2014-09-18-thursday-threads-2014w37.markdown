@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Patron Privacy on Library Sites, Communicating with Developers, Kuali Continued'
 modified: 2014-09-18T10:58:05+00:00
@@ -12,6 +12,7 @@ wordpress_id: 20439
 wordpress_url: http://dltj.org/?p=20439
 date: '2014-09-18 06:58:05 -0400'
 date_gmt: '2014-09-18 10:58:05 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

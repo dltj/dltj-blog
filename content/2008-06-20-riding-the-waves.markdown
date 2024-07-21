@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Riding the Waves of Content and Change'
 modified: 2008-06-20T14:02:52+00:00
@@ -12,6 +12,7 @@ wordpress_id: 378
 wordpress_url: https://dltj.org/?p=378
 date: '2008-06-20 10:02:52 -0400'
 date_gmt: '2008-06-20 14:02:52 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Survey on Digital Preservation Systems is Seeking Respondents'
 modified: 2007-03-28T17:10:25+00:00
@@ -12,6 +12,7 @@ wordpress_id: 199
 wordpress_url: http://dltj.org/2007/03/dps-survey/
 date: '2007-03-28 13:10:25 -0400'
 date_gmt: '2007-03-28 18:10:25 -0400'
+category: Library Technology
 categories:
 - Unified Content Repository
 - Raw Technology

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Open Source Software: Should You Bet Your Career On It?'
 modified: 2006-07-25T20:10:10+00:00
@@ -38,6 +38,7 @@ wordpress_id: 92
 wordpress_url: http://dltj.org/2006/07/bet-your-career-on-opensource/
 date: '2006-07-25 16:10:10 -0400'
 date_gmt: '2006-07-25 21:10:10 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 - Raw Technology

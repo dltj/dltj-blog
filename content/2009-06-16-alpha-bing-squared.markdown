@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Three New Search Services:  Wolfram|Alpha, Microsoft Bing, Google Squared'
 modified: 2009-06-16T15:11:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1007
 wordpress_url: http://dltj.org/?p=1007
 date: '2009-06-16 11:11:44 -0400'
 date_gmt: '2009-06-16 15:11:44 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

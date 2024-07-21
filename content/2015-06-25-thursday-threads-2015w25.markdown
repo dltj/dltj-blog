@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Data Management Plans, Better Q/A Sessions, App for Bird Identification'
 modified: 2015-06-25T10:52:31+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25973
 wordpress_url: http://dltj.org/?p=25973
 date: '2015-06-25 06:52:31 -0400'
 date_gmt: '2015-06-25 10:52:31 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

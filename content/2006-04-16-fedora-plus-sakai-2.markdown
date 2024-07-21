@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Fedora plus Sakai &mdash; not quite that easy'
 modified: 2006-04-16T12:08:57+00:00
@@ -12,6 +12,7 @@ wordpress_id: 42
 wordpress_url: http://dltj.org/2006/04/fedora-plus-sakai-2/
 date: '2006-04-16 08:08:57 -0400'
 date_gmt: '2006-04-16 13:08:57 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

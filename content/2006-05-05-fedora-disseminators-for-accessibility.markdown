@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Fedora Disseminators to Enable Accessible Repository Content'
 modified: 2006-05-06T02:04:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 51
 wordpress_url: http://dltj.org/2006/05/fedora-disseminators-for-accessibility/
 date: '2006-05-05 22:04:19 -0400'
 date_gmt: '2006-05-06 03:04:19 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

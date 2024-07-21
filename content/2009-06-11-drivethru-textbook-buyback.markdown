@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Drive-Thru Textbook Buy-Back'
 modified: 2009-06-12T00:32:20+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1015
 wordpress_url: http://dltj.org/?p=1015
 date: '2009-06-11 20:32:20 -0400'
 date_gmt: '2009-06-12 00:32:20 -0400'
+category: Campus Technology
 categories:
 - Textbooks
 tags:

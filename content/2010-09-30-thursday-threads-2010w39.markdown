@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Print-on-Demand, Video Changing the World, Puzzling Out Public Domain, and more'
 modified: 2010-10-01T02:40:07+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1693
 wordpress_url: http://dltj.org/?p=1693
 date: '2010-09-30 22:40:07 -0400'
 date_gmt: '2010-10-01 02:40:07 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

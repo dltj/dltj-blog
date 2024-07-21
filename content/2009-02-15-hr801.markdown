@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'H.R.801 Threatens Open Access Requirement for Gov't Funded Research'
+title: 'H.R.801 Threatens Open Access Requirement for Gov''t Funded Research'
 modified: 2009-02-16T02:40:48+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 751
 wordpress_url: http://dltj.org/?p=751
 date: '2009-02-15 21:40:48 -0500'
 date_gmt: '2009-02-16 02:40:48 -0500'
+category: Policy
 categories:
 - Policy
 tags:

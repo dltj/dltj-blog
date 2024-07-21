@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Developer Genders, Facebook Release Engineering, Alcohol Among Technologists'
 modified: 2012-04-12T10:33:29+00:00
@@ -16,6 +16,7 @@ wordpress_id: 3650
 wordpress_url: http://dltj.org/?p=3650
 date: '2012-04-12 06:33:29 -0400'
 date_gmt: '2012-04-12 10:33:29 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Shared Twitter Updates Done Right: The Case of NPRTechTeam'
 modified: 2009-07-27T02:50:36+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1197
 wordpress_url: http://dltj.org/?p=1197
 date: '2009-07-26 22:50:36 -0400'
 date_gmt: '2009-07-27 02:50:36 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

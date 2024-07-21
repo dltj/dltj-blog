@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Data Visualization:  Depth, Breadth, and Malleable'
 modified: 2007-05-22T16:45:28+00:00
@@ -12,6 +12,7 @@ wordpress_id: 240
 wordpress_url: http://dltj.org/2007/05/data-visualization/
 date: '2007-05-22 12:45:28 -0400'
 date_gmt: '2007-05-22 16:45:28 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

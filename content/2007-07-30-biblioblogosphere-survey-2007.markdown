@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Call for Participation in Meredith Wolfwater's Biblioblogosphere Survey'
+title: 'Call for Participation in Meredith Wolfwater''s Biblioblogosphere Survey'
 modified: 2007-07-30T18:33:31+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 265
 wordpress_url: http://dltj.org/2007/07/call-for-participation-in-meredith-wolfwaters-biblioblogosphere-survey/
 date: '2007-07-30 14:33:31 -0400'
 date_gmt: '2007-07-30 18:33:31 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

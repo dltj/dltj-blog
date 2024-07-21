@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Resources for Describing Visual Materials'
 modified: 2006-04-06T12:40:24+00:00
@@ -12,6 +12,7 @@ wordpress_id: 35
 wordpress_url: http://dltj.org/2006/04/describing-visual-materials/
 date: '2006-04-06 08:40:24 -0400'
 date_gmt: '2006-04-06 13:40:24 -0400'
+category: Library Technology
 categories:
 - DRC
 - Linking Technologies

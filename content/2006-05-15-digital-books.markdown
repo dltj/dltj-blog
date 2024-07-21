@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Digital Books, Layperson's Summary'
+title: 'Digital Books, Layperson''s Summary'
 modified: 2006-05-15T14:00:15+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 56
 wordpress_url: http://dltj.org/2006/05/digital-books/
 date: '2006-05-15 10:00:15 -0400'
 date_gmt: '2006-05-15 15:00:15 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags: []

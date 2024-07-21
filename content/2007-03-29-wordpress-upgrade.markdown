@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'DLTJ Now Running on Wordpress 2.1'
 modified: 2007-03-30T03:03:50+00:00
@@ -12,6 +12,7 @@ wordpress_id: 202
 wordpress_url: http://dltj.org/2007/03/wordpress-upgrade/
 date: '2007-03-29 23:03:50 -0400'
 date_gmt: '2007-03-30 03:03:50 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

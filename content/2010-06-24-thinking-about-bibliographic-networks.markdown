@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'From &ldquo;Moby-Dick&rdquo; To &ldquo;Mash-Ups:&rdquo; Thinking About Bibliographic Networks at ALA Annual 2010'
 modified: 2010-06-25T02:18:41+00:00
@@ -21,6 +21,7 @@ wordpress_id: 1644
 wordpress_url: http://dltj.org/?p=1644
 date: '2010-06-24 22:18:41 -0400'
 date_gmt: '2010-06-25 02:18:41 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

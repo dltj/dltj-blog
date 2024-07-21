@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Introducing the OAI Object Reuse and Exchange Initiative'
 modified: 2007-02-13T03:49:20+00:00
@@ -12,6 +12,7 @@ wordpress_id: 181
 wordpress_url: http://dltj.org/2007/02/ore-introduction/
 date: '2007-02-12 22:49:20 -0500'
 date_gmt: '2007-02-13 03:49:20 -0500'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

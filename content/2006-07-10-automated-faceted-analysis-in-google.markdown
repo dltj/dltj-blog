@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Automated Faceted Analysis In Google?'
 modified: 2006-07-11T02:11:44+00:00
@@ -12,6 +12,7 @@ wordpress_id: 84
 wordpress_url: http://dltj.org/2006/07/automated-faceted-analysis-in-google/
 date: '2006-07-10 22:11:44 -0400'
 date_gmt: '2006-07-11 03:11:44 -0400'
+category: Disruption in Libraries
 categories:
 - Linking Technologies
 - Disruption in Libraries

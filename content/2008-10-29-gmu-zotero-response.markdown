@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'George Mason University Issues Statement on Reuters/Zotero Lawsuit'
 modified: 2008-10-29T14:34:24+00:00
@@ -12,6 +12,7 @@ wordpress_id: 558
 wordpress_url: http://dltj.org/?p=558
 date: '2008-10-29 10:34:24 -0400'
 date_gmt: '2008-10-29 14:34:24 -0400'
+category: Policy
 categories:
 - Policy
 tags:

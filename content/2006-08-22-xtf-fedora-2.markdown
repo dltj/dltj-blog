@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Analysis of CDL's XTF textIndexer to Replace the Local Files with FEDORA Objects'
+title: 'Analysis of CDL''s XTF textIndexer to Replace the Local Files with FEDORA Objects'
 modified: 2006-08-22T19:57:57+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 106
 wordpress_url: http://dltj.org/2006/08/xtf-fedora-2/
 date: '2006-08-22 15:57:57 -0400'
 date_gmt: '2006-08-22 20:57:57 -0400'
+category: Library Technology
 categories:
 - DRC
 - Fedora

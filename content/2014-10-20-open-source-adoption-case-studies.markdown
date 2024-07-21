@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Case Studies on Open Source Adoption in Libraries: Koha, CoralERM, and Kuali OLE'
 modified: 2014-10-21T02:12:35+00:00
@@ -12,6 +12,7 @@ wordpress_id: 22180
 wordpress_url: http://dltj.org/?p=22180
 date: '2014-10-20 22:12:35 -0400'
 date_gmt: '2014-10-21 02:12:35 -0400'
+category: Open Source
 categories:
 - Open Source
 tags:

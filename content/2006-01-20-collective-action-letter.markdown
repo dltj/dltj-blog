@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Aggregation of Risk in Pursuit of Disruptive Technologies'
 modified: 2006-01-20T20:46:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 15
 wordpress_url: http://dltj.org/?p=15
 date: '2006-01-20 15:46:19 -0500'
 date_gmt: '2006-01-20 20:46:19 -0500'
+category: Economies of Scale
 categories:
 - Clayton Christensen
 - Economies of Scale

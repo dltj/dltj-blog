@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Espresso Book Machine Print-on-Demand'
 modified: 2008-09-22T14:40:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 495
 wordpress_url: http://dltj.org/?p=495
 date: '2008-09-22 10:40:39 -0400'
 date_gmt: '2008-09-22 14:40:39 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

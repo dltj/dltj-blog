@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'JPEG2000 to Zoomify Code4Lib Lightning Talk Video Now Available'
 modified: 2008-05-15T19:16:33+00:00
@@ -12,6 +12,7 @@ wordpress_id: 366
 wordpress_url: https://dltj.org/?p=366
 date: '2008-05-15 15:16:33 -0400'
 date_gmt: '2008-05-15 19:16:33 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

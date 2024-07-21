@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'How to fix a directory that Git thinks is a submodule'
 modified: 2016-03-02T21:53:50+00:00
@@ -12,6 +12,7 @@ wordpress_id: 27155
 wordpress_url: http://dltj.org/?p=27155
 date: '2016-03-02 16:53:50 -0500'
 date_gmt: '2016-03-02 21:53:50 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

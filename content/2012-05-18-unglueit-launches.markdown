@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Unglue.It -- a service to crowdsource book licensing fees -- launches'
 modified: 2012-05-18T15:40:05+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3675
 wordpress_url: http://dltj.org/?p=3675
 date: '2012-05-18 11:40:05 -0400'
 date_gmt: '2012-05-18 15:40:05 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

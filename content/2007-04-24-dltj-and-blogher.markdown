@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'What Do DLTJ and BlogHer Have In Common?  Only Google Knows'
 modified: 2007-04-25T03:33:24+00:00
@@ -12,6 +12,7 @@ wordpress_id: 213
 wordpress_url: http://dltj.org/2007/04/dltj-and-blogher/
 date: '2007-04-24 23:33:24 -0400'
 date_gmt: '2007-04-25 03:33:24 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Why I Need Twitter Distillation Tools'
 modified: 2009-12-29T20:23:57+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1389
 wordpress_url: http://dltj.org/?p=1389
 date: '2009-12-29 15:23:57 -0500'
 date_gmt: '2009-12-29 20:23:57 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

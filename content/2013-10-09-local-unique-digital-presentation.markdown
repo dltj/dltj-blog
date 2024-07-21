@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Local and Unique and Digital: A Evolving Trend for Libraries and Cultural Heritage Institutions'
 modified: 2013-10-10T00:41:00+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4185
 wordpress_url: http://dltj.org/?p=4185
 date: '2013-10-09 20:41:00 -0400'
 date_gmt: '2013-10-10 00:41:00 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

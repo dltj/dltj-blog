@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Google News Archive Search &mdash; Where Are the Links to Content from Libraries?'
 modified: 2006-09-07T02:22:18+00:00
@@ -12,6 +12,7 @@ wordpress_id: 112
 wordpress_url: http://dltj.org/2006/09/google-nas-openurl/
 date: '2006-09-06 22:22:18 -0400'
 date_gmt: '2006-09-07 03:22:18 -0400'
+category: Disruption in Libraries
 categories:
 - Linking Technologies
 - Disruption in Libraries

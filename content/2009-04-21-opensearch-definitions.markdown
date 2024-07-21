@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Advances in OpenSearch Definitions'
 modified: 2009-04-21T12:52:15+00:00
@@ -12,6 +12,7 @@ wordpress_id: 896
 wordpress_url: http://dltj.org/?p=896
 date: '2009-04-21 08:52:15 -0400'
 date_gmt: '2009-04-21 12:52:15 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

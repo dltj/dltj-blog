@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Extracts from the Thomson Reuters Lawsuit Against Zotero'
 modified: 2008-09-29T03:43:04+00:00
@@ -12,6 +12,7 @@ wordpress_id: 518
 wordpress_url: http://dltj.org/?p=518
 date: '2008-09-28 23:43:04 -0400'
 date_gmt: '2008-09-29 03:43:04 -0400'
+category: Policy
 categories:
 - Policy
 tags:

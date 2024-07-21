@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Stereotypical Vendors?'
 modified: 2007-03-31T04:14:59+00:00
@@ -12,6 +12,7 @@ wordpress_id: 206
 wordpress_url: http://dltj.org/2007/03/stereotypical-vendors/
 date: '2007-03-31 00:14:59 -0400'
 date_gmt: '2007-03-31 04:14:59 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

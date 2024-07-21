@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Members of the OCLC Review Board Announced'
 modified: 2009-02-08T01:03:54+00:00
@@ -12,6 +12,7 @@ wordpress_id: 733
 wordpress_url: http://dltj.org/?p=733
 date: '2009-02-07 20:03:54 -0500'
 date_gmt: '2009-02-08 01:03:54 -0500'
+category: Policy
 categories:
 - Policy
 tags:

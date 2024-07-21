@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'HTML Template of a TRAC:CC Report'
 modified: 2007-08-27T17:44:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 276
 wordpress_url: http://dltj.org/2007/08/trac-cc-report-template/
 date: '2007-08-27 13:44:27 -0400'
 date_gmt: '2007-08-27 17:44:27 -0400'
+category: Library Technology
 categories:
 - Unified Content Repository
 tags:

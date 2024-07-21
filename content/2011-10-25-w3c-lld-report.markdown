@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'W3C Incubator Group Report on Library Linked Data Published'
 modified: 2011-10-25T14:02:35+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3455
 wordpress_url: http://dltj.org/?p=3455
 date: '2011-10-25 10:02:35 -0400'
 date_gmt: '2011-10-25 14:02:35 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Integration announced for DPubS (e-journal publishing system) and FEDORA (digital object repository)'
 modified: 2006-08-08T16:26:41+00:00
@@ -12,6 +12,9 @@ wordpress_id: 101
 wordpress_url: http://dltj.org/2006/08/dpubs-fedora-integration/
 date: '2006-08-08 12:26:41 -0400'
 date_gmt: '2006-08-08 17:26:41 -0400'
+category: Library Technology
+category: Library Technology
+category: Library Technology
 categories:
 - Fedora
 - Unified Content Repository

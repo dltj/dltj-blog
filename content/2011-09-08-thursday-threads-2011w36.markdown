@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Structured Data on the Web, Ebook Indexes, Amazon Disintermediates Publishers'
 modified: 2011-09-08T10:15:54+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3174
 wordpress_url: http://dltj.org/?p=3174
 date: '2011-09-08 06:15:54 -0400'
 date_gmt: '2011-09-08 10:15:54 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

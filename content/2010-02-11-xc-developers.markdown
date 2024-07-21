@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Extensible Catalog Project Seeking Developers in Innovative Ways'
 modified: 2010-02-11T17:05:47+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1512
 wordpress_url: http://dltj.org/?p=1512
 date: '2010-02-11 12:05:47 -0500'
 date_gmt: '2010-02-11 17:05:47 -0500'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

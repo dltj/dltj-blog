@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Solr-ized MARC Record Catalog'
 modified: 2007-06-05T03:29:13+00:00
@@ -12,6 +12,7 @@ wordpress_id: 252
 wordpress_url: http://dltj.org/2007/06/miami-video-solr/
 date: '2007-06-04 23:29:13 -0400'
 date_gmt: '2007-06-05 03:29:13 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

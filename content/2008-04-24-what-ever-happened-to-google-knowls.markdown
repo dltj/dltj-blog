@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'What ever happened to Google Knowls?'
 modified: 2008-04-24T19:06:17+00:00
@@ -12,6 +12,7 @@ wordpress_id: 351
 wordpress_url: http://dltj.org/?p=351
 date: '2008-04-24 15:06:17 -0400'
 date_gmt: '2008-04-24 19:05:38 -0400'
+category: Blue Sky
 categories:
 - Blue Sky
 tags: []

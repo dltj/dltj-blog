@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Buzzwords Galore and Bandwidth that May Rival Your Stationwagon'
 modified: 2006-07-17T18:17:39+00:00
@@ -12,6 +12,7 @@ wordpress_id: 88
 wordpress_url: http://dltj.org/2006/07/internet2-hopi-network/
 date: '2006-07-17 14:17:39 -0400'
 date_gmt: '2006-07-17 19:17:39 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

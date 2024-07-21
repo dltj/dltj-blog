@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'From NISO: Invitation to NISO Patron Privacy Virtual Meetings'
 modified: 2015-05-04T19:44:50+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25507
 wordpress_url: http://dltj.org/?p=25507
 date: '2015-05-04 15:44:50 -0400'
 date_gmt: '2015-05-04 19:44:50 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

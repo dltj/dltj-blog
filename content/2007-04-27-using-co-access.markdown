@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"Using Access Data for Paper Recommendations"'
 modified: 2007-04-28T02:46:28+00:00
@@ -12,6 +12,7 @@ wordpress_id: 229
 wordpress_url: http://dltj.org/2007/04/using-co-access/
 date: '2007-04-27 22:46:28 -0400'
 date_gmt: '2007-04-28 02:46:28 -0400'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

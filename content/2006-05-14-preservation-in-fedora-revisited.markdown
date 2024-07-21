@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Fedora, Objects, Datastreams, Filesystems, and a Correction'
 modified: 2006-05-14T12:35:00+00:00
@@ -12,6 +12,7 @@ wordpress_id: 54
 wordpress_url: http://dltj.org/2006/05/preservation-in-fedora-revisited/
 date: '2006-05-14 08:35:00 -0400'
 date_gmt: '2006-05-14 13:35:00 -0400'
+category: Library Technology
 categories:
 - Fedora
 tags:

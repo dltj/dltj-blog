@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Amazon Catalog Updates'
 modified: 2010-05-13T02:19:19+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1564
 wordpress_url: http://dltj.org/?p=1564
 date: '2010-05-12 22:19:19 -0400'
 date_gmt: '2010-05-13 02:19:19 -0400'
+category: Blue Sky
 categories:
 - Blue Sky
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Consolidating Travel Details with TripIt'
 modified: 2009-01-27T01:04:31+00:00
@@ -12,6 +12,7 @@ wordpress_id: 690
 wordpress_url: http://dltj.org/?p=690
 date: '2009-01-26 20:04:31 -0500'
 date_gmt: '2009-01-27 01:04:31 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

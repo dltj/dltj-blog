@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Library Associations File Amicus Brief for Google Book Search Settlement'
 modified: 2009-05-05T03:10:41+00:00
@@ -12,6 +12,7 @@ wordpress_id: 919
 wordpress_url: http://dltj.org/?p=919
 date: '2009-05-04 23:10:41 -0400'
 date_gmt: '2009-05-05 03:10:41 -0400'
+category: Policy
 categories:
 - Policy
 tags:

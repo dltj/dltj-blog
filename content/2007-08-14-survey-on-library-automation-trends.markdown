@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Survey on Library Automation Trends'
 modified: 2007-08-15T01:22:24+00:00
@@ -12,6 +12,7 @@ wordpress_id: 273
 wordpress_url: http://dltj.org/2007/08/survey-on-library-automation-trends/
 date: '2007-08-14 21:22:24 -0400'
 date_gmt: '2007-08-15 01:22:24 -0400'
+category: Policy
 categories:
 - Policy
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Comments on Google Book Search Settlement Coming to a Head (Again)'
 modified: 2009-09-03T18:40:57+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1252
 wordpress_url: http://dltj.org/?p=1252
 date: '2009-09-03 14:40:57 -0400'
 date_gmt: '2009-09-03 18:40:57 -0400'
+category: Policy
 categories:
 - Policy
 tags:

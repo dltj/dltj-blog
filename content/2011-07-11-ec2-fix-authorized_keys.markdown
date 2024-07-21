@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Fixing a Bad SSH authorized_keys under Amazon EC2'
 modified: 2011-07-12T02:38:29+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3061
 wordpress_url: http://dltj.org/?p=3061
 date: '2011-07-11 22:38:29 -0400'
 date_gmt: '2011-07-12 02:38:29 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OCLC Introduces an API for Anyone to Access Book Data'
 modified: 2009-12-16T20:01:37+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1372
 wordpress_url: http://dltj.org/?p=1372
 date: '2009-12-16 15:01:37 -0500'
 date_gmt: '2009-12-16 20:01:37 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

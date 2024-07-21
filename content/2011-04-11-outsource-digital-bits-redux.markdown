@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Iron Mountain to Close its Virtual File Store Service'
 modified: 2011-04-12T01:00:42+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2794
 wordpress_url: http://dltj.org/?p=2794
 date: '2011-04-11 21:00:42 -0400'
 date_gmt: '2011-04-12 01:00:42 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

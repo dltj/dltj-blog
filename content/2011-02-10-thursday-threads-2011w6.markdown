@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Website Accessibility Reporting Service and Remixes in Film'
 modified: 2011-02-10T11:52:40+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2548
 wordpress_url: http://dltj.org/?p=2548
 date: '2011-02-10 06:52:40 -0500'
 date_gmt: '2011-02-10 11:52:40 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

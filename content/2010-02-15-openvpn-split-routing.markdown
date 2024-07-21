@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Split Routing with OpenVPN'
 modified: 2010-02-15T16:47:06+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1524
 wordpress_url: http://dltj.org/?p=1524
 date: '2010-02-15 11:47:06 -0500'
 date_gmt: '2010-02-15 16:47:06 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

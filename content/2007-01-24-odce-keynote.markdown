@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'George Siemens to Provide Keynote at ODCE Conference on March 5th'
 modified: 2007-01-25T02:32:12+00:00
@@ -12,6 +12,7 @@ wordpress_id: 174
 wordpress_url: http://dltj.org/2007/01/odce-keynote/
 date: '2007-01-24 21:32:12 -0500'
 date_gmt: '2007-01-25 02:32:12 -0500'
+category: Meeting
 categories:
 - OhioLINK
 - Meeting

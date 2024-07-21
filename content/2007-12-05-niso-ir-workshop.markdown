@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'NISO IR Presentation: "The Third Wave of Library Information Stewardship"'
 modified: 2007-12-05T17:02:23+00:00
@@ -12,6 +12,7 @@ wordpress_id: 299
 wordpress_url: http://dltj.org/2007/12/niso-ir-workshop/
 date: '2007-12-05 12:02:23 -0500'
 date_gmt: '2007-12-05 16:02:23 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

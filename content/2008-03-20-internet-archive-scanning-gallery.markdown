@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'A Glimpse into the Internet Archive's Scanning and Print-on-Demand Operations'
+title: 'A Glimpse into the Internet Archive''s Scanning and Print-on-Demand Operations'
 modified: 2008-03-20T13:55:44+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 343
 wordpress_url: https://dltj.org/article/internet-archive-scanning-gallery/
 date: '2008-03-20 09:55:44 -0400'
 date_gmt: '2008-03-20 13:55:44 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'MARC isn't Dead, but it is a Dead End'
+title: 'MARC isn''t Dead, but it is a Dead End'
 modified: 2010-10-29T16:29:02+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 1823
 wordpress_url: http://dltj.org/?p=1823
 date: '2010-10-29 12:29:02 -0400'
 date_gmt: '2010-10-29 16:29:02 -0400'
+category: L/IS Profession
 categories:
 - L/IS Profession
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'New Web Expectations and Mobile Web Techniques'
 modified: 2011-01-27T01:11:09+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2417
 wordpress_url: http://dltj.org/?p=2417
 date: '2011-01-26 20:11:09 -0500'
 date_gmt: '2011-01-27 01:11:09 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

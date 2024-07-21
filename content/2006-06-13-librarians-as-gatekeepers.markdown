@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Librarians as Gatekeepers'
 modified: 2006-06-13T17:02:15+00:00
@@ -12,6 +12,7 @@ wordpress_id: 68
 wordpress_url: http://dltj.org/2006/06/librarians-as-gatekeepers/
 date: '2006-06-13 13:02:15 -0400'
 date_gmt: '2006-06-13 18:02:15 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

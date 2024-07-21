@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'What Makes Google Tick?  A Pointer to an Analysis'
 modified: 2008-12-05T21:57:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 618
 wordpress_url: http://dltj.org/?p=618
 date: '2008-12-05 16:57:27 -0500'
 date_gmt: '2008-12-05 21:57:27 -0500'
+category: Meta Category
 categories:
 - Meta Category
 tags:

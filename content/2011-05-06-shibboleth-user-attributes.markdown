@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"The Challenges of User Consent" -- Handling Shibboleth User Attributes'
 modified: 2011-05-06T20:51:38+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2868
 wordpress_url: http://dltj.org/?p=2868
 date: '2011-05-06 16:51:38 -0400'
 date_gmt: '2011-05-06 20:51:38 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

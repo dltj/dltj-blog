@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Digital Legacies, Zettabytes of Information, Digital Books, Alternate Network Architectures'
 modified: 2011-05-12T10:19:46+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2872
 wordpress_url: http://dltj.org/?p=2872
 date: '2011-05-12 06:19:46 -0400'
 date_gmt: '2011-05-12 10:19:46 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

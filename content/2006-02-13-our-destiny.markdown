@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Where have all the programmers gone?  Taking command of our destiny'
 modified: 2006-02-13T12:13:22+00:00
@@ -12,6 +12,7 @@ wordpress_id: 20
 wordpress_url: http://dltj.org/2006/02/our-destiny/
 date: '2006-02-13 07:13:22 -0500'
 date_gmt: '2006-02-13 12:13:22 -0500'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags: []

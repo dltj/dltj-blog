@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: HarperCollins Ebook Terms, Internet Archive Ebook Sharing, Future of Collections'
 modified: 2011-03-03T03:35:45+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2690
 wordpress_url: http://dltj.org/?p=2690
 date: '2011-03-02 22:35:45 -0500'
 date_gmt: '2011-03-03 03:35:45 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'JPEG2000 to Zoomify Shim -- Creating JPEG tiles from JPEG2000 images'
 modified: 2008-02-28T12:15:42+00:00
@@ -12,6 +12,7 @@ wordpress_id: 334
 wordpress_url: http://dltj.org/article/introducing-j2ktilerenderer/
 date: '2008-02-28 07:15:42 -0500'
 date_gmt: '2008-02-28 12:15:42 -0500'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

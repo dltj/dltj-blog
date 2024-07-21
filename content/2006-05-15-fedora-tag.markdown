@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Seeking a Tag for /The/ FEDORA'
 modified: 2006-05-16T00:37:22+00:00
@@ -12,6 +12,7 @@ wordpress_id: 57
 wordpress_url: http://dltj.org/2006/05/fedora-tag/
 date: '2006-05-15 20:37:22 -0400'
 date_gmt: '2006-05-16 01:37:22 -0400'
+category: Library Technology
 categories:
 - Fedora
 tags: []

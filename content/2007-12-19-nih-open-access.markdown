@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'NIH Mandatory Open Access Provision Becomes Law'
 modified: 2007-12-19T15:28:03+00:00
@@ -12,6 +12,7 @@ wordpress_id: 306
 wordpress_url: http://dltj.org/2007/12/nih-open-access/
 date: '2007-12-19 10:28:03 -0500'
 date_gmt: '2007-12-19 14:28:03 -0500'
+category: Policy
 categories:
 - Policy
 tags:

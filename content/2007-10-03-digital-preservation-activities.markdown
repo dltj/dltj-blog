@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Digital Preservation Activities:  NSF's "DataNet" and the NSF/Mellon Blue Ribbon Task Force'
+title: 'Digital Preservation Activities:  NSF''s "DataNet" and the NSF/Mellon Blue Ribbon Task Force'
 modified: 2007-10-03T19:30:42+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 283
 wordpress_url: http://dltj.org/2007/10/digital-preservation-activities/
 date: '2007-10-03 15:30:42 -0400'
 date_gmt: '2007-10-03 19:30:42 -0400'
+category: Library Technology
 categories:
 - Unified Content Repository
 - Policy

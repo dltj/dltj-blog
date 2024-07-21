@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OpenLDAP with a Go Daddy "Turbo SSL Secure Certificate"'
 modified: 2006-09-09T02:16:23+00:00
@@ -12,6 +12,7 @@ wordpress_id: 113
 wordpress_url: http://dltj.org/2006/09/openldap-with-intermediary-cert/
 date: '2006-09-08 22:16:23 -0400'
 date_gmt: '2006-09-09 03:16:23 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

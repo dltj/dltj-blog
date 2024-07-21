@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Alternate (Open) Peer Review Model'
 modified: 2006-02-04T20:11:18+00:00
@@ -12,6 +12,7 @@ wordpress_id: 19
 wordpress_url: http://dltj.org/2006/02/alternate-open-peer-review-model/
 date: '2006-02-04 15:11:18 -0500'
 date_gmt: '2006-02-04 20:11:18 -0500'
+category: Library Technology
 categories:
 - DRC
 - Unified Content Repository

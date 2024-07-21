@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Authentication and Access in a Metasearch Environment'
 modified: 2006-06-24T00:23:57+00:00
@@ -12,6 +12,7 @@ wordpress_id: 76
 wordpress_url: http://dltj.org/2006/06/dlib-article/
 date: '2006-06-23 20:23:57 -0400'
 date_gmt: '2006-06-24 01:23:57 -0400'
+category: Linking Technologies
 categories:
 - Linking Technologies
 tags:

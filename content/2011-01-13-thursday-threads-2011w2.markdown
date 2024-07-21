@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Websites for Small Libraries, Open Source in Govt, Measuring Reliability'
 modified: 2011-01-13T11:51:27+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2215
 wordpress_url: http://dltj.org/?p=2215
 date: '2011-01-13 06:51:27 -0500'
 date_gmt: '2011-01-13 11:51:27 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

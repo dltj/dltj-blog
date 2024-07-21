@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Retro Thursday Threads: Ideas for Publishers, New Reading Experiences, Internet Operating System'
 modified: 2011-05-19T10:13:18+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2891
 wordpress_url: http://dltj.org/?p=2891
 date: '2011-05-19 06:13:18 -0400'
 date_gmt: '2011-05-19 10:13:18 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

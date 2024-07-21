@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Seeking new opportunity in library technology'
 modified: 2015-06-08T14:23:10+00:00
@@ -12,6 +12,7 @@ wordpress_id: 25828
 wordpress_url: http://dltj.org/?p=25828
 date: '2015-06-08 10:23:10 -0400'
 date_gmt: '2015-06-08 14:23:10 -0400'
+category: Personal
 categories:
 - Personal
 tags: []

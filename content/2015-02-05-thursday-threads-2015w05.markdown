@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Web Time Travel, Fake Engine Noise, The Tech Behind Delivering Pictures of Behinds'
 modified: 2015-02-05T11:21:11+00:00
@@ -12,6 +12,7 @@ wordpress_id: 24920
 wordpress_url: http://dltj.org/?p=24920
 date: '2015-02-05 06:21:11 -0500'
 date_gmt: '2015-02-05 11:21:11 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

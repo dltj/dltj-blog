@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Thursday Threads: RDF, Digital Document Tampering, and Amazon's Mechanical Turk'
+title: 'Thursday Threads: RDF, Digital Document Tampering, and Amazon''s Mechanical Turk'
 modified: 2010-10-21T12:49:02+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 1746
 wordpress_url: http://dltj.org/?p=1746
 date: '2010-10-21 08:49:02 -0400'
 date_gmt: '2010-10-21 12:49:02 -0400'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

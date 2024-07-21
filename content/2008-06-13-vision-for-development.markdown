@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'A "Vision for Development" -- Excerpt from the JISC/SCONUL Study'
 modified: 2008-06-13T18:29:33+00:00
@@ -12,6 +12,7 @@ wordpress_id: 375
 wordpress_url: https://dltj.org/?p=375
 date: '2008-06-13 14:29:33 -0400'
 date_gmt: '2008-06-13 18:29:33 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

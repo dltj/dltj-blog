@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'OCLC Review Board Recommends the Withdraw of Proposed Policy; Advocates for an Open Process'
 modified: 2009-05-20T20:15:50+00:00
@@ -12,6 +12,7 @@ wordpress_id: 962
 wordpress_url: http://dltj.org/?p=962
 date: '2009-05-20 16:15:50 -0400'
 date_gmt: '2009-05-20 20:15:50 -0400'
+category: Policy
 categories:
 - Policy
 tags:

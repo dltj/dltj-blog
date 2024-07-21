@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Jester Joins Twitter'
 modified: 2008-05-08T00:14:16+00:00
@@ -12,6 +12,7 @@ wordpress_id: 360
 wordpress_url: https://dltj.org/?p=360
 date: '2008-05-07 20:14:16 -0400'
 date_gmt: '2008-05-08 00:14:16 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

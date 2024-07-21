@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'HOWTO Deal With Spam as a Mailman List Owner'
 modified: 2008-07-17T01:47:05+00:00
@@ -12,6 +12,7 @@ wordpress_id: 398
 wordpress_url: http://dltj.org/?p=398
 date: '2008-07-16 21:47:05 -0400'
 date_gmt: '2008-07-17 01:47:05 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

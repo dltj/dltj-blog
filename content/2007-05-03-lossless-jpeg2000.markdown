@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Truly Lossless JPEG2000 Compression'
 modified: 2007-05-03T14:15:01+00:00
@@ -12,6 +12,7 @@ wordpress_id: 231
 wordpress_url: http://dltj.org/2007/05/almost-lossless-jpeg2000/
 date: '2007-05-03 10:15:01 -0400'
 date_gmt: '2007-05-03 14:15:01 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Free Software in Libraries, success stories and their impact on the library today'
 modified: 2016-09-01T00:29:26+00:00
@@ -12,6 +12,7 @@ wordpress_id: 27612
 wordpress_url: http://dltj.org/?p=27612
 date: '2016-08-31 20:29:26 -0400'
 date_gmt: '2016-09-01 00:29:26 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

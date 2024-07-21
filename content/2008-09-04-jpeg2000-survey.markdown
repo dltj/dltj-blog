@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Survey Responses Sought:  JPEG2000 for Still Images'
 modified: 2008-09-04T19:31:50+00:00
@@ -12,6 +12,7 @@ wordpress_id: 465
 wordpress_url: http://dltj.org/?p=465
 date: '2008-09-04 15:31:50 -0400'
 date_gmt: '2008-09-04 19:31:50 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Call for Public Comment -- W3C Library Linked Data Incubator Group'
 modified: 2011-06-29T13:36:07+00:00
@@ -12,6 +12,7 @@ wordpress_id: 3042
 wordpress_url: http://dltj.org/?p=3042
 date: '2011-06-29 09:36:07 -0400'
 date_gmt: '2011-06-29 13:36:07 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

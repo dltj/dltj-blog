@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: '"Object Reuse and Exchange" Beta Specifications Now Available'
 modified: 2008-06-03T20:11:58+00:00
@@ -12,6 +12,7 @@ wordpress_id: 370
 wordpress_url: https://dltj.org/?p=370
 date: '2008-06-03 16:11:58 -0400'
 date_gmt: '2008-06-03 20:11:58 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

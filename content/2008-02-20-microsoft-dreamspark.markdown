@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Microsoft Giving Away Developer Software to Students'
 modified: 2008-02-20T14:20:53+00:00
@@ -12,6 +12,7 @@ wordpress_id: 331
 wordpress_url: https://dltj.org/article/microsoft-dreamspark/
 date: '2008-02-20 09:20:53 -0500'
 date_gmt: '2008-02-20 14:20:53 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

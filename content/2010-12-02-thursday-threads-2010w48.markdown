@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Thursday Threads: Open Publishing Alternatives, Open Bibliographic Data, Earn an MBA in Facebook, Unconference Planning'
 modified: 2010-12-03T02:17:31+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1880
 wordpress_url: http://dltj.org/?p=1880
 date: '2010-12-02 21:17:31 -0500'
 date_gmt: '2010-12-03 02:17:31 -0500'
+category: Thursday Threads
 categories:
 - Thursday Threads
 tags:

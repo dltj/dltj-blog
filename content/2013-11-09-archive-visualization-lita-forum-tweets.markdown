@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Archive and Visualization of LITA Forum Tweets'
 modified: 2013-11-09T13:55:13+00:00
@@ -12,6 +12,7 @@ wordpress_id: 4236
 wordpress_url: http://dltj.org/?p=4236
 date: '2013-11-09 08:55:13 -0500'
 date_gmt: '2013-11-09 13:55:13 -0500'
+category: Meeting
 categories:
 - Meeting
 tags:

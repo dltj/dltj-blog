@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Beyond Federated Search Redux'
 modified: 2009-04-01T21:03:04+00:00
@@ -12,6 +12,7 @@ wordpress_id: 847
 wordpress_url: http://dltj.org/?p=847
 date: '2009-04-01 17:03:04 -0400'
 date_gmt: '2009-04-01 21:03:04 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

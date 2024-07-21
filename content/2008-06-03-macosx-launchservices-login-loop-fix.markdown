@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Fixing a Mac OSX Leopard Login Loop Caused by Launch Services'
 modified: 2008-06-03T18:19:49+00:00
@@ -12,6 +12,7 @@ wordpress_id: 369
 wordpress_url: https://dltj.org/?p=369
 date: '2008-06-03 14:19:49 -0400'
 date_gmt: '2008-06-03 18:19:49 -0400'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Defending Net Neutrality. Again.'
 modified: 2017-07-12T23:11:31+00:00
@@ -12,6 +12,7 @@ wordpress_id: 27707
 wordpress_url: http://dltj.org/?p=27707
 date: '2017-07-12 19:11:31 -0400'
 date_gmt: '2017-07-12 23:11:31 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

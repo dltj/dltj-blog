@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Best of the "SOPA Blackout"'
 modified: 2012-01-19T04:35:02+00:00
@@ -14,6 +14,7 @@ wordpress_id: 3613
 wordpress_url: http://dltj.org/?p=3613
 date: '2012-01-18 23:35:02 -0500'
 date_gmt: '2012-01-19 04:35:02 -0500'
+category: Policy
 categories:
 - Policy
 tags:

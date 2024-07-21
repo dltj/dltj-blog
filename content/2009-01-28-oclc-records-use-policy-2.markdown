@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Further Consideration of OCLC Records Use Policy'
 modified: 2009-01-29T01:37:26+00:00
@@ -12,6 +12,7 @@ wordpress_id: 701
 wordpress_url: http://dltj.org/?p=701
 date: '2009-01-28 20:37:26 -0500'
 date_gmt: '2009-01-29 01:37:26 -0500'
+category: Policy
 categories:
 - Policy
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Anatomy of the Zotero Library to RSS Feed Pipe'
 modified: 2009-03-06T12:30:53+00:00
@@ -12,6 +12,7 @@ wordpress_id: 788
 wordpress_url: http://dltj.org/?p=788
 date: '2009-03-06 07:30:53 -0500'
 date_gmt: '2009-03-06 12:30:53 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

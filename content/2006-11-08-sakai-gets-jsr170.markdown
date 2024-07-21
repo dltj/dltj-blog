@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Sakai gets JSR-170 support; possible integration point with FEDORA?'
 modified: 2006-11-08T18:32:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 143
 wordpress_url: http://dltj.org/2006/11/sakai-gets-jsr170/
 date: '2006-11-08 13:32:56 -0500'
 date_gmt: '2006-11-08 18:32:56 -0500'
+category: Library Technology
 categories:
 - Fedora
 - Unified Content Repository

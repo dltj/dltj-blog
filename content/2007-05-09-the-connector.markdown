@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'Where Do I Fit?  Pew Thinks I'm a "Connector"'
+title: 'Where Do I Fit?  Pew Thinks I''m a "Connector"'
 modified: 2007-05-10T00:02:12+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 234
 wordpress_url: http://dltj.org/2007/05/the-connector/
 date: '2007-05-09 20:02:12 -0400'
 date_gmt: '2007-05-10 00:02:12 -0400'
+category: Meta Category
 categories:
 - Meta Category
 tags:

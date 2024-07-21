@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'IPv4 Address Space Disappearing, Here Comes IPv6'
 modified: 2011-02-13T02:13:11+00:00
@@ -12,6 +12,7 @@ wordpress_id: 2546
 wordpress_url: http://dltj.org/?p=2546
 date: '2011-02-12 21:13:11 -0500'
 date_gmt: '2011-02-13 02:13:11 -0500'
+category: Raw Technology
 categories:
 - Raw Technology
 tags:

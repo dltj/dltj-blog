@@ -1,8 +1,8 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
-title: 'The Problem with MARC and AACR: the World Doesn't Disco Anymore'
+title: 'The Problem with MARC and AACR: the World Doesn''t Disco Anymore'
 modified: 2006-05-16T12:21:17+00:00
 author: Peter Murray
 author_login: lyrdor
@@ -12,6 +12,7 @@ wordpress_id: 58
 wordpress_url: http://dltj.org/2006/05/the-problem-with-marc-and-aacr-the-world-doesnt-know-disco/
 date: '2006-05-16 08:21:17 -0400'
 date_gmt: '2006-05-16 13:21:17 -0400'
+category: Disruption in Libraries
 categories:
 - Disruption in Libraries
 tags:

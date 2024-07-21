@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Who, What, When, Where and Why of Library Discovery (text as intended for presentation)'
 modified: 2015-10-12T15:46:02+00:00
@@ -12,6 +12,7 @@ wordpress_id: 26703
 wordpress_url: http://dltj.org/?p=26703
 date: '2015-10-12 11:46:02 -0400'
 date_gmt: '2015-10-12 15:46:02 -0400'
+category: Meeting
 categories:
 - Meeting
 tags:

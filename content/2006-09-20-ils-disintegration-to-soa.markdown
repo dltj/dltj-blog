@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'The Dis-integration of the ILS into a SOA Environment'
 modified: 2006-09-21T03:29:56+00:00
@@ -12,6 +12,7 @@ wordpress_id: 125
 wordpress_url: http://dltj.org/2006/09/ils-disintegration-to-soa/
 date: '2006-09-20 23:29:56 -0400'
 date_gmt: '2006-09-21 03:29:56 -0400'
+category: Library Technology
 categories:
 - Library SOA
 - Raw Technology

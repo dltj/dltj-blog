@@ -1,6 +1,6 @@
 ---
 layout: wordpress-import
-status: publish
+status: published
 published: true
 title: 'Broadcast JPEG2000 Alliance Announced'
 modified: 2009-09-11T14:27:28+00:00
@@ -12,6 +12,7 @@ wordpress_id: 1267
 wordpress_url: http://dltj.org/?p=1267
 date: '2009-09-11 10:27:28 -0400'
 date_gmt: '2009-09-11 14:27:28 -0400'
+category: JPEG2000
 categories:
 - JPEG2000
 tags:
