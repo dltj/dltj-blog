@@ -1,5 +1,6 @@
 ---
-title: "Issue 87: Ukraine War, Artificial Intelligence Art"
+title: Issue 87: Ukraine War, Artificial Intelligence Art
+modified: 2022-03-02T20:44:44-05:00
 categories:
 - Thursday Threads
 tags:

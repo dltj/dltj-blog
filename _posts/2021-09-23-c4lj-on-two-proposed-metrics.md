@@ -1,5 +1,6 @@
 ---
 title: On the Code4Lib Journal's Two Proposed Metrics article
+modified: 2021-09-23T17:13:08-04:00
 categories:
   - L/IS Profession
 tags:

@@ -3,6 +3,7 @@ layout: wordpress-import
 status: publish
 published: true
 title: Managing a Gentoo Linux Server Configuration with Subversion, GLCU, and Trac
+modified: 2018-01-15T22:38:08-05:00
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

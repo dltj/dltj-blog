@@ -3,6 +3,7 @@ layout: wordpress-import
 status: publish
 published: true
 title: Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way
+modified: 2018-01-15T22:38:08-05:00
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

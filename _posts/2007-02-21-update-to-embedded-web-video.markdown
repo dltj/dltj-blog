@@ -3,6 +3,7 @@ layout: wordpress-import
 status: publish
 published: true
 title: Update to 'Embedded Web Video in a Standards-Compliant, Accessible, and Successful
+modified: 2018-01-15T22:38:08-05:00
   Way'
 author: Peter Murray
 author_login: lyrdor

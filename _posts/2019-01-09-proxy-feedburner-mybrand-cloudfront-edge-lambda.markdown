@@ -1,5 +1,6 @@
 ---
-title: 'Proxying FeedBurner MyBrand for HTTPS with CloudFront and Lambda at Edge'
+title: Proxying FeedBurner MyBrand for HTTPS with CloudFront and Lambda at Edge
+modified: 2019-01-09T22:07:47-05:00
 categories:
 - Meta Category
 tags:

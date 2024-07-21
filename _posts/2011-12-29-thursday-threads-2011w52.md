@@ -1,7 +1,8 @@
 ---
 status: publish
 published: true
-title: 'Thursday Threads: Looking Backwards and Looking Forwards'
+title: Thursday Threads: Looking Backwards and Looking Forwards
+modified: 2011-12-29T14:42:09+00:00
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

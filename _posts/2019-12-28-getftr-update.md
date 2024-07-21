@@ -1,5 +1,6 @@
 ---
-title: 'What is known about GetFTR at the end of 2019'
+title: What is known about GetFTR at the end of 2019
+modified: 2019-12-28T22:48:51-05:00
 categories:
 - Linking Technologies
 tags:

@@ -2,6 +2,7 @@
 status: publish
 published: true
 title: Open Library Environment Final Report Draft Released
+modified: 2009-07-28T10:17:49+00:00
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

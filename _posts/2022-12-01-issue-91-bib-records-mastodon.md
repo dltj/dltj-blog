@@ -1,5 +1,6 @@
 ---
-title: "Issue 91: Bibliographic Records and Mastodon Migration"
+title: Issue 91: Bibliographic Records and Mastodon Migration
+modified: 2022-11-30T22:13:17-05:00
 categories:
 - Thursday Threads
 tags:

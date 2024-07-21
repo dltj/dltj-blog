@@ -3,6 +3,7 @@ layout: wordpress-import
 status: publish
 published: true
 title: Getting a Hyperlink of the Last Sent Message from Mail.app using Applescript
+modified: 2018-01-15T22:38:08-05:00
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

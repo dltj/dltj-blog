@@ -1,5 +1,6 @@
 ---
-title: "Issue 95: Updating ChatGPT, Cryptomining, and Website-for-Small-Libraries Threads"
+title: Issue 95: Updating ChatGPT, Cryptomining, and Website-for-Small-Libraries Threads
+modified: 2023-01-11T23:11:57-05:00
 categories:
 - Thursday Threads
 tags:

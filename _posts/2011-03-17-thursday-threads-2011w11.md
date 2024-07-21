@@ -1,7 +1,8 @@
 ---
 status: publish
 published: true
-title: 'Thursday Threads: Open Source in Health Care, The Big Deal,  Archives of Web Pages'
+title: Thursday Threads: Open Source in Health Care, The Big Deal, Archives of Web Pages
+modified: 2011-03-17T06:46:53+00:00
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

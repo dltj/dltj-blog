@@ -2,6 +2,7 @@
 status: publish
 published: true
 title: Notes on the Code4Lib Virtual Lightning Talks
+modified: 2020-03-03T19:48:51-05:00
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

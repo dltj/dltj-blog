@@ -2,6 +2,7 @@
 status: publish
 published: true
 title: 'Thursday Threads: HarperCollins, Google Book Search Settlement, DPLA, Juggling
+modified: 2022-03-28T20:44:19-04:00
   Robots'
 author: Peter Murray
 author_login: lyrdor

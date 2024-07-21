@@ -1,5 +1,6 @@
 ---
-title: "Considerations for Online Age Verification (in the U.S.)"
+title: Considerations for Online Age Verification (in the U.S.)
+modified: 2023-09-02T12:10:42-04:00
 categories:
 - Policy
 tags:

@@ -2,6 +2,7 @@
 status: publish
 published: true
 title: Embedding Graphics in Jaspersoft Report Files
+modified: 2018-12-31T21:13:40-05:00
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

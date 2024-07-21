@@ -1,5 +1,6 @@
 ---
-title: 'DLTJ Now Uses Webmention and Bridgy to Aggregate Social Media Commentary'
+title: DLTJ Now Uses Webmention and Bridgy to Aggregate Social Media Commentary
+modified: 2021-07-11T22:54:57-04:00
 categories:
   - Meta Category
 tags:

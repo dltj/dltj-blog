@@ -1,5 +1,6 @@
 ---
-title: "Issue 82: Personal Digital Library, Video Preservation, Selling Prayers, and Library Ebook Legislation"
+title: Issue 82: Personal Digital Library, Video Preservation, Selling Prayers, and Library Ebook Legislation
+modified: 2022-01-26T21:00:35-05:00
 categories:
 - Thursday Threads
 tags:

@@ -1,5 +1,6 @@
 ---
-title: 'The ILS without patron data: open questions'
+title: The ILS without patron data: open questions
+modified: 2024-06-24T07:50:37-04:00
 categories:
 - L/IS Profession
 tags:

@@ -1,5 +1,6 @@
 ---
-title: "Refactoring DLTJ, Winter 2021 Part 2: Adopt AWS Amplify"
+title: Refactoring DLTJ, Winter 2021 Part 2: Adopt AWS Amplify
+modified: 2021-12-30T20:06:46-05:00
 categories:
   - Meta Category
 tags:

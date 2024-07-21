@@ -1,5 +1,6 @@
 ---
-title: 'Digital Repository Software: How Far Have We Come? How Far Do We Have to Go?'
+title: Digital Repository Software: How Far Have We Come? How Far Do We Have to Go?
+modified: 2021-06-23T21:15:50-04:00
 categories:
   - Unified Content Repository
 tags:

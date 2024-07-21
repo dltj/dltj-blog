@@ -3,6 +3,7 @@ layout: wordpress-import
 status: publish
 published: true
 title: On Being Fodder for Questionable Twitter Posts
+modified: 2018-01-15T22:38:08-05:00
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org

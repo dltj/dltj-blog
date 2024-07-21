@@ -1,5 +1,6 @@
 ---
-title: "Backing Away from Twitter in Measured Steps"
+title: Backing Away from Twitter in Measured Steps
+modified: 2022-12-19T21:54:03-05:00
 categories:
 - Online Culture
 tags:

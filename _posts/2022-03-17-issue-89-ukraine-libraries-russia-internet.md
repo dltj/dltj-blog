@@ -1,5 +1,6 @@
 ---
-title: "Issue 89: Ukraine's Libraries, Russia's Internet, and the Big Deal"
+title: Issue 89: Ukraine's Libraries, Russia's Internet, and the Big Deal
+modified: 2022-03-16T21:31:16-04:00
 categories:
 - Thursday Threads
 tags:

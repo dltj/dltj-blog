@@ -1,5 +1,6 @@
 ---
-title: "Issue 96: Metadata"
+title: Issue 96: Metadata
+modified: 2023-01-18T21:05:11-05:00
 categories:
 - Thursday Threads
 tags:

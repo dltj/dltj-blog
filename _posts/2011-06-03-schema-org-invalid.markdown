@@ -3,6 +3,7 @@ layout: wordpress-import
 status: publish
 published: true
 title: Does the Google/Bing/Yahoo Schema.org Markup Promote Invalid HTML?
+modified: 2018-01-15T17:35:29-05:00
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
