@@ -156,7 +156,7 @@ Each of them has minor, but important, configuration parameters that you'll need
 
 Each of the search modules -- CourseSmart, OhioLINK EBC, OhioLINK Library Catalog, and Safari -- follow the same basic structure. (The "all" metasearch module is a little different and is covered below.) The outline, hooks followed by supporting functions, is:
 
-{% highlight php %}
+```php
 function module_menu() {
   ...
 }
@@ -195,7 +195,7 @@ function module_search_box_form_submit($form, &$form_state) {
 function module_search_query($keys = '', $query = array(), $search = 'web', $version = 'v1') {
   ...
 }
-{% endhighlight %}
+```
 
 Some explanation for each of these:
 

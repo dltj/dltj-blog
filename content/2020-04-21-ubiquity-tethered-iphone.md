@@ -66,7 +66,7 @@ And that was a bit of Ubuntu voodoo.
 Fortunately, I found [instructions on configuring Ubuntu to use a WPA-protected wireless network](https://askubuntu.com/a/279333) (like the one that the iPhone Personal Hotspot is providing).
 In brief:
 
-{% highlight bash linenos %}
+```bash
 sudo -i
 cd /root
 wpa_passphrase my_ssid my_ssid_passphrase > wpa.conf
@@ -75,7 +75,7 @@ wpa_supplicant -Dwext -iwlan0 -c/root/wpa.conf
 <control-a> c
 dhclient -r
 dhclient wlan0
-{% endhighlight %}
+```
 
 Explanation of lines:
 
@@ -92,9 +92,9 @@ _Now_ I was at the point where I could install Ubuntu packages.
 (I ran  `ping www.google.com` to verify network connectivity.) 
 To install the usbmuxd and network bridge packages (and their prerequisites):
 
-{% highlight bash linenos %}
+```bash
 apt-get install usbmuxd bridge-utils
-{% endhighlight %}
+```
 
 If your experience is like mine, you'll get an error back:
 
@@ -116,13 +116,13 @@ While it was rebooting, I pulled out the USB wireless adapter from the Pi and pl
 The Pi now saw the iPhone as `eth1`, but the network did not start until I went to the iPhone to say that I "Trust" the computer that it is plugged into.
 When I did that, I ran these commands on the Ubuntu Pi:
 
-{% highlight bash linenos %}
+```bash
 dhclient eth1
 brctl addbr iphonetether
 brctl addif iphonetether eth0 eth1
 brctl stp iphonetether on
 ifconfig iphonetether up
-{% endhighlight %}
+```
 
 Explanation of lines:
 

@@ -54,14 +54,14 @@ Both of those are really annoying.
 The way to get around the first is somewhat cumbersome, as {% include robustlink.html href="https://stackoverflow.com/a/45624044/201674" versionurl="" versiondate="2022-01-22" title="Using python Logging with AWS Lambda | Stack Overflow" anchor="this answer on Stack Overflow describes" %}. 
 The nicest solution—if you are using Python 3.8 or higher—is to use the `force=true` on the `logging.basicConfig` call:
 
-{% highlight python linenos %}
+```python
     logging.basicConfig(
         format="%(message)s",
         stream=sys.stdout,
         level=logging.DEBUG,
         force=True,
     )
-{% endhighlight %}
+```
 
 
 The second line of this code snippet is the start of the solution to address the second problem described above—it clears out the AWS-supplied formatting string. 
@@ -76,27 +76,27 @@ I copied the built-in `structlog.processors.JSONRenderer` class and made the mod
 You can see this effort in the `AWSCloudWatchLogs` class in [`log_config.py`](https://github.com/openlibraryenvironment/serverless-zoom-recordings/blob/main/serverless_zoom_recordings/util/log_config.py) on GitHub.
 Calling the setup looks like this:
 
-{%highlight python linenos %}
+```python
 def handler(event, context):
     setup_logging(context)
     log = structlog.get_logger()
     log.info("STARTED", httpapi_event=event)
-{% endhighlight %}
+```
 
 And an error log entry (with a `reason` variable) looks like this:
 
-{%highlight python linenos %}
+```python
     reason = "Invalid Zoom POST content received"
     log.error("POST rejected", reason=reason)
-{% endhighlight %}
+```
 
 You can see the results in the second screenshot above.
 
 The best part is that because CloudWatch interprets the contents of the JSON part of the line, I can still collate together all of the log lines that correspond to a particular API Gateway request:
 
-{%highlight text %}
+```text
 { $.aws_request_id = "0d7924bb-ed97-4aa2-898f-90520a9f2e1b" }
-{% endhighlight %}
+```
 
 {% include image.html wpsrc="2022/2022-01-22-cloudwatch-search.png" width="782" alt="Screencapture of Amazon Web Services Cloud Watch Logs demonstrating the search of structured log data." caption="Searching structured logs" %} 
 

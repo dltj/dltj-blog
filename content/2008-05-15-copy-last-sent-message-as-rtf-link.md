@@ -68,7 +68,7 @@ One of the things I find myself doing is creating actions in a "Waiting" context
   
 The script is based heavily on [Speedy creation of rich text links to Mail messages](http://www.tuaw.com/2008/04/14/speedy-creation-of-rich-text-links-to-mail-messages/) by [Brett Terpstra](http://www.tuaw.com/bloggers/brett-terpstra/). In particular, he had the missing link about creating RTF hyperlinks on the clipboard using a bash shell script. The meat of the AppleScript is:
 
-{% highlight AppleScript %}
+```AppleScript
 tell application "Mail"
 
 	-- Ask the user which account to use
@@ -119,11 +119,11 @@ tell application "Mail"
 	-- Execute the external script to generate the RTF hyperlink on the clipboard
 	do shell script "/bin/bash -c \"" & _script & " \\"" & _anchorText & "\\" \\"" & _msglnk & "\\"\""
 end tell
-{% endhighlight %}
+```
 
 It first prompts the user for which account to use based on the list of active accounts. Then it gets the last message in the Sent mailbox of that account, gets various metadata properties, and sends the results to the bash shell script. The shell script comes from Brett; it creates the RTF snippet and pipes it into '[pbcopy](http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/pbcopy.1.html)' to put it on the clipboard:
 
-{% highlight bash %}
+```bash
 #!/bin/bash
 # Places a rich text link on the clipboard
 # usage: rtflink.sh "Title of link" "URL to link to"
@@ -137,7 +137,7 @@ echo "{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf270
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
 {\field{\*\fldinst{HYPERLINK \"$2\"}}{\fldrslt 
 \f0\fs24 \cf0 $1}}}" | pbcopy -Prefer rtf
-{% endhighlight %}
+```
 
 The end result is a hyperlink with an anchor that looks something like:
 

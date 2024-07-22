@@ -25,7 +25,7 @@ In that same Ghost support forum thread mentioned earlier, this is one line abou
 {: #ghosler}
 One requirement that I have is to run this software in Docker containers for ease of management and coexistence with other software. There are several examples of running Ghost in Docker; my way is certainly not the only way to do it. Another of my requirements is to put anything that isn't public-facing on my {% include robustlink.html href="https://tailscale.com/" versionurl="https://web.archive.org/web/20240714180848/https://tailscale.com/" versiondate="2024-07-14" title="Tailscale homepage" anchor="Tailscale" %} network. So you'll see that mentioned in this Docker Compose file as well. There are two Compose files: one for Mariadb, phpMyAdmin, and Ghost and another Compose file that builds Ghosler.
 
-{% highlight yaml linenos %}
+```yaml
 ## File: ghost/docker-compose.yml
 services:
   mariadb:
@@ -150,12 +150,12 @@ volumes:
 ## newsletter.dltj.org {
 ##     reverse_proxy ghost:2368
 ## }
-{% endhighlight %}
+```
 
 The parts prefaced with `ts-` are for the Tailscale Docker container ({% include robustlink.html href="https://tailscale.com/kb/1282/docker" versionurl="https://web.archive.org/web/20240714231338/https://tailscale.com/kb/1282/docker" versiondate="2024-07-14" title="Using Tailscale with Docker | Tailscale docs" anchor="documentation" %}). `ts-config` is a Docker volume where I store Tailscale configuration files, of which `ts-serve-config-phpmyadmin.json` is one. 
 
 Inside the Ghost directory, I cloned the Ghosler software: `git clone https://github.com/ItzNotABug/ghosler.git`. Then, I added this Docker Compose file to that directory.
-{% highlight yaml linenos %}
+```yaml
 ## File: ghost/ghosler/docker-compose.yml
 services:
   ghosler:
@@ -202,7 +202,7 @@ volumes:
 networks:
   ghost_default:
     external: true
-{% endhighlight %}
+```
 
 An interesting bit here is `network_mode: service:ts-ghosler`. Documentation about this is hard to come by ({% include robustlink.html href="https://forums.docker.com/t/diffcult-to-find-documentation-about-how-network-mode-service-service-name-works/137008" versionurl="https://web.archive.org/web/20240714231641/https://forums.docker.com/t/diffcult-to-find-documentation-about-how-network-mode-service-service-name-works/137008" versiondate="2024-07-14" title='Diffcult to find documentation about how network_mode: &ldquo;service:<service_name>&rdquo; works | Docker Community Forum' anchor="as noted in the Docker forum" %}), but what this does is put the `ghosler` and `ts-ghosler` containers in the same network namespace. To the outside, it looks like one machine.
 
@@ -215,7 +215,7 @@ My blog has gone through two phases: the Wordpress phase from its origin in 2008
 
 I decided to use Ghost's "Universal Import" format to migrate content. This is a JSON file that Ghost uses to transport a newsletter from one installation to another, so it seemed to promise the highest fidelity. In fact, I found that if I took a Ghost export JSON file and replaced the `posts` array with entries that looked like this, the import would go fine:
 
-{% highlight python linenos %}
+```python
                 post_entry = {
                     "id": str(post_id),
                     "uuid": str(post_uuid),
@@ -244,11 +244,11 @@ I decided to use Ghost's "Universal Import" format to migrate content. This is a
                     "newsletter_id": None,
                     "show_title_and_feature_image": 0,
                 }
-{% endhighlight %}
+```
 
 Note that there is a field for `lexical` that I'm leaving empty and a field for `html` that I'm setting to the post's HTML. Ghost—being a JavaScript application—uses {% include robustlink.html href="https://lexical.dev/" versionurl="https://web.archive.org/web/20240714231923/https://lexical.dev/" versiondate="2024-07-14" title="Lexical homepage" anchor="Lexical" %} as its native internal rich text format. And it helpfully converts HTML to Lexical on import. The problem is that Lexical is a (very) lossy format, so HTML that used to look like this:
 
-{% highlight html linenos %}
+```html
 <h2 id="p25973-card-based-qa-sessions">Index Card-based Question and Answer Sessions</h2>
 <blockquote>
   <p>Here is the formula:</p>
@@ -268,11 +268,11 @@ Note that there is a field for `lexical` that I'm leaving empty and a field for 
       href="http://blog.valerieaurora.org/2015/06/23/ban-boring-mike-based-qa-sessions-and-use-index-cards-instead/"
       title="Ban boring mike-based Q&amp;A sessions and use index cards instead | Valerie Aurora">Ban boring mike-based
       Q&amp;A sessions and use index cards instead</a>, by Valerie Aurora, 23-Jun-2015</cite></div>
-{% endhighlight %}
+```
 
 ...comes out of Ghost looking like this:
 
-{% highlight html linenos %}
+```html
 <h2 id="index-card-based-question-and-answer-sessions">Index Card-based Question and Answer Sessions</h2>
 <blockquote>Here is the formula:</blockquote>
 <ol>
@@ -289,7 +289,7 @@ Note that there is a field for `lexical` that I'm leaving empty and a field for 
 <p>- <a
     href="http://blog.valerieaurora.org/2015/06/23/ban-boring-mike-based-qa-sessions-and-use-index-cards-instead/">Ban
     boring mike-based Q&amp;A sessions and use index cards instead</a>, by Valerie Aurora, 23-Jun-2015</p>
-{% endhighlight %}
+```
 
 Problems that I immediately spotted:
 
@@ -297,11 +297,12 @@ Problems that I immediately spotted:
 1. The ordered list got put outside the blockquote. In fact, I noticed this in other imported issues...multi-paragraph blockquotes got put into individual paragraph blockquotes, and that rendered weirdly.
 1. The styling and &lt;cite&gt; tag were discarded.
 
-{% include image.html 
-width="700"
-src="2024/2024-07-14-thread-entry-comparison.png"
-caption="Side-by-side comparison of Ghost (left) with original."
-%}
+{% import 'macros.html' as macros %}
+{{ macros.img_desc(
+width="700",
+src="2024/2024-07-14-thread-entry-comparison.png",
+caption="Side-by-side comparison of Ghost (left) with original.")
+}}
 
 I use all three of these things extensively in almost all of the DLTJ Thursday Thread newsletter issues. So, yeah, stuck. I'm unsure if this is a problem with Ghost's implementation of Lexical or with Lexical itself, but I don't know enough JavaScript to find out. So, I'm abandoning my Ghost effort. For completeness in these notes, here is a web archive of this same newsletter issue ([link to original post](https://dltj.org/article/thursday-threads-2015w25/)).
 

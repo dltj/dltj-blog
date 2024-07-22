@@ -30,7 +30,7 @@ I'm posting the code here in case someone else might find it useful. Of course, 
 [2]: http://java.sun.com/j2se/1.5.0/docs/api/org/w3c/dom/package-summary.html "org.w3c.dom (Java 2 Platform SE 5.0) documentation"
 [3]: http://www.fedora.info/definitions/1/0/api/Fedora-API-M.html "FEDORA API-M WSDL Documentation"
 
-{% highlight java %}
+```java
 /**********************************************************************************
  *
  * Copyright (C) 2006 OhioLINK
@@ -193,4 +193,4 @@ public class Batch {
   }
  }
 }
-{% endhighlight %}
+```

@@ -38,7 +38,7 @@ It is also possible to mix HTML inside a Markdown file and have the right thing 
 The Jekyll processor (the program that turns a folder of Markdown files into a folder of HTML files) has a mechanism for including macros in the markup, and each "thread" in the issue is a macro file. 
 If you look at the [Markdown source for issue 79](https://raw.githubusercontent.com/dltj/dltj-blog/master/_posts/2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50.markdown), you'll see each heading (marked with `##`) has a `{% raw %}{% include thursday-threads-quote.html %}{% endraw %}` macro definition.
 
-{% highlight ruby %}{% raw %}
+```ruby
 {% include thursday-threads-quote.html
 blockquote="The EDUCAUSE 2022 Top 10 IT Issues take an optimistic view of how technology can help make the higher education we deserve—through a shared transformational vision and strategy for the institution, a recognition of the need to place students’ success at the center, and a sustainable business model that has redefined 'the campus.'" 
 url="https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve" 
@@ -46,11 +46,11 @@ versiondate="2021-11-12"
 versionurl="https://web.archive.org/20211127031010/https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve"
 anchor="Top 10 IT Issues, 2022: The Higher Education We Deserve" 
 post="EDUCAUSE" %}
-{% endraw %}{% endhighlight %}
+```
 
 Each of those variables are used in the include processor, which at the moment looks like this (see [current version](https://github.com/dltj/dltj-blog/blob/master/_includes/thursday-threads-quote.html)):
 
-{% highlight liquid %}{% raw %}
+```liquid
 <figure class="quote thursdaythread">
   <blockquote>
 {{ include.blockquote }}
@@ -61,7 +61,7 @@ Each of those variables are used in the include processor, which at the moment l
 {% if include.post %}{{ include.post }}{% endif %}
   </figcaption>
 </figure>
-{% endraw %}{% endhighlight %}
+```
 
 That is some semantically-appropriate HTML that with some CSS make the nice layout on the page. 
 (And should be accessible to screen readers, too.) 

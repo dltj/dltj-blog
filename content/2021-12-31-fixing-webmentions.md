@@ -32,7 +32,7 @@ To do that took three steps:
 3. Add lines to the `amplify.yml` file to copy files from the S3 bucket into and out of the working directory
 
 For step 2, the IAM policy for the Amplify role:
-{% highlight yaml %}
+```yaml
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -57,11 +57,11 @@ For step 2, the IAM policy for the Amplify role:
         }
     ]
 }
-{% endhighlight %}
+```
 
 For the `amplify.yml` file:
 
-{% highlight yaml %}
+```yaml
 version: 1
 frontend:
   phases:
@@ -84,14 +84,14 @@ frontend:
   cache:
     paths:
       - 'vendor/**/*'
-{% endhighlight %}
+```
 
 And the webmentions part of the Jekyll `_config.yml` file:
 
-{% highlight yaml %}
+```yaml
 webmentions:
   cache_folder: webmentions-cache
-{% endhighlight %}
+```
 
 ## Contents of the AWS CodeBuild Cache File
 Can we do a quick sidebar on the AWS CodeBuild caching mechanism? 
@@ -99,7 +99,7 @@ Because I was not expecting what I saw.
 The CodeBuild cache S3 bucket contains one file with a {% include robustlink.html href="https://en.wikipedia.org/wiki/Universally_unique_identifier" versionurl="https://archive.li/wip/Q7RhL" versiondate="2021-12-31" title="Universally unique identifier | Wikipedia" anchor="UUID" %} as its name. 
 That file is a tar-gzip'd archive of a flat directory containing sequentially numbered files (`0` through `8099` in my case) and a `codebuild.json` table of contents:
 
-{% highlight json %}
+```json
 {
   "version": "1.0",
   "content": {
@@ -141,7 +141,7 @@ That file is a tar-gzip'd archive of a flat directory containing sequentially nu
         "rel": "src"
       },
     ...
-{% endhighlight %}
+```
 
 Each item in the `files` array corresponded to the numbered filename in the directory. 
 (In the case of the 4th item in the array—a directory—there was no corresponding file in the tar-gzip archive.) 

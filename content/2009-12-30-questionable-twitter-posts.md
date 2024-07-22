@@ -188,16 +188,16 @@ At this point, I'm not sure what is introducing those parameters. I can't find d
 
 There are two cases where 'twitterfeed' is being used as part of a user agent string (or `"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3 twitterfeed"` more specifically). I'm going to set up a [honeypot](http://en.wikipedia.org/wiki/Honeypot_%28computing%29) for twitterfeed using mod_rewrite conditions on my server:
 
-{% highlight bash %}
+```bash
 ## Attempt to block twitterfeed
 
 RewriteCond %{USER_AGENT} "twitterfeed"
 RewriteRule feed.* /atom-feed-for-twitterfeed.xml [R=302,L]
-{% endhighlight %}
+```
 
 The "atom-feed-for-twitterfeed.xml" file consists of:
 
-{% highlight xml %}
+```xml
 < ?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>DLTJ Twitter Honeypot</title>
@@ -218,7 +218,7 @@ The "atom-feed-for-twitterfeed.xml" file consists of:
 		</author>
 	</entry>
 </feed>
-{% endhighlight %}
+```
 
 Yeah -- I know I'm breaking the rules by giving different content for the same URI. But remember, this is just a honeypot.
 

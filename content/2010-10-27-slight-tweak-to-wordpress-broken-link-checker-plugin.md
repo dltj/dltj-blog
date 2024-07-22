@@ -45,7 +45,7 @@ In a futile effort to fight link rot on _DLTJ_, I installed the [Broken Link C
 
 From the root level of the current version of the broken-link-checker plugin directory, one can apply this patch to `modules/parsers/html_link.php`. There are just two added lines -- one in each of `edit()` and `unlink()` -- that simply appends a paragraph to the end of the content. In my quick hack, there is no internationalization of strings and the CSS styling is inline. See...I told you it was ugly. Still, it meets my needs and it might meet yours too.
 
-{% highlight diff %}
+```diff
 Index: modules/parsers/html_link.php
 ===================================================================
 --- modules/parsers/html_link.php       (revision 304787)
@@ -73,7 +73,7 @@ Index: modules/parsers/html_link.php
  }-?>
 \ No newline at end of file
 +?>
-{% endhighlight %}
+```
 
 You can see how this appears to the end-user by looking at the notes added to the bottom of [this post](/article/fedora-plus-sakai-3/).
 

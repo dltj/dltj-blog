@@ -265,7 +265,7 @@ The problem is, I think, that the markup they describe on there site generates i
 
 Take this example from the [Event][5] description page:
 
-{% highlight xml %}
+```xml
 < !DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -300,7 +300,7 @@ Take this example from the [Event][5] description page:
 </div>
 </body>
 </html>
-{% endhighlight %}
+```
 
 The problem is in the first &lt;div&gt; line and the attribute 'itemscope' that has no value associated with it. If you copy-and-paste that markup into the [W3 validator][0] (using the "Validate by Direct Input" option and manually removing the space between the less-than sign and the exclamation point in the first line), it comes back with:
 

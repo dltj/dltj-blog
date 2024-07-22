@@ -49,7 +49,7 @@ With the release of Microsoft's [Windows Media Player version 11](http://www.mi
 Last year I published an entry called [Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way](/article/standards-compliant-web-video/) on how to embed (without using the non-standard &lt;embed&gt; tag) video on an HTML page. It has been one of the most widely read articles on_DLTJ.org_, and so I wanted to publish an updated version of the script from that article to take into account this new wrinkle from Microsoft. The change is at line #41 below:
 
 
-{% highlight perl %}
+```perl
 #!/usr/bin/perl -w
 # Copyright (C) 2006-2007 OhioLINK
 #
@@ -118,7 +118,7 @@ EoMarkup
     print "Location: http://invalid-format-given/$format/$id\r\n\r\n";
   }
 }
-{% endhighlight %}
+```
 
 Thanks to Neil Bennett at the University of Southern Maine for contacting OhioLINK about the problem, providing some very helpful diagnostics, and pointing us to the URL to the protocol table mentioned above. It is also worth noting that the A List Apart website posted a new article about [sane ways of embedding Flash content](http://alistapart.com/articles/flashembedcagematch) that builds upon the same work in the original 'Embedded Web Video...' article. It might be time to update some of the techniques used in the original article, but that'll need to wait for another time.
 

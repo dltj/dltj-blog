@@ -39,65 +39,65 @@ Still, that is only a dozen or so out of the potentially hundreds of missing fil
 
 First step: restore the knowledgebase directory for each backup set into a separate directory.
 
-{% highlight bash %}
+```bash
 for i in $(tmutil listbackups)                                                                                                                                                            do
 echo $i && tmutil restore $i/Macintosh\ HD\ -\ Data/Users/peter/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Knowledgebase $(basename $i)-Knowledgebase
 done
-{% endhighlight %}
+```
 
 Each iteration through the backup sets showed the number of restored files:
 
-{% highlight bash %}
+```bash
 Total copied: 28.50 MB (29888454 bytes)
 Items copied: 2916
-{% endhighlight %}
+```
 
 As I scanned through the `items copied` for each day, there were no points where there was a sudden drop, so I think the file loss was gradual over some time.
 The results of this first step were a bunch of directories that looked like "2023-12-26-032655.backup-Knowledgebase"
 
 Next: copy the contents of each backup set, in the order in which the backup sets were created, on top of an empty `Knowledgebase` directory.
 
-{% highlight bash %}
+```bash
 mkdir restored-Knowledgebase
 for i in $(ls -d 2*)
 do
 echo $i && cp -rp $i* restored-Knowledgebase
 done
-{% endhighlight %}
+```
 
 Now lets run some commands to see what we're dealing with.
 First, the number of files in the restored Knowledgebase directory: 3,418.
 
-{% highlight bash %}
+```bash
 find restored-Knowledgebase -type f -print | wc -l
 3418
-{% endhighlight %}
+```
 
 Next, use the `diff` command to see the differences between the active knowledgebase in my home directory and the restored knowledgebase, and look for the string `Only in restored-Knowledgebase`: 480 files restored that aren't in the active knowledgebase.
 
-{% highlight bash %}
+```bash
 diff  --brief --recursive ~/Knowledgebase restored-Knowledgebase | grep "Only in restored-Knowledgebase/" | wc -l                                                                                                480
-{% endhighlight %}
+```
 
 Now let's review a list of files that are only in the active knowledgebase.
 This is a reality check to make sure we're on the right path, and indeed this lists only the files that were created since the last backup to the Time Machine drive.
 
-{% highlight bash %}
+```bash
 diff  --brief --recursive ~/Knowledgebase Knowledgebase | grep "Only in /Users/" | less
-{% endhighlight %}
+```
 
 One last command to see files that exist in both the active knowledgebase and the restored knowledgebase but don't have the same contents:
 
-{% highlight bash %}
+```bash
 diff  --brief --recursive ~/Knowledgebase Knowledgebase | grep "^Files"
-{% endhighlight %}
+```
 
 There was only one file with minor differences...a file that I changed in between backups.
 Happy that everything seems in order, I just copy the contents of the restored knowledgebase on top of the active knowledgebase.
 
-{% highlight bash %}
+```bash
 cp -rp restored-Knowledgebase/* ~/Knowledgebase
-{% endhighlight %}
+```
 
 ## ArqBackup problems
 As I mentioned above, my first attempt at restoring was using ArqBackup. 

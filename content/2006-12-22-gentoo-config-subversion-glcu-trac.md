@@ -165,10 +165,10 @@ The RCS will want to act on a single directory tree, but in most cases our confi
 
 One of the things we're going to want to do, obviously, is put the entire /etc directory into the RCS. Ideally, we would simply put a link to /etc in /server-rcs. Unfortunately, we can't use the simple filesystem-based linking methods (soft links and hard links) because a) our RCS is smart enough to see the soft link and [records it as a soft link in the revision control database][2] rather than following the link to the contents of that directory; and b) one cannot make a hard link to a directory:
 
-{% highlight shell %}
+```shell
 /server-rcs # ln ../etc .
 ln: `../etc': hard link not allowed for directory
-{% endhighlight %}
+```
 
 What we need to do instead is a trick using the 'mount' command to _bind_ one portion of the file system to another part. From the mount MAN page:
 
@@ -181,16 +181,16 @@ What we need to do instead is a trick using the 'mount' command to _bind_ one po
 
 So we can bind the entire /etc directory into our RCS space with this command:
 
-{% highlight bash %}
+```bash
 mount --bind /etc /server-rcs/etc
-{% endhighlight %}
+```
 
 Better yet, we put this in our /etc/fstab file (also adding the /var/spool/cron directory as well):
 
-{% highlight text %}
+```text
 /etc                            /system-rcs/etc                         none    bind
 /var/spool/cron/crontabs        /system-rcs/var-spool-cron-crontabs     none    bind
-{% endhighlight %}
+```
 
 Since the /etc directory (and other directories) already exist, we're going to have to play some games to get them into the repository. For the trick do to this with Subversion, see [the FAQ entry on in-place imports][3].
 
@@ -208,12 +208,12 @@ One special case is the portage 'world' file. This file records all of the user-
 
 What we do instead is patch into a hook of the 'emerge' command that will save a sorted copy of the world file into /server-rcs. This patch goes into `/etc/portage/profile/profile.bashrc`:
 
-{% highlight bash %}
+```bash
 if [ "${EBUILD_PHASE}" == "setup" ]
 then
         sort /var/lib/portage/world > /server-rcs/misc/var-lib-portage-world
 fi
-{% endhighlight %}
+```
 
 Every time 'emerge' goes through the 'setup' mode when installing a package, it will run this sort command. Note that there is no file locking going on here, so there is a remote chance that the /server-rcs version (but not the /var/lib/portage version) could get corrupted. Such a problem is minor, though, and easily fixed.
 
@@ -221,10 +221,10 @@ Every time 'emerge' goes through the 'setup' mode when installing a package, it 
 
 With the /server-rcs directory prepared, we now just need to get it into the RCS. These are Subversion commands:
 
-{% highlight bash %}
+```bash
 svn add --force /server-rcs
 svn checkin --message "Importing the configuration files for the server" /server-rcs https://svn.repository.url/svn/configurations/server
-{% endhighlight %}
+```
 
 Because of the in-place import problem for pre-existing directories (described earlier), we likely had to create some of the repository directory structure already. (In this example, we would have executed a `svn mkdir https://svn.repository.url/svn/configurations/server/etc` command already to "prime the pump" for adding /etc to the repository.) In line \#1, the --force option makes the 'svn add' command continue the recursive directory parse to add files and directories to the RCS structure even if some component of those paths were already in the RCS structure. Line \#2 checks in our completed /server-rcs directory.
 
@@ -232,10 +232,10 @@ Because of the in-place import problem for pre-existing directories (described e
 
 With all of this setup done, it is finally time to make use of this configuration management infrastructure. Doing so is pretty easy --- work as you normally do when installing packages and making changes to configuration files. (As you do so, you also have the added safety net of `svn revert _filename_` should you make a mistake and want to go back to the previous version of a file.) When you've done a defined chunk of work, simply run this command:
 
-{% highlight bash %}
+```bash
 svn status /server-rcs
 svn checkin /server-rcs -m "Free-text description of why you made the changes."
-{% endhighlight %}
+```
 
 The first line will show you the files modified since the last check-in &mdash hopefully only the files you intended to modify, although this is a good point to check to make sure an inadvertent change didn't happen. The second line will copy changes to the /server-rcs directory into the RCS along with the free-text note describing why you made the change.
 
@@ -247,13 +247,13 @@ We can make our system management lives even easier by using the semi-automated 
 
 See the [project on SourceForge][4] for all of the details on installing, configuring and running GLCU. We make one tweak to the GLCU configuration to prompt the sysadmin to complete all of the housekeeping chores: running `dispatch-conf` to merge changes to configuration files and `revdep-rebuild` to make sure all of the applications using updated linked libraries are properly recompiled. To do this, add a line to `/etc/conf.d/glcu`:
 
-{% highlight shell %}
+```shell
 updatetc: dispatch-conf && revdep-rebuild -X -pv
-{% endhighlight %}
+```
 
 A typical update for us looks like:
 
-{% highlight text %}
+```text
 # glcu /tmp/glcuUpdate-23112
 
 ****************************************
@@ -295,13 +295,13 @@ glsa's:  ['200612-03']
  Do you want to run dispatch-conf && revdep-rebuild -X -pv now? [Y/n]
  > y
 [...dispatch-conf and revdep-rebuild are run...]
-{% endhighlight %}
+```
 
 With the system nicely updated, we can check in all of the changes to the RCS with a note about what we did:
 
-{% highlight bash %}
+```bash
 svn ci -m "After running 'glcu' to update app-editors/nano, media-libs/libsdl, and GLSA for app-crypt/gnupg"
-{% endhighlight %}
+```
 ### Tracking Configuration Changesets and Trouble Tickets with Trac
 
 So far we've done quite a lot to document changes to the configuration of our server. What we're missing is a nice way to view and track those changes over time. Since everything is in the Subversion RCS, one way to accomplish this is to put a web interface (like ) on top of Subversion repository. For just a little bit more effort and complexity, though, we can have a very nice documentation and issue tracking system bundled with the display of our configuration changes repository by using [Trac][5]. 

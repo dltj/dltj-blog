@@ -60,7 +60,7 @@ The key to this architecture is _asking the object to "render itself"_. This pu
 
 Rather than putting special case code in the interface application to render the description of the journal article one way and the thesis another way, that special case code is bound to the object in the form of a "disseminator". The disseminator methods for the journal article and the thesis share the same name — `getFullDisplay` — but will return entirely different XHTML fragments — one for a journal article and one for a thesis. For both objects, though, the interface application will make a call to the object in the Fedora repository asking for the output of each `getFullDisplay` dissemination. In the case of a Dublin Core description, the dissemination output could look like this:
 
-{% highlight html %}
+```html
 <table class="drc_dublinCore_table">
 <tr class="drc_dublinCore_row drc_dublinCore_title">
 <td class="drc_dublinCore_label drc_dublinCore_title">Title:</td>
@@ -72,11 +72,11 @@ Rather than putting special case code in the interface application to render the
 <td class="drc_dublinCore_value drc_dublinCore_identifier">demo:exampleObject</td>
 </tr>
 </table>
-{% endhighlight %}
+```
 
 You'll note that there is a liberal application of CSS styles on all of the XHTML elements, allowing for the look of the dissemination to be further transformed in the browser via CSS stylesheets. A `getFullDisplay` dissemination for a journal article could look like this:
 
-{% highlight html %}
+```html
 <table class="drc_ejc_table">
 <tr class="drc_ejc_row drc_ejc_title">
 <td class="drc_ejc_label drc_ejc_title">Article Title:</td>
@@ -93,7 +93,7 @@ You'll note that there is a liberal application of CSS styles on all of the XHTM
 <td class="drc_ejc_value drc_ejc_issue">2</td>
 </tr>
 </table>
-{% endhighlight %}
+```
 
 ### Looking at the Pieces
 

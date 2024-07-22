@@ -17,9 +17,9 @@ The root cause was turning on [`HTTP Strict-Transport-Security` (HSTS)](https://
 
 I had done the work of moving all of the resources used by the dltj.org blog to HTTPS over the summer, so I turned on the HSTS header:
 
-{% highlight plaintext %}
+```plaintext
 strict-transport-security: max-age=31536000; includeSubDomains; preload
-{% endhighlight %}
+```
 
 The practical impact of this header is to tell a web client (such as a browser) to use HTTPS only when connecting to this particular domain name.
 The `includeSubDomains` attribute tells the web client to apply this rule to _all_ domains under `dltj.org`, which would include the `feeds.dltj.org` domain where the syndication feed lives.
@@ -98,7 +98,7 @@ I don't want to proxy _all_ of FeedBurner's feeds -- just the one for my blog.
 So I have a function running on Lambda@Edge to filter out all CloudFront requests that don't match my blog.
 Lambda@Edge uses JavaScript running in Node, so it looks like this:
 
-{% highlight javascript %}
+```javascript
 'use strict';
 
 exports.handler = (event, context, callback) => {
@@ -150,7 +150,7 @@ exports.handler = (event, context, callback) => {
 
     callback(null, notFoundResponse);
 };
-{% endhighlight %}
+```
 
 You can read the [Lambda@Edge documentation](https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html) for the specifics of how this code works, but basically:
 1. There is a list of partial URLs (just the path portion of the URL) that we are interested in passing through to the origin server (`passthroughUris`).

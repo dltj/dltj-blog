@@ -112,7 +112,7 @@ I'm choosing to self-host its JavaScript, so I downloaded the [ui.js](https://cd
 
 To embed the tweet, add the JavaScript and the &lt;replay-web-page&gt; tag to your HTML. For the DLTJ blog, that looks like this:
 
-{% highlight html linenos %}
+```html
 <script src="/assets/js/replayweb/ui.js"></script>
 <replay-web-page 
   replayBase="/assets/js/replayweb/" 
@@ -125,7 +125,7 @@ To embed the tweet, add the JavaScript and the &lt;replay-web-page&gt; tag to yo
  src="https://dltj.org/assets/images/2023/2023-02-04-tweet-1585816108908662788.png"
  alt="...alt text for static image...">
 </noscript>
-{% endhighlight %}
+```
 
 {: #help-needed}
 ...which looks like this when rendered in the browser:

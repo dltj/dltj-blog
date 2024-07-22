@@ -242,10 +242,10 @@ The first half of this problem, modifying a request as they come into the Apache
 
 The 'mod_proxy_html' extension is likely new to your Apache HTTPD installation, so we need to download the source, compile it, and move it into the proper directory. Fortunately, this is rather straight forward:
 
-{% highlight bash %}
+```bash
 wget 'http://apache.webthing.com/mod_proxy_html/mod_proxy_html-2.5.2.c'
 apxs -c -I/usr/include/libxml2 -i mod_proxy_html-2.5.2.c
-{% endhighlight %}
+```
 
 Note that we are not using the mod_proxy_html author's 3.0 version here. In my set-up, the 3.0 version was causing Apache HTTPD to dump core on _every_request (whether proxied or not), and the prior release works just fine for our purposes. The `apxs` line will compile, link, and copy the resulting library to the Apache modules directory for us.
 
@@ -253,7 +253,7 @@ Note that we are not using the mod_proxy_html author's 3.0 version here. In my s
 
 This is the contents a 'tomcat-proxy.conf' file that is placed in the 'conf.d' directory of the Apache HTTPD configuration directory (most likely `/etc/httpd/conf.d/tomcat-proxy.conf`, although your installation may vary).
 
-{% highlight config %}
+```config
 #
 #  Information about 'mod_proxy_html' can be found at 
 #   http://apache.webthing.com/mod_proxy_html/
@@ -287,6 +287,6 @@ ProxyHTMLDoctype XHTML
 ProxyPassReverse /context_path/ /
 ProxyPassReverseCookiePath /context_path/ /
 ProxyHTMLURLMap /context_path/ /
-{% endhighlight %}
+```
 
 That's pretty much all there is to it.  You should note that mod_proxy_html, like any HTML scraper, requires modestly well-formed X/HTML.  If the markup is bad, the output from mod_proxy_html is likely to be unpredictable.

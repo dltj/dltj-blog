@@ -95,9 +95,9 @@ Ideally, I would like to embed the graphics into the JRXML file itself, similar 
 
 Base64 is a way to take a binary file and encode it into ASCII characters. XML files have limits on what they can contain, so encoding the binary image file in base64 provides a way to embed the image data into XML while still honoring the ASCII nature of XML. There are many ways to do the encoding; I use the [Base64 Image Encoder](https://www.base64-image.de/) site. What you will get back is a string of data that starts like this:
 
-{% highlight plaintext %}
+```plaintext
 data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAY...
-{% endhighlight %}
+```
 
 This is a DATA URI, and it contains details at the start that are not part of the image data itself. Everything up to and including the comma -- `data:image/jpeg;base64,` -- needs to be removed. The remainder of the string is the base64-encoded image data.
 
@@ -128,16 +128,16 @@ Give the variable a name and paste the image data into the Expressions field sur
 
 Click and drag an image element from the Palette onto the report. A "Create new image element" dialog box pops up with several choices for "Image creation mode", including a workspace resource, an absolute path, or a URL. Pick the last choice, "Custom expression", and enter this snippet of Java below. There is a place in the snippet where the variable with the base64-encoded image is included (`CSpaceLogo` in this case); replace this with the variable name from the previous step.
 
-{% highlight java %}
+```java
 new ByteArrayInputStream(Base64.decodeBase64($V{CSpaceLogo}.getBytes()))
-{% endhighlight %}
+```
 
 ## Step 4: Add Base64 class import to the report
 
 One final step...in order to use the `Base64.decodeBase64` function when the report is run, we need to explicitly import that class when the report is run. In the report editor there are tabs for "Design", "Source", and "Preview". Click on "Source" to see the raw JRXML. Below the last line that starts with `<property name="</code">` and above the `<querystring>` line, add this line:
 
-{% highlight xml %}
+```xml
 <import value="org.apache.commons.codec.binary.Base64"></import>
-{% endhighlight %}
+```
 
 All done! Save and preview your report, and you'll see the image included in the report.

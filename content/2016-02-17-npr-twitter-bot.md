@@ -34,7 +34,7 @@ The technology isn't all that hard either. [Amazon Kinesis][0] could be used for
 
 I'd do this, but there is one piece missing that I can't find -- the NPR segment lineup. A time-stamped listing of when the segments appear in the national audio stream. There is some nice semantic markup in the program listing page ([today's Morning Edition show][4], for example):
 
-{% highlight html %}
+```html
 <article class="story clearfix">
   <p class="segment-num"><b>1</b></p>
   <div class="storyinfo noimg">
@@ -76,7 +76,7 @@ I'd do this, but there is one piece missing that I can't find -- the NPR segment
     </ul>
   </div>
 </article>
-{% endhighlight %}
+```
 
 But it doesn't have the time-stamped rundown of when the segments occur in the show.  I've done some moderately intense Google searches, but I haven't turned up anything.  This kind of thing is probably on the dark web since it is intended just for station managers.  Does anyone know how I might get ahold of it?
 

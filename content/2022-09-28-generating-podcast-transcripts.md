@@ -33,7 +33,7 @@ In my testing, AWS Transcribe does well with most sentences; it misses unusual p
 It is certainly good enough to get the main ideas across to provide an anchor for annotations.
 A WebVTT file (of a podcast advertisement) looks like this:
 
-{% highlight text %}
+```text
 WEBVTT
 
 1
@@ -51,7 +51,7 @@ But then I discovered finch Finch is a
 4
 00:00:11.600 --> 00:00:14.830
 free chrome extension that scores everyday products on
-{% endhighlight %}
+```
 
 After a `WEBVTT` marker, there are groups of caption statements separated by newlines.
 Each statement is numbered, followed by a time interval, followed by the caption itself.

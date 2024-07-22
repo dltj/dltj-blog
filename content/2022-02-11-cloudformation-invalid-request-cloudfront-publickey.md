@@ -28,7 +28,7 @@ UpdatePublicKey action lets you update just the **Comment** field. The values **
 
 The resources section of my `serverless.yml` file looks like this:
 
-{% highlight yaml linenos %}
+```yaml
     WebsiteDistributionPublicKey:
       Type: AWS::CloudFront::PublicKey
       Properties:
@@ -36,21 +36,21 @@ The resources section of my `serverless.yml` file looks like this:
           Name: ${self:custom.stack_name}
           CallerReference: ${self:custom.config.PUBLIC_KEY_CALLER_REFERENCE}
           EncodedKey: ${self:custom.config.PUBLIC_KEY_ENCODED}
-{% endhighlight %}
+```
 
 I'm using {% include robustlink.html href="https://www.richdevelops.dev/blog/keeping-secrets-out-of-git" versionurl="https://web.archive.org/web/20220212021821/https://www.richdevelops.dev/blog/keeping-secrets-out-of-git" versiondate="2022-02-11" title="Keeping secrets out of Git" anchor="Rich Buggy's 'Keeping secrets out of Git' technique" %} to store secrets outside of the `serverless.yml` file, so I have a custom section that looks like this:
 
-{% highlight yaml linenos %}
+```yaml
 custom:
   default_stage: dev
   stage: ${opt:stage, self:custom.default_stage}
   stack_name: ${self:service}-${self:custom.stage}
   config: ${file(config.yml):${self:custom.stage}}
-{% endhighlight %}
+```
 
 ... which reads in this file:
 
-{% highlight yaml linenos %}
+```yaml
 default: &default
   <<: *default
   PUBLIC_KEY_CALLER_REFERENCE: SomeRandomString
@@ -64,7 +64,7 @@ default: &default
     leQuc1M13904QKX+0wfUNin6IK9Pn+UmLupQSg0ou533Nxkw69KLZRAvoOHJlZJW
     BwIDAQAB
     -----END PUBLIC KEY-----
-{% endhighlight %}
+```
 
 ... and populates the variables you saw in the fragment at the top. 
 (If you've read this far and are interested in how I set up serverless.com projects, check out the [blog post I wrote earlier this week]({% post_url 2022-02-06-starting-python-serverless-project %}) on the topic.)

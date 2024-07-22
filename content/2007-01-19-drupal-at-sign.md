@@ -30,7 +30,7 @@ As it turns out, he was right.  Without spending so much time in the guts of the
 
 The 'at' symbol for us, though, is just a normal part of an e-mail address.  We really didn't want to reconstruct our LDAP account scheme, so the best choice seemed to be to find a way to trick Drupal into accepting these account identifiers.  This, unfortunately, was no easy task.  I couldn't find the root cause of the problem, but did diagnose enough of the symptoms to force a patch into the system.  The patch, in the form of a new module (code included below) forces the account to have two necessary attributes that seem to go missing whenever a '@' character appears in the user id.  If you have similar problems, I can't claim that this will work for you, nor can I guarantee this approach will be supportable in the future.  All's I know is that it seems to work for us in our situation right now.
 
-{% highlight php %}
+```php
 <?php
 
 function olinkldap_help($section) {
@@ -80,6 +80,6 @@ function olinkldap_user_load(&$user) {
   }
 }
 ?>
-{% endhighlight %}
+```
 
 Save this as 'olinkldap.module', update the DN to reflect your LDAP server's base DN (see comment in code), copy it into your Drupal modules directory, and activate it.  Your '@'-impaired userids should start working again.  If you are using the inter-Drupal account sharing (we're not) this might break something for you.  That's not interesting for us, so I'm not testing it against that condition.  If you use this and find that it works or doesn't work, or you have a better way of solving the problem, please leave a comment or traceback...
