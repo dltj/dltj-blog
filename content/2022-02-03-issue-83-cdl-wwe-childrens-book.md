@@ -13,7 +13,7 @@ tags:
 ---
 Greetings from the wintery mix that is central Ohio. 
 The local school district called off school yesterday afternoon in preparation for what came today. 
-Also yesterday: Ohio's own "Buckeye Chuck" {% include robustlink.html href="https://crawfordcountynow.com/local/buckeye-chuck-doesnt-see-his-shadow/" versionurl="https://web.archive.org/web/20220202215459/https://crawfordcountynow.com/local/buckeye-chuck-doesnt-see-his-shadow/" versiondate="2022-02-02" title="Buckeye Chuck doesn’t see his shadow! | Crawford County Now" anchor="predicted an early spring" %}. 
+Also yesterday: Ohio's own "Buckeye Chuck" {{ robustlink(href="https://crawfordcountynow.com/local/buckeye-chuck-doesnt-see-his-shadow/", versionurl="https://web.archive.org/web/20220202215459/https://crawfordcountynow.com/local/buckeye-chuck-doesnt-see-his-shadow/", versiondate="2022-02-02", title="Buckeye Chuck doesn’t see his shadow! | Crawford County Now", anchor="predicted an early spring") }}. 
 Let's be grateful for snow days (and teenagers who shovel snow) and for predictions of early spring.
 
 In the meantime, the threads this week:
@@ -56,7 +56,7 @@ post=', Cory Doctorow&#39;s Pluralistic, 31-Jan-2022'
 
 Pulling through a thread from last week about [Worldwide Wrestling Entertainment's video archive]({% post_url_absolute 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#wwe-video-preservation)...I included a quote from WWE’s Director of Media Technology Bryan Staffaroni: <quote>"We owned so much of the WCW library, but we just never opened some boxes, because we just had so much stuff."</quote> It came from a section near the end of the article. The last paragraph explains why they have so much archival material: "Recently, WWE acquired one of the few North American organizations it had yet to own: Mid-South Wrestling..."
 
-Cory Doctorow's post provides a perspective on {% include robustlink.html href="https://prospect.org/power/rollups-professional-wrestlings-ruthless-monopoly-era/" versionurl="https://web.archive.org/20220202212719/https://prospect.org/power/rollups-professional-wrestlings-ruthless-monopoly-era/" versiondate="2022-02-02 21:26:26+00:00" title="Rollups: Professional Wrestling’s Ruthless Monopoly Era | The American Prospect" anchor="an article from The American Prospect" %}. Not only do we know why there are so many unopened boxes, but we know how WWE can afford its digital preservation infrastructure.
+Cory Doctorow's post provides a perspective on {{ robustlink(href="https://prospect.org/power/rollups-professional-wrestlings-ruthless-monopoly-era/", versionurl="https://web.archive.org/20220202212719/https://prospect.org/power/rollups-professional-wrestlings-ruthless-monopoly-era/", versiondate="2022-02-02 21:26:26+00:00", title="Rollups: Professional Wrestling’s Ruthless Monopoly Era | The American Prospect", anchor="an article from The American Prospect") }}. Not only do we know why there are so many unopened boxes, but we know how WWE can afford its digital preservation infrastructure.
 
 ## Self-publishing the Local Way
 {: #self-publishing}

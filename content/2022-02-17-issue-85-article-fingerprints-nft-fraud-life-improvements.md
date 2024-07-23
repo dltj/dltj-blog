@@ -41,7 +41,7 @@ post=', Motherboard from Vice, 31-Jan-2022'
 
 Pretty incredulous...adding unique identifiers to the metadata of each PDF downloaded from Elsevier (the "fingerprint") somehow protects against ransomware. 
 Extraordinary claims require extraordinary proof, and it is not forthcoming from Elsevier. 
-I've seen no follow-ups from Elsevier on this Motherboard article, nor from the researcher that {% include robustlink.html href="https://twitter.com/json_dirs/status/1486120144141123584" versionurl="https://web.archive.org/web/20220212021821/https://www.richdevelops.dev/blog/keeping-secrets-out-of-git" versiondate="2022-02-16" title="Tweet from json_dirs" anchor="discovered the fingerprinting" %}. 
+I've seen no follow-ups from Elsevier on this Motherboard article, nor from the researcher that {{ robustlink(href="https://twitter.com/json_dirs/status/1486120144141123584", versionurl="https://web.archive.org/web/20220212021821/https://www.richdevelops.dev/blog/keeping-secrets-out-of-git", versiondate="2022-02-16", title="Tweet from json_dirs", anchor="discovered the fingerprinting") }}. 
 Look, if you're employing a technique to go after researchers sharing PDFs of articles, own up to it. 
 I can see why you don't want to, Elsevier...shared articles might cut into that $40-per-article charge you put on non-subscribers. 
 Either way...owning it or lying about it looks bad. 
@@ -65,11 +65,11 @@ post=', Reuters, 12-Feb-2022'
 
 This from the company that "sells tweets": <quot>"The U.S.-based Cent executed one of the first known million-dollar NFT sales when it sold the former Twitter CEO's tweet as an NFT last March."</quot> 
 Cent seems to be recognized by Twitter with some kind of legitimacy to sell NFTs of tweets. 
-At least to the extent that the CEO of Twitter {% include robustlink.html href="https://twitter.com/jack/status/1374071729467707394" versionurl="https://web.archive.org/web/20220129214521/https://twitter.com/jack/status/1374071729467707394" versiondate="2022-02-16" title="Tweet from Twitter CEO Jack Dorsey" anchor="acknowledged the sale of the tweet" %}. 
+At least to the extent that the CEO of Twitter {{ robustlink(href="https://twitter.com/jack/status/1374071729467707394", versionurl="https://web.archive.org/web/20220129214521/https://twitter.com/jack/status/1374071729467707394", versiondate="2022-02-16", title="Tweet from Twitter CEO Jack Dorsey", anchor="acknowledged the sale of the tweet") }}. 
 But with everything NFTs, what is it that you are really selling, and is there any way of preventing someone from selling the exact same thing? 
 
 Late-breaking addition: on Tuesday, {% include robustlink.html href="https://www.bloomberg.com/news/articles/2022-02-16/who-won-the-melania-trump-nft-auction-trump-crypto-wallet-linked-to-185k-funds" versiondate="2022-02-16" title="Money That Won Melania Trump NFT Came From Melania Trump Wallet | Bloomberg News" anchor="Bloomberg News reported" %} that the winning bid for Melania Trump's NFT came from a cryptocurrency address traced back to the entity that put the item up for sale. 
-That Bloomberg article is behind a paywall, but {% include robustlink.html href="https://www.vice.com/en/article/m7vpx8/analyzing-the-very-bizarre-sale-of-melania-trumps-dollar170000-nft" versionurl="" versiondate="2022-02-16" title="Analyzing the Very Bizarre Sale of Melania Trump’s $170,000 NFT | Motherboard from Vice" anchor="Motherboard has details as well" %}.
+That Bloomberg article is behind a paywall, but {{ robustlink(href="https://www.vice.com/en/article/m7vpx8/analyzing-the-very-bizarre-sale-of-melania-trumps-dollar170000-nft", versionurl="", versiondate="2022-02-16", title="Analyzing the Very Bizarre Sale of Melania Trump’s $170,000 NFT | Motherboard from Vice", anchor="Motherboard has details as well") }}.
 
 
 ## Improve Your Life
@@ -94,7 +94,7 @@ Maybe try one or two this coming week?
 
 "Yes, Mister Carpenter, I have a question for Siva Vaidhyanathan about the role of cats in the metaverse?"
 
-The {% include robustlink.html href="https://niso.plus/" versionurl="https://web.archive.org/web/20220211123509/https://niso.plus/" versiondate="2022-02-16" title="NISOplus Conference homepage" anchor="NISOplus 2022 conference" %} is going on this week, and Tuesday's opening keynote was from {% include robustlink.html href="https://facultydirectory.virginia.edu/faculty/sv2r" versionurl="https://web.archive.org/web/20220217010228/https://facultydirectory.virginia.edu/faculty/sv2r" versiondate="2022-02-16" title="Siva Vaidhyanathan's faculty page at the University of Virginia" anchor="Siva Vaidhyanathan" %}: "Welcome to the Metaverse—The Profound Consequences of a Science-Fiction Vision".
+The {{ robustlink(href="https://niso.plus/", versionurl="https://web.archive.org/web/20220211123509/https://niso.plus/", versiondate="2022-02-16", title="NISOplus Conference homepage", anchor="NISOplus 2022 conference") }} is going on this week, and Tuesday's opening keynote was from {{ robustlink(href="https://facultydirectory.virginia.edu/faculty/sv2r", versionurl="https://web.archive.org/web/20220217010228/https://facultydirectory.virginia.edu/faculty/sv2r", versiondate="2022-02-16", title="Siva Vaidhyanathan's faculty page at the University of Virginia", anchor="Siva Vaidhyanathan") }}: "Welcome to the Metaverse—The Profound Consequences of a Science-Fiction Vision".
 It was a fascinating, thought-provoking look at how technology has infiltrated our lives and what the current trajectory might hold. 
 Topics that made me think...when was the last time I "logged on"? 
 I mean, I'm constantly connected now. 

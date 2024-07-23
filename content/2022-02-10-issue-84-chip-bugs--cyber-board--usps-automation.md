@@ -7,7 +7,7 @@ categories:
 The invoice is in. 
 This reengineered blog and the reinvigorated <i>Thursday Threads</i> newsletter cost just US$2.51 last month.
 All of that cost is in the blog construction and delivery. 
-The cost of delivering the newsletter alone falls well below {% include robustlink.html href="https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=tier%23always-free&awsf.Free%20Tier%20Categories=*all" versionurl="https://web.archive.org/web/20210710132838/https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=tier%23always-free&awsf.Free%20Tier%20Categories=*all" versiondate="2022-02-09" title="AWS Free Tier" anchor="AWS' always-free tiers of service" %}. 
+The cost of delivering the newsletter alone falls well below {{ robustlink(href="https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=tier%23always-free&awsf.Free%20Tier%20Categories=*all", versionurl="https://web.archive.org/web/20210710132838/https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=tier%23always-free&awsf.Free%20Tier%20Categories=*all", versiondate="2022-02-09", title="AWS Free Tier", anchor="AWS' always-free tiers of service") }}. 
 Not bad!
 And as always, no internet trackers or surveillance capitalism is involved.
 

@@ -99,7 +99,7 @@ anchor="Mechanical Turk: Now with 40.92% spam"
 post='A Computer Scientist in a Business School, 16-Dec-2010'
 %}
 
-This post from Panos Ipeirotis, Associate Professor at the IOMS Department at Stern School of Business of New York University, describes a review of activities posted to {% include robustlink.html href="https://www.mturk.com/" versionurl="https://web.archive.org/web/20101230000000/https://www.mturk.com/" versiondate="2022-12-28" title="Mechanical Turk home" anchor="Amazon's Mechanical Turk" %}  service.  Spam is everywhere, and it appears that the Mechanical Turk is reducing the friction between buyers and workers of spam activity. [Via Ron Murray]
+This post from Panos Ipeirotis, Associate Professor at the IOMS Department at Stern School of Business of New York University, describes a review of activities posted to {{ robustlink(href="https://www.mturk.com/", versionurl="https://web.archive.org/web/20101230000000/https://www.mturk.com/", versiondate="2022-12-28", title="Mechanical Turk home", anchor="Amazon's Mechanical Turk") }}  service.  Spam is everywhere, and it appears that the Mechanical Turk is reducing the friction between buyers and workers of spam activity. [Via Ron Murray]
 
 ## Cutting-Edge Imaging Helps Scholar Reveal 8th-Century Manuscript
 {: #multispectral_imaging}

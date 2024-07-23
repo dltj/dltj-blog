@@ -12,7 +12,7 @@ Welcome to issue 80 of Thursday Threads.
 I'm so happy many of you chose to stick around and greetings to all of the new subscribers.
 To those that received my email last Thursday giving you a heads-up that a new issue would be coming to your inbox but then didn't receive it: check your spam folder.
 Over the course of the week, I've learned a great deal more about the spam-prevention mechanisms that are keeping our inboxes as clean as they are.
-I highly recommend the {% include robustlink.html href="https://www.learndmarc.com/" versionurl="https://web.archive.org/web/20220111170835/https://www.learndmarc.com/" versiondate="2022-01-11" title="'Learn and Test DMARC' console — interactive walkthrough of a site's DMARC implementation" anchor="interactive 'Learn and Test DMARC'" %} site sponsored by URIPorts.
+I highly recommend the {{ robustlink(href="https://www.learndmarc.com/", versionurl="https://web.archive.org/web/20220111170835/https://www.learndmarc.com/", versiondate="2022-01-11", title="'Learn and Test DMARC' console — interactive walkthrough of a site's DMARC implementation", anchor="interactive 'Learn and Test DMARC'") }} site sponsored by URIPorts.
 It was useful to see several standards come together to ensure email senders are who they say they are.
 (If you find this issue in your spam folder, please reply so I can track down more of the causes.)
 

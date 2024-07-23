@@ -51,7 +51,7 @@ Each option means:
 1. Ffmpeg command with -y to overwrite any existing file without prompting
 2. Recording file from Zoom
 3. Scan-start (`-ss`) and end (`-to`) points. Could have also used `-d` for duration. Note that the placement of `-ss` here relative to the `-i` input filename means `ffmpeg` will perform a frame-accurate. This avoids the problem of blank or mostly blank frames until the next keyframe is found in the file. See [How to Cut Video Using FFmpeg in 3 Easy Ways (Extract/Trim)](https://ottverse.com/trim-cut-video-using-start-endtime-reencoding-ffmpeg/) for a discussion.
-4. Re-encode with the x264 codec with a lossless {% include robustlink.html href="https://trac.ffmpeg.org/wiki/Encode/H.264#crf" versionurl="https://web.archive.org/web/20230904070629/https://trac.ffmpeg.org/wiki/Encode/H.264#crf" versiondate="2023-09-12" title="H.264 Video Encoding Guide" anchor="Constant Rate Factor" %}.
+4. Re-encode with the x264 codec with a lossless {{ robustlink(href="https://trac.ffmpeg.org/wiki/Encode/H.264#crf", versionurl="https://web.archive.org/web/20230904070629/https://trac.ffmpeg.org/wiki/Encode/H.264#crf", versiondate="2023-09-12", title="H.264 Video Encoding Guide", anchor="Constant Rate Factor") }}.
 5. Output file name
 
 ## Rescale recordings

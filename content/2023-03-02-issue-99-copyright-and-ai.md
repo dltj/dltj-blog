@@ -23,7 +23,7 @@ mastodon:
 - And the weekly addition to #CatsOfMastodon. Alan stretches and roars in my lap. bonus/9
 ---
 {% include image.html src="2023/2023-03-02-cmf.png" float="right" width="300" alt="" caption="Cecil Mae Feather, 1929–2023"%} 
-This issue is offered in honor of {% include robustlink.html href="https://www.legacy.com/us/obituaries/hickoryrecord/name/cecil-feather-obituary?id=45099704" versionurl="https://web.archive.org/web/20230302030520/https://www.legacy.com/us/obituaries/hickoryrecord/name/cecil-feather-obituary?id=45099704" versiondate="2023-03-01" title="Cecil Feather Obituary (1929 - 2023) - Newton, NC | Hickory Daily Record" anchor="Cecil Mae Thornburg Feather" %}, my mother-in-law. 
+This issue is offered in honor of {{ robustlink(href="https://www.legacy.com/us/obituaries/hickoryrecord/name/cecil-feather-obituary?id=45099704", versionurl="https://web.archive.org/web/20230302030520/https://www.legacy.com/us/obituaries/hickoryrecord/name/cecil-feather-obituary?id=45099704", versiondate="2023-03-01", title="Cecil Feather Obituary (1929 - 2023) - Newton, NC | Hickory Daily Record", anchor="Cecil Mae Thornburg Feather") }}, my mother-in-law. 
 Cecil Mae was a wonderful person. 
 I only knew her a short time as I married into the Feather family, and that time was filled with love and joy. 
 She enjoyed playing piano and teaching students how to play piano. 
@@ -87,7 +87,7 @@ post=', The Verge, 22-Feb-2022'
 %}
 
 As expected, the U.S. Copyright Office rejected an application for a work from an algorithm. 
-In fact, the Copyright Office has started the process of {% include robustlink.html href="https://www.cbr.com/ai-comic-deemed-ineligible-copyright-protection/" versionurl="https://web.archive.org/web/20221226010818/https://www.cbr.com/ai-comic-deemed-ineligible-copyright-protection/" versiondate="2022-12-25T20:08:15" title="TITLE-PLACEHOLDER" anchor="revoking a previously granted copyright for an AI-generated comic book" %}.
+In fact, the Copyright Office has started the process of {{ robustlink(href="https://www.cbr.com/ai-comic-deemed-ineligible-copyright-protection/", versionurl="https://web.archive.org/web/20221226010818/https://www.cbr.com/ai-comic-deemed-ineligible-copyright-protection/", versiondate="2022-12-25T20:08:15", title="TITLE-PLACEHOLDER", anchor="revoking a previously granted copyright for an AI-generated comic book") }}.
 
 I'm starting here because it is helpful to know whether the output of an AI system can be copyrighted when we later look at the use of copyrighted sources in AI. 
 
@@ -218,7 +218,7 @@ anchor="OpenAI, Microsoft want court to toss lawsuit accusing them of abusing op
 post=', Reuters, 27-Jan-2023'
 %}
 
-{% include robustlink.html href="https://news.microsoft.com/announcement/microsoft-acquires-github/" versionurl="https://web.archive.org/web/20200422204602/https://news.microsoft.com/announcement/microsoft-acquires-github/" versiondate="2023-03-01" title="Microsoft to acquire GitHub for $7.5 billion | Microsoft" anchor="Microsoft bought GitHub in 2018" %} and {% include robustlink.html href="https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/" versionurl="https://web.archive.org/web/20230124000903/https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/" versiondate="2023-03-01" title="Microsoft and OpenAI extend partnership | Microsoft" anchor="Microsoft is a major investor and user of OpenAI's LLM technology" %}. 
+{{ robustlink(href="https://news.microsoft.com/announcement/microsoft-acquires-github/", versionurl="https://web.archive.org/web/20200422204602/https://news.microsoft.com/announcement/microsoft-acquires-github/", versiondate="2023-03-01", title="Microsoft to acquire GitHub for $7.5 billion | Microsoft", anchor="Microsoft bought GitHub in 2018") }} and {{ robustlink(href="https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/", versionurl="https://web.archive.org/web/20230124000903/https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/", versiondate="2023-03-01", title="Microsoft and OpenAI extend partnership | Microsoft", anchor="Microsoft is a major investor and user of OpenAI's LLM technology") }}. 
 Copilot is a new feature in GitHub that generates code snippets based on the open source code files uploaded to GitHub and a prompt from the user. (Sound familiar?) 
 The software developers claim that Microsoft's use of the code files violates the terms of open source license agreements. 
 This is a new case, and it is one to watch to see how copyright and license terms intersect with large language models.

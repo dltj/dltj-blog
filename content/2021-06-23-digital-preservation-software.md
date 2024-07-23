@@ -60,7 +60,7 @@ Now there are many ways to generate static websites.
 This blog uses Markdown text files and Jekyll as a pre-processor to create a stand-alone folder of HTML and supporting files.
 A more sophisticated method might use Drupal as a content management system that exports to a static site.
 Jekyll and Drupal are nowhere near as assumed-to-work as HTML and HTTP, but they work well as mechanisms for generating a static site.
-Last year, colleagues from the University of Iowa {% include robustlink.html href="https://journal.code4lib.org/articles/15326" versionurl="https://archive.li/wip/cIU9H" versiondate="2021-06-23" title="CollectionBuilder-CONTENTdm: Developing a Static Web ‘Skin’ for CONTENTdm-based Digital Collections | Code4Lib Journal" anchor="published a paper about making a static site front-end to CONTENTdm" %} in the Code4Lib Journal, which could be the basis of a digital collection website development.
+Last year, colleagues from the University of Iowa {{ robustlink(href="https://journal.code4lib.org/articles/15326", versionurl="https://archive.li/wip/cIU9H", versiondate="2021-06-23", title="CollectionBuilder-CONTENTdm: Developing a Static Web ‘Skin’ for CONTENTdm-based Digital Collections | Code4Lib Journal", anchor="published a paper about making a static site front-end to CONTENTdm") }} in the Code4Lib Journal, which could be the basis of a digital collection website development.
 So if your digital repository creates HTML to be served over HTTP _and_—for the purposes of preservation—the metadata can be encoded in HTML structures that are readily machine-processable?
 Well, then you might be getting pretty close to a system you can trust.
 
@@ -70,7 +70,7 @@ Back in 2006, I crowed about the <a href="https://dltj.org/article/why-fedora-be
 Fedora used a bespoke method of saving digital objects as a series of files on disk, and the repository software provided commands to rebuild the repository database from those files.
 That worked for Fedora up to version 3.
 For Fedora version 4, some of the key object metadata only existed in the repository database.
-From what I understand of version 5 and beyond, Fedora adopted the {% include robustlink.html href="https://ocfl.io/" versionurl="https://web.archive.org/web/20201210204722/https://ocfl.io/" versiondate="2021-06-23" title="Oxford Common File Layout website" anchor="Oxford Common File Layout" %} (OCFL), "an application-independent approach to the storage of digital information in a structured, transparent, and predictable manner."
+From what I understand of version 5 and beyond, Fedora adopted the {{ robustlink(href="https://ocfl.io/", versionurl="https://web.archive.org/web/20201210204722/https://ocfl.io/", versiondate="2021-06-23", title="Oxford Common File Layout website", anchor="Oxford Common File Layout") }} (OCFL), "an application-independent approach to the storage of digital information in a structured, transparent, and predictable manner."
 The OCFL website goes on to say: "It is designed to promote long-term object management best practices within digital repositories."
 So Fedora is back again in a state where you could rebuild the digital object repository system from a simple filesystem backup.
 The repository software becomes a way of optimizing access to the underlying digital objects.

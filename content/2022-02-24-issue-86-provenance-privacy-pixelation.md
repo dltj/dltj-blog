@@ -11,7 +11,7 @@ tags:
 - advertising
 ---
 I've deleted what I originally had here as newsletter-opening-banter. These are serious times. I think the world has radically changed overnight, and roughly 7.9 billion of us are not in positions to do anything about it. To those that are in positions to do something about it and to those that are caught up in the effects of one man's decision to impose _his_ will on others: may you be safe, may you succeed, and may you find peace.  For those coming to this after early 2022, yesterday Russia invaded the sovereign country of Ukraine.
-{% include robustlink.html href="https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine" versionurl="https://en.wikipedia.org/w/index.php?title=2022_Russian_invasion_of_Ukraine&oldid=1073778722" versiondate="2022-02-24" title="2022 Russian invasion of Ukraine" anchor="Russia invaded the sovern country of Ukraine" %} 
+{{ robustlink(href="https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine", versionurl="https://en.wikipedia.org/w/index.php?title=2022_Russian_invasion_of_Ukraine&oldid=1073778722", versiondate="2022-02-24", title="2022 Russian invasion of Ukraine", anchor="Russia invaded the sovern country of Ukraine") }} 
 
 The threads this week:
 

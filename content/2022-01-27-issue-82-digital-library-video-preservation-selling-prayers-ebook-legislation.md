@@ -41,7 +41,7 @@ anchor="Attorney General KK Venugopal converts his rare book collection into pub
 post='The Print (India), 25-Mar-2020'
 %}
 
-I learned about this article and corresponding website during the {% include robustlink.html href="https://sites.google.com/view/cdl-implementers" versionurl="https://web.archive.org/web/20220126232417/https://sites.google.com/view/cdl-implementers" versiondate="2022-01-26" title="Controlled Digital Lending Implementers homepage" anchor="Controlled Digital Lending Implementers (CDLI)" %} monthly forum. 
+I learned about this article and corresponding website during the {{ robustlink(href="https://sites.google.com/view/cdl-implementers", versionurl="https://web.archive.org/web/20220126232417/https://sites.google.com/view/cdl-implementers", versiondate="2022-01-26", title="Controlled Digital Lending Implementers homepage", anchor="Controlled Digital Lending Implementers (CDLI)") }} monthly forum. 
 Aishwarya Chaturvedi, LL.M. candidate from the Cornell Law School, spoke about copyright law in Inda relative to efforts to start a controlled digital lending practice at the forum, and she included mention of {% include robustlink.html href="http://kkvlibrary.com/" versiondate="2022-01-26" title="KVV Library" anchor="Mr. Venugopal's library website" %}. 
 It is a WordPress site with the books embedded with a PDF reader, and some of the books are relatively recent—1980s and one from 1994. 
 

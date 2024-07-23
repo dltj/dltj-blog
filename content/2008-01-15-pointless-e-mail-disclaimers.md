@@ -399,7 +399,7 @@ As I was typing it from the image in the tweet, I couldn't help but notice that 
 
 ## August 2022 Addition to the November 2020 Addition — Cory Doctorow's backstory
 
-In a {% include robustlink.html href="https://pluralistic.net/2022/08/10/be-reasonable/" versionurl="https://web.archive.org/web/20220810153942/https://pluralistic.net/2022/08/10/be-reasonable/" versiondate="2022-08-10" title="A modest proposal to fix contracts | Pluralistic: 10 Aug 2022" anchor="post describing the insidious nature of powerful corporate take-it-or-leave-it contract terms" %}, Cory describes the origin of his email disclaimer:
+In a {{ robustlink(href="https://pluralistic.net/2022/08/10/be-reasonable/", versionurl="https://web.archive.org/web/20220810153942/https://pluralistic.net/2022/08/10/be-reasonable/", versiondate="2022-08-10", title="A modest proposal to fix contracts | Pluralistic: 10 Aug 2022", anchor="post describing the insidious nature of powerful corporate take-it-or-leave-it contract terms") }}, Cory describes the origin of his email disclaimer:
 
 > I once threw away a couple years' worth of my life fighting against the standardization of DRM in web browsers. The representatives from the giant corporations pushing for this all argued that it was okay to hijack control over your browser while you were watching a movie because you "agreed" to it when you created an account with Netflix or another streamer. And yet, these same engineers went absolutely bananas because my emails to the group mailing list had this gag disclaimer, which I've used off and on since the early 2000s.
 >

@@ -91,7 +91,7 @@ anchor="The Thorny Problem of Keeping the Internet’s Time"
 post=', The New Yorker, 30-Sep-2022'
 %}
 
-When Vint Cerf, a {% include robustlink.html href="https://en.wikipedia.org/wiki/Vint_Cerf" versionurl="https://en.wikipedia.org/w/index.php?title=Vint_Cerf&oldid=1136158594" versiondate="2023-02-01" title="Vinton Cerf | Wikipedia" anchor="co-developer of TCP/IP" %}, thinks something is black magic, you can wager that it is intense technology.
+When Vint Cerf, a {{ robustlink(href="https://en.wikipedia.org/wiki/Vint_Cerf", versionurl="https://en.wikipedia.org/w/index.php?title=Vint_Cerf&oldid=1136158594", versiondate="2023-02-01", title="Vinton Cerf | Wikipedia", anchor="co-developer of TCP/IP") }}, thinks something is black magic, you can wager that it is intense technology.
 This article peels back some of the mystique of one of the oldest internet standards: Network Time Protocol (NTP). 
 NTP has been under the care of mostly one person since it was first developed in the late 1980s. 
 This is a story about honoring an unsung—if prickly—hero of the common good of the internet and how the community is advancing the state of the art beyond what a 40-year-old standard can support. 

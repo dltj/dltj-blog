@@ -43,7 +43,7 @@ post=', Roy Tennant, OCLC Research&apos;s "Hanging Together" blog, 17-Jan-2011'
 %}
 
 Back in 2011, Roy Tennant posted a summary of this research on the fields that libraries use most often when describing stuff. 
-It pointed to a report from which the above table is taken, _{% include robustlink.html href="https://www.oclc.org/content/dam/research/publications/library/2010/2010-06.pdf" versionurl="https://web.archive.org/web/20220924225010/https://www.oclc.org/content/dam/research/publications/library/2010/2010-06.pdf" versiondate="2023-01-18" title="Implications of MARC Tag Usage on Library Metadata Practices | OCLC Research" anchor="Implications of MARC Tag Usage on Library Metadata Practices" %}_. 
+It pointed to a report from which the above table is taken, _{{ robustlink(href="https://www.oclc.org/content/dam/research/publications/library/2010/2010-06.pdf", versionurl="https://web.archive.org/web/20220924225010/https://www.oclc.org/content/dam/research/publications/library/2010/2010-06.pdf", versiondate="2023-01-18", title="Implications of MARC Tag Usage on Library Metadata Practices | OCLC Research", anchor="Implications of MARC Tag Usage on Library Metadata Practices") }}_. 
 WorldCat is the name of a database of records from libraries. 
 As the table shows, every record has some mandatory elements: a control number, a set of codes called the "fixed length data elements", a source for where the record came from, and the title. 
 Most records also have an imprint (96%) and a physical description (number of pages, etc.—91%). 

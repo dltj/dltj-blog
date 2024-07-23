@@ -13,7 +13,7 @@ If you have been following social media news, you know that Twitter is having it
 Although there is still a bit to go before it goes away (or, more likely, puts up a paywall to view tweets), it seems prudent to save Twitter content so it can be viewed later. 
 Most people do this with a screenshot of a tweet, but that doesn't capture the fidelity of the Twitter experience. 
 
-Ed Summers pointed out a {% include robustlink.html href="https://apnews.com/article/technology-police-government-surveillance-covid-19-3f3f348d176bc7152a8cb2dbab2e4cc4" versionurl="https://web.archive.org/web/20230204174731/https://apnews.com/article/technology-police-government-surveillance-covid-19-3f3f348d176bc7152a8cb2dbab2e4cc4" versiondate="2023-02-04" title="Police seize on COVID-19 tech to expand global surveillance | AP News" anchor="recent article" %} from the Associated Press that embedded a functional archive of a tweet. (Scroll down nearly to the end of the article.) 
+Ed Summers pointed out a {{ robustlink(href="https://apnews.com/article/technology-police-government-surveillance-covid-19-3f3f348d176bc7152a8cb2dbab2e4cc4", versionurl="https://web.archive.org/web/20230204174731/https://apnews.com/article/technology-police-government-surveillance-covid-19-3f3f348d176bc7152a8cb2dbab2e4cc4", versiondate="2023-02-04", title="Police seize on COVID-19 tech to expand global surveillance | AP News", anchor="recent article") }} from the Associated Press that embedded a functional archive of a tweet. (Scroll down nearly to the end of the article.) 
 
 {% include image.html 
 float="left"
@@ -49,10 +49,10 @@ notetext="An earlier version of this post described how to setup and use Browser
 
 Our goal is to use ReplayWeb to embed a bit of the Twitter experience into a stand-alone web page. 
 (More on ReplayWeb [below](#replayweb).)
-That tool uses a {% include robustlink.html href="https://replayweb.page/docs/wacz-format" versionurl="https://web.archive.org/web/20230204203859/https://replayweb.page/docs/wacz-format" versiondate="2023-02-04" title="Web Archive Collection Format Specification " anchor="WACZ file" %} to do this; a WACZ file is the contents of a series of web pages—the HTML, images, Javascript...everything—wrapped up in a Zip file for easy transport.
+That tool uses a {{ robustlink(href="https://replayweb.page/docs/wacz-format", versionurl="https://web.archive.org/web/20230204203859/https://replayweb.page/docs/wacz-format", versiondate="2023-02-04", title="Web Archive Collection Format Specification ", anchor="WACZ file") }} to do this; a WACZ file is the contents of a series of web pages—the HTML, images, Javascript...everything—wrapped up in a Zip file for easy transport.
 We're going to use <i>ArchiveWeb.page</i> to make the WACZ file.
 
-{% include robustlink.html href="https://archiveweb.page/" versionurl="" versiondate="2023-02-05" title="ArchiveWeb.page homepage" anchor="ArchiveWeb.page" %} creates high-fidelity web archives as either a Google Chrome extension or a desktop application. 
+{{ robustlink(href="https://archiveweb.page/", versionurl="", versiondate="2023-02-05", title="ArchiveWeb.page homepage", anchor="ArchiveWeb.page") }} creates high-fidelity web archives as either a Google Chrome extension or a desktop application. 
 The desktop application is described as a beta version, but I'm going to use that instead of the Chrome extension because Firefox is my day-to-day browser. 
 
 {% include note.html 
@@ -67,7 +67,7 @@ To get an isolated view of the tweet, we're going to use [oembed.link](https://o
 The oEmbed is intended to be just the primary content of the page; it excludes toolbars, navigation elements, and other parts of the page framework. 
 A bunch of big sites support it: Twitter, TikTok, YouTube, Tumblr, Facebook, etc.
 Many blog platforms support an oEmbed view by just putting the URL to the content you want to embed onto a line by itself. 
-(You might be using oEmbed without even knowing the name or technology behind it; see the {% include robustlink.html href="https://wordpress.org/documentation/article/embeds/" versionurl="https://web.archive.org/web/20230127052647/https://wordpress.org/documentation/article/embeds/" versiondate="2023-01-27" title="Embeds | WordPress documentation" anchor="documentation at WordPress" %}, for instance.) 
+(You might be using oEmbed without even knowing the name or technology behind it; see the {{ robustlink(href="https://wordpress.org/documentation/article/embeds/", versionurl="https://web.archive.org/web/20230127052647/https://wordpress.org/documentation/article/embeds/", versiondate="2023-01-27", title="Embeds | WordPress documentation", anchor="documentation at WordPress") }}, for instance.) 
 We're going to use oembed.link to get the same thing, but turn it into a web archive first.
 In this example, we are going to archive [https://twitter.com/DataG/status/1585816108908662788](https://twitter.com/DataG/status/1585816108908662788), which in oembed.link looks like [this](https://oembed.link/https://twitter.com/DataG/status/1585816108908662788).
 
@@ -103,11 +103,11 @@ First step done!
 {: #replayweb}
 
 Next we're going to use 
-{% include robustlink.html href="https://replayweb.page/docs/" versionurl="https://web.archive.org/web/20230204183050/https://replayweb.page/docs/" versiondate="2023-02-04" title="User Guide: replayweb.page" anchor="ReplayWeb" %} to embed the captured archive in a mini-browser running inside our web page. 
+{{ robustlink(href="https://replayweb.page/docs/", versionurl="https://web.archive.org/web/20230204183050/https://replayweb.page/docs/", versiondate="2023-02-04", title="User Guide: replayweb.page", anchor="ReplayWeb") }} to embed the captured archive in a mini-browser running inside our web page. 
 ReplayWeb reads the contents of the archive and dynamically injects the archived pages into the DOM as an &lt;iframe&gt;. 
 It is really cool.
 
-The {% include robustlink.html href="https://replayweb.page/docs/embedding" versionurl="https://web.archive.org/web/20230204190204/https://replayweb.page/docs/embedding" versiondate="2022-0204" title="Embedding Web Archives with ReplayWeb.page | ReplayWeb documentation" anchor="embedding ReplayWeb documentation" %} is quite good, and I recommend reading it to see details of all of the options. 
+The {{ robustlink(href="https://replayweb.page/docs/embedding", versionurl="https://web.archive.org/web/20230204190204/https://replayweb.page/docs/embedding", versiondate="2022-0204", title="Embedding Web Archives with ReplayWeb.page | ReplayWeb documentation", anchor="embedding ReplayWeb documentation") }} is quite good, and I recommend reading it to see details of all of the options. 
 I'm choosing to self-host its JavaScript, so I downloaded the [ui.js](https://cdn.jsdelivr.net/npm/replaywebpage/ui.js) and [sw.js](https://cdn.jsdelivr.net/npm/replaywebpage/sw.js) files and put them in the "assets" directory on my blog's static site. 
 
 To embed the tweet, add the JavaScript and the &lt;replay-web-page&gt; tag to your HTML. For the DLTJ blog, that looks like this:
@@ -180,8 +180,8 @@ That is probably better, really, because it isn't relying on an external service
 ## Using Browsertrix to create a WACZ file
 {: #browsertrix}
 
-{% include robustlink.html href="https://browsertrix.cloud/" versionurl="https://web.archive.org/web/20230204204644/https://browsertrix.cloud/" versiondate="2023-02-04" title="Browsertrix Cloud homepage" anchor="Browsertrix Cloud" %} building a hosted service for organizations that want to have high-fidelity web archives, and it is also making its core code available as open source. 
-Its {% include robustlink.html href="https://docs.browsertrix.cloud/deploy/local/" versionurl="https://web.archive.org/web/20230204204714/https://docs.browsertrix.cloud/deploy/local/" versiondate="2023-02-04" title="Local Deployment | Browsertrix Cloud Docs" anchor="local deployment instructions" %} instructions are really good, but one of the things that put me off was the Kubernetes requirement. 
+{{ robustlink(href="https://browsertrix.cloud/", versionurl="https://web.archive.org/web/20230204204644/https://browsertrix.cloud/", versiondate="2023-02-04", title="Browsertrix Cloud homepage", anchor="Browsertrix Cloud") }} building a hosted service for organizations that want to have high-fidelity web archives, and it is also making its core code available as open source. 
+Its {{ robustlink(href="https://docs.browsertrix.cloud/deploy/local/", versionurl="https://web.archive.org/web/20230204204714/https://docs.browsertrix.cloud/deploy/local/", versiondate="2023-02-04", title="Local Deployment | Browsertrix Cloud Docs", anchor="local deployment instructions") }} instructions are really good, but one of the things that put me off was the Kubernetes requirement. 
 (Kubernetes is a highly-complicated, highly-robust tool for orchestrating the containers that make up a distributed application.) 
 Fortunately, the Browsertrix local deployment instructions point out that recent versions of Docker Desktop include Kubernetes as an optional component. 
 So I started with the four list items under the _Docker Desktop (recommended for Mac and Windows)_ heading.

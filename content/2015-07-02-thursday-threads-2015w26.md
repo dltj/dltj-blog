@@ -17,7 +17,7 @@ categories:
 comments: []
 ---
 
-I'm just home from the {% include robustlink.html href="http://ALAac15.ala.org/" versionurl="https://web.archive.org/web/20150701075334/alaac15.ala.org" versiondate="2015-07-02" title="2015 ALA Annual Conference" anchor="American Library Association meeting" %} in San Francisco, so this week's threads are just a brief view of new and interesting things I found on the exhibit floor.
+I'm just home from the {{ robustlink(href="http://ALAac15.ala.org/", versionurl="https://web.archive.org/web/20150701075334/alaac15.ala.org", versiondate="2015-07-02", title="2015 ALA Annual Conference", anchor="American Library Association meeting") }} in San Francisco, so this week's threads are just a brief view of new and interesting things I found on the exhibit floor.
 
 * <a href="{% post_url 2015-07-02-thursday-threads-2015w26 %}/#p26028-bdpaas">Book-Donations-Processing-as-a-Service</a>
 * <a href="{% post_url 2015-07-02-thursday-threads-2015w26 %}/#p26028-drivers-ed">Free Driver's Ed Resources for Libraries</a>
@@ -37,7 +37,7 @@ href="https://twitter.com/DataG/status/615206357130706944"
 anchor="Peter Murray on Twitter" %}
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I didn't get to talk to anyone at this booth, but I was interested in the concept.  I remember donations processing being such a hassle -- analyze each book for its value, deciding whether it is part of your collection policy, determining where to sell it, manage the sale, and so forth.  {% include robustlink.html href="http://americanbookdrive.com/" versionurl="https://web.archive.org/web/20150629023108/http://americanbookdrive.com/" versiondate="2015-07-02" title="American Book Drive : Welcome" anchor="American Book Drive" %} seems to offer such a service.  Right now their service is limited to California.  I wonder if it will expand, or if there are similar service providers in other areas of the countries.
+I didn't get to talk to anyone at this booth, but I was interested in the concept.  I remember donations processing being such a hassle -- analyze each book for its value, deciding whether it is part of your collection policy, determining where to sell it, manage the sale, and so forth.  {{ robustlink(href="http://americanbookdrive.com/", versionurl="https://web.archive.org/web/20150629023108/http://americanbookdrive.com/", versiondate="2015-07-02", title="American Book Drive : Welcome", anchor="American Book Drive") }} seems to offer such a service.  Right now their service is limited to California.  I wonder if it will expand, or if there are similar service providers in other areas of the countries.
 
 
 ## Free Driver's Ed Resources for Libraries
@@ -49,7 +49,7 @@ blockquote='<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">F
 href="https://twitter.com/DataG/status/615209740117929984"
 anchor="Peter Murray on Twitter" %}
 
-This exhibitor had a good origin story.  A family coming to the U.S. had a difficult time getting their drivers licenses, so they created an online resource for all 50 states that covers the details.  They've had success with the business side of their service, so they decided to {% include robustlink.html href="http://driving-tests.org/library/" versionurl="https://web.archive.org/web/20150712102211/http://driving-tests.org/library/" versiondate="2015-07-02" title="Driving-Tests.org For Libraries" anchor="give it away to libraries for free" %}.
+This exhibitor had a good origin story.  A family coming to the U.S. had a difficult time getting their drivers licenses, so they created an online resource for all 50 states that covers the details.  They've had success with the business side of their service, so they decided to {{ robustlink(href="http://driving-tests.org/library/", versionurl="https://web.archive.org/web/20150712102211/http://driving-tests.org/library/", versiondate="2015-07-02", title="Driving-Tests.org For Libraries", anchor="give it away to libraries for free") }}.
 
 ## Free Online Obituaries Service from Orange County Library
 {: #p26028-obits}
@@ -60,4 +60,4 @@ blockquote='<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">O
 href='https://twitter.com/DataG/status/615225314172620800'
 anchor='Peter Murray on Twitter' %}
 
-With newspapers charging more for printing obituaries, important community details are no longer being printed.  The {% include robustlink.html href="http://www.epochlegacies.org/" versionurl="https://web.archive.org/web/20150905232420/http://www.epochlegacies.org/" versiondate="2015-07-02" title="Electronically Preserving Obituaries as Cultural Heritage | EPOCH" anchor="Epoch Project" %} from the Orange County (FL) Library System provides a simple service with text and media to capture this cultural heritage information.  Funded initially by {% include robustlink.html href="http://www.ocls.info/Programs/Press_Releases/PDFs/2012/EPOCH.pdf" versionurl="https://web.archive.org/web/20150919094433/http://www.ocls.info/Programs/Press_Releases/PDFs/2012/EPOCH.pdf" versiondate="2015-07-02" anchor='an <abbr title="Institute of Museum and Library Services">IMLS</abbr> grant' %} [PDF], they are now in the process of rounding up partners in each state to be ambassadors to bring the service to other libraries around the country.
+With newspapers charging more for printing obituaries, important community details are no longer being printed.  The {{ robustlink(href="http://www.epochlegacies.org/", versionurl="https://web.archive.org/web/20150905232420/http://www.epochlegacies.org/", versiondate="2015-07-02", title="Electronically Preserving Obituaries as Cultural Heritage | EPOCH", anchor="Epoch Project") }} from the Orange County (FL) Library System provides a simple service with text and media to capture this cultural heritage information.  Funded initially by {% include robustlink.html href="http://www.ocls.info/Programs/Press_Releases/PDFs/2012/EPOCH.pdf" versionurl="https://web.archive.org/web/20150919094433/http://www.ocls.info/Programs/Press_Releases/PDFs/2012/EPOCH.pdf" versiondate="2015-07-02" anchor='an <abbr title="Institute of Museum and Library Services">IMLS</abbr> grant' %} [PDF], they are now in the process of rounding up partners in each state to be ambassadors to bring the service to other libraries around the country.

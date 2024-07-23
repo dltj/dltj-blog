@@ -21,7 +21,7 @@ Do you want to know why?
 
 _An **AWS::CloudFront::PublicKey** resource is immutable, you idiot._  (Me idiot, actually.  Hopefully you are fortunate in finding this page early in your quest to solve the problem.)
 
-The clue came from {% include robustlink.html href="https://github.com/aws-cloudformation/cloudformation-coverage-roadmap/issues/924" versionurl="https://web.archive.org/web/20220212021021/https://github.com/aws-cloudformation/cloudformation-coverage-roadmap/issues/924" versiondate="2022-02-11" title="Updating AWS::CloudFront::PublicKey results in BadRequest error |  aws-cloudformation/cloudformation-coverage-roadmap" anchor="this issue report in the CloudFormation coverage roadmap page" %}:
+The clue came from {{ robustlink(href="https://github.com/aws-cloudformation/cloudformation-coverage-roadmap/issues/924", versionurl="https://web.archive.org/web/20220212021021/https://github.com/aws-cloudformation/cloudformation-coverage-roadmap/issues/924", versiondate="2022-02-11", title="Updating AWS::CloudFront::PublicKey results in BadRequest error |  aws-cloudformation/cloudformation-coverage-roadmap", anchor="this issue report in the CloudFormation coverage roadmap page") }}:
 
 > As mentioned in the API documentation : [UpdatePublicKey](https://docs.aws.amazon.com/cloudfront/latest/APIReference/API_UpdatePublicKey.html)  
 UpdatePublicKey action lets you update just the **Comment** field. The values **EncodedKey** and **Name** are immutable, and cannot be updated once created. To update the Key or the Name, a new PublicKey must be created using CreatePublicKey and use it. 
@@ -38,7 +38,7 @@ The resources section of my `serverless.yml` file looks like this:
           EncodedKey: ${self:custom.config.PUBLIC_KEY_ENCODED}
 ```
 
-I'm using {% include robustlink.html href="https://www.richdevelops.dev/blog/keeping-secrets-out-of-git" versionurl="https://web.archive.org/web/20220212021821/https://www.richdevelops.dev/blog/keeping-secrets-out-of-git" versiondate="2022-02-11" title="Keeping secrets out of Git" anchor="Rich Buggy's 'Keeping secrets out of Git' technique" %} to store secrets outside of the `serverless.yml` file, so I have a custom section that looks like this:
+I'm using {{ robustlink(href="https://www.richdevelops.dev/blog/keeping-secrets-out-of-git", versionurl="https://web.archive.org/web/20220212021821/https://www.richdevelops.dev/blog/keeping-secrets-out-of-git", versiondate="2022-02-11", title="Keeping secrets out of Git", anchor="Rich Buggy's 'Keeping secrets out of Git' technique") }} to store secrets outside of the `serverless.yml` file, so I have a custom section that looks like this:
 
 ```yaml
 custom:

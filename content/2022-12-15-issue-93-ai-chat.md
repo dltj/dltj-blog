@@ -32,7 +32,7 @@ We also wonder about the underlying biases in the training data.
 
 As an aside, in the first article below I mention that the use of these tools, while free for now, will be monetized at some point. 
 This is another unfortunate example of taking from the common good and commercializing it. 
-The training data used by the company came from crawling web pages, from Wikipedia, and from books ({% include robustlink.html href="https://www.springboard.com/blog/data-science/machine-learning-gpt-3-open-ai/#h2" versionurl="https://web.archive.org/web/20221214222049/https://www.springboard.com/blog/data-science/machine-learning-gpt-3-open-ai/#h2" versiondate="2022-12-14" title="OpenAI GPT-3: Everything You Need to Know | Springboard" anchor="source" %}).
+The training data used by the company came from crawling web pages, from Wikipedia, and from books ({{ robustlink(href="https://www.springboard.com/blog/data-science/machine-learning-gpt-3-open-ai/#h2", versionurl="https://web.archive.org/web/20221214222049/https://www.springboard.com/blog/data-science/machine-learning-gpt-3-open-ai/#h2", versiondate="2022-12-14", title="OpenAI GPT-3: Everything You Need to Know | Springboard", anchor="source") }}).
 Yet soon, it seems, all of the benefit from that information will be held by a corporate body. 
 The same thing has been said about the image-based AI tools that have slurped up sets of photos from sites like Flikr, Wikipedia, and even stock photo businesses. 
 We don't talk enough about this private capture of the common good and the uncompensated taking of other's work.
@@ -58,7 +58,7 @@ In the language model without RLHF training, when asked how to bully someone the
 With the RLHF training, the response starts with "It is never okay to bully someone" and says that others should be treated with respect.
 
 The [research preview](https://chat.openai.com/) is open for anyone to try. 
-On Twitter, the CEO of OpenAI says it costs in the {% include robustlink.html href="https://twitter.com/sama/status/1599671496636780546" versionurl="https://web.archive.org/web/20221205080212/https://twitter.com/sama/status/1599671496636780546" versiondate="2022-12-05" title="Sam Altman on Twitter: average is probably single-digits cents per chat; trying to figure out more precisely and also how we can optimize it" anchor="low pennies per chat" %}  and {% include robustlink.html href="https://twitter.com/sama/status/1599669571795185665" versionurl="https://web.archive.org/web/20221212141359/https://twitter.com/sama/status/1599669571795185665" versiondate="2022-12-14" title="Sam Altman on Twitter: we will have to monetize it somehow at some point; the compute costs are eye-watering" anchor="will have to be monetized at some point" %}.
+On Twitter, the CEO of OpenAI says it costs in the {{ robustlink(href="https://twitter.com/sama/status/1599671496636780546", versionurl="https://web.archive.org/web/20221205080212/https://twitter.com/sama/status/1599671496636780546", versiondate="2022-12-05", title="Sam Altman on Twitter: average is probably single-digits cents per chat; trying to figure out more precisely and also how we can optimize it", anchor="low pennies per chat") }}  and {{ robustlink(href="https://twitter.com/sama/status/1599669571795185665", versionurl="https://web.archive.org/web/20221212141359/https://twitter.com/sama/status/1599669571795185665", versiondate="2022-12-14", title="Sam Altman on Twitter: we will have to monetize it somehow at some point; the compute costs are eye-watering", anchor="will have to be monetized at some point") }}.
 
 ## A High School Teacher Laments a Tool for Easy Essays
 {: #ai-essays}
@@ -77,7 +77,7 @@ When he gave the chat program a writing prompt that he gave his own students, it
 When he submitted the text of an essay, the chat-bot returned the text in a clearer writing style without changing the ideas expressed in the essay.
 This does sound like an epoch of woe.
 
-Writing for Stratechery, Ben Thompson {% include robustlink.html href="https://stratechery.com/2022/ai-homework/" versionurl="https://web.archive.org/20221213000811/https://stratechery.com/2022/ai-homework/" versiondate="2022-12-12T19:08:08" title="AI Homework | Stratechery" anchor="says" %} that the introduction of new tools means a change to the skills being taught. 
+Writing for Stratechery, Ben Thompson {{ robustlink(href="https://stratechery.com/2022/ai-homework/", versionurl="https://web.archive.org/20221213000811/https://stratechery.com/2022/ai-homework/", versiondate="2022-12-12T19:08:08", title="AI Homework | Stratechery", anchor="says") }} that the introduction of new tools means a change to the skills being taught. 
 Under the heading "[Zero Trust Homework](https://hyp.is/4OJNAnp5Ee24JANPxJg0vA/stratechery.com/2022/ai-homework/)", he describes a kind of "essay sandwich" (my phrasing, not his).
 The skills needed by the student is in crafting a good prompt to the chat-bot and in the editing/analysis of the resulting output; in the middle the chat-bot uses its language model to write the essay. 
 The AI-generated essay may contain factual or structural errors (perhaps some intentionally put there if the chat-bot is being licensed as an educational tool), so the student is demonstrates "learning how to be a verifier and an editor, instead of a regurgitator."
@@ -118,7 +118,7 @@ anchor="The Internet’s New Favorite AI Proposes Torturing Iranians and Surveil
 post=', The Intercept, 8-Dec-2022'
 %}
 
-When public access to GPT-3 was unveiled last year, it didn't take long for {% include robustlink.html href="https://www.vox.com/future-perfect/22672414/ai-artificial-intelligence-gpt-3-bias-muslim" versionurl="https://web.archive.org/web/20221215025730/https://www.vox.com/future-perfect/22672414/ai-artificial-intelligence-gpt-3-bias-muslim" versiondate="2022-12-14" title="AI’s Islamophobia problem:  GPT-3 is a smart and poetic AI. It also says terrible things about Muslims | Vox" anchor="people to call out the inherent bias in its responses" %}.
+When public access to GPT-3 was unveiled last year, it didn't take long for {{ robustlink(href="https://www.vox.com/future-perfect/22672414/ai-artificial-intelligence-gpt-3-bias-muslim", versionurl="https://web.archive.org/web/20221215025730/https://www.vox.com/future-perfect/22672414/ai-artificial-intelligence-gpt-3-bias-muslim", versiondate="2022-12-14", title="AI’s Islamophobia problem:  GPT-3 is a smart and poetic AI. It also says terrible things about Muslims | Vox", anchor="people to call out the inherent bias in its responses") }}.
 OpenAI attempted to counteract that bias with the RLHF training, but the underlying bias is still there. 
 Depending on how the question is asked, you get the same awful answers.
 

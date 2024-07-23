@@ -15,18 +15,18 @@ And look at that...all of my templates are gone, too.
 What else was missing?!?
 Here are my project notes for rebuilding my knowledgebase from backups.
 
-I'm using {% include robustlink.html href="https://obsidian.md/" versionurl="https://web.archive.org/web/20231231170629/https://obsidian.md/" versiondate="2023-12-31" title="Obsidian project homepage" anchor="Obsidian" %} as my [personal knowledge management](/tag/personal-knowledge-mangement) tool. 
-Obsidian creates a wiki-like experience for a directory of {% include robustlink.html href="https://www.markdownguide.org/getting-started/" versionurl="https://web.archive.org/web/20231231/https://www.markdownguide.org/getting-started/" versiondate="2023-12-31" title="Getting Started | Markdown Guide" anchor="Markdown" %} files on the local computer. 
+I'm using {{ robustlink(href="https://obsidian.md/", versionurl="https://web.archive.org/web/20231231170629/https://obsidian.md/", versiondate="2023-12-31", title="Obsidian project homepage", anchor="Obsidian") }} as my [personal knowledge management](/tag/personal-knowledge-mangement) tool. 
+Obsidian creates a wiki-like experience for a directory of {{ robustlink(href="https://www.markdownguide.org/getting-started/", versionurl="https://web.archive.org/web/20231231/https://www.markdownguide.org/getting-started/", versiondate="2023-12-31", title="Getting Started | Markdown Guide", anchor="Markdown") }} files on the local computer. 
 (See an [earlier post on DLTJ about my use of Obsidian](https://dltj.org/article/obsidian-journaling/).)
 I was using iCloud Drive to synchronize that directory of Markdown files across my laptop, phone, and tablet. 
 Based on some web searching, I'm guessing that a recent change by Apple on how iCloud Drive synchronizes between machines caused files that hadn't been accessed in a while to disappear—some sort of selective sync function.
 
 My initial reaction—to move my knowledgebase folder out of iCloud Drive and onto the local hard drive—may have hampered the recovery...the files might have been marked as in the cloud and could have been downloaded.
-But moving my knowledgebase folder and purchasing an {% include robustlink.html href="https://obsidian.md/sync" versionurl="https://web.archive.org/web/20231231/https://obsidian.md/sync" versiondate="2023-12-31" title="Obsidian Sync" anchor="Obsidian Sync subscription" %}  was what I did.
+But moving my knowledgebase folder and purchasing an {{ robustlink(href="https://obsidian.md/sync", versionurl="https://web.archive.org/web/20231231/https://obsidian.md/sync", versiondate="2023-12-31", title="Obsidian Sync", anchor="Obsidian Sync subscription") }}  was what I did.
 (I have no regrets...I'll keep the Obsidian Sync subscription. Obsidian has a good, independent development team, and I'm happy to support them.)
 But how to get the missing files back?
 
-My laptop has two independent backups: a USB-connected hard disk on my office desk using the built-in {% include robustlink.html href="https://support.apple.com/en-us/HT201250" versionurl="https://web.archive.org/web/20231231/https://support.apple.com/en-us/HT201250" versiondate="2023-12-31" title="Back up your Mac with Time Machine | Apple Support" anchor="MacOS Time Machine" %}, and {% include robustlink.html href="https://arqbackup.com/" versionurl="https://web.archive.org/web/20231231/https://arqbackup.com/" versiondate="2023-12-31" title="Arq Backup homepage" anchor="ArqBackup" %}  uploading to an encrypted AWS S3 bucket. 
+My laptop has two independent backups: a USB-connected hard disk on my office desk using the built-in {{ robustlink(href="https://support.apple.com/en-us/HT201250", versionurl="https://web.archive.org/web/20231231/https://support.apple.com/en-us/HT201250", versiondate="2023-12-31", title="Back up your Mac with Time Machine | Apple Support", anchor="MacOS Time Machine") }}, and {{ robustlink(href="https://arqbackup.com/", versionurl="https://web.archive.org/web/20231231/https://arqbackup.com/", versiondate="2023-12-31", title="Arq Backup homepage", anchor="ArqBackup") }}  uploading to an encrypted AWS S3 bucket. 
 I was away from my desk for the week, so I first tried restoring from ArqBackup.
 That didn't work; more on that below.
 When I got home, I attempted a recovery from the Time Machine drive.

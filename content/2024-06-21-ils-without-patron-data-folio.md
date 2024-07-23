@@ -32,7 +32,7 @@ width="400"
 src="2024/2024-06-21-folio-saml-config.png"
 caption="The FOLIO Settings → Tenant → SSO settings pane"
 alt="Screen capture of the SSO settings pane. It contains four fields: Identity Provider URL, SAML binding, SAML attribute, and User property. There is also a button labeled 'Download metadata'"
-%}FOLIO includes a {% include robustlink.html href="https://s3.amazonaws.com/foliodocs/api/mod-login-saml/p/saml-login.html" versionurl="https://web.archive.org/web/20240621221856/https://s3.amazonaws.com/foliodocs/api/mod-login-saml/p/saml-login.html" versiondate="2024-06-21" title="SAML Login (v1) | FOLIO API" anchor="SAML SP endpoint" %} that assumes user records have already been loaded into the system. 
+%}FOLIO includes a {{ robustlink(href="https://s3.amazonaws.com/foliodocs/api/mod-login-saml/p/saml-login.html", versionurl="https://web.archive.org/web/20240621221856/https://s3.amazonaws.com/foliodocs/api/mod-login-saml/p/saml-login.html", versiondate="2024-06-21", title="SAML Login (v1) | FOLIO API", anchor="SAML SP endpoint") }} that assumes user records have already been loaded into the system. 
 Configuring this endpoint requires naming the SAML attribute that will contain the person's unique identifier and which field of the FOLIO user record has that identifier. 
 In this example, the FOLIO SP is looking for the user identifier in the `uid` SAML attribute from the IdP and will search the contents of the `External System ID` field in the user record.
 
@@ -48,8 +48,8 @@ The pairwise-id is copied to the email address field, and a random last name wil
 
 ## New Email Delivery Module
 {: #email-module}
-FOLIO has a built-in email module with a {% include robustlink.html href="https://s3.amazonaws.com/foliodocs/api/mod-email/p/email.html" versionurl="https://web.archive.org/web/20240621222741/https://s3.amazonaws.com/foliodocs/api/mod-email/p/email.html" versiondate="2024-06-21" title="Email API (v2.0) | FOLIO API" anchor="simple API for outbound email" %}. 
-Other FOLIO modules send a POST to the `/email` endpoint with a {% include robustlink.html href="https://github.com/folio-org/mod-email/blob/master/ramls/email_entity.json" versionurl="https://web.archive.org/web/20240621222919/https://github.com/folio-org/mod-email/blob/master/ramls/email_entity.json" versiondate="2024-06-21" title="email_entity.json" anchor="JSON body that contains the email details" %}, including the `to` address and the `body` of the message. 
+FOLIO has a built-in email module with a {{ robustlink(href="https://s3.amazonaws.com/foliodocs/api/mod-email/p/email.html", versionurl="https://web.archive.org/web/20240621222741/https://s3.amazonaws.com/foliodocs/api/mod-email/p/email.html", versiondate="2024-06-21", title="Email API (v2.0) | FOLIO API", anchor="simple API for outbound email") }}. 
+Other FOLIO modules send a POST to the `/email` endpoint with a {{ robustlink(href="https://github.com/folio-org/mod-email/blob/master/ramls/email_entity.json", versionurl="https://web.archive.org/web/20240621222919/https://github.com/folio-org/mod-email/blob/master/ramls/email_entity.json", versiondate="2024-06-21", title="email_entity.json", anchor="JSON body that contains the email details") }}, including the `to` address and the `body` of the message. 
 The built-in email module has configuration settings for the SMTP server, and it takes responsibility for sending the message.
 
 Our FILP version of the email module has the same API signature as the built-in module: it listens for POST requests to the `/email` endpoint and accepts an identical JSON body. 
@@ -64,7 +64,7 @@ The IdP Pairwise Email Service returns a success or failure message, which our F
 
 ## New Fee-Fine Module
 {: #feefine-module}
-Like the FOLIO email notification module, there is a {% include robustlink.html href="https://s3.amazonaws.com/foliodocs/api/mod-feesfines/r/feefines.html" versionurl="https://web.archive.org/web/20240621223053/https://s3.amazonaws.com/foliodocs/api/mod-feesfines/r/feefines.html" versiondate="2024-06-21" title="Feefines version v1 | FOLIO API" anchor="single point" %} that FILP will need to override to send fee/fine information to an external agent. 
+Like the FOLIO email notification module, there is a {{ robustlink(href="https://s3.amazonaws.com/foliodocs/api/mod-feesfines/r/feefines.html", versionurl="https://web.archive.org/web/20240621223053/https://s3.amazonaws.com/foliodocs/api/mod-feesfines/r/feefines.html", versiondate="2024-06-21", title="Feefines version v1 | FOLIO API", anchor="single point") }} that FILP will need to override to send fee/fine information to an external agent. 
 Also, similar to the email module, the IT group running the IdP will need an IdP Pairwise Billing Service. 
 When that service is given a pairwise-id, a charge/credit amount, and a message, it will post a transaction against the patron's organization account. 
 FOLIO's existing fee-fines module has a POST method to create a new fee and a PUT method to modify an existing fee. 
@@ -110,6 +110,6 @@ This article's subtitle is _"a thought experiment realized in FOLIO"._
 It is almost enough for a statement of work.
 
 I'll add a plug for the company that I work for here in the last paragraph. 
-If your library would like to do this with FOLIO, {% include robustlink.html href="https://www.indexdata.com/" versionurl="https://web.archive.org/web/20240618210912/https://www.indexdata.com/" versiondate="2024-06-18" title="Index Data homepage" anchor="Index Data" %} specializes in this type of software development. 
+If your library would like to do this with FOLIO, {{ robustlink(href="https://www.indexdata.com/", versionurl="https://web.archive.org/web/20240618210912/https://www.indexdata.com/", versiondate="2024-06-18", title="Index Data homepage", anchor="Index Data") }} specializes in this type of software development. 
 Few things would please me more than having the chance to build this into FOLIO. 
 Contact me if you want to discuss this further or enter into a development agreement to add this capability to the FOLIO open source codebase.

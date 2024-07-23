@@ -11,13 +11,13 @@ tags:
   -  static website
 ---
 Okay, a half-step backward to fix something I broke yesterday. 
-As I [described earlier this year](https://dltj.org/article/dltj-with-webmention/), this static website blog uses the {% include robustlink.html href="https://www.w3.org/TR/webmention/" versionurl="https://web.archive.org/web/20210711010105/https://www.w3.org/TR/webmention/" versiondate="2021-07-11" title="Webmention, a W3C Recommendation" anchor="Webmention protocol" %} to notify others when I link to their content and receive notifications from others. 
-Behind the scenes, I'm using the Jekyll plugin called {% include robustlink.html href="https://github.com/aarongustafson/jekyll-webmention_io/" versionurl="https://web.archive.org/web/20210712020229/https://github.com/aarongustafson/jekyll-webmention_io/" versiondate="2021-07-11" title="Jekyll-webmention_io project homepage" anchor="jekyll-webmention_io" %} to integrate Webmention data into my blog's content. 
-Each time the contents of this site is built, that plug-in contacts the {% include robustlink.html href="https://webmention.io/" versionurl="https://web.archive.org/web/20210707082122/https://webmention.io/" versiondate="2021-07-11" title="webmention.io homepage" anchor="Webmention.IO service" %} to receive its Webmention data. 
+As I [described earlier this year](https://dltj.org/article/dltj-with-webmention/), this static website blog uses the {{ robustlink(href="https://www.w3.org/TR/webmention/", versionurl="https://web.archive.org/web/20210711010105/https://www.w3.org/TR/webmention/", versiondate="2021-07-11", title="Webmention, a W3C Recommendation", anchor="Webmention protocol") }} to notify others when I link to their content and receive notifications from others. 
+Behind the scenes, I'm using the Jekyll plugin called {{ robustlink(href="https://github.com/aarongustafson/jekyll-webmention_io/", versionurl="https://web.archive.org/web/20210712020229/https://github.com/aarongustafson/jekyll-webmention_io/", versiondate="2021-07-11", title="Jekyll-webmention_io project homepage", anchor="jekyll-webmention_io") }} to integrate Webmention data into my blog's content. 
+Each time the contents of this site is built, that plug-in contacts the {{ robustlink(href="https://webmention.io/", versionurl="https://web.archive.org/web/20210707082122/https://webmention.io/", versiondate="2021-07-11", title="webmention.io homepage", anchor="Webmention.IO service") }} to receive its Webmention data. 
 (Webmention.IO holds onto it between Jekyll builds since there is no always-on "dltj.org" server to receive notifications from others.) 
 The plug-in caches that information to ease the burden on the Webmention.IO service.
 
-The previous CloudFormation-based process was using AWS CodeBuild natively, and the Webmention cache was stored in {% include robustlink.html href="https://aws.amazon.com/blogs/devops/how-to-enable-caching-for-aws-codebuild/" versionurl="https://web.archive.org/web/20191223063653/https://aws.amazon.com/blogs/devops/how-to-enable-caching-for-aws-codebuild/" versiondate="2021-12-31" title="How to Enable Caching for AWS CodeBuild | AWS DevOps Blog" anchor="CodeBuild's caching function" %}.
+The previous CloudFormation-based process was using AWS CodeBuild natively, and the Webmention cache was stored in {{ robustlink(href="https://aws.amazon.com/blogs/devops/how-to-enable-caching-for-aws-codebuild/", versionurl="https://web.archive.org/web/20191223063653/https://aws.amazon.com/blogs/devops/how-to-enable-caching-for-aws-codebuild/", versiondate="2021-12-31", title="How to Enable Caching for AWS CodeBuild | AWS DevOps Blog", anchor="CodeBuild's caching function") }}.
 CodeBuild automatically downloads the previous cache into the working directory for each build iteration and then automatically uploads the cache as the build is completed. 
 Handy, right?
 
@@ -96,7 +96,7 @@ webmentions:
 ## Contents of the AWS CodeBuild Cache File
 Can we do a quick sidebar on the AWS CodeBuild caching mechanism? 
 Because I was not expecting what I saw.
-The CodeBuild cache S3 bucket contains one file with a {% include robustlink.html href="https://en.wikipedia.org/wiki/Universally_unique_identifier" versionurl="https://archive.li/wip/Q7RhL" versiondate="2021-12-31" title="Universally unique identifier | Wikipedia" anchor="UUID" %} as its name. 
+The CodeBuild cache S3 bucket contains one file with a {{ robustlink(href="https://en.wikipedia.org/wiki/Universally_unique_identifier", versionurl="https://archive.li/wip/Q7RhL", versiondate="2021-12-31", title="Universally unique identifier | Wikipedia", anchor="UUID") }} as its name. 
 That file is a tar-gzip'd archive of a flat directory containing sequentially numbered files (`0` through `8099` in my case) and a `codebuild.json` table of contents:
 
 ```json

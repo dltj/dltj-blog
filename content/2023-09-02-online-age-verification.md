@@ -20,7 +20,7 @@ Figuring out how to protect minors while not infringing on lawful communication 
 
 ## Challenges with identifying minors online
 
-Most recently updated in March 2023, this 3-page {% include robustlink.html href="https://crsreports.congress.gov/product/pdf/IN/IN12055" versionurl="https://web.archive.org/web/20230824174606/https://crsreports.congress.gov/product/pdf/IN/IN12055" versiondate="2023-08-24" title="Challenges with Identifying Minors Online" anchor="Challenges with Identifying Minors Online" %} report has brief sections describing current efforts to identify children, potential challenges when identifying minors, and policy considerations for Congress. 
+Most recently updated in March 2023, this 3-page {{ robustlink(href="https://crsreports.congress.gov/product/pdf/IN/IN12055", versionurl="https://web.archive.org/web/20230824174606/https://crsreports.congress.gov/product/pdf/IN/IN12055", versiondate="2023-08-24", title="Challenges with Identifying Minors Online", anchor="Challenges with Identifying Minors Online") }} report has brief sections describing current efforts to identify children, potential challenges when identifying minors, and policy considerations for Congress. 
 I think it can be viewed as a high-level summary to the subsequent reports. 
 
 Congress has passed laws like COPPA (Children's Online Privacy Protection Act of 1998) to protect minors online, but identifying their ages remains challenging. 
@@ -33,7 +33,7 @@ The report describes how Congress, as it considers further protections, may stum
 
 ## Current context
 
-In mid-August, the Congressional Research Service published three reports with greater depth.  The first, {% include robustlink.html href="https://crsreports.congress.gov/product/pdf/LSB/LSB11020" versionurl="https://perma.cc/QHZ7-XK4S" versiondate="2023-09-01" title="Online Age Verification (Part I): Current Context" anchor="Online Age Verification (Part I): Current Context" %}, is a 3-page report about online age verification laws that have been proposed or enacted at both the state and federal levels. 
+In mid-August, the Congressional Research Service published three reports with greater depth.  The first, {{ robustlink(href="https://crsreports.congress.gov/product/pdf/LSB/LSB11020", versionurl="https://perma.cc/QHZ7-XK4S", versiondate="2023-09-01", title="Online Age Verification (Part I): Current Context", anchor="Online Age Verification (Part I): Current Context") }}, is a 3-page report about online age verification laws that have been proposed or enacted at both the state and federal levels. 
 It provides an overview of different approaches taken in various state laws targeting social media platforms or pornography sites. 
 Requirements range from estimating a user's age to definitively verifying age through ID checks. 
 Enforcement also varies, with some laws allowing private lawsuits while others give enforcement authority solely to state officials. 
@@ -45,7 +45,7 @@ The Supreme Court has expressed worries that protecting minors should not be use
 
 ## Constitutional background
 
-The second report, {% include robustlink.html href="https://crsreports.congress.gov/product/pdf/LSB/LSB11021" versionurl="https://perma.cc/U53H-L6BJ" versiondate="2023-09-01" title="Online Age Verification (Part II): Constitutional Background" anchor="Online Age Verification (Part II): Constitutional Background" %} (also 3 pages), describes how age verification laws requiring online platforms to verify users' ages may face First Amendment challenges. 
+The second report, {{ robustlink(href="https://crsreports.congress.gov/product/pdf/LSB/LSB11021", versionurl="https://perma.cc/U53H-L6BJ", versiondate="2023-09-01", title="Online Age Verification (Part II): Constitutional Background", anchor="Online Age Verification (Part II): Constitutional Background") }} (also 3 pages), describes how age verification laws requiring online platforms to verify users' ages may face First Amendment challenges. 
 (Such requirements could burden free speech rights.) 
 The report says that laws establishing age verification obligations are more likely to be deemed constitutional if they are content-neutral and narrowly tailored to a vital government interest like protecting minors. 
 It also outlined how the Supreme Court has ruled on previous federal laws around age verification. 
@@ -56,7 +56,7 @@ Overall, the key impact is that future age verification policies must be careful
 
 ## Constitutional issues
 
-The final report in the series is 4 pages long: {% include robustlink.html href="https://crsreports.congress.gov/product/pdf/LSB/LSB11022" versionurl="https://perma.cc/2DQ6-L77Y" versiondate="2023-09-01" title="Online Age Verification (Part III): Select Constitutional Issues" anchor="Online Age Verification (Part III): Select Constitutional Issues" %}.
+The final report in the series is 4 pages long: {{ robustlink(href="https://crsreports.congress.gov/product/pdf/LSB/LSB11022", versionurl="https://perma.cc/2DQ6-L77Y", versiondate="2023-09-01", title="Online Age Verification (Part III): Select Constitutional Issues", anchor="Online Age Verification (Part III): Select Constitutional Issues") }}.
 The document discusses potential constitutional challenges to laws requiring age verification for online services. 
 It analyzes how such laws may impact the free speech rights of website operators, adult users, and minor users. 
 Laws targeting pornography or material harmful to minors are likely content-based, while laws targeting social media may be content-neutral. 

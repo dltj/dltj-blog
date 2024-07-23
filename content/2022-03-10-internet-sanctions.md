@@ -54,14 +54,14 @@ To disrupt any of that would require the coordination of a whole lot of people a
 If there are any central internet authorities at all, they are the few organizations that assign network addresses, run the systems that translate human-readable names ("dltj.org") to computer-recognizable network addresses ("143.204.39.101" and "2600:9000:2177:8a00:13:fcdc:19c0:93a1"), and operate the central network traffic exchange points around the world. 
 And this brings us back to the subject of Bill Woodcock's tweet. 
 
-Bill is the chief executive officer of an organization called {% include robustlink.html href="https://www.pch.net/" versionurl="https://web.archive.org/web/20220311020858/https://www.pch.net/" versiondate="2022-03-10" title="Packet Clearing House homepage" anchor="Packet Clearing House (PCH)" %}. 
+Bill is the chief executive officer of an organization called {{ robustlink(href="https://www.pch.net/", versionurl="https://web.archive.org/web/20220311020858/https://www.pch.net/", versiondate="2022-03-10", title="Packet Clearing House homepage", anchor="Packet Clearing House (PCH)") }}. 
 It is one of those organizations that you've never heard of because it does its job behind the scenes so well. 
 PCH runs Internet Exchange Points—those places where various ISPs come together to exchange traffic with their neighbors. 
 It also runs many top-level name-to-number translation servers (called Domain Name Service, or DNS). 
 If PCH stopped working, you would know it. 
 Or, perhaps more accurately, you wouldn't know PCH stopped working because your computer probably wouldn't be able to talk to anyone else. 
 
-The document that Bill tweeted about is called _{% include robustlink.html href="https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf" versionurl="https://web.archive.org/20220311010844/https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf" versiondate="2022-03-11 00:22:56+00:00" title="Multistakeholder Imposition of Internet Sanctions (PDF)" anchor="Multistakeholder Imposition of Internet Sanctions" %}_. 
+The document that Bill tweeted about is called _{{ robustlink(href="https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf", versionurl="https://web.archive.org/20220311010844/https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf", versiondate="2022-03-11 00:22:56+00:00", title="Multistakeholder Imposition of Internet Sanctions (PDF)", anchor="Multistakeholder Imposition of Internet Sanctions") }}_. 
 ***Multistakeholder*** is key here because, as I described above, there isn't one company, one government, or one person who can decide what happens on the inter-net. 
 Yes, within a country, a government can dictate what the ISPs in that country can do. 
 Most famous is the "great firewall of China" that heavily regulates what happens on the Chinese portion of the inter-net. 
@@ -70,7 +70,7 @@ Not the United States.
 Not the United Nations. 
 Not the International Telecommunication Union (as much as they try to get such control). 
 
-This document was put together in response to a {% include robustlink.html href="https://www.wired.com/story/ukrainian-official-digital-front/" versionurl="https://web.archive.org/web/20220311030548/https://www.wired.com/story/ukrainian-official-digital-front/" versiondate="2022-03-10" title="I’m a Ukrainian Official. We Need More Help on the Digital Front | Wired" anchor="request from the Ukrainian Ministry of Digital Transformation to sanction Russia" %} over its government's war on Ukraine. 
+This document was put together in response to a {{ robustlink(href="https://www.wired.com/story/ukrainian-official-digital-front/", versionurl="https://web.archive.org/web/20220311030548/https://www.wired.com/story/ukrainian-official-digital-front/", versiondate="2022-03-10", title="I’m a Ukrainian Official. We Need More Help on the Digital Front | Wired", anchor="request from the Ukrainian Ministry of Digital Transformation to sanction Russia") }} over its government's war on Ukraine. 
 Ukraine wants to cut off Russian networks from the rest of the internet, disable its top-level domain names, and revoke its web server security certificates. 
 There are technical problems with those requests that border on the impossible, and the _Multistakeholder_ document says why. 
 
