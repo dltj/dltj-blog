@@ -18,9 +18,7 @@ The report describes in some detail how the Library recognized that its conglome
 
 The report concludes with lessons learned for the library and other institutions to enhance cyber defenses, response capabilities, and digital modernization efforts. The library profession should be grateful to the British Library for their openness in the report, and we should take their lessons to heart.
 
-{% include note.html
-notetext="Simon Bowie has some great insights on the <a href='https://blogs.lse.ac.uk/impactofsocialsciences/2024/03/19/the-british-library-hack-is-a-warning-for-all-academic-libraries/'>LSE Impact blog</a>, including about how the hack can be seen as a call for libraries to invest more in controlling their own destinies."
-%}
+{{ note(note_text="Simon Bowie has some great insights on the <a href='https://blogs.lse.ac.uk/impactofsocialsciences/2024/03/19/the-british-library-hack-is-a-warning-for-all-academic-libraries/'>LSE Impact blog</a>, including about how the hack can be seen as a call for libraries to invest more in controlling their own destinies.") }}%}
 
 ## The Attack
 The report admits that some information needed to determine the attackers' exact path is likely lost. Their best-effort estimate is that a set of compromised credentials was used on a Microsoft Terminal Services server ({{ robustlink(href="https://learn.microsoft.com/en-us/windows/win32/termserv/terminal-services-is-now-remote-desktop-services", versionurl="https://web.archive.org/web/20240309202747/https://learn.microsoft.com/en-us/windows/win32/termserv/terminal-services-is-now-remote-desktop-services", versiondate="2024-03-09", title="Terminal Services has been renamed | Microsoft Learn", anchor="now called Remote Desktop Services") }}). Multi-factor authentication (MFA, sometimes called 2FA) was used in some areas of the network, but connections to this server were not covered. The attackers tripped at least one security alarm, but the sysadmin released the hold on the account after running malware scans.

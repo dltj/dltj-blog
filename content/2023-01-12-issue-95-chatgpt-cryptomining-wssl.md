@@ -76,7 +76,7 @@ I wonder if anyone—CNET, the publisher, or an academic researcher—has review
 This isn't the first time automation has been used to write news articles.
 Back in 2015, {{ robustlink(href="https://www.theverge.com/2015/1/29/7939067/ap-journalism-automation-robots-financial-reporting", versionurl="https://web.archive.org/web/20230112021550/https://www.theverge.com/2015/1/29/7939067/ap-journalism-automation-robots-financial-reporting", versiondate="2023-01-11", title="AP's 'robot journalists' are writing their own stories now | The Verge", anchor="The Verge reported") }} on how the {{ robustlink(href="https://www.ap.org/discover/artificial-intelligence", versionurl="https://web.archive.org/web/20230112021726/https://www.ap.org/discover/artificial-intelligence", versiondate="2023-01-11", title="Leveraging AI to advance the power of facts | Associated Press", anchor="Associated Press was using a fill-in-the-blank system") }} to write financial stories from regulatory filings.
 
-{% include note.html notetext="An update to this thread is in <a href='https://dltj.org/article/issue-97-large-language-models'>issue 97</a>." %}
+{{ note(note_text="An update to this thread is in <a href='https://dltj.org/article/issue-97-large-language-models'>issue 97</a>.") }}%}
 
 
 ## Cryptocurrency miners in Texas forced to shut down due to electricity shortage

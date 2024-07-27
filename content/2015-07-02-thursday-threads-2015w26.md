@@ -23,7 +23,7 @@ I'm just home from the {{ robustlink(href="http://ALAac15.ala.org/", versionurl=
 * <a href="{% post_url 2015-07-02-thursday-threads-2015w26 %}/#p26028-drivers-ed">Free Driver's Ed Resources for Libraries</a>
 * <a href="{% post_url 2015-07-02-thursday-threads-2015w26 %}/#p26028-obits">Free Online Obituaries Service from Orange County Library</a>
 
-{% include note.html notetext='<em>Funding for my current position at LYRASIS ran out at the end of June, so <a href="/article/seeking-new-opportunity" title="Seeking new opportunity in library technology | Disruptive Library Technology Jester">I am looking for new opportunities and challenges for my skills</a>.  Check out <a href="https://dltj.org/resume/">my resume/<i>c.v.</i></a> and <a href="/contact/">please let me</a> know of job opportunities in library technology, open source, and/or community engagement.</em>' %}
+{{ note(note_text='<em>Funding for my current position at LYRASIS ran out at the end of June, so <a href="/article/seeking-new-opportunity" title="Seeking new opportunity in library technology | Disruptive Library Technology Jester">I am looking for new opportunities and challenges for my skills</a>.  Check out <a href="https://dltj.org/resume/">my resume/<i>c.v.</i></a> and <a href="/contact/">please let me</a> know of job opportunities in library technology, open source, and/or community engagement.</em>') }}%}
 
 {% include thursday-threads-header.html %}
 

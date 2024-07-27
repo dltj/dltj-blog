@@ -25,9 +25,7 @@ That looked interesting, so with the help of hints from Ed, I [embedded a tweet 
 
 This is how I did it...plus some helpful advice along the way.
 
-{% include note.html 
-notetext="An earlier version of this post described how to setup and use Browsertrix to capture the web archive file. That information has been moved to the <a href='#browsertrix'>bottom of this post</a>; instructions on how to use the desktop <i>ArchiveWeb.page</i> application are now included below."
-%}
+{{ note(note_text="An earlier version of this post described how to setup and use Browsertrix to capture the web archive file. That information has been moved to the <a href='#browsertrix'>bottom of this post</a>; instructions on how to use the desktop <i>ArchiveWeb.page</i> application are now included below.") }}%}
 
 ## Capture tweet with ArchiveWeb.page application
 {: #archiveweb }
@@ -40,9 +38,7 @@ We're going to use <i>ArchiveWeb.page</i> to make the WACZ file.
 {{ robustlink(href="https://archiveweb.page/", versiondate="2023-02-05", title="ArchiveWeb.page homepage", anchor="ArchiveWeb.page") }} creates high-fidelity web archives as either a Google Chrome extension or a desktop application. 
 The desktop application is described as a beta version, but I'm going to use that instead of the Chrome extension because Firefox is my day-to-day browser. 
 
-{% include note.html 
-notetext="If you are only capturing one web page in your web archive, the browser-based <a href='https://express.archiveweb.page/'>express.archiveweb.page</a> can be used to generate a WACZ file as well."
-%}
+{{ note(note_text="If you are only capturing one web page in your web archive, the browser-based <a href='https://express.archiveweb.page/'>express.archiveweb.page</a> can be used to generate a WACZ file as well.") }}%}
 
 To get an isolated view of the tweet, we're going to use [oembed.link](https://oembed.link).
 "[oEmbed](https://oembed.com/)" is a _de facto_ standard for:

@@ -15,7 +15,7 @@ tags:
 The <a href="https://2021.Code4Lib.org/" data-versionurl="https://archive.li/wip/xCo7x" data-versiondate="2021-04-03">Code4Lib conference</a> was last week.  That meeting used all pre-recorded talks, and we saw the benefits of pre-recording for attendees, presenters, and conference organizers.
 Should all talks be pre-recorded, even when we are back face-to-face?
 
-{% include note.html notetext="After I posted a link to this article on Twitter, there was a great response of thoughtful comments.  I've included new bullet points below and <a href='https://dltj.org/article/pre-recording-conference-talks-redux'>summarized the responses in another blog post.</a>" %}
+{{ note(note_text="After I posted a link to this article on Twitter, there was a great response of thoughtful comments.  I've included new bullet points below and <a href='https://dltj.org/article/pre-recording-conference-talks-redux'>summarized the responses in another blog post.</a>") }}%}
 
 As an entirely virtual conference, I think we can call Code4Lib 2021 a success.
 Success ≠ Perfect, of course, and last week the conference coordinating team got together on a Zoom call for a debriefing session.

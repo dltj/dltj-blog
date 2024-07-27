@@ -13,9 +13,7 @@ I started gathering these because I was curious about what it takes to run a pub
 These reports are full of those kinds of details, but they also describe evolutions of policy and operations that are just as interesting. 
 If you see other reports (or have posted a report of your own Mastodon instance), please tag me at [@dltj@code4lib.social](https://code4lib.social/@dltj) and I'll add it to this list.
 
-{% include note.html 
-notetext='<del>There is now a <a href="https://github.com/dltj/dltj-blog/pull/14">branch and pull request</a> on GitHub where you can suggest changes to this list and/or subscribe to notifications for updates. <a href="https://rss-bridge.bb8.fun/?action=display&bridge=GithubIssueBridge&context=Issue+comments&i=14&u=dltj&p=dltj-blog&format=Html">Updates to the page</a> are also available via <a href="https://rss-bridge.bb8.fun/">RSS-Bridge</a></del>. This didn&lsquo;t work as I expected it to when the commits got to GitHub. (The pull request was automatically closed.)  Will need to rethink this.'
-%}
+{{ note(note_text='<del>There is now a <a href="https://github.com/dltj/dltj-blog/pull/14">branch and pull request</a> on GitHub where you can suggest changes to this list and/or subscribe to notifications for updates. <a href="https://rss-bridge.bb8.fun/?action=display&bridge=GithubIssueBridge&context=Issue+comments&i=14&u=dltj&p=dltj-blog&format=Html">Updates to the page</a> are also available via <a href="https://rss-bridge.bb8.fun/">RSS-Bridge</a></del>. This didn&lsquo;t work as I expected it to when the commits got to GitHub. (The pull request was automatically closed.)  Will need to rethink this.') }}%}
 
 ## sfba.social (San Francisco Bay Area)
 {: #sfba}

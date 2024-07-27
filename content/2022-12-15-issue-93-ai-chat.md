@@ -82,7 +82,7 @@ Under the heading "[Zero Trust Homework](https://hyp.is/4OJNAnp5Ee24JANPxJg0vA/s
 The skills needed by the student is in crafting a good prompt to the chat-bot and in the editing/analysis of the resulting output; in the middle the chat-bot uses its language model to write the essay. 
 The AI-generated essay may contain factual or structural errors (perhaps some intentionally put there if the chat-bot is being licensed as an educational tool), so the student is demonstrates "learning how to be a verifier and an editor, instead of a regurgitator."
 
-{% include note.html notetext="An update to this thread is in <a href='https://dltj.org/article/issue-97-large-language-models'>issue 97</a>." %}
+{{ note(note_text="An update to this thread is in <a href='https://dltj.org/article/issue-97-large-language-models'>issue 97</a>.") }}%}
 
 
 ## A Real-world Example
