@@ -27,32 +27,28 @@ In the meantime, the threads this week:
 ## Author Speaks Up for Controlled Digital Lending
 {: #author-cdl-perspective}
 
-{{ image(float="right", width="320", localsrc="2022/2022-02-03-tweet.png", caption="The controversial tweet.", alt="Screen capture of Maria Bustillos tweet saying 'ebooks are books! CDL is Controlled Digital Lending, and it means treating ebooks like paper books, so you can borrow them from libraries. This is COOL and GOOD", ahref="https://twitter.com/mariabustillos/status/1483466509800325127") }} {% include thursday-threads-quote.html
-blockquote='The Big Five publishing houses’ share of the approximately $25 billion book publishing market is estimated at 80%. And it’s Big Publishing that is indeed throwing its weight around by suing the Internet Archive (the “org making reproductions” referenced here, which is actually a California state library and leading institution for digital preservation, not some random “org”).
+{{ image(float="right", width="320", localsrc="2022/2022-02-03-tweet.png", caption="The controversial tweet.", alt="Screen capture of Maria Bustillos tweet saying 'ebooks are books! CDL is Controlled Digital Lending, and it means treating ebooks like paper books, so you can borrow them from libraries. This is COOL and GOOD", ahref="https://twitter.com/mariabustillos/status/1483466509800325127") }} {{ thursday_threads_quote(href="https://popula.com/2022/01/22/what-kind-of-writer-accuses-libraries-of-stealing/",
+ blockquote='The Big Five publishing houses’ share of the approximately $25 billion book publishing market is estimated at 80%. And it’s Big Publishing that is indeed throwing its weight around by suing the Internet Archive (the “org making reproductions” referenced here, which is actually a California state library and leading institution for digital preservation, not some random “org”).
 
-Again, [Controlled Digital Lending] provides the legal framework for any library to make **one copy** of **one paper book** that it owns and loan it to **one patron** at a time.'
-href="https://popula.com/2022/01/22/what-kind-of-writer-accuses-libraries-of-stealing/"
-versionurl="https://web.archive.org/20220131200850/https://popula.com/2022/01/22/what-kind-of-writer-accuses-libraries-of-stealing/"
-versiondate="2022-01-31 19:45:36+00:00"
-anchor="What Kind of Writer Accuses Libraries of Stealing?"
-post='Maria Bustillos on Popula, 22-Jan-2022'
-%}
+Again, [Controlled Digital Lending] provides the legal framework for any library to make **one copy** of **one paper book** that it owns and loan it to **one patron** at a time.',
+ versiondate="2022-01-31 19:45:36+00:00",
+ versionurl="https://web.archive.org/20220131200850/https://popula.com/2022/01/22/what-kind-of-writer-accuses-libraries-of-stealing/",
+ anchor="What Kind of Writer Accuses Libraries of Stealing?",
+ post="Maria Bustillos on Popula, 22-Jan-2022") }}
 
 Maria Bustillos wrote approvingly of controlled digital lending (CDL) in a quoted tweet of the Internet Archive. In response, she received a flurry of negative responses that seem to misunderstand a fundamental tenant of CDL: the own-to-loan ratio. If a library owns a copy of a book and takes the steps to physically sequester it, the library can loan a digital copy to patrons.  I've read a lot on the library's perspective of CDL, and it was useful to hear how an _author's_ perspective aligns with the goals of the library.
 
 ## The Wrestling Monopsony
 {: #wwe-redux}
 
-{% include thursday-threads-quote.html
-blockquote='In the 70s, there were 32 wrestling promoters in the North American market, all competing for audiences and performers, all bidding to sew up TV rights with different broadcasters. Wrestlers like Andre the Giant were able to improve their working conditions by playing off rival leagues against one another.
+{{ thursday_threads_quote(href="https://pluralistic.net/2022/01/31/heel-turn/#do-the-crusher",
+ blockquote='In the 70s, there were 32 wrestling promoters in the North American market, all competing for audiences and performers, all bidding to sew up TV rights with different broadcasters. Wrestlers like Andre the Giant were able to improve their working conditions by playing off rival leagues against one another.
 
-In a single lifetime, the market has collapsed, with 85% market-share going to WWE and McMahon, the billionaire major Trump donor whose loyalty was rewarded when his wife Linda, a WWE executive, was given a plum job as head of Trump&#39;s Small Business Administration.'
-href="https://pluralistic.net/2022/01/31/heel-turn/#do-the-crusher"
-versionurl="https://web.archive.org/20220202003204/https://pluralistic.net/2022/01/31/heel-turn/#do-the-crusher"
-versiondate="2022-02-02 00:30:24+00:00"
-anchor="Grappling with Big Wrestling: Vince McMahon has a monopoly on violence"
-post=', Cory Doctorow&#39;s Pluralistic, 31-Jan-2022'
-%}
+In a single lifetime, the market has collapsed, with 85% market-share going to WWE and McMahon, the billionaire major Trump donor whose loyalty was rewarded when his wife Linda, a WWE executive, was given a plum job as head of Trump&#39;s Small Business Administration.',
+ versiondate="2022-02-02 00:30:24+00:00",
+ versionurl="https://web.archive.org/20220202003204/https://pluralistic.net/2022/01/31/heel-turn/#do-the-crusher",
+ anchor="Grappling with Big Wrestling: Vince McMahon has a monopoly on violence",
+ post=", Cory Doctorow&#39;s Pluralistic, 31-Jan-2022") }}
 
 Pulling through a thread from last week about [Worldwide Wrestling Entertainment's video archive]({% post_url_absolute 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#wwe-video-preservation)...I included a quote from WWE’s Director of Media Technology Bryan Staffaroni: <quote>"We owned so much of the WCW library, but we just never opened some boxes, because we just had so much stuff."</quote> It came from a section near the end of the article. The last paragraph explains why they have so much archival material: "Recently, WWE acquired one of the few North American organizations it had yet to own: Mid-South Wrestling..."
 
@@ -61,14 +57,12 @@ Cory Doctorow's post provides a perspective on {{ robustlink(href="https://prosp
 ## Self-publishing the Local Way
 {: #self-publishing}
 
-{{ image(float="right", width="320", localsrc="2022/2022-02-03-dillons-book.jpeg", caption="The cover of Dillon's book.", alt="Photograph of the cover of Dillon's addition to his local Idaho library. In a child's handwriting, the cover says 'The Adventures of Dillon Helbig’s Crismis by Dillon his self'") }} {% include thursday-threads-quote.html
-blockquote='The staff librarians who read Dillon&#39;s book agreed that as informal and unconventional as it was, the book met the selection criteria for the collection in that it was a high-quality story that was fun to read. So, [library branch manager Alex] Hartman asked [Dillon&#39;s mother Susan] Helbig for permission to tack a bar code onto the book and formally add it to the library’s collection.'
-href="https://www.washingtonpost.com/lifestyle/2022/01/31/library-book-idaho-dillon-helbig/"
-versionurl="https://web.archive.org/20220131230906/https://www.washingtonpost.com/lifestyle/2022/01/31/library-book-idaho-dillon-helbig/"
-versiondate="2022-01-31 23:06:24+00:00"
-anchor="An 8-year-old slid his handwritten book onto a library shelf. It now has a years-long waitlist"
-post=', Washington Post, 31-Jan-2022'
-%}
+{{ image(float="right", width="320", localsrc="2022/2022-02-03-dillons-book.jpeg", caption="The cover of Dillon's book.", alt="Photograph of the cover of Dillon's addition to his local Idaho library. In a child's handwriting, the cover says 'The Adventures of Dillon Helbig’s Crismis by Dillon his self'") }} {{ thursday_threads_quote(href="https://www.washingtonpost.com/lifestyle/2022/01/31/library-book-idaho-dillon-helbig/",
+ blockquote='The staff librarians who read Dillon&#39;s book agreed that as informal and unconventional as it was, the book met the selection criteria for the collection in that it was a high-quality story that was fun to read. So, [library branch manager Alex] Hartman asked [Dillon&#39;s mother Susan] Helbig for permission to tack a bar code onto the book and formally add it to the library’s collection.',
+ versiondate="2022-01-31 23:06:24+00:00",
+ versionurl="https://web.archive.org/20220131230906/https://www.washingtonpost.com/lifestyle/2022/01/31/library-book-idaho-dillon-helbig/",
+ anchor="An 8-year-old slid his handwritten book onto a library shelf. It now has a years-long waitlist",
+ post=", Washington Post, 31-Jan-2022") }}
 
 We know how modern self-publishing works—Amazon's Kindle Direct Publishing allows anyone to put their words onto paper and sell them to the world, for instance. This is a more homespun version.  Dillon inserts his own book into the collection of his local library.  If he wants, I think Dillon has the storyline for his _second_ book.
 

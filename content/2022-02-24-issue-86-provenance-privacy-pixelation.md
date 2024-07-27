@@ -26,14 +26,12 @@ The threads this week:
 ## Specification for Media Content Provenance
 {: #content-provenance}
 
-{% include thursday-threads-quote.html
-blockquote='Today, the Coalition for Content Provenance and Authenticity (C2PA), an organization established to provide publishers, creators, and consumers with opt-in, flexible ways to understand the authenticity and provenance across various media types, released version 1.0 of its technical specification for digital provenance. This specification is the first of its kind and empowers content creators and editors worldwide to create tamper-evident media, by enabling them to selectively disclose information about who created or changed digital content and how it was altered. The C2PA’s work is the result of industry-wide collaborations focused on digital media transparency that will accelerate progress toward global adoption of content provenance.'
-href="https://c2pa.org/post/release_1_pr/"
-versionurl="https://web.archive.org/20220222220810/https://c2pa.org/post/release_1_pr/"
-versiondate="2022-02-22 21:28:19+00:00"
-anchor="C2PA Releases Specification of World's First Industry Standard for Content Provenance"
-post=', Coalition for Content Provenance and Authenticity, 26-Jan-2022'
-%}{{ image(float="right", width="320", localsrc="2022/2022-02-24-c2pa_visualglossary.png", caption="Elements of the C2PA specification. <a href='https://c2pa.org/specifications/specifications/1.0/specs/C2PA_Specification.html#_overview_2'>[Source]</a>", alt="This image shows how all these various elements come together to represent the C2PA architecture.", ahref="https://c2pa.org/specifications/specifications/1.0/specs/C2PA_Specification.html#_overview_2") }}
+{{ thursday_threads_quote(href="https://c2pa.org/post/release_1_pr/",
+ blockquote='Today, the Coalition for Content Provenance and Authenticity (C2PA), an organization established to provide publishers, creators, and consumers with opt-in, flexible ways to understand the authenticity and provenance across various media types, released version 1.0 of its technical specification for digital provenance. This specification is the first of its kind and empowers content creators and editors worldwide to create tamper-evident media, by enabling them to selectively disclose information about who created or changed digital content and how it was altered. The C2PA’s work is the result of industry-wide collaborations focused on digital media transparency that will accelerate progress toward global adoption of content provenance.',
+ versiondate="2022-02-22 21:28:19+00:00",
+ versionurl="https://web.archive.org/20220222220810/https://c2pa.org/post/release_1_pr/",
+ anchor="C2PA Releases Specification of World's First Industry Standard for Content Provenance",
+ post=", Coalition for Content Provenance and Authenticity, 26-Jan-2022") }}{{ image(float="right", width="320", localsrc="2022/2022-02-24-c2pa_visualglossary.png", caption="Elements of the C2PA specification. <a href='https://c2pa.org/specifications/specifications/1.0/specs/C2PA_Specification.html#_overview_2'>[Source]</a>", alt="This image shows how all these various elements come together to represent the C2PA architecture.", ahref="https://c2pa.org/specifications/specifications/1.0/specs/C2PA_Specification.html#_overview_2") }}
 
 This is a fascinating development. 
 Although the target audience for this technology is news organizations and citizen journalists to provide a way to establish the creator and editors of media, one could easily envision using this standard to mark images, video, and audio from digital archives. 
@@ -63,16 +61,14 @@ Join me there, would you?
 ## Encroaching on Digital Privacy in the Classroom
 {: surveillance-university}
 
-{% include thursday-threads-quote.html
-blockquote='Perusall, for example, gives professors access to the amount of time a student spends on a reading and how many of the assigned pages they&#39;ve viewed. Despite students feeling like their privacy is compromised with this access and the return of most students to in-person learning, schools are still utilizing proctoring and similar invasive technologies.
+{{ thursday_threads_quote(href="https://georgetownvoice.com/2022/02/19/welcome-to-surveillance-university-where-privacy-no-longer-matters/",
+ blockquote='Perusall, for example, gives professors access to the amount of time a student spends on a reading and how many of the assigned pages they&#39;ve viewed. Despite students feeling like their privacy is compromised with this access and the return of most students to in-person learning, schools are still utilizing proctoring and similar invasive technologies.
 
-The use of virtual learning tools has been subject to the fluctuating pandemic and schools&#39; virtual status, with the Omicron variant causing many colleges to move online for final exams and the beginning of the spring semester. As COVID-19 continues, students have been increasingly subject to excessive monitoring technologies—whether proctoring exams or scanning files—such as Proctorio, ProctorU, and Perusall.'
-href="https://georgetownvoice.com/2022/02/19/welcome-to-surveillance-university-where-privacy-no-longer-matters/"
-versionurl="https://web.archive.org/20220220042237/https://georgetownvoice.com/2022/02/19/welcome-to-surveillance-university-where-privacy-no-longer-matters/"
-versiondate="2022-02-20 03:42:02+00:00"
-anchor="Welcome to Surveillance University, where privacy no longer matters"
-post=', The Georgetown Voice, 19-Feb-2022'
-%}
+The use of virtual learning tools has been subject to the fluctuating pandemic and schools&#39; virtual status, with the Omicron variant causing many colleges to move online for final exams and the beginning of the spring semester. As COVID-19 continues, students have been increasingly subject to excessive monitoring technologies—whether proctoring exams or scanning files—such as Proctorio, ProctorU, and Perusall.',
+ versiondate="2022-02-20 03:42:02+00:00",
+ versionurl="https://web.archive.org/20220220042237/https://georgetownvoice.com/2022/02/19/welcome-to-surveillance-university-where-privacy-no-longer-matters/",
+ anchor="Welcome to Surveillance University, where privacy no longer matters",
+ post=", The Georgetown Voice, 19-Feb-2022") }}
 
 This article is from the Georgetown University student-run newspaper, and it contains perspectives from students about the invasiveness of the surveillance technology being used in classrooms. 
 The emergency measures put in place for at-home learning during pandemic closures are weaving their way into the fabric of college life, and not in a good way. 
@@ -81,14 +77,12 @@ This article is a good one to read because it is written by students that are im
 ## Pixelation for Redaction → bad
 {: pixelation-redation}
 
-{% include thursday-threads-quote.html
-blockquote='Today, we&#39;re focusing on one such technique – pixelation – and will show you why it&#39;s a no-good, bad, insecure, surefire way to get your sensitive data leaked. To show you why, I wrote a tool called Unredacter that takes redacted pixelized text and reverses it back into its unredacted form. There&#39;s plenty of real-world examples of this in the wild to redact sensitive information, but I won&#39;t name names here. Watch my video for a quick recap of the importance of NEVER using pixelation to redact text, as well as how I unredact Jumpseclabs&#39;s Challenge in real-time.'
-href="https://bishopfox.com/blog/unredacter-tool-never-pixelation"
-versionurl="https://web.archive.org/web/20220218051725/https://bishopfox.com/blog/unredacter-tool-never-pixelation"
-versiondate="2022-02-18 02:27:49+00:00"
-anchor="Never Use Text Pixelation To Redact Sensitive Information"
-post=', Bishop Fox, 15-Feb-2022'
-%}
+{{ thursday_threads_quote(href="https://bishopfox.com/blog/unredacter-tool-never-pixelation",
+ blockquote='Today, we&#39;re focusing on one such technique – pixelation – and will show you why it&#39;s a no-good, bad, insecure, surefire way to get your sensitive data leaked. To show you why, I wrote a tool called Unredacter that takes redacted pixelized text and reverses it back into its unredacted form. There&#39;s plenty of real-world examples of this in the wild to redact sensitive information, but I won&#39;t name names here. Watch my video for a quick recap of the importance of NEVER using pixelation to redact text, as well as how I unredact Jumpseclabs&#39;s Challenge in real-time.',
+ versiondate="2022-02-18 02:27:49+00:00",
+ versionurl="https://web.archive.org/web/20220218051725/https://bishopfox.com/blog/unredacter-tool-never-pixelation",
+ anchor="Never Use Text Pixelation To Redact Sensitive Information",
+ post=", Bishop Fox, 15-Feb-2022") }}
 
 The solution, in retrospect, seems obvious: figure out the font being used, deduce the offset from where the pixelation starts, build a model of letters of the alphabet pixelated to those parameters, and compare with the source material. 
 I won't be using pixelation again. 
@@ -96,14 +90,12 @@ I won't be using pixelation again.
 ## Google Changes Up In-App Advertising
 {: android-privacy-sandbox}
 
-{% include thursday-threads-quote.html
-blockquote='it&#39;s a collaborative effort that invites participation from the industry in replacing the existing system for ads targeting on Android with something that is more mindful of consumer privacy. Although Google recently introduced some new privacy initiatives on Android, including the reanimation of its mostly-dormant “Opt Out of Ads Personalization” system setting as an Android-equivalent of Apple&#39;s Limit Ad Tracking setting, it obviously wants to introduce further privacy controls to Android. And it aims to accomplish that with a Privacy Sandbox process for the platform.'
-href="https://mobiledevmemo.com/rip-gaid-privacy-sandbox-is-coming-to-android-heres-a-summary-of-the-tech/"
-versionurl="https://web.archive.org/20220218020809/https://mobiledevmemo.com/rip-gaid-privacy-sandbox-is-coming-to-android-heres-a-summary-of-the-tech/"
-versiondate="2022-02-18 01:40:16+00:00"
-anchor="RIP GAID: Privacy Sandbox is coming to Android. What advertisers need to know."
-post=', Mobile Dev Memo, 16-Feb-2022'
-%}
+{{ thursday_threads_quote(href="https://mobiledevmemo.com/rip-gaid-privacy-sandbox-is-coming-to-android-heres-a-summary-of-the-tech/",
+ blockquote='it&#39;s a collaborative effort that invites participation from the industry in replacing the existing system for ads targeting on Android with something that is more mindful of consumer privacy. Although Google recently introduced some new privacy initiatives on Android, including the reanimation of its mostly-dormant “Opt Out of Ads Personalization” system setting as an Android-equivalent of Apple&#39;s Limit Ad Tracking setting, it obviously wants to introduce further privacy controls to Android. And it aims to accomplish that with a Privacy Sandbox process for the platform.',
+ versiondate="2022-02-18 01:40:16+00:00",
+ versionurl="https://web.archive.org/20220218020809/https://mobiledevmemo.com/rip-gaid-privacy-sandbox-is-coming-to-android-heres-a-summary-of-the-tech/",
+ anchor="RIP GAID: Privacy Sandbox is coming to Android. What advertisers need to know.",
+ post=", Mobile Dev Memo, 16-Feb-2022") }}
 
 This one is mostly for the technical-minded readers. 
 I wasn't around at the _start_ of computing, but I've been around long enough to respect the growing sophistication of software development and how layers of the technology stack that are innovative now become assumed-to-exist in just a short while. 

@@ -29,21 +29,19 @@ The threads this week:
 
 ## One Library-related Corner of the Ukraine War
 {: #ukraine-library-association}
-{{ image(float="right", width="320", localsrc="2022/2022-03-03-nick-poole-tweet.png", caption="Nicholas Poole tweet", alt="Screen capture a tweet from Nick Poole saying: 'Bloody hell. Looking at a message from the Ukraine Library Association concerning the cancellation of their forthcoming conference. it basically says &quot;We will reschedule just as soon as we have finished vanquishing our invaders&quot;. Ukrainian Librarians, I salute you'", ahref="https://twitter.com/NickPoole1/status/1498309449169178634") }}{% include thursday-threads-quote.html
-blockquote='Dear colleagues,
+{{ image(float="right", width="320", localsrc="2022/2022-03-03-nick-poole-tweet.png", caption="Nicholas Poole tweet", alt="Screen capture a tweet from Nick Poole saying: 'Bloody hell. Looking at a message from the Ukraine Library Association concerning the cancellation of their forthcoming conference. it basically says &quot;We will reschedule just as soon as we have finished vanquishing our invaders&quot;. Ukrainian Librarians, I salute you'", ahref="https://twitter.com/NickPoole1/status/1498309449169178634") }}{{ thursday_threads_quote(href="https://www.facebook.com/story.php?story_fbid=5301713153248736&id=182552575164845",
+ blockquote='Dear colleagues,
 The sneaky, cruel and bloody aggression of the Russian Federation has prevented us from implementing our plans and holding March 1-4 XII International Scientific Conference "Modern Library-Information Continuous Education: what, how, for whom? ".
 65 participants registered at the conference, re-calculated the registration fee of 35 members of the VGO Ukrainian Library Association total amount of 10 500 UAH.
 The Organizing Committee of the Conference has decided to hold the Conference after our confident victory, and the contributions collected to support the Armed Forces of Ukraine.
 We promise to provide complete and quality service to all participants in the peaceful time.
 Glory to Ukraine!
-For questions, please contact the Executive Office of the Association by email.'
-href="https://www.facebook.com/story.php?story_fbid=5301713153248736&id=182552575164845"
-versionurl="https://archive.ph/Iqc4R"
-versiondate="2022-03-02"
-pre="Facebook-supplied translation of the"
-anchor="announcement of the postponing of a library conference"
-post="by the Ukrainian Library Association, 28-Feb-2022"
-%}
+For questions, please contact the Executive Office of the Association by email.',
+ versiondate="2022-03-02",
+ versionurl="https://archive.ph/Iqc4R",
+ pre="Facebook-supplied translation of the",
+ anchor="announcement of the postponing of a library conference",
+ post="by the Ukrainian Library Association, 28-Feb-2022") }}
 
 Nicholas Poole, CEO of CILIP in the UK, has a poetic take on this announcement from the Ukraine Library Association. 
 Facebook's automated translation from Ukrainian to English (quoted above) sounds a little dry; I'm left wondering how this reads in the original Ukrainian.
@@ -52,14 +50,12 @@ Facebook's automated translation from Ukrainian to English (quoted above) sounds
 ## Archiving the Ukrainian Web
 {: #ukraine-webarchive}
 
-{% include thursday-threads-quote.html
-blockquote='[Ian Milligan, associate professor of history at the University of Waterloo,] points out that in 50 years, historians will not only be curious about how people got their information and how it shaped their worldviews but also what kind of information archivists saved about this conflict. '
-href="https://www.vice.com/en/article/4awbnd/ukrainian-websites-are-going-dark-archivists-are-trying-to-save-them"
-versionurl="https://web.archive.org/20220227030806/https://www.vice.com/en/article/4awbnd/ukrainian-websites-are-going-dark-archivists-are-trying-to-save-them"
-versiondate="2022-02-27 03:07:57+00:00"
-anchor="Ukrainian Websites Are Going Dark. Archivists Are Trying To Save Them"
-post=', Motherboard on Vice, 25-Feb-2022'
-%}
+{{ thursday_threads_quote(href="https://www.vice.com/en/article/4awbnd/ukrainian-websites-are-going-dark-archivists-are-trying-to-save-them",
+ blockquote='[Ian Milligan, associate professor of history at the University of Waterloo,] points out that in 50 years, historians will not only be curious about how people got their information and how it shaped their worldviews but also what kind of information archivists saved about this conflict. ',
+ versiondate="2022-02-27 03:07:57+00:00",
+ versionurl="https://web.archive.org/20220227030806/https://www.vice.com/en/article/4awbnd/ukrainian-websites-are-going-dark-archivists-are-trying-to-save-them",
+ anchor="Ukrainian Websites Are Going Dark. Archivists Are Trying To Save Them",
+ post=", Motherboard on Vice, 25-Feb-2022") }}
 
 In comparison with previous wars, this Russia's war with Ukraine will have a lot of primary sources. 
 In the near term, people need to figure out what is real and what is manipulated. 
@@ -68,14 +64,12 @@ I'm grateful for the people whose first instinct is to save-the-now so that sour
 
 ## Artificial Intelligence Can't Hold Copyright
 {: #ai-copyright}
-{{ image(float="right", width="320", localsrc="2022/2022-03-03-ai-art.png", caption="Credit line in The Verge article.", alt="Screen capture of the lower left corner of the artwork and the credit line from the Verge article") }} {% include thursday-threads-quote.html
-blockquote='The US Copyright Office has rejected a request to let an AI copyright a work of art. Last week, a three-person board reviewed a 2019 ruling against Steven Thaler, who tried to copyright a picture on behalf of an algorithm he dubbed Creativity Machine. The board found that Thaler&#039;s AI-created image didn&#039;t include an element of “human authorship” — a necessary standard, it said, for protection.'
-href="https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise"
-versionurl="https://web.archive.org/20220224030841/https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise"
-versiondate="2022-02-24 02:22:13+00:00"
-anchor="The US Copyright Office says an AI can’t copyright its art"
-post=', The Verge, 21-Feb-2022'
-%}
+{{ image(float="right", width="320", localsrc="2022/2022-03-03-ai-art.png", caption="Credit line in The Verge article.", alt="Screen capture of the lower left corner of the artwork and the credit line from the Verge article") }} {{ thursday_threads_quote(href="https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise",
+ blockquote='The US Copyright Office has rejected a request to let an AI copyright a work of art. Last week, a three-person board reviewed a 2019 ruling against Steven Thaler, who tried to copyright a picture on behalf of an algorithm he dubbed Creativity Machine. The board found that Thaler&#039;s AI-created image didn&#039;t include an element of “human authorship” — a necessary standard, it said, for protection.',
+ versiondate="2022-02-24 02:22:13+00:00",
+ versionurl="https://web.archive.org/20220224030841/https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise",
+ anchor="The US Copyright Office says an AI can’t copyright its art",
+ post=", The Verge, 21-Feb-2022") }}
 
 It looks pretty—greens and purples, a bed of rails curving into the distance. 
 To my eye, it looks like art—it is something I would hang on a  wall (or make into a video screen background). 

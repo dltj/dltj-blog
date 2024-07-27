@@ -82,42 +82,39 @@ As the last <i><acronym title="Disruptive Library Technology Jester">DLTJ</acron
 
 ## Five things we learned about publishing in 2011
 {: #p3560-publishing}
-{% include thursday-threads-quote.html
-blockquote='<ol>
+{{ thursday_threads_quote(href="http://radar.oreilly.com/2011/12/five-lessons-publishing-2011-amazon-self-publishing-ereading-html5-drm-piracy.html",
+ blockquote='<ol>
 <li>Amazon is, indeed, a disruptive publishing competitor</li>
 <li>Publishers aren&rsquo;t necessary to publishing</li>
 <li>Readers sure do like ebooks</li>
 <li>HTML5 is an important publishing technology</li>
 <li>DRM is full of unintended consequences</li>
-</ol>'
-href="http://radar.oreilly.com/2011/12/five-lessons-publishing-2011-amazon-self-publishing-ereading-html5-drm-piracy.html"
-versionurl="https://web.archive.org/web/20111229000000/http://radar.oreilly.com/2011/12/five-lessons-publishing-2011-amazon-self-publishing-ereading-html5-drm-piracy.html" 
-anchor="Five things we learned about publishing in 2011"
-versiondate="2011-12-29"
-post=', by Jenn Webb, O&rsquo;Reilly Radar'
-%}
+</ol>',
+ versiondate="2011-12-29",
+ versionurl="https://web.archive.org/web/20111229000000/http://radar.oreilly.com/2011/12/five-lessons-publishing-2011-amazon-self-publishing-ereading-html5-drm-piracy.html",
+ title="",
+ anchor="Five things we learned about publishing in 2011",
+ post=', by Jenn Webb, O&rsquo;Reilly Radar') }}
 
 I think we can add a sixth thing: The relationship between libraries and publishers is no longer a passive one.  Although libraries and publishers were always intertwined, this year we saw more stories where they came head-to-head (<a href="/article/thursday-threads-2011w9/#hcod">HarperCollins/OverDrive</a> and <a href="/article/thursday-threads-2011w37/#p3398-hathi-trust">Authors Guild versus HathiTrust</a>) and side-by-side (<a href="/article/thursday-threads-2011w21/#p2906-cipa-dcl">Douglas County's Ebook Lending</a>).  I expect we will see this trend continue in 2012.
 
 
 ## Google's Year in Review
 {: #p3560-zeitgeist}
-{% include thursday-threads-quote.html
-blockquote='<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SAIEamakLoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-href="https://www.youtube.com/watch?v=SAIEamakLoY"
-versionurl="https://web.archive.org/web/https://www.youtube.com/watch?v=SAIEamakLoY" 
-versiondate="2011-12-29"
-anchor="Zeitgeist 2011: Year In Review"
-post=', YouTube, 15-Dec-2011'
-%}
+{{ thursday_threads_quote(href="https://www.youtube.com/watch?v=SAIEamakLoY",
+ blockquote='<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SAIEamakLoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+ versiondate="2011-12-29",
+ versionurl="https://web.archive.org/web/https://www.youtube.com/watch?v=SAIEamakLoY",
+ anchor="Zeitgeist 2011: Year In Review",
+ post=", YouTube, 15-Dec-2011") }}
 
 Within the frame of Google's newly launched Google+ project, this three minute video provides a perspective on the top news stories of the year.
 
 
 ## 10 Bold Tech Predictions For 2012
 {: #p3560-tech}
-{% include thursday-threads-quote.html
-blockquote='<ol>
+{{ thursday_threads_quote(href="http://www.fastcompany.com/1802338/10-bold-business-technology-predictions-for-2012",
+ blockquote='<ol>
 <li>Social business will take off in 2012, but companies will struggle to adopt. </li>
 <li>A significant failure in a popular cloud service will set the cloud movement back.</li>
 <li>Mobile IT will grow slowly in the enterprise.</li>
@@ -128,21 +125,19 @@ blockquote='<ol>
 <li>Information overload will get much worse.</li>
 <li>Consolidation in the social business/enterprise collaboration market.</li>
 <li>A significant new player will emerge in the social networking space.</li>
-</ol>'
-href="http://www.fastcompany.com/1802338/10-bold-business-technology-predictions-for-2012"
-versionurl="https://web.archive.org/web/20111229000000/http://www.fastcompany.com/1802338/10-bold-business-technology-predictions-for-2012" 
-versiondate="2011-12-29"
-anchor="10 Bold Tech Predictions For 2012"
-post=', Fast Company, 21-Dec-2021'
-%}
+</ol>',
+ versiondate="2011-12-29",
+ versionurl="https://web.archive.org/web/20111229000000/http://www.fastcompany.com/1802338/10-bold-business-technology-predictions-for-2012",
+ anchor="10 Bold Tech Predictions For 2012",
+ post=", Fast Company, 21-Dec-2021") }}
 
 A couple things for libraries to watch in this list.  I don't know if eBooks will dominate, but they will certainly become more prevalent.  The first quarter 2012 sales for ebooks will be interesting because many people are expecting a bump in sales that corresponds with e-reader gifts.  (Helped, no doubt, by the introduction of the new Kindle models late in the year.)  Look for libraries to publish statistics of lending as well, although one wonders how much "head room" is left in the lendable collections after the last surge of e-reader sales.  Given that budgets in libraries -- and the cities/states/universities over them -- tend to lag the business world, I'm not sure that IT spending in libraries will increase although there is some infrastructure that really needs to be updated.  And personally I think libraries should punt on the whole Android versus iOS debate and design for a mobile, HTML5-based world.
 
 
 ## 12 predictions for 2012
 {: #p3560-nesta}
-{% include thursday-threads-quote.html
-blockquote='<ol>
+{{ thursday_threads_quote(href="https://web.archive.org/web/20111229000000/http://www.nesta.org.uk/news_and_features/12for2012",
+ blockquote='<ol>
 <li><a href="http://www.nesta.org.uk/news/12-predictions-2012/innovation-frugality" title="NESTA  - Innovation for frugality">Innovation for frugality</a>: This year innovators will become thriftier </li>
 <li><a href="http://www.nesta.org.uk/news/12-predictions-2012/raspberry-pi-and-rise-cheap-computer" title="NESTA  - Raspberry Pi and the rise of the cheap computer">Raspberry Pi and the rise of the cheap computer</a>: We&rsquo;ll see a return to home programming </li>
 <li><a href="http://www.nesta.org.uk/news_and_features/12for2012/assets/features/massively_connected" title="NESTA  - Massively connected">Massively connected</a>: The Internet of Things will come of age </li>
@@ -155,12 +150,10 @@ blockquote='<ol>
 <li><a href="http://www.nesta.org.uk/news_and_features/12for2012/assets/features/educated_gamers" title="NESTA  - Educated gamers">Educated gamers</a>: Next Christmas the games will be much more serious </li>
 <li><a href="http://www.nesta.org.uk/news/12-predictions-2012/year-crowdfunder" title="NESTA  - The year of the crowdfunder">The year of the crowdfunder</a>: 2012 will prove an important year for the evolution of business funding </li>
 <li><a href="http://www.nesta.org.uk/news_and_features/12for2012/assets/features/outside_the_box" title="NESTA  - Outside the Box">Outside the Box</a>: Next year we&rsquo;ll see a seismic shift in how we understand, view and make television</li>
-</ol>'
-href="https://web.archive.org/web/20111229000000/http://www.nesta.org.uk/news_and_features/12for2012"
-originalurl="http://www.nesta.org.uk/news_and_features/12for2012" 
-versiondate="2011-12-29"
-anchor="12 predictions for 2012"
-post=', National Endowment for Science Technology and the Arts'
-%}
+</ol>',
+ versiondate="2011-12-29",
+ originalurl="http://www.nesta.org.uk/news_and_features/12for2012",
+ anchor="12 predictions for 2012",
+ post=", National Endowment for Science Technology and the Arts") }}
 
 This list comes from the National Endowment for Science Technology and the Arts in the U.K., so I think some of the predictions are specific to that country (the mobile wallet prediction, in particular), but I believe most of these are pretty general for the U.S. as well.

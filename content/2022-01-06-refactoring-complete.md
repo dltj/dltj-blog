@@ -45,7 +45,7 @@ url="https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-e
 versiondate="2021-11-12"
 versionurl="https://web.archive.org/20211127031010/https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve"
 anchor="Top 10 IT Issues, 2022: The Higher Education We Deserve" 
-post="EDUCAUSE" %}
+post=", EDUCAUSE" %}
 ```
 
 Each of those variables are used in the include processor, which at the moment looks like this (see [current version](https://github.com/dltj/dltj-blog/blob/master/_includes/thursday-threads-quote.html)):

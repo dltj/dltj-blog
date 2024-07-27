@@ -58,14 +58,12 @@ Let me know if you have seen other angles that you think should be more broadly 
 ## Copyright is for humans
 {: #humans}
 {{ image(float="right", width="173", abssrc="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Macaca_nigra_self-portrait_large.jpg/173px-Macaca_nigra_self-portrait_large.jpg", caption="Naruto's 'monkey selfie'", alt="Photograph of a monkey face with a slight grin set against a leafy green background") }}
-{% include thursday-threads-quote.html
-blockquote='We must determine whether a monkey may sue humans, corporations, and companies for damages and injunctive relief arising from claims of copyright infringement. Our court’s precedent requires us to conclude that the monkey’s claim has standing under Article III of the United States Constitution. Nonetheless, we conclude that this monkey—and all animals, since they are not human—lacks statutory standing under the Copyright Act.'
-href="http://cdn.ca9.uscourts.gov/datastore/opinions/2018/04/23/16-15469.pdf"
-versionurl="https://web.archive.org/web/20180429013455/http://cdn.ca9.uscourts.gov/datastore/opinions/2018/04/23/16-15469.pdf" 
-versiondate="2018-04-29" 
-anchor="Opinion: Naruto v. Slater"
-post=', United States Ninth Circuit Court of Appeals, 23-Apr-2018'
-%}
+{{ thursday_threads_quote(href="http://cdn.ca9.uscourts.gov/datastore/opinions/2018/04/23/16-15469.pdf",
+ blockquote='We must determine whether a monkey may sue humans, corporations, and companies for damages and injunctive relief arising from claims of copyright infringement. Our court’s precedent requires us to conclude that the monkey’s claim has standing under Article III of the United States Constitution. Nonetheless, we conclude that this monkey—and all animals, since they are not human—lacks statutory standing under the Copyright Act.',
+ versiondate="2018-04-29",
+ versionurl="https://web.archive.org/web/20180429013455/http://cdn.ca9.uscourts.gov/datastore/opinions/2018/04/23/16-15469.pdf",
+ anchor="Opinion: Naruto v. Slater",
+ post=", United States Ninth Circuit Court of Appeals, 23-Apr-2018") }}
 
 It might be useful to start here—copyright is recognized as a protected right for humans only. 
 In this case, PETA argued on behalf of a selfie-snapping Indonesia monkey named Naruto that the monkey held the copyright to an image. 
@@ -77,14 +75,12 @@ Discussion of whether the output of a generative AI system can itself be copyrig
 
 ## Copyright Office rejects AI Art
 {: #copyright-office}
-{% include thursday-threads-quote.html
-blockquote='The US Copyright Office has rejected a request to let an AI copyright a work of art. Last week, a three-person board reviewed a 2019 ruling against Steven Thaler, who tried to copyright a picture on behalf of an algorithm he dubbed Creativity Machine. The board found that Thaler’s AI-created image didn’t include an element of “human authorship” — a necessary standard, it said, for protection.'
-href="https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise"
-versionurl="https://web.archive.org/web/20220224030841/https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise"
-versiondate="2022-07-22T16:38:28"
-anchor="The US Copyright Office says an AI can’t copyright its art"
-post=', The Verge, 22-Feb-2022'
-%}
+{{ thursday_threads_quote(href="https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise",
+ blockquote='The US Copyright Office has rejected a request to let an AI copyright a work of art. Last week, a three-person board reviewed a 2019 ruling against Steven Thaler, who tried to copyright a picture on behalf of an algorithm he dubbed Creativity Machine. The board found that Thaler’s AI-created image didn’t include an element of “human authorship” — a necessary standard, it said, for protection.',
+ versiondate="2022-07-22T16:38:28",
+ versionurl="https://web.archive.org/web/20220224030841/https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise",
+ anchor="The US Copyright Office says an AI can’t copyright its art",
+ post=", The Verge, 22-Feb-2022") }}
 
 As expected, the U.S. Copyright Office rejected an application for a work from an algorithm. 
 In fact, the Copyright Office has started the process of {{ robustlink(href="https://www.cbr.com/ai-comic-deemed-ineligible-copyright-protection/", versionurl="https://web.archive.org/web/20221226010818/https://www.cbr.com/ai-comic-deemed-ineligible-copyright-protection/", versiondate="2022-12-25T20:08:15", title="TITLE-PLACEHOLDER", anchor="revoking a previously granted copyright for an AI-generated comic book") }}.
@@ -94,14 +90,12 @@ I'm starting here because it is helpful to know whether the output of an AI syst
 
 ## What is a "large language model" (LLM) artificial intelligence system?
 {: #llm}
-{% include thursday-threads-quote.html
-blockquote='LLMs are generative mathematical models of the statistical distribution of tokens in the vast public corpus of human-generated text, where the tokens in question include words, parts of words, or individual characters including punctuation marks. They are generative because we can sample from them, which means we can ask them questions. But the questions are of the following very specific kind. “Here’s a fragment of text. Tell me how this fragment might go on. According to your model of the statistics of human language, what words are likely to come next?'
-href="https://arxiv.org/pdf/2212.03551v4.pdf"
-versionurl="https://web.archive.org/20230204030821/https://arxiv.org/pdf/2212.03551v4.pdf"
-versiondate="2023-02-03T22:08:20"
-anchor="Talking About Large Language Models"
-post=', Murray Shanahan, arXiv, (2022). <a href="https://doi.org/10.48550/arXiv.2212.03551">https://doi.org/10.48550/arXiv.2212.03551</a>'
-%}
+{{ thursday_threads_quote(href="https://arxiv.org/pdf/2212.03551v4.pdf",
+ blockquote='LLMs are generative mathematical models of the statistical distribution of tokens in the vast public corpus of human-generated text, where the tokens in question include words, parts of words, or individual characters including punctuation marks. They are generative because we can sample from them, which means we can ask them questions. But the questions are of the following very specific kind. “Here’s a fragment of text. Tell me how this fragment might go on. According to your model of the statistics of human language, what words are likely to come next?',
+ versiondate="2023-02-03T22:08:20",
+ versionurl="https://web.archive.org/20230204030821/https://arxiv.org/pdf/2212.03551v4.pdf",
+ anchor="Talking About Large Language Models",
+ post=", Murray Shanahan, arXiv, (2022). <a href="https://doi.org/10.48550/arXiv.2212.03551">https://doi.org/10.48550/arXiv.2212.03551</a>") }}
 
 The type of artificial intelligence that has been of great interest recently is classified as "large language model". 
 Simplistically: they analyze tremendous amounts of texts—the entire contents of Wikipedia, all scanned books that can be found, archives of Reddit, old mailing lists, entire websites...basically, anything written on the internet—and derive a mathematical model for determining sequences of words. 
@@ -114,14 +108,12 @@ But what about the image-generating systems?
 
 ## How do LLMs work with images?
 {: #images}
-{% include thursday-threads-quote.html
-blockquote='The latest image models like Stable Diffusion use a process called latent diffusion. Instead of directly generating the latent representation, a text prompt is used to incrementally modify initial images. The idea is simple: If you take an image and add noise to it, it will eventually become a noisy blur. However, if you start with a noisy blur, you can “subtract” noise from it to get an image back. You must “denoise” smartly—that is, in a way that moves you closer to a desired image.'
-href="https://arstechnica.com/gadgets/2023/01/the-generative-ai-revolution-has-begun-how-did-we-get-here/"
-versionurl="https://web.archive.org/20230201040722/https://arstechnica.com/gadgets/2023/01/the-generative-ai-revolution-has-begun-how-did-we-get-here/"
-versiondate="2023-01-31T23:06:52"
-anchor="The generative AI revolution has begun—how did we get here?"
-post=', Ars Technica, 30-Jan-2023'
-%}
+{{ thursday_threads_quote(href="https://arstechnica.com/gadgets/2023/01/the-generative-ai-revolution-has-begun-how-did-we-get-here/",
+ blockquote='The latest image models like Stable Diffusion use a process called latent diffusion. Instead of directly generating the latent representation, a text prompt is used to incrementally modify initial images. The idea is simple: If you take an image and add noise to it, it will eventually become a noisy blur. However, if you start with a noisy blur, you can “subtract” noise from it to get an image back. You must “denoise” smartly—that is, in a way that moves you closer to a desired image.',
+ versiondate="2023-01-31T23:06:52",
+ versionurl="https://web.archive.org/20230201040722/https://arstechnica.com/gadgets/2023/01/the-generative-ai-revolution-has-begun-how-did-we-get-here/",
+ anchor="The generative AI revolution has begun—how did we get here?",
+ post=", Ars Technica, 30-Jan-2023") }}
 
 In image form, the linking of text descriptions of images found on the internet (such as found in HTML "alt" attributes or in the text surrounding the image in a catalog) is what the algorithm uses to generate new images. 
 
@@ -134,14 +126,12 @@ That is the heart of the debate happening now.
 
 ## Models of unimaginable complexity
 {: #complexity}
-{% include thursday-threads-quote.html
-blockquote='Given that LLMs are sometimes capable of solving reasoning problems with few-shot prompting alone, albeit somewhat unreliably, including reasoning problems that are not in their training set, surely what they are doing is more than “just” next token prediction? Well, it is an engineering fact that this is what an LLM does. The noteworthy thing is that next token prediction is sufficient for solving previously unseen reasoning problems, even if unreliably. How is this possible? Certainly it would not be possible if the LLM were doing nothing more than cutting-and-pasting fragments of text from its training set and assembling them into a response. But this is not what an LLM does. Rather, an LLM models a distribution that is unimaginably complex, and allows users and applications to sample from that distribution.'
-href="https://arxiv.org/pdf/2212.03551v4.pdf"
-versionurl="https://web.archive.org/20230204030821/https://arxiv.org/pdf/2212.03551v4.pdf"
-versiondate="2023-02-03T22:08:20"
-anchor="Talking About Large Language Models"
-post=', Murray Shanahan, arXiv, (2022). <a href="https://doi.org/10.48550/arXiv.2212.03551">https://doi.org/10.48550/arXiv.2212.03551</a>'
-%}
+{{ thursday_threads_quote(href="https://arxiv.org/pdf/2212.03551v4.pdf",
+ blockquote='Given that LLMs are sometimes capable of solving reasoning problems with few-shot prompting alone, albeit somewhat unreliably, including reasoning problems that are not in their training set, surely what they are doing is more than “just” next token prediction? Well, it is an engineering fact that this is what an LLM does. The noteworthy thing is that next token prediction is sufficient for solving previously unseen reasoning problems, even if unreliably. How is this possible? Certainly it would not be possible if the LLM were doing nothing more than cutting-and-pasting fragments of text from its training set and assembling them into a response. But this is not what an LLM does. Rather, an LLM models a distribution that is unimaginably complex, and allows users and applications to sample from that distribution.',
+ versiondate="2023-02-03T22:08:20",
+ versionurl="https://web.archive.org/20230204030821/https://arxiv.org/pdf/2212.03551v4.pdf",
+ anchor="Talking About Large Language Models",
+ post=", Murray Shanahan, arXiv, (2022). <a href="https://doi.org/10.48550/arXiv.2212.03551">https://doi.org/10.48550/arXiv.2212.03551</a>") }}
 
 Returning to Shanahan's paper (see, I told you it was worth reading), we learn that the algorithms are more than just copy-and-paste. 
 That is what makes them seem so magical. 
@@ -153,14 +143,12 @@ For example, this one from Getty Images.
 
 ## Getty Images goes after Stable Diffusion
 {: #getty-images}
-{% include thursday-threads-quote.html
-blockquote='[Getty Images] is accusing Stability AI [creators of the open-source AI art generator Stable Diffusion] of “brazen infringement of Getty Images’ intellectual property on a staggering scale.” It claims that Stability AI copied more than 12 million images from its database “without permission ... or compensation ... as part of its efforts to build a competing business,” and that the startup has infringed on both the company’s copyright and trademark protections.'
-href="https://www.theverge.com/2023/2/6/23587393/ai-art-copyright-lawsuit-getty-images-stable-diffusion"
-versionurl="https://web.archive.org/20230207021525/https://www.theverge.com/2023/2/6/23587393/ai-art-copyright-lawsuit-getty-images-stable-diffusion"
-versiondate="2023-02-06T21:15:23"
-anchor="Getty Images sues AI art generator Stable Diffusion in the US for copyright infringement"
-post=', The Verge, 6-Feb-2023'
-%}
+{{ thursday_threads_quote(href="https://www.theverge.com/2023/2/6/23587393/ai-art-copyright-lawsuit-getty-images-stable-diffusion",
+ blockquote='[Getty Images] is accusing Stability AI [creators of the open-source AI art generator Stable Diffusion] of “brazen infringement of Getty Images’ intellectual property on a staggering scale.” It claims that Stability AI copied more than 12 million images from its database “without permission ... or compensation ... as part of its efforts to build a competing business,” and that the startup has infringed on both the company’s copyright and trademark protections.',
+ versiondate="2023-02-06T21:15:23",
+ versionurl="https://web.archive.org/20230207021525/https://www.theverge.com/2023/2/6/23587393/ai-art-copyright-lawsuit-getty-images-stable-diffusion",
+ anchor="Getty Images sues AI art generator Stable Diffusion in the US for copyright infringement",
+ post=", The Verge, 6-Feb-2023") }}
 
 A rich source of images and descriptions about images can be found in the Getty Images catalog. 
 
@@ -178,14 +166,12 @@ The [case](https://www.courtlistener.com/docket/66788385/getty-images-us-inc-v-s
 
 ## Maybe it isn't so magical after all?
 {: #regeneration}
-{% include thursday-threads-quote.html
-blockquote='Popular image generation models can be prompted to produce identifiable photos of real people, potentially threatening their privacy, according to new research. The work also shows that these AI systems can be made to regurgitate exact copies of medical images and copyrighted work by artists. It’s a finding that could strengthen the case for artists who are currently suing AI companies for copyright violations.'
-href="https://www.technologyreview.com/2023/02/03/1067786/ai-models-spit-out-photos-of-real-people-and-copyrighted-images/"
-versionurl="https://web.archive.org/20230204050928/https://www.technologyreview.com/2023/02/03/1067786/ai-models-spit-out-photos-of-real-people-and-copyrighted-images/"
-versiondate="2023-02-04T00:08:25"
-anchor="AI models spit out photos of real people and copyrighted images"
-post=', MIT Technology Review, 3-Feb-2023'
-%}
+{{ thursday_threads_quote(href="https://www.technologyreview.com/2023/02/03/1067786/ai-models-spit-out-photos-of-real-people-and-copyrighted-images/",
+ blockquote='Popular image generation models can be prompted to produce identifiable photos of real people, potentially threatening their privacy, according to new research. The work also shows that these AI systems can be made to regurgitate exact copies of medical images and copyrighted work by artists. It’s a finding that could strengthen the case for artists who are currently suing AI companies for copyright violations.',
+ versiondate="2023-02-04T00:08:25",
+ versionurl="https://web.archive.org/20230204050928/https://www.technologyreview.com/2023/02/03/1067786/ai-models-spit-out-photos-of-real-people-and-copyrighted-images/",
+ anchor="AI models spit out photos of real people and copyrighted images",
+ post=", MIT Technology Review, 3-Feb-2023") }}
 
 This article summarizes the finding of researchers investigating whether it was possible to get the LLM algorithms to return known images in the dataset. 
 With a unique enough prompt and training data set: yes, that seems quite possible.
@@ -195,14 +181,12 @@ With a unique enough prompt and training data set: yes, that seems quite possibl
 
 ## Open source coders sue GitHub owner Microsoft and Microsoft's partner OpenAI
 {: #copilot}
-{% include thursday-threads-quote.html
-blockquote='<p>Two anonymous plaintiffs, seeking to represent a class of people who own copyrights to code on GitHub, sued Microsoft, GitHub and OpenAI in November. They said the companies trained Copilot with code from GitHub repositories without complying with open-source licensing terms, and that Copilot unlawfully reproduces their code.</p><p>Open-source software can be modified or distributed for free by any users who comply with a license, which normally requires attribution to the original creator, notice of their copyright, and a copy of the license, according to the lawsuit.</p>'
-href="https://www.reuters.com/legal/litigation/openai-microsoft-want-court-toss-lawsuit-accusing-them-abusing-open-source-code-2023-01-27/"
-versionurl="https://web.archive.org/20230131040849/https://www.reuters.com/legal/litigation/openai-microsoft-want-court-toss-lawsuit-accusing-them-abusing-open-source-code-2023-01-27/"
-versiondate="2023-01-30T23:08:47"
-anchor="OpenAI, Microsoft want court to toss lawsuit accusing them of abusing open-source code"
-post=', Reuters, 27-Jan-2023'
-%}
+{{ thursday_threads_quote(href="https://www.reuters.com/legal/litigation/openai-microsoft-want-court-toss-lawsuit-accusing-them-abusing-open-source-code-2023-01-27/",
+ blockquote='<p>Two anonymous plaintiffs, seeking to represent a class of people who own copyrights to code on GitHub, sued Microsoft, GitHub and OpenAI in November. They said the companies trained Copilot with code from GitHub repositories without complying with open-source licensing terms, and that Copilot unlawfully reproduces their code.</p><p>Open-source software can be modified or distributed for free by any users who comply with a license, which normally requires attribution to the original creator, notice of their copyright, and a copy of the license, according to the lawsuit.</p>',
+ versiondate="2023-01-30T23:08:47",
+ versionurl="https://web.archive.org/20230131040849/https://www.reuters.com/legal/litigation/openai-microsoft-want-court-toss-lawsuit-accusing-them-abusing-open-source-code-2023-01-27/",
+ anchor="OpenAI, Microsoft want court to toss lawsuit accusing them of abusing open-source code",
+ post=", Reuters, 27-Jan-2023") }}
 
 {{ robustlink(href="https://news.microsoft.com/announcement/microsoft-acquires-github/", versionurl="https://web.archive.org/web/20200422204602/https://news.microsoft.com/announcement/microsoft-acquires-github/", versiondate="2023-03-01", title="Microsoft to acquire GitHub for $7.5 billion | Microsoft", anchor="Microsoft bought GitHub in 2018") }} and {{ robustlink(href="https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/", versionurl="https://web.archive.org/web/20230124000903/https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/", versiondate="2023-03-01", title="Microsoft and OpenAI extend partnership | Microsoft", anchor="Microsoft is a major investor and user of OpenAI's LLM technology") }}. 
 Copilot is a new feature in GitHub that generates code snippets based on the open source code files uploaded to GitHub and a prompt from the user. (Sound familiar?) 

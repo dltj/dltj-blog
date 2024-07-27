@@ -26,14 +26,12 @@ The threads this week:
 
 ## Minecraft as an Anti-censorship Tool
 {: #minecraft-uncensored}
-{% include thursday-threads-quote.html
-blockquote='When schools ban books, the strategy often backfires on would-be censors, resulting in greater interest around illicit literature. Similarly,  when governments censor the media, groups like Reporters Without Borders spearhead efforts to make such censored material extra visible. Their Uncensored Library project brings together architecture and journalism in an unlikely virtual reality space: the interactive gaming world of Minecraft.'
-href="https://99percentinvisible.org/article/uncensored-library-virtual-minecraft-architecture-houses-banned-journalism/"
-versionurl="https://web.archive.org/20220309200902/https://99percentinvisible.org/article/uncensored-library-virtual-minecraft-architecture-houses-banned-journalism/"
-versiondate="2022-03-09 19:12:47+00:00"
-anchor="Uncensored Library: Banned Journalism Housed in Virtual Minecraft Architecture"
-post=', 99% Invisible, 3-Mar-2022'
-%}{{ image(float="right", width="320", localsrc="2022/2022-03-10-uncensored.jpg", alt="Screen capture of a Minecraft view showing the welcome banner for 'The Uncensored Library' and the map of rooms in the virtual world.") }} 
+{{ thursday_threads_quote(href="https://99percentinvisible.org/article/uncensored-library-virtual-minecraft-architecture-houses-banned-journalism/",
+ blockquote='When schools ban books, the strategy often backfires on would-be censors, resulting in greater interest around illicit literature. Similarly,  when governments censor the media, groups like Reporters Without Borders spearhead efforts to make such censored material extra visible. Their Uncensored Library project brings together architecture and journalism in an unlikely virtual reality space: the interactive gaming world of Minecraft.',
+ versiondate="2022-03-09 19:12:47+00:00",
+ versionurl="https://web.archive.org/20220309200902/https://99percentinvisible.org/article/uncensored-library-virtual-minecraft-architecture-houses-banned-journalism/",
+ anchor="Uncensored Library: Banned Journalism Housed in Virtual Minecraft Architecture",
+ post=", 99% Invisible, 3-Mar-2022") }}{{ image(float="right", width="320", localsrc="2022/2022-03-10-uncensored.jpg", alt="Screen capture of a Minecraft view showing the welcome banner for 'The Uncensored Library' and the map of rooms in the virtual world.") }} 
 
 
 With help from my teenage son, I got into the _[Uncensored Library](https://www.uncensoredlibrary.com/en)_ on Minecraft. 
@@ -46,14 +44,12 @@ The books in the library are short...the ones that I saw were each several hundr
 ## Right-to-be-Forgotten Tangled with Press Freedoms
 {: #ecthr}
 
-{% include thursday-threads-quote.html
-blockquote='The “right to be forgotten," which exists in European Union member states and allows for mandatory delisting of results from search engines, must be balanced against the rights of the public to read media archives. EFF joined together with more than a dozen other media and free expression groups to make that point clear in a recent case from the European Court of Human Rights (ECtHR).'
-href="https://www.eff.org/deeplinks/2022/03/right-be-forgotten-must-be-balanced-publics-interest-online-media-archives"
-versionurl="https://web.archive.org/20220308170859/https://www.eff.org/deeplinks/2022/03/right-be-forgotten-must-be-balanced-publics-interest-online-media-archives"
-versiondate="2022-03-08 16:38:57+00:00"
-anchor="EFF to European Court: “Right to be Forgotten” Shouldn’t Stop The Public From Reading The News"
-post=', Electronic Frontier Foundation, 7-Mar-2022'
-%}
+{{ thursday_threads_quote(href="https://www.eff.org/deeplinks/2022/03/right-be-forgotten-must-be-balanced-publics-interest-online-media-archives",
+ blockquote='The “right to be forgotten," which exists in European Union member states and allows for mandatory delisting of results from search engines, must be balanced against the rights of the public to read media archives. EFF joined together with more than a dozen other media and free expression groups to make that point clear in a recent case from the European Court of Human Rights (ECtHR).',
+ versiondate="2022-03-08 16:38:57+00:00",
+ versionurl="https://web.archive.org/20220308170859/https://www.eff.org/deeplinks/2022/03/right-be-forgotten-must-be-balanced-publics-interest-online-media-archives",
+ anchor="EFF to European Court: “Right to be Forgotten” Shouldn’t Stop The Public From Reading The News",
+ post=", Electronic Frontier Foundation, 7-Mar-2022") }}
 
 Speaking of press freedoms, the courts in Europe are tackling this issue of the right to be forgotten versus the rights of readers to untampered media archives. 
 A lower court ordered the removal of an article from a Belgian newspaper on the basis of the European “right to be forgotten” laws, and the newspaper is challenging the ruling in an appeals court. 

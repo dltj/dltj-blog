@@ -29,22 +29,19 @@ If getting in on the ground floor of a revolution in library technology sounds a
 ## Cryptocurrency's Energy Consumption
 {: #cryptocurrency-energy}
 
-{% include thursday-threads-quote.html
-blockquote="Kosovo's government on Tuesday introduced a ban on cryptocurrency mining in an attempt to curb electricity consumption as the country faces the worst energy crisis in a decade due to production outages."
-href="https://www.reuters.com/markets/commodities/kosovo-bans-cryptocurrency-mining-save-electricity-2022-01-04/"
-versionurl="https://web.archive.org/web/20220107073518/https://www.reuters.com/markets/commodities/kosovo-bans-cryptocurrency-mining-save-electricity-2022-01-04/"
-versiondate="2022-01-08"
-anchor="Kosovo bans cryptocurrency mining to save electricity"
-post="Reuters, 5-Jan-2022"
-%}
+{{ thursday_threads_quote(href="https://www.reuters.com/markets/commodities/kosovo-bans-cryptocurrency-mining-save-electricity-2022-01-04/",
+ blockquote="Kosovo's government on Tuesday introduced a ban on cryptocurrency mining in an attempt to curb electricity consumption as the country faces the worst energy crisis in a decade due to production outages.",
+ versiondate="2022-01-08",
+ versionurl="https://web.archive.org/web/20220107073518/https://www.reuters.com/markets/commodities/kosovo-bans-cryptocurrency-mining-save-electricity-2022-01-04/",
+ anchor="Kosovo bans cryptocurrency mining to save electricity",
+ post="Reuters, 5-Jan-2022") }}
 
-{% include thursday-threads-quote.html
-blockquote="An army of cryptocurrency miners heading to the state for its cheap power and laissez-faire regulation is forecast to send demand soaring by as much as 5,000 megawatts over the next two years. The crypto migration to Texas has been building for months, but the sheer volume of power those miners will need — two times more than the capital city of almost 1 million people consumed in all of 2020 — is only now becoming clear."
-href="https://www.bloomberg.com/news/articles/2021-11-19/texas-plans-to-become-the-u-s-bitcoin-capital-can-its-grid-ercot-handle-it"
-versionurl="https://web.archive.org/web/20211123041018/https://www.bloomberg.com/news/articles/2021-11-19/texas-plans-to-become-the-u-s-bitcoin-capital-can-its-grid-ercot-handle-it"
-versiondate="2021-11-23"
-anchor="Texas Plans to Become the U.S. Bitcoin Capital. Can Its Grid, Ercot, Handle It?"
-post="Bloomberg, 19-Nov-2021" %}
+{{ thursday_threads_quote(href="https://www.bloomberg.com/news/articles/2021-11-19/texas-plans-to-become-the-u-s-bitcoin-capital-can-its-grid-ercot-handle-it",
+ blockquote="An army of cryptocurrency miners heading to the state for its cheap power and laissez-faire regulation is forecast to send demand soaring by as much as 5,000 megawatts over the next two years. The crypto migration to Texas has been building for months, but the sheer volume of power those miners will need — two times more than the capital city of almost 1 million people consumed in all of 2020 — is only now becoming clear.",
+ versiondate="2021-11-23",
+ versionurl="https://web.archive.org/web/20211123041018/https://www.bloomberg.com/news/articles/2021-11-19/texas-plans-to-become-the-u-s-bitcoin-capital-can-its-grid-ercot-handle-it",
+ anchor="Texas Plans to Become the U.S. Bitcoin Capital. Can Its Grid, Ercot, Handle It?",
+ post="Bloomberg, 19-Nov-2021") }}
 
 {{ image(float="right", width="320", localsrc="2022/2022-01-12-calculator-tape.jpg", caption="<i><a href='https://www.flickr.com/photos/97699489@N00/4758769769'>Tape Pile</a></i>, by SidewaysSarah, CC-By", alt="Jumble of calculator tape") }}  One thread that I already anticipate will be covered on many Thursdays is the growing cryptocurrency problem.
 In this edition: how cryptocurrencies are a waste of resources.
@@ -68,13 +65,12 @@ We'll return to this thread often.
 ## An Ode to Interlibrary Loan
 {: #ill}
 
-{% include thursday-threads-quote.html
-blockquote="My book arrived a few weeks later, a gift from a mysterious library in the Midwest. Here was knowledge on loan from afar. I loved books, but my local libraries had finite stacks—but now I could get books from anywhere. I have used this service an obnoxious amount of times since. Books about UFOs in France, folklore, saints, basketball, poetry, and propulsion system dissertations—anything."
-href="https://lithub.com/interlibrary-loan-will-change-your-life/"
-versionurl="https://web.archive.org/web/20220111190819/https://lithub.com/interlibrary-loan-will-change-your-life/"
-versiondate="2022-01-11"
-anchor="InterLibrary Loan Will Change Your Life"
-post="Nick Ripatrazone on Literary Hub, 7-Aug-2019" %}
+{{ thursday_threads_quote(href="https://lithub.com/interlibrary-loan-will-change-your-life/",
+ blockquote="My book arrived a few weeks later, a gift from a mysterious library in the Midwest. Here was knowledge on loan from afar. I loved books, but my local libraries had finite stacks—but now I could get books from anywhere. I have used this service an obnoxious amount of times since. Books about UFOs in France, folklore, saints, basketball, poetry, and propulsion system dissertations—anything.",
+ versiondate="2022-01-11",
+ versionurl="https://web.archive.org/web/20220111190819/https://lithub.com/interlibrary-loan-will-change-your-life/",
+ anchor="InterLibrary Loan Will Change Your Life",
+ post="Nick Ripatrazone on Literary Hub, 7-Aug-2019") }}
 
 You know an article is good when it makes the rounds again years later.
 This 2019 article recently came around again in my Twitter feeds, this time <a href="https://twitter.com/brewster_kahle/status/1480928804793204737">originating with Brewster Kahle</a>.

@@ -32,14 +32,12 @@ The threads this week:
 ## Attorney General of India's Online Collection of Rare Books
 {: #india-rare-books}
 
-{% include thursday-threads-quote.html
-blockquote="<p>Attorney General K.K. Venugopal has granted public access to a wide collection of rare books in his library, through a website. It lists over 570 books, some of which date back to the 17th century. The ‘antiquarian’ or rare book collection has been digitally scanned and made available for the public. The publications cover a wide range of subjects, from religion, mythology and the Vedas, to Indian art and sculpture, historical battles, the British Empire in India and tales of travels across the world.</p><p>The website, however, clarifies that these books are not copyrighted in India, either because the copyright has expired or because the books are not covered under the Indian copyright laws. It adds that while readers located anywhere in India can download them, those located outside India should check their country’s laws before downloading content from the website. The website also makes it clear that the books uploaded are for 'personal or research use only, and not for commercial use or exploitation.</p>"
-href="https://theprint.in/india/attorney-general-kk-venugopal-converts-his-rare-book-collection-into-public-online-library/387752/"
-versionurl="https://web.archive.org/20220125203905/https://theprint.in/india/attorney-general-kk-venugopal-converts-his-rare-book-collection-into-public-online-library/387752/"
-versiondate="2022-01-25 20:37:55+00:00"
-anchor="Attorney General KK Venugopal converts his rare book collection into public online library"
-post='The Print (India), 25-Mar-2020'
-%}
+{{ thursday_threads_quote(href="https://theprint.in/india/attorney-general-kk-venugopal-converts-his-rare-book-collection-into-public-online-library/387752/",
+ blockquote="<p>Attorney General K.K. Venugopal has granted public access to a wide collection of rare books in his library, through a website. It lists over 570 books, some of which date back to the 17th century. The ‘antiquarian’ or rare book collection has been digitally scanned and made available for the public. The publications cover a wide range of subjects, from religion, mythology and the Vedas, to Indian art and sculpture, historical battles, the British Empire in India and tales of travels across the world.</p><p>The website, however, clarifies that these books are not copyrighted in India, either because the copyright has expired or because the books are not covered under the Indian copyright laws. It adds that while readers located anywhere in India can download them, those located outside India should check their country’s laws before downloading content from the website. The website also makes it clear that the books uploaded are for 'personal or research use only, and not for commercial use or exploitation.</p>",
+ versiondate="2022-01-25 20:37:55+00:00",
+ versionurl="https://web.archive.org/20220125203905/https://theprint.in/india/attorney-general-kk-venugopal-converts-his-rare-book-collection-into-public-online-library/387752/",
+ anchor="Attorney General KK Venugopal converts his rare book collection into public online library",
+ post="The Print (India), 25-Mar-2020") }}
 
 I learned about this article and corresponding website during the {{ robustlink(href="https://sites.google.com/view/cdl-implementers", versionurl="https://web.archive.org/web/20220126232417/https://sites.google.com/view/cdl-implementers", versiondate="2022-01-26", title="Controlled Digital Lending Implementers homepage", anchor="Controlled Digital Lending Implementers (CDLI)") }} monthly forum. 
 Aishwarya Chaturvedi, LL.M. candidate from the Cornell Law School, spoke about copyright law in Inda relative to efforts to start a controlled digital lending practice at the forum, and she included mention of {{ robustlink(href="http://kkvlibrary.com/", versiondate="2022-01-26", title="KVV Library", anchor="Mr. Venugopal's library website") }}. 
@@ -53,16 +51,14 @@ I recommend it to broaden your understanding of these issues.
 ## "Inside WWE's massive video vault"
 {: #wwe-video-preservation }
 
-{% include thursday-threads-quote.html
-blockquote='<p>“This is the digital archive robot,” [WWE’s Director of Media Technology Bryan] Staffaroni told us as we were led into a climate-controlled room housing a state-of-the-art and highly complicated large machine. “It has more than 4,000 slots inside with data tapes that we use to store footage. These tapes can hold approximately 24 hours of footage and that’s just one physical tape.”</p><p>Some items in the archive don’t have much of a lifespan remaining, so if a specific item or match is required for a project, the entire tape will be digitized just in case.
+{{ thursday_threads_quote(href="https://www.wwe.com/classics/inside-video-vault",
+ blockquote='<p>“This is the digital archive robot,” [WWE’s Director of Media Technology Bryan] Staffaroni told us as we were led into a climate-controlled room housing a state-of-the-art and highly complicated large machine. “It has more than 4,000 slots inside with data tapes that we use to store footage. These tapes can hold approximately 24 hours of footage and that’s just one physical tape.”</p><p>Some items in the archive don’t have much of a lifespan remaining, so if a specific item or match is required for a project, the entire tape will be digitized just in case.
 
-“A lot of our three-quarter-inch tapes, for example, are so old,” [WWE’s Director of Asset Management George] Germanakos told us. “If we need to get footage off of it, we put the tape in the deck and just hit play. It will record the whole reel. We’re not sure if we’ll be able to rewind it or get anything else from that reel. It sheds.”</p>'
-href="https://www.wwe.com/classics/inside-video-vault"
-versionurl="https://web.archive.org/20220125040814/https://www.wwe.com/classics/inside-video-vault"
-versiondate="2022-01-25 03:53:58+00:00"
-anchor="Inside WWE's massive video vault"
-post='World Wrestling Entertainment, 20-June-2013'
-%}
+“A lot of our three-quarter-inch tapes, for example, are so old,” [WWE’s Director of Asset Management George] Germanakos told us. “If we need to get footage off of it, we put the tape in the deck and just hit play. It will record the whole reel. We’re not sure if we’ll be able to rewind it or get anything else from that reel. It sheds.”</p>',
+ versiondate="2022-01-25 03:53:58+00:00",
+ versionurl="https://web.archive.org/20220125040814/https://www.wwe.com/classics/inside-video-vault",
+ anchor="Inside WWE's massive video vault",
+ post="World Wrestling Entertainment, 20-June-2013") }}
 
 I'm not a fan of soap-opera-style wrestling, but this lay-person's view of their video preservation challenge is fascinating. 
 Their commercial interest is offering fans views of the wrestling backstories as well as the hidden gems of early episodes of now-famous performers. 
@@ -71,14 +67,12 @@ And for the archivists among <i>Thursday Threads</i> readers, there is this quot
 ## Prayers For Sale
 {: #targeted-prayers}
 
-{% include thursday-threads-quote.html
-blockquote='However, an audit of Pray.com by privacy researcher Zach Edwards showed that the app shares granular data about the content its users consume with several other companies, including Facebook. According to Edwards, this means users could be targeted with ads on Facebook based on the content they engage with on Pray.com — including content modules with titles like “Better Marriage,” “Abundant Finance,” and “Releasing Anger.”'
-href="https://www.buzzfeednews.com/article/emilybakerwhite/apps-selling-your-prayers"
-versionurl="https://web.archive.org/20220124210842/https://www.buzzfeednews.com/article/emilybakerwhite/apps-selling-your-prayers"
-versiondate="2022-01-24 20:12:43+00:00"
-anchor="Nothing Sacred: These Apps Reserve The Right To Sell Your Prayers"
-post='Buzzfeed News, 24-Jan-2022'
-%}
+{{ thursday_threads_quote(href="https://www.buzzfeednews.com/article/emilybakerwhite/apps-selling-your-prayers",
+ blockquote='However, an audit of Pray.com by privacy researcher Zach Edwards showed that the app shares granular data about the content its users consume with several other companies, including Facebook. According to Edwards, this means users could be targeted with ads on Facebook based on the content they engage with on Pray.com — including content modules with titles like “Better Marriage,” “Abundant Finance,” and “Releasing Anger.”',
+ versiondate="2022-01-24 20:12:43+00:00",
+ versionurl="https://web.archive.org/20220124210842/https://www.buzzfeednews.com/article/emilybakerwhite/apps-selling-your-prayers",
+ anchor="Nothing Sacred: These Apps Reserve The Right To Sell Your Prayers",
+ post="Buzzfeed News, 24-Jan-2022") }}
 
 The article's sub-headline is "Prominent venture capitalists are flocking to invest in Christian worship apps. The apps say users’ prayers are a business asset." 
 Sorry if this offends, but any time "venture capitalists" are mentioned I'll wager that nothing good will come from it. 
@@ -89,18 +83,16 @@ But it shouldn't be expected; this should not be the norm.
 ## Ebooks Wanted For Sale (for reasonable terms)
 {: #library-ebook-legislation}
 
-{% include thursday-threads-quote.html
-blockquote='<p>Library officials back the bills so they can loosen restrictions on the number of digital works that can circulate and not let publishers dictate pricing terms, said John Chrastka, the executive director of the EveryLibrary Institute, a nonprofit that advocates for library funding.</p><p>The AAP and proponents of the lawsuit said they support public libraries and that libraries are essential in expanding readership, but the Maryland law has the potential to harm creators and weaken the copyright system.
+{{ thursday_threads_quote(href="https://news.bloomberglaw.com/ip-law/libraries-publishers-battle-over-terms-for-e-books-public-use",
+ blockquote='<p>Library officials back the bills so they can loosen restrictions on the number of digital works that can circulate and not let publishers dictate pricing terms, said John Chrastka, the executive director of the EveryLibrary Institute, a nonprofit that advocates for library funding.</p><p>The AAP and proponents of the lawsuit said they support public libraries and that libraries are essential in expanding readership, but the Maryland law has the potential to harm creators and weaken the copyright system.
 
 “The public libraries are an important piece of providing public access, but they don’t operate alone in a vacuum,” said Maria A. Pallante, the CEO of the Association of American Publishers.
 
-The Motion Picture Association, the National Music Publishers Association, and the News Media Alliance also oppose the bills because they say there could be a potential domino effect in states also creating compulsory licenses for other creative works besides e-books.</p>'
-href="https://news.bloomberglaw.com/ip-law/libraries-publishers-battle-over-terms-for-e-books-public-use"
-versionurl="https://web.archive.org/20220120040834/https://news.bloomberglaw.com/ip-law/libraries-publishers-battle-over-terms-for-e-books-public-use"
-versiondate="2022-01-20 03:30:18+00:00"
-anchor="Libraries, Publishers Battle Over Terms for E-Books’ Use"
-post='Bloomberg Law, 18-Jan-2022'
-%}
+The Motion Picture Association, the National Music Publishers Association, and the News Media Alliance also oppose the bills because they say there could be a potential domino effect in states also creating compulsory licenses for other creative works besides e-books.</p>',
+ versiondate="2022-01-20 03:30:18+00:00",
+ versionurl="https://web.archive.org/20220120040834/https://news.bloomberglaw.com/ip-law/libraries-publishers-battle-over-terms-for-e-books-public-use",
+ anchor="Libraries, Publishers Battle Over Terms for E-Books’ Use",
+ post="Bloomberg Law, 18-Jan-2022") }}
 
 One to keep an eye on. 
 This is just the latest in the battle to shape how books materials are offered in a digital space.

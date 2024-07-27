@@ -31,14 +31,12 @@ This week we look at time from a few points of view:
 
 ## Eliminating the leap second
 {: #leap-second}
-{% include thursday-threads-quote.html
-blockquote='The leap second change triggered a massive Reddit outage in 2012, as well as related problems at Mozilla, LinkedIn, Yelp and airline booking service Amadeus. In 2017, a leap second glitch at Cloudflare knocked a fraction of the network infrastructure company&apos;s customers&apos; servers offline. Cloudflare&apos;s software, comparing two clocks, calculated that time had gone backward but couldn&apos;t properly handle that result.'
-href="https://www.cnet.com/tech/computing/its-time-to-ditch-the-leap-second-the-devastating-effect-of-adding-just-one-second/"
-versionurl="https://web.archive.org/web/20220809072523/https://www.cnet.com/tech/computing/its-time-to-ditch-the-leap-second-the-devastating-effect-of-adding-just-one-second/"
-versiondate="2022-07-26T01:17:25"
-anchor="It's Time to Ditch the Leap Second: The Devastating Effect of Adding Just One Second"
-post=', CNET, 8-Aug-2022'
-%}
+{{ thursday_threads_quote(href="https://www.cnet.com/tech/computing/its-time-to-ditch-the-leap-second-the-devastating-effect-of-adding-just-one-second/",
+ blockquote='The leap second change triggered a massive Reddit outage in 2012, as well as related problems at Mozilla, LinkedIn, Yelp and airline booking service Amadeus. In 2017, a leap second glitch at Cloudflare knocked a fraction of the network infrastructure company&apos;s customers&apos; servers offline. Cloudflare&apos;s software, comparing two clocks, calculated that time had gone backward but couldn&apos;t properly handle that result.',
+ versiondate="2022-07-26T01:17:25",
+ versionurl="https://web.archive.org/web/20220809072523/https://www.cnet.com/tech/computing/its-time-to-ditch-the-leap-second-the-devastating-effect-of-adding-just-one-second/",
+ anchor="It's Time to Ditch the Leap Second: The Devastating Effect of Adding Just One Second",
+ post=", CNET, 8-Aug-2022") }}
 
 Programmers can be forgiven for assuming that every minute has 60 seconds. 
 But sometimes they have 61. 
@@ -48,28 +46,24 @@ Google proposes using a "leap smear", where computer clocks spread the extra sec
 
 ## If adding a second causes problems, imagine removing a second
 {: #backwards-second}
-{% include thursday-threads-quote.html
-blockquote='<p>If the Earth speeds up enough, we might find ourselves pondering over the possibility of a negative leap second. According to the Time and Date folks, a day in 2021 is averaging about 0.2ms faster than the 84600 atomic seconds per day, ~70ms/year, so at most 14 years of this would put us over the threshold (super unlikely). In reality, we don’t have to speed up a full 1000ms of rotation speed because there was always a fractional difference in UT1-UTC.</p><p>The time specs involving leap seconds always included the possibility that a negative leap second could happen, but I don’t think anyone really expected it actually happen. In more practical terms, Either July 31 or December 31 23:59:59 would just… disappear from existence, with clocks ticking from 23:59:58 seconds to 00:00:00.</p>'
-href="https://counting.substack.com/p/hate-leap-seconds-imagine-a-negative"
-versionurl="https://web.archive.org/web/20220119004844/https://counting.substack.com/p/hate-leap-seconds-imagine-a-negative"
-versiondate="2022-07-22T16:38:28"
-anchor="Hate leap seconds? Imagine a negative one"
-post=', Counting Stuff, 10-Aug-2021'
-%}
+{{ thursday_threads_quote(href="https://counting.substack.com/p/hate-leap-seconds-imagine-a-negative",
+ blockquote='<p>If the Earth speeds up enough, we might find ourselves pondering over the possibility of a negative leap second. According to the Time and Date folks, a day in 2021 is averaging about 0.2ms faster than the 84600 atomic seconds per day, ~70ms/year, so at most 14 years of this would put us over the threshold (super unlikely). In reality, we don’t have to speed up a full 1000ms of rotation speed because there was always a fractional difference in UT1-UTC.</p><p>The time specs involving leap seconds always included the possibility that a negative leap second could happen, but I don’t think anyone really expected it actually happen. In more practical terms, Either July 31 or December 31 23:59:59 would just… disappear from existence, with clocks ticking from 23:59:58 seconds to 00:00:00.</p>',
+ versiondate="2022-07-22T16:38:28",
+ versionurl="https://web.archive.org/web/20220119004844/https://counting.substack.com/p/hate-leap-seconds-imagine-a-negative",
+ anchor="Hate leap seconds? Imagine a negative one",
+ post=", Counting Stuff, 10-Aug-2021") }}
 
 Add this to the list of things that are possible in our corner of the universe.
 
 
 ## What time is it on the Moon?
 {: #moon-time}
-{% include thursday-threads-quote.html
-blockquote='The Moon doesn’t currently have an independent time. Each lunar mission uses its own timescale that is linked, through its handlers on Earth, to coordinated universal time, or utc — the standard against which the planet’s clocks are set. But this method is relatively imprecise and spacecraft exploring the Moon don’t synchronize the time with each other. The approach works when the Moon hosts a handful of independent missions, but it will be a problem when there are multiple craft working together. Space agencies will also want to track them using satellite navigation, which relies on precise timing signals.'
-href="https://www.nature.com/articles/d41586-023-00185-z"
-versionurl="https://web.archive.org/20230131010828/https://www.nature.com/articles/d41586-023-00185-z"
-versiondate="2023-01-30T20:08:17"
-anchor="What time is it on the Moon?"
-post=', Nature News, 24-Jan-2023'
-%}
+{{ thursday_threads_quote(href="https://www.nature.com/articles/d41586-023-00185-z",
+ blockquote='The Moon doesn’t currently have an independent time. Each lunar mission uses its own timescale that is linked, through its handlers on Earth, to coordinated universal time, or utc — the standard against which the planet’s clocks are set. But this method is relatively imprecise and spacecraft exploring the Moon don’t synchronize the time with each other. The approach works when the Moon hosts a handful of independent missions, but it will be a problem when there are multiple craft working together. Space agencies will also want to track them using satellite navigation, which relies on precise timing signals.',
+ versiondate="2023-01-30T20:08:17",
+ versionurl="https://web.archive.org/20230131010828/https://www.nature.com/articles/d41586-023-00185-z",
+ anchor="What time is it on the Moon?",
+ post=", Nature News, 24-Jan-2023") }}
 
 Robust, accurate time is a given here on Earth. 
 (There are undoubtedly applications where "robust" and "accurate" aren't good enough, but most humans aren't faced with those challenges.) 
@@ -82,14 +76,12 @@ So you are not only synchronizing clocks on the Moon, but you also need to deal 
 
 ## Internet time is "black magic"
 {: #ntp-black-magic}
-{% include thursday-threads-quote.html
-blockquote='By 1988, Mills had refined N.T.P. to the point where it could synchronize the clocks of connected computers that had been telling vastly differing times to within tens of milliseconds—a fraction of a blink of an eye. “I always thought that was sort of black magic,” Vint Cerf, a pioneer of Internet infrastructure, told me.'
-href="https://www.newyorker.com/tech/annals-of-technology/the-thorny-problem-of-keeping-the-internets-time"
-versionurl="https://web.archive.org/20221002182008/https://www.newyorker.com/tech/annals-of-technology/the-thorny-problem-of-keeping-the-internets-time"
-versiondate="2022-10-02T14:20:06"
-anchor="The Thorny Problem of Keeping the Internet’s Time"
-post=', The New Yorker, 30-Sep-2022'
-%}
+{{ thursday_threads_quote(href="https://www.newyorker.com/tech/annals-of-technology/the-thorny-problem-of-keeping-the-internets-time",
+ blockquote='By 1988, Mills had refined N.T.P. to the point where it could synchronize the clocks of connected computers that had been telling vastly differing times to within tens of milliseconds—a fraction of a blink of an eye. “I always thought that was sort of black magic,” Vint Cerf, a pioneer of Internet infrastructure, told me.',
+ versiondate="2022-10-02T14:20:06",
+ versionurl="https://web.archive.org/20221002182008/https://www.newyorker.com/tech/annals-of-technology/the-thorny-problem-of-keeping-the-internets-time",
+ anchor="The Thorny Problem of Keeping the Internet’s Time",
+ post=", The New Yorker, 30-Sep-2022") }}
 
 When Vint Cerf, a {{ robustlink(href="https://en.wikipedia.org/wiki/Vint_Cerf", versionurl="https://en.wikipedia.org/w/index.php?title=Vint_Cerf&oldid=1136158594", versiondate="2023-02-01", title="Vinton Cerf | Wikipedia", anchor="co-developer of TCP/IP") }}, thinks something is black magic, you can wager that it is intense technology.
 This article peels back some of the mystique of one of the oldest internet standards: Network Time Protocol (NTP). 
@@ -102,14 +94,12 @@ I remember getting into the bowels of NTP configurations in the early 1990s when
 
 ## From millisecond precision to nanosecond precision
 {: #ptp}
-{% include thursday-threads-quote.html
-blockquote='Implementing Precision Time Protocol (PTP) at Meta allows us to synchronize the systems that drive our products and services down to nanosecond precision. PTP’s predecessor, Network Time Protocol (NTP), provided us with millisecond precision, but as we scale to more advanced systems on our way to building the next computing platform, the metaverse and AI, we need to ensure that our servers are keeping time as accurately and precisely as possible. With PTP in place, we’ll be able to enhance Meta’s technologies and programs — from communications and productivity to entertainment, privacy, and security — for everyone, across time zones and around the world.'
-href="https://engineering.fb.com/2022/11/21/production-engineering/precision-time-protocol-at-meta/"
-versionurl="https://web.archive.org/web/20221125192255/https://engineering.fb.com/2022/11/21/production-engineering/precision-time-protocol-at-meta/"
-versiondate="2022-11-25T14:22:29"
-anchor="How Precision Time Protocol is being deployed at Meta"
-post=', Engineering at Meta, 21-Nov-2022'
-%}
+{{ thursday_threads_quote(href="https://engineering.fb.com/2022/11/21/production-engineering/precision-time-protocol-at-meta/",
+ blockquote='Implementing Precision Time Protocol (PTP) at Meta allows us to synchronize the systems that drive our products and services down to nanosecond precision. PTP’s predecessor, Network Time Protocol (NTP), provided us with millisecond precision, but as we scale to more advanced systems on our way to building the next computing platform, the metaverse and AI, we need to ensure that our servers are keeping time as accurately and precisely as possible. With PTP in place, we’ll be able to enhance Meta’s technologies and programs — from communications and productivity to entertainment, privacy, and security — for everyone, across time zones and around the world.',
+ versiondate="2022-11-25T14:22:29",
+ versionurl="https://web.archive.org/web/20221125192255/https://engineering.fb.com/2022/11/21/production-engineering/precision-time-protocol-at-meta/",
+ anchor="How Precision Time Protocol is being deployed at Meta",
+ post=", Engineering at Meta, 21-Nov-2022") }}
 
 And this is the advancement of network time from the 1980's NTP (millisecond precision) to today's PTP (nanosecond precision). 
 This article's first part discusses the importance of very precise time at internet-scale companies. 
@@ -118,14 +108,12 @@ Even if you don't care about the time standards, it is interesting to read about
 
 ## Explaining our concept of time to aliens
 {: #aliens}
-{% include thursday-threads-quote.html
-blockquote='<replay-web-page replayBase="/assets/js/replayweb/" source="https://dltj.org/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.wacz" url="https://oembed.link/https://twitter.com/foone/status/1572260363764400129" embed="replay-with-info" newwindowbase="https://dev.replayweb.page/" style="width: 30rem;  height: 20rem;"></replay-web-page><noscript><img src="https://dltj.org/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.png"></noscript>'
-href="https://twitter.com/foone/status/1572260363764400129"
-versionurl="https://web.archive.org/20221002135008/https://threadreaderapp.com/thread/1572260363764400129.html"
-versiondate="2022-10-02T09:50:05"
-anchor="@Foone on Twitter"
-post=', 20-Sep-2022'
-%}
+{{ thursday_threads_quote(href="https://twitter.com/foone/status/1572260363764400129",
+ blockquote='<replay-web-page replayBase="/assets/js/replayweb/" source="https://dltj.org/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.wacz" url="https://oembed.link/https://twitter.com/foone/status/1572260363764400129" embed="replay-with-info" newwindowbase="https://dev.replayweb.page/" style="width: 30rem;  height: 20rem;"></replay-web-page><noscript><img src="https://dltj.org/wp-content/uploads/2023/2023-02-02-tweet-1572260363764400129.png"></noscript>',
+ versiondate="2022-10-02T09:50:05",
+ versionurl="https://web.archive.org/20221002135008/https://threadreaderapp.com/thread/1572260363764400129.html",
+ anchor="@Foone on Twitter",
+ post=", 20-Sep-2022") }}
 <script src="/assets/js/replayweb/ui.js"></script>
 
 An imaginary conversation in 68 tweets, including bits like:

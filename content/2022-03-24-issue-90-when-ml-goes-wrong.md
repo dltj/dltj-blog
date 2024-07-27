@@ -30,15 +30,13 @@ With that definition in mind, the thread this week is on challenges with machine
 
 ## Flip the Switch on Your Drug Synthesizing Tool and Chemical Weapons Come Out
 {: #ml-drugs}
-{% include thursday-threads-quote.html
-blockquote='<p>This generative model normally penalizes predicted toxicity and rewards predicted target activity. We simply proposed to invert this logic by using the same approach to design molecules de novo, but now guiding the model to reward both toxicity and bioactivity instead. </p><p>In less than 6 hours after starting on our in-house server, our model generated 40,000 molecules that scored within our desired threshold. In the process, the AI designed not only VX, but also many other known chemical warfare agents that we identified through visual confirmation with structures in public chemistry databases. Many new molecules were also designed that looked equally plausible.</p>'
-href="https://www.nature.com/articles/s42256-022-00465-9"
-versionurl="https://web.archive.org/20220316215738/https://www.nature.com/articles/s42256-022-00465-9" 
-versiondate="2022-03-16 17:56:59" 
-pre="Urbina, F., Lentzos, F., Invernizzi, C. <i>et al.</i>"
-anchor="Dual use of artificial-intelligence-powered drug discovery"
-post='. <i>Nat Mach Intell</i> <b>4</b>, 189–191 (2022). https://doi.org/10.1038/s42256-022-00465-9'
-%}
+{{ thursday_threads_quote(href="https://www.nature.com/articles/s42256-022-00465-9",
+ blockquote='<p>This generative model normally penalizes predicted toxicity and rewards predicted target activity. We simply proposed to invert this logic by using the same approach to design molecules de novo, but now guiding the model to reward both toxicity and bioactivity instead. </p><p>In less than 6 hours after starting on our in-house server, our model generated 40,000 molecules that scored within our desired threshold. In the process, the AI designed not only VX, but also many other known chemical warfare agents that we identified through visual confirmation with structures in public chemistry databases. Many new molecules were also designed that looked equally plausible.</p>',
+ versiondate="2022-03-16 17:56:59",
+ versionurl="https://web.archive.org/20220316215738/https://www.nature.com/articles/s42256-022-00465-9",
+ pre="Urbina, F., Lentzos, F., Invernizzi, C. <i>et al.</i>",
+ anchor="Dual use of artificial-intelligence-powered drug discovery",
+ post=". <i>Nat Mach Intell</i> <b>4</b>, 189–191 (2022). https://doi.org/10.1038/s42256-022-00465-9") }}
 
 By changing the parameters of the machine learning model, the output of the model changed dramatically. 
 The model is trained to look for promising compounds that could be turned into pharmaceuticals. 
@@ -60,14 +58,12 @@ The tool is neither good nor evil; it is in how the tool is used or misused.
 ## With Machine Learning, Garbage In/Garbage Out
 {: #gigo}
 
-{% include thursday-threads-quote.html
-blockquote='Machine learning (ML), systems, especially deep neural networks, can find subtle patterns in large datasets that give them powerful capabilities in image classification, speech recognition, natural-language processing, and other tasks. Despite this power—or rather because of it—these systems can be led astray by hidden regularities in the datasets used to train them.'
-href="https://cacm.acm.org/magazines/2021/12/256943-trouble-at-the-source/fulltext"
-versionurl="https://web.archive.org/web/20211209020810/https://cacm.acm.org/magazines/2021/12/256943-trouble-at-the-source/fulltext"
-versiondate="2021-12-09 01:57:50+00:00"
-anchor="Trouble at the Source"
-post=': Errors and biases in artificial intelligence systems often reflect the data used to train them,  Communications of the ACM, December 2021'
-%}
+{{ thursday_threads_quote(href="https://cacm.acm.org/magazines/2021/12/256943-trouble-at-the-source/fulltext",
+ blockquote='Machine learning (ML), systems, especially deep neural networks, can find subtle patterns in large datasets that give them powerful capabilities in image classification, speech recognition, natural-language processing, and other tasks. Despite this power—or rather because of it—these systems can be led astray by hidden regularities in the datasets used to train them.',
+ versiondate="2021-12-09 01:57:50+00:00",
+ versionurl="https://web.archive.org/web/20211209020810/https://cacm.acm.org/magazines/2021/12/256943-trouble-at-the-source/fulltext",
+ anchor="Trouble at the Source",
+ post=": Errors and biases in artificial intelligence systems often reflect the data used to train them,  Communications of the ACM, December 2021") }}
 
 It isn't going unnoticed in the computing profession that there need to be ways to quantify problems with machine learning models. 
 You've probably read the stories of how facial recognition models trained with picture datasets consisting of primarily white male faces had difficulty zeroing in on anyone who wasn't a white male. 
@@ -75,14 +71,12 @@ This article describes the difficulties in recognizing biases in training data a
 
 ## Five Realities Why Applying Machine Learning to Medical Records is Hard
 {: #ml-medical}
-{% include thursday-threads-quote.html
-blockquote='A few years ago, I worked on a project to investigate the potential of machine learning to transform healthcare through modeling electronic medical records. I walked away deeply disillusioned with the whole field and I really don’t think that the field needs machine learning right now. What it does need is plenty of IT support. But even that’s not enough. Here are some of the structural reasons why I don’t think deep learning models on EMRs are going to be useful any time soon.'
-href="https://www.moderndescartes.com/essays/deep_learning_emr/"
-versionurl="https://web.archive.org/20220324010839/https://www.moderndescartes.com/essays/deep_learning_emr/"
-versiondate="2022-03-24 00:24:08+00:00"
-anchor="Deep Learning on Electronic Medical Records is doomed to fail"
-post=', Brian Kihoon Lee’s blog, 22-Mar-2022'
-%}
+{{ thursday_threads_quote(href="https://www.moderndescartes.com/essays/deep_learning_emr/",
+ blockquote='A few years ago, I worked on a project to investigate the potential of machine learning to transform healthcare through modeling electronic medical records. I walked away deeply disillusioned with the whole field and I really don’t think that the field needs machine learning right now. What it does need is plenty of IT support. But even that’s not enough. Here are some of the structural reasons why I don’t think deep learning models on EMRs are going to be useful any time soon.',
+ versiondate="2022-03-24 00:24:08+00:00",
+ versionurl="https://web.archive.org/20220324010839/https://www.moderndescartes.com/essays/deep_learning_emr/",
+ anchor="Deep Learning on Electronic Medical Records is doomed to fail",
+ post=", Brian Kihoon Lee’s blog, 22-Mar-2022") }}
 
 This article describes the difficulties of using machine learning algorithms to synthesize knowledge from medical records. 
 It is also an indictment of the extent to which the requirements of insurance companies (and the subsequent actions by medical providers to subvert the requirements) have mucked up the practice of medicine. 

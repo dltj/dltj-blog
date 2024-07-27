@@ -24,20 +24,18 @@ The threads this week:
 {: #fingerprinting-pdfs}
 
 
-{% include thursday-threads-quote.html
-blockquote='One of the world’s largest publishers of academic papers said it adds a unique fingerprint to every PDF users download in an attempt to prevent ransomware, not to prevent piracy. 
+{{ thursday_threads_quote(href="https://www.vice.com/en/article/4aw48g/academic-journal-claims-it-fingerprints-pdfs-for-ransomware-not-surveillance",
+ blockquote='One of the world’s largest publishers of academic papers said it adds a unique fingerprint to every PDF users download in an attempt to prevent ransomware, not to prevent piracy. 
 
 Elsevier defended the practice after an independent researcher discovered the existence of the unique fingerprints and shared their findings on Twitter last week. 
 
 “The identifier in the PDF helps to prevent cybersecurity risks to our systems and to those of our customers—there is no metadata, PII [Personal Identifying Information] or personal data captured by these,” an Elsevier spokesperson said in an email to Motherboard. “Fingerprinting in PDFs allows us to identify potential sources of threats so we can inform our customers for them to act upon. This approach is commonly used across the academic publishing industry.”
 
-When asked what risks he was referring to, the spokesperson sent a list of links to news articles about ransomware.'
-href="https://www.vice.com/en/article/4aw48g/academic-journal-claims-it-fingerprints-pdfs-for-ransomware-not-surveillance"
-versionurl="https://web.archive.org/20220212060833/https://www.vice.com/en/article/4aw48g/academic-journal-claims-it-fingerprints-pdfs-for-ransomware-not-surveillance"
-versiondate="2022-02-12 05:30:38+00:00"
-anchor="Academic Journal Claims it Fingerprints PDFs for ‘Ransomware,’ Not Surveillance"
-post=', Motherboard from Vice, 31-Jan-2022'
-%}
+When asked what risks he was referring to, the spokesperson sent a list of links to news articles about ransomware.',
+ versiondate="2022-02-12 05:30:38+00:00",
+ versionurl="https://web.archive.org/20220212060833/https://www.vice.com/en/article/4aw48g/academic-journal-claims-it-fingerprints-pdfs-for-ransomware-not-surveillance",
+ anchor="Academic Journal Claims it Fingerprints PDFs for ‘Ransomware,’ Not Surveillance",
+ post=", Motherboard from Vice, 31-Jan-2022") }}
 
 Pretty incredulous...adding unique identifiers to the metadata of each PDF downloaded from Elsevier (the "fingerprint") somehow protects against ransomware. 
 Extraordinary claims require extraordinary proof, and it is not forthcoming from Elsevier. 
@@ -50,18 +48,16 @@ I can think of no plausible scenario where fingerprints in PDF files detect, pre
 ## Fraud in NFTs
 {: #nft-fraud}
 
-{% include thursday-threads-quote.html
-blockquote='[Cameron] Hejazi highlighted three main problems: people selling unauthorised copies of other NFTs [Non-Fungible Tokens], people making NFTs of content which does not belong to them, and people selling sets of NFTs which resemble a security.
+{{ thursday_threads_quote(href="https://www.reuters.com/business/finance/nft-marketplace-shuts-citing-rampant-fakes-plagiarism-problem-2022-02-11/",
+ blockquote='[Cameron] Hejazi highlighted three main problems: people selling unauthorised copies of other NFTs [Non-Fungible Tokens], people making NFTs of content which does not belong to them, and people selling sets of NFTs which resemble a security.
 
 He said these issues were "rampant", with users "minting and minting and minting counterfeit digital assets".
 
-"It kept happening. We would ban offending accounts but it was like we&#39;re playing a game of whack-a-mole... Every time we would ban one, another one would come up, or three more would come up."'
-href="https://www.reuters.com/business/finance/nft-marketplace-shuts-citing-rampant-fakes-plagiarism-problem-2022-02-11/"
-versionurl="https://web.archive.org/20220212130839/https://www.reuters.com/business/finance/nft-marketplace-shuts-citing-rampant-fakes-plagiarism-problem-2022-02-11/"
-versiondate="2022-02-12 13:03:25+00:00"
-anchor="Marketplace suspends most NFT sales, citing 'rampant' fakes and plagiarism"
-post=', Reuters, 12-Feb-2022'
-%}
+"It kept happening. We would ban offending accounts but it was like we&#39;re playing a game of whack-a-mole... Every time we would ban one, another one would come up, or three more would come up."',
+ versiondate="2022-02-12 13:03:25+00:00",
+ versionurl="https://web.archive.org/20220212130839/https://www.reuters.com/business/finance/nft-marketplace-shuts-citing-rampant-fakes-plagiarism-problem-2022-02-11/",
+ anchor="Marketplace suspends most NFT sales, citing 'rampant' fakes and plagiarism",
+ post=", Reuters, 12-Feb-2022") }}
 
 This from the company that "sells tweets": <quot>"The U.S.-based Cent executed one of the first known million-dollar NFT sales when it sold the former Twitter CEO's tweet as an NFT last March."</quot> 
 Cent seems to be recognized by Twitter with some kind of legitimacy to sell NFTs of tweets. 
@@ -75,14 +71,12 @@ That Bloomberg article is behind a paywall, but {{ robustlink(href="https://www.
 ## Improve Your Life
 {: #life-improvements}
 
-{% include thursday-threads-quote.html
-blockquote='<ul><li>Always be willing to miss the next train. </li><li>If you find an item of clothing you love and are certain you will wear for ever, buy three.</li><li>Don’t get a pet/do get a pet.</li></ul>'
-href="https://www.theguardian.com/lifeandstyle/2022/jan/01/marginal-gains-100-ways-to-improve-your-life-without-really-trying"
-versionurl="https://web.archive.org/20220211030857/https://www.theguardian.com/lifeandstyle/2022/jan/01/marginal-gains-100-ways-to-improve-your-life-without-really-trying"
-versiondate="2022-02-11 02:55:54+00:00"
-anchor="100 ways to slightly improve your life without really trying"
-post=', The Guardian, 1-Jan-2022'
-%}
+{{ thursday_threads_quote(href="https://www.theguardian.com/lifeandstyle/2022/jan/01/marginal-gains-100-ways-to-improve-your-life-without-really-trying",
+ blockquote='<ul><li>Always be willing to miss the next train. </li><li>If you find an item of clothing you love and are certain you will wear for ever, buy three.</li><li>Don’t get a pet/do get a pet.</li></ul>',
+ versiondate="2022-02-11 02:55:54+00:00",
+ versionurl="https://web.archive.org/20220211030857/https://www.theguardian.com/lifeandstyle/2022/jan/01/marginal-gains-100-ways-to-improve-your-life-without-really-trying",
+ anchor="100 ways to slightly improve your life without really trying",
+ post=", The Guardian, 1-Jan-2022") }}
 
 From the thoughtful to the practical to the weird. 
 Maybe try one or two this coming week?

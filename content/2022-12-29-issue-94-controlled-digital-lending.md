@@ -35,12 +35,11 @@ May you have a safe, happy, and healthy New Year.
 
 ## Updates on Funding Announcements
 {: #dltj-cdl-updates}
-{% include thursday-threads-quote.html
-blockquote='These two funding announcements show support for the development of systems and practices for libraries to advance the cooperation beyond the point of shipping physical books back and forth. '
-href="http://localhost:4000/article/issue-81-cdill-nfts-cats/#controlled-digital-lending"
-anchor="Controlled Digital Lending Gets a Funding Boost"
-post=', DLTJ Thursday Threads, 30-Jan-2022'
-%}
+{{ thursday_threads_quote(href="http://localhost:4000/article/issue-81-cdill-nfts-cats/#controlled-digital-lending",
+ blockquote='These two funding announcements show support for the development of systems and practices for libraries to advance the cooperation beyond the point of shipping physical books back and forth. ',
+ versiondate="",
+ anchor="Controlled Digital Lending Gets a Funding Boost",
+ post=", DLTJ Thursday Threads, 30-Jan-2022") }}
 
 I posted about two CDL-related funding announcements back in January. 
 In the first, the Boston Library Consortium announced a two-year grant to develop CDL software for its member libraries. 
@@ -54,14 +53,12 @@ The report from the working group is being drafted now and will be available for
 
 ## Big Publishers versus Internet Archive
 {: #cdl-lawsuit}
-{% include thursday-threads-quote.html
-blockquote='<p>Plaintiffs Hachette, HarperCollins, Penguin Random House, and Wiley (collectively, “Plaintiffs” or “Publishers”) bring this copyright infringement action against IA in connection with website operations it markets to the public as “Open Library” and/or “National Emergency Library.” ... Defendant IA is engaged in willful mass copyright infringement. Without any license or any payment to authors or publishers, IA scans print books, uploads these illegally scanned books to its servers, and distributes verbatim digital copies of the books in whole via public-facing websites. With just a few clicks, any Internet-connected user can download complete digital copies of in-copyright books from Defendant. ...</p><p>... By its actions, alleged above, Defendant has infringed and will infringe the Publishers’ copyrights in and to the Works by, inter alia, reproducing, distributing, publicly displaying, publicly performing, and making derivative works of the Works without any authorization or permission from Plaintiffs.</p>'
-href="https://www.courtlistener.com/docket/17211300/1/hachette-book-group-inc-v-internet-archive/"
-versionurl="https://web.archive.org/web/20221229000000/https://storage.courtlistener.com/recap/gov.uscourts.nysd.537900/gov.uscourts.nysd.537900.1.0_1.pdf" 
-versiondate="2022-12-29" 
-anchor="Complaint"
-post=', Hachette Book Group, Inc. v. Internet Archive, 1-Jun-2020'
-%}
+{{ thursday_threads_quote(href="https://www.courtlistener.com/docket/17211300/1/hachette-book-group-inc-v-internet-archive/",
+ blockquote='<p>Plaintiffs Hachette, HarperCollins, Penguin Random House, and Wiley (collectively, “Plaintiffs” or “Publishers”) bring this copyright infringement action against IA in connection with website operations it markets to the public as “Open Library” and/or “National Emergency Library.” ... Defendant IA is engaged in willful mass copyright infringement. Without any license or any payment to authors or publishers, IA scans print books, uploads these illegally scanned books to its servers, and distributes verbatim digital copies of the books in whole via public-facing websites. With just a few clicks, any Internet-connected user can download complete digital copies of in-copyright books from Defendant. ...</p><p>... By its actions, alleged above, Defendant has infringed and will infringe the Publishers’ copyrights in and to the Works by, inter alia, reproducing, distributing, publicly displaying, publicly performing, and making derivative works of the Works without any authorization or permission from Plaintiffs.</p>',
+ versiondate="2022-12-29",
+ versionurl="https://web.archive.org/web/20221229000000/https://storage.courtlistener.com/recap/gov.uscourts.nysd.537900/gov.uscourts.nysd.537900.1.0_1.pdf",
+ anchor="Complaint",
+ post=", Hachette Book Group, Inc. v. Internet Archive, 1-Jun-2020") }}
 
 Although the Internet Archive's "National Emergency Library" early in the 2020 Covid-19 pandemic was the driver for this lawsuit, it has come to encompass the notion of CDL. 
 (The Internet Archive, though it's "Open Library" program, had a CDL program for participating libraries. As part of the National Emergency Library, the Internet Archive suspended the simultaneous use restrictions because the print books in the nation's libraries were unavailable because the libraries were closed.)
@@ -82,14 +79,12 @@ But rather than innovate their product to take advantage of the capabilities tha
 
 ## Origins of Controlled Digital Lending
 {: #cdl-origins}
-{% include thursday-threads-quote.html
-blockquote='I believe it is possible to build a digital library that respects both of the intended beneficiaries of the Copyright Clause—copyright owners and society—while testing commonly held assumptions about the limitations of copyright law. In balancing these goals, TALLO permits circulation of the exact number of copies purchased, thereby acknowledging the rights inherent in copyright, but it liberates the form of circulation from the print format.'
-href="https://scholarship.law.georgetown.edu/cgi/viewcontent.cgi?article=1698&context=facpub"
-versionurl="https://web.archive.org/web/20221228000000/https://scholarship.law.georgetown.edu/cgi/viewcontent.cgi?article=1698&context=facpub" 
-versiondate="2022-12-28" 
-anchor="Building a Collaborative Digital Collection: A Necessary Evolution in Libraries"
-post=', Michelle M. Wu, Georgetown University Law Center, 16-Nov-2011'
-%}
+{{ thursday_threads_quote(href="https://scholarship.law.georgetown.edu/cgi/viewcontent.cgi?article=1698&context=facpub",
+ blockquote='I believe it is possible to build a digital library that respects both of the intended beneficiaries of the Copyright Clause—copyright owners and society—while testing commonly held assumptions about the limitations of copyright law. In balancing these goals, TALLO permits circulation of the exact number of copies purchased, thereby acknowledging the rights inherent in copyright, but it liberates the form of circulation from the print format.',
+ versiondate="2022-12-28",
+ versionurl="https://web.archive.org/web/20221228000000/https://scholarship.law.georgetown.edu/cgi/viewcontent.cgi?article=1698&context=facpub",
+ anchor="Building a Collaborative Digital Collection: A Necessary Evolution in Libraries",
+ post=", Michelle M. Wu, Georgetown University Law Center, 16-Nov-2011") }}
 
 There is the origin of the notion of the own-to-loan ratio...if a library owns a physical copy of an item, it can lend a digital facsimile of that item if it takes the physical copy out of circulation.
 For all of the legal wrangling around CDL—see entry above—is it ironic that the notion for CDL came from a law library professor?

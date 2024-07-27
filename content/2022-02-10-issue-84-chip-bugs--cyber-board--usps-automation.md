@@ -24,16 +24,14 @@ The threads this week:
 {: #computer-chips}
 
 
-{% include thursday-threads-quote.html
-blockquote='Imagine for a moment that the millions of computer chips inside the servers that power the largest data centers in the world had rare, almost undetectable flaws. And the only way to find the flaws was to throw those chips at giant computing problems that would have been unthinkable just a decade ago.
+{{ thursday_threads_quote(href="https://www.nytimes.com/2022/02/07/technology/computer-chips-errors.html",
+ blockquote='Imagine for a moment that the millions of computer chips inside the servers that power the largest data centers in the world had rare, almost undetectable flaws. And the only way to find the flaws was to throw those chips at giant computing problems that would have been unthinkable just a decade ago.
 
-As the tiny switches in computer chips have shrunk to the width of a few atoms, the reliability of chips has become another worry for the people who run the biggest networks in the world. Companies like Amazon, Facebook, Twitter and many other sites have experienced surprising outages over the last year.'
-href="https://www.nytimes.com/2022/02/07/technology/computer-chips-errors.html"
-versionurl="https://web.archive.org/20220209040808/https://www.nytimes.com/2022/02/07/technology/computer-chips-errors.html"
-versiondate="2022-02-09 03:57:33+00:00"
-anchor="Tiny Chips, Big Headaches: As the largest computer networks continue to grow, some engineers fear that their smallest components could prove to be an Achilles’ heel"
-post=', New York Times, 7-Feb-2022'
-%}
+As the tiny switches in computer chips have shrunk to the width of a few atoms, the reliability of chips has become another worry for the people who run the biggest networks in the world. Companies like Amazon, Facebook, Twitter and many other sites have experienced surprising outages over the last year.',
+ versiondate="2022-02-09 03:57:33+00:00",
+ versionurl="https://web.archive.org/20220209040808/https://www.nytimes.com/2022/02/07/technology/computer-chips-errors.html",
+ anchor="Tiny Chips, Big Headaches: As the largest computer networks continue to grow, some engineers fear that their smallest components could prove to be an Achilles’ heel",
+ post=", New York Times, 7-Feb-2022") }}
 
 We have all experienced unexplained computer errors. 
 The software programmer among us cringe and think about what they possibly did wrong. 
@@ -48,16 +46,14 @@ As the hardware architects press for smaller, faster, more electrically efficien
 ## Learning From Our Cyber Mistakes
 {: #cybersecurity-review-board}
 
-{% include thursday-threads-quote.html
-blockquote='The new Cyber Safety Review Board is tasked with examining significant cybersecurity events that affect government, business and critical infrastructure. It will publish reports on security findings and recommendations, officials said...
+{{ thursday_threads_quote(href="https://www.wsj.com/articles/biden-administration-forms-cybersecurity-review-board-to-probe-failures-11643898601?mod=djemalertNEWS",
+ blockquote='The new Cyber Safety Review Board is tasked with examining significant cybersecurity events that affect government, business and critical infrastructure. It will publish reports on security findings and recommendations, officials said...
 
-The board, officials have said, is modeled loosely on the National Transportation Safety Board, which investigates and issues public reports on airplane crashes, train derailments and other transportation accidents.'
-href="https://www.wsj.com/articles/biden-administration-forms-cybersecurity-review-board-to-probe-failures-11643898601?mod=djemalertNEWS"
-versionurl="https://web.archive.org/20220204140811/https://www.wsj.com/articles/biden-administration-forms-cybersecurity-review-board-to-probe-failures-11643898601?mod=djemalertNEWS"
-versiondate="2022-02-04 13:25:41+00:00"
-anchor="Biden Administration Forms Cybersecurity Review Board to Probe Failures"
-post='Wall Street Journal, 3-Feb-2022'
-%}
+The board, officials have said, is modeled loosely on the National Transportation Safety Board, which investigates and issues public reports on airplane crashes, train derailments and other transportation accidents.',
+ versiondate="2022-02-04 13:25:41+00:00",
+ versionurl="https://web.archive.org/20220204140811/https://www.wsj.com/articles/biden-administration-forms-cybersecurity-review-board-to-probe-failures-11643898601?mod=djemalertNEWS",
+ anchor="Biden Administration Forms Cybersecurity Review Board to Probe Failures",
+ post="Wall Street Journal, 3-Feb-2022") }}
 
 You might think working with computers is an engineering discipline. 
 But unlike other engineering professions, the computing field has little accountability for the errors of its practitioners and a formal method for spreading what was learned from those errors to prevent them from happening again. 
@@ -73,14 +69,12 @@ It is good to see this one small area—cybersecurity incidents—get that kind 
 ## Automation at the United States Postal Service
 {: #usps-automation}
 
-{% include thursday-threads-quote.html
-blockquote='Delivering hards, no matter the cost, is a reflection of the US Post Office’s commitment to truly universal service—a radical vision of democratic communications infrastructure enshrined in the Postal Service Act of 1792. No matter the sender, the recipient, or the distance separating origin and destination, federal code stipulated that the Post Office must “bind the nation together.” As Alexis de Tocqueville put it in his 1835 treatise Democracy in America, the US mail system, unlike its European counterpart, “was organized so as to bring the same information to the door of the poor man’s cottage and to the gate of the palace.” To live up to this idealistic ethos, hards must be treated no differently than easies.'
-href="https://logicmag.io/distribution/the-nonmachinables/"
-versionurl="https://web.archive.org/20220201040825/https://logicmag.io/distribution/the-nonmachinables/"
-versiondate="2022-02-01 03:26:56+00:00"
-anchor="The Nonmachinables: Redundancy and resilience at the US Postal Service"
-post=', Logic Magazine, 17-May-2021'
-%}
+{{ thursday_threads_quote(href="https://logicmag.io/distribution/the-nonmachinables/",
+ blockquote='Delivering hards, no matter the cost, is a reflection of the US Post Office’s commitment to truly universal service—a radical vision of democratic communications infrastructure enshrined in the Postal Service Act of 1792. No matter the sender, the recipient, or the distance separating origin and destination, federal code stipulated that the Post Office must “bind the nation together.” As Alexis de Tocqueville put it in his 1835 treatise Democracy in America, the US mail system, unlike its European counterpart, “was organized so as to bring the same information to the door of the poor man’s cottage and to the gate of the palace.” To live up to this idealistic ethos, hards must be treated no differently than easies.',
+ versiondate="2022-02-01 03:26:56+00:00",
+ versionurl="https://web.archive.org/20220201040825/https://logicmag.io/distribution/the-nonmachinables/",
+ anchor="The Nonmachinables: Redundancy and resilience at the US Postal Service",
+ post=", Logic Magazine, 17-May-2021") }}
 
 This is a long read about a much bigger subject. 
 Despite the length—just over 5,000 words—I came away with the feeling that it was just scratching the surface. 

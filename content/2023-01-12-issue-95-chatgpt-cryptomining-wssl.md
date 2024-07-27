@@ -28,14 +28,12 @@ This week we revisit threads from a month ago, a year ago, and 12 years ago.
 
 ## ChatGPT references a non-existent book
 {: #chatgpt-bad-reference}
-{% include thursday-threads-quote.html
-blockquote='Been seeing a lot about #ChatGPT lately and got my first question at the library this week from someone who was looking for a book that the bot had recommended. They couldn&apos;t find it in our catalog. Turns out that ALL the books that ChatGPT had recommended for their topic were non-existent. Just real authors and fake titles cobbled together. And apparently this is known behavior. 😮'
-href="https://blacktwitter.io/@bibliotecaria/109650353375080864"
-versionurl="https://web.archive.org/web/20230108231530/https://blacktwitter.io/@bibliotecaria/109650353375080864"
-versiondate="2023-01-11"
-anchor="Wanda Whitney"
-post=', @bibliotecaria@blacktwitter.io, 7-Jan-2023'
-%}
+{{ thursday_threads_quote(href="https://blacktwitter.io/@bibliotecaria/109650353375080864",
+ blockquote='Been seeing a lot about #ChatGPT lately and got my first question at the library this week from someone who was looking for a book that the bot had recommended. They couldn&apos;t find it in our catalog. Turns out that ALL the books that ChatGPT had recommended for their topic were non-existent. Just real authors and fake titles cobbled together. And apparently this is known behavior. 😮',
+ versiondate="2023-01-11",
+ versionurl="https://web.archive.org/web/20230108231530/https://blacktwitter.io/@bibliotecaria/109650353375080864",
+ anchor="Wanda Whitney",
+ post=", @bibliotecaria@blacktwitter.io, 7-Jan-2023") }}
 
 One of the Thursday Threads issues last month focused on [Chat-bots Powered by Artificial Intelligence](https://dltj.org/article/issue-93-ai-chat/). 
 This weekend I saw this fediverse post from Wanda Whitney; a patron was looking for a book recommended by ChatGPT. 
@@ -59,14 +57,12 @@ Let's get to it, librarians!
 
 ## AI generating news articles
 {: #ai-news-generator}
-{% include thursday-threads-quote.html
-blockquote='<img src="/wp-content/uploads/2023/2023-01-12-ai-image.png" alt="Text of tweet from @GaelBreton: Looks like @CNET (DR 92 tech site) just did their coming out about using AI content for SEO articles. It includes a screenshot of a Google search results page for &ldquo;This article was generated using automation technology and thoroughly edited and fact-checked by an editor on our editorial staff.&rdquo;">'
-href="https://twitter.com/GaelBreton/status/1613110185995771905"
-versionurl="https://web.archive.org/web/20230111135416/https://twitter.com/GaelBreton/status/1613110185995771905" 
-versiondate="2023-01-11" 
-anchor="Gael Breton"
-post=', Twitter, 11-Jan-2023'
-%}
+{{ thursday_threads_quote(href="https://twitter.com/GaelBreton/status/1613110185995771905",
+ blockquote='<img src="/wp-content/uploads/2023/2023-01-12-ai-image.png" alt="Text of tweet from @GaelBreton: Looks like @CNET (DR 92 tech site) just did their coming out about using AI content for SEO articles. It includes a screenshot of a Google search results page for &ldquo;This article was generated using automation technology and thoroughly edited and fact-checked by an editor on our editorial staff.&rdquo;">',
+ versiondate="2023-01-11",
+ versionurl="https://web.archive.org/web/20230111135416/https://twitter.com/GaelBreton/status/1613110185995771905",
+ anchor="Gael Breton",
+ post=", Twitter, 11-Jan-2023") }}
 
 Also in that Thursday Threads issue was mention of how AI can [change the nature of essay-writing](https://dltj.org/article/issue-93-ai-chat#ai-essays) and instructors can adapt to the change by making the assignment about editing rather than writing text. 
 Publishers are trying out just that thing. 
@@ -81,14 +77,12 @@ Back in 2015, {{ robustlink(href="https://www.theverge.com/2015/1/29/7939067/ap-
 
 ## Cryptocurrency miners in Texas forced to shut down due to electricity shortage
 {: #cryptocurrency-energy}
-{% include thursday-threads-quote.html
-blockquote='As Texas and much of the U.S. confronts the challenges of this winter storm, the bitcoin mining industry in Texas is playing a part in supporting the Texas grid during this challenging time by proactively curtailing power. Bitcoin miners in Texas and the Texas Blockchain Council are working with grid operators in Texas as they are closely monitoring the situation, and stand ready to contribute to the state&apos;s efforts to ensure reliability and keep families warm and safe during the extreme weather.'
-href="https://www.pr.com/press-release/875698"
-versionurl="https://web.archive.org/web/20230112022756/https://www.pr.com/press-release/875698" 
-versiondate="2023-01-11" 
-anchor="Texas Bitcoin Miners Curtail Power in Advance of Arctic Blast"
-post=',  Texas Blockchain Council press release, 23-Dec-2022'
-%}
+{{ thursday_threads_quote(href="https://www.pr.com/press-release/875698",
+ blockquote='As Texas and much of the U.S. confronts the challenges of this winter storm, the bitcoin mining industry in Texas is playing a part in supporting the Texas grid during this challenging time by proactively curtailing power. Bitcoin miners in Texas and the Texas Blockchain Council are working with grid operators in Texas as they are closely monitoring the situation, and stand ready to contribute to the state&apos;s efforts to ensure reliability and keep families warm and safe during the extreme weather.',
+ versiondate="2023-01-11",
+ versionurl="https://web.archive.org/web/20230112022756/https://www.pr.com/press-release/875698",
+ anchor="Texas Bitcoin Miners Curtail Power in Advance of Arctic Blast",
+ post=",  Texas Blockchain Council press release, 23-Dec-2022") }}
 
 A _Thursday Thread_ from a year ago was [cryptocurrency’s energy consumption](https://dltj.org/article/issue-80-cryptocurrency-mining-interlibrary-loan/#cryptocurrency-energy) and how cryptocurrency miners were heading for Texas after being forced out of China and Kosovo. 
 Now comes last month's press release from the Texas Blockchain Council on how they shed load as the grid struggled to keep up with heating demands. 
@@ -96,12 +90,11 @@ Still no word on why using energy for fraud-supporting busy-work calculations is
 
 ## Lament for a future that could have been: A Web presence for every library
 {: #wssl}
-{% include thursday-threads-quote.html
-blockquote='Late last year -- just about a week before ALA Midwinter -- came an announcement of a project by OCLC&apos;s Innovation Lab to offer an inexpensive website to every small library. At a price of about $5 per month, a library could have a basic desktop and mobile website. At about $40 per month, the library could have a simple inventory and circulation module. You can see what is possible at the Loremville, TN public library sample site and read more information about the project in <a href="https://dltj.org/article/a-web-presence-for-small-libraries/">my write-up of the public demonstration</a>.'
-href="https://dltj.org/article/thursday-threads-2011w2/#web_presence"
-anchor="A Web presence for every library"
-post=', Disruptive Library Technology Jester, 13-Jan-2011'
-%}
+{{ thursday_threads_quote(href="https://dltj.org/article/thursday-threads-2011w2/#web_presence",
+ blockquote='Late last year -- just about a week before ALA Midwinter -- came an announcement of a project by OCLC&apos;s Innovation Lab to offer an inexpensive website to every small library. At a price of about $5 per month, a library could have a basic desktop and mobile website. At about $40 per month, the library could have a simple inventory and circulation module. You can see what is possible at the Loremville, TN public library sample site and read more information about the project in <a href="https://dltj.org/article/a-web-presence-for-small-libraries/">my write-up of the public demonstration</a>.',
+ versiondate="",
+ anchor="A Web presence for every library",
+ post=", Disruptive Library Technology Jester, 13-Jan-2011") }}
 
 {{ image(float="right", width="317", localsrc="2011/01/Loremville-Public-Library_1294793741440.png", alt="Screenshot of Sample Library Website") }}
 

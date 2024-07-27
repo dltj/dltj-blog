@@ -32,23 +32,19 @@ Don't be a stranger—drop me a line if you find this interesting or come across
 
 ## OCLC versus Clarivate: In the Battle for Bibliographic Records, the Winner is ???
 {: #oclc-vs-clarivate}
-{% include thursday-threads-quote.html
-blockquote='Clarivate continues to deny OCLCs allegations of wrong-doing and maintains that the issue lay between OCLC and its customers, who sought to co-create an efficient community platform for sharing of bibliographic records. Clarivate will not develop a record exchange system of MARC records that include records which OCLC has claimed are subject to its policy and contractual limitations. Clarivate will bear its own fees and costs.'
-href="https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-and-OCLC-Settle-Lawsuit/default.aspx"
-versionurl="https://web.archive.org/20221112042848/https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-and-OCLC-Settle-Lawsuit/default.aspx" 
-versiondate="2022-11-12" 
-anchor="Clarivate and OCLC Settle Lawsuit"
-post=', Clarivate press release, 7-Nov-2022'
-%}
+{{ thursday_threads_quote(href="https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-and-OCLC-Settle-Lawsuit/default.aspx",
+ blockquote='Clarivate continues to deny OCLCs allegations of wrong-doing and maintains that the issue lay between OCLC and its customers, who sought to co-create an efficient community platform for sharing of bibliographic records. Clarivate will not develop a record exchange system of MARC records that include records which OCLC has claimed are subject to its policy and contractual limitations. Clarivate will bear its own fees and costs.',
+ versiondate="2022-11-12",
+ versionurl="https://web.archive.org/20221112042848/https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-and-OCLC-Settle-Lawsuit/default.aspx",
+ anchor="Clarivate and OCLC Settle Lawsuit",
+ post=", Clarivate press release, 7-Nov-2022") }}
 
-{% include thursday-threads-quote.html
-blockquote='<p>Though the settlement document itself is confidential, two significant elements include:</p><ul><li><strong>Clarivate, Ex Libris, and ProQuest have ceased the development and marketing of the MetaDoor MARC record exchange system</strong> developed using records that are subject to the WorldCat Rights and Responsibilities Policy.</li><li><strong>Clarivate, Ex Libris, and ProQuest will promptly and permanently delete all MetaDoor work product</strong> that incorporated or was based on records subject to the Policy.</li></ul><p>Pursuant to the confidential agreement and elements noted above, OCLC has filed a dismissal of the lawsuit.</p>'
-href="https://www.oclc.org/en/news/announcements/2022/oclc-clarivate-settle-lawsuit.html"
-versionurl="https://web.archive.org/web/20221112042003/https://www.oclc.org/en/news/announcements/2022/oclc-clarivate-settle-lawsuit.html" 
-versiondate="2022-11-12" 
-anchor="OCLC and Clarivate settle lawsuit"
-post=', OCLC press release, 7-Nov-2022'
-%}
+{{ thursday_threads_quote(href="https://www.oclc.org/en/news/announcements/2022/oclc-clarivate-settle-lawsuit.html",
+ blockquote='<p>Though the settlement document itself is confidential, two significant elements include:</p><ul><li><strong>Clarivate, Ex Libris, and ProQuest have ceased the development and marketing of the MetaDoor MARC record exchange system</strong> developed using records that are subject to the WorldCat Rights and Responsibilities Policy.</li><li><strong>Clarivate, Ex Libris, and ProQuest will promptly and permanently delete all MetaDoor work product</strong> that incorporated or was based on records subject to the Policy.</li></ul><p>Pursuant to the confidential agreement and elements noted above, OCLC has filed a dismissal of the lawsuit.</p>',
+ versiondate="2022-11-12",
+ versionurl="https://web.archive.org/web/20221112042003/https://www.oclc.org/en/news/announcements/2022/oclc-clarivate-settle-lawsuit.html",
+ anchor="OCLC and Clarivate settle lawsuit",
+ post=", OCLC press release, 7-Nov-2022") }}
 
 ...and with that, the case is closed. 
 And like 12 years ago, when the Skyriver lawsuit was dismissed in much the same way, there is little clarity about the nature of the bibliographic records that run our libraries. 
@@ -58,14 +54,12 @@ In that post, I go through the court transcripts from the pre-settlement hearing
 ## Moving On to Mastodon
 {: #mastodon}
 
-{% include thursday-threads-quote.html
-blockquote='As Twitter users fret over the direction that new owner Elon Musk is taking the company, masses of users have hopped over to Mastodon, an open source Twitter alternative.'
-href="https://techcrunch.com/2022/11/08/what-is-mastodon/"
-versionurl="https://web.archive.org/web/20221201022213/https://techcrunch.com/2022/11/08/what-is-mastodon/" 
-versiondate="2022-11-30" 
-anchor="A beginner’s guide to Mastodon, the open source Twitter alternative"
-post=', TechCrunch, 8-Nov-2022'
-%}
+{{ thursday_threads_quote(href="https://techcrunch.com/2022/11/08/what-is-mastodon/",
+ blockquote='As Twitter users fret over the direction that new owner Elon Musk is taking the company, masses of users have hopped over to Mastodon, an open source Twitter alternative.',
+ versiondate="2022-11-30",
+ versionurl="https://web.archive.org/web/20221201022213/https://techcrunch.com/2022/11/08/what-is-mastodon/",
+ anchor="A beginner’s guide to Mastodon, the open source Twitter alternative",
+ post=", TechCrunch, 8-Nov-2022") }}
 
 That is part of the lede paragraph of an article with instructions on starting afresh in a different "digital public square". 
 My Twitter experience has gotten notably worse over the past month; I'm at a point where I'm not finding enough value there to give Elon Musk's company any more of my attention. 

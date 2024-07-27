@@ -41,14 +41,12 @@ We don't talk enough about this private capture of the common good and the uncom
 
 ## OpenAI Introduces ChatGPT
 {: #chatgpt}
-{% include thursday-threads-quote.html
-blockquote='We&rsquo;ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests. ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.'
-href="https://openai.com/blog/chatgpt/"
-versionurl="https://web.archive.org/web/20221201104541/https://openai.com/blog/chatgpt/" 
-versiondate="2022-12-01" 
-anchor="ChatGPT: Optimizing Language Models for Dialogue"
-post=', OpenAI blog, 30-Nov-2022'
-%}
+{{ thursday_threads_quote(href="https://openai.com/blog/chatgpt/",
+ blockquote='We&rsquo;ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests. ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.',
+ versiondate="2022-12-01",
+ versionurl="https://web.archive.org/web/20221201104541/https://openai.com/blog/chatgpt/",
+ anchor="ChatGPT: Optimizing Language Models for Dialogue",
+ post=", OpenAI blog, 30-Nov-2022") }}
 
 This link is the announcement from the company that created ChatGPT, OpenAI. 
 The innovation with this model is the introduction of Reinforcement Learning from Human Feedback (RLHF). 
@@ -63,14 +61,12 @@ On Twitter, the CEO of OpenAI says it costs in the {{ robustlink(href="https://t
 ## A High School Teacher Laments a Tool for Easy Essays
 {: #ai-essays}
 
-{% include thursday-threads-quote.html
-blockquote='Teenagers have always found ways around doing the hard work of actual learning. CliffsNotes dates back to the 1950s, “No Fear Shakespeare” puts the playwright into modern English, YouTube offers literary analysis and historical explication from numerous amateurs and professionals, and so on. For as long as those shortcuts have existed, however, one big part of education has remained inescapable: writing. Barring outright plagiarism, students have always arrived at that moment when they’re on their own with a blank page, staring down a blinking cursor, the essay waiting to be written. Now that might be about to change. The arrival of OpenAI’s ChatGPT, a program that generates sophisticated text in response to any prompt you can imagine, may signal the end of writing assignments altogether—and maybe even the end of writing as a gatekeeper, a metric for intelligence, a teachable skill.'
-href="https://www.theatlantic.com/technology/archive/2022/12/openai-chatgpt-writing-high-school-english-essay/672412/"
-versionurl="https://web.archive.org/20221214000812/https://www.theatlantic.com/technology/archive/2022/12/openai-chatgpt-writing-high-school-english-essay/672412/"
-versiondate="2022-12-13T19:08:09"
-anchor="The End of High-School English"
-post=', Daniel Herman, The Atlantic, 9-Dec-2022'
-%}
+{{ thursday_threads_quote(href="https://www.theatlantic.com/technology/archive/2022/12/openai-chatgpt-writing-high-school-english-essay/672412/",
+ blockquote='Teenagers have always found ways around doing the hard work of actual learning. CliffsNotes dates back to the 1950s, “No Fear Shakespeare” puts the playwright into modern English, YouTube offers literary analysis and historical explication from numerous amateurs and professionals, and so on. For as long as those shortcuts have existed, however, one big part of education has remained inescapable: writing. Barring outright plagiarism, students have always arrived at that moment when they’re on their own with a blank page, staring down a blinking cursor, the essay waiting to be written. Now that might be about to change. The arrival of OpenAI’s ChatGPT, a program that generates sophisticated text in response to any prompt you can imagine, may signal the end of writing assignments altogether—and maybe even the end of writing as a gatekeeper, a metric for intelligence, a teachable skill.',
+ versiondate="2022-12-13T19:08:09",
+ versionurl="https://web.archive.org/20221214000812/https://www.theatlantic.com/technology/archive/2022/12/openai-chatgpt-writing-high-school-english-essay/672412/",
+ anchor="The End of High-School English",
+ post=", Daniel Herman, The Atlantic, 9-Dec-2022") }}
 
 A teacher of the humanities in high school tried out ChatGPT. 
 When he gave the chat program a writing prompt that he gave his own students, it returned a _better_ essay than what his own students turned in. 
@@ -88,14 +84,12 @@ The AI-generated essay may contain factual or structural errors (perhaps some in
 ## A Real-world Example
 {: #business-use}
 
-{% include thursday-threads-quote.html
-blockquote='Ben Whittle, a pool installer and landscaper in rural England, worried his dyslexia would mess up his emails to new clients. Then one of his clients had an idea: Why not let a chatbot do the talking? The client, a tech consultant named Danny Richman, had been playing around with an artificial intelligence tool called GPT-3 that can instantly write convincing passages of text on any topic by command. He hooked up the AI to Whittle’s email account. Now, when Whittle dashes off a message, the AI instantly reworks the grammar, deploys all the right niceties and transforms it into a response that is unfailingly professional and polite. Whittle now uses the AI for every work message he sends, and he credits it with helping his company, Ashridge Pools, land its first major contract, worth roughly $260,000. He has excitedly shown off his futuristic new colleague to his wife, his mother and his friends — but not to his clients, because he is not sure how they will react.'
-href="https://www.washingtonpost.com/technology/2022/12/10/chatgpt-ai-helps-written-communication/"
-versionurl="https://web.archive.org/web/20221213090720/https://www.washingtonpost.com/technology/2022/12/10/chatgpt-ai-helps-written-communication/"
-versiondate="2022-12-13T19:08:09"
-anchor="Stumbling with their words, some people let AI do the talking"
-post=', Washington Post, 10-Dec-2022'
-%}
+{{ thursday_threads_quote(href="https://www.washingtonpost.com/technology/2022/12/10/chatgpt-ai-helps-written-communication/",
+ blockquote='Ben Whittle, a pool installer and landscaper in rural England, worried his dyslexia would mess up his emails to new clients. Then one of his clients had an idea: Why not let a chatbot do the talking? The client, a tech consultant named Danny Richman, had been playing around with an artificial intelligence tool called GPT-3 that can instantly write convincing passages of text on any topic by command. He hooked up the AI to Whittle’s email account. Now, when Whittle dashes off a message, the AI instantly reworks the grammar, deploys all the right niceties and transforms it into a response that is unfailingly professional and polite. Whittle now uses the AI for every work message he sends, and he credits it with helping his company, Ashridge Pools, land its first major contract, worth roughly $260,000. He has excitedly shown off his futuristic new colleague to his wife, his mother and his friends — but not to his clients, because he is not sure how they will react.',
+ versiondate="2022-12-13T19:08:09",
+ versionurl="https://web.archive.org/web/20221213090720/https://www.washingtonpost.com/technology/2022/12/10/chatgpt-ai-helps-written-communication/",
+ anchor="Stumbling with their words, some people let AI do the talking",
+ post=", Washington Post, 10-Dec-2022") }}
 
 Getting beyond high school, these sorts of language models can help people communicate more clearly with new and existing clients. 
 Earlier I used the phrase "the language model without RLHF training" — that is GPT-3, the same language model used in the example in this article. 
@@ -109,14 +103,12 @@ It cost USD$0.05.
 
 ## Can't Paper Over Biased Training Data
 {: #builtin-bias}
-{% include thursday-threads-quote.html
-blockquote='The perils of trusting the expert in the machine, however, go far beyond whether AI-generated code is buggy or not. Just as any human programmer may bring their own prejudices to their work, a language-generating machine like ChatGPT harbors the countless biases found in the billions of texts it used to train its simulated grasp of language and thought. No one should mistake the imitation of human intelligence for the real thing, nor assume the text ChatGPT regurgitates on cue is objective or authoritative. Like us squishy humans, a generative AI is what it eats. And after gorging itself on an unfathomably vast training diet of text data, ChatGPT apparently ate a lot of crap. For instance, it appears ChatGPT has managed to absorb and is very happy to serve up some of the ugliest prejudices of the war on terror.'
-href="https://theintercept.com/2022/12/08/openai-chatgpt-ai-bias-ethics/"
-versionurl="https://web.archive.org/20221212230809/https://theintercept.com/2022/12/08/openai-chatgpt-ai-bias-ethics/"
-versiondate="2022-12-12T18:08:06"
-anchor="The Internet’s New Favorite AI Proposes Torturing Iranians and Surveilling Mosques"
-post=', The Intercept, 8-Dec-2022'
-%}
+{{ thursday_threads_quote(href="https://theintercept.com/2022/12/08/openai-chatgpt-ai-bias-ethics/",
+ blockquote='The perils of trusting the expert in the machine, however, go far beyond whether AI-generated code is buggy or not. Just as any human programmer may bring their own prejudices to their work, a language-generating machine like ChatGPT harbors the countless biases found in the billions of texts it used to train its simulated grasp of language and thought. No one should mistake the imitation of human intelligence for the real thing, nor assume the text ChatGPT regurgitates on cue is objective or authoritative. Like us squishy humans, a generative AI is what it eats. And after gorging itself on an unfathomably vast training diet of text data, ChatGPT apparently ate a lot of crap. For instance, it appears ChatGPT has managed to absorb and is very happy to serve up some of the ugliest prejudices of the war on terror.',
+ versiondate="2022-12-12T18:08:06",
+ versionurl="https://web.archive.org/20221212230809/https://theintercept.com/2022/12/08/openai-chatgpt-ai-bias-ethics/",
+ anchor="The Internet’s New Favorite AI Proposes Torturing Iranians and Surveilling Mosques",
+ post=", The Intercept, 8-Dec-2022") }}
 
 When public access to GPT-3 was unveiled last year, it didn't take long for {{ robustlink(href="https://www.vox.com/future-perfect/22672414/ai-artificial-intelligence-gpt-3-bias-muslim", versionurl="https://web.archive.org/web/20221215025730/https://www.vox.com/future-perfect/22672414/ai-artificial-intelligence-gpt-3-bias-muslim", versiondate="2022-12-14", title="AI’s Islamophobia problem:  GPT-3 is a smart and poetic AI. It also says terrible things about Muslims | Vox", anchor="people to call out the inherent bias in its responses") }}.
 OpenAI attempted to counteract that bias with the RLHF training, but the underlying bias is still there. 
@@ -125,14 +117,12 @@ Depending on how the question is asked, you get the same awful answers.
 
 ## The View from a Human Trainer
 {: #human-trainer}
-{% include thursday-threads-quote.html
-blockquote='Brenda [the name of the chat-bot AI prodct], the recruiter told me, was a sophisticated conversationalist, so fluent that most people who encountered her took her to be human. But like all conversational AIs, she had some shortcomings. She struggled with idioms and didn&rsquo;t fare well with questions beyond the scope of real estate. To compensate for these flaws, the company was recruiting a team of employees they called the operators. The operators kept vigil over Brenda 24 hours a day. When Brenda went off-script, an operator took over and emulated Brenda&rsquo;s voice. Ideally, the customer on the other end would not realise the conversation had changed hands, or that they had even been chatting with a bot in the first place. Because Brenda used machine learning to improve her responses, she would pick up on the operators&rsquo; language patterns and gradually adopt them as her own.'
-href="https://www.theguardian.com/technology/2022/dec/13/becoming-a-chatbot-my-life-as-a-real-estate-ais-human-backup"
-versionurl="https://web.archive.org/web/20221213164012/https://www.theguardian.com/technology/2022/dec/13/becoming-a-chatbot-my-life-as-a-real-estate-ais-human-backup"
-versiondate="2022-12-13T19:08:11"
-anchor="Becoming a chatbot: my life as a real estate AI’s human backup"
-post=', Laura Preston, The Guardian, 13-Dec-2022'
-%}
+{{ thursday_threads_quote(href="https://www.theguardian.com/technology/2022/dec/13/becoming-a-chatbot-my-life-as-a-real-estate-ais-human-backup",
+ blockquote='Brenda [the name of the chat-bot AI prodct], the recruiter told me, was a sophisticated conversationalist, so fluent that most people who encountered her took her to be human. But like all conversational AIs, she had some shortcomings. She struggled with idioms and didn&rsquo;t fare well with questions beyond the scope of real estate. To compensate for these flaws, the company was recruiting a team of employees they called the operators. The operators kept vigil over Brenda 24 hours a day. When Brenda went off-script, an operator took over and emulated Brenda&rsquo;s voice. Ideally, the customer on the other end would not realise the conversation had changed hands, or that they had even been chatting with a bot in the first place. Because Brenda used machine learning to improve her responses, she would pick up on the operators&rsquo; language patterns and gradually adopt them as her own.',
+ versiondate="2022-12-13T19:08:11",
+ versionurl="https://web.archive.org/web/20221213164012/https://www.theguardian.com/technology/2022/dec/13/becoming-a-chatbot-my-life-as-a-real-estate-ais-human-backup",
+ anchor="Becoming a chatbot: my life as a real estate AI’s human backup",
+ post=", Laura Preston, The Guardian, 13-Dec-2022") }}
 
 What is it like to be someone training the chat-bot AI? 
 It sounds like a mind-numbing, high-pressure experience. 

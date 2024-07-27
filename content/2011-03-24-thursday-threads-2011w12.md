@@ -69,15 +69,11 @@ comments:
 
 ## Settlement Rejected in the Google Books Search case
 {: #p2747-gbs}
-{% include thursday-threads-quote.html
-blockquote='In the end, I conclude that the ASA [Amended Settlement Agreement] is not fair, adequate, and reasonable. As the United States [Department of Justice] and other objectors have noted, may of the concerns raised in the objections would be ameliorated if the ASA were converted from an "opt-out" settlement to an "opt-in" settlement. I urge the parties to consider revising the ASA accordingly. The motion for final approval of the ASA is denied, without prejudice to renewal in the event the parties negotiate a revised settlement agreement. The motion for an award of attorneys&#039; fees and costs is denied, without prejudice. The Court will hold a status conference on 4/25/2011, at 4:30 p.m. in Courtroom 11A of the Daniel Patrick Moynihan Courthouse.'
-pre=''
-href='https://docs.justia.com/cases/federal/district-courts/new-york/nysdce/1:2005cv08136/273913/971/'
-versiondate='20110324'
-versionurl=''
-title='Court Opinion | The Authors guild et al v. Google Inc. | Justia Docs'
-anchor='Judge Denny Chin in The Authors Guild <i>et. al.</i> v. Google'
-post='' %}
+{{ thursday_threads_quote(href="https://docs.justia.com/cases/federal/district-courts/new-york/nysdce/1:2005cv08136/273913/971/",
+ blockquote='In the end, I conclude that the ASA [Amended Settlement Agreement] is not fair, adequate, and reasonable. As the United States [Department of Justice] and other objectors have noted, may of the concerns raised in the objections would be ameliorated if the ASA were converted from an "opt-out" settlement to an "opt-in" settlement. I urge the parties to consider revising the ASA accordingly. The motion for final approval of the ASA is denied, without prejudice to renewal in the event the parties negotiate a revised settlement agreement. The motion for an award of attorneys&#039; fees and costs is denied, without prejudice. The Court will hold a status conference on 4/25/2011, at 4:30 p.m. in Courtroom 11A of the Daniel Patrick Moynihan Courthouse.',
+ versiondate="2011-03-24",
+ title="Court Opinion | The Authors guild et al v. Google Inc. | Justia Docs",
+ anchor="Judge Denny Chin in The Authors Guild <i>et. al.</i> v. Google",) }}
 
 Thirteen months after the last formal hearing, Judge Denny Chin issued the <a href="https://docs.justia.com/cases/federal/district-courts/new-york/nysdce/1:2005cv08136/273913/971/" title="Court Opinion | The Authors guild et al v. Google Inc. | Justia Docs">opinion</a> of the New York Southern District Court: rejection of the settlement agreement between Google and a large class of authors and publishers.  The path forward is not yet clear, but there seem to be three possibilities: 1) the parties file another amended agreement that effectively ignores orphan works (copyright holds would have to opt-into the settlement); 2) the parties appeal the rejection decision; or 3) the parties move back to litigating the original 2005 case (as <a href="https://docs.justia.com/cases/federal/district-courts/new-york/nysdce/1:2005cv08136/273913/59/" title="SECOND AMENDED COMPLAINT amending 36 Amended Complaint, against Google Inc. | Justia Docs">amended in 2008</a>).  The first path -- filling another amended settlement agreement -- seems to be the most likely at the moment.  In their response to the court's ruling, the {{ robustlink(href="http://web.archive.org/web/20110324000000/http://www.publishers.org/press/29/", original="http://www.publishers.org/press/29/", versiondate="2011-03-24", title="Google Books Settlement Statement | Association of American Publishers", anchor="Association of American Publishers said") }}, "[the court decision] provides clear guidance to all parties as to what modifications are necessary for its approval. The publisher plaintiffs are prepared to enter into a narrower Settlement along those lines to take advantage of its groundbreaking opportunities. We hope the other parties will do so as well." {{ robustlink(href="https://www.authorsguild.org/industry-advocacy/scott-turow-on-google-ruling/", versiondate="2011-03-24", title="Scott Turow on Google Ruling | The Authors Guild", anchor="Authors Guild President Scott Turow said") }}</a>, "we'll be studying Judge Chin's decision and plan on talking to the publishers and Google with the hope that we can arrive at a settlement within the court&rsquo;s parameters that makes sense for all parties.&rdquo;  Google was pretty non-committal:  "This is clearly disappointing, but we&rsquo;ll review the court&rsquo;s decision and consider our options."
 
@@ -94,15 +90,12 @@ James Grimmelmann continues to be a {{ robustlink(href="https://web.archive.org/
 
 ## Cornell University Library&rsquo;s Position on Nondisclosure Clauses in Licenses
 {: #p2747-nda}
-{% include thursday-threads-quote.html
-blockquote='To promote openness and fairness among libraries licensing scholarly resources, Cornell University Library will not enter into vendor contracts that require nondisclosure of pricing information or other information that does not constitute a trade secret. All new and renewed licenses submitted with nondisclosure clauses will not be signed but henceforth will be referred to the Associate University Librarian for Scholarly Resources and Special Collections for further negotiation.'
-pre=''
-href='https://www.library.cornell.edu/about/policies/nondisclosure'
-versiondate='2011-03-24'
-versionurl='https://web.archive.org/web/20110325004858/http://www.library.cornell.edu/aboutus/nondisclosure'
-title='Nondisclosure Clauses | Cornell University Library'
-anchor='Cornell University Libraries Website'
-%}
+{{ thursday_threads_quote(href="https://www.library.cornell.edu/about/policies/nondisclosure",
+ blockquote='To promote openness and fairness among libraries licensing scholarly resources, Cornell University Library will not enter into vendor contracts that require nondisclosure of pricing information or other information that does not constitute a trade secret. All new and renewed licenses submitted with nondisclosure clauses will not be signed but henceforth will be referred to the Associate University Librarian for Scholarly Resources and Special Collections for further negotiation.',
+ versiondate="2011-03-24",
+ versionurl="https://web.archive.org/web/20110325004858/http://www.library.cornell.edu/aboutus/nondisclosure",
+ title="Nondisclosure Clauses | Cornell University Library",
+ anchor="Cornell University Libraries Website",) }}
 
 Cornell's decision mirrors a {{ robustlink(href="https://web.archive.org/web/20110602122619/http://www.arl.org/news/pr/nondisclosure-5june09~print.shtml", original="http://www.arl.org/news/pr/nondisclosure-5june09~print.shtml", originaldate="2011-03-24", title="ARL Encourages Members to Refrain from Signing Nondisclosure or Confidentiality Clauses", anchor="resolution adopted by the Association of Research Libraries in 2009") }} and a {{ robustlink(href="https://web.archive.org/web/20120729045448/http://icolc.net/statement/statement-current-perspective-and-preferred-practices-selection-and-purchase-electronic", original="http://icolc.net/statement/statement-current-perspective-and-preferred-practices-selection-and-purchase-electronic", originaldate="2021-03-24", title="Statement of Current Perspective and Preferred Practices for Selection and Purchase of Electronic Information | ICOLC", anchor="statement by the International Coalition of Library Consortia in 2004") }}.  A more complete analysis of Cornell's efforts is in the {{ robustlink(href="http://chronicle.com/article/Cornell-U-Library-Takes-a/126852/", versionurl="https://web.archive.org/web/20110325055844/http://chronicle.com/article/Cornell-U-Library-Takes-a/126852/", versiondate="2021-03-24", title="Cornell U. Library Takes a Stand With Journal Vendors: Prices Will Be Made Public | The Chronicle of Higher Education", anchor="Chronicle of Higher Education") }} (behind the Chronicle's paywall) and {{ robustlink(href="http://www.libraryjournal.com/lj/home/889820-264/cornell_university_library_takes_stand.html.csp", versiondate="2021-03-24", title="Cornell University Library Takes Stand Against Non-Disclosure Agreements | Library Journal", anchor="Library Journal") }}.
 
@@ -110,14 +103,11 @@ Cornell's decision mirrors a {{ robustlink(href="https://web.archive.org/web/201
 {: #p2747-rosling}
 <div class="alignright"><object width="446" height="326"><param name="movie" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf"/><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always"/><param name="wmode" value="transparent"/><param name="bgColor" value="#ffffff"/><param name="flashvars" value="vu=http://video.ted.com/talks/dynamic/HansRosling_2010W-medium.flv&su=http://images.ted.com/images/ted/tedindex/embed-posters/HansRosling-2010W.embed_thumbnail.jpg&vw=432&vh=240&ap=0&ti=1101&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=hans_rosling_and_the_magic_washing_machine;year=2010;theme=numbers_at_play;theme=celebrating_tedwomen;theme=unconventional_explanations;theme=new_on_ted_com;event=TEDWomen;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;" /><embed src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" pluginspace="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" bgColor="#ffffff" width="446" height="326" allowFullScreen="true" allowScriptAccess="always" flashvars="vu=http://video.ted.com/talks/dynamic/HansRosling_2010W-medium.flv&su=http://images.ted.com/images/ted/tedindex/embed-posters/HansRosling-2010W.embed_thumbnail.jpg&vw=432&vh=240&ap=0&ti=1101&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=hans_rosling_and_the_magic_washing_machine;year=2010;theme=numbers_at_play;theme=celebrating_tedwomen;theme=unconventional_explanations;theme=new_on_ted_com;event=TEDWomen;"/></object></div>
 
-{% include thursday-threads-quote.html
-blockquote='What was the greatest invention of the industrial revolution? Hans Rosling makes the case for the washing machine. With newly designed graphics from Gapminder, Rosling shows us the magic that pops up when economic growth and electricity turn a boring wash day into an intellectual day of reading.'
-pre=''
-href='http://www.ted.com/talks/hans_rosling_and_the_magic_washing_machine.html'
-versiondate='2011-03-24'
-versionurl='https://web.archive.org/web/20110324004207/http://www.ted.com/talks/hans_rosling_and_the_magic_washing_machine.html'
-title='Hans Rosling and the magic washing machine | Video on TED.com'
-anchor='Description of Hans Rosling&039;s December 2010 TEDWomen talk'
-post='' %}
+{{ thursday_threads_quote(href="http://www.ted.com/talks/hans_rosling_and_the_magic_washing_machine.html",
+ blockquote='What was the greatest invention of the industrial revolution? Hans Rosling makes the case for the washing machine. With newly designed graphics from Gapminder, Rosling shows us the magic that pops up when economic growth and electricity turn a boring wash day into an intellectual day of reading.',
+ versiondate="2011-03-24",
+ versionurl="https://web.archive.org/web/20110324004207/http://www.ted.com/talks/hans_rosling_and_the_magic_washing_machine.html",
+ title="Hans Rosling and the magic washing machine | Video on TED.com",
+ anchor="Description of Hans Rosling&039;s December 2010 TEDWomen talk",) }}
 
 {{ robustlink(href="https://www.ted.com/speakers/hans_rosling", versiondate="2011-03-24", title="Hans Rosling | Profile on TED.com", anchor="Hans Rosling") }} makes another stunning and insightful 10-minute presentation using key statistics about population growth and energy usage.  In this one he makes a link between the use of machines to replace manual labor and the advancement of literacy with the saved time. [Discovered in an {{ robustlink(href="http://www.npr.org/blogs/money/2011/03/21/134736454/the-washing-machine-miracle", versiondate="2011-03-24", title="The Washing Machine Miracle | NPR Planet Money", anchor="NPR Planet Money blog entry") }}.]

@@ -22,14 +22,12 @@ The threads this week:
 
 ## Ukraine Libraries Doing What Libraries Do
 {: #ukraine-libraries}
-{% include thursday-threads-quote.html
-blockquote='"Refugee reception points, hostels and logistics points are organized here," [Oksana Brui, president of the Ukrainian Library Association] said. "Camouflage nets for the military are also woven here. Home care courses are held here. Books are collected here to be transferred to libraries in neighboring countries that receive Ukrainian refugees."'
-href="https://www.npr.org/2022/03/09/1085220209/ukraine-libraries-bomb-shelters"
-versionurl="https://web.archive.org/20220317001736/https://www.npr.org/2022/03/09/1085220209/ukraine-libraries-bomb-shelters"
-versiondate="2022-03-17 00:16:08+00:00"
-anchor="Ukraine's libraries are offering bomb shelters and camouflage classes"
-post=', NPR, 9-Mar-2022'
-%}
+{{ thursday_threads_quote(href="https://www.npr.org/2022/03/09/1085220209/ukraine-libraries-bomb-shelters",
+ blockquote='"Refugee reception points, hostels and logistics points are organized here," [Oksana Brui, president of the Ukrainian Library Association] said. "Camouflage nets for the military are also woven here. Home care courses are held here. Books are collected here to be transferred to libraries in neighboring countries that receive Ukrainian refugees."',
+ versiondate="2022-03-17 00:16:08+00:00",
+ versionurl="https://web.archive.org/20220317001736/https://www.npr.org/2022/03/09/1085220209/ukraine-libraries-bomb-shelters",
+ anchor="Ukraine's libraries are offering bomb shelters and camouflage classes",
+ post=", NPR, 9-Mar-2022") }}
 
 I'm not surprised. 
 I presume the libraries mentioned in the NPR article are "public libraries," but they could be libraries of any type. 
@@ -38,14 +36,12 @@ The NPR story also mentions Nicholas Poole's "we will reschedule just as soon as
 
 ## Can the Internet Sanction a Country? Should It?
 {: #internet-sanctions}
-{% include thursday-threads-quote.html
-blockquote='The invasion of Ukraine poses a new challenge for multistakeholder Internet infrastructure governance. In this statement, we discuss possible sanctions and their ramifications, lay out principles that we believe should guide Internet sanctions, and propose a multistakeholder governance mechanism to facilitate decision-making and implementation.'
-href="https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf"
-versionurl="https://web.archive.org/20220311010844/https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf"
-versiondate="2022-03-11 00:22:56+00:00"
-anchor="Multistakeholder Imposition of Internet Sanctions"
-post=' [PDF], Packet Clearing House, 10-Mar-2022'
-%}
+{{ thursday_threads_quote(href="https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf",
+ blockquote='The invasion of Ukraine poses a new challenge for multistakeholder Internet infrastructure governance. In this statement, we discuss possible sanctions and their ramifications, lay out principles that we believe should guide Internet sanctions, and propose a multistakeholder governance mechanism to facilitate decision-making and implementation.',
+ versiondate="2022-03-11 00:22:56+00:00",
+ versionurl="https://web.archive.org/20220311010844/https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf",
+ anchor="Multistakeholder Imposition of Internet Sanctions",
+ post=" [PDF], Packet Clearing House, 10-Mar-2022") }}
 
 Last week, {{ robustlink(href="https://arstechnica.com/tech-policy/2022/03/ukraine-wants-russia-cut-off-from-core-internet-systems-experts-say-its-a-bad-idea/", versionurl="https://web.archive.org/web/20220310120301/https://arstechnica.com/tech-policy/2022/03/ukraine-wants-russia-cut-off-from-core-internet-systems-experts-say-its-a-bad-idea/", versiondate="2022-03-10", title="Ukraine asks ICANN to revoke Russian domains and shut down DNS root servers | Ars Technica", anchor="Ukraine's Ministry of Digital Transformation called on internet bodies to sanction Russia") }} over its government's war on Ukraine. 
 This would include revoking Russia's top-level country domains (e.g. ".ru"), canceling SSL certificates associated with Russian sites, disabling the root DNS servers, and withdrawing the right for Russian internet service providers to use the IP addresses that have been assigned to the country. 
