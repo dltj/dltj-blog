@@ -29,7 +29,7 @@ comments: []
 I've been working to get JBoss Seam tied into [Fedora](http://www.fedora.info/), and along the way thought it would be wise to stop and document a core concept of this integration: the centrality of [Fedora Disseminators](http://www.fedora.info/download/2.2/userdocs/digitalobjects/objectModel.html#DISS) in the the design of the [Ohio Digital Resource Commons](http://info.drc.ohiolink.edu/). Although there is nothing specific to [JBoss Seam (a Java Enterprise Edition application framework)](http://www.jboss.com/products/seam) in these concepts, making an object "render itself" does make the Seam-based interface application easier to code and understand. A disseminator-centric architecture also allows us to put our code investment where it matters the most — in the repository framework — and exploit that investment in many places. So what does it mean to have a disseminator-centric architecture and have objects "render themselves"?
 
 ## How It Works
-{% include figure image_path="/wp-content/uploads/2007/04/sequence.png" caption="Sequence Diagram" %}{: .align-right}
+{{ image(float="right" localsrc="/wp-content/uploads/2007/04/sequence.png", caption="Sequence Diagram") }}
 
 This is a sequence diagram showing all of the pieces:
 
@@ -117,15 +117,15 @@ In addition to the Seam-based interface application and the disseminator code, t
 
 Using the Fedora Admin client, under the "Builders" menu, select "Behavior Definition Builder". The first pane, "General" parameters, use a specific PID of '`demo:bDefExample`' and put something in for the Behavior Object Name, Behavior Object Description, and one of the Dublin Core Metadata fields. (It doesn't matter what you put in for these values.)
 
-{% include figure image_path="/wp-content/uploads/2007/04/bdbgeneral.png" caption="Fedora Admin Behavior Definition Builder &ldquo;General&rdquo; pane" alt="Fedora Admin Behavior Definition Builder &ldquo;General&rdquo; pane" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/bdbgeneral.png", caption="Fedora Admin Behavior Definition Builder &ldquo;General&rdquo; pane", alt="Fedora Admin Behavior Definition Builder &ldquo;General&rdquo; pane") }}
 
 Under the "Abstract Methods" pane, create new definitions for each of the disseminator methods
 
-{% include figure image_path="/wp-content/uploads/2007/04/bdbabstractmethods.png" caption="Fedora Admin Behavior Definition Builder &ldquo;Abstract Methods&rdquo; pane" alt="Fedora Admin Behavior Definition Builder &ldquo;Abstract Methods&rdquo; pane" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/bdbabstractmethods.png", caption="Fedora Admin Behavior Definition Builder &ldquo;Abstract Methods&rdquo; pane", alt="Fedora Admin Behavior Definition Builder &ldquo;Abstract Methods&rdquo; pane") }}
 
 Under the "Documentation" pane, put something in the first entry.  Again, it doesn't matter what is put in for these values, but they are required.
 
-{% include figure image_path="/wp-content/uploads/2007/04/bdbdocumentation.png" caption="Fedora Admin Behavior Definition Builder &ldquo;Documentation&rdquo; pane" alt="Fedora Admin Behavior Definition Builder &ldquo;Documentation&rdquo; pane" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/bdbdocumentation.png", caption="Fedora Admin Behavior Definition Builder &ldquo;Documentation&rdquo; pane", alt="Fedora Admin Behavior Definition Builder &ldquo;Documentation&rdquo; pane") }}
 
 Select "Ingest" at the bottom of the window, and the `demo:bDefExample` bDef will be created. Alternatively, you could import the `demo:bDefExample` saved in the DRC source code repository (choose "original format" at the bottom of that page).
 
@@ -133,30 +133,30 @@ Select "Ingest" at the bottom of the window, and the `demo:bDefExample` bDef w
 
 The bMech is a little more complicated. Under the "Builders" menu, select "Behavior Mechanism Builder". The first pane, "General" parameters, use a specific PID of '`demo:bMechExample`' and put something in for the Behavior Object Name, Behavior Object Description, and one of the Dublin Core Metadata fields. (It doesn't matter what you put in for these values.) In the "Behavior Definition Contract" pick the bDef just created (`demo:bDefExample`).
 
-{% include figure image_path="/wp-content/uploads/2007/04/bmbgeneral.png" caption="Fedora Admin Behavior Mechanism Builder &ldquo;General&rdquo; pane" alt="Fedora Admin Behavior Mechanism Builder &ldquo;General&rdquo; pane" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/bmbgeneral.png", caption="Fedora Admin Behavior Mechanism Builder &ldquo;General&rdquo; pane", alt="Fedora Admin Behavior Mechanism Builder &ldquo;General&rdquo; pane") }}
 
 In the "Service Profile" pane, put in values in the "General" area (it doesn't matter what). In the Service Binding area, make sure the Message Protocol is HTTP GET, put in text/html, text/xml for Input MIME Types and put in text/html, text/xml, text/plain for Output MIME Types.
 
-{% include figure image_path="/wp-content/uploads/2007/04/bmbserviceprofile.png" caption="Fedora Admin Behavior Mechanism Builder &ldquo;Service Profile&rdquo; pane" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Profile&rdquo; pane" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/bmbserviceprofile.png", caption="Fedora Admin Behavior Mechanism Builder &ldquo;Service Profile&rdquo; pane", alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Profile&rdquo; pane") }}
 
 Under the Service Methods pane, put in `http://localhost:8080/BaseDisseminator` for the Base URL.  (The disseminator is also loaded in the same servlet as the Fedora repository and the Seam interface application, and it is loaded at the "/BaseDisseminator" context path in the servlet.)  Create Service Method Definitions that correspond to the Abstract Methods in the bDef.
 
-{% include figure image_path="/wp-content/uploads/2007/04/bmbservicemethods.png" caption="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; pane" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; pane" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/bmbservicemethods.png", caption="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; pane", alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; pane") }}
 
 Select "Properties" for each one of the Service Method Definitions in turn.  "echo" is a unique disseminator method that simply echos back the context parameters of the disseminator request.  This is useful for seeing exactly what the Fedora server is going to give to the disseminator.
 
-{% include figure image_path="/wp-content/uploads/2007/04/bmbservicemethods-echo.png" caption="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;echo&rdquo; Method" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;echo&rdquo; Method"  %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/bmbservicemethods-echo.png", caption="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;echo&rdquo; Method", alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;echo&rdquo; Method") }}
 
 With the exception of "echo" all of the other Service Method Definitions are the same.  The Method Binding consists of the disseminator method followed by a slash and the PID placeholder followed by a question mark and 'dc' equals the DC placeholder.  Since the Method Binding field has two placeholders, there are two entries in the Method Parameter Definitions area.  The first is for PID &mdash; a "Default" parameter that is required and passed by value to the disseminator.  The default value is the special value `$PID`, which the repository software will replace with the PID of the object as the disseminator is called.  The second is for DC, a "Datastream" parameter that is required and passed to the disseminator by URL reference.  The disseminator doesn't actually use this reference to a datastream, but it is a requirement that all bMechs pass a datastream of one sort or another to the disseminator.
 
-{% include figure image_path="/wp-content/uploads/2007/04/bmbservicemethods-getfulldisplay.png" caption="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;getFullDisplay&rdquo; Method" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;getFullDisplay&rdquo; Method" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/bmbservicemethods-getfulldisplay.png", caption="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;getFullDisplay&rdquo; Method", alt="Fedora Admin Behavior Mechanism Builder &ldquo;Service Methods&rdquo; Definitions for &ldquo;getFullDisplay&rdquo; Method") }}
 
 If you have followed all of the steps so far, under the "Datastream Input" pane there will be one entry for DC in the table.  The only thing that needs to be done here is adding "text/xml" in the MIMEType column.
 
-{% include figure image_path="/wp-content/uploads/2007/04/bmbdatastreaminput.png" caption="Fedora Admin Behavior Mechanism Builder &ldquo;Datastream Input&rdquo; pane" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Datastream Input&rdquo; pane" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/bmbdatastreaminput.png", caption="Fedora Admin Behavior Mechanism Builder &ldquo;Datastream Input&rdquo; pane", alt="Fedora Admin Behavior Mechanism Builder &ldquo;Datastream Input&rdquo; pane") }}
 
 Under the "Documentation" pane, put something in the first entry.  Again, it doesn't matter what is put in for these values, but they are required.
-{% include figure image_path="/wp-content/uploads/2007/04/bmbdocumentation.png" caption="Fedora Admin Behavior Mechanism Builder &ldquo;Documentation&rdquo; pane" alt="Fedora Admin Behavior Mechanism Builder &ldquo;Documentation&rdquo; pane" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/bmbdocumentation.png", caption="Fedora Admin Behavior Mechanism Builder &ldquo;Documentation&rdquo; pane", alt="Fedora Admin Behavior Mechanism Builder &ldquo;Documentation&rdquo; pane") }}
   
 Select "Ingest" at the bottom of the window, and the `demo:bMechExample`bMech will be created. Alternatively, you could import the `demo:bMechExample` saved in the DRC source code repository (choose "original format" at the bottom of that page).
 
@@ -164,11 +164,11 @@ Select "Ingest" at the bottom of the window, and the `demo:bMechExample`bMech w
 
 The last step is to add this disseminator bDef/bMech combination to an object. Edit any object in the repository and go to the "Disseminators" pane. If there are other disseminators already defined for this object, select "New" along the left side. Put in a label — any label will do. Next to "Behavior defined by..." select `demo:bDefExample`. Then next to "Mechanism" select `demo:bMechExample`. The admin client will prompt for a DC binding; select "Add" and choose the DC datastream in the pop-up window.
 
-{% include figure image_path="/wp-content/uploads/2007/04/objectdisseminatorsdatastream.png" caption="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane in progress" alt="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane in progress" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/objectdisseminatorsdatastream.png", caption="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane in progress", alt="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane in progress") }}
 
 Select "Save Changes" at the bottom.  The completed disseminator looks like this:
 
-{% include figure image_path="/wp-content/uploads/2007/04/objectdisseminators.png" caption="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane completed" alt="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane completed" %}{: .align-center}
+{{ image(float="center" localsrc="/wp-content/uploads/2007/04/objectdisseminators.png", caption="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane completed", alt="Fedora Admin Sample Object&rsquo;s &ldquo;Disseminators&rdquo; pane completed") }}
 
 There is a sample object in the DRC source code repository that has the disseminator already defined.
 
