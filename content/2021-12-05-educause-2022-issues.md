@@ -13,7 +13,7 @@ tags:
   - trends
 ---
 
-Last month, EDUCAUSE published its {% include robustlink.html href="https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve" versionurl="https://web.archive.org/20211127031010/https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve" versiondate="2021-11-12" anchor="Top 10 IT Issues for 2022" %} with the subtitle "The Higher Education We Deserve".
+Last month, EDUCAUSE published its {{ robustlink(href="https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve", versionurl="e", versiondate="2021-11-12", anchor="Top 10 IT Issues for 2022") }} with the subtitle "The Higher Education We Deserve".
 To reach the top 10, EDUCAUSE members were asked to prioritize 17 issues identified by the EDUCAUSE IT Issues Panel members.
 The members of the Issue Panel then broke up into groups to write essays on the 10 topics.
 This report starts with a 1,500-word summary of the common themes in the pieces, followed by the essays themselves.

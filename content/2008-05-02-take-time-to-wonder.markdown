@@ -44,7 +44,7 @@ comments:
   date: '2008-05-03 20:03:44 -0400'
   date_gmt: '2008-05-04 00:03:44 -0400'
   content: Your instincts are correct, Karen.  A personal post like this is definitely
-    out of character for me and <acronym title=""Disruptive Library Technology Jester"><i>DLTJ</i></acronym>.  I
+    out of character for me and <acronymDisruptive Library Technology Jester"><i>DLTJ</i></acronym>.  I
     was moved by the previous contributions, though (isn't that part of the point
     of a good meme?) -- moved enough to overcome inhibitions of family privacy desires.  Besides,
     it is one of my most favorite pictures of my daughter, and I couldn't help but

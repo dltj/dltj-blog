@@ -150,7 +150,7 @@ comments:
 <th>Relevant Course(s)</th>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/2146">Exploring Business</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/2146">Exploring Business</a></td>
 <td valign="top">Collins, Karen</td>
 <td valign="top">Feb-09</td>
 <td valign="top">Introduction to Business</td>
@@ -162,61 +162,61 @@ comments:
 <td valign="top">Federal Taxation; Federal and State Taxation</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/1630">Introduction to Economic Analysis</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/1630">Introduction to Economic Analysis</a></td>
 <td valign="top">McAfee, R. Preston; Lewis, Tracy R.</td>
 <td valign="top">Mar-09</td>
 <td valign="top">Intermediate Microeconomics, Managerial Economics</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/1625">Organizational Behavior</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/1625">Organizational Behavior</a></td>
 <td valign="top">Bauer, Talya; Erdogan, Berrin</td>
 <td valign="top">Mar-09</td>
 <td valign="top">Organizational Behavior</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/3312">Principles of Management</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/3312">Principles of Management</a></td>
 <td valign="top">Carpenter, Mason; Bauer, Talya; Erdogan, Berrin</td>
 <td valign="top">Mar-09</td>
 <td valign="top">Principles of Management</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/2145">Launch! Advertising and Promotion in Real Time</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/2145">Launch! Advertising and Promotion in Real Time</a></td>
 <td valign="top">Solomon, Michael; Duke Cornell, Lisa; Nizan, Amit</td>
 <td valign="top">Mar-09</td>
 <td valign="top">Advertising and Promotion</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/1629">Principles of Macroeconomics</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/1629">Principles of Macroeconomics</a></td>
 <td valign="top">Rittenberg, Libby; Tregarthen, Timothy</td>
 <td valign="top">Apr-09</td>
 <td valign="top">Principles of Macroeconomics</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/1634">Money and Banking</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/1634">Money and Banking</a></td>
 <td valign="top">Wright, Robert E.; Quadrini, Vincenzo</td>
 <td valign="top">Apr-09</td>
 <td valign="top">Financial Markets and Institutions, Money and Banking</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/2147">Principles of Microeconomics</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/2147">Principles of Microeconomics</a></td>
 <td valign="top">Rittenberg, Libby; Tregarthen, Timothy</td>
 <td valign="top">Apr-09</td>
 <td valign="top">Principles of Microeconomics</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/1635">Risk Management for Enterprises and Individuals</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/1635">Risk Management for Enterprises and Individuals</a></td>
 <td valign="top">Baranoff, Etti; Brockett, Patrick Lee; Kahane, Yehuda</td>
 <td valign="top">Apr-09</td>
 <td valign="top">Insurance, Risk Management</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/1632">Atlas Black: Managing to Succeed</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/1632">Atlas Black: Managing to Succeed</a></td>
 <td valign="top">Short, Jeremy; Bauer, Talya; Ketchen, Dave; Simon, Len</td>
 <td valign="top">Apr-09</td>
 <td valign="top">Organizational Behavior, Principles of Management</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/1628">Principles of Economics</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/1628">Principles of Economics</a></td>
 <td valign="top">Rittenberg, Libby; Tregarthen, Ti</td>
 <td valign="top">May-09</td>
 <td valign="top">Principles of Economics</td>
@@ -228,7 +228,7 @@ comments:
 <td valign="top">Financial Accounting</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/1588">Basics of Oral Business Communication</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/1588">Basics of Oral Business Communication</a></td>
 <td valign="top">McLean, Scott</td>
 <td valign="top">Oct-09</td>
 <td valign="top">Oral Business Communication</td>
@@ -252,13 +252,13 @@ comments:
 <td valign="top">Principles of Marketing</td>
 </tr>
 <tr>
-<td valign="top"><a title="" href="http://web.archive.org/web/20090327141711/http://www.flatworldknowledge.com/printed-book/1639">Creative Destruction: The Economics of E-Commerce and the Internet</a></td>
+<td valign="top"><a href="http://web.archive.org/web/20090327141711/http://www.flatworldknowledge.com/printed-book/1639">Creative Destruction: The Economics of E-Commerce and the Internet</a></td>
 <td valign="top">Koch, James</td>
 <td valign="top">Feb-10</td>
 <td valign="top">Electronic Commerce</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/4600">Personal Finance</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/4600">Personal Finance</a></td>
 <td valign="top">Siegel, Rachel</td>
 <td valign="top">Feb-10</td>
 <td valign="top">Personal Finance</td>
@@ -270,7 +270,7 @@ comments:
 <td valign="top">Project Management</td>
 </tr>
 <tr>
-<td valign="top"><a title=""   href="http://www.flatworldknowledge.com/printed-book/1637">Sustainability, Innovation, and Entrepreneurship</a></td>
+<td valign="top"><a   href="http://www.flatworldknowledge.com/printed-book/1637">Sustainability, Innovation, and Entrepreneurship</a></td>
 <td valign="top">Larson, Andrea</td>
 <td valign="top">Feb-10</td>
 <td valign="top">Entrepreneurship, Sustainability</td>

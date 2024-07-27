@@ -69,8 +69,8 @@ This is an area where standards, and in particular extensions to existing standa
 Notably, the working group is starting from the assumption that CDILL is legally sound; from that assumption, what would be required to make the workflow as smooth as possible for patrons and library staff?
 The working group has 24 months of activities to answer that question, and I'll report more on <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> as that work comes to its conclusions.
 
-Related to the first quote above from the Boston Library Consortium, there is new development happening with the open source {% include robustlink.html href="https://projectreshare.org/" versiondate="2022-01-19" title="Project ReShare homepage" anchor="Project ReShare" %} to develop a CDL module under its umbrella.
-A great software development team from {% include robustlink.html href="https://www.k-int.com/" versiondate="2022-01-19" title="Knowledge Integration homepage" anchor="Knowledge Integration" %} in the U.K. is joining forces with my employer, {% include robustlink.html href="https://www.indexdata.com/" versiondate="2022-01-19" title="Index Data homepage" anchor="Index Data" %}, and others to make this happen. 
+Related to the first quote above from the Boston Library Consortium, there is new development happening with the open source {{ robustlink(href="https://projectreshare.org/", versiondate="2022-01-19", title="Project ReShare homepage", anchor="Project ReShare") }} to develop a CDL module under its umbrella.
+A great software development team from {{ robustlink(href="https://www.k-int.com/", versiondate="2022-01-19", title="Knowledge Integration homepage", anchor="Knowledge Integration") }} in the U.K. is joining forces with my employer, {{ robustlink(href="https://www.indexdata.com/", versiondate="2022-01-19", title="Index Data homepage", anchor="Index Data") }}, and others to make this happen. 
 I'm not directly involved in this effort, but I get the professional pleasure of watching it come to life.
 
 
@@ -117,7 +117,7 @@ post=": Starlink works great until the cats find out that the dish gives off a l
 
 Here is the promised cat picture at the bottom of the newsletter. 
 I found this via a {{ robustlink(href="https://www.smithsonianmag.com/smart-news/outdoor-cats-are-using-500-starlink-satellite-dishes-as-self-heating-beds-180979401/", versionurl="https://web.archive.org/20220115215322/https://www.smithsonianmag.com/smart-news/outdoor-cats-are-using-500-starlink-satellite-dishes-as-self-heating-beds-180979401/", versiondate="2022-01-15 21:37:35+00:00", title="Outdoor Cats Are Using $500 Starlink Satellite Dishes as Self-Heating Beds | Smart News | Smithsonian Magazine", anchor="Smithsonian Magazine") }} article. 
-The dish featured in the photograph is from {% include robustlink.html href="https://www.starlink.com/" versiondate="2022-01-19" title="Starlink homepage" anchor="SpaceX's Starlink internet broadband service" %}. 
+The dish featured in the photograph is from {{ robustlink(href="https://www.starlink.com/", versiondate="2022-01-19", title="Starlink homepage", anchor="SpaceX's Starlink internet broadband service") }}. 
 The article goes on to explain that the Starlink dishes have heaters built into the faces to help melt snow. 
 It all becomes clear now why the cats were attracted to the dish.
 

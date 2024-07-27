@@ -4,10 +4,17 @@
 import os
 import re
 
-# {% include robustlink.html href="https://www.courtlistener.com/docket/67801014/hachette-book-group-inc-v-internet-archive/?order_by=desc" versionurl="https://web.archive.org/web/20240706193105/https://www.courtlistener.com/docket/67801014/hachette-book-group-inc-v-internet-archive/?order_by=desc" versiondate="2024-07-06" title=" Hachette Book Group, Inc. v. Internet Archive (23-1260) | Court of Appeals for the Second Circuit via CourtListener" anchor="Hachette Book Group, Inc. v. Internet Archive case" %}
+# {% include robustlink.html href="http://fedora.info/" versiondate="2006-04-10" title="Fedora" anchor="FEDORA Digital Object Repository" %}
 
 _ROBUSTLINKS = re.compile(
-    r"\{%(\s+)?include\s+robustlink.html\s+href=\"([^\"]+)\"\s+versionurl=\"([^\"]*)\"\s+versiondate=\"([^\"]*)\"\s+title=\"([^\"]*)\"\s+anchor=\"([^\"]+)\"\s+%\}"
+    r"""
+    \{%(\s+)?include\s+robustlink.html\s+
+    href=\"([^\"]+)\"\s+
+    versionurl=\"([^\"]*)\"\s+
+    versiondate=\"([^\"]*)\"\s+
+    title=\"([^\"]*)\"\s+
+    anchor=\"([^\"]+)\"\s+%\}""",
+    re.X,
 )
 
 

@@ -98,20 +98,20 @@ comments:
 <h2>Page-for-Page Replications</h2>
 <p>This is the most prevalent category -- those companies that offer a page-for-page replication of the paper edition of the textbook.</p>
 <ul type="square">
-<li><a href="http://ebooks.bfwpub.com/" title="">Bedford Freeman Worth Publishing</a>, BFW only</li>
-<li><a href="http://www.booksonboard.com/" title="">Books On Board</a>, multi-publisher	</li>
-<li><a href="http://www.coursesmart.com/" title="">CourseSmart</a>, multi-publisher	</li>
-<li><a href="http://www.digitaltextbooks.com/" title="">Digital Textbooks</a>, multi-publisher</li>
-<li><a href="http://www.ichapters.com/" title="">iChapters</a>, Cengage Learning only? (formerly Thompson Learning)</li>
+<li><a href="http://ebooks.bfwpub.com/">Bedford Freeman Worth Publishing</a>, BFW only</li>
+<li><a href="http://www.booksonboard.com/">Books On Board</a>, multi-publisher	</li>
+<li><a href="http://www.coursesmart.com/">CourseSmart</a>, multi-publisher	</li>
+<li><a href="http://www.digitaltextbooks.com/">Digital Textbooks</a>, multi-publisher</li>
+<li><a href="http://www.ichapters.com/">iChapters</a>, Cengage Learning only? (formerly Thompson Learning)</li>
 <li><span class="removed_link" title="http://create.mcgraw-hill.com/wordpress-mu/welcomeprimisuser/">Primus</span>, McGraw-Hill only</li>
-<li><a href="http://www.vitalsource.com/index/bookshelf" title="">VitalSource</a>, multi-publisher</li>
-<li><a href="http://textbooks.zinio.com/" title="">Zino Digital Textbooks</a>, McGraw-Hill only</li>
+<li><a href="http://www.vitalsource.com/index/bookshelf">VitalSource</a>, multi-publisher</li>
+<li><a href="http://textbooks.zinio.com/">Zino Digital Textbooks</a>, McGraw-Hill only</li>
 </ul>
 <h2>Enhanced Digital Editions</h2>
 <p>In addition to the text of the textbook, these enhanced editions include video, audio, simulations, pre- and post-tests, online glossaries, and/or links to supplemental materials.  Part of our research is testing the extent to which these enhanced editions can improve educational outcomes.  I'm aware of sites for specific textbooks, but for the purpose of this list I'm seeking out sites that aggregate the sale of many textbooks under one banner.</p>
 <ul type="square">
-<li><a href="http://college.hmco.com/eduspace/" title="">Eduspace</a>, Houghton Mifflin only</li>
-<li><a href="http://edugen.wiley.com/edugen/secure/index.uni?protocol=http" title="">Wiley Plus</a>, Wiley Publishing only</li>
+<li><a href="http://college.hmco.com/eduspace/">Eduspace</a>, Houghton Mifflin only</li>
+<li><a href="http://edugen.wiley.com/edugen/secure/index.uni?protocol=http">Wiley Plus</a>, Wiley Publishing only</li>
 </ul>
 <p>If you know of other sources -- for either type of digital textbooks -- please get in touch with me.
 <p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from https://ebooks.primisonline.com/eBookstore/index.jsp to http://create.mcgraw-hill.com/wordpress-mu/welcomeprimisuser/ on November 13th, 2012.</p>

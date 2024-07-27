@@ -37,7 +37,7 @@ post=', New York Times, 7-Feb-2022'
 
 We have all experienced unexplained computer errors. 
 The software programmer among us cringe and think about what they possibly did wrong. 
-Did I use the wrong variable in that loop, did I miss a {% include robustlink.html href="https://www.wired.com/2009/07/dayintech-0722/" versiondate="2022-02-09" title="July 22, 1962: Mariner 1 Done In by a Typo | Wired Magazine" anchor="hyphen" %}?
+Did I use the wrong variable in that loop, did I miss a {{ robustlink(href="https://www.wired.com/2009/07/dayintech-0722/", versiondate="2022-02-09", title="July 22, 1962: Mariner 1 Done In by a Typo | Wired Magazine", anchor="hyphen") }}?
 What if the programmer did everything correctly and the computer just "glitched"?
 
 Modern computers have many layers of redundancy built into them—error-correcting memory, multi-drive storage volumes, checksums on blocks of data, and so forth. 
@@ -67,7 +67,7 @@ Or think of the investigations of problems with electrical systems, concrete str
 What is learned from those probes is encoded into standards and building codes. 
 
 The computing profession has nothing equivalent. 
-It is good to see this one small area—cybersecurity incidents—get that kind of national focus and the formation of a {% include robustlink.html href="https://www.cisa.gov/cyber-safety-review-board" versiondate="2022-02-09" title="Cyber Safety Review Board" anchor="review board" %} that might start instilling some of that engineering mentality into the field.
+It is good to see this one small area—cybersecurity incidents—get that kind of national focus and the formation of a {{ robustlink(href="https://www.cisa.gov/cyber-safety-review-board", versiondate="2022-02-09", title="Cyber Safety Review Board", anchor="review board") }} that might start instilling some of that engineering mentality into the field.
 
 
 ## Automation at the United States Postal Service

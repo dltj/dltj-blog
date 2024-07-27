@@ -42,7 +42,7 @@ post='The Print (India), 25-Mar-2020'
 %}
 
 I learned about this article and corresponding website during the {{ robustlink(href="https://sites.google.com/view/cdl-implementers", versionurl="https://web.archive.org/web/20220126232417/https://sites.google.com/view/cdl-implementers", versiondate="2022-01-26", title="Controlled Digital Lending Implementers homepage", anchor="Controlled Digital Lending Implementers (CDLI)") }} monthly forum. 
-Aishwarya Chaturvedi, LL.M. candidate from the Cornell Law School, spoke about copyright law in Inda relative to efforts to start a controlled digital lending practice at the forum, and she included mention of {% include robustlink.html href="http://kkvlibrary.com/" versiondate="2022-01-26" title="KVV Library" anchor="Mr. Venugopal's library website" %}. 
+Aishwarya Chaturvedi, LL.M. candidate from the Cornell Law School, spoke about copyright law in Inda relative to efforts to start a controlled digital lending practice at the forum, and she included mention of {{ robustlink(href="http://kkvlibrary.com/", versiondate="2022-01-26", title="KVV Library", anchor="Mr. Venugopal's library website") }}. 
 It is a WordPress site with the books embedded with a PDF reader, and some of the books are relatively recent—1980s and one from 1994. 
 
 Ms Chaturvedi has a preprint in SSRN: [Digital Libraries, Copyright and the COVID-19 Pandemic: A Comparative Study of India and The United States](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3965155). 
@@ -113,7 +113,7 @@ This is just the latest in the battle to shape how books materials are offered i
 Last week featured Alan. 
 Alan is a nine-year-old cat that my daughter rescued from the Columbus Zoo and Aquarium animal show when it shut down due to covid. 
 (My daughter was working as an animal caretaker for the show at the time). 
-As he came to us, his full name was "Alan Jackson", which—in case you didn't know—is also the name of an {% include robustlink.html href="https://en.wikipedia.org/wiki/Alan_Jackson" versiondate="2022-01-26" title="Alan Jackson | Wikipedia" anchor="American country music singer and songwriter" %}. 
+As he came to us, his full name was "Alan Jackson", which—in case you didn't know—is also the name of an {{ robustlink(href="https://en.wikipedia.org/wiki/Alan_Jackson", versiondate="2022-01-26", title="Alan Jackson | Wikipedia", anchor="American country music singer and songwriter") }}. 
 After seven years of sharing a "catio-equipped" shed (an outdoor area accessible to cats) with a dozen of his show peers, he has quickly turned into a full-on housecat. 
 
 Mittens, to the right, is an 11-year-old rescue that we got from the local animal shelter when she was four months old. 

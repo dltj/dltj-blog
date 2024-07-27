@@ -37,7 +37,7 @@ Our goal is to use ReplayWeb to embed a bit of the Twitter experience into a sta
 That tool uses a {{ robustlink(href="https://replayweb.page/docs/wacz-format", versionurl="https://web.archive.org/web/20230204203859/https://replayweb.page/docs/wacz-format", versiondate="2023-02-04", title="Web Archive Collection Format Specification ", anchor="WACZ file") }} to do this; a WACZ file is the contents of a series of web pages—the HTML, images, Javascript...everything—wrapped up in a Zip file for easy transport.
 We're going to use <i>ArchiveWeb.page</i> to make the WACZ file.
 
-{{ robustlink(href="https://archiveweb.page/", versionurl="", versiondate="2023-02-05", title="ArchiveWeb.page homepage", anchor="ArchiveWeb.page") }} creates high-fidelity web archives as either a Google Chrome extension or a desktop application. 
+{{ robustlink(href="https://archiveweb.page/", versiondate="2023-02-05", title="ArchiveWeb.page homepage", anchor="ArchiveWeb.page") }} creates high-fidelity web archives as either a Google Chrome extension or a desktop application. 
 The desktop application is described as a beta version, but I'm going to use that instead of the Chrome extension because Firefox is my day-to-day browser. 
 
 {% include note.html 

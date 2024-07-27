@@ -33,7 +33,7 @@ comments:
 <p>This month I've come across one great article and one great report on Service Oriented Architectures.  The first came from Sally Rogers at Ohio State University in the form of an article from CIO magazine last year:</p>
 <p style="text-indent: -2em; padding-left: 4em;">
 <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.genre=article&amp;rft.atitle=The+Truth+About+SOA&amp;rft.title=CIO+Magazine&amp;rft.date=2006-06-15&amp;rft.aulast=Koch&amp;rft.aufirst=Christopher&amp;rft.au=Christopher+Koch"><br />
-Koch, Christopher. 2006. The Truth About SOA. CIO Magazine, June 15. <a href="http://www.cio.com/article/21975/The_Truth_About_SOA" title="">http://www.cio.com/archive/061506/soa.html</a> (accessed March 27, 2007).<br />
+Koch, Christopher. 2006. The Truth About SOA. CIO Magazine, June 15. <a href="http://www.cio.com/article/21975/The_Truth_About_SOA">http://www.cio.com/archive/061506/soa.html</a> (accessed March 27, 2007).<br />
 </span></p>
 <p>This article does a great job at laying the groundwork for the broad "what" and "why" (as well as the "why not") of SOA, and I agree with Sally that it makes a better introduction to the topic than most of the white paper that I presented at the meeting.  The two best paragraphs out of the article come towards the very end:</p>
 <blockquote><p>
@@ -44,7 +44,7 @@ Koch, Christopher. 2006. The Truth About SOA. CIO Magazine, June 15. <a href="ht
 <p>Does that sound familiar to anyone?  I'd like to couple this with a paragraph from the report by the National Library of Australia on a "Single Business Approach" (discovered via a <a href="http://orweblog.oclc.org/archives/001307.html" title="Lorcan Dempsey&#039;s weblog: Moving to a &#039;single business&#039; systems environment">blog posting by Lorcan Dempsey</a>):</p>
 <p style="text-indent: -2em; padding-left: 4em;">
 <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.genre=report&amp;rft.btitle=IT+Architecture+Project+Report+&amp;rft.title=IT+Architecture+Project+Report+&amp;rft.date=2007&amp;rft.pub=National+Library+of+Australia&amp;rft.tpages=30"><br />
-IT Architecture Project Report. 2007. N.d. National Library of Australia. <a href="http://www.nla.gov.au/dsp/documents/itag.pdf" title="">http://www.nla.gov.au/dsp/documents/itag.pdf</a> (accessed March 28, 2007).<br />
+IT Architecture Project Report. 2007. N.d. National Library of Australia. <a href="http://www.nla.gov.au/dsp/documents/itag.pdf">http://www.nla.gov.au/dsp/documents/itag.pdf</a> (accessed March 28, 2007).<br />
 </span></p>
 <p>The paper defines Single Business Approach in a library context this way:</p>
 <blockquote><p>

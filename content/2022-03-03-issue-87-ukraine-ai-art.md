@@ -80,8 +80,7 @@ post=', The Verge, 21-Feb-2022'
 It looks pretty—greens and purples, a bed of rails curving into the distance. 
 To my eye, it looks like art—it is something I would hang on a  wall (or make into a video screen background). 
 But the copyright office has ruled that it cannot be registered as a copyrighted work. 
-In its {% include robustlink.html href="https://www.copyright.gov/rulings-filings/review-board/docs/a-recent-entrance-to-paradise.pdf" versionurl="https://web.archive.org/web/20220228210719/https://www.copyright.gov/rulings-filings/review-board/docs/a-recent-entrance-to-paradise.pdf" versiondate="2022-03-02" title="Second Request for Reconsideration for Refusal to Register A Recent
-Entrance to Paradise  | Copyright Review Board" anchor="ruling" %}, the Review Board of the U.S. Copyright Office affirms practices manual for the Copyright Office: that copyright registration "has long mandated human authorship". 
+In its {{ robustlink(href="https://www.copyright.gov/rulings-filings/review-board/docs/a-recent-entrance-to-paradise.pdf", versionurl="https://web.archive.org/web/20220228210719/https://www.copyright.gov/rulings-filings/review-board/docs/a-recent-entrance-to-paradise.pdf", versiondate="2022-03-02", title="Second Request for Reconsideration for Refusal to Register A Recent Entrance to Paradise  | Copyright Review Board", anchor="ruling") }}, the Review Board of the U.S. Copyright Office affirms practices manual for the Copyright Office: that copyright registration "has long mandated human authorship". 
 
 
 ## This Week's Cat

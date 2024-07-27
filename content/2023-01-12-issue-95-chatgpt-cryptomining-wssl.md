@@ -105,7 +105,7 @@ post=', Disruptive Library Technology Jester, 13-Jan-2011'
 
 {{ image(float="right", width="317", localsrc="2011/01/Loremville-Public-Library_1294793741440.png", alt="Screenshot of Sample Library Website") }}
 
-Twelve years ago, OCLC {% include robustlink.html href="https://web.archive.org/web/20110104195323/http://community.oclc.org/cooperative/2010/12/a-web-presence-for-every-library.html" originalurl="https://web.archive.org/web/20110104195323/http://community.oclc.org/cooperative/2010/12/a-web-presence-for-every-library.html" versiondate="2011-01-04" title="A Web presence for every library | OCLC" anchor="announced" %} a project to build a website for every library, and I wrote an excited piece about it for this blog. 
+Twelve years ago, OCLC {{ robustlink(href="https://web.archive.org/web/20110104195323/http://community.oclc.org/cooperative/2010/12/a-web-presence-for-every-library.html", original="https://web.archive.org/web/20110104195323/http://community.oclc.org/cooperative/2010/12/a-web-presence-for-every-library.html", versiondate="2011-01-04", title="A Web presence for every library | OCLC", anchor="announced") }} a project to build a website for every library, and I wrote an excited piece about it for this blog. 
 It seemed like the perfect use of the OCLC cooperative's resource magnification efforts; if anyone could pull off something like this, it was OCLC. 
 Unfortunately, the project didn't last, and I wish I knew more about why it didn't take off.
 I couldn't find the Loremville Public Library sample site on Wayback, so the only thing that may be left is this low resolution screenshot I made for [my 2010 article](https://dltj.org/article/a-web-presence-for-small-libraries/).

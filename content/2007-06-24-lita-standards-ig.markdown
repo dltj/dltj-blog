@@ -28,7 +28,7 @@ comments:
   date: '2007-07-16 15:46:00 -0400'
   date_gmt: '2007-07-16 19:46:00 -0400'
   content: <!--%kramer-pre%--><a href="http://translate.google.com/translate?u=http://xmulib.net/keven/archives/422"
-    title=""Translation provided by Google" rel="nofollow">[Translated to English]</a>    孙卫老师在最近万方的数字图书馆讲座中专门介绍了NISO，正好上个月看到一篇介绍NISO近况的博文，当时让我吃惊不小：   NISO目前有3名全职人员，十几位咨询专家作为&rdquo;虚拟职员&rdquo;，300多位志愿者参与各类标准化活动。该机构有82位投票委员，27和图书馆标准<!--%kramer-post%-->
+   Translation provided by Google" rel="nofollow">[Translated to English]</a>    孙卫老师在最近万方的数字图书馆讲座中专门介绍了NISO，正好上个月看到一篇介绍NISO近况的博文，当时让我吃惊不小：   NISO目前有3名全职人员，十几位咨询专家作为&rdquo;虚拟职员&rdquo;，300多位志愿者参与各类标准化活动。该机构有82位投票委员，27和图书馆标准<!--%kramer-post%-->
 - id: 19219
   author: 数图研究笔记
   author_email: ''
@@ -36,7 +36,7 @@ comments:
   date: '2007-07-16 11:46:00 -0400'
   date_gmt: '2007-07-16 15:46:00 -0400'
   content: <!--%kramer-pre%--><a href="http://translate.google.com/translate?u=http://www.dlresearch.cn/keven/index.php/archives/451"
-    title=""English translation provided by Google" rel="nofollow">[Translated to
+   English translation provided by Google" rel="nofollow">[Translated to
     English]</a> 介绍NISO近况的博文，当时让我吃惊不小：  NISO目前有3名全职人员，十几位咨询专家作为&ldquo;虚拟职员&rdquo;，300多位志愿者参与各类标准化活动。该机构有82位投票委员，27和图书馆标准<!--%kramer-post%-->
 - id: 19285
   author: 数图研究 &raquo; Blog Archive &raquo; 关于NISO

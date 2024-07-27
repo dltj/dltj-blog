@@ -33,7 +33,7 @@ post=', NPR, 9-Mar-2022'
 
 I'm not surprised. 
 I presume the libraries mentioned in the NPR article are "public libraries," but they could be libraries of any type. 
-It brings to mind the stories about the {% include robustlink.html href="https://www.libraryjournal.com/story/2015-galelj-library-of-the-year-ferguson-municipal-public-library-mo-courage-in-crisis" versiondate="2022-03-16" title="2015 Gale/LJ Library of the Year: Ferguson Municipal Public Library, MO, Courage in Crisis | Library Journal" anchor="library in Ferguson" %}, Missouri, during the riots for the shooting of Michael Brown by local police. 
+It brings to mind the stories about the {{ robustlink(href="https://www.libraryjournal.com/story/2015-galelj-library-of-the-year-ferguson-municipal-public-library-mo-courage-in-crisis", versiondate="2022-03-16", title="2015 Gale/LJ Library of the Year: Ferguson Municipal Public Library, MO, Courage in Crisis | Library Journal", anchor="library in Ferguson") }}, Missouri, during the riots for the shooting of Michael Brown by local police. 
 The NPR story also mentions Nicholas Poole's "we will reschedule just as soon as we have vanquished our invaders" tweet that was in [_Thursday Threads_ two weeks ago]({% post_url_absolute 2022-03-03-issue-87-ukraine-ai-art %}#ukraine-library-association).
 
 ## Can the Internet Sanction a Country? Should It?

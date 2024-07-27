@@ -43,7 +43,7 @@ The ability to _search_ the contents of log files combined with the ability to c
 (This coming from a programmer who still feels most comfortable trolling through `/var/log` with liberal `grep` and `awk` commands.) 
 
 I've seen the light. 
-And so with this new effort, I'm using the Python {% include robustlink.html href="https://www.structlog.org/en/stable/" versiondate="2022-01-22" title="Structlog homepage" anchor="Structlog package" %} to simplify the building of the stuctured logs. 
+And so with this new effort, I'm using the Python {{ robustlink(href="https://www.structlog.org/en/stable/", versiondate="2022-01-22", title="Structlog homepage", anchor="Structlog package") }} to simplify the building of the stuctured logs. 
 The problem is that AWS is too smart for its own good. 
 When you use the AWS-supplied Python installation, it:
 
@@ -51,7 +51,7 @@ When you use the AWS-supplied Python installation, it:
 2.  Sets the format string to include the timestamp and UUID of the Lambda call in front of anything you want to log.
 
 Both of those are really annoying. 
-The way to get around the first is somewhat cumbersome, as {{ robustlink(href="https://stackoverflow.com/a/45624044/201674", versionurl="", versiondate="2022-01-22", title="Using python Logging with AWS Lambda | Stack Overflow", anchor="this answer on Stack Overflow describes") }}. 
+The way to get around the first is somewhat cumbersome, as {{ robustlink(href="https://stackoverflow.com/a/45624044/201674", versiondate="2022-01-22", title="Using python Logging with AWS Lambda | Stack Overflow", anchor="this answer on Stack Overflow describes") }}. 
 The nicest solution—if you are using Python 3.8 or higher—is to use the `force=true` on the `logging.basicConfig` call:
 
 ```python
@@ -100,4 +100,4 @@ The best part is that because CloudWatch interprets the contents of the JSON par
 
 {{ image(width="782", localsrc="2022/2022-01-22-cloudwatch-search.png", caption="Searching structured logs", alt="Screencapture of Amazon Web Services Cloud Watch Logs demonstrating the search of structured log data.") }} 
 
-The AWS documentation has instructions for the query syntax to {{ robustlink(href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/FilterAndPatternSyntax.html#matching-terms-events", versionurl="", versiondate="2022-01-22", title="Filtering and pattern syntax | Amazon CloudWatch Logs", anchor="matching terms in log events") }}.
+The AWS documentation has instructions for the query syntax to {{ robustlink(href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/FilterAndPatternSyntax.html#matching-terms-events", versiondate="2022-01-22", title="Filtering and pattern syntax | Amazon CloudWatch Logs", anchor="matching terms in log events") }}.

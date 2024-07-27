@@ -36,7 +36,7 @@ comments:
   content: "@DataG yay! I finally got around to drafting my blog post about Appfest
     (for TechConnect) just the other day."
 ---
-<div style="border: 1px solid black; background-color: #DDD; padding: 1em;margin-bottom:1.5em">Below is my report of the DPLA AppFest last month.  This post is the raw input of an <a href="http://blog.imls.gov/?p=2337" title="">article on the IMLS blog</a> that was co-written with Mary Barnett, Social Media Coordinator at the Chattanooga Public Library.  I also attended yesterday's DPLA Audience and Participation workstream meeting at George Mason University, and hope to have a similar trip report posted soon.</div>
+<div style="border: 1px solid black; background-color: #DDD; padding: 1em;margin-bottom:1.5em">Below is my report of the DPLA AppFest last month.  This post is the raw input of an <a href="http://blog.imls.gov/?p=2337">article on the IMLS blog</a> that was co-written with Mary Barnett, Social Media Coordinator at the Chattanooga Public Library.  I also attended yesterday's DPLA Audience and Participation workstream meeting at George Mason University, and hope to have a similar trip report posted soon.</div>
 <p>The Digital Public Library of America held an <a href="http://dp.la/info/developers/appfest/" title="November 8-9, 2012 DPLA Appfes | Digital Public Library of Americat">AppFest</a> gathering at the <a href="http://www.lib.chattanooga.gov/" title="Chattanooga Public Library homepage">Chattanooga Public Library</a> on November 8-9, 2012 for a full day of designing, developing and discussion.  About 40 people attended from a wide range of backgrounds:</p>
 <ul>
 <li>Public libraries, academic libraries, companies, library consortia and other groups.</li>

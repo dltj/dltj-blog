@@ -106,7 +106,7 @@ comments:
 </tr>
 <tr>
 <td><strong><a href="http://dev.wp-plugins.org/wiki/LiveCommentPreview" title="Visit plugin homepage">Live Comment Preview</a></strong></td>
-<td>Activate to supply users with a live comment preview. <cite>By <a href="http://thecodepro.com/" title="">Jeff Minard</a> &amp; <a href="http://web.archive.org/web/20130822082650/http://www.softius.net:80/" title="">Unknown</a></cite></td>
+<td>Activate to supply users with a live comment preview. <cite>By <a href="http://thecodepro.com/">Jeff Minard</a> &amp; <a href="http://web.archive.org/web/20130822082650/http://www.softius.net:80/">Unknown</a></cite></td>
 </tr>
 <tr>
 <td><strong><a href="http://www.channel-ai.com/blog/plugins/mycss/" title="Visit plugin homepage">MyCSS</a></strong></td>
