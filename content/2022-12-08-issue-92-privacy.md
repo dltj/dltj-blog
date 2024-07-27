@@ -127,7 +127,7 @@ Cory talks about this and the potential impacts beyond Facebook of such a ruling
 
 ## Mittens' Calendar
 {: #mittens-calendar}
-{% include image.html wpsrc="2022/2022-12-08-mittens-calendar.jpeg" width="700" alt="Photograph of a black cat in the arms of its owner. Held next to the cat is a page-a-day calendar with the title 'texts from mittens'. The picture of the cat on the calendar box resembles the cat being held." %} 
+{{ image(width="700", localsrc="2022/2022-12-08-mittens-calendar.jpeg", alt="Photograph of a black cat in the arms of its owner. Held next to the cat is a page-a-day calendar with the title 'texts from mittens'. The picture of the cat on the calendar box resembles the cat being held.") }} 
 
 For Christmas last year, the family got a page-a-day calendar with text messages between a cat named Mittens and its owner. 
 Our Mittens had a striking resemblance, so we had to take this picture.

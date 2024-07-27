@@ -107,7 +107,7 @@ Come to think of it, this sort of thread is likely to be quite common in upcomin
 
 ## Alan in snowy weather
 {: #alan}
-{% include image.html wpsrc="2023/2023-01-26-alan-snow.jpg" width="700" alt="Photograph of a white cat with black splotches sitting up tall on a paver patio. The ground in front of the cat is covered with snow." %} 
+{{ image(width="700", localsrc="2023/2023-01-26-alan-snow.jpg", alt="Photograph of a white cat with black splotches sitting up tall on a paver patio. The ground in front of the cat is covered with snow.") }} 
 We got snow in central Ohio, and Alan just had to check it out. 
 You will note that he is not _in_ the snow, just _next to_ the snow. 
 He has gone full "house-cat" after all.

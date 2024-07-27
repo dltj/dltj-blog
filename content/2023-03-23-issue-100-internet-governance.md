@@ -156,9 +156,5 @@ The recent discussions of banning an app—TikTok—come really close, though.
 
 ## The ball of fur, well, sheds!
 {: #mittens}
-{% include image.html 
-width="700"
-src="2023/2023-03-23-mittens.jpg"
-alt="A black cat curled up sleeping on a jumbled pink blanket. The pink of the blanket shows a large amount of fur."
-%}
+{{ image(width="700", localsrc="2023/2023-03-23-mittens.jpg", alt="A black cat curled up sleeping on a jumbled pink blanket. The pink of the blanket shows a large amount of fur.") }}
 

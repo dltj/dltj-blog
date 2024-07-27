@@ -32,12 +32,7 @@ Because of the complexity of the election day voting process, last year Franklin
 The early setup started at 6 o'clock.
 I was so anxious to get it right that the day before I took the printout of the polling room dimensions from my VLM packet, scanned it into OmniGraffle on my computer, and designed a to-scale diagram of what I thought the best layout would be.
 The real thing only vaguely looked like this, but it got us started.
-{% include image.html
-  wpsrc="2020/2020-11-04-location-layout.png"
-  caption="What I imagined our polling place would look like"
-  alt="A schematic showing the voting position and the flow of voters through the polling place."
-  width="524"
-%}
+{{ image(width="524", localsrc="2020/2020-11-04-location-layout.png", caption="What I imagined our polling place would look like", alt="A schematic showing the voting position and the flow of voters through the polling place.") }}
 
 We could set up tables, unpack equipment, hang signs, and other tasks that don't involve turning on machines or breaking open packets of ballots.
 One of the early setup tasks was updating the voters' roster on the electronic poll pads.
@@ -57,13 +52,7 @@ The election office people sent us home at 10 o'clock.
 Even on the way out the door, I tried a rogue option: I hooked a portable battery to one of the electronic polling pads to see if the update would complete overnight and be ready for us the next day.
 It didn't, and it wasn't.
 
-{% include image.html
-  wpsrc="2020/2020-11-04-boe-text.png"
-  caption="Text from Board of Elections"
-  alt="Picture of a text with the contents: '(Franklin County Board Of Elections) Franklin County is going to ALL Paper Signature Poll Books.  Open your BUMPER PACKET and have voters sign in on the Paper Signature Poll Books.  Use the Paper Authority To Vote Slips.  Go thru your Paper Supplemental Absentee List and record AB/PROV on the Signature Line of all voters on that list.  Mark Names off of the White and Green Register of Voters Lists.'"
-  width="234"
-  float="right"
-%}
+{{ image(float="right", width="234", localsrc="2020/2020-11-04-boe-text.png", caption="Text from Board of Elections", alt="Picture of a text with the contents: '(Franklin County Board Of Elections) Franklin County is going to ALL Paper Signature Poll Books.  Open your BUMPER PACKET and have voters sign in on the Paper Signature Poll Books.  Use the Paper Authority To Vote Slips.  Go thru your Paper Supplemental Absentee List and record AB/PROV on the Signature Line of all voters on that list.  Mark Names off of the White and Green Register of Voters Lists.'") }}
 Polling locations in Ohio open at 6:30 in the morning, and PEOs must report to their sites by 5:30.
 So I was up at 4:30 for a quick shower and packing up stuff for the day.
 Early in the setup process, the Board of Elections sent a text that the electronic poll pads were not going to be used and to break out the "BUMPer Packets" to determine a voter's eligibility to vote.
@@ -154,9 +143,4 @@ Maybe you will find inspiration here.
 Democracy is participatory.
 You've got to tune in and show up to make it happen.
 
-{% include image.html
-  wpsrc="2020/2020-11-04-certificate.jpg"
-  caption="Certificate of Appreciation"
-  alt="Picture of certificate from Franklin County Board of Elections in appreciation for serving as a voting location manager for the November 3, 2020, general election."
-  width="524"
-%}
+{{ image(width="524", localsrc="2020/2020-11-04-certificate.jpg", caption="Certificate of Appreciation", alt="Picture of certificate from Franklin County Board of Elections in appreciation for serving as a voting location manager for the November 3, 2020, general election.") }}

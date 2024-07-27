@@ -13,14 +13,14 @@ For a new program I'm writing, I wanted to put that into use.
 The program uses AWS Lambdas, and the log entries for the Lambdas end up in CloudWatch Logs. 
 Unfortunately, in its default configuration, the output is less than useful:
 
-{% include image.html wpsrc="2022/2022-01-22-unmodified-cloudwatch.png" width="782" alt="Screencapture of Amazon Web Services Cloud Watch Logs demonstrating that the collapsed detail line does not include useful information." caption="Default configuration structured logs" %} 
+{{ image(width="782", localsrc="2022/2022-01-22-unmodified-cloudwatch.png", caption="Default configuration structured logs", alt="Screencapture of Amazon Web Services Cloud Watch Logs demonstrating that the collapsed detail line does not include useful information.") }} 
 
 AWS has configured the default Python logger in the Lambdas to automatically put the timestamp and the HTTP API request ID from the context in the display when the log line is collapsed. 
 When you expand the log line, you can see the additional detail in structured JSON. 
 That timestamp is duplicated in the column to the left, and the UUID is really not useful in this context. 
 What I'd rather see is the _event_ that caused the line to be logged and any corresponding _error message_.
 
-{% include image.html wpsrc="2022/2022-01-22-modified-cloudwatch.png" width="782" alt="Screencapture of Amazon Web Services Cloud Watch Logs demonstrating that the collapsed detail line now includes the event and error message." caption="Enhanced configuration structured logs" %} 
+{{ image(width="782", localsrc="2022/2022-01-22-modified-cloudwatch.png", caption="Enhanced configuration structured logs", alt="Screencapture of Amazon Web Services Cloud Watch Logs demonstrating that the collapsed detail line now includes the event and error message.") }} 
 
 It took some trial and error to make this happen. 
 This post describes that process in case I or anyone else needs this in the future.
@@ -98,6 +98,6 @@ The best part is that because CloudWatch interprets the contents of the JSON par
 { $.aws_request_id = "0d7924bb-ed97-4aa2-898f-90520a9f2e1b" }
 ```
 
-{% include image.html wpsrc="2022/2022-01-22-cloudwatch-search.png" width="782" alt="Screencapture of Amazon Web Services Cloud Watch Logs demonstrating the search of structured log data." caption="Searching structured logs" %} 
+{{ image(width="782", localsrc="2022/2022-01-22-cloudwatch-search.png", caption="Searching structured logs", alt="Screencapture of Amazon Web Services Cloud Watch Logs demonstrating the search of structured log data.") }} 
 
 The AWS documentation has instructions for the query syntax to {{ robustlink(href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/FilterAndPatternSyntax.html#matching-terms-events", versionurl="", versiondate="2022-01-22", title="Filtering and pattern syntax | Amazon CloudWatch Logs", anchor="matching terms in log events") }}.

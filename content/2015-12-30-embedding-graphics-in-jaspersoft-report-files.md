@@ -102,29 +102,14 @@ data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAY...
 This is a DATA URI, and it contains details at the start that are not part of the image data itself. Everything up to and including the comma -- `data:image/jpeg;base64,` -- needs to be removed. The remainder of the string is the base64-encoded image data.
 
 ## Step 2: Put the base64 image data into a report variable
-{% include image.html
-    wpsrc="2015/12/1-add_variable-300x205.png"
-    width="300"
-    alt=""
-    caption="In the Outline, right click on Variables to create a variable."
-%}
+{{ image(width="300", localsrc="2015/12/1-add_variable-300x205.png", caption="In the Outline, right click on Variables to create a variable.") }}
 To put the image data into the JRXML file, we will create a variable in the report. Right click (or control click) on the "Variables" heading in the Outline view, and select "Create Variable".  
 
-{% include image.html
-    wpsrc="2015/12/2-Properties_view-300x275.png"
-    width="300"
-    alt=""
-    caption="Give the variable a name and paste the image data into the Expressions field in quotes."
-%}
+{{ image(width="300", localsrc="2015/12/2-Properties_view-300x275.png", caption="Give the variable a name and paste the image data into the Expressions field in quotes.") }}
 Give the variable a name and paste the image data into the Expressions field surrounded by double quotes. Leave all of the other values the same (Value Class Name is `java.lang.String`, no calculation function or increment type, reset type is `Report`, and no data in Initial Value Expression or Incrementer Factory Class Name).
 
 ## Step 3: Add image to the report
-{% include image.html
-    wpsrc="2015/12/3-Create_new_image_element-300x300.png"
-    width="300"
-    alt=""
-    caption="Select \"Custom expression\" and paste Java snippet."
-%}
+{{ image(width="300", localsrc="2015/12/3-Create_new_image_element-300x300.png", caption="Select 'Custom expression' and paste Java snippet.") }}
 
 Click and drag an image element from the Palette onto the report. A "Create new image element" dialog box pops up with several choices for "Image creation mode", including a workspace resource, an absolute path, or a URL. Pick the last choice, "Custom expression", and enter this snippet of Java below. There is a place in the snippet where the variable with the base64-encoded image is included (`CSpaceLogo` in this case); replace this with the variable name from the previous step.
 

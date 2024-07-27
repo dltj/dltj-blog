@@ -75,12 +75,7 @@ I'm expecting this metadata will be useful in the future, especially for functio
 
 The result of all of this work is an Obsidian page that looks like this:
 
-{% include image.html 
-  wpsrc="2021/obsidian-example.png"
-  caption="Example Obsidian page"
-  alt="Screen capture of a Markdown-formatted page that includes the metadata at the top, an automated summary in the middle, and links to the original source and topical keywords."
-  width="524"
-%}
+{{ image(width="524", localsrc="2021/obsidian-example.png", caption="Example Obsidian page", alt="Screen capture of a Markdown-formatted page that includes the metadata at the top, an automated summary in the middle, and links to the original source and topical keywords.") }}
 
 I think I'm done for now with this Python script that injects new sources into my Obsidian PKM database. 
 The next big thing is some kind of topical keyword management...a personal ontology service of sorts. 

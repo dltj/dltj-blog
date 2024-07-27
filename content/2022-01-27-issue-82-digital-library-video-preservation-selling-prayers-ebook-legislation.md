@@ -11,7 +11,7 @@ tags:
 - ebooks
 - legislation
 ---
-{% include image.html wpsrc="2022/2022-01-27-tweet-poll.png" float="right" width="320" url="https://twitter.com/DataG/status/1484163269988335624" alt="Screen capture of a Twitter poll showing 80% of votes for 'Cats' and 20% of votes for 'Controlled Digital ILL' out of 5 votes total cast" caption="The People Have Spoken" %} 
+{{ image(float="right", width="320", localsrc="2022/2022-01-27-tweet-poll.png", caption="The People Have Spoken", alt="Screen capture of a Twitter poll showing 80% of votes for 'Cats' and 20% of votes for 'Controlled Digital ILL' out of 5 votes total cast", ahref="https://twitter.com/DataG/status/1484163269988335624") }} 
 On a whim, last Thursday I put out a poll with the announcement of <a href="{% post_url_absolute 2022-01-20-issue-81-cdill-nfts-cats %}">last week's issue</a>. 
 Out of the three threads, [controlled digital lending]({% post_url_absolute 2022-01-20-issue-81-cdill-nfts-cats %}#controlled-digital-lending}), [gamers and NFTs]({% post_url_absolute 2022-01-20-issue-81-cdill-nfts-cats%}#gamers-nfts), and [cats]({% post_url_absolute 2022-01-20-issue-81-cdill-nfts-cats %}#cat-dish), the winner was cats. 
 The sample size was small—five votes—so I'm not ready to throw out the digital quill pen yet. 
@@ -108,7 +108,7 @@ This is just the latest in the battle to shape how books materials are offered i
 ## Promised Cat Picture
 {: #cat-stocking}
 
-{% include image.html wpsrc="2022/2022-01-27-mittens.jpg" float="right" width="320" alt="Photograph of a black cat with white streaks laying across a Christmas stocking with her name" caption="Equal time for Mittens the cat" %} 
+{{ image(float="right", width="320", localsrc="2022/2022-01-27-mittens.jpg", caption="Equal time for Mittens the cat", alt="Photograph of a black cat with white streaks laying across a Christmas stocking with her name") }} 
 
 Last week featured Alan. 
 Alan is a nine-year-old cat that my daughter rescued from the Columbus Zoo and Aquarium animal show when it shut down due to covid. 

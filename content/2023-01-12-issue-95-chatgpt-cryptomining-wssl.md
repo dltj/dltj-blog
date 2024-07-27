@@ -103,7 +103,7 @@ anchor="A Web presence for every library"
 post=', Disruptive Library Technology Jester, 13-Jan-2011'
 %}
 
-{% include image.html float="right" wpsrc="2011/01/Loremville-Public-Library_1294793741440.png" width="317" alt="Screenshot of Sample Library Website" %}
+{{ image(float="right", width="317", localsrc="2011/01/Loremville-Public-Library_1294793741440.png", alt="Screenshot of Sample Library Website") }}
 
 Twelve years ago, OCLC {% include robustlink.html href="https://web.archive.org/web/20110104195323/http://community.oclc.org/cooperative/2010/12/a-web-presence-for-every-library.html" originalurl="https://web.archive.org/web/20110104195323/http://community.oclc.org/cooperative/2010/12/a-web-presence-for-every-library.html" versiondate="2011-01-04" title="A Web presence for every library | OCLC" anchor="announced" %} a project to build a website for every library, and I wrote an excited piece about it for this blog. 
 It seemed like the perfect use of the OCLC cooperative's resource magnification efforts; if anyone could pull off something like this, it was OCLC. 
@@ -113,7 +113,7 @@ I couldn't find the Loremville Public Library sample site on Wayback, so the onl
 
 ## Extra Cat!
 {: #pickle}
-{% include image.html wpsrc="2023/2023-01-12-pickle.jpg" width="700" alt="Two photographs of a mostly black cat with a white bib. In the left photograph, a the cat is lounging comfortably on the floor. In the right photograph, the photograph is taken looking up at the face of the cat." %} 
+{{ image(width="700", localsrc="2023/2023-01-12-pickle.jpg", alt="Two photographs of a mostly black cat with a white bib. In the left photograph, a the cat is lounging comfortably on the floor. In the right photograph, the photograph is taken looking up at the face of the cat.") }} 
 We had a visiting cat for Christmas break! 
 This sweetheart is _Pickle_, which is short for _Dill Pickle Murray_, and is my daughter's college apartment cat. 
 It took most of the Christmas break for Pickle to get comfortable in the house and for Mittens and Alan to get comfortable with Pickle. 

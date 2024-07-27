@@ -141,7 +141,7 @@ The operator, a recent English graduate student, describes how her writing skill
 
 ## Synchronized Sleeping
 {: #dual-thrones}
-{% include image.html wpsrc="2022/2022-12-15-dual-thrones.jpeg" width="700" alt="Photograph of two cats on a bench against a cream-colored wall. On the bench seat are two blue boxes, and in each box is a sleeping cat." %} 
+{{ image(width="700", localsrc="2022/2022-12-15-dual-thrones.jpeg", alt="Photograph of two cats on a bench against a cream-colored wall. On the bench seat are two blue boxes, and in each box is a sleeping cat.") }} 
 Alan and Mittens are tuckered out after a long day. 
 Up until this week, the bench only had one box on it. 
 The box is the container for a lay leadership award I received from my church last year, and the two cats fought over who would get to sit in the box. 

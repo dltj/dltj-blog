@@ -10,7 +10,7 @@ tags:
 - digital preservation
 ---
 
-{% include image.html wpsrc="2022/2022-11-27-dall-e.png" width="350" float="right" href="https://labs.openai.com/s/mycXvF0QGOWiSkQQZ9HllVTK" alt="DALL•E generated image" caption="DALL*E prompt: photorealistic waves of twitter logos and mastodon logos crashing onto a sandy beach"%} 
+{{ image(float="right", width="350", localsrc="2022/2022-11-27-dall-e.png", caption="DALL*E prompt: photorealistic waves of twitter logos and mastodon logos crashing onto a sandy beach", alt="DALL•E generated image", ahref="https://labs.openai.com/s/mycXvF0QGOWiSkQQZ9HllVTK") }} 
 
 Much has been made about the differences between Twitter and Mastodon: the challenge of finding a home for your account (and the corresponding differences between your “local” timeline and your “global” timeline), the intentional antiviral design choices (no quote-tweets and a narrow search system), and the more-empowering block and mute features. 
 A recent article in *MIT Technology Review* about {{ robustlink(href="https://www.technologyreview.com/2022/11/11/1063162/twitters-imminent-collapse-could-wipe-out-vast-records-of-recent-human-history/", versionurl="https://web.archive.org/web/20221125215213/https://www.technologyreview.com/2022/11/11/1063162/twitters-imminent-collapse-could-wipe-out-vast-records-of-recent-human-history/", versiondate="2022-11-27", title="Twitter’s potential collapse could wipe out vast records of recent human history | MIT Technology Review", anchor="the potential loss to history if Twitter goes away") }} had me thinking of another one difference: a Mastodon-filled world changes expectations for archiving this kind of primary source material. 

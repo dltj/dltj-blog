@@ -40,7 +40,7 @@ I'm using a hardwired ethernet connection between my desktop and the residential
 	* DHCP Lease Time: 24
 1. At the bottom, click "Save".  You'll need your Device Access Code at this point to save your changes.
 
-{% include image.html wpsrc="2022/2022-01-13-pace-gateway-dhcp.png" width="846" alt="Screen Capture of the DHCP Configuration page of a Pace 5268ac Residential Gateway" caption="Pace Residential Gateway DHCP Configuration Page" %}
+{{ image(width="846", localsrc="2022/2022-01-13-pace-gateway-dhcp.png", caption="Pace Residential Gateway DHCP Configuration Page", alt="Screen Capture of the DHCP Configuration page of a Pace 5268ac Residential Gateway") }}
 
 The IP address ranges on the LAN side of the residential gateway have now changed, so the browser's computer is going to need a new IP address. 
 Unplug the ethernet cable and plug it back in to get a DHCP IP address assignment in the 192.168.100.x block; if using wifi, turn it off and turn it back on. 
@@ -57,7 +57,7 @@ In these examples "SONATA" is the name of my desktop computer, and my home route
 5. Under "2) Edit firewall settings for this computer" pick _Allow all applications (DMZ plus mode)_
 6. Click "Save"
 
-{% include image.html wpsrc="2022/2022-01-13-pace-gateway-dmzplus.png" width="846" alt="Screen Capture of the DHCP Configuration page of a Pace 5268ac Residential Gateway" caption="Pace Residential Gateway DHCP Configuration Page" %}
+{{ image(width="846", localsrc="2022/2022-01-13-pace-gateway-dmzplus.png", caption="Pace Residential Gateway DHCP Configuration Page", alt="Screen Capture of the DHCP Configuration page of a Pace 5268ac Residential Gateway") }}
 
 ## Ensure the Router's Network Address is Correct
 I think this section is redundant—it should be set this way as a combination of the two changes above—but you can check it to be sure.
@@ -74,7 +74,7 @@ I think this section is redundant—it should be set this way as a combination o
 	* Cascade Router: no
 5. Select "Save"
 
-{% include image.html wpsrc="2022/2022-01-13-pace-gateway-lan-ip-address-allocation.png" width="846" alt="Screen Capture of the DHCP Configuration page of a Pace 5268ac Residential Gateway" caption="Pace Residential Gateway DHCP Configuration Page" %}
+{{ image(width="846", localsrc="2022/2022-01-13-pace-gateway-lan-ip-address-allocation.png", caption="Pace Residential Gateway DHCP Configuration Page", alt="Screen Capture of the DHCP Configuration page of a Pace 5268ac Residential Gateway") }}
 
 [^1]: Aside—my residential gateway is in DMZplus mode because:
 

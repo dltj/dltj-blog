@@ -59,31 +59,13 @@ Here is how the pieces fit together:
 
 ### CloudFront distribution
 Here are the screen captures of the setup of the CloudFront distribution in the AWS web console.
-{% include image.html
-    wpsrc="2019/scaled/20190109-cloudfront-distribution-500px.png"
-    wpurl="2019/20190109-cloudfront-distribution.png"
-    width="300"
-    alt="Screen capture of the AWS CloudFront distribution screen"
-    caption="Screen capture of the AWS CloudFront distribution screen. <i>Click image to enlarge.</i>"
-%}
+{{ image(width="300", localsrc="2019/scaled/20190109-cloudfront-distribution-500px.png", abssrc="300", caption="Screen capture of the AWS CloudFront distribution screen. <i>Click image to enlarge.</i>", alt="Screen capture of the AWS CloudFront distribution screen", localhref="2019/20190109-cloudfront-distribution.png") }}
 Nothing very unusual here, but note that _Alternate Domain Names (CNAME)_ with the `feeds.dltj.org` domain name that I'm publishing to the world and the _SSL Certificate_ with the cert supplied by AWS.
 
-{% include image.html
-    wpsrc="2019/scaled/20190109-cloudfront-origin-500px.png"
-    wpurl="2019/20190109-cloudfront-origin.png"
-    width="300"
-    alt="Screen capture of the AWS CloudFront distribution screen"
-    caption="Screen capture of the AWS CloudFront distribution screen. <i>Click image to enlarge.</i>"
-%}
+{{ image(width="300", localsrc="2019/scaled/20190109-cloudfront-origin-500px.png", abssrc="300", caption="Screen capture of the AWS CloudFront distribution screen. <i>Click image to enlarge.</i>", alt="Screen capture of the AWS CloudFront distribution screen", localhref="2019/20190109-cloudfront-origin.png") }}
 Nothing unusual here either; note that the origin domain name is `feeds.feedburner.org`.
 
-{% include image.html
-    wpsrc="2019/scaled/20190109-cloudfront-behavior-500px.png"
-    wpurl="2019/20190109-cloudfront-behavior.png"
-    width="300"
-    alt="Screen capture of the AWS CloudFront distribution screen"
-    caption="Screen capture of the AWS CloudFront distribution screen. <i>Click image to enlarge.</i>"
-%}
+{{ image(width="300", localsrc="2019/scaled/20190109-cloudfront-behavior-500px.png", abssrc="300", caption="Screen capture of the AWS CloudFront distribution screen. <i>Click image to enlarge.</i>", alt="Screen capture of the AWS CloudFront distribution screen", localhref="2019/20190109-cloudfront-behavior.png") }}
 This one is a little unusual because there is a _"Lambda Function Associations"_ set for the _Viewer Request_ function.
 I did not set this Lambda@Edge function on the AWS CloudFront screen; rather set it using the Lambda screen.
 

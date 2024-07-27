@@ -27,7 +27,7 @@ In the meantime, the threads this week:
 ## Author Speaks Up for Controlled Digital Lending
 {: #author-cdl-perspective}
 
-{% include image.html wpsrc="2022/2022-02-03-tweet.png" url="https://twitter.com/mariabustillos/status/1483466509800325127" float="right" width="320" alt="Screen capture of Maria Bustillos tweet saying 'ebooks are books! CDL is Controlled Digital Lending, and it means treating ebooks like paper books, so you can borrow them from libraries. This is COOL and GOOD" caption="The controversial tweet." %} {% include thursday-threads-quote.html
+{{ image(float="right", width="320", localsrc="2022/2022-02-03-tweet.png", caption="The controversial tweet.", alt="Screen capture of Maria Bustillos tweet saying 'ebooks are books! CDL is Controlled Digital Lending, and it means treating ebooks like paper books, so you can borrow them from libraries. This is COOL and GOOD", ahref="https://twitter.com/mariabustillos/status/1483466509800325127") }} {% include thursday-threads-quote.html
 blockquote='The Big Five publishing houses’ share of the approximately $25 billion book publishing market is estimated at 80%. And it’s Big Publishing that is indeed throwing its weight around by suing the Internet Archive (the “org making reproductions” referenced here, which is actually a California state library and leading institution for digital preservation, not some random “org”).
 
 Again, [Controlled Digital Lending] provides the legal framework for any library to make **one copy** of **one paper book** that it owns and loan it to **one patron** at a time.'
@@ -61,7 +61,7 @@ Cory Doctorow's post provides a perspective on {{ robustlink(href="https://prosp
 ## Self-publishing the Local Way
 {: #self-publishing}
 
-{% include image.html wpsrc="2022/2022-02-03-dillons-book.jpeg" float="right" width="320" alt="Photograph of the cover of Dillon's addition to his local Idaho library. In a child's handwriting, the cover says 'The Adventures of Dillon Helbig’s Crismis by Dillon his self'" caption="The cover of Dillon's book." %} {% include thursday-threads-quote.html
+{{ image(float="right", width="320", localsrc="2022/2022-02-03-dillons-book.jpeg", caption="The cover of Dillon's book.", alt="Photograph of the cover of Dillon's addition to his local Idaho library. In a child's handwriting, the cover says 'The Adventures of Dillon Helbig’s Crismis by Dillon his self'") }} {% include thursday-threads-quote.html
 blockquote='The staff librarians who read Dillon&#39;s book agreed that as informal and unconventional as it was, the book met the selection criteria for the collection in that it was a high-quality story that was fun to read. So, [library branch manager Alex] Hartman asked [Dillon&#39;s mother Susan] Helbig for permission to tack a bar code onto the book and formally add it to the library’s collection.'
 href="https://www.washingtonpost.com/lifestyle/2022/01/31/library-book-idaho-dillon-helbig/"
 versionurl="https://web.archive.org/20220131230906/https://www.washingtonpost.com/lifestyle/2022/01/31/library-book-idaho-dillon-helbig/"
@@ -76,7 +76,7 @@ We know how modern self-publishing works—Amazon's Kindle Direct Publishing all
 ## Good Fences Make Good Neighbors
 {: #cat-fence}
 
-{% include image.html wpsrc="2022/2022-02-03-friends-with-fences.jpeg" width="650" alt="Photograph of two cats sitting on each end of a bed. Between the two cats is a square pillow standing upright. The white cat with black spots is in a cat bed with its head turned towards the black cat. The black cat is on a multicolored blanket with its head turned towards the white cat.  They eye each other with suspicion." caption="Alan and Mittens can coexist...under the right conditions." %} 
+{{ image(width="650", localsrc="2022/2022-02-03-friends-with-fences.jpeg", caption="Alan and Mittens can coexist...under the right conditions.", alt="Photograph of two cats sitting on each end of a bed. Between the two cats is a square pillow standing upright. The white cat with black spots is in a cat bed with its head turned towards the black cat. The black cat is on a multicolored blanket with its head turned towards the white cat.  They eye each other with suspicion.") }} 
 
 Alan and Mittens share the spotlight this week. 
 They can get along with a little help from the humans. 

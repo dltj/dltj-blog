@@ -44,12 +44,7 @@ For a static website, Amplify handles:
 All of the stuff I was doing in that 650-line CloudFormation file.
 (Plus Amplify has a lot more interesting features built into the service.)
 
-{% include image.html 
-  wpsrc="2021/AWS-Amplify-Console-Screenshot.svg"
-  caption="AWS Amplify Console"
-  alt="Screen capture the AWS Console page for the Amplify Service."
-  width="99%"
-%}
+{{ image(width="99%", localsrc="2021/AWS-Amplify-Console-Screenshot.svg", caption="AWS Amplify Console", alt="Screen capture the AWS Console page for the Amplify Service.") }}
 
 ## One Problem: Getting the Correct Version of Ruby
 Now for the two-hour detour. 

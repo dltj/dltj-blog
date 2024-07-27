@@ -42,33 +42,18 @@ Right after listing these four problems, Cory says: _"But anyway we look at it, 
 His proposal is to place "reasonable precautions" in the web proxy server as it relates to the campus identity management system. 
 This is a slide from his presentation:
 
-{% include image.html 
-  wpsrc="2020/2020-11-28-roach-slide1.png"
-  caption="Slide from presentation by Cory Roach"
-  alt="Diagram of the components that are in place to facilitate a user's access to publisher content, including the web proxy server at the center."
-  width="524"
-%}
+{{ image(width="524", localsrc="2020/2020-11-28-roach-slide1.png", caption="Slide from presentation by Cory Roach", alt="Diagram of the components that are in place to facilitate a user's access to publisher content, including the web proxy server at the center.") }}
 
 I find this layout (and lack of labels) somewhat confusing, so I re-imagined the diagram as this:
 
-{% include image.html 
-  wpsrc="2020/2020-11-28-modern-library-design-revisited.png"
-  caption="Revised 'Modern Library Design'"
-  alt="Diagram that is a derivative of Mr. Roach's diagram that emphasizes the portions that are under university control and portions under publisher control."
-  width="524"
-%}
+{{ image(width="524", localsrc="2020/2020-11-28-modern-library-design-revisited.png", caption="Revised 'Modern Library Design'", alt="Diagram that is a derivative of Mr. Roach's diagram that emphasizes the portions that are under university control and portions under publisher control.") }}
 
 The core of Cory's presentation is to add predictive analytics and per-user blocking automation to the analysis of the log files from the web proxy server and the identity management server. 
 By doing so, the university can react quicker to compromised usernames and passwords. 
 In fact, it could probably do so more quicker than the publisher could do with its own log analysis and reporting back to the university.
 
 Where Cory runs into trouble is this slide:
-{% include image.html 
-  wpsrc="2020/2020-11-28-roach-slide2.png"
-  caption="Slide from presentation by Cory Roach"
-  alt="Slide describing benefits of a Modern Library Design. Heading: Library Logs/Info. Bullet points: Timestamps, Extensive Browser Info, Username, Account Information, Customer IP, URLs Requested, 2-Factor Device Info, Geographic Location, User Behavior, Biometric Data, Threat Correlation / Info Sharing.  Heading: Publisher Logs.  Bullet points: Timestamps, Proxy IP, URLs Request"
-  width="524"
-%}
+{{ image(width="524", localsrc="2020/2020-11-28-roach-slide2.png", caption="Slide from presentation by Cory Roach", alt="Slide describing benefits of a Modern Library Design. Heading: Library Logs/Info. Bullet points: Timestamps, Extensive Browser Info, Username, Account Information, Customer IP, URLs Requested, 2-Factor Device Info, Geographic Location, User Behavior, Biometric Data, Threat Correlation / Info Sharing.  Heading: Publisher Logs.  Bullet points: Timestamps, Proxy IP, URLs Request") }}
 
 In this part of the presentation, Cory describes the kinds of patron-identifying data that the university could-or-would collect and analyze to further the security effort. 
 In search engine optimization, these sorts of data points are called "signals" and are used to improve the relevance of search results; perhaps there is an equivalent term in access control technology.

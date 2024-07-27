@@ -28,7 +28,7 @@ That is the first thread in this issue, and it is followed by more recent articl
 
 ## The Most Important Library Metadata
 {: #most-important}
-{% include image.html float="right" wpsrc="2023/2023-01-19-marc-tags.png" width="350" alt="Screen capture of a table, which is described in the text below." caption="Table 2.1—MARC tags occurring in 20% or more of WorldCat records—from 'Implications of MARC Tag Usage on Library Metadata Practices'" %}{% include thursday-threads-quote.html
+{{ image(float="right", width="350", localsrc="2023/2023-01-19-marc-tags.png", caption="Table 2.1—MARC tags occurring in 20% or more of WorldCat records—from 'Implications of MARC Tag Usage on Library Metadata Practices'", alt="Screen capture of a table, which is described in the text below.") }}{% include thursday-threads-quote.html
 blockquote='<p>The outliers in this case are those elements that appear in a large number of records — that is, what might be considered “core” elements that are used to describe the vast majority of library owned material.</p><p>Those “outliers” can be categorized according to three general purposes:</p>
 <ul>
 <li><i>Provenance and Identity:</i> identifiers (e.g. ISBN, OCLC, etc.) and cataloging source (040)</li>
@@ -95,7 +95,7 @@ These are the types of things that Karen Coyle explores in this blog post.
 
 ## Who me?
 {: #alan}
-{% include image.html wpsrc="2023/2023-01-19-alan-who-me.jpg" float="right" width="300" alt="Photograph of a white cat with black splotches sitting on a wicker cat tree in front of a sliding door. The cat's body is facing a way but it has its head twisted back towards the camera." %} 
+{{ image(float="right", width="300", localsrc="2023/2023-01-19-alan-who-me.jpg", alt="Photograph of a white cat with black splotches sitting on a wicker cat tree in front of a sliding door. The cat's body is facing a way but it has its head twisted back towards the camera.") }} 
 Ah, the innocence of a cat face. 
 Who would believe this cute face could cause any trouble. 
 

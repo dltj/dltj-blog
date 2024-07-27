@@ -29,7 +29,7 @@ The threads this week:
 
 ## One Library-related Corner of the Ukraine War
 {: #ukraine-library-association}
-{% include image.html wpsrc="2022/2022-03-03-nick-poole-tweet.png" float="right" width="320" alt="Screen capture a tweet from Nick Poole saying: 'Bloody hell. Looking at a message from the Ukraine Library Association concerning the cancellation of their forthcoming conference. it basically says &quot;We will reschedule just as soon as we have finished vanquishing our invaders&quot;. Ukrainian Librarians, I salute you' " caption='<a href="https://twitter.com/NickPoole1/status/1498309449169178634" data-versiondate="2022-03-02">Nicholas Poole tweet</a>' %}{% include thursday-threads-quote.html
+{{ image(float="right", width="320", localsrc="2022/2022-03-03-nick-poole-tweet.png", caption="Nicholas Poole tweet", alt="Screen capture a tweet from Nick Poole saying: 'Bloody hell. Looking at a message from the Ukraine Library Association concerning the cancellation of their forthcoming conference. it basically says &quot;We will reschedule just as soon as we have finished vanquishing our invaders&quot;. Ukrainian Librarians, I salute you'", ahref="https://twitter.com/NickPoole1/status/1498309449169178634") }}{% include thursday-threads-quote.html
 blockquote='Dear colleagues,
 The sneaky, cruel and bloody aggression of the Russian Federation has prevented us from implementing our plans and holding March 1-4 XII International Scientific Conference "Modern Library-Information Continuous Education: what, how, for whom? ".
 65 participants registered at the conference, re-calculated the registration fee of 35 members of the VGO Ukrainian Library Association total amount of 10 500 UAH.
@@ -68,7 +68,7 @@ I'm grateful for the people whose first instinct is to save-the-now so that sour
 
 ## Artificial Intelligence Can't Hold Copyright
 {: #ai-copyright}
-{% include image.html wpsrc="2022/2022-03-03-ai-art.png" float="right" width="320" alt="Screen capture of the lower left corner of the artwork and the credit line from the Verge article" caption="Credit line in The Verge article." %} {% include thursday-threads-quote.html
+{{ image(float="right", width="320", localsrc="2022/2022-03-03-ai-art.png", caption="Credit line in The Verge article.", alt="Screen capture of the lower left corner of the artwork and the credit line from the Verge article") }} {% include thursday-threads-quote.html
 blockquote='The US Copyright Office has rejected a request to let an AI copyright a work of art. Last week, a three-person board reviewed a 2019 ruling against Steven Thaler, who tried to copyright a picture on behalf of an algorithm he dubbed Creativity Machine. The board found that Thaler&#039;s AI-created image didn&#039;t include an element of “human authorship” — a necessary standard, it said, for protection.'
 href="https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise"
 versionurl="https://web.archive.org/20220224030841/https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise"
@@ -86,7 +86,7 @@ Entrance to Paradise  | Copyright Review Board" anchor="ruling" %}, the Review B
 
 ## This Week's Cat
 {: #mittens}
-{% include image.html wpsrc="2022/2022-03-03-mittens.jpeg" float="right" width="320" alt="Photograph of a black cat curled into a ball sleeping on a chair in the sun." %} 
+{{ image(float="right", width="320", localsrc="2022/2022-03-03-mittens.jpeg", alt="Photograph of a black cat curled into a ball sleeping on a chair in the sun.") }} 
 
 Sleep tight, dear Mittens.
 

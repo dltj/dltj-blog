@@ -98,7 +98,7 @@ For all of the legal wrangling around CDL—see entry above—is it ironic that 
 
 ## Cats on Christmas
 {: #stockings}
-{% include image.html wpsrc="2022/2022-12-29-stockings.jpeg" width="700" alt="Two photographs side-by-side. In the left photograph, a white cat with black splotches has his nose buried in a Christmas stocking that is propped up against a low table with a green and red checked tablecloth. In the right photograph, a black cat is sniffing the cat toys coming out of a stocking that is propped up on the back of a stuffed chair." %} 
+{{ image(width="700", localsrc="2022/2022-12-29-stockings.jpeg", alt="Two photographs side-by-side. In the left photograph, a white cat with black splotches has his nose buried in a Christmas stocking that is propped up against a low table with a green and red checked tablecloth. In the right photograph, a black cat is sniffing the cat toys coming out of a stocking that is propped up on the back of a stuffed chair.") }} 
 Look at these two hooligan cats getting their noses into their Christmas stockings. 
 A few new toys with lots of fresh catnip are attracting them.
 

@@ -46,7 +46,7 @@ versiondate="2021-11-23"
 anchor="Texas Plans to Become the U.S. Bitcoin Capital. Can Its Grid, Ercot, Handle It?"
 post="Bloomberg, 19-Nov-2021" %}
 
-{% include image.html wpsrc="2022/2022-01-12-calculator-tape.jpg" float="right" width="320" alt="Jumble of calculator tape" caption="<i><a href='https://www.flickr.com/photos/97699489@N00/4758769769'>Tape Pile</a></i>, by SidewaysSarah, CC-By"%}  One thread that I already anticipate will be covered on many Thursdays is the growing cryptocurrency problem.
+{{ image(float="right", width="320", localsrc="2022/2022-01-12-calculator-tape.jpg", caption="<i><a href='https://www.flickr.com/photos/97699489@N00/4758769769'>Tape Pile</a></i>, by SidewaysSarah, CC-By", alt="Jumble of calculator tape") }}  One thread that I already anticipate will be covered on many Thursdays is the growing cryptocurrency problem.
 In this edition: how cryptocurrencies are a waste of resources.
 A brief introduction, in case you haven't encountered this technology yet, goes like this: cryptocurrencies are tokens of value that are exchanged on a "blockchain".
 A blockchain, in turn, is like a strip of calculator tape...once something is printed on it, it doesn't come off and it is there for everyone to see.
@@ -54,7 +54,7 @@ Cryptocurrencies need "miners" to do the calculations that print something on th
 Miners race each other to solve complex mathematical problems to be the first to reach the right answer, and when a miner has the answer, it prints it on the tape and all of the other miners check the winner's work.
 When the work is accepted, the winning miner gets a little bit of cryptocurrency as a reward and everyone's transactions that were included in what the winner printed on the tape are considered "confirmed".
 
-{% include image.html wpsrc="2022/2022-01-12-cryptocurrency-mining-farm.jpg" float="right" width="320" alt="Racks of computers in an industrial warehouse" caption="<i><a href='https://commons.wikimedia.org/wiki/File:Cryptocurrency_Mining_Farm.jpg'>Cryptocurrency Mining Farm</a></i>, from Wikimedia Commons, CC-BySA"%}
+{{ image(float="right", width="320", localsrc="2022/2022-01-12-cryptocurrency-mining-farm.jpg", caption="<i><a href='https://commons.wikimedia.org/wiki/File:Cryptocurrency_Mining_Farm.jpg'>Cryptocurrency Mining Farm</a></i>, from Wikimedia Commons, CC-BySA", alt="Racks of computers in an industrial warehouse") }}
 In the early days of cryptocurrencies, ordinary people used their computers to run the cryptocurrency algorithms.
 But the algorithms were structured in such a way that as more miners started working, the harder the mathematical problems would get.
 It is no longer feasible for individuals to make any money using their computer's idle time (that isn't stopping some companies from trying, though—a Thread for another day).

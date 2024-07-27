@@ -14,7 +14,7 @@ mastodon:
 - Now that we have this time thing sorted out, could we explain it to an alien visitor? Perhaps we don't have time thought through after all. https://dltj.org/article/issue-98-time-standards/#aliens 7/7
 - And the weekly addition to #CatsOfMastodon. Mittens invades the groceries looking to rub her face against the strawberry container. bonus/7
 ---
-{% include image.html wpsrc="2023/2023-02-02-confessions.jpg" width="700" alt="Scan of a book page with this quote highlighted: What then is time? If no one asks me, I know: if I wish to explain it to one that asketh, I know not" caption="Augustine, Saint, Bishop of Hippo. <cite>The Confessions of St. Augustine</cite>. New York: Grosset & Dunlap, 1931, <a href='https://babel.hathitrust.org/cgi/pt?id=uc1.b3945012&view=1up&seq=281&q1=what+then+is+time'>page 267</a>. Translation of the Latin original from circa 397 CE."%} 
+{{ image(width="700", localsrc="2023/2023-02-02-confessions.jpg", caption="Augustine, Saint, Bishop of Hippo. <cite>The Confessions of St. Augustine</cite>. New York: Grosset & Dunlap, 1931, <a href='https://babel.hathitrust.org/cgi/pt?id=uc1.b3945012&view=1up&seq=281&q1=what+then+is+time'>page 267</a>. Translation of the Latin original from circa 397 CE.", alt="Scan of a book page with this quote highlighted: What then is time? If no one asks me, I know: if I wish to explain it to one that asketh, I know not") }} 
 
 This week we look at time from a few points of view:
 
@@ -137,7 +137,7 @@ An imaginary conversation in 68 tweets, including bits like:
 
 ## Mittens in the Groceries
 {: #mittens}
-{% include image.html wpsrc="2023/2023-02-02-mittens.jpg" width="700" alt="Two pictures of a black cat with a white bib. In the top picture, the cat has her head through the handles of a canvas bag full of groceries. In the bottom picture, she is rubbing her face against the edges of a plastic container of strawberries." %} 
+{{ image(width="700", localsrc="2023/2023-02-02-mittens.jpg", alt="Two pictures of a black cat with a white bib. In the top picture, the cat has her head through the handles of a canvas bag full of groceries. In the bottom picture, she is rubbing her face against the edges of a plastic container of strawberries.") }} 
 
 This is one of Mittens' quirks. 
 She waits for the groceries to come in from the car, then starts nosing through them. 

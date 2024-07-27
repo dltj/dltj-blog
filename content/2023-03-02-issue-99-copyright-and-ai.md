@@ -22,7 +22,7 @@ mastodon:
 - Source code is another area where there are questions of copyright, and this time with the terms of #OpenSource licenses as #GitHub launches its Copilot service to generate code snippets. https://dltj.org/article/issue-99-copyright-and-ai#copilot 9/10
 - And the weekly addition to #CatsOfMastodon. Alan stretches and roars in my lap. bonus/9
 ---
-{% include image.html src="2023/2023-03-02-cmf.png" float="right" width="300" alt="" caption="Cecil Mae Feather, 1929–2023"%} 
+{{ image(float="right", width="300", localsrc="2023/2023-03-02-cmf.png", caption="Cecil Mae Feather, 1929–2023") }} 
 This issue is offered in honor of {{ robustlink(href="https://www.legacy.com/us/obituaries/hickoryrecord/name/cecil-feather-obituary?id=45099704", versionurl="https://web.archive.org/web/20230302030520/https://www.legacy.com/us/obituaries/hickoryrecord/name/cecil-feather-obituary?id=45099704", versiondate="2023-03-01", title="Cecil Feather Obituary (1929 - 2023) - Newton, NC | Hickory Daily Record", anchor="Cecil Mae Thornburg Feather") }}, my mother-in-law. 
 Cecil Mae was a wonderful person. 
 I only knew her a short time as I married into the Feather family, and that time was filled with love and joy. 
@@ -57,7 +57,7 @@ Let me know if you have seen other angles that you think should be more broadly 
 
 ## Copyright is for humans
 {: #humans}
-{% include image.html srcabs="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Macaca_nigra_self-portrait_large.jpg/173px-Macaca_nigra_self-portrait_large.jpg" float="right" width="173" alt="Photograph of a monkey face with a slight grin set against a leafy green background" caption="Naruto's 'monkey selfie'"%}
+{{ image(float="right", width="173", abssrc="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Macaca_nigra_self-portrait_large.jpg/173px-Macaca_nigra_self-portrait_large.jpg", caption="Naruto's 'monkey selfie'", alt="Photograph of a monkey face with a slight grin set against a leafy green background") }}
 {% include thursday-threads-quote.html
 blockquote='We must determine whether a monkey may sue humans, corporations, and companies for damages and injunctive relief arising from claims of copyright infringement. Our court’s precedent requires us to conclude that the monkey’s claim has standing under Article III of the United States Constitution. Nonetheless, we conclude that this monkey—and all animals, since they are not human—lacks statutory standing under the Copyright Act.'
 href="http://cdn.ca9.uscourts.gov/datastore/opinions/2018/04/23/16-15469.pdf"
@@ -125,11 +125,7 @@ post=', Ars Technica, 30-Jan-2023'
 
 In image form, the linking of text descriptions of images found on the internet (such as found in HTML "alt" attributes or in the text surrounding the image in a catalog) is what the algorithm uses to generate new images. 
 
-{% include image.html 
-width="640"
-srcabs="https://cdn.arstechnica.net/wp-content/uploads/2023/01/generativeai8-640x327.png"
-caption="How the Stable Diffusion algorithm turns text into images, from <a href='https://arstechnica.com/gadgets/2023/01/the-generative-ai-revolution-has-begun-how-did-we-get-here/'>Ars Technica</a>"
-%}
+{{ image(width="640", abssrc="https://cdn.arstechnica.net/wp-content/uploads/2023/01/generativeai8-640x327.png", caption="How the Stable Diffusion algorithm turns text into images, from <a href='https://arstechnica.com/gadgets/2023/01/the-generative-ai-revolution-has-begun-how-did-we-get-here/'>Ars Technica</a>") }}
 
 So, going back to _Naruto v. Slater_, we're pretty sure that the output of these algorithms and statistical models can't be copyrighted. 
 But were the copyright holders' rights violated when their text and images were used to build the statistical models? 
@@ -168,12 +164,7 @@ post=', The Verge, 6-Feb-2023'
 
 A rich source of images and descriptions about images can be found in the Getty Images catalog. 
 
-{% include image.html 
-width="600"
-src="2023/2023-03-02-getty-images-lawsuit.png"
-alt="Two side by side images show soccer players fighting for a ball. The left is a real photograph but the right is an AI-generated version, with distortion of the players’ bodies and faces."
-caption="From the Getty Images v. Stability AI lawsuit."
-%}
+{{ image(width="600", localsrc="2023/2023-03-02-getty-images-lawsuit.png", caption="From the Getty Images v. Stability AI lawsuit.", alt="Two side by side images show soccer players fighting for a ball. The left is a real photograph but the right is an AI-generated version, with distortion of the players’ bodies and faces.") }}
 
 The algorithm is so uncanny that it reproduces what looks like the Getty Images watermark in the derived image. 
 Getty Images alleges three things.
@@ -199,12 +190,7 @@ post=', MIT Technology Review, 3-Feb-2023'
 This article summarizes the finding of researchers investigating whether it was possible to get the LLM algorithms to return known images in the dataset. 
 With a unique enough prompt and training data set: yes, that seems quite possible.
 
-{% include image.html 
-width="600"
-src="2023/2023-03-02-arxiv-paper.jpg"
-alt="Two side by side images. The first is a clear headshot of a blond woman in a turquoise shirt and necklace. The second is a slightly distorted version of the same image."
-caption="Figure from 'Extracting Training Data from Diffusion Models' <a href='https://arxiv.org/abs/2301.13188'>arXiv:2301.13188</a>"
-%}
+{{ image(width="600", localsrc="2023/2023-03-02-arxiv-paper.jpg", caption="Figure from 'Extracting Training Data from Diffusion Models' <a href='https://arxiv.org/abs/2301.13188'>arXiv:2301.13188</a>", alt="Two side by side images. The first is a clear headshot of a blond woman in a turquoise shirt and necklace. The second is a slightly distorted version of the same image.") }}
 
 
 ## Open source coders sue GitHub owner Microsoft and Microsoft's partner OpenAI
@@ -227,7 +213,7 @@ This is a new case, and it is one to watch to see how copyright and license term
 
 ## Roaar?
 {: #alan}
-{% include image.html src="2023/2023-03-02-alan.jpg" width="600" alt="A white cat with black splotches stretches his back feet awkwardly and yawns while sitting on top of a green blanket on the photographer's lap." %} 
+{{ image(width="600", localsrc="2023/2023-03-02-alan.jpg", alt="A white cat with black splotches stretches his back feet awkwardly and yawns while sitting on top of a green blanket on the photographer's lap.") }} 
 
 A man and his cat. 
 Is there any more to life?

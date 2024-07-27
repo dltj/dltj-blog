@@ -13,10 +13,7 @@ tags:
 - system administration
 ---
 I saw it happen. 
-{% include image.html
-  wpsrc="2020/2020-04-21-ditchwitch.png"
-  caption="The cable-chewing device"
-%}
+{{ image(width="", localsrc="2020/2020-04-21-ditchwitch.png", caption="The cable-chewing device") }}
 The contractor in the neighbor's back yard with the Ditch Witch trencher burying a cable. 
 I was working outside at the patio table and just about to go into a Zoom meeting. 
 Then the internet dropped out. 
@@ -27,10 +24,7 @@ To be fair, the utility locator service did not mark the my cable's location, an
 (There are three providers in our neighborhood.)
 It did mean, though, that our broadband internet would be out until my provider could come and run another line. 
 It took an hour of moping about the situation to figure out a solution, then another couple of hours to put it in place:  an iPhone tethered to a Raspberry Pi that acted as a network bridge to my home network's UniFi Security Gateway 3P.
-{% include image.html 
-  wpsrc="2020/2020-04-21-ubiquity-tethered-iphone.svg"
-  caption="Network diagram with tethered iPhone"
-%}
+{{ image(width="", localsrc="2020/2020-04-21-ubiquity-tethered-iphone.svg", caption="Network diagram with tethered iPhone") }}
 A few years ago I was tired of dealing with spotty consumer internet routers and upgraded the house to [UniFi](https://unifi-network.ui.com/) gear from Ubiquity. 
 Rob Pickering, a college comrade, had [written about his experience with the gear](https://robpickering.com/ubiquiti-configure-micro-segmentation-for-iot-devices/) and I was impressed. 
 It wasn't a cheap upgrade, but it was well worth it.

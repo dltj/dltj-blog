@@ -11,7 +11,7 @@ tags:
 - controlled digital lending
 - controlled digital interlibrary loan
 ---
-{% include image.html wpsrc="2022/2022-01-20-alan.jpg" float="right" width="320" alt="Photograph of a white cat with black splotches laying across a lap" caption="Alan the cat" %} 
+{{ image(float="right", width="320", localsrc="2022/2022-01-20-alan.jpg", caption="Alan the cat", alt="Photograph of a white cat with black splotches laying across a lap") }} 
 Wednesday night with a cat on the lap, composing the next day's <i>Thursday Threads</i>. 
 How could life get any better?
 

@@ -10,7 +10,7 @@ tags:
 ---
 
 Earlier this week, NISO held its one-day {{ robustlink(href="https://niso.plus/forum/", versionurl="https://web.archive.org/web/20220923015355/https://niso.plus/forum/", versiondate="2022-09-22", title="", anchor="NISO Plus Forum for 2022") }}.
-{% include image.html wpsrc="2022/2022-09-22-niso-plus-forum.webp" width="300" float="right" alt="NISO Plus Forum 2022 logo" %}
+{{ image(float="right", width="300", localsrc="2022/2022-09-22-niso-plus-forum.webp", alt="NISO Plus Forum 2022 logo") }}
 This was an in-person meeting that is intended to feed into the online conference in February 2023.
 Around 100 people from NISO's membership groups—libraries, content providers, and service providers—attended to talk about _metadata_.
 The meeting was structured in {{ robustlink(href="https://theworldcafe.com/key-concepts-resources/world-cafe-method/", versionurl="https://web.archive.org/web/20220923015409/https://theworldcafe.com/key-concepts-resources/world-cafe-method/", versiondate="2022-09-22", title="", anchor="_World Café_ style") }} and was moderated by {{ robustlink(href="https://niso.plus/taking-a-hands-on-approach-to-improving-metadata-at-the-niso-plus-forum/", versionurl="https://web.archive.org/web/20220923015711/https://niso.plus/taking-a-hands-on-approach-to-improving-metadata-at-the-niso-plus-forum/", versiondate="2022-09-22", title="", anchor="Jonathan Clark") }}.

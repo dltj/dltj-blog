@@ -10,7 +10,7 @@ tags:
 ---
 For this week's newsletter introduction, I searched the Flikr service for photographs of libraries in Ukraine. 
 I thought that putting a picture here at the top of a grand reading room with dark wood shelves and neat rows of books would help us remember that a significant part of our world has been turned upside down. 
-What I didn't expect to find was an album titled {% include robustlink.html href="https://www.flickr.com/photos/undpukraine/albums/72157720123324004" versionurl="https://web.archive.org/web/20220310012300/https://www.flickr.com/photos/undpukraine/albums/72157720123324004" versiondate="2022-03-09" anchor='"November 2021: Strategic Session on Digital Education Hubs development"' %}. {% include image.html wpsrc="2022/2022-03-10-ukraine-library.jpg" width="700" url="https://www.flickr.com/photos/undpukraine/51667084715/in/album-72157720123324004/" alt="Photograph a conference presentation." caption="Attendees of the strategic session on Digital Education Hubs development. <a href='https://www.flickr.com/photos/undpukraine/51667084715/in/album-72157720123324004/'>Source</a>, CC By-ND"%} 
+What I didn't expect to find was an album titled {% include robustlink.html href="https://www.flickr.com/photos/undpukraine/albums/72157720123324004" versionurl="https://web.archive.org/web/20220310012300/https://www.flickr.com/photos/undpukraine/albums/72157720123324004" versiondate="2022-03-09" anchor='"November 2021: Strategic Session on Digital Education Hubs development"' %}. {{ image(width="700", localsrc="2022/2022-03-10-ukraine-library.jpg", caption="Attendees of the strategic session on Digital Education Hubs development. <a href='https://www.flickr.com/photos/undpukraine/51667084715/in/album-72157720123324004/'>Source</a>, CC By-ND", alt="Photograph a conference presentation.", ahref="https://www.flickr.com/photos/undpukraine/51667084715/in/album-72157720123324004/") }} 
 Four months ago, these professionals were gathered together in a room to hear presentations, sort multi-color post-it notes on flip charts, and work together for "the transformation of libraries into Digital Education Hubs". 
 That is a scene that is very familiar to me, and quite possibly to many of my readers as well. 
 Now their country is being bombed, its citizens are fleeing, and I doubt anyone is thinking about the transformation of libraries.
@@ -33,7 +33,7 @@ versionurl="https://web.archive.org/20220309200902/https://99percentinvisible.or
 versiondate="2022-03-09 19:12:47+00:00"
 anchor="Uncensored Library: Banned Journalism Housed in Virtual Minecraft Architecture"
 post=', 99% Invisible, 3-Mar-2022'
-%}{% include image.html wpsrc="2022/2022-03-10-uncensored.jpg" float="right" width="320" alt="Screen capture of a Minecraft view showing the welcome banner for 'The Uncensored Library' and the map of rooms in the virtual world." %} 
+%}{{ image(float="right", width="320", localsrc="2022/2022-03-10-uncensored.jpg", alt="Screen capture of a Minecraft view showing the welcome banner for 'The Uncensored Library' and the map of rooms in the virtual world.") }} 
 
 
 With help from my teenage son, I got into the _[Uncensored Library](https://www.uncensoredlibrary.com/en)_ on Minecraft. 
@@ -62,7 +62,7 @@ The “right to be forgotten” laws were originally intended for delisting from
 
 ## This Week's Cat
 {: #alan}
-{% include image.html wpsrc="2022/2022-03-10-alan.jpg" float="right" width="320" alt="Photograph of a black and white cat curled into a ball sleeping on a bed comforter." %} 
+{{ image(float="right", width="320", localsrc="2022/2022-03-10-alan.jpg", alt="Photograph of a black and white cat curled into a ball sleeping on a bed comforter.") }} 
 
 It is starting to feel like I need to give equal time to each feline. 
 Last week featured Mittens curled up in a ball. 

@@ -90,7 +90,7 @@ It is also an indictment of the extent to which the requirements of insurance co
 
 ## Spring in the Northern Hemisphere Makes Cats Happy
 {: #alan-mittens}
-{% include image.html wpsrc="2022/2022-03-24-alan-mittens.jpg" width="700" alt="Photograph of a black cat and a white and grey cat on the lawn with harnesses on." %} 
+{{ image(width="700", localsrc="2022/2022-03-24-alan-mittens.jpg", alt="Photograph of a black cat and a white and grey cat on the lawn with harnesses on.") }} 
 
 It is warming up—70°F/21°C—earlier this week, and that means the cats want to go outside. 
 We don't let them wander the neighborhood by themselves for their own protection. 

@@ -29,7 +29,7 @@ Hopefully I've managed to give back in equal measure to those coming into the fi
 <table style="font-size:inherit;border-bottom:0px;">
 <tr>
 <td>
-{% include image.html wpsrc="2022/2022-03-01-indexdata.jpg" width="100" alt="Logo for Index Data." %} 
+{{ image(width="100", localsrc="2022/2022-03-01-indexdata.jpg", alt="Logo for Index Data.") }} 
 </td>
 <td>
 Open Source Community Advocate<br>
@@ -39,7 +39,7 @@ Index Data · Jun 2016 - Present · 5 yrs 10 mos
 
 <tr>
 <td>
-{% include image.html wpsrc="2022/2022-03-01-cherry-hill.jpg" width="100" alt="Logo for Cherry Hill Company." %} 
+{{ image(width="100", localsrc="2022/2022-03-01-cherry-hill.jpg", alt="Logo for Cherry Hill Company.") }} 
 </td>
 <td>
 Dev/Ops Lead and Project Manager<br>
@@ -49,7 +49,7 @@ The Cherry Hill Company · Aug 2015 - Dec 2016 · 1 yr 5 mos
 
 <tr>
 <td>
-{% include image.html wpsrc="2022/2022-03-01-lyrasis.jpg" width="100" alt="Logo for LYRASIS." %} 
+{{ image(width="100", localsrc="2022/2022-03-01-lyrasis.jpg", alt="Logo for LYRASIS.") }} 
 </td>
 <td>
 Assistant Director, Technology Services Development<br>
@@ -59,7 +59,7 @@ Lyrasis · Sep 2010 - Jun 2015 · 4 yrs 10 mos
 
 <tr>
 <td>
-{% include image.html wpsrc="2022/2022-03-01-ohiolink.jpg" width="100" alt="Logo for OhioLINK." %} 
+{{ image(width="100", localsrc="2022/2022-03-01-ohiolink.jpg", alt="Logo for OhioLINK.") }} 
 </td>
 <td>
 Assistant Director, Multimedia Services; Assistant Director, New Service Development<br>
@@ -69,7 +69,7 @@ OhioLINK · Jan 2005 - Sep 2010 · 5 yrs 9 mos
 
 <tr>
 <td>
-{% include image.html wpsrc="2022/2022-03-01-uconn.jpg" width="100" alt="Logo for University of Connecticut." %} 
+{{ image(width="100", localsrc="2022/2022-03-01-uconn.jpg", alt="Logo for University of Connecticut.") }} 
 </td>
 <td>
 Computer Services Librarian (Law School); Area Head for Library Information Technology Services; Assistant to the Director for Technology Initiatives<br>
@@ -79,7 +79,7 @@ University of Connecticut · Feb 2000 - December 2004 · 4 yrs 11 mos
 
 <tr>
 <td>
-{% include image.html wpsrc="2022/2022-03-01-cwru.jpg" width="100" alt="Logo for Case Western Reserve University ." %} 
+{{ image(width="100", localsrc="2022/2022-03-01-cwru.jpg", alt="Logo for Case Western Reserve University .") }} 
 </td>
 <td>
 Library Systems Manager<br>
@@ -88,7 +88,7 @@ Case Western Reserve University · Jul 1995 - Feb 2000 · 4 yrs 8 mos</td>
 
 <tr>
 <td>
-{% include image.html wpsrc="2022/2022-03-01-miamiu.jpg" width="100" alt="Logo for Miami University." %} 
+{{ image(width="100", localsrc="2022/2022-03-01-miamiu.jpg", alt="Logo for Miami University.") }} 
 </td>
 <td>
 Library Systems Manager<br>

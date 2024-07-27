@@ -15,28 +15,13 @@ Most people do this with a screenshot of a tweet, but that doesn't capture the f
 
 Ed Summers pointed out a {{ robustlink(href="https://apnews.com/article/technology-police-government-surveillance-covid-19-3f3f348d176bc7152a8cb2dbab2e4cc4", versionurl="https://web.archive.org/web/20230204174731/https://apnews.com/article/technology-police-government-surveillance-covid-19-3f3f348d176bc7152a8cb2dbab2e4cc4", versiondate="2023-02-04", title="Police seize on COVID-19 tech to expand global surveillance | AP News", anchor="recent article") }} from the Associated Press that embedded a functional archive of a tweet. (Scroll down nearly to the end of the article.) 
 
-{% include image.html 
-float="left"
-width="350"
-src="2023/2023-02-04-screenshot-apnews-tweet.png"
-caption="Screen capture of a tweet from TelanganaDGP"
-%}
-{% include image.html 
-float="right"
-width="350"
-src="2023/2023-02-04-screenshot-apnews-info.png"
-caption="Screen capture of the contents of 'click here to learn more'"
-%}
+{{ image(float="left", width="350", localsrc="2023/2023-02-04-screenshot-apnews-tweet.png", caption="Screen capture of a tweet from TelanganaDGP") }}
+{{ image(float="right", width="350", localsrc="2023/2023-02-04-screenshot-apnews-info.png", caption="Screen capture of the contents of 'click here to learn more'") }}
 <div style='clear:both'></div>
 
 That looked interesting, so with the help of hints from Ed, I [embedded a tweet in last week's newsletter](https://dltj.org/article/issue-98-time-standards/#aliens).
 
-{% include image.html 
-url="https://dltj.org/article/issue-98-time-standards/#aliens"
-width="600"
-src="2023/2023-02-04-screenshot-dltj.png"
-caption="Screen capture from last week's DLTJ Thursday Threads on 'Explaining our concept of time to aliens'"
-%}
+{{ image(width="600", localsrc="2023/2023-02-04-screenshot-dltj.png", caption="Screen capture from last week's DLTJ Thursday Threads on 'Explaining our concept of time to aliens'", ahref="https://dltj.org/article/issue-98-time-standards/#aliens") }}
 
 This is how I did it...plus some helpful advice along the way.
 
@@ -73,29 +58,16 @@ In this example, we are going to archive [https://twitter.com/DataG/status/15858
 
 When you open the extension or launch the application, you'll see these buttons.
 
-{% include image.html 
-width="700"
-src="2023/2023-02-05-archiveweb-home.png"
-caption="Startup page for the ArchiveWeb extension and application."
-%}
+{{ image(width="700", localsrc="2023/2023-02-05-archiveweb-home.png", caption="Startup page for the ArchiveWeb extension and application.") }}
 
 1. Select "Create new...". This will create a new web archive; a single web archive can contain multiple web pages. Name the archive something meaningful...I use a combination of service, username, and identifier separated by dashes (so `twitter-DataG-1585816108908662788` in my example).
 1. Select "Start recording...". You are prompted for the name of the web archive (which we just created) and a text entry box for a URL. Put the "oembed.link" URL in that box and select "Go"; it will immediately be fetched and put into the web archive. There is also a checkbox to start in "Preview Mode" if you don't want your first URL added to the web archive.
-1. A new window opens. Look for the ArchiveWeb button in the upper right corner. {% include image.html 
-float="right"
-width="92"
-src="2023/2023-02-05-archiveweb-button.png"
-alt="A blue/green circular button with a green square covering the lower right corner of the button."
-%} If the square is green, the web page has stopped loading and is fully recorded in the archive. 
+1. A new window opens. Look for the ArchiveWeb button in the upper right corner. {{ image(float="right", width="92", localsrc="2023/2023-02-05-archiveweb-button.png", alt="A blue/green circular button with a green square covering the lower right corner of the button.") }} If the square is green, the web page has stopped loading and is fully recorded in the archive. 
 1. To record a second page, put the URL in the top box and press return. In my case, I'm also going to put the contents of the direct Twitter URL (without the oembed) into the archive as well. You can also click on links in the window...the contents of any page you view will be recorded in the web archive.
 1. When you are done recording, select the ArchiveWeb button in the upper right and in the drop-down menu select "Stop". Then close this window.
 1. The ArchiveWeb screen shows your new web archive. Select "Download" then "Download all as WACZ" to get the web archive file.
 
-{% include image.html 
-width="700"
-src="2023/2023-02-05-archiveweb-archive.png"
-caption="View of the new web archive with two captured pages in ArchiveWeb."
-%}
+{{ image(width="700", localsrc="2023/2023-02-05-archiveweb-archive.png", caption="View of the new web archive with two captured pages in ArchiveWeb.") }}
 
 First step done!
 
@@ -228,10 +200,7 @@ We're going to use the same oEmbed technique described above to get the pages in
 1. In the "Information" tab, I use a more meaningful name than the first URL captured. For instance, to capture the `https://twitter.com/DataG/status/1585816108908662788` tweet I set it to "twitter-DataG-1585816108908662788" — the origin website, account, and identifier separated by dashes.
 1. Select "Review & Save" then "Save & Run Crawl"
 
-{% include image.html 
-src="2023/2023-02-04-browsertrix.png"
-caption="Screen capture of the crawl configuration 'Scope' page from Browsertrix."
-%}
+{{ image(width="", localsrc="2023/2023-02-04-browsertrix.png", caption="Screen capture of the crawl configuration 'Scope' page from Browsertrix.") }}
 
 As the web archive capture starts, you'll see the running status. 
 My tweet crawl took about a minute to run. 
