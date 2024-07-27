@@ -25,7 +25,7 @@ The threads this week:
 * [Archiving the Ukrainian Web]({% post_url_absolute 2022-03-03-issue-87-ukraine-ai-art %}#ukraine-webarchive)
 * [Artificial Intelligence Can't Hold Copyright]({% post_url_absolute 2022-03-03-issue-87-ukraine-ai-art %}#ai-copyright)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## One Library-related Corner of the Ukraine War
 {: #ukraine-library-association}

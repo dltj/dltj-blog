@@ -17,7 +17,7 @@ The threads this week:
 * [Fraud in NFTs]({% post_url_absolute 2022-02-17-issue-85-article-fingerprints-nft-fraud-life-improvements %}#nft-fraud)
 * [Improve Your Life]({% post_url_absolute 2022-02-17-issue-85-article-fingerprints-nft-fraud-life-improvements %}#life-improvements)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 
 ## Privacy-busting Fingerprints in Journal Articles

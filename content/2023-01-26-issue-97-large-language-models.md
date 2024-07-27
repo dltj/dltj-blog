@@ -31,7 +31,7 @@ Also on <i>DLTJ</i> in the past week:
 
 - [LibNFT: a second look…still ‘nope’](https://dltj.org/article/libnft-2/)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## AI generating news articles, and we're not impressed
 {: #cnet}

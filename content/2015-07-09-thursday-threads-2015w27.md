@@ -26,7 +26,7 @@ Two articles in each of two threads this week:
 * [If Strong Encryption is Outlawed...](/article/thursday-threads-2015w27/#p26075-encryption)
 * [Allocations of IPv4 Internet Addresses Now Restricted; It's a Good Thing IPv6 is Finally Here](/article/thursday-threads-2015w27/#p26075-ipv6)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## If Strong Encryption is Outlawed...
 {: #p26075-encryption}

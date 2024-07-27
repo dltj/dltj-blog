@@ -29,7 +29,7 @@ The threads this week:
 * [Gamers Pushing Back Against Non-Fungible Tokens](#gamers-nfts)
 * [Cat Dish](#cat-dish)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 
 ## Controlled Digital Lending Gets a Funding Boost

@@ -59,7 +59,7 @@ With the close of the year approaching, this issue marks the 14th week of <i><ac
 
 As the new year approaches, I wish you the best professionally and personally.
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## Books after Amazon
 {: #books_after_amazon}

@@ -26,7 +26,7 @@ With that definition in mind, the thread this week is on challenges with machine
 * [With Machine Learning, Garbage In/Garbage Out]({% post_url_absolute 2022-03-24-issue-90-when-ml-goes-wrong %}#gigo)
 * [Five Realities Why Applying Machine Learning to Medical Records is Hard]({% post_url_absolute 2022-03-24-issue-90-when-ml-goes-wrong %}#ml-medical)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## Flip the Switch on Your Drug Synthesizing Tool and Chemical Weapons Come Out
 {: #ml-drugs}

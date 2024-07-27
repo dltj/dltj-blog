@@ -39,7 +39,7 @@ Also on <i>DLTJ</i> in the past week:
 
 - [Controlled Digital Lending…What’s the Fuss?](https://dltj.org/article/cdl-code4lib/): slides and transcript from a presentation at Code4Lib 2023 in Princeton, New Jersey.
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## What is the internet?
 {: #internet-sanctions}

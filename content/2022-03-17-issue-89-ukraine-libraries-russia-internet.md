@@ -18,7 +18,7 @@ The threads this week:
 * [Can the Internet Sanction a Country? Should It?]({% post_url_absolute 2022-03-17-issue-89-ukraine-libraries-russia-internet %}#internet-sanctions)
 * [_Thursday Threads 2011_: The Demise of the Big Deal?]({% post_url_absolute 2022-03-17-issue-89-ukraine-libraries-russia-internet %}#thursday-threads-2011)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## Ukraine Libraries Doing What Libraries Do
 {: #ukraine-libraries}

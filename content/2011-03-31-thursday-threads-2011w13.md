@@ -82,7 +82,7 @@ comments:
 
 It is another e-books issue of <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads</i> with updates on three significant efforts:  <a href="#p2768-hcod">HarperCollins</a>, <a href="#p2768-gbs">Google Book Search Settlement</a>, <a href="#p2768-dpla">Digital Public Library of America</a>.  And, just for fun and to keep this from turning into purely a legal and blue-sky policy blog, we have a video of <a href="#p2768-robotic-juggling">juggling robots</a>.
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## More Libraries Decide To Give HarperCollins the Cold Shoulder
 {: #p2768-hcod}

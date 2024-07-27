@@ -26,7 +26,7 @@ This week we look at time from a few points of view:
 - [Explaining our concept of time to aliens](https://dltj.org/article/issue-98-time-standards/#aliens)
 - [Mittens in the Groceries](https://dltj.org/article/issue-98-time-standards/#mittens)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 
 ## Eliminating the leap second

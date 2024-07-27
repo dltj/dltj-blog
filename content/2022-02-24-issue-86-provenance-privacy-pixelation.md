@@ -20,7 +20,7 @@ The threads this week:
 * [Pixelation for Redaction → bad]({% post_url_absolute 2022-02-24-issue-86-provenance-privacy-pixelation %}#pixelation-redation)
 * [Google Changes Up In-App Advertising]({% post_url_absolute 2022-02-24-issue-86-provenance-privacy-pixelation %}#android-privacy-sandbox)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 
 ## Specification for Media Content Provenance

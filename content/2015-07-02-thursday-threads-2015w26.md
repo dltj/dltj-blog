@@ -25,7 +25,7 @@ I'm just home from the {{ robustlink(href="http://ALAac15.ala.org/", versionurl=
 
 {{ note(note_text='<em>Funding for my current position at LYRASIS ran out at the end of June, so <a href="/article/seeking-new-opportunity" title="Seeking new opportunity in library technology | Disruptive Library Technology Jester">I am looking for new opportunities and challenges for my skills</a>.  Check out <a href="https://dltj.org/resume/">my resume/<i>c.v.</i></a> and <a href="/contact/">please let me</a> know of job opportunities in library technology, open source, and/or community engagement.</em>') }}%}
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## Book-Donations-Processing-as-a-Service
 {: #p26028-bdpaas}

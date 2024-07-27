@@ -28,7 +28,7 @@ Don't be a stranger—drop me a line if you find this interesting or come across
 * [OCLC versus Clarivate: In the Battle for Bibliographic Records, the Winner is ???](https://dltj.org/article/issue-91/#oclc-vs-clarivate)
 * [Moving On to Mastodon](https://dltj.org/article/issue-91/#mastodon)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## OCLC versus Clarivate: In the Battle for Bibliographic Records, the Winner is ???
 {: #oclc-vs-clarivate}

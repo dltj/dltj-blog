@@ -24,7 +24,7 @@ That is the first thread in this issue, and it is followed by more recent articl
 - [ICOLC Statement on the Metadata Rights of Libraries](https://dltj.org/article/issue-96-metadata#icolc-statement)
 - [What's in a name?](https://dltj.org/article/issue-96-metadata#names)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## The Most Important Library Metadata
 {: #most-important}

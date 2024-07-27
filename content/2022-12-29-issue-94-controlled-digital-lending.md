@@ -31,7 +31,7 @@ Details of this lawsuit and more in this issue.
 
 May you have a safe, happy, and healthy New Year.
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## Updates on Funding Announcements
 {: #dltj-cdl-updates}

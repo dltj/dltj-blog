@@ -78,7 +78,7 @@ comments:
 
 As the last <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads</i> of the year, the stories in this post look back to what we saw in 2011 and look forward to what we may see in 2012.  Looking backwards is a list of <a href="#p3560-publishing">five things we learned about publishing</a> from O'Reilly Media and <a href="#p3560-zeitgeist">Google's 3-minute Zeitgeist video</a>.  Looking forward are a list of predictions <a href="#p3560-tech">from Fast Company</a> and <a href="#p3560-nesta">from the National Endowment for Science Technology and the Arts</a> in the UK.  At this high point when 2011 is slowing and we start down the hill of 2012, I wish you a happy and prosperous new year.
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## Five things we learned about publishing in 2011
 {: #p3560-publishing}

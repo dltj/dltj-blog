@@ -24,7 +24,7 @@ This week we revisit threads from a month ago, a year ago, and 12 years ago.
 - [Cryptocurrency miners in Texas forced to shut down due to electricity shortage](https://dltj.org/article/issue-95-chatgpt-cryptomining-wssl#cryptocurrency-energy)
 - [Lament for a future that could have been: A Web presence for every library](https://dltj.org/article/issue-95-chatgpt-cryptomining-wssl#wssl)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## ChatGPT references a non-existent book
 {: #chatgpt-bad-reference}

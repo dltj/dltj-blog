@@ -22,7 +22,7 @@ In the meantime, the threads this week:
 * [The Wrestling Monopsony]({% post_url_absolute 2022-02-03-issue-83-cdl-wwe-childrens-book %}#wwe-redux)
 * [Self-publishing the Local Way]({% post_url_absolute 2022-02-03-issue-83-cdl-wwe-childrens-book %}#self-publishing)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## Author Speaks Up for Controlled Digital Lending
 {: #author-cdl-perspective}

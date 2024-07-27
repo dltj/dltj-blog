@@ -24,7 +24,7 @@ Two threads this week:
 On a professional note, my employer is looking for a {{ robustlink(href="https://www.indexdata.com/index-data-seeks-a-folio-services-analyst/", versionurl="/", versiondate="2022-01-12", anchor="FOLIO Services Analyst") }} to join our growing effort bringing the FOLIO open source platform to libraries around the world.
 If getting in on the ground floor of a revolution in library technology sounds appealing, check out the job description at the link above.
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## Cryptocurrency's Energy Consumption
 {: #cryptocurrency-energy}

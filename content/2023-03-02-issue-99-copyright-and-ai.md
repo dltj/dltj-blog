@@ -52,7 +52,7 @@ There is little clarity about the legality of AI algorithms using copyrighted ma
 There is really much more to be said on the topic, but this will do for one Thursday Thread. 
 Let me know if you have seen other angles that you think should be more broadly known. 
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 
 ## Copyright is for humans

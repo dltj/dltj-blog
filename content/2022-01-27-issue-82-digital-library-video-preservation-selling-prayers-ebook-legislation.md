@@ -26,7 +26,7 @@ The threads this week:
 * <a href="{% post_url_absolute 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#targeted-prayers">Prayers For Sale</a>
 * <a href="{% post_url_absolute 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#library-ebook-legislation">Ebooks Wanted For Sale (for reasonable terms)</a>
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 
 ## Attorney General of India's Online Collection of Rare Books

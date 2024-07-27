@@ -40,7 +40,7 @@ Let's see what some of the latest stories are.
 * [A Privacy-in-the-Cloud Good News Story](https://dltj.org/article/issue-92-privacy/#icloud-encryption)
 * [Facebook's Luck Running Out in the European Union](https://dltj.org/article/issue-92-privacy/#facebook-eu)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## Algorithmic Cruelty
 {: #algorithmic-cruelty}

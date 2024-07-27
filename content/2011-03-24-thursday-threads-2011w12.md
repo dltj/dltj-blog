@@ -65,7 +65,7 @@ comments:
 ---
 <p>This week's big news is hard to miss -- we have a <a href="#p2747-gbs">decision</a> by the judge evaluating the settlement agreement in the Google Book Search lawsuit.  This is probably the first of many follow-ups in <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> as this case keeps taking interesting twists and turns.  Also of note this week is Cornell Library's statement that it will <a href="#p2747-nda">no longer sign contracts that include non-disclosure agreements</a>.  Lastly is a pointer to a 10 minute video of <a href="#p2747-rosling">Hans Rosling's TED talk on machines leading to increased literacy</a>.</p>
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## Settlement Rejected in the Google Books Search case
 {: #p2747-gbs}

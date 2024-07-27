@@ -37,7 +37,7 @@ Yet soon, it seems, all of the benefit from that information will be held by a c
 The same thing has been said about the image-based AI tools that have slurped up sets of photos from sites like Flikr, Wikipedia, and even stock photo businesses. 
 We don't talk enough about this private capture of the common good and the uncompensated taking of other's work.
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## OpenAI Introduces ChatGPT
 {: #chatgpt}

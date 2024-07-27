@@ -17,7 +17,7 @@ The threads this week:
 * [Learning From Our Cyber Mistakes]({% post_url_absolute 2022-02-10-issue-84-chip-bugs--cyber-board--usps-automation %}#cybersecurity-review-board)
 * [Automation at the United States Postal Service]({% post_url_absolute 2022-02-10-issue-84-chip-bugs--cyber-board--usps-automation %}#usps-automation)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 
 ## When Bugs Come from the Chips, not the Code

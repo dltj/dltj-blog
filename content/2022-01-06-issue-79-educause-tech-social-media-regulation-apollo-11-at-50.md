@@ -17,7 +17,7 @@ Here at the start of 2022, I'm making a resolution to restart _Thursday Threads_
 * [Legislation in the Works for Social Media Regulation]({% post_url 2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50 %}#social-media-regulation)
 * [Relive the 50th Anniversary of the Apollo 11 Launch...Projected onto the Washington Monument!]({% post_url 2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50 %}#apollo-11-launch)
 
-{% include thursday-threads-header.html %}
+{{ thursday_threads_header() }}
 
 ## What EDUCAUSE’s 2022 Top 10 IT Issues Mean for Libraries
 {: #educause-2022-top-10}
