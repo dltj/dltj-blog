@@ -118,7 +118,7 @@ comments:
 <div>"No piles of meat, bongs or lube either-none of this belongs in a place of business." On brogrammers. http://ryanfunduk.com/culture-of-exclusion/ HT @cazzerson #fbEmily M.</div>
 <div>2 takes of ppl who don't drink at conferences: http://ryanfunduk.com/culture-of-exclusion/ and http://whatever.scalzi.com/2011/11/01/the-thanksgiving-advent-calendar-day-one-not-drinking-alcohol/  I'm personally more inclined to @scalzi's.John Mark Ockerbloom</div>
 <div>@JMarkOckerbloom Interesting to think about in terms of #code4lib, at least for me.Mark Matienzo</div>
-<div>...but I can understand @rfunduk's take too. Confs vary,, but at ones I go to ppl don't give me grief for skipping the alcohol at socials.John Mark Ockerbloom</div>
+<div>...but I can understand @rfunduk's take too. Confs vary, but at ones I go to ppl don't give me grief for skipping the alcohol at socials.John Mark Ockerbloom</div>
 <div>@anarchivist Haven't made it to C4L, so can't comment. Most confs I go to have events w alcohol, not everyone has it, &amp; that seems fine.John Mark Ockerbloom</div>
 <div>This post (thanks @JMarkOckerbloom!) resonated w me: http://ryanfunduk.com/culture-of-exclusion/ I like a good cocktail, but events shouldn't be all about drinks.Leslie Johnston</div>
 <div>@anarchivist @JMarkOckerbloom The bringing and drinking of specialty beers is one of the most visible #code4lib activities to those outside.Leslie Johnston</div>

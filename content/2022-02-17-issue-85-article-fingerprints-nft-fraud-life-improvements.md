@@ -13,9 +13,9 @@ Time is flying; I hope you are having fun.
 
 The threads this week:
 
-* [Privacy-busting Fingerprints in Journal Articles]({% post_url_absolute 2022-02-17-issue-85-article-fingerprints-nft-fraud-life-improvements %}#fingerprinting-pdfs)
-* [Fraud in NFTs]({% post_url_absolute 2022-02-17-issue-85-article-fingerprints-nft-fraud-life-improvements %}#nft-fraud)
-* [Improve Your Life]({% post_url_absolute 2022-02-17-issue-85-article-fingerprints-nft-fraud-life-improvements %}#life-improvements)
+* [Privacy-busting Fingerprints in Journal Articles]({filename}/2022-02-17-issue-85-article-fingerprints-nft-fraud-life-improvements#fingerprinting-pdfs)
+* [Fraud in NFTs]({filename}/2022-02-17-issue-85-article-fingerprints-nft-fraud-life-improvements#nft-fraud)
+* [Improve Your Life]({filename}/2022-02-17-issue-85-article-fingerprints-nft-fraud-life-improvements#life-improvements)
 
 {{ thursday_threads_header() }}
 

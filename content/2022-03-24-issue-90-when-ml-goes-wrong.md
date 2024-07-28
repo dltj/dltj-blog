@@ -22,9 +22,9 @@ While the terms are often used interchangeably, machine learning is one part of 
 As the {{ robustlink(href="https://ai.engineering.columbia.edu/ai-vs-machine-learning/", versionurl="https://web.archive.org/web/20220324121616/https://ai.engineering.columbia.edu/ai-vs-machine-learning/", versiondate="2022-03-24", title="Artificial Intelligence (AI) vs. Machine Learning | Columbia AI", anchor="Columbia University Engineering Department describes it") }}, "put in context, artificial intelligence refers to the general ability of computers to emulate human thought and perform tasks in real-world environments, while machine learning refers to the technologies and algorithms that enable systems to identify patterns, make decisions, and improve themselves through experience and data." 
 With that definition in mind, the thread this week is on challenges with machine learning:
 
-* [Flip the Switch on Your Drug Synthesizing Tool and Chemical Weapons Come Out]({% post_url_absolute 2022-03-24-issue-90-when-ml-goes-wrong %}#ml-drugs)
-* [With Machine Learning, Garbage In/Garbage Out]({% post_url_absolute 2022-03-24-issue-90-when-ml-goes-wrong %}#gigo)
-* [Five Realities Why Applying Machine Learning to Medical Records is Hard]({% post_url_absolute 2022-03-24-issue-90-when-ml-goes-wrong %}#ml-medical)
+* [Flip the Switch on Your Drug Synthesizing Tool and Chemical Weapons Come Out]({filename}/2022-03-24-issue-90-when-ml-goes-wrong#ml-drugs)
+* [With Machine Learning, Garbage In/Garbage Out]({filename}/2022-03-24-issue-90-when-ml-goes-wrong#gigo)
+* [Five Realities Why Applying Machine Learning to Medical Records is Hard]({filename}/2022-03-24-issue-90-when-ml-goes-wrong#ml-medical)
 
 {{ thursday_threads_header() }}
 

@@ -38,7 +38,7 @@ That is the first thread in this issue, and it is followed by more recent articl
  versiondate="2023-01-18",
  versionurl="https://web.archive.org/web/20230119005635/https://hangingtogether.org/the-core-of-bibliographic-description/",
  anchor="The Core of Bibliographic Description",
- post=", Roy Tennant, OCLC Research&apos;s "Hanging Together" blog, 17-Jan-2011") }}
+ post=', Roy Tennant, OCLC Research&apos;s "Hanging Together" blog, 17-Jan-2011') }}
 
 Back in 2011, Roy Tennant posted a summary of this research on the fields that libraries use most often when describing stuff. 
 It pointed to a report from which the above table is taken, _{{ robustlink(href="https://www.oclc.org/content/dam/research/publications/library/2010/2010-06.pdf", versionurl="https://web.archive.org/web/20220924225010/https://www.oclc.org/content/dam/research/publications/library/2010/2010-06.pdf", versiondate="2023-01-18", title="Implications of MARC Tag Usage on Library Metadata Practices | OCLC Research", anchor="Implications of MARC Tag Usage on Library Metadata Practices") }}_. 

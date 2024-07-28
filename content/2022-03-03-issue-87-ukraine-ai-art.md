@@ -21,9 +21,9 @@ I hope and pray for a return to sanity, for grace and mercy for those in conflic
 
 The threads this week:
 
-* [One Library-related Corner of the Ukraine War]({% post_url_absolute 2022-03-03-issue-87-ukraine-ai-art %}#ukraine-library-association)
-* [Archiving the Ukrainian Web]({% post_url_absolute 2022-03-03-issue-87-ukraine-ai-art %}#ukraine-webarchive)
-* [Artificial Intelligence Can't Hold Copyright]({% post_url_absolute 2022-03-03-issue-87-ukraine-ai-art %}#ai-copyright)
+* [One Library-related Corner of the Ukraine War]({filename}/2022-03-03-issue-87-ukraine-ai-art#ukraine-library-association)
+* [Archiving the Ukrainian Web]({filename}/2022-03-03-issue-87-ukraine-ai-art#ukraine-webarchive)
+* [Artificial Intelligence Can't Hold Copyright]({filename}/2022-03-03-issue-87-ukraine-ai-art#ai-copyright)
 
 {{ thursday_threads_header() }}
 

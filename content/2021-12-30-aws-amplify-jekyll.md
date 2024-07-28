@@ -13,10 +13,10 @@ Look at that!
 Progress is being made down the list of to-dos for this blog in order to start the new year on a fresh footing. 
 As you might recall from the last blog post, I set out to do some upgrades across the calendar year boundary:
 
-* [Ramp up automation for adding reading sources to Obsidian]({% post_url 2021-12-29-obsidian-journaling %})
+* [Ramp up automation for adding reading sources to Obsidian]({filename}/2021-12-29-obsidian-journaling)
 * Refactor the process of building this static website on AWS (this post)
-* [Recreate the ability for readers to get updates by email]({% post_url 2022-01-05-newsletter-launching %})
-* [Turn the old DLTJ “Thursday Threads” concept into a newsletter]({% post_url 2022-01-06-refactoring-complete %})
+* [Recreate the ability for readers to get updates by email]({filename}/2022-01-05-newsletter-launching)
+* [Turn the old DLTJ “Thursday Threads” concept into a newsletter]({filename}/2022-01-06-refactoring-complete)
 
 DLTJ is a "static site" blog, meaning that the page you are reading right now is a straight-up HTML file. 
 This page is converted from the simple {{ robustlink(href="https://www.markdownguide.org/basic-syntax/", versionurl="https://web.archive.org/web/20211229080555/https://www.markdownguide.org/basic-syntax/", versiondate="2021-12-30", title="Basic Syntax | Markdown Guide", anchor="Markdown format") }} to HTML by the {{ robustlink(href="https://jekyllrb.com/", versionurl="https://web.archive.org/web/20211229202427/https://jekyllrb.com/", versiondate="2021-12-30", title="Jekyll homepage", anchor="Jekyll") }} program. 

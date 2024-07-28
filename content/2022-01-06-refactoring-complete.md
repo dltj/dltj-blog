@@ -12,13 +12,13 @@ tags:
 Success! 
 Four parts plus a half (or a "re-do"" of part 2):
 
-1. [Ramp up automation for adding reading sources to Obsidian]({% post_url 2021-12-29-obsidian-journaling %})
-2. [Refactor the process of building this static website on AWS]({% post_url  2021-12-30-aws-amplify-jekyll %})
-	* [Fix the webmentions cache, an unanticipated diversion]({% post_url 2021-12-31-fixing-webmentions %})
-3. [Recreate the ability for readers to get updates by email]({% post_url 2022-01-05-newsletter-launching %})
+1. [Ramp up automation for adding reading sources to Obsidian]({filename}/2021-12-29-obsidian-journaling)
+2. [Refactor the process of building this static website on AWS]({filename}/2021-12-30-aws-amplify-jekyll)
+	* [Fix the webmentions cache, an unanticipated diversion]({filename}/2021-12-31-fixing-webmentions)
+3. [Recreate the ability for readers to get updates by email]({filename}/2022-01-05-newsletter-launching)
 4. Turn the old DLTJ “Thursday Threads” concept into a newsletter (this post)
 
-Earlier today, the newsletter launched with [issue 79]({% post_url 2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50 %}). 
+Earlier today, the newsletter launched with [issue 79]({filename}/2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50). 
 It wasn't without hiccups, but I don't think any of the problems leaked out to the subscribers. 
 I started with a list of 286 email addresses that were subscribed to the 2015 edition. 
 This morning I sent an email to all of them on the blind-carbon-copy line from my regular email. 

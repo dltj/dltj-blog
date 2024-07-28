@@ -13,9 +13,9 @@ And as always, no internet trackers or surveillance capitalism is involved.
 
 The threads this week:
 
-* [When Bugs Come from the Chips, not the Code]({% post_url_absolute 2022-02-10-issue-84-chip-bugs--cyber-board--usps-automation %}#computer-chips)
-* [Learning From Our Cyber Mistakes]({% post_url_absolute 2022-02-10-issue-84-chip-bugs--cyber-board--usps-automation %}#cybersecurity-review-board)
-* [Automation at the United States Postal Service]({% post_url_absolute 2022-02-10-issue-84-chip-bugs--cyber-board--usps-automation %}#usps-automation)
+* [When Bugs Come from the Chips, not the Code]({filename}/2022-02-10-issue-84-chip-bugs--cyber-board--usps-automation#computer-chips)
+* [Learning From Our Cyber Mistakes]({filename}/2022-02-10-issue-84-chip-bugs--cyber-board--usps-automation#cybersecurity-review-board)
+* [Automation at the United States Postal Service]({filename}/2022-02-10-issue-84-chip-bugs--cyber-board--usps-automation#usps-automation)
 
 {{ thursday_threads_header() }}
 

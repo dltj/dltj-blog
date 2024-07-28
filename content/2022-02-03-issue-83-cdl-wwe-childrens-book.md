@@ -18,9 +18,9 @@ Let's be grateful for snow days (and teenagers who shovel snow) and for predicti
 
 In the meantime, the threads this week:
 
-* [Author Speaks Up for Controlled Digital Lending]({% post_url_absolute 2022-02-03-issue-83-cdl-wwe-childrens-book %}#author-cdl-perspective)
-* [The Wrestling Monopsony]({% post_url_absolute 2022-02-03-issue-83-cdl-wwe-childrens-book %}#wwe-redux)
-* [Self-publishing the Local Way]({% post_url_absolute 2022-02-03-issue-83-cdl-wwe-childrens-book %}#self-publishing)
+* [Author Speaks Up for Controlled Digital Lending]({filename}/2022-02-03-issue-83-cdl-wwe-childrens-book#author-cdl-perspective)
+* [The Wrestling Monopsony]({filename}/2022-02-03-issue-83-cdl-wwe-childrens-book#wwe-redux)
+* [Self-publishing the Local Way]({filename}/2022-02-03-issue-83-cdl-wwe-childrens-book#self-publishing)
 
 {{ thursday_threads_header() }}
 
@@ -50,7 +50,7 @@ In a single lifetime, the market has collapsed, with 85% market-share going to W
  anchor="Grappling with Big Wrestling: Vince McMahon has a monopoly on violence",
  post=", Cory Doctorow&#39;s Pluralistic, 31-Jan-2022") }}
 
-Pulling through a thread from last week about [Worldwide Wrestling Entertainment's video archive]({% post_url_absolute 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#wwe-video-preservation)...I included a quote from WWE’s Director of Media Technology Bryan Staffaroni: <quote>"We owned so much of the WCW library, but we just never opened some boxes, because we just had so much stuff."</quote> It came from a section near the end of the article. The last paragraph explains why they have so much archival material: "Recently, WWE acquired one of the few North American organizations it had yet to own: Mid-South Wrestling..."
+Pulling through a thread from last week about [Worldwide Wrestling Entertainment's video archive]({filename}/2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation#wwe-video-preservation)...I included a quote from WWE’s Director of Media Technology Bryan Staffaroni: <quote>"We owned so much of the WCW library, but we just never opened some boxes, because we just had so much stuff."</quote> It came from a section near the end of the article. The last paragraph explains why they have so much archival material: "Recently, WWE acquired one of the few North American organizations it had yet to own: Mid-South Wrestling..."
 
 Cory Doctorow's post provides a perspective on {{ robustlink(href="https://prospect.org/power/rollups-professional-wrestlings-ruthless-monopoly-era/", versionurl="https://web.archive.org/20220202212719/https://prospect.org/power/rollups-professional-wrestlings-ruthless-monopoly-era/", versiondate="2022-02-02 21:26:26+00:00", title="Rollups: Professional Wrestling’s Ruthless Monopoly Era | The American Prospect", anchor="an article from The American Prospect") }}. Not only do we know why there are so many unopened boxes, but we know how WWE can afford its digital preservation infrastructure.
 

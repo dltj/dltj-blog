@@ -12,8 +12,8 @@ tags:
 - legislation
 ---
 {{ image(div_float="right", width="320", localsrc="2022/2022-01-27-tweet-poll.png", caption="The People Have Spoken", alt="Screen capture of a Twitter poll showing 80% of votes for 'Cats' and 20% of votes for 'Controlled Digital ILL' out of 5 votes total cast", ahref="https://twitter.com/DataG/status/1484163269988335624") }} 
-On a whim, last Thursday I put out a poll with the announcement of <a href="{% post_url_absolute 2022-01-20-issue-81-cdill-nfts-cats %}">last week's issue</a>. 
-Out of the three threads, [controlled digital lending]({% post_url_absolute 2022-01-20-issue-81-cdill-nfts-cats %}#controlled-digital-lending}), [gamers and NFTs]({% post_url_absolute 2022-01-20-issue-81-cdill-nfts-cats%}#gamers-nfts), and [cats]({% post_url_absolute 2022-01-20-issue-81-cdill-nfts-cats %}#cat-dish), the winner was cats. 
+On a whim, last Thursday I put out a poll with the announcement of [last week's issue]({filename}/2022-01-20-issue-81-cdill-nfts-cats). 
+Out of the three threads, [controlled digital lending]({filename}/2022-01-20-issue-81-cdill-nfts-cats.md#controlled-digital-lending), [gamers and NFTs]({filename}/2022-01-20-issue-81-cdill-nfts-cats.md#gamers-nfts), and [cats]({filename}/2022-01-20-issue-81-cdill-nfts-cats.md#cat-dish), the winner was cats. 
 The sample size was small—five votes—so I'm not ready to throw out the digital quill pen yet. 
 But if it readers want cats, readers shall have cats. 
 I have plenty of cat pictures. 
@@ -21,10 +21,10 @@ And keep the feedback coming.
 
 The threads this week:
 
-* <a href="{% post_url_absolute 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#india-rare-books">Attorney General of India's Online Collection of Rare Books</a>
-* <a href="{% post_url_absolute 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#wwe-video-preservation">"Inside WWE's massive video vault"</a>
-* <a href="{% post_url_absolute 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#targeted-prayers">Prayers For Sale</a>
-* <a href="{% post_url_absolute 2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation %}#library-ebook-legislation">Ebooks Wanted For Sale (for reasonable terms)</a>
+* [Attorney General of India's Online Collection of Rare Books]({filename}/2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation.md#india-rare-books)
+* <a href="{filename}/2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation#wwe-video-preservation">"Inside WWE's massive video vault"</a>
+* <a href="{filename}/2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation#targeted-prayers">Prayers For Sale</a>
+* <a href="{filename}/2022-01-27-issue-82-digital-library-video-preservation-selling-prayers-ebook-legislation#library-ebook-legislation">Ebooks Wanted For Sale (for reasonable terms)</a>
 
 {{ thursday_threads_header() }}
 

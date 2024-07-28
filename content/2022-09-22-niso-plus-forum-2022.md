@@ -9,11 +9,11 @@ tags:
 - NISOplus
 ---
 
-Earlier this week, NISO held its one-day {{ robustlink(href="https://niso.plus/forum/", versionurl="https://web.archive.org/web/20220923015355/https://niso.plus/forum/", versiondate="2022-09-22",, anchor="NISO Plus Forum for 2022") }}.
+Earlier this week, NISO held its one-day {{ robustlink(href="https://niso.plus/forum/", versionurl="https://web.archive.org/web/20220923015355/https://niso.plus/forum/", versiondate="2022-09-22", anchor="NISO Plus Forum for 2022") }}.
 {{ image(div_float="right", width="300", localsrc="2022/2022-09-22-niso-plus-forum.webp", alt="NISO Plus Forum 2022 logo") }}
 This was an in-person meeting that is intended to feed into the online conference in February 2023.
 Around 100 people from NISO's membership groups—libraries, content providers, and service providers—attended to talk about _metadata_.
-The meeting was structured in {{ robustlink(href="https://theworldcafe.com/key-concepts-resources/world-cafe-method/", versionurl="https://web.archive.org/web/20220923015409/https://theworldcafe.com/key-concepts-resources/world-cafe-method/", versiondate="2022-09-22",, anchor="_World Café_ style") }} and was moderated by {{ robustlink(href="https://niso.plus/taking-a-hands-on-approach-to-improving-metadata-at-the-niso-plus-forum/", versionurl="https://web.archive.org/web/20220923015711/https://niso.plus/taking-a-hands-on-approach-to-improving-metadata-at-the-niso-plus-forum/", versiondate="2022-09-22",, anchor="Jonathan Clark") }}.
+The meeting was structured in {{ robustlink(href="https://theworldcafe.com/key-concepts-resources/world-cafe-method/", versionurl="https://web.archive.org/web/20220923015409/https://theworldcafe.com/key-concepts-resources/world-cafe-method/", versiondate="2022-09-22", anchor="_World Café_ style") }} and was moderated by {{ robustlink(href="https://niso.plus/taking-a-hands-on-approach-to-improving-metadata-at-the-niso-plus-forum/", versionurl="https://web.archive.org/web/20220923015711/https://niso.plus/taking-a-hands-on-approach-to-improving-metadata-at-the-niso-plus-forum/", versiondate="2022-09-22", anchor="Jonathan Clark") }}.
 The broad topic of "metadata" was broken down into three parts:
 
 * Identifiers: what identifiers are missing or underutilized
@@ -23,7 +23,7 @@ The broad topic of "metadata" was broken down into three parts:
 There were small table discussions for each part of no more than six people, with 15 minutes at a table before everyone got up and moved to a new table.
 After three rounds of 15 minutes, a scribe that stayed at the same table the whole time reported the major themes to the larger group.
 What makes this style interesting is that everyone's experience is different.
-We agreed to use the {{ robustlink(href="https://www.chathamhouse.org/about-us/chatham-house-rule", versionurl="https://web.archive.org/web/20220923020029/https://www.chathamhouse.org/about-us/chatham-house-rule", versiondate="2022-09-22",, anchor="Chatham House Rule") }}; what is reported here is my interpretation of my table's discussion and my take on the broader outcomes.
+We agreed to use the {{ robustlink(href="https://www.chathamhouse.org/about-us/chatham-house-rule", versionurl="https://web.archive.org/web/20220923020029/https://www.chathamhouse.org/about-us/chatham-house-rule", versiondate="2022-09-22", anchor="Chatham House Rule") }}; what is reported here is my interpretation of my table's discussion and my take on the broader outcomes.
 
 <em>Edited on 5-Oct-2022 to add:</em> NISO published a summary of the in-person meeting in the October issue of NISO I/O — {{ robustlink(href="https://www.niso.org/niso-io/2022/09/are-you-ready-metadata-musical", versionurl="https://web.archive.org/web/20221005203438/https://www.niso.org/niso-io/2022/09/are-you-ready-metadata-musical", versiondate="2022-10-05", title="Are You Ready? Metadata -- The Musical! | NISO I/O", anchor="Are You Ready? Metadata -- The Musical!") }}.
 
@@ -35,10 +35,10 @@ Some publishers have a practice of changing an online publication date to the ph
 (Changing a field that others use as part of metadata to distinguish one item from another is never a good thing.)
 
 "Place of Publication" also has a lot of variability and inconsistency, even within a publisher.
-Institution identifiers were also a topic, particularly with the lack of hierarchy in the {{ robustlink(href="https://ror.org/", versionurl="https://web.archive.org/web/20220901085637/https://ror.org/", versiondate="2022-09-22",, anchor="Research Organization Registry") }} (ROR).
+Institution identifiers were also a topic, particularly with the lack of hierarchy in the {{ robustlink(href="https://ror.org/", versionurl="https://web.archive.org/web/20220901085637/https://ror.org/", versiondate="2022-09-22", anchor="Research Organization Registry") }} (ROR).
 Someone reported that ROR is working to address the problem, but right now there is not a good way to relate a department to its encompassing agency or organization.
 
-I showed my professional age a bit by mentioning {{ robustlink(href="https://en.wikipedia.org/wiki/Serial_Item_and_Contribution_Identifier", versionurl="https://web.archive.org/web/20220923020033/https://en.wikipedia.org/wiki/Serial_Item_and_Contribution_Identifier", versiondate="2022-09-22",, anchor="SICI") }}—the Serial Item and Contribution Identifier.
+I showed my professional age a bit by mentioning {{ robustlink(href="https://en.wikipedia.org/wiki/Serial_Item_and_Contribution_Identifier", versionurl="https://web.archive.org/web/20220923020033/https://en.wikipedia.org/wiki/Serial_Item_and_Contribution_Identifier", versiondate="2022-09-22", anchor="SICI") }}—the Serial Item and Contribution Identifier.
 This is a compound identifier developed in the 1990s. Given a citation, you could construct a SICI that was a kind of key to the article. For instance,
 
 Lynch, Clifford A. "The Integrity of Digital Information; Mechanics and Definitional Issues." JASIS 45:10 (Dec. 1994) p. 737-44
@@ -57,7 +57,7 @@ This is sensitive data, so how can it be kept secure while ensuring the integrit
 ## Structure
 As we know, metadata is gathered, aggregated, mixed, and disseminated in ways that the originator can't predict.
 A big problem when this happens is having ways to assert confidence in a data element.
-Take, for instance, the ORCID field for an author. Was that ORCID obtained when the author logged in with the {{ robustlink(href="https://info.orcid.org/documentation/api-tutorials/api-tutorial-get-and-authenticated-orcid-id/", versionurl="https://web.archive.org/web/20220923020205/https://info.orcid.org/documentation/api-tutorials/api-tutorial-get-and-authenticated-orcid-id/", versiondate="2022-09-22",, anchor="Authenticated ORCID ID workflow") }}? Was it manually keyed by an author (and subject to typos)? Did the software guess the ORCID based on name and institution affiliation?
+Take, for instance, the ORCID field for an author. Was that ORCID obtained when the author logged in with the {{ robustlink(href="https://info.orcid.org/documentation/api-tutorials/api-tutorial-get-and-authenticated-orcid-id/", versionurl="https://web.archive.org/web/20220923020205/https://info.orcid.org/documentation/api-tutorials/api-tutorial-get-and-authenticated-orcid-id/", versiondate="2022-09-22", anchor="Authenticated ORCID ID workflow") }}? Was it manually keyed by an author (and subject to typos)? Did the software guess the ORCID based on name and institution affiliation?
 There can be a range of certainty that an ORCID ID is correct for a particular author.
 And—related to "Exchange"—how can this certainty be expressed to subsequent users of the metadata record.
 

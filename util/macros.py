@@ -81,3 +81,45 @@ def image(
 #     {% if include.caption %}
 #         <figcaption>{{ include.caption }}</figcaption>
 #     {% endif %}  </figure>
+
+
+def thursday_threads_header():
+    return """
+Feel free to send this newsletter to others you think might be interested in the topics.  If you are not already subscribed to <i>DLTJ's Thursday Threads</i>, visit the <a href="https://newsletter.dltj.org/" title="DLTJ Thursday Threads Newsletter Signup">sign-up page</a>.
+If you would like a more raw and immediate version of these types of stories, <a target="_blank" href="https://code4lib.social/@dltj">follow me on <span style="background-image: url('https://dltj.org/assets/images/mastodon_16.png'); background-repeat: no-repeat; padding-left: 18px;">Mastodon</span></a> where I post the bookmarks I save.  Comments and tips, as always, are welcome.
+"""
+
+
+def thursday_threads_quote(
+    href: str = None,
+    blockquote: str = None,
+    versiondate: str = None,
+    versionurl: str = None,
+    originalurl: str = None,
+    title: str = None,
+    pre: str = None,
+    anchor: str = None,
+    post: str = None,
+):
+    if href:
+        source = f'<a href="{href}"'
+        source += "" if versionurl is None else f' data-versionurl="{versionurl}"'
+        source += "" if originalurl is None else f' data-originalurl="{originalurl}"'
+        source += "" if versiondate is None else f' data-versiondate="{versiondate}"'
+        source += "" if title is None else f' title="{title}"'
+        source += f">{anchor}</a>"
+    else:
+        source = anchor
+
+    return f"""
+<figure class="quote thursdaythread">
+  <blockquote>
+{ blockquote }
+  </blockquote>
+  <figcaption>&mdash;{ pre }{ anchor }{ post }</figcaption>
+</figure>
+"""
+
+
+def note(note_text: str = None) -> str:
+    return f'<p class="dltj-note"><strong>Note!</strong> {note_text}</p>'

@@ -19,8 +19,8 @@ Let's not forget them.
 
 The threads this week:
 
-* [Minecraft as an Anti-censorship Tool]({% post_url_absolute 2022-03-10-issue-88-censorship-forgetting %}#minecraft-uncensored)
-* [Right-to-be-Forgotten Tangled with Press Freedoms]({% post_url_absolute 2022-03-10-issue-88-censorship-forgetting %}#ecthr)
+* [Minecraft as an Anti-censorship Tool]({filename}/2022-03-10-issue-88-censorship-forgetting#minecraft-uncensored)
+* [Right-to-be-Forgotten Tangled with Press Freedoms]({filename}/2022-03-10-issue-88-censorship-forgetting#ecthr)
 
 {{ thursday_threads_header() }}
 

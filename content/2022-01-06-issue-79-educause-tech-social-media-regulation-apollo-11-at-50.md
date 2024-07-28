@@ -13,9 +13,9 @@ Welcome to the re-inaugural issue of _DLTJ Thursday Threads._
 Counting backward, there were [78 previous issues](/category/thursday-threads/) (all by the most recent still need to be converted from the old WordPress style of formatting) with—all told—several hundred references and commentary.
 Here at the start of 2022, I'm making a resolution to restart _Thursday Threads_ with links and thoughts about library technology, general technology trends, and internet culture.
 
-* [What EDUCAUSE’s 2022 Top 10 IT Issues Mean for Libraries]({% post_url 2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50 %}#educause-2022-top-10)
-* [Legislation in the Works for Social Media Regulation]({% post_url 2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50 %}#social-media-regulation)
-* [Relive the 50th Anniversary of the Apollo 11 Launch...Projected onto the Washington Monument!]({% post_url 2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50 %}#apollo-11-launch)
+* [What EDUCAUSE’s 2022 Top 10 IT Issues Mean for Libraries]({filename}/2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50#educause-2022-top-10)
+* [Legislation in the Works for Social Media Regulation]({filename}/2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50#social-media-regulation)
+* [Relive the 50th Anniversary of the Apollo 11 Launch...Projected onto the Washington Monument!]({filename}/2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50#apollo-11-launch)
 
 {{ thursday_threads_header() }}
 
@@ -23,7 +23,7 @@ Here at the start of 2022, I'm making a resolution to restart _Thursday Threads_
 {: #educause-2022-top-10}
 
 {{ thursday_threads_quote(href="https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve",
- blockquote='The EDUCAUSE 2022 Top 10 IT Issues take an optimistic view of how technology can help make the higher education we deserve—through a shared transformational vision and strategy for the institution, a recognition of the need to place students’ success at the center, and a sustainable business model that has redefined 'the campus.'',
+ blockquote='The EDUCAUSE 2022 Top 10 IT Issues take an optimistic view of how technology can help make the higher education we deserve—through a shared transformational vision and strategy for the institution, a recognition of the need to place students’ success at the center, and a sustainable business model that has redefined &lsquo;the campus.&rsquo;',
  versiondate="2021-11-12",
  versionurl="https://web.archive.org/20211127031010/https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve",
  title="",
@@ -31,7 +31,7 @@ Here at the start of 2022, I'm making a resolution to restart _Thursday Threads_
  post=", EDUCAUSE") }}
 
 Let's start with this report from EDUCAUSE from a panel of its members that reviewed survey results on what they see as the big educational technology issues for the year.
-I cover this report in more depth in a [separate _DLTJ_ article]({% post_url 2021-12-05-educause-2022-issues %}), but I think it is useful to provide some of the headline commentaries here.
+I cover this report in more depth in a [separate _DLTJ_ article]({filename}/2021-12-05-educause-2022-issues), but I think it is useful to provide some of the headline commentaries here.
 First, these IT leaders anticipate an acceleration of the role of technology in teaching and learning.
 The pandemic has spawned a new recognition of how big the cohort of "non-traditional" students is—part-time learners, remote learners, asynchronous learners, etc.
 Instructional technologists will certainly be called upon to support new tools and new roles; the academic librarian's instructional experience and traditional "high-touch" approach to supporting users can be an asset for institutions that choose to tap that capability.

@@ -52,7 +52,7 @@ The threads this week:
 From my perspective, controlled digital lending for interlibrary loan (or "CDILL") is gaining steam. 
 (I'm trying to make "CDILL" stick as a way of differentiating this type of controlled digital lending from the kind where a library uses CDL techniques to offer its own materials to its own patrons.) 
 These two funding announcements show support for the development of systems and practices for libraries to advance the cooperation beyond the point of shipping physical books back and forth. 
-(Although shipping physical books back and forth is still a noble effort by libraries, as last week's <a href="{% post_url 2022-01-13-issue-80-cryptocurrency-mining-interlibrary-loan %}#ill">ode to interlibrary loan</a> demonstrated.)
+(Although shipping physical books back and forth is still a noble effort by libraries, as last week's <a href="{filename}/2022-01-13-issue-80-cryptocurrency-mining-interlibrary-loan#ill">ode to interlibrary loan</a> demonstrated.)
 
 The key to making this work is having a workflow where the physical item is taken out of circulation in one place so that it can be digitally lent to another place. 
 By replicating the same "friction" of physical interlibrary loan—ensuring that only one patron has access to the intellectual content of the book at a time—libraries retain the rights under copyright to lend books. 
@@ -85,7 +85,7 @@ Nowhere has there been more unhappiness than in the games community, where clash
  post=", New York Times, 15-Jan-2022") }}
 
 For <i>Thursday Threads</i> readers that are not tuned into cryptocurrencies and non-fungible tokens (NFTs) yet, I know I haven't laid the foundations of what these things are and how they are interrelated. 
-This thread started last week with the <a href="{% post_url 2022-01-13-issue-80-cryptocurrency-mining-interlibrary-loan %}#cryptocurrency-energy">problems of cryptocurrency energy consumption</a>. 
+This thread started last week with the <a href="{filename}/2022-01-13-issue-80-cryptocurrency-mining-interlibrary-loan#cryptocurrency-energy">problems of cryptocurrency energy consumption</a>. 
 (Update! {{ robustlink(href="https://www.theguardian.com/technology/2022/jan/16/panic-as-kosovo-pulls-the-plug-on-its-energy-guzzling-bitcoin-miners", versionurl="https://web.archive.org/20220119004858/https://www.theguardian.com/technology/2022/jan/16/panic-as-kosovo-pulls-the-plug-on-its-energy-guzzling-bitcoin-miners", versiondate="2022-01-17 17:29:03+00:00", title="Panic as Kosovo pulls the plug on its energy-guzzling bitcoin miners | The Guardian", anchor="The cryptocurrency miners in Kosovo are desparate to unload their equipment") }}.) 
 And the thread will continue with problems the high concentration of cryptocurrencies in the hands of a few individuals, the mysterious movement of billions of dollars on the blockchain, how centralized this self-described decentralized platform is, the tenuous link between what you think you're buying and what you are actually buying,  how "sockpuppets" are driving up the value of artificially scarce resources, and many more. 
 (Stay tuned!)

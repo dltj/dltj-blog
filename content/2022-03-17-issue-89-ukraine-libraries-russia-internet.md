@@ -14,9 +14,9 @@ Let's not forget the terror they are facing, the people stepping up to meet thei
 
 The threads this week:
 
-* [Ukraine Libraries Doing What Libraries Do]({% post_url_absolute 2022-03-17-issue-89-ukraine-libraries-russia-internet %}#ukraine-libraries)
-* [Can the Internet Sanction a Country? Should It?]({% post_url_absolute 2022-03-17-issue-89-ukraine-libraries-russia-internet %}#internet-sanctions)
-* [_Thursday Threads 2011_: The Demise of the Big Deal?]({% post_url_absolute 2022-03-17-issue-89-ukraine-libraries-russia-internet %}#thursday-threads-2011)
+* [Ukraine Libraries Doing What Libraries Do]({filename}/2022-03-17-issue-89-ukraine-libraries-russia-internet#ukraine-libraries)
+* [Can the Internet Sanction a Country? Should It?]({filename}/2022-03-17-issue-89-ukraine-libraries-russia-internet#internet-sanctions)
+* [_Thursday Threads 2011_: The Demise of the Big Deal?]({filename}/2022-03-17-issue-89-ukraine-libraries-russia-internet#thursday-threads-2011)
 
 {{ thursday_threads_header() }}
 
@@ -32,7 +32,7 @@ The threads this week:
 I'm not surprised. 
 I presume the libraries mentioned in the NPR article are "public libraries," but they could be libraries of any type. 
 It brings to mind the stories about the {{ robustlink(href="https://www.libraryjournal.com/story/2015-galelj-library-of-the-year-ferguson-municipal-public-library-mo-courage-in-crisis", versiondate="2022-03-16", title="2015 Gale/LJ Library of the Year: Ferguson Municipal Public Library, MO, Courage in Crisis | Library Journal", anchor="library in Ferguson") }}, Missouri, during the riots for the shooting of Michael Brown by local police. 
-The NPR story also mentions Nicholas Poole's "we will reschedule just as soon as we have vanquished our invaders" tweet that was in [_Thursday Threads_ two weeks ago]({% post_url_absolute 2022-03-03-issue-87-ukraine-ai-art %}#ukraine-library-association).
+The NPR story also mentions Nicholas Poole's "we will reschedule just as soon as we have vanquished our invaders" tweet that was in [_Thursday Threads_ two weeks ago]({filename}/2022-03-03-issue-87-ukraine-ai-art#ukraine-library-association).
 
 ## Can the Internet Sanction a Country? Should It?
 {: #internet-sanctions}
@@ -46,7 +46,7 @@ The NPR story also mentions Nicholas Poole's "we will reschedule just as soon as
 Last week, {{ robustlink(href="https://arstechnica.com/tech-policy/2022/03/ukraine-wants-russia-cut-off-from-core-internet-systems-experts-say-its-a-bad-idea/", versionurl="https://web.archive.org/web/20220310120301/https://arstechnica.com/tech-policy/2022/03/ukraine-wants-russia-cut-off-from-core-internet-systems-experts-say-its-a-bad-idea/", versiondate="2022-03-10", title="Ukraine asks ICANN to revoke Russian domains and shut down DNS root servers | Ars Technica", anchor="Ukraine's Ministry of Digital Transformation called on internet bodies to sanction Russia") }} over its government's war on Ukraine. 
 This would include revoking Russia's top-level country domains (e.g. ".ru"), canceling SSL certificates associated with Russian sites, disabling the root DNS servers, and withdrawing the right for Russian internet service providers to use the IP addresses that have been assigned to the country. 
 The _Multistakeholder Imposition of Internet Sanctions_ document describes why this would be a bad idea and lays out a plan for what can be done. 
-For more depth, see the [article I wrote last week]({% post_url_absolute 2022-03-10-internet-sanctions %}) on the document.
+For more depth, see the [article I wrote last week]({filename}/2022-03-10-internet-sanctions) on the document.
 
 ## _Thursday Threads 2011_: The Demise of the Big Deal?
 {: #thursday-threads-2011}
@@ -60,7 +60,7 @@ I think it is fair to say that not much has changed.
 {: #alan-mittens}
 {{ image(div_float="right", width="320", localsrc="2022/2022-03-17-alan-mittens.jpg", alt="Photograph of a black and white cat sleeping in a curled-up ball on one side of a bed while a black cat looks lover from the other side of the bed.") }} 
 
-This is a throwback to a picture of Alan (left) and Mittens (right) from [six weeks ago]({% post_url_absolute 2022-02-03-issue-83-cdl-wwe-childrens-book %}#cat-fence). 
+This is a throwback to a picture of Alan (left) and Mittens (right) from [six weeks ago]({filename}/2022-02-03-issue-83-cdl-wwe-childrens-book#cat-fence). 
 In that picture, there was a pillow fence between the two. 
 This time? No fence!
 

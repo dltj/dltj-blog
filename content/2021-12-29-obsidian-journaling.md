@@ -14,9 +14,9 @@ The next few posts will be about the changes I'm making over this winter break.
 Right now I think the updating will look something like this:
 
 * Ramp up automation for adding reading sources to Obsidian (this post)
-* [Refactor the process of building this static website on AWS]({% post_url  2021-12-30-aws-amplify-jekyll %})
-* [Recreate the ability for readers to get updates by email]({% post_url 2022-01-05-newsletter-launching %})
-* [Turn the old DLTJ "Thursday Threads" concept into a newsletter]({% post_url 2022-01-06-refactoring-complete %})
+* [Refactor the process of building this static website on AWS]({filename}/2021-12-30-aws-amplify-jekyll)
+* [Recreate the ability for readers to get updates by email]({filename}/2022-01-05-newsletter-launching)
+* [Turn the old DLTJ "Thursday Threads" concept into a newsletter]({filename}/2022-01-06-refactoring-complete)
 
 I'll go back and link the bullet points above when (if?) I create the corresponding blog posts.
 
@@ -52,7 +52,7 @@ Another side effect that I wrote into the script was to post my public bookmarks
 I hope that posting these sources publicly will generate more conversation on the topic that I can add to my notes. 
 
 Each bookmark on the Pinboard service has a field for a description and a field for tags, and those are okay as far as they go. 
-For some sources, though, I found myself wanting to comment in a more structure way, and so I reintroduced myself to the {{ robustlink(href="https://hypothesis.is/", versiondate="2021-12-29",, anchor="hypothesis.is") }} service. 
+For some sources, though, I found myself wanting to comment in a more structure way, and so I reintroduced myself to the {{ robustlink(href="https://hypothesis.is/", versiondate="2021-12-29", anchor="hypothesis.is") }} service. 
 Hypothes.is allows you to comment on any web page or PDF, and share those comments with others. 
 More importantly, Hypothes.is lets you comment on selected portions of a document, and stores enough context to find that same location even when the underlying document changes.
 Hypothes.is as a service is embedding itself into learning management systems as a way for students to collaboratively critique content on the internet, but it is also useful to average folks.

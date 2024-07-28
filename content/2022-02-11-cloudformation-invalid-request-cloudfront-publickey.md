@@ -67,7 +67,7 @@ default: &default
 ```
 
 ... and populates the variables you saw in the fragment at the top. 
-(If you've read this far and are interested in how I set up serverless.com projects, check out the [blog post I wrote earlier this week]({% post_url 2022-02-06-starting-python-serverless-project %}) on the topic.)
+(If you've read this far and are interested in how I set up serverless.com projects, check out the [blog post I wrote earlier this week]({filename}/2022-02-06-starting-python-serverless-project) on the topic.)
 
 The practical upshot is if any three of those properties need to change—`Name`, `CallerReference`, or `EncodedKey`—what you must do is either:
 

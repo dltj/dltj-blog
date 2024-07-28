@@ -95,7 +95,7 @@ I'm starting here because it is helpful to know whether the output of an AI syst
  versiondate="2023-02-03T22:08:20",
  versionurl="https://web.archive.org/20230204030821/https://arxiv.org/pdf/2212.03551v4.pdf",
  anchor="Talking About Large Language Models",
- post=", Murray Shanahan, arXiv, (2022). <a href="https://doi.org/10.48550/arXiv.2212.03551">https://doi.org/10.48550/arXiv.2212.03551</a>") }}
+ post=', Murray Shanahan, arXiv, (2022). <a href="https://doi.org/10.48550/arXiv.2212.03551">https://doi.org/10.48550/arXiv.2212.03551</a>') }}
 
 The type of artificial intelligence that has been of great interest recently is classified as "large language model". 
 Simplistically: they analyze tremendous amounts of texts—the entire contents of Wikipedia, all scanned books that can be found, archives of Reddit, old mailing lists, entire websites...basically, anything written on the internet—and derive a mathematical model for determining sequences of words. 
@@ -131,7 +131,7 @@ That is the heart of the debate happening now.
  versiondate="2023-02-03T22:08:20",
  versionurl="https://web.archive.org/20230204030821/https://arxiv.org/pdf/2212.03551v4.pdf",
  anchor="Talking About Large Language Models",
- post=", Murray Shanahan, arXiv, (2022). <a href="https://doi.org/10.48550/arXiv.2212.03551">https://doi.org/10.48550/arXiv.2212.03551</a>") }}
+ post=', Murray Shanahan, arXiv, (2022). <a href="https://doi.org/10.48550/arXiv.2212.03551">https://doi.org/10.48550/arXiv.2212.03551</a>') }}
 
 Returning to Shanahan's paper (see, I told you it was worth reading), we learn that the algorithms are more than just copy-and-paste. 
 That is what makes them seem so magical. 
