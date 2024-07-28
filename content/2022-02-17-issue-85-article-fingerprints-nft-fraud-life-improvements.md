@@ -84,7 +84,7 @@ Maybe try one or two this coming week?
 ## Mittens Has a Question
 {: #mittens-nisoplus}
 
-{{ image(float="right", width="320", localsrc="2022/2022-02-17-mittens-nisoplus.png", caption="My cat Mittens raising her paw to ask about how cats can participate in the metaverse during the q/a of ⁦@sivavaid⁩’s #NISOplus22 keynote.", alt="Image of a tweet containing a picture of a black cat pawing the at the screen. On the screen is an image of Todd Carpenter during the NISO-plus conference.", ahref="https://twitter.com/DataG/status/1493612979887255554") }}
+{{ image(div_float="right", width="320", localsrc="2022/2022-02-17-mittens-nisoplus.png", caption="My cat Mittens raising her paw to ask about how cats can participate in the metaverse during the q/a of ⁦@sivavaid⁩’s #NISOplus22 keynote.", alt="Image of a tweet containing a picture of a black cat pawing the at the screen. On the screen is an image of Todd Carpenter during the NISO-plus conference.", ahref="https://twitter.com/DataG/status/1493612979887255554") }}
 
 "Yes, Mister Carpenter, I have a question for Siva Vaidhyanathan about the role of cats in the metaverse?"
 

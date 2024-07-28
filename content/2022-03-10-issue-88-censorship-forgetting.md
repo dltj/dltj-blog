@@ -31,7 +31,7 @@ The threads this week:
  versiondate="2022-03-09 19:12:47+00:00",
  versionurl="https://web.archive.org/20220309200902/https://99percentinvisible.org/article/uncensored-library-virtual-minecraft-architecture-houses-banned-journalism/",
  anchor="Uncensored Library: Banned Journalism Housed in Virtual Minecraft Architecture",
- post=", 99% Invisible, 3-Mar-2022") }}{{ image(float="right", width="320", localsrc="2022/2022-03-10-uncensored.jpg", alt="Screen capture of a Minecraft view showing the welcome banner for 'The Uncensored Library' and the map of rooms in the virtual world.") }} 
+ post=", 99% Invisible, 3-Mar-2022") }}{{ image(div_float="right", width="320", localsrc="2022/2022-03-10-uncensored.jpg", alt="Screen capture of a Minecraft view showing the welcome banner for 'The Uncensored Library' and the map of rooms in the virtual world.") }} 
 
 
 With help from my teenage son, I got into the _[Uncensored Library](https://www.uncensoredlibrary.com/en)_ on Minecraft. 
@@ -58,7 +58,7 @@ The “right to be forgotten” laws were originally intended for delisting from
 
 ## This Week's Cat
 {: #alan}
-{{ image(float="right", width="320", localsrc="2022/2022-03-10-alan.jpg", alt="Photograph of a black and white cat curled into a ball sleeping on a bed comforter.") }} 
+{{ image(div_float="right", width="320", localsrc="2022/2022-03-10-alan.jpg", alt="Photograph of a black and white cat curled into a ball sleeping on a bed comforter.") }} 
 
 It is starting to feel like I need to give equal time to each feline. 
 Last week featured Mittens curled up in a ball. 

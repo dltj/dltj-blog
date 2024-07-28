@@ -87,7 +87,7 @@ It is the "bottomless pile of machine-printed detritus, much of it cheaply print
 ## Sympathy for Mittens
 {: mittens-leg}
 
-{{ image(float="right", width="320", localsrc="2022/2022-02-10-mittens-shaved-leg.jpg", caption="Mittens' shaved leg", alt="Photograph of a black cat with white streaks with her left front leg showing a shaved portion near her paw") }}  This week Mittens was at the vet for teeth cleaning and inspection. 
+{{ image(div_float="right", width="320", localsrc="2022/2022-02-10-mittens-shaved-leg.jpg", caption="Mittens' shaved leg", alt="Photograph of a black cat with white streaks with her left front leg showing a shaved portion near her paw") }}  This week Mittens was at the vet for teeth cleaning and inspection. 
 One of her teeth had "root reabsorption" and disappeared. 
 She needed general anesthesia, of course, for the cleaning...hence the shaved leg.
 

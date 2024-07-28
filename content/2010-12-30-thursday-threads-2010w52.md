@@ -70,7 +70,7 @@ As the new year approaches, I wish you the best professionally and personally.
  post=", Onnesha Roychoudhuri, 1-Nov-2011") }}
 
 Onnesha Roychoudhuri publishes this view of Amazon's marketing practices in the lastest issue of the <a href="http://www.bostonreview.net/" title="Boston Review &amp;mdash; Home">Boston Review</a>.  From the publisher's pespective, the strong-arm tactics described sound horrible.  But the story also points to cracks appearing -- at least for the bigger publishers.  That may leave smaller, independent publishers in a big squeeze.  [Via OCLC Research's 
-{{ robustlink(href="https://web.archive.org/web/2010123000000/http://www.oclc.org/research/publications/newsletters/abovethefold/2010-12-17.htm", original="http://www.oclc.org/research/publications/newsletters/abovethefold/2010-12-17.htm", versiondate="2010-12-17", title="Above-the-Fold | OCLC Research", anchor="Above-the-Fold") }} 
+{{ robustlink(href="https://web.archive.org/web/2010123000000/http://www.oclc.org/research/publications/newsletters/abovethefold/2010-12-17.htm", originalurl="http://www.oclc.org/research/publications/newsletters/abovethefold/2010-12-17.htm", versiondate="2010-12-17", title="Above-the-Fold | OCLC Research", anchor="Above-the-Fold") }} 
 ]
 
 ## Academic Search Engine Spam and Google Scholar's Resilience Against it

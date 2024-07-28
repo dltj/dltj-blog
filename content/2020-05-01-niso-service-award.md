@@ -13,7 +13,7 @@ Pictured in that tweet is my co-recipient, Christine Stohn, who serves NISO with
 This got me thinking about what NISO has meant to me. 
 As I think back on it, my activity in NISO spans at least four employers and many hours of standard working group meetings, committee meetings, presentations, and ballot reviews.
 
-{{ image(float="right", width="100", localsrc="2020/2020-05-01-niso-service-award.jpg", caption="NISO Ann Marie Cunningham Service Award", alt="Picture of the award plaque") }}
+{{ image(div_float="right", width="100", localsrc="2020/2020-05-01-niso-service-award.jpg", caption="NISO Ann Marie Cunningham Service Award", alt="Picture of the award plaque") }}
 I did not know Ms Cunningham, the award’s namesake. 
 My first job started when she was the NFAIS executive director in the early 1990s, and I hadn’t been active in the profession yet. 
 I read her [brief biography](https://www.niso.org/nisoplus2020/awards) on the NISO website:

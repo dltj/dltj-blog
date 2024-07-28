@@ -72,7 +72,7 @@ This Mastodon thread is going to get longer in future newsletter issues, but for
 
 ## Alan Likes Football Too
 {: #alan-world-cup}
-{{ image(float="right", width="320", localsrc="2022/2022-12-01-alan.jpg", alt="Photograph of a white and grey cat sitting on the photographer's lap. On the desk in front of the cat is an iPad that is propped up and showing a World Cup soccer match.") }} 
+{{ image(div_float="right", width="320", localsrc="2022/2022-12-01-alan.jpg", alt="Photograph of a white and grey cat sitting on the photographer's lap. On the desk in front of the cat is an iPad that is propped up and showing a World Cup soccer match.") }} 
 In addition to everything else going on, it is World Cup season. 
 Alan joined me one afternoon to watch the group-stage England versus Iran game. 
 

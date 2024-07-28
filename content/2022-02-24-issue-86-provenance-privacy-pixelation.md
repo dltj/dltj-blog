@@ -31,7 +31,7 @@ The threads this week:
  versiondate="2022-02-22 21:28:19+00:00",
  versionurl="https://web.archive.org/20220222220810/https://c2pa.org/post/release_1_pr/",
  anchor="C2PA Releases Specification of World's First Industry Standard for Content Provenance",
- post=", Coalition for Content Provenance and Authenticity, 26-Jan-2022") }}{{ image(float="right", width="320", localsrc="2022/2022-02-24-c2pa_visualglossary.png", caption="Elements of the C2PA specification. <a href='https://c2pa.org/specifications/specifications/1.0/specs/C2PA_Specification.html#_overview_2'>[Source]</a>", alt="This image shows how all these various elements come together to represent the C2PA architecture.", ahref="https://c2pa.org/specifications/specifications/1.0/specs/C2PA_Specification.html#_overview_2") }}
+ post=", Coalition for Content Provenance and Authenticity, 26-Jan-2022") }}{{ image(div_float="right", width="320", localsrc="2022/2022-02-24-c2pa_visualglossary.png", caption="Elements of the C2PA specification. <a href='https://c2pa.org/specifications/specifications/1.0/specs/C2PA_Specification.html#_overview_2'>[Source]</a>", alt="This image shows how all these various elements come together to represent the C2PA architecture.", ahref="https://c2pa.org/specifications/specifications/1.0/specs/C2PA_Specification.html#_overview_2") }}
 
 This is a fascinating development. 
 Although the target audience for this technology is news organizations and citizen journalists to provide a way to establish the creator and editors of media, one could easily envision using this standard to mark images, video, and audio from digital archives. 
@@ -109,7 +109,7 @@ It is not hard to imagine that this technique will be used for other dynamic par
 {: close-supervision}
 
 
-{{ image(float="right", width="320", localsrc="2022/2022-02-24-supervising-cat.png", caption="Alan lets me know he is watching.", alt="Two photographs in one image. The top picture is of seedlings that have just sprouted in a growing tray under a bright light. In the bottom image, a white cat with a dark fur outline around his face is on an open staircase eye level and is reaching out and reaching out a paw.") }} 
+{{ image(div_float="right", width="320", localsrc="2022/2022-02-24-supervising-cat.png", caption="Alan lets me know he is watching.", alt="Two photographs in one image. The top picture is of seedlings that have just sprouted in a growing tray under a bright light. In the bottom image, a white cat with a dark fur outline around his face is on an open staircase eye level and is reaching out and reaching out a paw.") }} 
 
 I am the caretaker this week for some newly planted seedlings in the basement. 
 Among my tasks is to spray them with water to keep them moist and growing. 

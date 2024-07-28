@@ -9,7 +9,7 @@ tags:
 mastodon:
 - New blog post
 ---
-In May 2023 I was asked to join the opening session at Georgia's {{ robustlink(href="https://web.archive.org/web/20230902170620/https://gil.usg.edu/conference/", original="https://gil.usg.edu/conference/", versiondate="2023-09-02", title="GIL User Group Meeting 2023", anchor="GIL User Group Meeting") }}. 
+In May 2023 I was asked to join the opening session at Georgia's {{ robustlink(href="https://web.archive.org/web/20230902170620/https://gil.usg.edu/conference/", originalurl="https://gil.usg.edu/conference/", versiondate="2023-09-02", title="GIL User Group Meeting 2023", anchor="GIL User Group Meeting") }}. 
 Along with Chris Sharp and Emily Gore, we reflected on the conference theme: The Future is Open.
 GALILEO has an exciting time ahed of it...their libraries are adopting FOLIO and a new resource sharing system.
 Below is a lightly edited version of my remarks during the panel, and a {{ robustlink(href="https://www.youtube.com/watch?v=daCCtHvxmkI&list=PLvf_OH0jasgrxwpikx--tpjcMFGIQu0PR&index=1", versionurl="https://web.archive.org/web/20230902184932/https://www.youtube.com/watch?v=daCCtHvxmkI", versiondate="2023-09-02", title="Opening Session: Panel on Open Source Library Solutions | YouTube", anchor="recording of the keynote panel is available on YouTube") }}.

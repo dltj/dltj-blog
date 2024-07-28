@@ -27,7 +27,7 @@ In the meantime, the threads this week:
 ## Author Speaks Up for Controlled Digital Lending
 {: #author-cdl-perspective}
 
-{{ image(float="right", width="320", localsrc="2022/2022-02-03-tweet.png", caption="The controversial tweet.", alt="Screen capture of Maria Bustillos tweet saying 'ebooks are books! CDL is Controlled Digital Lending, and it means treating ebooks like paper books, so you can borrow them from libraries. This is COOL and GOOD", ahref="https://twitter.com/mariabustillos/status/1483466509800325127") }} {{ thursday_threads_quote(href="https://popula.com/2022/01/22/what-kind-of-writer-accuses-libraries-of-stealing/",
+{{ image(div_float="right", width="320", localsrc="2022/2022-02-03-tweet.png", caption="The controversial tweet.", alt="Screen capture of Maria Bustillos tweet saying 'ebooks are books! CDL is Controlled Digital Lending, and it means treating ebooks like paper books, so you can borrow them from libraries. This is COOL and GOOD", ahref="https://twitter.com/mariabustillos/status/1483466509800325127") }} {{ thursday_threads_quote(href="https://popula.com/2022/01/22/what-kind-of-writer-accuses-libraries-of-stealing/",
  blockquote='The Big Five publishing houses’ share of the approximately $25 billion book publishing market is estimated at 80%. And it’s Big Publishing that is indeed throwing its weight around by suing the Internet Archive (the “org making reproductions” referenced here, which is actually a California state library and leading institution for digital preservation, not some random “org”).
 
 Again, [Controlled Digital Lending] provides the legal framework for any library to make **one copy** of **one paper book** that it owns and loan it to **one patron** at a time.',
@@ -57,7 +57,7 @@ Cory Doctorow's post provides a perspective on {{ robustlink(href="https://prosp
 ## Self-publishing the Local Way
 {: #self-publishing}
 
-{{ image(float="right", width="320", localsrc="2022/2022-02-03-dillons-book.jpeg", caption="The cover of Dillon's book.", alt="Photograph of the cover of Dillon's addition to his local Idaho library. In a child's handwriting, the cover says 'The Adventures of Dillon Helbig’s Crismis by Dillon his self'") }} {{ thursday_threads_quote(href="https://www.washingtonpost.com/lifestyle/2022/01/31/library-book-idaho-dillon-helbig/",
+{{ image(div_float="right", width="320", localsrc="2022/2022-02-03-dillons-book.jpeg", caption="The cover of Dillon's book.", alt="Photograph of the cover of Dillon's addition to his local Idaho library. In a child's handwriting, the cover says 'The Adventures of Dillon Helbig’s Crismis by Dillon his self'") }} {{ thursday_threads_quote(href="https://www.washingtonpost.com/lifestyle/2022/01/31/library-book-idaho-dillon-helbig/",
  blockquote='The staff librarians who read Dillon&#39;s book agreed that as informal and unconventional as it was, the book met the selection criteria for the collection in that it was a high-quality story that was fun to read. So, [library branch manager Alex] Hartman asked [Dillon&#39;s mother Susan] Helbig for permission to tack a bar code onto the book and formally add it to the library’s collection.',
  versiondate="2022-01-31 23:06:24+00:00",
  versionurl="https://web.archive.org/20220131230906/https://www.washingtonpost.com/lifestyle/2022/01/31/library-book-idaho-dillon-helbig/",

@@ -58,7 +58,7 @@ I think it is fair to say that not much has changed.
 
 ## This Week's Cats
 {: #alan-mittens}
-{{ image(float="right", width="320", localsrc="2022/2022-03-17-alan-mittens.jpg", alt="Photograph of a black and white cat sleeping in a curled-up ball on one side of a bed while a black cat looks lover from the other side of the bed.") }} 
+{{ image(div_float="right", width="320", localsrc="2022/2022-03-17-alan-mittens.jpg", alt="Photograph of a black and white cat sleeping in a curled-up ball on one side of a bed while a black cat looks lover from the other side of the bed.") }} 
 
 This is a throwback to a picture of Alan (left) and Mittens (right) from [six weeks ago]({% post_url_absolute 2022-02-03-issue-83-cdl-wwe-childrens-book %}#cat-fence). 
 In that picture, there was a pillow fence between the two. 

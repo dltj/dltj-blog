@@ -15,8 +15,8 @@ Most people do this with a screenshot of a tweet, but that doesn't capture the f
 
 Ed Summers pointed out a {{ robustlink(href="https://apnews.com/article/technology-police-government-surveillance-covid-19-3f3f348d176bc7152a8cb2dbab2e4cc4", versionurl="https://web.archive.org/web/20230204174731/https://apnews.com/article/technology-police-government-surveillance-covid-19-3f3f348d176bc7152a8cb2dbab2e4cc4", versiondate="2023-02-04", title="Police seize on COVID-19 tech to expand global surveillance | AP News", anchor="recent article") }} from the Associated Press that embedded a functional archive of a tweet. (Scroll down nearly to the end of the article.) 
 
-{{ image(float="left", width="350", localsrc="2023/2023-02-04-screenshot-apnews-tweet.png", caption="Screen capture of a tweet from TelanganaDGP") }}
-{{ image(float="right", width="350", localsrc="2023/2023-02-04-screenshot-apnews-info.png", caption="Screen capture of the contents of 'click here to learn more'") }}
+{{ image(div_float="left", width="350", localsrc="2023/2023-02-04-screenshot-apnews-tweet.png", caption="Screen capture of a tweet from TelanganaDGP") }}
+{{ image(div_float="right", width="350", localsrc="2023/2023-02-04-screenshot-apnews-info.png", caption="Screen capture of the contents of 'click here to learn more'") }}
 <div style='clear:both'></div>
 
 That looked interesting, so with the help of hints from Ed, I [embedded a tweet in last week's newsletter](https://dltj.org/article/issue-98-time-standards/#aliens).
@@ -58,7 +58,7 @@ When you open the extension or launch the application, you'll see these buttons.
 
 1. Select "Create new...". This will create a new web archive; a single web archive can contain multiple web pages. Name the archive something meaningful...I use a combination of service, username, and identifier separated by dashes (so `twitter-DataG-1585816108908662788` in my example).
 1. Select "Start recording...". You are prompted for the name of the web archive (which we just created) and a text entry box for a URL. Put the "oembed.link" URL in that box and select "Go"; it will immediately be fetched and put into the web archive. There is also a checkbox to start in "Preview Mode" if you don't want your first URL added to the web archive.
-1. A new window opens. Look for the ArchiveWeb button in the upper right corner. {{ image(float="right", width="92", localsrc="2023/2023-02-05-archiveweb-button.png", alt="A blue/green circular button with a green square covering the lower right corner of the button.") }} If the square is green, the web page has stopped loading and is fully recorded in the archive. 
+1. A new window opens. Look for the ArchiveWeb button in the upper right corner. {{ image(div_float="right", width="92", localsrc="2023/2023-02-05-archiveweb-button.png", alt="A blue/green circular button with a green square covering the lower right corner of the button.") }} If the square is green, the web page has stopped loading and is fully recorded in the archive. 
 1. To record a second page, put the URL in the top box and press return. In my case, I'm also going to put the contents of the direct Twitter URL (without the oembed) into the archive as well. You can also click on links in the window...the contents of any page you view will be recorded in the web archive.
 1. When you are done recording, select the ArchiveWeb button in the upper right and in the drop-down menu select "Stop". Then close this window.
 1. The ArchiveWeb screen shows your new web archive. Select "Download" then "Download all as WACZ" to get the web archive file.

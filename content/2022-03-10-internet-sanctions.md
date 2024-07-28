@@ -16,7 +16,7 @@ Who would decide?
 Who would implement the decision? 
 To say nothing of the consequences of trying to impose an Internet Sanction on a government or a country. 
 
-{{ image(float="right", width="320", localsrc="2022/2022-03-10-woodyatpch-tweet.png", alt="Screen capture of Bill Woodcock's tweet: 'Ten days and dozens of authors working together, we now have a document that describes the Internet infrastructure governance community's position on sanctions: what's appropriate, and a multistakeholder governance method for their imposition'", ahref="https://twitter.com/woodyatpch/status/1501820133227974656") }} 
+{{ image(div_float="right", width="320", localsrc="2022/2022-03-10-woodyatpch-tweet.png", alt="Screen capture of Bill Woodcock's tweet: 'Ten days and dozens of authors working together, we now have a document that describes the Internet infrastructure governance community's position on sanctions: what's appropriate, and a multistakeholder governance method for their imposition'", ahref="https://twitter.com/woodyatpch/status/1501820133227974656") }} 
 
 The internet as we know it is a quirky beast. 
 It is called "inter-net" because it is formed as the interconnection of independent networks plus a healthy dose of human capital (and independent streams of monetary capital), reliance on openly-published and open-ended standards, interpersonal trust, and—quite frankly—quite a bit of luck. 
@@ -74,7 +74,7 @@ This document was put together in response to a {{ robustlink(href="https://www.
 Ukraine wants to cut off Russian networks from the rest of the internet, disable its top-level domain names, and revoke its web server security certificates. 
 There are technical problems with those requests that border on the impossible, and the _Multistakeholder_ document says why. 
 
-{{ image(float="right", width="320", localsrc="2022/2022-03-10-Multistakeholder-Imposition-of-Internet-Sanctions.png", alt="Image of the first page of the linked document, Multistakeholder Imposition of Internet Sanctions", ahref="https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf") }} 
+{{ image(div_float="right", width="320", localsrc="2022/2022-03-10-Multistakeholder-Imposition-of-Internet-Sanctions.png", alt="Image of the first page of the linked document, Multistakeholder Imposition of Internet Sanctions", ahref="https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf") }} 
 
 The executive summary of the document is:
 

@@ -22,7 +22,7 @@ mastodon:
 - Source code is another area where there are questions of copyright, and this time with the terms of #OpenSource licenses as #GitHub launches its Copilot service to generate code snippets. https://dltj.org/article/issue-99-copyright-and-ai#copilot 9/10
 - And the weekly addition to #CatsOfMastodon. Alan stretches and roars in my lap. bonus/9
 ---
-{{ image(float="right", width="300", localsrc="2023/2023-03-02-cmf.png", caption="Cecil Mae Feather, 1929–2023") }} 
+{{ image(div_float="right", width="300", localsrc="2023/2023-03-02-cmf.png", caption="Cecil Mae Feather, 1929–2023") }} 
 This issue is offered in honor of {{ robustlink(href="https://www.legacy.com/us/obituaries/hickoryrecord/name/cecil-feather-obituary?id=45099704", versionurl="https://web.archive.org/web/20230302030520/https://www.legacy.com/us/obituaries/hickoryrecord/name/cecil-feather-obituary?id=45099704", versiondate="2023-03-01", title="Cecil Feather Obituary (1929 - 2023) - Newton, NC | Hickory Daily Record", anchor="Cecil Mae Thornburg Feather") }}, my mother-in-law. 
 Cecil Mae was a wonderful person. 
 I only knew her a short time as I married into the Feather family, and that time was filled with love and joy. 
@@ -57,7 +57,7 @@ Let me know if you have seen other angles that you think should be more broadly 
 
 ## Copyright is for humans
 {: #humans}
-{{ image(float="right", width="173", abssrc="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Macaca_nigra_self-portrait_large.jpg/173px-Macaca_nigra_self-portrait_large.jpg", caption="Naruto's 'monkey selfie'", alt="Photograph of a monkey face with a slight grin set against a leafy green background") }}
+{{ image(div_float="right", width="173", abssrc="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Macaca_nigra_self-portrait_large.jpg/173px-Macaca_nigra_self-portrait_large.jpg", caption="Naruto's 'monkey selfie'", alt="Photograph of a monkey face with a slight grin set against a leafy green background") }}
 {{ thursday_threads_quote(href="http://cdn.ca9.uscourts.gov/datastore/opinions/2018/04/23/16-15469.pdf",
  blockquote='We must determine whether a monkey may sue humans, corporations, and companies for damages and injunctive relief arising from claims of copyright infringement. Our court’s precedent requires us to conclude that the monkey’s claim has standing under Article III of the United States Constitution. Nonetheless, we conclude that this monkey—and all animals, since they are not human—lacks statutory standing under the Copyright Act.',
  versiondate="2018-04-29",

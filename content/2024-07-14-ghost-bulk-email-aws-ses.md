@@ -297,9 +297,9 @@ Problems that I immediately spotted:
 1. The ordered list got put outside the blockquote. In fact, I noticed this in other imported issues...multi-paragraph blockquotes got put into individual paragraph blockquotes, and that rendered weirdly.
 1. The styling and &lt;cite&gt; tag were discarded.
 
-{{ img_desc(
+{{ image(
 width="700",
-src="2024/2024-07-14-thread-entry-comparison.png",
+localsrc="2024/2024-07-14-thread-entry-comparison.png",
 caption="Side-by-side comparison of Ghost (left) with original.")
 }}
 
