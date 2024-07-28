@@ -130,7 +130,7 @@ comments:
 <p>First, one has to go to the <a href="https://certificates.godaddy.com/Repository.go">Go Daddy Secure Certificate Services Repository</a>.  Many of the directions I found for getting the intermediary certificate working with web servers said to download the intermediate certificate alone (or, as Go Daddy calls it, the <code>sf_issuing.crt</code> file).  I found this didn't work &mdash; rather, the "Root Bundle" (or <code>ca_bundle.crt</code> file) is what is needed.</p>
 <p>[Updated 20070904T1104 : It looks like Go Daddy changed their certificate chain last month.  What you need now is called "gd_bundle.crt" from the Go Daddy certificate repository -- you'll find it under the heading "New Go Daddy Certificate Chain" (at least that is where you'll find it today).]</p>
 <p>Then add this to your <code>slapd.conf</code> file:</p>
-{% highlight text %}
+```text
 TLSCipherSuite HIGH:MEDIUM
 # Your signed CSR that you got back from Go Daddy
 TLSCertificateFile /etc/ssl/certs/ldap.ohiolink.crt
@@ -138,32 +138,32 @@ TLSCertificateFile /etc/ssl/certs/ldap.ohiolink.crt
 TLSCertificateKeyFile /etc/ssl/certs/ldap.ohiolink.key
 # The "Root Bundle" file from Go Daddy's Certificates Repository
 TLSCACertificateFile /etc/ssl/certs/ca_bundle.crt
-{% endhighlight %}
+```
 <p>Next, move onto the client side.  (Your LDAP server also has the client libraries installed -- you'll likely want to start there.)</p>
 <h2>OpenLDAP's 'ldap.conf' Client Setup</h2>
 <p>In case you haven't discovered it by now, there are two &mdash; count 'em, <em>two</em> &mdash; <code>ldap.conf</code> files on your box.  One is read by tools derived from the OpenLDAP package and the other is for the pam_ldap/nss_ldap combination.  And to make things even more interesting -- the syntax of the files are not the same!  Boy, sometimes I really dislike the profession I'm in...</p>
 <p>So let's start with OpenLDAP's <code>ldap.conf</code> file; you'll likely find this in the <code>/etc/openldap</code> directory.  (At least that is where you'll find it with Gentoo -- YMMV.)  In that file, you'll want to put these pieces:</p>
-{% highlight text %}
+```text
 BASE            dc=ohiolink,dc=edu
 URI             ldap://ldap.ohiolink.edu/
 TLS_CACERTDIR   /etc/ssl/certs
 TLS_REQCERT     demand
-{% endhighlight %}
+```
 <p>You'll, of course, want to replace the BASE and URI parameters with the ones most appropriate for your installation.  I've found that third line to be somewhat unexpectedly important, however.  The OpenLDAP libraries need to know where to go to find the trusted root certificates, and so you need to specify the path where they exist on your system.  These got installed with OpenSSL, which you needed back in "The Certificate" stage when you generated the CSR.  Again, these are in <code>/etc/ssl/certs</code> on a typically-configured Gentoo box; you might find them elsewhere in other distributions.</p>
 <h2>NSS/PAM's 'ldap.conf' Client Setup</h2>
 <p>This is the <em>other</em> <code>ldap.conf</code> file, and on a Gentoo system you're likely to find it in the <code>/etc</code> directory.  Remember &mdash; the file name is the same but the directives are different.  You'll use much of the knowledge from the previous section here...you'll just need to change the preceding labels:</p>
-{% highlight text %}
+```text
 suffix "dc=ohiolink,dc=edu"
 uri ldap://ldap.ohiolink.edu
 sslpath /etc/ssl/certs
 ssl start_tls
-{% endhighlight %}
+```
 <p>See the similarity?  <code>base</code> becomes <code>suffix</code>, <code>tls_cacertdir</code> becomes <code>sslpath</code>, and so forth.  There will likely be much more in this file -- <code>pam_login_attribute</code>, <code>nss_base_passwd</code>, and more.  Follow a more comprehensive set of directions to get those pieces right.</p>
 <h2>Testing</h2>
 <p>To test to see if the SSL certificate is really securing the connection, you can use the <code>-ZZ</code> parameter (to force an SSL/TLS interaction with the server) on <code>ldapsearch</code> with the debugging level set in order to see some of the protocol interaction.  I find that this command is most instructive:</p>
-{% highlight bash %}
+```bash
 ldapsearch -d 9 -ZZ -h ...ldap.server.address.net...
-{% endhighlight %}
+```
 <p>You can scroll back and make sure that the SSL/TLS-secured connection was, in fact being used.  You can also turn up debugging on the server and look at the server log files to verify the same thing.</p>
 <h2>Conclusion</h2>
 <p>So there you go.  I hope you find this useful.  I also hope that if you find it in error, you'll let me know.  (Although, at the moment, this does seem to be working for us.  Perhaps it only works because I have faith that it will work.  If so, please be gentle when you tell me I've made an error...  :-) )</p>

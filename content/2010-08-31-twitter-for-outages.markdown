@@ -98,7 +98,7 @@ comments:
 <h2>The Implementation</h2>
 <p>What I ended up doing was <a href="http://github.com/dltj/twitterjs" title="dltj's twitterjs at master - GitHub">adapting</a> JavaScript code by <a href="http://remysharp.com/2007/05/18/add-twitter-to-your-blog-step-by-step/" title="Add Twitter to your blog (step-by-step)">Remy Sharp</a> from his <a href="http://code.google.com/p/twitterjs/" title="twitterjs - Project Hosting on Google Code">twitterjs</a> project.  Modifications include the ability to pass a parameter to limit the number of hours a tweet will be shown before it is ignored (the <strong>ignoreOlderThan</strong> parameter) and to truncate the display of tweets if a particular string is used (the <strong>stopIfSeen</strong> parameter) as well as the caching function.  The code is posted on GitHub at <a href="http://github.com/dltj/twitterjs" title="dltj's twitterjs at master - GitHub">http://github.com/dltj/twitterjs</a>.</p>
 <p>The <a href="http://github.com/dltj/twitterjs/blob/OhioLINK-Prod/src/twitter.js#L472" title="Line 472 of twitter.js on the OhioLINK-Prod branch of twitterjs">bottom of 'twitter.js' in the <em>OhioLINK-Prod</em> branch</a> of the twitterjs project has an example of how to configure the JavaScript function.  It looks like this:</p>
-{% highlight JavaScript %}
+```JavaScript
 getTwitters('ohiolinkstatus', {       // <div> to insert text
   id: 'OhioLINKstatus',               // Twitter id
   count: 20,                          // Maximum number of tweets to show
@@ -109,7 +109,7 @@ getTwitters('ohiolinkstatus', {       // <div> to insert text
   cookieDomain: 'dltj.org',           // Cookies stored for this domain
   cookieRefresh: 5                    // How often to check tweets (in minutes)
 });</div>
-{% endhighlight %}
+```
 <p>To make this work on your pages, you'd need to follow these steps:</p>
 <ol>
 <li>Download the <a href="http://github.com/dltj/twitterjs/raw/master/src/twitter.js" title="twitter.js">twitter.js file</a> from GitHub.  At the end of this file, add the configuration to match your needs.  At a minimum, change <code>cookieDomain</code> to match the domain of your website, or this won't work.  You probably also want to change the <code>id</code> unless you want to monitor OhioLINK services.  ((Note that at the time this is being posted, OhioLINK is not using this in production so don't rely on this Twitter ID for actual outage messages.))</li>
@@ -117,15 +117,15 @@ getTwitters('ohiolinkstatus', {       // <div> to insert text
 <li>(Optional Step) Run your JavaScript through <a href="http://jscompress.com/" title="Minify Javascript Online / Online JavaScript Packer">JSMinify</a> to reduce its size to increase website performance.  Do <a href="http://refresh-sf.com/yui/" title="Online YUI Compressor">the same</a> for the CSS file.</li>
 <li>Upload the JavaScript and CSS files to your website.</li>
 <li>Add these lines to the <head> section of any page you want to use this:
-{% highlight html %}
+```html
 <link rel="stylesheet" href="http://your.host.name/your.directory/twitter.css" type="text/css" media="screen" charset="utf-8" />
 <script src="http://your.host.name/your.directory/twitter.js" type="text/javascript" charset="utf-8"></script>
-{% endhighlight %}
+```
 </li>
 <li>Add this line to the <body> section of the document where you want the tweets to appear:
-{% highlight html %}
+```html
 <div class="twitters" id="ohiolinkstatus"></div>
-{% endhighlight %}
+```
 <p>  <em>Be sure</em> the <code>id</code> attribute value matches the first parameter of the <code>getTwitters()</code> function call in the first step.</li>
 </ol>
 <p><code>getTwitters()</code> will run the main body of code after the page is finished loading.  If it finds a twitterjs cookie for the current domain, it replaces whatever is inside the

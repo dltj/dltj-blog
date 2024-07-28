@@ -106,7 +106,7 @@ comments:
 <p>The "in-line XML" part of this proposal means that the DESCRIPTION datastream would be "managed" by the FEDORA server (e.g. not external or referenced), so it would become part of the object in the content store.</p>
 <h2>Example</h2>
 <p>If we take for a moment what is displayed in the presentation layer for <span class="removed_link" title="http://worlddmc.ohiolink.edu/Science/Details?oid=4005859">a sample object from the Forestry collection</span> as the sum total of all of the descriptive metadata for an object of this collection, a corresponding DESCRIPTION datastream would look something like:<br />
-{% highlight xml %}
+```xml
 <metadata xmlns="http://drc.ohiolink.edu/schema/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://drc.ohiolink.edu/schema/
@@ -133,7 +133,7 @@ Center</dc>
 	http://library.osu.edu/sites/dlib/terms.html
   </dcterms>
 </metadata>
-{% endhighlight %}
+```
 <h2>Comments?</h2>
 <p>Reactions to the proposal?  A rational step forward, or is there a better way?
 <p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://worlddmc.ohiolink.edu/Science/Details?oid=4005859 on December 31st, 2010.</p>

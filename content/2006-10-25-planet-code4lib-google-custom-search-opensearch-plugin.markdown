@@ -59,7 +59,7 @@ comments:
 ---
 <p>
 Earlier I mentioned creating a <a href="/article/google-custom-search-for-planet-code4lib/">Google Custom Search for Planet Code4Lib</a>.  The Google-supplied markup puts a form on your web page that leads to Google's server farm.  (Alternatively, you can create a custom URL that points to an HTML page at Google which contains the form.)  Well, that's really neat, but not far enough.  How about an <a href="/wp-content/uploads/2006/10/planet-code4lib-search.xml" title="OpenSearch Description of Planet Code4Lib Search via Google Custom Search">OpenSearch plugin</a> suitable for Firefox and MSIE7?  Here is the plugin markup:</p>
-{% highlight xml %}
+```xml
 < ?xml version="1.0" encoding="UTF-8"?>
  <opensearchdescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
    <shortname>Planet Code4Lib</shortname>
@@ -74,7 +74,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs
       <moz :searchform>http://dltj.org/2006/10/google-custom-search-for-planet-code4lib/
    </moz></url>
 </opensearchdescription>
-{% endhighlight %}
+```
 <p>Pretty neat, eh?  This link will <a href="javascript:window.external.AddSearchProvider(&#039;http://dltj.org/wp-content/uploads/2006/10/planet-code4lib-search.xml&#039;);">install the search definition in Firefox and MSIE7.</a></p>
 <h2>Is this going too far?</h2>
 <p>One can't help but to wonder whether this violates the <a href="http://google.com/coop/docs/cse/tos.html" title="Google Co-op - Custom Search Engine">Google Custom Search Terms of Service</a>.  Here is a piece of <b>1.1 Description of Service.</b></p>

@@ -59,7 +59,7 @@ comments:
 <strong>Found it!</strong>  It was a WordPress plug-in plus a change to the PHP configuration that was causing the problem.  The fix for the fundamental cause of the problem came from a comment timestamped February 8th, 2007 at 3:55 pm on the <a href="http://www.elvery.net/drzax/2006/02/10/footnotes-0-9-plugin-for-wordpress-2-0-x/" title="http://www.elvery.net/drzax/2006/02/10/footnotes-0-9-plugin-for-wordpress-2-0-x/">Footnotes 0.9 Plugin for WordPress 2.0.x</a> page.  An infinite loop was consuming both CPU cycles and RAM, and this was exacerbated by a change I made to the maximum CPU execution time for PHP scripts that was required in order to play with the <a href="http://wordpress.org/plugins/ipccp/" title="WordPress &rsaquo; Error">IP City Cluster plug-in</a>.  With the patch to the Footnotes plug-in, <i>dltj.org</i> has gone 12 hours without a run-away apache process.
 </div>
 <p>In any case, I whipped up this little ditty that is running every five minutes in cron as a way to gloss over the problem for the moment.  Running as root, it looks into all of the processes in the <a href="http://en.wikipedia.org/wiki/Procfs" title="Wikipedia: procfs">virtual /proc file system</a>, specifically in the 'stat' file, and using <a href="http://en.wikipedia.org/wiki/AWK_%28programming_language%29" title="Wikipedia: AWK">awk</a> looks to see if the second space-delimited value is the name of the httpd process (this is the <a href="http://www.gentoo.org/" title="Gentoo Linux -- Gentoo Linux News">Gentoo Linux</a> distribution, so the name of the process is <tt>apache2</tt>) and the 23rd space-delimited value (the virtual size of the process) is bigger than 800MB.  If so, it prints out the PID of the process (the first value in the <tt>stat</tt> file) at which the bash script unceremoniously sends it a <tt>kill</tt> ('-9') signal.  The script looks like this:</p>
-{% highlight bash %}
+```bash
 #!/bin/bash
 for i in `/bin/ls -d /proc/[0-9]*`; do
         if [ -f $i/stat ]; then
@@ -70,6 +70,6 @@ for i in `/bin/ls -d /proc/[0-9]*`; do
                 fi
         fi
 done
-{% endhighlight %}
+```
 <p>If anyone has any suggestions as to how to narrow down what the problem might be, I'd appreciate hearing from you.  I've tried eliminating Wordpress plugins, recompiling Wordpress and Apache, and attempted to catch the behavior with a network traffic sniffer, but have come up empty so far.
 <p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://blog.vimagic.de/ip-city-cluster-wordpress-plugin/ to http://wordpress.org/plugins/ipccp/ on August 22nd, 2013.</p>

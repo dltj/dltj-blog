@@ -70,24 +70,24 @@ comments:
 <p>The page is very long, so in order to get it to scale to something that fits on a normal browser screen, the detail of what is happening is lost.  Still, it is interesting to watch the reference section grow, the infoboxes be added, and the text grow in chunks and occasionally shrink as edits are made.  Of course, watching the length of the page grow as more research is done and edits made.  I echo Ed's kudos to the Wikipedia editors that worked quickly to create a great source of information about the history of this church in a time when many people would be looking for it.</p>
 <h2>Process</h2>
 <p>There doesn't seem to be a way to programmatically get a list of URLs (or even OIDs) from Wikipedia for one of its pages, so I captured the HTML source of the church's history page and ran a rather hairy regular expression on the unordered list of history entries, replacing:</p>
-{% highlight regex %}
+```regex
 ^.*<a href="/article/emanuel-african-methodist-episcopal-church-wikipedia-page-visualized/" title="Emanuel African Methodist Episcopal Church" class="mw-changeslist-date">(\d\d):(\d\d), (\d\d) June 2015</a>&lrm; <span class="history-user"><a href="/article/emanuel-african-methodist-episcopal-church-wikipedia-page-visualized/">]*?>(.*?)</a>.*(<span class="comment">(.*)</span>)?.*</span>
-{% endhighlight %}
+```
 <p>with</p>
-{% highlight regex %}
+```regex
 https://en.wikipedia.org\t201506T\thttps://en.wikipedia.org\t\t\r
-{% endhighlight %}
+```
 <p>Then I used the <a href="http://www.paulhammond.org/webkit2png/" title="webkit2png">webkit2png</a> program to grab the full page captures of each version of the wiki page:</p>
-{% highlight bash %}
+```bash
 cat page-history.txt | \
  while read line; do \
    IFS=$'\t' read url timestamp editorurl editor < <<"$line"; \
    webkit2png -W 1400 -H 3800 -F -o raw/$timestamp $url; \
    sleep 5; \
  done
- {% endhighlight %}
+ ```
 <p>With the full page captures in place, I resized and annotated the top of each with the timestamp and the wiki editor's name using <a href="http://www.imagemagick.org/script/convert.php" title="ImageMagick: Command-line Tools: Convert">Imagemagick <code>convert</code></a>:</p>
-{% highlight bash %}
+```bash
 cat page-history.txt | \
  while read line; do \
    IFS=$'\t' read url timestamp editorurl editor < <<"$line"; \
@@ -95,8 +95,8 @@ cat page-history.txt | \
    -pointsize 15 -fill white -annotate +10+16 "$timestamp  $editor" \
    labeled/$timestamp-labeled.png; \
  done
- {% endhighlight %}
+ ```
 <p>Finally, I also used Imagemagick to create the animated GIF:</p>
-{% highlight bash %}
+```bash
 convert -delay 50 -loop 0 labeled/*.png animation.gif
-{% endhighlight %}
+```

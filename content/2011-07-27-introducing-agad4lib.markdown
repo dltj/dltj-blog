@@ -242,6 +242,6 @@ comments:
 <p>More importantly, every day we highlight awesome and useful search tricks to help find information quicker and easier. Give patrons instant ability to build the increasingly important skills of search engine utilization and internet research by embedding a Google a Day widget or linking to our page at www.agoogleaday.com</p>
 <h2>How do I get started?</h2>
 <p>To install the A Google a Day widget into your site copy/paste the follow information (including the &ldquo;<&rdquo; and &ldquo;>&rdquo;) to your desired location. You can include this iframe element:</p>
-{% highlight html %}
+```html
 <iframe width="300" height="250" src="http://agoogleaday.com/embed.html" frameborder="0"></iframe>
-{% endhighlight %}
+```

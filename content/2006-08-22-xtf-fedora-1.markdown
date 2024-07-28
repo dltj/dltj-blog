@@ -62,19 +62,19 @@ comments:
 <p>In its base configuration, XTF reads documents out of a "data" directory that is in the application's Tomcat context directory.  It looks like two of the XTF components will need to be modified to successfully converse with a FEDORA-based object repository:  DynaXML and textIndexer.  Of the two, DynaXML seems to be the most straight forward.</p>
 <h3>DynaXML</h3>
 <p>First I went looking for where XTF's DynaXML reads documents and found the <a href="http://xtf.hg.sourceforge.net/hgweb/xtf/xtf/file/549e4167039e/WEB-INF/src/org/cdlib/xtf/dynaXML/DocLocator.java">DocLocator interface</a> with one <a href="http://xtf.hg.sourceforge.net/hgweb/xtf/xtf/file/de7d8a406bef/WEB-INF/src/org/cdlib/xtf/dynaXML/DefaultDocLocator.java">implementation that looks into the file system</a>.  John Davison, one of the DRC programmers, figured out (with help from the CDL folks) that in fact it is possible to pass a FEDORA API-A URL to DefaultDocLocator and have it do the right thing.  Its 'getInputSource()' method has this signature:</p>
-{% highlight java %}
+```java
 public InputSource getInputSource( String sourcePath,
      boolean removeDoctypeDecl ) throws IOException
-{% endhighlight %}
+```
 <p>...followed shortly by:</p>
-{% highlight java %}
+```java
 // If it's non-local, load the URL.
 if( sourcePath.startsWith("http:") ||
       sourcePath.startsWith("https:") )
 {
       return new InputSource( sourcePath );
 }
-{% endhighlight %}
+```
 where "InputSource" is the <a href="http://www.docjar.com/docs/api/org/xml/sax/InputSource.html" title="InputSource">entry point into the SAX parser</a>, which will accept a URI as a parameter.</p>
 <p>Unfortunately, using DefaultDocLocator in this way negates the use of <span class="removed_link" title="http://xtf.sourceforge.net/WebDocs/HTML/XTF_Under_Hood/XTFUnderHood.html#LazyFiles">CDL's "Lazy Trees"</span> (a binary version of each XML document containing all the original contents of the document, plus an index telling XTF where each element starts and ends).  Lazy Trees are a good thing because they speed up parsing of the XML document and the resulting rendering to the user.</p>
 <p>When dealing with local files (as opposed to the URL method described above), DefaultDocLocator will build a Lazy Tree in its index directory the first time the XML document is called up.  In implementing a FEDORA interface for XTF's DynaXML, what is required is a mixture of URL (or, in the case of FEDORA, a PID plus API-A call) to get the document and then create/store its lazy tree in the XTF index directory for subsequent retrieval.  This does seem pretty straight forward, does it not?</p>
@@ -82,14 +82,14 @@ where "InputSource" is the <a href="http://www.docjar.com/docs/api/org/xml/sax/I
 <p>XTF's textIndexer, on the other hand, really wants the XML it is indexing to be files on the local hard drive.  The XTF programming guide speaks of a <span class="removed_link" title="http://xtf.sourceforge.net/WebDocs/HTML/XTF_Programming_Guide/XTFProgGuide.html#textIndexer_DocSelector_Prog">textIndexer Document Selector</span> whose job it is to create a single XML file with the specifications of which documents to index and how to do it:</p>
 <blockquote><p>
 It is the responsibility of the <b>Document Selector</b> XSLT code to output an XML fragment that identifies which of the files in the directory should be indexed. This output XML fragment should take the following form:<br />
-{% highlight xml %}
+```xml
 <indexfiles>
     <indexfile fileName      = "FileName"
                {format       = "FileFormatID"}
                {preFilter    = "PreFilterPath"}
                {displayStyle = "DocumentFormatterPath"}>
 </indexfile></indexfiles>
-{% endhighlight %}
+```
 </p></blockquote>
 <p>Now the trick seems to be to build an alternate Document Selector that will not use filenames but rather URIs to build the index.  That'll be the subject of the next round of investigations.</p>
 <p>Comments and observations are welcome!

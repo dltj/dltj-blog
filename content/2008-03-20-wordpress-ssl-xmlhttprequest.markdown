@@ -91,7 +91,7 @@ comments:
 </ol>
 <p>The security model in the browser prevents scripts on a page from using XMLHttpRequest ((See <a href="http://en.wikipedia.org/wiki/XMLHttpRequest" title="XMLHttpRequest - Wikipedia">http://en.wikipedia.org/wiki/XMLHttpRequest</a> for more information on XMLHttpRequest.)) back to any host on the internet <em>except</em> for the host where the script came from.  In this case, the difference between "http://..." and "https://..." is enough to trigger the problem.</p>
 <p>So I fixed it with plug-in that uses an undocumented hook in WordPress 2.3.  If a plugin requests the value of 'siteurl' or 'home', a filter is called to check if the requested page is on the SSL server.  If it is, the filter changes the URL from 'http' to 'https'.  In that way, plug-ins will use the proper form of the URL.</p>
-{% highlight php %}
+```php
 < ?php
 /*
 Plugin Name: Fix Admin SSL
@@ -118,7 +118,7 @@ add_action ('option_siteurl', 'fix_admin_ssl', 1);
 add_action ('option_home', 'fix_admin_ssl', 1);
  
 ?>
-{% endhighlight %}
+```
 <p>One downside to this plug-in, though, is that it will appear to change the values of 'siteurl' and 'home' on the <span class="removed_link" title="http://codex.wordpress.org/General_Options_SubPanel">Options &rarr; General</span> admin page.  The values in the database are still the 'http' ones, but since the Options page is an admin page the filter will run when it pre-loads those form fields.</p>
 <p>If there is interest, I can package up the above code into a legitimate plugin and submit it to the <a href="http://wordpress.org/extend/plugins/" title="WordPress &#8250; WordPress Plugins">WordPress plugins list</a>.
 <p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://codex.wordpress.org/Administration_Over_SSL on November 8th, 2012.</p>

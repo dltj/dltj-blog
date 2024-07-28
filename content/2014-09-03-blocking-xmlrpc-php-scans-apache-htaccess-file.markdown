@@ -74,7 +74,7 @@ comments:
     of IP addresses, so there wasn't just one that I could block.
 ---
 <p>Someone out there on the internet is repeatedly hitting this blog's /xmlrpc.php service, probably looking to enumerate the user accounts on the blog as a precursor to a password scan (as described in <a href="http://www.saotn.org/huge-increase-wordpress-xmlrpc-php-post-requests/" title="Huge increase in WordPress xmlrpc.php POST requests | Sysadmins of the North">Huge increase in WordPress xmlrpc.php POST requests</a> at Sysadmins of the North).  My access logs look like this:</p>
-{% highlight text %}
+```text
 176.227.196.86 - - [04/Sep/2014:02:18:19 +0000] "POST /xmlrpc.php HTTP/1.0" 200 291 "-" "Mozilla/4.0 (compatible: MSIE 7.0; Windows NT 6.0)"
 195.154.136.19 - - [04/Sep/2014:02:18:19 +0000] "POST /xmlrpc.php HTTP/1.0" 200 291 "-" "Mozilla/4.0 (compatible: MSIE 7.0; Windows NT 6.0)"
 176.227.196.86 - - [04/Sep/2014:02:18:19 +0000] "POST /xmlrpc.php HTTP/1.0" 200 291 "-" "Mozilla/4.0 (compatible: MSIE 7.0; Windows NT 6.0)"
@@ -83,13 +83,13 @@ comments:
 176.227.196.86 - - [04/Sep/2014:02:18:24 +0000] "POST /xmlrpc.php HTTP/1.0" 200 291 "-" "Mozilla/4.0 (compatible: MSIE 7.0; Windows NT 6.0)"
 195.154.136.19 - - [04/Sep/2014:02:18:24 +0000] "POST /xmlrpc.php HTTP/1.0" 200 291 "-" "Mozilla/4.0 (compatible: MSIE 7.0; Windows NT 6.0)"
 176.227.196.86 - - [04/Sep/2014:02:18:26 +0000] "POST /xmlrpc.php HTTP/1.0" 200 291 "-" "Mozilla/4.0 (compatible: MSIE 7.0; Windows NT 6.0)"
-{% endhighlight %}
+```
 <p>By itself, this is just annoying -- but the real problem is that the PHP stack is getting invoked each time to deal with the request, and at several requests per second from different hosts this was putting quite a load on the server.  I decided to fix the problem with a slight variation from what is suggested in the Sysadmins of the North blog post.  This addition to the .htaccess file at the root level of my WordPress instance rejects the connection attempt at the Apache level rather than the PHP level:</p>
-{% highlight text %}
+```text
 RewriteCond %{REQUEST_URI} =/xmlrpc.php [NC]
 RewriteCond %{HTTP_USER_AGENT} .*Mozilla\/4.0\ \(compatible:\ MSIE\ 7.0;\ Windows\ NT\ 6.0.*
 RewriteRule .* - [F,L]
-{% endhighlight %}
+```
 <p>Which means:</p>
 <ol>
 <li>If the requested path is /xmlrpc.php, and</li>

@@ -87,15 +87,15 @@ comments:
 </form>
 <p><!-- Google CSE Search Box Ends --></p>
 <p>To build it, I started with the <a href="http://planet.code4lib.org/opml.xml" title="planet code4lib">Planet Code4Lib OPML feed</a> and ran some regular expression transformations against it, replacing these matches with empty strings (I used BBEdit on the Mac for this one-off, but it could probably be automated with a PERL script to a certain degree):</p>
-{% highlight text %}
+```text
 /feed/?(rss|atom)?/?$
 (\?|<pre wp-pre-tag-0></pre>|<pre wp-pre-tag-0></pre>amp;)feed=(atom|rss2)$
 (\?|<pre wp-pre-tag-0></pre>(amp;)?)feed=(atom|rss2)(<pre wp-pre-tag-0></pre>(amp;)?)
 /?(wp-rss2.php|rss|index.*|atom.*|rdf)[^/\r]*$
-{% endhighlight %}
+```
 
 <p>After a minimal amount of manual cleanup, I ended up with this list:</p>
-{% highlight text %}
+```text
 catalogablog.blogspot.com/*
 www.wallandbinkley.com/quaedam*
 maisonbisson.com/blog*
@@ -162,7 +162,7 @@ oss4lib.org/node*
 blogs.talis.com/panlibus*
 feeds.technorati.com/feed/posts/tag/code4lib*
 unalog.com/group/code4lib*
-{% endhighlight %}
+```
 
 <p>...and fed that into the Google Custom Search control panel.</p>
 <h2>Items of note in the Terms of Service</h2>

@@ -36,7 +36,7 @@ comments:
 <p>Up until about an hour ago, Technorati refused to update <span class="removed_link" title="http://www.technorati.com/blogs/http%3A%2F%2Fdltj.org">its database of postings to DLTJ</span>, and having reached the 31-day point of no updates I was starting to wonder what to do about it.  I came up with two theories for which I put in fixes to the configuration and theme setup of DLTJ, but in the end I'm not sure if either definitively provides a solution for anyone else in the same situation.  In the spirit of helping out one's neighbors, though, here are the theories and fixes.  DLTJ is a standalone (e.g. not hosted) Wordpress 2.0.4 installation, so YMMV.</p>
 <h2>Theory #1:  Technorati Doesn't Like Feedburner</h2>
 <p>I read some blog posts and messages in the Feedburner forums that suggested blogs that use Feedburner were causing Technocrati to hick-up and not index content.  My solution is to let Technorati see the raw feed and not get redirected to Feedburner.  This is accomplished with additions to the Apache mod_rewrite rules in the <code>.htaccess</code> file.<br />
-{% highlight text %}
+```text
 <ifmodule mod_rewrite.c>
 RewriteEngine On
 # These Rules redirect all feed traffic, except that of Technorati and FeedBurner itself, to FeedBurner
@@ -52,18 +52,18 @@ RewriteCond %{HTTP_USER_AGENT} !^FeedBurner.*$
 RewriteCond %{HTTP_USER_AGENT} !^Technorati.*$
 RewriteRule ^wp-(feed|rdf|rss|rss2|atom).php http://feeds.dltj.org/DisruptiveLibraryTechnologyJester [R,L]
 </ifmodule>
-{% endhighlight %}
+```
 If it the HTTP User-Agent string doesn't begin with <code>FeedBurner</code> or <code>Technorati</code>, it falls through to the Wordpress-supplied feed mechanisms.</p>
 <h2>Theory #2:  A Too-Complicated Home Page Confuses Technorati</h2>
 <p>In addition to looking at the feeds themselves, Technorati will look at the home page of the blog to see if the items still appear as "current" (presumably).  About a month ago I put in place a <a href="/">modestly complicated, hand-coded home page</a> that puts an instance of <a href="http://www.sonsofskadi.net/extended-live-archive/" title="http://www.sonsofskadi.net/extended-live-archive/">Extended Live Archive</a> front and center.  Since this is JavaScript-driven and pushes the list of recent posts pretty far down the HTML page, I wondered if this could be screwing up the Technorati spider.  The solution here was to sniff the User-Agent string in the theme's <code>index.php</code> file in order to strip away all of the cruft for Technorati's spider.<br />
-{% highlight php %}
+```php
 $useragent = getenv("HTTP_USER_AGENT");
 if (preg_match("/Technorati/i", "$useragent")) {
    // do the un-fancy, barebones stuff for Technorati
 } else {
    // do the really nice stuff for everyone else
 }
-{% endhighlight %}
+```
 (Remember to surround the appropriate parts of the PHP markup with <code><?php</code> and <code>?></code>...)</p>
 <h2>Why I May Never Know If Either of These Is Needed</h2>
 <p>Shortly after I put these two changes in place (literally, after a week of sending e-mails to Technorati's tech support and two hours after coding these fixes) I got a note from Technorati saying:</p>

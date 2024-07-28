@@ -33,10 +33,10 @@ comments:
 <p>The <a href="https://www.drupal.org/project/devel">Drupal Devel module</a> includes a menu item for executing arbitrary PHP code on the server.  (This is, of course, something you want to set permissions on very tightly because it can seriously wreck havoc on your day if someone uses it to do bad things.)  Navigate to <code>/devel/php</code> on your Islandora website (with the Devel module enabled), and you'll get a nice, big <code>&lg;textarea></code> and an "Execute" button:</p>
 <p>[caption id="attachment_27172" align="alignnone" width="584"]<a href="/wp-content/uploads/2016/03/devel-execute-php.png" rel="attachment wp-att-27172"><img src="/wp-content/uploads/2016/03/devel-execute-php-1024x794.png" alt="Execute arbitrary PHP using Drupal Devel module." width="584" height="453" class="size-large wp-image-27172" /></a> Execute arbitrary PHP using Drupal Devel module.[/caption]</p>
 <p>In this case, I'm generating the TECHMD datastream using the FITS module and displaying the results of the function call on the HTML page using the Devel module's <a href="https://api.drupal.org/api/devel/devel.module/function/dpm/7">dpm()</a> function:</p>
-{% highlight php %}
+```php
 include drupal_get_path('module', 'islandora_fits') . '/includes/derivatives.inc';
 $object= islandora_object_load('demo:6');
 $results = islandora_fits_create_techmd($object, False, array('source_dsid' => 'OBJ'));
 dpm($results);
-{% endhighlight %}
+```
 <p>Works like a charm!</p>
