@@ -36,37 +36,37 @@ Like everything on this static site blog, an issue starts as a Markdown file.
 Markdown is a light-weight markup language that translates very easily into HTML, and makes it easy for a writer to create valid HTML. 
 It is also possible to mix HTML inside a Markdown file and have the right thing happen. 
 The Jekyll processor (the program that turns a folder of Markdown files into a folder of HTML files) has a mechanism for including macros in the markup, and each "thread" in the issue is a macro file. 
-If you look at the [Markdown source for issue 79](https://raw.githubusercontent.com/dltj/dltj-blog/master/_posts/2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50.markdown), you'll see each heading (marked with `##`) has a `{% raw %}{% include thursday-threads-quote.html %}{% endraw %}` macro definition.
+If you look at the [Markdown source for issue 79](https://raw.githubusercontent.com/dltj/dltj-blog/master/_posts/2022-01-06-issue-79-educause-tech-social-media-regulation-apollo-11-at-50.md), you'll see each heading (marked with `##`) has a 
+{% raw -%}
+`{% include thursday-threads-quote.html %}`
+{%- endraw %}
+ macro definition.
 
-```ruby
+```
 {% include thursday-threads-quote.html
-blockquote="The EDUCAUSE 2022 Top 10 IT Issues take an optimistic view of how technology can help make the higher education we deserve—through a shared transformational vision and strategy for the institution, a recognition of the need to place students’ success at the center, and a sustainable business model that has redefined 'the campus.'" 
-url="https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve" 
-versiondate="2021-11-12"
-versionurl="https://web.archive.org/20211127031010/https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve"
-anchor="Top 10 IT Issues, 2022: The Higher Education We Deserve" 
-post=", EDUCAUSE" %}
+  blockquote="The EDUCAUSE 2022 Top 10 IT Issues take an optimistic view of how technology can help make the higher education we deserve—through a shared transformational vision and strategy for the institution, a recognition of the need to place students’ success at the center, and a sustainable business model that has redefined 'the campus.'" 
+  url="https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve" 
+  versiondate="2021-11-12"
+  versionurl="https://web.archive.org/20211127031010/https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve"
+  anchor="Top 10 IT Issues, 2022: The Higher Education We Deserve" 
+  post=", EDUCAUSE" 
+%}
 ```
 
-Each of those variables are used in the include processor, which at the moment looks like this (see [current version](https://github.com/dltj/dltj-blog/blob/master/_includes/thursday-threads-quote.html)):
-
-```liquid
-<figure class="quote thursdaythread">
-  <blockquote>
-{{ include.blockquote }}
-  </blockquote>
-  <figcaption>&mdash;
-{% if include.pre %}{{ include.pre }}{% endif %}
-{% if include.url %}<a href="{{ include.url }}"{% if include.versionurl %} data-versionurl="{{ include.versionurl }}"{% endif%}{% if include.versiondate %} data-versiondate="{{ include.versiondate }}"{% endif %}{% if include.title %} title="{{ include.title }}"{% endif %}>{{ include.anchor}}</a>{% endif %}
-{% if include.post %}{{ include.post }}{% endif %}
-  </figcaption>
-</figure>
-```
+Each of those variables are used in the include processor, which at the moment looks like this: [_includes/thursday-threads-quote.html](https://github.com/dltj/dltj-blog/blob/94b9790d2de186a9922b425a2443887ebf597322/_includes/thursday-threads-quote.html)
 
 That is some semantically-appropriate HTML that with some CSS make the nice layout on the page. 
 (And should be accessible to screen readers, too.) 
-The content of the "blockquote" variable is inserted at `{% raw %}{{ include.blockquote }}{% endraw %}` spot. 
-There are also some conditional statements (`{% raw %}{% if include.pre %} ... {% endif %}{% endraw %}`) that will include markup when a variable has a value assigned to it. 
+The content of the "blockquote" variable is inserted at 
+{% raw -%}
+` include.blockquote `
+{% endraw %} 
+spot. 
+There are also some conditional statements (
+{% raw -%}
+`{% if include.pre %} ... {% endif %}`
+{% endraw %}) 
+that will include markup when a variable has a value assigned to it. 
 The best part of these include blocks is that I can save them as separate files in my Obsidian database with links and tags to the places where I got the content. 
 In fact, I expect my writing workflow will start with creating these include fragments in my Obsidian database throughout the week, and then when Wednesday night rolls around I'll pick some to drop into an issue. 
 (Over time, I aim to convert all 650 previous blog posts into Markdown and add them to my Obsidian database as well.  That will make it even _easier_ to draw threads from the past.) 
