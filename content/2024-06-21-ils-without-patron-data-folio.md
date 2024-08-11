@@ -24,8 +24,7 @@ In the following sections, I'll examine what our library system SP needs to do w
 I'll also discuss some changes that are needed to FOLIO itself. 
 For the sake of brevity, I'm calling this FOLIO version "FILP" — the FOLIO Identity Limited Platform.
 
-## A New Pairwise-ID is seen at FOLIO login
-{: #pairwise-login}
+## A New Pairwise-ID is seen at FOLIO login {: #pairwise-login}
 {{ image(div_float="right", width="400", localsrc="2024/2024-06-21-folio-saml-config.png", caption="The FOLIO Settings → Tenant → SSO settings pane", alt="Screen capture of the SSO settings pane. It contains four fields: Identity Provider URL, SAML binding, SAML attribute, and User property. There is also a button labeled 'Download metadata'") }}FOLIO includes a {{ robustlink(href="https://s3.amazonaws.com/foliodocs/api/mod-login-saml/p/saml-login.html", versionurl="https://web.archive.org/web/20240621221856/https://s3.amazonaws.com/foliodocs/api/mod-login-saml/p/saml-login.html", versiondate="2024-06-21", title="SAML Login (v1) | FOLIO API", anchor="SAML SP endpoint") }} that assumes user records have already been loaded into the system. 
 Configuring this endpoint requires naming the SAML attribute that will contain the person's unique identifier and which field of the FOLIO user record has that identifier. 
 In this example, the FOLIO SP is looking for the user identifier in the `uid` SAML attribute from the IdP and will search the contents of the `External System ID` field in the user record.
@@ -40,8 +39,7 @@ Our FILP SAML login module can also create user records on-the-fly when a new pa
 The IdP sends attributes (such as "student" or "faculty") to the FILP SP that are needed to determine the appropriate patron group; the settings for the SAML module would contain a table that maps those attributes to patron groups. 
 The pairwise-id is copied to the email address field, and a random last name will also be recorded in the new user record.
 
-## New Email Delivery Module
-{: #email-module}
+## New Email Delivery Module {: #email-module}
 FOLIO has a built-in email module with a {{ robustlink(href="https://s3.amazonaws.com/foliodocs/api/mod-email/p/email.html", versionurl="https://web.archive.org/web/20240621222741/https://s3.amazonaws.com/foliodocs/api/mod-email/p/email.html", versiondate="2024-06-21", title="Email API (v2.0) | FOLIO API", anchor="simple API for outbound email") }}. 
 Other FOLIO modules send a POST to the `/email` endpoint with a {{ robustlink(href="https://github.com/folio-org/mod-email/blob/master/ramls/email_entity.json", versionurl="https://web.archive.org/web/20240621222919/https://github.com/folio-org/mod-email/blob/master/ramls/email_entity.json", versiondate="2024-06-21", title="email_entity.json", anchor="JSON body that contains the email details") }}, including the `to` address and the `body` of the message. 
 The built-in email module has configuration settings for the SMTP server, and it takes responsibility for sending the message.
@@ -56,8 +54,7 @@ Also remember that we copied the pairwise-id to the email address in the user re
 Our FILP email module reads the JSON body to get the pairwise-id in the 'to' field, then sends it and the message contents to the IdP Pairwise Email Service. 
 The IdP Pairwise Email Service returns a success or failure message, which our FILP email module records in its database.
 
-## New Fee-Fine Module
-{: #feefine-module}
+## New Fee-Fine Module {: #feefine-module}
 Like the FOLIO email notification module, there is a {{ robustlink(href="https://s3.amazonaws.com/foliodocs/api/mod-feesfines/r/feefines.html", versionurl="https://web.archive.org/web/20240621223053/https://s3.amazonaws.com/foliodocs/api/mod-feesfines/r/feefines.html", versiondate="2024-06-21", title="Feefines version v1 | FOLIO API", anchor="single point") }} that FILP will need to override to send fee/fine information to an external agent. 
 Also, similar to the email module, the IT group running the IdP will need an IdP Pairwise Billing Service. 
 When that service is given a pairwise-id, a charge/credit amount, and a message, it will post a transaction against the patron's organization account. 
@@ -65,8 +62,7 @@ FOLIO's existing fee-fines module has a POST method to create a new fee and a PU
 The FILP version of the fee-fine module is a drop-in replacement for those `/feefines` and `/feefines/{feefineId}` API endpoints, and it accepts the same JSON bodies as those endpoints. 
 The `ownerId` field in the JSON body is the FOLIO user record identifier, and our FILP feefine module uses that identifier to look up the pairwise-id in the user record to forward the data to the IdP Pairwise Billing Service.
 
-## No changes to the Requests module
-{: #requests-module}
+## No changes to the Requests module {: #requests-module}
 The third example from the previous blog post of the impact of our FILP minimal-personal-knowledge library system was item request pickup slips. 
 For context, the typical hold-paging-request workflow is for the library to print a paging slip that contains the title, author, and shelving location of the requested item along with the patron's name and contact information. 
 The pickup slip is attached to the book and placed on a hold shelf for the patron to pick up. 
@@ -74,12 +70,21 @@ In this typical workflow, the patron's name is intimately tied to the requested 
 
 Instead of printing the patron's name, we use a random three-word phrase stored in the FOLIO user record's `last name` field when the record was created. 
 That random phrase is printed on the pull slip. 
-When FOLIO sends a hold pickup notice to the patron, the {% raw %}`{{user.lastName}}`{% endraw %} replacement token is available to insert in the body of the message:
+When FOLIO sends a hold pickup notice to the patron, the {% raw -%}
+`{{user.lastName}}`
+{% endraw %}
+ replacement token is available to insert in the body of the message:
 
-> The item you requested, _{% raw %}`{{item.title}}`{% endraw %}_, is now ready for pickup at the main library hold shelves. Items on the pickup shelves are sorted alphabetically using a three-word phrase. Your three-word phrase is _{% raw %}`{{user.lastName}}`{% endraw %}_.
+> The item you requested, 
+{% raw -%}
+`{{item.title}}`
+{%- endraw %}
+, is now ready for pickup at the main library hold shelves. Items on the pickup shelves are sorted alphabetically using a three-word phrase. Your three-word phrase is 
+{% raw -%}
+`{{user.lastName}}`
+{%- endraw %}.
 
-## Changes Required within FOLIO
-{: #user-scoped-apis}
+## Changes Required within FOLIO {: #user-scoped-apis}
 An important point in this description of how the pairwise-id is used in FOLIO is that the patron is the one logging into FOLIO to perform these actions. 
 Currently, FOLIO performs circulation operations like a typical integrated library system: to check out an item to a patron, a staff member logs into FOLIO with privileges to perform the checkout function. 
 That checkout function allows staff members (with the required permissions) to check out any item to any user record. 
@@ -93,8 +98,7 @@ As described above, an access service staff member will have permission to use t
 A patron user will need a permissions set that allows access only to their user record. 
 Several other endpoints will need similar modifications: an endpoint that records a hold request for the logged-in user, an endpoint that allows someone to set notification and pickup preferences for themself, an endpoint that requests a renewal for a checked-out item, and so forth.
 
-## Conclusion and the Way Forward
-{: #call-to-action}
+## Conclusion and the Way Forward {: #call-to-action}
 FILP, as described above, still has some potential ways to correlate library activity to a specific patron and possibly de-anonymize that person. 
 This blog post is already nearly 2,000 words, so I put [that discussion plus a few other open questions](https://dltj.org/article/ils-without-patron-data-details/) in the next post.
 

@@ -26,8 +26,7 @@ That is the first thread in this issue, and it is followed by more recent articl
 
 {{ thursday_threads_header() }}
 
-## The Most Important Library Metadata
-{: #most-important}
+## The Most Important Library Metadata {: #most-important}
 {{ image(div_float="right", width="350", localsrc="2023/2023-01-19-marc-tags.png", caption="Table 2.1—MARC tags occurring in 20% or more of WorldCat records—from 'Implications of MARC Tag Usage on Library Metadata Practices'", alt="Screen capture of a table, which is described in the text below.") }}{{ thursday_threads_quote(href="https://hangingtogether.org/the-core-of-bibliographic-description/",
  blockquote='<p>The outliers in this case are those elements that appear in a large number of records — that is, what might be considered “core” elements that are used to describe the vast majority of library owned material.</p><p>Those “outliers” can be categorized according to three general purposes:</p>
 <ul>
@@ -53,8 +52,7 @@ Now library records have hundreds of fields and variations of fields to describe
 Just a fun fact for your next dinner party.  
 
 
-## ICOLC Statement on the Metadata Rights of Libraries
-{: #icolc-statement}
+## ICOLC Statement on the Metadata Rights of Libraries {: #icolc-statement}
 {{ thursday_threads_quote(href="https://icolc.net/statements/icolc-statement-metadata-rights-libraries",
  blockquote='<p>Metadata and the metadata services that describe library collections are critical in supporting content discovery, knowledge creation, and libraries’ public missions. Metadata describing library collections is not typically copyrightable, and should be considered freely shareable and reusable under most circumstances. However, some industry players restrict libraries’ rights to use such metadata through contractual terms and market influence. Such restrictive activity is out of alignment with libraries’ needs and public, not-for-profit/educational missions.</p><p>The endorsers of this document urge all organizations, whether for-profit or not-for-profit, to uphold libraries’ rights and interests to use, re-use, adapt, aggregate, and share metadata that describes library collections to serve the public interest, without restriction or limitation.</p>',
  versiondate="2022-09-11T13:08:09",
@@ -67,8 +65,7 @@ And libraries have a natural ethos to cooperate with one another to share the bu
 Not all of the actors in the metadata world, though, are naturally so cooperative, and this statement from ICOLC emphasizes the need to keep this cooperative ethos going for the benefit of all libraries.
 
 
-## What's in a name?
-{: #names}
+## What's in a name? {: #names}
 {{ thursday_threads_quote(href="https://kcoyle.blogspot.com/2022/01/whats-in-name.html",
  blockquote='Because of both the great variety of name forms and the variability of applications that make use of names, I recommend a metadata vocabulary that follows the principle of minimum semantic commitment. This means a vocabulary that includes broad classes and properties that can be used as is where detailed coding is not needed or desired, but which can be extended to accommodate many different contexts.',
  versiondate="2022-01-27",
@@ -87,8 +84,7 @@ What happens, though, when names are much more complex than that:
 These are the types of things that Karen Coyle explores in this blog post.
 
 
-## Who me?
-{: #alan}
+## Who me? {: #alan}
 {{ image(div_float="right", width="300", localsrc="2023/2023-01-19-alan-who-me.jpg", alt="Photograph of a white cat with black splotches sitting on a wicker cat tree in front of a sliding door. The cat's body is facing a way but it has its head twisted back towards the camera.") }} 
 Ah, the innocence of a cat face. 
 Who would believe this cute face could cause any trouble. 

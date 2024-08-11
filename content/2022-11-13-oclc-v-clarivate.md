@@ -16,8 +16,7 @@ The settlement terms were not disclosed, but we can learn a little from the proc
 First, let's review the press releases from the parties.
 Then we'll look at the transcripts of court proceedings to see if we can get closer to answers about some questions this lawsuit raises.
 
-## Clarivate's Statement
-{: #clarivate-statement}
+## Clarivate's Statement {: #clarivate-statement}
 
 Clarivate's statement about the settlement is quite vague:
 
@@ -32,8 +31,7 @@ It isn't clear from this statement whether MetaDoor is done or not.
 The statement, which matches the language in the OCLC statement, only says that a service that includes OCLC records will not be built.
 (We'll also try to answer the "What is an OCLC record?" question below.)
 
-## OCLC's Statement
-{: #oclc-statement}
+## OCLC's Statement {: #oclc-statement}
 
 OCLC's statement is only a little less vague:
 
@@ -59,8 +57,7 @@ Many of the documents are available on the CourtListener.com mirror of the feder
 The most illuminating bits are in the transcripts of conference calls between the court and the lawyers for each side.
 (The transcripts are PDF documents, so the Hypothesis service is used to link to specific sections.)
 
-## What was the "MetaDoor MARC record exchange system"?
-{: #what-was-metadoor}
+## What was the "MetaDoor MARC record exchange system"? {: #what-was-metadoor}
 
 Clarivate was pretty cagey on what MetaDoor actually was.
 They pretty clearly say that they are not creating a database.
@@ -81,8 +78,7 @@ Marshall Breeding's "{{ robustlink(href="https://librarytechnology.org/document/
 
 So MetaDoor is not a big repository of metadata records; what might it be?
 
-### My MetaDoor speculation
-{: #my-metadoor-speculation}
+### My MetaDoor speculation {: #my-metadoor-speculation}
 
 If MetaDoor wasn't a database of records, then what was it?
 At first, I thought it was some sort of metasearch engine where searches are broadcast to an array of library catalogs.
@@ -134,8 +130,7 @@ One way around that would be to have the participating library send just the sub
 Side note: if you'd like to have something like KICReD—or just have a better name for it—let me know; it is the type of system that my employer specializes in building.
 
 
-## What are "records which OCLC has claimed are subject to its policy and contractual limitations"?
-{: #what-are-oclc-records}
+## What are "records which OCLC has claimed are subject to its policy and contractual limitations"? {: #what-are-oclc-records}
 
 What is an OCLC Record?
 Back to the court documents at [page 18 of the June 24th transcript](https://hyp.is/2nWfwkT2Ee2V3wepwAfZ5w/storage.courtlistener.com/recap/gov.uscourts.ohsd.269526/gov.uscourts.ohsd.269526.29.0.pdf).
@@ -180,8 +175,7 @@ I don't _think_ that effort is subject to copyright as it is seen as mechanical 
 
 So that is the clarity that I and others I've talked to were hoping would come out of this court case...what makes a record an OCLC record, and what proprietary interest does OCLC have in an OCLC record?
 
-## Previous chapters of the OCLC record reuse saga
-{: #previous-chapters}
+## Previous chapters of the OCLC record reuse saga {: #previous-chapters}
 
 This isn't the first time that questions about the ownership and reuse of WorldCat records have been raised.
 In late October 2008, OCLC announced that it was making changes to its <em>{{ robustlink(href="https://web.archive.org/web/20100616212237/http://www.oclc.org/us/en/support/documentation/worldcat/records/guidelines/", originalurl="http://www.oclc.org/us/en/support/documentation/worldcat/records/guidelines/", versiondate="2008-10-30", title="Guidelines for the Use and Transfer of OCLC-Derived Records", anchor="Guidelines for the Use and Transfer of OCLC-Derived Records") }}</em>, which had been in place since 1987.

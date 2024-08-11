@@ -28,8 +28,7 @@ With that definition in mind, the thread this week is on challenges with machine
 
 {{ thursday_threads_header() }}
 
-## Flip the Switch on Your Drug Synthesizing Tool and Chemical Weapons Come Out
-{: #ml-drugs}
+## Flip the Switch on Your Drug Synthesizing Tool and Chemical Weapons Come Out {: #ml-drugs}
 {{ thursday_threads_quote(href="https://www.nature.com/articles/s42256-022-00465-9",
  blockquote='<p>This generative model normally penalizes predicted toxicity and rewards predicted target activity. We simply proposed to invert this logic by using the same approach to design molecules de novo, but now guiding the model to reward both toxicity and bioactivity instead. </p><p>In less than 6 hours after starting on our in-house server, our model generated 40,000 molecules that scored within our desired threshold. In the process, the AI designed not only VX, but also many other known chemical warfare agents that we identified through visual confirmation with structures in public chemistry databases. Many new molecules were also designed that looked equally plausible.</p>',
  versiondate="2022-03-16 17:56:59",
@@ -55,8 +54,7 @@ Will working with machine learning algorithms become the type of job requiring a
 Would that even matter with open source tools and open datasets?
 The tool is neither good nor evil; it is in how the tool is used or misused.
 
-## With Machine Learning, Garbage In/Garbage Out
-{: #gigo}
+## With Machine Learning, Garbage In/Garbage Out {: #gigo}
 
 {{ thursday_threads_quote(href="https://cacm.acm.org/magazines/2021/12/256943-trouble-at-the-source/fulltext",
  blockquote='Machine learning (ML), systems, especially deep neural networks, can find subtle patterns in large datasets that give them powerful capabilities in image classification, speech recognition, natural-language processing, and other tasks. Despite this power—or rather because of it—these systems can be led astray by hidden regularities in the datasets used to train them.',
@@ -69,8 +67,7 @@ It isn't going unnoticed in the computing profession that there need to be ways 
 You've probably read the stories of how facial recognition models trained with picture datasets consisting of primarily white male faces had difficulty zeroing in on anyone who wasn't a white male. 
 This article describes the difficulties in recognizing biases in training data and quantifying accuracy measurements.
 
-## Five Realities Why Applying Machine Learning to Medical Records is Hard
-{: #ml-medical}
+## Five Realities Why Applying Machine Learning to Medical Records is Hard {: #ml-medical}
 {{ thursday_threads_quote(href="https://www.moderndescartes.com/essays/deep_learning_emr/",
  blockquote='A few years ago, I worked on a project to investigate the potential of machine learning to transform healthcare through modeling electronic medical records. I walked away deeply disillusioned with the whole field and I really don’t think that the field needs machine learning right now. What it does need is plenty of IT support. But even that’s not enough. Here are some of the structural reasons why I don’t think deep learning models on EMRs are going to be useful any time soon.',
  versiondate="2022-03-24 00:24:08+00:00",
@@ -82,8 +79,7 @@ This article describes the difficulties of using machine learning algorithms to 
 It is also an indictment of the extent to which the requirements of insurance companies (and the subsequent actions by medical providers to subvert the requirements) have mucked up the practice of medicine. 
 
 
-## Spring in the Northern Hemisphere Makes Cats Happy
-{: #alan-mittens}
+## Spring in the Northern Hemisphere Makes Cats Happy {: #alan-mittens}
 {{ image(width="700", localsrc="2022/2022-03-24-alan-mittens.jpg", alt="Photograph of a black cat and a white and grey cat on the lawn with harnesses on.") }} 
 
 It is warming up—70°F/21°C—earlier this week, and that means the cats want to go outside. 

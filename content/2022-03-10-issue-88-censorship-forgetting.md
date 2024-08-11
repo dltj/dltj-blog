@@ -24,8 +24,7 @@ The threads this week:
 
 {{ thursday_threads_header() }}
 
-## Minecraft as an Anti-censorship Tool
-{: #minecraft-uncensored}
+## Minecraft as an Anti-censorship Tool {: #minecraft-uncensored}
 {{ thursday_threads_quote(href="https://99percentinvisible.org/article/uncensored-library-virtual-minecraft-architecture-houses-banned-journalism/",
  blockquote='When schools ban books, the strategy often backfires on would-be censors, resulting in greater interest around illicit literature. Similarly,  when governments censor the media, groups like Reporters Without Borders spearhead efforts to make such censored material extra visible. Their Uncensored Library project brings together architecture and journalism in an unlikely virtual reality space: the interactive gaming world of Minecraft.',
  versiondate="2022-03-09 19:12:47+00:00",
@@ -41,8 +40,7 @@ The content of the library is curated—you don't have the option of modifying t
 The books in the library are short...the ones that I saw were each several hundred words long. 
 
 
-## Right-to-be-Forgotten Tangled with Press Freedoms
-{: #ecthr}
+## Right-to-be-Forgotten Tangled with Press Freedoms {: #ecthr}
 
 {{ thursday_threads_quote(href="https://www.eff.org/deeplinks/2022/03/right-be-forgotten-must-be-balanced-publics-interest-online-media-archives",
  blockquote='The “right to be forgotten," which exists in European Union member states and allows for mandatory delisting of results from search engines, must be balanced against the rights of the public to read media archives. EFF joined together with more than a dozen other media and free expression groups to make that point clear in a recent case from the European Court of Human Rights (ECtHR).',
@@ -56,8 +54,7 @@ A lower court ordered the removal of an article from a Belgian newspaper on the 
 The “right to be forgotten” laws were originally intended for delisting from search engines, and EFF is arguing that much careful consideration is needed when adjudicating requests to remove content from media sites.
 
 
-## This Week's Cat
-{: #alan}
+## This Week's Cat {: #alan}
 {{ image(div_float="right", width="320", localsrc="2022/2022-03-10-alan.jpg", alt="Photograph of a black and white cat curled into a ball sleeping on a bed comforter.") }} 
 
 It is starting to feel like I need to give equal time to each feline. 

@@ -130,7 +130,7 @@ The bridge is now live!
 Thanks to [Amitkumar Pal](https://stackoverflow.com/a/41768606) for the hints about using the Pi as a network bridge. 
 [More details about the bridge networking software](https://wiki.debian.org/BridgeNetworkConnections) is on the Debian Wiki.
 
-{{ note(note_text="I'm using a hardwired keyboard/monitor to set up the Raspbery Pi.  I've heard from someone that was using SSH to run these commands, and the SSH connection would break off at <code>brctl addif iphonetecther eth0 eth1</code>") }}%}
+{{ note(note_text="I'm using a hardwired keyboard/monitor to set up the Raspbery Pi.  I've heard from someone that was using SSH to run these commands, and the SSH connection would break off at <code>brctl addif iphonetecther eth0 eth1</code>") }}
 
 ## Configuring the UniFi Security Gateway
 

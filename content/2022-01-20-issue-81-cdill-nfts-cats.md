@@ -32,8 +32,7 @@ The threads this week:
 {{ thursday_threads_header() }}
 
 
-## Controlled Digital Lending Gets a Funding Boost
-{: #controlled-digital-lending}
+## Controlled Digital Lending Gets a Funding Boost {: #controlled-digital-lending}
 
 {{ thursday_threads_quote(href="https://blc.org/news/148817",
  blockquote="The Davis Educational Foundation has awarded the Boston Library Consortium a two-year $215,000 grant to accelerate the implementation of controlled digital lending as a mechanism for interlibrary loan. The grant supports plans described in BLC’s 'Consortial CDL: Implementing Controlled Digital Lending as a Mechanism for Interlibrary Loan' report published in September 2021.",
@@ -70,8 +69,7 @@ A great software development team from {{ robustlink(href="https://www.k-int.com
 I'm not directly involved in this effort, but I get the professional pleasure of watching it come to life.
 
 
-## Gamers Pushing Back Against Non-Fungible Tokens
-{: #gamers-nfts}
+## Gamers Pushing Back Against Non-Fungible Tokens {: #gamers-nfts}
 
 {{ thursday_threads_quote(href="https://www.nytimes.com/2022/01/15/technology/cryptocurrency-nft-gamers.html",
  blockquote='For more than a year, crypto mania has been at a fever pitch. Cryptocurrencies such as Bitcoin and Ethereum have soared in value. Crypto-based assets like NFTs have taken off. Jack Dorsey, a Twitter founder, recently renamed one of his companies Block in honor of the blockchain, the distributed ledger system that powers digital currencies. Melania Trump has auctioned off her own NFTs. Proponents hope that blockchain will revolutionize industries, from finance to social media to art.
@@ -97,8 +95,7 @@ It also starts to get to some of the controversies: <i>“I just hate that they 
 There are some serious problems with this technology, and the problems threaten us in real-world ways.
 
 
-## Cat Dish
-{: #cat-dish}
+## Cat Dish {: #cat-dish}
 
 {{ thursday_threads_quote(href="https://twitter.com/Tippen22/status/1476985855981993984",
  blockquote='<a href="https://twitter.com/Tippen22/status/1476985855981993984"

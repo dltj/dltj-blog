@@ -55,8 +55,7 @@ Let me know if you have seen other angles that you think should be more broadly 
 {{ thursday_threads_header() }}
 
 
-## Copyright is for humans
-{: #humans}
+## Copyright is for humans {: #humans}
 {{ image(div_float="right", width="173", abssrc="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Macaca_nigra_self-portrait_large.jpg/173px-Macaca_nigra_self-portrait_large.jpg", caption="Naruto's 'monkey selfie'", alt="Photograph of a monkey face with a slight grin set against a leafy green background") }}
 {{ thursday_threads_quote(href="http://cdn.ca9.uscourts.gov/datastore/opinions/2018/04/23/16-15469.pdf",
  blockquote='We must determine whether a monkey may sue humans, corporations, and companies for damages and injunctive relief arising from claims of copyright infringement. Our court’s precedent requires us to conclude that the monkey’s claim has standing under Article III of the United States Constitution. Nonetheless, we conclude that this monkey—and all animals, since they are not human—lacks statutory standing under the Copyright Act.',
@@ -73,8 +72,7 @@ The court held "that the monkey lacked statutory standing because the Copyright 
 Discussion of whether the output of a generative AI system can itself be copyrighted hinges around <i>Naruto v. Slater</i>, and most everyone I've read said that the result of an algorithm similarly can't be copyrighted.
 
 
-## Copyright Office rejects AI Art
-{: #copyright-office}
+## Copyright Office rejects AI Art {: #copyright-office}
 {{ thursday_threads_quote(href="https://www.theverge.com/2022/2/21/22944335/us-copyright-office-reject-ai-generated-art-recent-entrance-to-paradise",
  blockquote='The US Copyright Office has rejected a request to let an AI copyright a work of art. Last week, a three-person board reviewed a 2019 ruling against Steven Thaler, who tried to copyright a picture on behalf of an algorithm he dubbed Creativity Machine. The board found that Thaler’s AI-created image didn’t include an element of “human authorship” — a necessary standard, it said, for protection.',
  versiondate="2022-07-22T16:38:28",
@@ -88,8 +86,7 @@ In fact, the Copyright Office has started the process of {{ robustlink(href="htt
 I'm starting here because it is helpful to know whether the output of an AI system can be copyrighted when we later look at the use of copyrighted sources in AI. 
 
 
-## What is a "large language model" (LLM) artificial intelligence system?
-{: #llm}
+## What is a "large language model" (LLM) artificial intelligence system? {: #llm}
 {{ thursday_threads_quote(href="https://arxiv.org/pdf/2212.03551v4.pdf",
  blockquote='LLMs are generative mathematical models of the statistical distribution of tokens in the vast public corpus of human-generated text, where the tokens in question include words, parts of words, or individual characters including punctuation marks. They are generative because we can sample from them, which means we can ask them questions. But the questions are of the following very specific kind. “Here’s a fragment of text. Tell me how this fragment might go on. According to your model of the statistics of human language, what words are likely to come next?',
  versiondate="2023-02-03T22:08:20",
@@ -106,8 +103,7 @@ We see the output of that in text form with ChatGPT.
 But what about the image-generating systems?
 
 
-## How do LLMs work with images?
-{: #images}
+## How do LLMs work with images? {: #images}
 {{ thursday_threads_quote(href="https://arstechnica.com/gadgets/2023/01/the-generative-ai-revolution-has-begun-how-did-we-get-here/",
  blockquote='The latest image models like Stable Diffusion use a process called latent diffusion. Instead of directly generating the latent representation, a text prompt is used to incrementally modify initial images. The idea is simple: If you take an image and add noise to it, it will eventually become a noisy blur. However, if you start with a noisy blur, you can “subtract” noise from it to get an image back. You must “denoise” smartly—that is, in a way that moves you closer to a desired image.',
  versiondate="2023-01-31T23:06:52",
@@ -124,8 +120,7 @@ But were the copyright holders' rights violated when their text and images were 
 That is the heart of the debate happening now. 
 
 
-## Models of unimaginable complexity
-{: #complexity}
+## Models of unimaginable complexity {: #complexity}
 {{ thursday_threads_quote(href="https://arxiv.org/pdf/2212.03551v4.pdf",
  blockquote='Given that LLMs are sometimes capable of solving reasoning problems with few-shot prompting alone, albeit somewhat unreliably, including reasoning problems that are not in their training set, surely what they are doing is more than “just” next token prediction? Well, it is an engineering fact that this is what an LLM does. The noteworthy thing is that next token prediction is sufficient for solving previously unseen reasoning problems, even if unreliably. How is this possible? Certainly it would not be possible if the LLM were doing nothing more than cutting-and-pasting fragments of text from its training set and assembling them into a response. But this is not what an LLM does. Rather, an LLM models a distribution that is unimaginably complex, and allows users and applications to sample from that distribution.',
  versiondate="2023-02-03T22:08:20",
@@ -141,8 +136,7 @@ Most of the lawsuits probing this question seem to be happening with images and 
 For example, this one from Getty Images.
 
 
-## Getty Images goes after Stable Diffusion
-{: #getty-images}
+## Getty Images goes after Stable Diffusion {: #getty-images}
 {{ thursday_threads_quote(href="https://www.theverge.com/2023/2/6/23587393/ai-art-copyright-lawsuit-getty-images-stable-diffusion",
  blockquote='[Getty Images] is accusing Stability AI [creators of the open-source AI art generator Stable Diffusion] of “brazen infringement of Getty Images’ intellectual property on a staggering scale.” It claims that Stability AI copied more than 12 million images from its database “without permission ... or compensation ... as part of its efforts to build a competing business,” and that the startup has infringed on both the company’s copyright and trademark protections.',
  versiondate="2023-02-06T21:15:23",
@@ -164,8 +158,7 @@ Getty Images alleges three things.
 The [case](https://www.courtlistener.com/docket/66788385/getty-images-us-inc-v-stability-ai-inc/) is in front of the U.S. District Court in Delaware.
 
 
-## Maybe it isn't so magical after all?
-{: #regeneration}
+## Maybe it isn't so magical after all? {: #regeneration}
 {{ thursday_threads_quote(href="https://www.technologyreview.com/2023/02/03/1067786/ai-models-spit-out-photos-of-real-people-and-copyrighted-images/",
  blockquote='Popular image generation models can be prompted to produce identifiable photos of real people, potentially threatening their privacy, according to new research. The work also shows that these AI systems can be made to regurgitate exact copies of medical images and copyrighted work by artists. It’s a finding that could strengthen the case for artists who are currently suing AI companies for copyright violations.',
  versiondate="2023-02-04T00:08:25",
@@ -179,8 +172,7 @@ With a unique enough prompt and training data set: yes, that seems quite possibl
 {{ image(width="600", localsrc="2023/2023-03-02-arxiv-paper.jpg", caption="Figure from 'Extracting Training Data from Diffusion Models' <a href='https://arxiv.org/abs/2301.13188'>arXiv:2301.13188</a>", alt="Two side by side images. The first is a clear headshot of a blond woman in a turquoise shirt and necklace. The second is a slightly distorted version of the same image.") }}
 
 
-## Open source coders sue GitHub owner Microsoft and Microsoft's partner OpenAI
-{: #copilot}
+## Open source coders sue GitHub owner Microsoft and Microsoft's partner OpenAI {: #copilot}
 {{ thursday_threads_quote(href="https://www.reuters.com/legal/litigation/openai-microsoft-want-court-toss-lawsuit-accusing-them-abusing-open-source-code-2023-01-27/",
  blockquote='<p>Two anonymous plaintiffs, seeking to represent a class of people who own copyrights to code on GitHub, sued Microsoft, GitHub and OpenAI in November. They said the companies trained Copilot with code from GitHub repositories without complying with open-source licensing terms, and that Copilot unlawfully reproduces their code.</p><p>Open-source software can be modified or distributed for free by any users who comply with a license, which normally requires attribution to the original creator, notice of their copyright, and a copy of the license, according to the lawsuit.</p>',
  versiondate="2023-01-30T23:08:47",
@@ -195,8 +187,7 @@ This is a new case, and it is one to watch to see how copyright and license term
 
 
 
-## Roaar?
-{: #alan}
+## Roaar? {: #alan}
 {{ image(width="600", localsrc="2023/2023-03-02-alan.jpg", alt="A white cat with black splotches stretches his back feet awkwardly and yawns while sitting on top of a green blanket on the photographer's lap.") }} 
 
 A man and his cat. 

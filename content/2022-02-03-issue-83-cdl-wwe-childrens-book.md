@@ -24,8 +24,7 @@ In the meantime, the threads this week:
 
 {{ thursday_threads_header() }}
 
-## Author Speaks Up for Controlled Digital Lending
-{: #author-cdl-perspective}
+## Author Speaks Up for Controlled Digital Lending {: #author-cdl-perspective}
 
 {{ image(div_float="right", width="320", localsrc="2022/2022-02-03-tweet.png", caption="The controversial tweet.", alt="Screen capture of Maria Bustillos tweet saying 'ebooks are books! CDL is Controlled Digital Lending, and it means treating ebooks like paper books, so you can borrow them from libraries. This is COOL and GOOD", ahref="https://twitter.com/mariabustillos/status/1483466509800325127") }} {{ thursday_threads_quote(href="https://popula.com/2022/01/22/what-kind-of-writer-accuses-libraries-of-stealing/",
  blockquote='The Big Five publishing houses’ share of the approximately $25 billion book publishing market is estimated at 80%. And it’s Big Publishing that is indeed throwing its weight around by suing the Internet Archive (the “org making reproductions” referenced here, which is actually a California state library and leading institution for digital preservation, not some random “org”).
@@ -38,8 +37,7 @@ Again, [Controlled Digital Lending] provides the legal framework for any library
 
 Maria Bustillos wrote approvingly of controlled digital lending (CDL) in a quoted tweet of the Internet Archive. In response, she received a flurry of negative responses that seem to misunderstand a fundamental tenant of CDL: the own-to-loan ratio. If a library owns a copy of a book and takes the steps to physically sequester it, the library can loan a digital copy to patrons.  I've read a lot on the library's perspective of CDL, and it was useful to hear how an _author's_ perspective aligns with the goals of the library.
 
-## The Wrestling Monopsony
-{: #wwe-redux}
+## The Wrestling Monopsony {: #wwe-redux}
 
 {{ thursday_threads_quote(href="https://pluralistic.net/2022/01/31/heel-turn/#do-the-crusher",
  blockquote='In the 70s, there were 32 wrestling promoters in the North American market, all competing for audiences and performers, all bidding to sew up TV rights with different broadcasters. Wrestlers like Andre the Giant were able to improve their working conditions by playing off rival leagues against one another.
@@ -54,8 +52,7 @@ Pulling through a thread from last week about [Worldwide Wrestling Entertainment
 
 Cory Doctorow's post provides a perspective on {{ robustlink(href="https://prospect.org/power/rollups-professional-wrestlings-ruthless-monopoly-era/", versionurl="https://web.archive.org/20220202212719/https://prospect.org/power/rollups-professional-wrestlings-ruthless-monopoly-era/", versiondate="2022-02-02 21:26:26+00:00", title="Rollups: Professional Wrestling’s Ruthless Monopoly Era | The American Prospect", anchor="an article from The American Prospect") }}. Not only do we know why there are so many unopened boxes, but we know how WWE can afford its digital preservation infrastructure.
 
-## Self-publishing the Local Way
-{: #self-publishing}
+## Self-publishing the Local Way {: #self-publishing}
 
 {{ image(div_float="right", width="320", localsrc="2022/2022-02-03-dillons-book.jpeg", caption="The cover of Dillon's book.", alt="Photograph of the cover of Dillon's addition to his local Idaho library. In a child's handwriting, the cover says 'The Adventures of Dillon Helbig’s Crismis by Dillon his self'") }} {{ thursday_threads_quote(href="https://www.washingtonpost.com/lifestyle/2022/01/31/library-book-idaho-dillon-helbig/",
  blockquote='The staff librarians who read Dillon&#39;s book agreed that as informal and unconventional as it was, the book met the selection criteria for the collection in that it was a high-quality story that was fun to read. So, [library branch manager Alex] Hartman asked [Dillon&#39;s mother Susan] Helbig for permission to tack a bar code onto the book and formally add it to the library’s collection.',
@@ -67,8 +64,7 @@ Cory Doctorow's post provides a perspective on {{ robustlink(href="https://prosp
 We know how modern self-publishing works—Amazon's Kindle Direct Publishing allows anyone to put their words onto paper and sell them to the world, for instance. This is a more homespun version.  Dillon inserts his own book into the collection of his local library.  If he wants, I think Dillon has the storyline for his _second_ book.
 
 
-## Good Fences Make Good Neighbors
-{: #cat-fence}
+## Good Fences Make Good Neighbors {: #cat-fence}
 
 {{ image(width="650", localsrc="2022/2022-02-03-friends-with-fences.jpeg", caption="Alan and Mittens can coexist...under the right conditions.", alt="Photograph of two cats sitting on each end of a bed. Between the two cats is a square pillow standing upright. The white cat with black spots is in a cat bed with its head turned towards the black cat. The black cat is on a multicolored blanket with its head turned towards the white cat.  They eye each other with suspicion.") }} 
 

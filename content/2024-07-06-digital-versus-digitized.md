@@ -16,8 +16,7 @@ On June 28, 2024, the oral arguments in the {{ robustlink(href="https://www.cour
 
 _Disclosures:_ Despite not being a lawyer, I find the intersection of copyright, fair use, library services, and societal welfare intriguing, and often reflect and write about them professionally. This is not legal advice. I'm currently employed by a software company that's developing a controlled digital lending system. In addition to my professional ties, I believe controlled digital lending is a tremendous benefit for library patrons, libraries, and society at large.
 
-## Background
-{: #background}
+## Background {: #background}
 
 _Hachette v. Internet Archive_ is a lawsuit filed on June 1, 2020, during the peak of the Covid-19 pandemic, in response to the {{ robustlink(href="https://blog.archive.org/national-emergency-library/", versionurl="https://web.archive.org/web/20240706193352/https://blog.archive.org/national-emergency-library/", versiondate="2024-07-06", title="Internet Archive's National Emergency Library", anchor="National Emergency Library | Internet Archives blog") }} (NEL) program. The NEL program, initiated on March 24, 2020, removed the restrictions on the number of patrons allowed simultaneous access to digitized books on IA's {{ robustlink(href="https://openlibrary.org/", versionurl="https://web.archive.org/web/20240706193620/https://openlibrary.org/", versiondate="2024-07-06", title="Open Library homepage", anchor="Open Library collection") }}. Before this pandemic-induced change, libraries could partner with Open Library to provide access to digitized books for their patrons. IA employed a system called {{ robustlink(href="https://controlleddigitallending.org/", versionurl="https://web.archive.org/web/20240706193713/https://controlleddigitallending.org/", versiondate="2024-07-06", title="Controlled Digital Lending homepage", anchor="Controlled Digital Lending") }} (CDL), assuring that digitized copies weren't distributed to the public unconditionally. CDL is a blend of digital rights management (DRM), library operations software, and library protocols, ensuring that a single physical copy is not loaned more than once in any form, whether physical or digital. NEL removed this "never lent more than once" CDL restriction based on the premise that all the nation's public libraries were closed and no one could access the physical materials. {{ robustlink(href="https://www.publishersweekly.com/pw/by-topic/digital/copyright/article/83584-internet-archive-to-end-national-emergency-library-initiative.html", versionurl="https://web.archive.org/web/20240706193819/https://www.publishersweekly.com/pw/by-topic/digital/copyright/article/83584-internet-archive-to-end-national-emergency-library-initiative.html", versiondate="2024-07-06", title="Internet Archive to End 'National Emergency Library' Initiative | Publishers Weekly", anchor="NEL concluded on June 16, 2020") }}, and IA's regular CDL program resumed. For a more detailed explanation of CDL, refer to an article I authored called [Controlled Digital Lending…What's the Fuss?](https://dltj.org/article/cdl-code4lib/) derived from my talk at Code4Lib in 2023, and [Issue 94](https://dltj.org/article/issue-94-controlled-digital-lending/) of my intermittent newsletter.
 
@@ -31,8 +30,7 @@ Because I started trying to draw a distinction between various terms, I'm going 
 * **Physical book**: As simple as it sounds: a book that exists in a physical, human-readable format.
 * **Book**: If I refer to a "book" without any of the modifiers above, it applies to any type of book: digital, digitized, or physical.
 
-## Digital versus Digitized Marketplaces
-{: #digital-versus-digitized}
+## Digital versus Digitized Marketplaces {: #digital-versus-digitized}
 
 I led this blog post with a discussion of _digital books_ versus _digitized books_, and it wasn't long into the Internet Archive's presentation that we get to the matter.
 
@@ -44,8 +42,7 @@ There seems to be a legal concept here about "markets", and specifically whether
 
 In the "ebook" marketplace, publishers will license "digital" books to libraries using a service like {{ robustlink(href="https://company.overdrive.com/company-profile/who-we-are/", versionurl="https://web.archive.org/web/20240706194012/https://company.overdrive.com/company-profile/who-we-are/", versiondate="2024-07-06", title="Who is Overdrive and what do they do? | Overdrive", anchor="Overdrive") }}. A publisher is unlikely to sell or license a "digitized" book to libraries. (I last heard of a publisher doing this early digital days of the 1990s.) Also in the "ebook" marketplace, a library will use CDL to lend a "digitized" book to patrons. It is conceivable that a library could lend a "digital" book if it has purchased the rights to do so, but that is unusual at this stage.
 
-## Sidenote: when digital and digitized have identical packaging, _a la_ PDFs
-{: #pdfs}
+## Sidenote: when digital and digitized have identical packaging, _a la_ PDFs {: #pdfs}
 
 Let's get into the weeds for a moment and talk about how the PDF file format muddies the distinction between digital and digitized. There are two main types of PDF files: those created from digital typesetting and those created from scanned images of printed pages. Digitally typeset PDFs—digital books—are created using digital typesetting software such as Adobe InDesign, Microsoft Word, or LaTeX. The content is created and formatted within the software and then exported or saved as a PDF file. Digitally typeset PDF files can be made accessible to assistive technologies by properly tagging the structure and content of the document; this allows screen readers to interpret and navigate the PDF file. Digitally typeset PDF files are usually smaller in size compared to scanned PDFs because they contain vector-based text and graphics.
 
@@ -55,8 +52,7 @@ The same file format—PDF—can be used for both a _digital book_ and a _digiti
 
 Fortunately, the court doesn't get into this level of technical detail. Unfortunately, I think a lot of sides talking past each other come from muddy technical aspects of licensing versus lending a "PDF".
 
-## The rights with first-sale
-{: #first-sale}
+## The rights with first-sale {: #first-sale}
 
 Some examples from the oral arguments where not having clear definitions causes problems:
 
@@ -64,8 +60,7 @@ Some examples from the oral arguments where not having clear definitions causes 
 
 Internet Archives' counsel points out here that in licensing e-books, the libraries are not adding to their permanent collection. Libraries haven't bought the book, and don't have the first-sale rights to do what they want with the book. And most publishers—notably the major commercial/trade publishers that are a part of this lawsuit—do not want to sell e-books with first sale rights for a library to add to its permanent collection. (How a library is supposed to fulfill the part of its mission to preserve cultural artifacts is beyond the scope of this post, but you can see the obvious problems of saving e-books.)
 
-## The origins of CDL, or the point at late in the arguments where I exclaim WHAT?!?
-{: #origins-of-cdl}
+## The origins of CDL, or the point at late in the arguments where I exclaim WHAT?!? {: #origins-of-cdl}
 
 Late in the publisher's arguments comes this bit:
 
@@ -73,8 +68,7 @@ Late in the publisher's arguments comes this bit:
 
 CDL is _much_ older than 2018. IA's version of CDL predates the first discussion of it by over half a decade (see the [origins of Controlled Digital Lending](https://dltj.org/article/issue-94-controlled-digital-lending/#cdl-origins) in issue 94), and there are earlier implementations. I don't remember seeing this claim from the publishers in their district court complaint, so I hope there is evidence for this statement on the record in the evidence presented to the lower court.
 
-## Publishers will stop publishing
-{: #publishers-stop-publishing}
+## Publishers will stop publishing {: #publishers-stop-publishing}
 
 Starting with the publisher's lawyer:
 
@@ -92,8 +86,7 @@ Starting with the publisher's lawyer:
 
 If this gets to the U.S. Supreme Court, do we get to go with the originalist's thinking from the {{ robustlink(href="https://en.wikipedia.org/wiki/Copyright_Act_of_1790", versionurl="https://en.wikipedia.org/w/index.php?title=Copyright_Act_of_1790&oldid=1226659291", versiondate="2024-07-06", title="Copyright Act of 1790", anchor="Copyright Act of 1790 | Wikipedia") }} that copyright extends for 14 years with the right to renew for a additional 14-year term should the copyright holder still be alive?
 
-## The market becomes only as large as the number of people who simultaneously want to read a work
-{: #market-size}
+## The market becomes only as large as the number of people who simultaneously want to read a work {: #market-size}
 
 A judge make a good point about the potential market effect of library's CDL:
 
@@ -105,8 +98,7 @@ And it is here that I think we see the first substantive discussion of _digital_
 
 >  [1:19:48] that efficiency may or may not have an effect on either the number of copies that get sold or on the market for the Overdrive service, which has a variety of different sort of different aspects and benefits over and above CDL. I mean, CDL is largely sort of scanned images of pages of paper books because it's the paper book. The Overdrive service has a lot of benefits. You can flow the text. You can do different features and that is one reason why...that is one explanation for the data that you see—that there is no reduction in demand for Overdrive.
 
-## My informed but not expert opinion
-{: #my-opinion}
+## My informed but not expert opinion {: #my-opinion}
 
 I agree with those that are saying that the line of questioning from the circuit court judges shows a more thoughtful approach to the nuances of copyright than was seen in the district court decision. The judges and lawyers seem to recognize that digitized books and digital books are different, with digitized books being more convenient than physical books but less functional than digital books. However, there appears to be a dispute over whether digitized books and digital books are in the same "market" or different markets, which is a key factor in determining fair use.
 
@@ -114,8 +106,7 @@ The concept of first-sale rights is central to the discussion of library lending
 
 This case highlights the complexity of the issues surrounding digital and digitized books, copyright, fair use, and library lending. The distinction between digital and digitized books is crucial in understanding the nuances of the case and the potential implications for the future of ebooks and library services.
 
-## Other articles and opinions
-{: #other}
+## Other articles and opinions {: #other}
 
 - Authors Alliance: {{ robustlink(href="https://www.authorsalliance.org/2024/07/02/hachette-v-internet-archive-update-oral-argument-before-the-second-circuit-court-of-appeals/", versiondate="2024-07-06", title="Hachette v. Internet Archive Update: Oral Argument Before the Second Circuit Court of Appeals | Authors Alliance", anchor="Hachette v. Internet Archive Update: Oral Argument Before the Second Circuit Court of Appeals") }}
 - Internet Archive: {{ robustlink(href="https://blog.archive.org/2024/07/01/what-happened-last-friday-in-hachette-v-internet-archive/", versionurl="https://web.archive.org/web/20240706194312/https://blog.archive.org/2024/07/01/what-happened-last-friday-in-hachette-v-internet-archive/", versiondate="2024-07-06", title="What happened last Friday in Hachette v. Internet Archive? | Internet Archive blog", anchor="What happened last Friday in Hachette v. Internet Archive?") }}

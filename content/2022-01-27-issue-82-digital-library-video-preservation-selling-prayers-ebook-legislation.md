@@ -29,8 +29,7 @@ The threads this week:
 {{ thursday_threads_header() }}
 
 
-## Attorney General of India's Online Collection of Rare Books
-{: #india-rare-books}
+## Attorney General of India's Online Collection of Rare Books {: #india-rare-books}
 
 {{ thursday_threads_quote(href="https://theprint.in/india/attorney-general-kk-venugopal-converts-his-rare-book-collection-into-public-online-library/387752/",
  blockquote="<p>Attorney General K.K. Venugopal has granted public access to a wide collection of rare books in his library, through a website. It lists over 570 books, some of which date back to the 17th century. The ‘antiquarian’ or rare book collection has been digitally scanned and made available for the public. The publications cover a wide range of subjects, from religion, mythology and the Vedas, to Indian art and sculpture, historical battles, the British Empire in India and tales of travels across the world.</p><p>The website, however, clarifies that these books are not copyrighted in India, either because the copyright has expired or because the books are not covered under the Indian copyright laws. It adds that while readers located anywhere in India can download them, those located outside India should check their country’s laws before downloading content from the website. The website also makes it clear that the books uploaded are for 'personal or research use only, and not for commercial use or exploitation.</p>",
@@ -48,8 +47,7 @@ It is a cross-cultural exploration of the legal mechanics of digital library ser
 I recommend it to broaden your understanding of these issues.
 
 
-## "Inside WWE's massive video vault"
-{: #wwe-video-preservation }
+## "Inside WWE's massive video vault" {: #wwe-video-preservation }
 
 {{ thursday_threads_quote(href="https://www.wwe.com/classics/inside-video-vault",
  blockquote='<p>“This is the digital archive robot,” [WWE’s Director of Media Technology Bryan] Staffaroni told us as we were led into a climate-controlled room housing a state-of-the-art and highly complicated large machine. “It has more than 4,000 slots inside with data tapes that we use to store footage. These tapes can hold approximately 24 hours of footage and that’s just one physical tape.”</p><p>Some items in the archive don’t have much of a lifespan remaining, so if a specific item or match is required for a project, the entire tape will be digitized just in case.
@@ -64,8 +62,7 @@ I'm not a fan of soap-opera-style wrestling, but this lay-person's view of their
 Their commercial interest is offering fans views of the wrestling backstories as well as the hidden gems of early episodes of now-famous performers. 
 And for the archivists among <i>Thursday Threads</i> readers, there is this quote from the relatively well off WWE: <quote>“There are boxes of stuff that nobody ever went and touched,” Staffaroni admitted. “We owned so much of the WCW library, but we just never opened some boxes, because we just had so much stuff.”</quote>
 
-## Prayers For Sale
-{: #targeted-prayers}
+## Prayers For Sale {: #targeted-prayers}
 
 {{ thursday_threads_quote(href="https://www.buzzfeednews.com/article/emilybakerwhite/apps-selling-your-prayers",
  blockquote='However, an audit of Pray.com by privacy researcher Zach Edwards showed that the app shares granular data about the content its users consume with several other companies, including Facebook. According to Edwards, this means users could be targeted with ads on Facebook based on the content they engage with on Pray.com — including content modules with titles like “Better Marriage,” “Abundant Finance,” and “Releasing Anger.”',
@@ -80,8 +77,7 @@ Companies are harvesting user-generated content from the apps, matching the user
 I suppose when your website domain is Pray-Dot-Com, this is to be expected. 
 But it shouldn't be expected; this should not be the norm.
 
-## Ebooks Wanted For Sale (for reasonable terms)
-{: #library-ebook-legislation}
+## Ebooks Wanted For Sale (for reasonable terms) {: #library-ebook-legislation}
 
 {{ thursday_threads_quote(href="https://news.bloomberglaw.com/ip-law/libraries-publishers-battle-over-terms-for-e-books-public-use",
  blockquote='<p>Library officials back the bills so they can loosen restrictions on the number of digital works that can circulate and not let publishers dictate pricing terms, said John Chrastka, the executive director of the EveryLibrary Institute, a nonprofit that advocates for library funding.</p><p>The AAP and proponents of the lawsuit said they support public libraries and that libraries are essential in expanding readership, but the Maryland law has the potential to harm creators and weaken the copyright system.
@@ -97,8 +93,7 @@ The Motion Picture Association, the National Music Publishers Association, and t
 One to keep an eye on. 
 This is just the latest in the battle to shape how books materials are offered in a digital space.
 
-## Promised Cat Picture
-{: #cat-stocking}
+## Promised Cat Picture {: #cat-stocking}
 
 {{ image(div_float="right", width="320", localsrc="2022/2022-01-27-mittens.jpg", caption="Equal time for Mittens the cat", alt="Photograph of a black cat with white streaks laying across a Christmas stocking with her name") }} 
 

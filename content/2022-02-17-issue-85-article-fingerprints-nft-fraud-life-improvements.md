@@ -20,8 +20,7 @@ The threads this week:
 {{ thursday_threads_header() }}
 
 
-## Privacy-busting Fingerprints in Journal Articles
-{: #fingerprinting-pdfs}
+## Privacy-busting Fingerprints in Journal Articles {: #fingerprinting-pdfs}
 
 
 {{ thursday_threads_quote(href="https://www.vice.com/en/article/4aw48g/academic-journal-claims-it-fingerprints-pdfs-for-ransomware-not-surveillance",
@@ -45,8 +44,7 @@ I can see why you don't want to, Elsevier...shared articles might cut into that 
 Either way...owning it or lying about it looks bad. 
 I can think of no plausible scenario where fingerprints in PDF files detect, prevent, or help prosecute ransomware.
 
-## Fraud in NFTs
-{: #nft-fraud}
+## Fraud in NFTs {: #nft-fraud}
 
 {{ thursday_threads_quote(href="https://www.reuters.com/business/finance/nft-marketplace-shuts-citing-rampant-fakes-plagiarism-problem-2022-02-11/",
  blockquote='[Cameron] Hejazi highlighted three main problems: people selling unauthorised copies of other NFTs [Non-Fungible Tokens], people making NFTs of content which does not belong to them, and people selling sets of NFTs which resemble a security.
@@ -68,8 +66,7 @@ Late-breaking addition: on Tuesday, {{ robustlink(href="https://www.bloomberg.co
 That Bloomberg article is behind a paywall, but {{ robustlink(href="https://www.vice.com/en/article/m7vpx8/analyzing-the-very-bizarre-sale-of-melania-trumps-dollar170000-nft", versiondate="2022-02-16", title="Analyzing the Very Bizarre Sale of Melania Trump’s $170,000 NFT | Motherboard from Vice", anchor="Motherboard has details as well") }}.
 
 
-## Improve Your Life
-{: #life-improvements}
+## Improve Your Life {: #life-improvements}
 
 {{ thursday_threads_quote(href="https://www.theguardian.com/lifeandstyle/2022/jan/01/marginal-gains-100-ways-to-improve-your-life-without-really-trying",
  blockquote='<ul><li>Always be willing to miss the next train. </li><li>If you find an item of clothing you love and are certain you will wear for ever, buy three.</li><li>Don’t get a pet/do get a pet.</li></ul>',
@@ -81,8 +78,7 @@ That Bloomberg article is behind a paywall, but {{ robustlink(href="https://www.
 From the thoughtful to the practical to the weird. 
 Maybe try one or two this coming week?
 
-## Mittens Has a Question
-{: #mittens-nisoplus}
+## Mittens Has a Question {: #mittens-nisoplus}
 
 {{ image(div_float="right", width="320", localsrc="2022/2022-02-17-mittens-nisoplus.png", caption="My cat Mittens raising her paw to ask about how cats can participate in the metaverse during the q/a of ⁦@sivavaid⁩’s #NISOplus22 keynote.", alt="Image of a tweet containing a picture of a black cat pawing the at the screen. On the screen is an image of Todd Carpenter during the NISO-plus conference.", ahref="https://twitter.com/DataG/status/1493612979887255554") }}
 

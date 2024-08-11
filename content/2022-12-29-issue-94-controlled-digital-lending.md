@@ -33,8 +33,7 @@ May you have a safe, happy, and healthy New Year.
 
 {{ thursday_threads_header() }}
 
-## Updates on Funding Announcements
-{: #dltj-cdl-updates}
+## Updates on Funding Announcements {: #dltj-cdl-updates}
 {{ thursday_threads_quote(href="http://localhost:4000/article/issue-81-cdill-nfts-cats/#controlled-digital-lending",
  blockquote='These two funding announcements show support for the development of systems and practices for libraries to advance the cooperation beyond the point of shipping physical books back and forth. ',
  versiondate="",
@@ -51,8 +50,7 @@ The second is the announcement from NISO about a Mellon Foundation grant that fu
 The report from the working group is being drafted now and will be available for public comment early in the new year.
 
 
-## Big Publishers versus Internet Archive
-{: #cdl-lawsuit}
+## Big Publishers versus Internet Archive {: #cdl-lawsuit}
 {{ thursday_threads_quote(href="https://www.courtlistener.com/docket/17211300/1/hachette-book-group-inc-v-internet-archive/",
  blockquote='<p>Plaintiffs Hachette, HarperCollins, Penguin Random House, and Wiley (collectively, “Plaintiffs” or “Publishers”) bring this copyright infringement action against IA in connection with website operations it markets to the public as “Open Library” and/or “National Emergency Library.” ... Defendant IA is engaged in willful mass copyright infringement. Without any license or any payment to authors or publishers, IA scans print books, uploads these illegally scanned books to its servers, and distributes verbatim digital copies of the books in whole via public-facing websites. With just a few clicks, any Internet-connected user can download complete digital copies of in-copyright books from Defendant. ...</p><p>... By its actions, alleged above, Defendant has infringed and will infringe the Publishers’ copyrights in and to the Works by, inter alia, reproducing, distributing, publicly displaying, publicly performing, and making derivative works of the Works without any authorization or permission from Plaintiffs.</p>',
  versiondate="2022-12-29",
@@ -77,8 +75,7 @@ The publishers' electronic version can have hyperlink features to other ebook se
 But rather than innovate their product to take advantage of the capabilities that ebooks bring to their back catalog, the publishers attack libraries for a Constitutionally-enumerated right.
 
 
-## Origins of Controlled Digital Lending
-{: #cdl-origins}
+## Origins of Controlled Digital Lending {: #cdl-origins}
 {{ thursday_threads_quote(href="https://scholarship.law.georgetown.edu/cgi/viewcontent.cgi?article=1698&context=facpub",
  blockquote='I believe it is possible to build a digital library that respects both of the intended beneficiaries of the Copyright Clause—copyright owners and society—while testing commonly held assumptions about the limitations of copyright law. In balancing these goals, TALLO permits circulation of the exact number of copies purchased, thereby acknowledging the rights inherent in copyright, but it liberates the form of circulation from the print format.',
  versiondate="2022-12-28",
@@ -91,8 +88,7 @@ For all of the legal wrangling around CDL—see entry above—is it ironic that 
 (Full [metadata for this article](https://scholarship.law.georgetown.edu/facpub/699/) is in the Georgetown Law Scholarly Commons.)
 
 
-## Cats on Christmas
-{: #stockings}
+## Cats on Christmas {: #stockings}
 {{ image(width="700", localsrc="2022/2022-12-29-stockings.jpeg", alt="Two photographs side-by-side. In the left photograph, a white cat with black splotches has his nose buried in a Christmas stocking that is propped up against a low table with a green and red checked tablecloth. In the right photograph, a black cat is sniffing the cat toys coming out of a stocking that is propped up on the back of a stuffed chair.") }} 
 Look at these two hooligan cats getting their noses into their Christmas stockings. 
 A few new toys with lots of fresh catnip are attracting them.

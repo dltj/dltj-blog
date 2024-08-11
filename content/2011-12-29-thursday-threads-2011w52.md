@@ -80,8 +80,7 @@ As the last <i><acronym title="Disruptive Library Technology Jester">DLTJ</acron
 
 {{ thursday_threads_header() }}
 
-## Five things we learned about publishing in 2011
-{: #p3560-publishing}
+## Five things we learned about publishing in 2011 {: #p3560-publishing}
 {{ thursday_threads_quote(href="http://radar.oreilly.com/2011/12/five-lessons-publishing-2011-amazon-self-publishing-ereading-html5-drm-piracy.html",
  blockquote='<ol>
 <li>Amazon is, indeed, a disruptive publishing competitor</li>
@@ -99,8 +98,7 @@ As the last <i><acronym title="Disruptive Library Technology Jester">DLTJ</acron
 I think we can add a sixth thing: The relationship between libraries and publishers is no longer a passive one.  Although libraries and publishers were always intertwined, this year we saw more stories where they came head-to-head (<a href="/article/thursday-threads-2011w9/#hcod">HarperCollins/OverDrive</a> and <a href="/article/thursday-threads-2011w37/#p3398-hathi-trust">Authors Guild versus HathiTrust</a>) and side-by-side (<a href="/article/thursday-threads-2011w21/#p2906-cipa-dcl">Douglas County's Ebook Lending</a>).  I expect we will see this trend continue in 2012.
 
 
-## Google's Year in Review
-{: #p3560-zeitgeist}
+## Google's Year in Review {: #p3560-zeitgeist}
 {{ thursday_threads_quote(href="https://www.youtube.com/watch?v=SAIEamakLoY",
  blockquote='<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SAIEamakLoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
  versiondate="2011-12-29",
@@ -111,8 +109,7 @@ I think we can add a sixth thing: The relationship between libraries and publish
 Within the frame of Google's newly launched Google+ project, this three minute video provides a perspective on the top news stories of the year.
 
 
-## 10 Bold Tech Predictions For 2012
-{: #p3560-tech}
+## 10 Bold Tech Predictions For 2012 {: #p3560-tech}
 {{ thursday_threads_quote(href="http://www.fastcompany.com/1802338/10-bold-business-technology-predictions-for-2012",
  blockquote='<ol>
 <li>Social business will take off in 2012, but companies will struggle to adopt. </li>
@@ -134,8 +131,7 @@ Within the frame of Google's newly launched Google+ project, this three minute v
 A couple things for libraries to watch in this list.  I don't know if eBooks will dominate, but they will certainly become more prevalent.  The first quarter 2012 sales for ebooks will be interesting because many people are expecting a bump in sales that corresponds with e-reader gifts.  (Helped, no doubt, by the introduction of the new Kindle models late in the year.)  Look for libraries to publish statistics of lending as well, although one wonders how much "head room" is left in the lendable collections after the last surge of e-reader sales.  Given that budgets in libraries -- and the cities/states/universities over them -- tend to lag the business world, I'm not sure that IT spending in libraries will increase although there is some infrastructure that really needs to be updated.  And personally I think libraries should punt on the whole Android versus iOS debate and design for a mobile, HTML5-based world.
 
 
-## 12 predictions for 2012
-{: #p3560-nesta}
+## 12 predictions for 2012 {: #p3560-nesta}
 {{ thursday_threads_quote(href="https://web.archive.org/web/20111229000000/http://www.nesta.org.uk/news_and_features/12for2012",
  blockquote='<ol>
 <li><a href="http://www.nesta.org.uk/news/12-predictions-2012/innovation-frugality" title="NESTA  - Innovation for frugality">Innovation for frugality</a>: This year innovators will become thriftier </li>

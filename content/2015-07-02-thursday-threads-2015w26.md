@@ -23,12 +23,11 @@ I'm just home from the {{ robustlink(href="http://ALAac15.ala.org/", versionurl=
 * <a href="{filename}/2015-07-02-thursday-threads-2015w26#p26028-drivers-ed">Free Driver's Ed Resources for Libraries</a>
 * <a href="{filename}/2015-07-02-thursday-threads-2015w26#p26028-obits">Free Online Obituaries Service from Orange County Library</a>
 
-{{ note(note_text='<em>Funding for my current position at LYRASIS ran out at the end of June, so <a href="/article/seeking-new-opportunity" title="Seeking new opportunity in library technology | Disruptive Library Technology Jester">I am looking for new opportunities and challenges for my skills</a>.  Check out <a href="https://dltj.org/resume/">my resume/<i>c.v.</i></a> and <a href="/contact/">please let me</a> know of job opportunities in library technology, open source, and/or community engagement.</em>') }}%}
+{{ note(note_text='<em>Funding for my current position at LYRASIS ran out at the end of June, so <a href="/article/seeking-new-opportunity" title="Seeking new opportunity in library technology | Disruptive Library Technology Jester">I am looking for new opportunities and challenges for my skills</a>.  Check out <a href="https://dltj.org/resume/">my resume/<i>c.v.</i></a> and <a href="/contact/">please let me</a> know of job opportunities in library technology, open source, and/or community engagement.</em>') }}
 
 {{ thursday_threads_header() }}
 
-## Book-Donations-Processing-as-a-Service
-{: #p26028-bdpaas}
+## Book-Donations-Processing-as-a-Service {: #p26028-bdpaas}
 
 {{ thursday_threads_quote(href="https://twitter.com/DataG/status/615206357130706944",
  blockquote='<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Book-Donations-Processing-as-a-Service. See something new everyday. <a href="https://twitter.com/hashtag/alaac15?src=hash">#alaac15</a> <a href="http://t.co/t35BTPwr8C" title="http://t.co/t35BTPwr8C">pic.twitter.com/t35BTPwr8C</a></p>
@@ -41,8 +40,7 @@ I'm just home from the {{ robustlink(href="http://ALAac15.ala.org/", versionurl=
 I didn't get to talk to anyone at this booth, but I was interested in the concept.  I remember donations processing being such a hassle -- analyze each book for its value, deciding whether it is part of your collection policy, determining where to sell it, manage the sale, and so forth.  {{ robustlink(href="http://americanbookdrive.com/", versionurl="https://web.archive.org/web/20150629023108/http://americanbookdrive.com/", versiondate="2015-07-02", title="American Book Drive : Welcome", anchor="American Book Drive") }} seems to offer such a service.  Right now their service is limited to California.  I wonder if it will expand, or if there are similar service providers in other areas of the countries.
 
 
-## Free Driver's Ed Resources for Libraries
-{: #p26028-drivers-ed}
+## Free Driver's Ed Resources for Libraries {: #p26028-drivers-ed}
 
 {{ thursday_threads_quote(href="https://twitter.com/DataG/status/615209740117929984",
  blockquote='<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Free driver&#39;s ed resources for librs. Group has a great story. <a href="http://t.co/veTN48LyOs" title="http://t.co/veTN48LyOs">http://t.co/veTN48LyOs</a> - Another first at <a href="https://twitter.com/hashtag/alaac15?src=hash">#alaac15</a> <a href="http://t.co/ZqrqLYF7BF" title="http://t.co/ZqrqLYF7BF">pic.twitter.com/ZqrqLYF7BF</a></p>
@@ -53,8 +51,7 @@ I didn't get to talk to anyone at this booth, but I was interested in the concep
 
 This exhibitor had a good origin story.  A family coming to the U.S. had a difficult time getting their drivers licenses, so they created an online resource for all 50 states that covers the details.  They've had success with the business side of their service, so they decided to {{ robustlink(href="http://driving-tests.org/library/", versionurl="https://web.archive.org/web/20150712102211/http://driving-tests.org/library/", versiondate="2015-07-02", title="Driving-Tests.org For Libraries", anchor="give it away to libraries for free") }}.
 
-## Free Online Obituaries Service from Orange County Library
-{: #p26028-obits}
+## Free Online Obituaries Service from Orange County Library {: #p26028-obits}
 
 {{ thursday_threads_quote(href="https://twitter.com/DataG/status/615225314172620800",
  blockquote='<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Orange County Public Library offering free obituary service and publicizing through libraries. Via <a href="https://twitter.com/US_IMLS">@us_imls</a> <a href="http://t.co/dFSUh5q7l0" title="http://t.co/dFSUh5q7l0">pic.twitter.com/dFSUh5q7l0</a></p>

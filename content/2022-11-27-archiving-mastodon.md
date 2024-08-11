@@ -15,8 +15,7 @@ tags:
 Much has been made about the differences between Twitter and Mastodon: the challenge of finding a home for your account (and the corresponding differences between your “local” timeline and your “global” timeline), the intentional antiviral design choices (no quote-tweets and a narrow search system), and the more-empowering block and mute features. 
 A recent article in *MIT Technology Review* about {{ robustlink(href="https://www.technologyreview.com/2022/11/11/1063162/twitters-imminent-collapse-could-wipe-out-vast-records-of-recent-human-history/", versionurl="https://web.archive.org/web/20221125215213/https://www.technologyreview.com/2022/11/11/1063162/twitters-imminent-collapse-could-wipe-out-vast-records-of-recent-human-history/", versiondate="2022-11-27", title="Twitter’s potential collapse could wipe out vast records of recent human history | MIT Technology Review", anchor="the potential loss to history if Twitter goes away") }} had me thinking of another one difference: a Mastodon-filled world changes expectations for archiving this kind of primary source material. 
 
-## Think Bigger Than Mastodon
-{: bigger-than-mastodon }
+## Think Bigger Than Mastodon {: bigger-than-mastodon }
 
 Let's set some common ground. 
 "{{ robustlink(href="https://joinmastodon.org/", versionurl="https://web.archive.org/web/20221127085820/https://joinmastodon.org/", versiondate="2022-11-27", title="Mastodon homepage", anchor="Mastodon") }} " is being used here as a shortcut for the growing federation of servers that follow the ActivityPub protocol—the "fediverse".
@@ -25,8 +24,7 @@ As we view the fediverse digital public square, we could just as well be talking
 We should also include in the genre-specific ActivityPub software like {{ robustlink(href="https://pixelfed.social/site/about", versionurl="https://web.archive.org/web/20221115012936/https://pixelfed.social/site/about", versiondate="2022-11-27", title="About Pixelfed", anchor="Pixelfed") }} (for photographers, [me there](https://pixelfed.social/dltj)), {{ robustlink(href="https://joinbookwyrm.com/", versionurl="https://web.archive.org/web/20221125055911/https://joinbookwyrm.com/", versiondate="2022-11-27", title="Bookwyrm homepage", anchor="Bookwyrm") }} (for book groups and reader commentary, [me there](https://bookrastinating.com/user/dltj)), [Funkwhale](https://funkwhale.audio/) (for music), and [write.as](https://write.as) (for long-form articles).
 Although Mastodon is getting the most traction right now, the question of archiving the digital public square is bigger than just Mastodon...just keep that in mind as you read below. 
 
-## Twitter Archiving Challenges
-{: twitter-archiving-challenges }
+## Twitter Archiving Challenges {: twitter-archiving-challenges }
 
 As the *MIT Technology Review* article points out, there are challenges to archiving Twitter.
 
@@ -54,8 +52,7 @@ What is at the Library now has known limitations in its comprehensiveness, and w
 The *MIT Technology Review* article talks about the loss to historians, human rights lawyers, and researchers using "open source intelligence" — that which is openly published in the digital public square. 
 Given that we are facing this moment of reckoning as Twitter may be on the brink of disappearing and people are finding community on Mastodon, should we consider an explicit archiving role for the fediverse?
 
-## Mastodon Archiving Challenges
-{: mastodon-archiving-challenges }
+## Mastodon Archiving Challenges {: mastodon-archiving-challenges }
 
 With Twitter's recent upheaval and the migration to Mastodon, I've seen mentions of how Twitter was unique to its time. 
 At Twitter's public unveiling in March 2006, the only way to interact with Twitter was through text messages.
@@ -80,9 +77,7 @@ Inherent in the structure of independent Mastodon instances is the fact that the
 There have been attempts to aggregate content for a search engine, but Mastodon administrators quickly ban those kinds of ActivityPub peers. 
 Creating an archive of Mastodon posts will likely run into the same issues. 
 
-## Do We Want a Digital Public Square Archive?
-
-{: digital-public-square-archive }
+## Do We Want a Digital Public Square Archive? {: #digital-public-square-archive }
 Let's step further back: should there be an archive of the digital public square? 
 Physical public squares don't have comprehensive archives. 
 The fact that a digital public square is made up of ones and zeros in files and databases makes it at least conceivable. 

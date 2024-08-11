@@ -20,8 +20,7 @@ The threads this week:
 {{ thursday_threads_header() }}
 
 
-## When Bugs Come from the Chips, not the Code
-{: #computer-chips}
+## When Bugs Come from the Chips, not the Code {: #computer-chips}
 
 
 {{ thursday_threads_quote(href="https://www.nytimes.com/2022/02/07/technology/computer-chips-errors.html",
@@ -43,8 +42,7 @@ This article from the _New York TImes_ points to a new cause...the physics of el
 As the hardware architects press for smaller, faster, more electrically efficient chips, they will more often face this challenge and need to account for it in their designs.
 
 
-## Learning From Our Cyber Mistakes
-{: #cybersecurity-review-board}
+## Learning From Our Cyber Mistakes {: #cybersecurity-review-board}
 
 {{ thursday_threads_quote(href="https://www.wsj.com/articles/biden-administration-forms-cybersecurity-review-board-to-probe-failures-11643898601?mod=djemalertNEWS",
  blockquote='The new Cyber Safety Review Board is tasked with examining significant cybersecurity events that affect government, business and critical infrastructure. It will publish reports on security findings and recommendations, officials said...
@@ -66,8 +64,7 @@ The computing profession has nothing equivalent.
 It is good to see this one small area—cybersecurity incidents—get that kind of national focus and the formation of a {{ robustlink(href="https://www.cisa.gov/cyber-safety-review-board", versiondate="2022-02-09", title="Cyber Safety Review Board", anchor="review board") }} that might start instilling some of that engineering mentality into the field.
 
 
-## Automation at the United States Postal Service
-{: #usps-automation}
+## Automation at the United States Postal Service {: #usps-automation}
 
 {{ thursday_threads_quote(href="https://logicmag.io/distribution/the-nonmachinables/",
  blockquote='Delivering hards, no matter the cost, is a reflection of the US Post Office’s commitment to truly universal service—a radical vision of democratic communications infrastructure enshrined in the Postal Service Act of 1792. No matter the sender, the recipient, or the distance separating origin and destination, federal code stipulated that the Post Office must “bind the nation together.” As Alexis de Tocqueville put it in his 1835 treatise Democracy in America, the US mail system, unlike its European counterpart, “was organized so as to bring the same information to the door of the poor man’s cottage and to the gate of the palace.” To live up to this idealistic ethos, hards must be treated no differently than easies.',
@@ -84,8 +81,7 @@ And in the end, it is not the "chicken scratchings" of handwritten envelopes tha
 No, the software has gotten quite good at that. (The article describes the long path to how it got that good.)
 It is the "bottomless pile of machine-printed detritus, much of it cheaply printed junk mail slung by mass marketeers."
 
-## Sympathy for Mittens
-{: mittens-leg}
+## Sympathy for Mittens {: mittens-leg}
 
 {{ image(div_float="right", width="320", localsrc="2022/2022-02-10-mittens-shaved-leg.jpg", caption="Mittens' shaved leg", alt="Photograph of a black cat with white streaks with her left front leg showing a shaved portion near her paw") }}  This week Mittens was at the vet for teeth cleaning and inspection. 
 One of her teeth had "root reabsorption" and disappeared. 

@@ -26,8 +26,7 @@ This week we revisit threads from a month ago, a year ago, and 12 years ago.
 
 {{ thursday_threads_header() }}
 
-## ChatGPT references a non-existent book
-{: #chatgpt-bad-reference}
+## ChatGPT references a non-existent book {: #chatgpt-bad-reference}
 {{ thursday_threads_quote(href="https://blacktwitter.io/@bibliotecaria/109650353375080864",
  blockquote='Been seeing a lot about #ChatGPT lately and got my first question at the library this week from someone who was looking for a book that the bot had recommended. They couldn&apos;t find it in our catalog. Turns out that ALL the books that ChatGPT had recommended for their topic were non-existent. Just real authors and fake titles cobbled together. And apparently this is known behavior. 😮',
  versiondate="2023-01-11",
@@ -55,8 +54,7 @@ I still think that the invention and wide-scale use of large-scale natural langu
 Let's get to it, librarians!
 
 
-## AI generating news articles
-{: #ai-news-generator}
+## AI generating news articles {: #ai-news-generator}
 {{ thursday_threads_quote(href="https://twitter.com/GaelBreton/status/1613110185995771905",
  blockquote='<img src="/wp-content/uploads/2023/2023-01-12-ai-image.png" alt="Text of tweet from @GaelBreton: Looks like @CNET (DR 92 tech site) just did their coming out about using AI content for SEO articles. It includes a screenshot of a Google search results page for &ldquo;This article was generated using automation technology and thoroughly edited and fact-checked by an editor on our editorial staff.&rdquo;">',
  versiondate="2023-01-11",
@@ -72,11 +70,10 @@ I wonder if anyone—CNET, the publisher, or an academic researcher—has review
 This isn't the first time automation has been used to write news articles.
 Back in 2015, {{ robustlink(href="https://www.theverge.com/2015/1/29/7939067/ap-journalism-automation-robots-financial-reporting", versionurl="https://web.archive.org/web/20230112021550/https://www.theverge.com/2015/1/29/7939067/ap-journalism-automation-robots-financial-reporting", versiondate="2023-01-11", title="AP's 'robot journalists' are writing their own stories now | The Verge", anchor="The Verge reported") }} on how the {{ robustlink(href="https://www.ap.org/discover/artificial-intelligence", versionurl="https://web.archive.org/web/20230112021726/https://www.ap.org/discover/artificial-intelligence", versiondate="2023-01-11", title="Leveraging AI to advance the power of facts | Associated Press", anchor="Associated Press was using a fill-in-the-blank system") }} to write financial stories from regulatory filings.
 
-{{ note(note_text="An update to this thread is in <a href='https://dltj.org/article/issue-97-large-language-models'>issue 97</a>.") }}%}
+{{ note(note_text="An update to this thread is in <a href='https://dltj.org/article/issue-97-large-language-models'>issue 97</a>.") }}
 
 
-## Cryptocurrency miners in Texas forced to shut down due to electricity shortage
-{: #cryptocurrency-energy}
+## Cryptocurrency miners in Texas forced to shut down due to electricity shortage {: #cryptocurrency-energy}
 {{ thursday_threads_quote(href="https://www.pr.com/press-release/875698",
  blockquote='As Texas and much of the U.S. confronts the challenges of this winter storm, the bitcoin mining industry in Texas is playing a part in supporting the Texas grid during this challenging time by proactively curtailing power. Bitcoin miners in Texas and the Texas Blockchain Council are working with grid operators in Texas as they are closely monitoring the situation, and stand ready to contribute to the state&apos;s efforts to ensure reliability and keep families warm and safe during the extreme weather.',
  versiondate="2023-01-11",
@@ -88,8 +85,7 @@ A _Thursday Thread_ from a year ago was [cryptocurrency’s energy consumption](
 Now comes last month's press release from the Texas Blockchain Council on how they shed load as the grid struggled to keep up with heating demands. 
 Still no word on why using energy for fraud-supporting busy-work calculations is a better use of excess capacity than, say, some form of _energy storage_ that would help smooth out the bumps in the grid.
 
-## Lament for a future that could have been: A Web presence for every library
-{: #wssl}
+## Lament for a future that could have been: A Web presence for every library {: #wssl}
 {{ thursday_threads_quote(href="https://dltj.org/article/thursday-threads-2011w2/#web_presence",
  blockquote='Late last year -- just about a week before ALA Midwinter -- came an announcement of a project by OCLC&apos;s Innovation Lab to offer an inexpensive website to every small library. At a price of about $5 per month, a library could have a basic desktop and mobile website. At about $40 per month, the library could have a simple inventory and circulation module. You can see what is possible at the Loremville, TN public library sample site and read more information about the project in <a href="https://dltj.org/article/a-web-presence-for-small-libraries/">my write-up of the public demonstration</a>.',
  versiondate="",
@@ -104,8 +100,7 @@ Unfortunately, the project didn't last, and I wish I knew more about why it didn
 I couldn't find the Loremville Public Library sample site on Wayback, so the only thing that may be left is this low resolution screenshot I made for [my 2010 article](https://dltj.org/article/a-web-presence-for-small-libraries/).
 
 
-## Extra Cat!
-{: #pickle}
+## Extra Cat! {: #pickle}
 {{ image(width="700", localsrc="2023/2023-01-12-pickle.jpg", alt="Two photographs of a mostly black cat with a white bib. In the left photograph, a the cat is lounging comfortably on the floor. In the right photograph, the photograph is taken looking up at the face of the cat.") }} 
 We had a visiting cat for Christmas break! 
 This sweetheart is _Pickle_, which is short for _Dill Pickle Murray_, and is my daughter's college apartment cat. 

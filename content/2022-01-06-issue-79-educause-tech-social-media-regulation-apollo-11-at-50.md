@@ -19,8 +19,7 @@ Here at the start of 2022, I'm making a resolution to restart _Thursday Threads_
 
 {{ thursday_threads_header() }}
 
-## What EDUCAUSE’s 2022 Top 10 IT Issues Mean for Libraries
-{: #educause-2022-top-10}
+## What EDUCAUSE’s 2022 Top 10 IT Issues Mean for Libraries {: #educause-2022-top-10}
 
 {{ thursday_threads_quote(href="https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve",
  blockquote='The EDUCAUSE 2022 Top 10 IT Issues take an optimistic view of how technology can help make the higher education we deserve—through a shared transformational vision and strategy for the institution, a recognition of the need to place students’ success at the center, and a sustainable business model that has redefined &lsquo;the campus.&rsquo;',
@@ -38,8 +37,7 @@ Instructional technologists will certainly be called upon to support new tools a
 There is recognition that we are all tired and stretched as well as the reality that one-time emergency money is drying up.
 Still, there is room for growth for academic libraries seeking to re-form their mission for a new era.
 
-## Legislation in the Works for Social Media Regulation
-{: #social-media-regulation}
+## Legislation in the Works for Social Media Regulation {: #social-media-regulation}
 
 {{ thursday_threads_quote(href="https://www.nytimes.com/2022/01/02/business/media/crowdtangle-facebook-brandon-silverman.html",
  blockquote='Washington is awash in proposals for reforming social media, but in a narrowly divided Congress, it’s little surprise that none have passed. Many Democrats believe that social media’s core problem is that dangerous far-right speech is being amplified. Many Republicans believe that the core problem is that the platforms are suppressing conservative political views. The new Senate legislation, which was introduced by two Democrats, Chris Coons and Amy Klobuchar, and a Republican, Rob Portman, may have a path toward passage because it doesn’t require taking a side in that argument.',
@@ -54,8 +52,7 @@ It seems like the world has recognized that social media algorithms prey upon so
 I don't expect "social media curriculum" to come out of any legislative effort—particularly in an environment that is as polarized as the one we are now in.
 But I wonder if there is a role for library programming and library services in helping citizens understand the effects of social media algorithms, should new regulations provide the public data and research about how these companies are affecting our social relationships.
 
-## Relive the 50th Anniversary of the Apollo 11 Launch...Projected onto the Washington Monument!
-{: #apollo-11-launch}
+## Relive the 50th Anniversary of the Apollo 11 Launch...Projected onto the Washington Monument! {: #apollo-11-launch}
 
 {{ thursday_threads_quote(href="https://vimeo.com/349227656",
  blockquote='"Apollo 50: Go for the Moon," recreated the launch of Apollo 11 and told the story of the first Moon landing through full-motion projection mapping artwork on the Washington Monument. Over a half-million people joined us July 16 to 20, 2019, to celebrate the 50th anniversary of Apollo 11 on the National Mall.',

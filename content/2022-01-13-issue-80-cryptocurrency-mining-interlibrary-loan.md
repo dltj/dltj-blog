@@ -26,8 +26,7 @@ If getting in on the ground floor of a revolution in library technology sounds a
 
 {{ thursday_threads_header() }}
 
-## Cryptocurrency's Energy Consumption
-{: #cryptocurrency-energy}
+## Cryptocurrency's Energy Consumption {: #cryptocurrency-energy}
 
 {{ thursday_threads_quote(href="https://www.reuters.com/markets/commodities/kosovo-bans-cryptocurrency-mining-save-electricity-2022-01-04/",
  blockquote="Kosovo's government on Tuesday introduced a ban on cryptocurrency mining in an attempt to curb electricity consumption as the country faces the worst energy crisis in a decade due to production outages.",
@@ -62,8 +61,7 @@ So the miners left China for politically unstable countries like Kosovo and dere
 That's just the start of the cryptocurrency problem.
 We'll return to this thread often.
 
-## An Ode to Interlibrary Loan
-{: #ill}
+## An Ode to Interlibrary Loan {: #ill}
 
 {{ thursday_threads_quote(href="https://lithub.com/interlibrary-loan-will-change-your-life/",
  blockquote="My book arrived a few weeks later, a gift from a mysterious library in the Midwest. Here was knowledge on loan from afar. I loved books, but my local libraries had finite stacks—but now I could get books from anywhere. I have used this service an obnoxious amount of times since. Books about UFOs in France, folklore, saints, basketball, poetry, and propulsion system dissertations—anything.",

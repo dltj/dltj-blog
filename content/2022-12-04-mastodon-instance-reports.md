@@ -13,10 +13,9 @@ I started gathering these because I was curious about what it takes to run a pub
 These reports are full of those kinds of details, but they also describe evolutions of policy and operations that are just as interesting. 
 If you see other reports (or have posted a report of your own Mastodon instance), please tag me at [@dltj@code4lib.social](https://code4lib.social/@dltj) and I'll add it to this list.
 
-{{ note(note_text='<del>There is now a <a href="https://github.com/dltj/dltj-blog/pull/14">branch and pull request</a> on GitHub where you can suggest changes to this list and/or subscribe to notifications for updates. <a href="https://rss-bridge.bb8.fun/?action=display&bridge=GithubIssueBridge&context=Issue+comments&i=14&u=dltj&p=dltj-blog&format=Html">Updates to the page</a> are also available via <a href="https://rss-bridge.bb8.fun/">RSS-Bridge</a></del>. This didn&lsquo;t work as I expected it to when the commits got to GitHub. (The pull request was automatically closed.)  Will need to rethink this.') }}%}
+{{ note(note_text='<del>There is now a <a href="https://github.com/dltj/dltj-blog/pull/14">branch and pull request</a> on GitHub where you can suggest changes to this list and/or subscribe to notifications for updates. <a href="https://rss-bridge.bb8.fun/?action=display&bridge=GithubIssueBridge&context=Issue+comments&i=14&u=dltj&p=dltj-blog&format=Html">Updates to the page</a> are also available via <a href="https://rss-bridge.bb8.fun/">RSS-Bridge</a></del>. This didn&lsquo;t work as I expected it to when the commits got to GitHub. (The pull request was automatically closed.)  Will need to rethink this.') }}
 
-## sfba.social (San Francisco Bay Area)
-{: #sfba}
+## sfba.social (San Francisco Bay Area) {: #sfba}
 
 {{ thursday_threads_quote(href="https://hub.sfba.social/2022/12/02/transparency-report-november-2022/",
  blockquote='This report covers the San Francisco Bay regional Mastodon instance sfba.social, including general statistics, financial details including income (donations) and expenses (hosting costs), moderation efforts, and changes made and considered. It has been wonderful to welcome all of our new friends and neighbors. We have expanded our server capacity and refined our moderation process, including a new version of the code of conduct and updated the server rules to match. This has helped to improve expectations and free our users to be nice and have fun!',
@@ -33,8 +32,7 @@ Includes sections for:
 - Future plans
 
 
-## mindly.social
-{: #mindly}
+## mindly.social {: #mindly}
 
 {{ thursday_threads_quote(href="https://kujoe.blog/2022/11/running-a-mastodon-server-part-1",
  blockquote='Since April of this year I&lsquo;ve been running my own Mastodon server and 3 days ago we hit 100 users which was a huge milestone for my tiny little server... and then all of a sudden something happened, the other Mastodon servers started to get full and new users were looking for homes. Less than 72 hours after being excited for hitting 100 users we hit 10,000 users.',
@@ -48,8 +46,7 @@ Includes sections for:
 - Statistics for activity growth
 - Process for managing growth (technical)
 
-## chaos.social
-{: #chaos}
+## chaos.social {: #chaos}
 
 {{ thursday_threads_quote(href="https://blog.chaos.social/2022/11/29/changes",
  blockquote='The past month has changed the Fediverse, and, by extension, our instance. We&lsquo;ve continued as normal (apart from limiting sign-ups) to give ourselves time to figure out which changes were only temporary, what seems to be changed for good, and how to react. A month seems ample time, and here we are with a set of changes in how chaos.social will work in the future.',
@@ -76,8 +73,7 @@ Includes sections for:
 - Process for managing growth (technical)
 
 
-## Scaling Mastodon
-{: #scaling-mastodon}
+## Scaling Mastodon {: #scaling-mastodon}
 
 {{ thursday_threads_quote(href="https://hazelweakly.me/blog/scaling-mastodon/",
  blockquote='This is honestly a very hastily written selection of various snippets, with text extracted, and notes. No real editing thought was put into this, so I hope it&lsquo;s not too confusing. This blog post will be kept up to date as I find out more information and publish my findings. It&lsquo;s currently organized in no particular order with a bunch of micro fragment thoughts split out in a row.',
@@ -91,8 +87,7 @@ Includes sections for:
 - Process for managing growth (technical)
 
 
-## Metalhead.club
-{: #metalhead}
+## Metalhead.club {: #metalhead}
 
 {{ thursday_threads_quote(href="https://thomas-leister.de/en/scaling-up-mastodon/",
  blockquote='Mastodon has recently gained popularity amongst tech-savvy users after Elon Musk has bought Twitter. With November&lsquo;s wave of new Mastodon users, many servers experienced mayor problems with their performance - so did metalhead.club, the Mastodon instance that I&lsquo;m hosting myself. Here&lsquo;s how I tackled performance issues on metalhead.club.',
@@ -106,8 +101,7 @@ Includes sections for:
 - Process for managing growth (technical)
 
 
-## Mastodon.ART
-{: #art}
+## Mastodon.ART {: #art}
 
 {{ thursday_threads_quote(href="https://www.patreon.com/posts/update-on-costs-74379258",
  blockquote='The steep line itself is when I realised that doing it that way actually gave us less control over new user numbers, so we went back to &lsquo;anyone can request an account but accounts need to be approved by a mod&rsquo;. This was about the time that big news sites had started reporting people were leaving Twitter for Mastodon, and they were all linking to joinmastodon.org, where we were one of three art instances listed and the biggest one by far... We had 2000 new user accounts placed in the approval queue that day. These weren&lsquo;t approved accounts, so they weren&lsquo;t logged on and using .art - so they weren&lsquo;t contributing much (aside from the verification emails being sent out) to server activity. Still, server activity skyrocketed.',
@@ -128,8 +122,7 @@ See also:
 - [9-Nov-2022](https://www.patreon.com/posts/on-our-policy-74436103), [10-Nov-2022](https://www.patreon.com/posts/silencing-social-74474015), [10-Nov-2022](https://www.patreon.com/posts/oh-well-74495239): Federation policy
 - [22-Nov-2022](https://www.patreon.com/posts/server-status-74989836): Financials/fundraising
 
-## Fosstodon (April 2022)
-{: #fosstodon-april}
+## Fosstodon (April 2022) {: #fosstodon-april}
 
 {{ thursday_threads_quote(href="https://hub.fosstodon.org/elon-twitter-post-mortem/",
  blockquote='If you haven&lsquo;t heard, Elon Musk recently agreed a deal to buy Twitter for a whopping $44bn. That cause a little turmoil over in Twitter land, which resulted in expats coming over to Mastodon in their droves. Because we&lsquo;re one of the biggest technology focussed instances on the Fediverse, a lot of people requested an account on Fosstodon. As you can see from the graphs below, the spike in users from Twitter made our usual activity almost flat line. This effectively resulted in a sustained DDoS that lasted for around 36 hours. As you can imagine, that was a lot of fun for myself and the team. Here&lsquo;s the details of what happened during those 36 hours…',
@@ -145,8 +138,7 @@ Includes sections for:
 - Financials/fundraising
 
 
-## Fosstodon (November 2022)
-{: #fosstodon-november}
+## Fosstodon (November 2022) {: #fosstodon-november}
 
 {{ thursday_threads_quote(href="https://hub.fosstodon.org/fosstodon-vs-twitter-round-2/",
  blockquote='Woooooh! It&lsquo;s been a crazy few weeks at Fosstodon HQ. If you&lsquo;ve been living under a rock (or are just not interested) Elon Musk, or better known as Melon Tusk on the fediverse, has taken over Twitter and looks to be on a mission to ruin the platform even more. Because of this, people have been flocking to Mastodon in their droves, and since Fosstodon is one of the biggest tech-focussed instances on the fediverse, we&lsquo;ve seen A LOT of that traffic.',
@@ -161,8 +153,7 @@ Includes sections for:
 - Financials/fundraising
 
 
-## Mastodon Canada
-{: #mastodon-canada}
+## Mastodon Canada {: #mastodon-canada}
 
 {{ thursday_threads_quote(href="https://news.mstdn.ca/state-of-the-instance-nov-2022/",
  blockquote='The instance grew from less than 60 users to what is now 24 500 users in the span of just two weeks. It went from an experiment to a service demanding significant infrastructure, moderation, and governance. I want to offer a warm welcome to everyone and thanks for their patience as I bolstered Mastodon Canada with the necessary server capacity to handle the load.',
@@ -179,8 +170,7 @@ Includes sections for:
 - Financials/fundraising
 - Future plans
 
-## Hachyderm
-{: #hachyderm}
+## Hachyderm {: #hachyderm}
 
 {{ thursday_threads_quote(href="https://community.hachyderm.io/blog/2022/12/03/leaving-the-basement/",
  blockquote='Hachyderm has reached 30,000 users. A ‘small sized’ service in regard to scale. However, in the process we have hit very familiar ‘medium sized’ scale problems which caused us to migrate our services out of my basement. This is the outage report, post mortem, and high level overview of the process of migrating to Hetzner in Germany. From observation to production fixes. This is the story.',
@@ -210,8 +200,7 @@ Includes sections for:
 - User registrations
 
 
-## Cloud Island (New Zealand)
-{: #cloud-island}
+## Cloud Island (New Zealand) {: #cloud-island}
 
 {{ thursday_threads_quote(href="https://www.patreon.com/posts/cloud-island-75379795",
  blockquote='November was a heck of a time for Cloud Island, and the Fediverse as a whole. With the Twitter purchase, the Fediverse as a whole saw a massive increase in use and traffic. Cloud Island is seeing a 15x sustained increase in traffic on Sidekiq, which is the behind-the-scenes processing layer that interacts with the rest of the Fediverse. Cloud Island is seeing 1700% more interactions through November than in October. And, finally a 12.5x increase in the amount of bandwidth being used from October to November. In October, we used about 100GB of bandwidth. In November, we used 1.25TB of bandwidth.',

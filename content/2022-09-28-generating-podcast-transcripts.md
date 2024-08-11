@@ -24,7 +24,7 @@ My task management system has about a dozen podcast episodes where I'd like to a
 So I wrote a little script that creates a good-enough transcript HTML page.
 You can see a [sample of what this looks like](https://media.dltj.org/unchecked-transcript/20220928T194120-99-_Invisible--Search_and_Ye_Might_Find/index.html) (from the [Search and Ye Might Find](https://99percentinvisible.org/episode/search-and-ye-might-find/) episode of 99% Invisible).
 
-{{ note(note_text="Of course, <i>99% Invisible</i> has now gone back and added transcripts to all of their episodes, including <a href='https://99percentinvisible.org/episode/search-and-ye-might-find/transcript'>the one used in this example</a>. Thanks? ... No really, thank you 99PI!") }}%}
+{{ note(note_text="Of course, <i>99% Invisible</i> has now gone back and added transcripts to all of their episodes, including <a href='https://99percentinvisible.org/episode/search-and-ye-might-find/transcript'>the one used in this example</a>. Thanks? ... No really, thank you 99PI!") }}
 
 ## _AWS Transcribe_ to the rescue
 Amazon Web Services has a [Transcribe](https://aws.amazon.com/transcribe/) service that takes audio, runs it through its machine learning algorithms, and outputs a [WebVTT](https://www.w3.org/TR/webvtt1/) file.

@@ -20,8 +20,7 @@ The threads this week:
 
 {{ thursday_threads_header() }}
 
-## Ukraine Libraries Doing What Libraries Do
-{: #ukraine-libraries}
+## Ukraine Libraries Doing What Libraries Do {: #ukraine-libraries}
 {{ thursday_threads_quote(href="https://www.npr.org/2022/03/09/1085220209/ukraine-libraries-bomb-shelters",
  blockquote='"Refugee reception points, hostels and logistics points are organized here," [Oksana Brui, president of the Ukrainian Library Association] said. "Camouflage nets for the military are also woven here. Home care courses are held here. Books are collected here to be transferred to libraries in neighboring countries that receive Ukrainian refugees."',
  versiondate="2022-03-17 00:16:08+00:00",
@@ -34,8 +33,7 @@ I presume the libraries mentioned in the NPR article are "public libraries," but
 It brings to mind the stories about the {{ robustlink(href="https://www.libraryjournal.com/story/2015-galelj-library-of-the-year-ferguson-municipal-public-library-mo-courage-in-crisis", versiondate="2022-03-16", title="2015 Gale/LJ Library of the Year: Ferguson Municipal Public Library, MO, Courage in Crisis | Library Journal", anchor="library in Ferguson") }}, Missouri, during the riots for the shooting of Michael Brown by local police. 
 The NPR story also mentions Nicholas Poole's "we will reschedule just as soon as we have vanquished our invaders" tweet that was in [_Thursday Threads_ two weeks ago]({filename}/2022-03-03-issue-87-ukraine-ai-art#ukraine-library-association).
 
-## Can the Internet Sanction a Country? Should It?
-{: #internet-sanctions}
+## Can the Internet Sanction a Country? Should It? {: #internet-sanctions}
 {{ thursday_threads_quote(href="https://www.pch.net/resources/Papers/Multistakeholder-Imposition-of-Internet-Sanctions.pdf",
  blockquote='The invasion of Ukraine poses a new challenge for multistakeholder Internet infrastructure governance. In this statement, we discuss possible sanctions and their ramifications, lay out principles that we believe should guide Internet sanctions, and propose a multistakeholder governance mechanism to facilitate decision-making and implementation.',
  versiondate="2022-03-11 00:22:56+00:00",
@@ -48,16 +46,14 @@ This would include revoking Russia's top-level country domains (e.g. ".ru"), can
 The _Multistakeholder Imposition of Internet Sanctions_ document describes why this would be a bad idea and lays out a plan for what can be done. 
 For more depth, see the [article I wrote last week]({filename}/2022-03-10-internet-sanctions) on the document.
 
-## _Thursday Threads 2011_: The Demise of the Big Deal?
-{: #thursday-threads-2011}
+## _Thursday Threads 2011_: The Demise of the Big Deal? {: #thursday-threads-2011}
 Looking backward, the _Thursday Threads_ for 17-Mar-2011 had an [entry for an interview by Richard Poynder](https://dltj.org/article/thursday-threads-2011w11/#big-deal) with a financial analyst that had a downgraded outlook of Reed Elsevier. 
 A key quote: _"I can observe, however, that there is something unhealthy about an industry which has managed to alienate its customers to the point their membership associations increasingly focus time and attention on how to overturn the industry structure."_
 I think it is fair to say that not much has changed.
 
-{{ note(note_text='After the newsletter was published, Richard <a href="https://twitter.com/RickyPo/status/1504434940573798411">tweeted</a>: "The Aspesi interview is worth comparing with the 2013 interview with Sami Kassab I think." The tweet included a link to <a href="https://poynder.blogspot.com/2013/10/media-research-analyst-at-exane-bnp.html" data-versionurl="https://web.archive.org/web/20220317124253/https://poynder.blogspot.com/2013/10/media-research-analyst-at-exane-bnp.html" data-versiondate="2022-03-17">his 6-Oct-2013 interview</a>.  About halfway down Richard&#039;s summary is a discussion about how reputation is a dominant factor in where authors choose to publish, which will favor the large, incumbent publishers.  Nearly 10 years later, it would seem that Mr. Kassab&#039;s prediction has held true.') }}%}
+{{ note(note_text='After the newsletter was published, Richard <a href="https://twitter.com/RickyPo/status/1504434940573798411">tweeted</a>: "The Aspesi interview is worth comparing with the 2013 interview with Sami Kassab I think." The tweet included a link to <a href="https://poynder.blogspot.com/2013/10/media-research-analyst-at-exane-bnp.html" data-versionurl="https://web.archive.org/web/20220317124253/https://poynder.blogspot.com/2013/10/media-research-analyst-at-exane-bnp.html" data-versiondate="2022-03-17">his 6-Oct-2013 interview</a>.  About halfway down Richard&#039;s summary is a discussion about how reputation is a dominant factor in where authors choose to publish, which will favor the large, incumbent publishers.  Nearly 10 years later, it would seem that Mr. Kassab&#039;s prediction has held true.') }}
 
-## This Week's Cats
-{: #alan-mittens}
+## This Week's Cats {: #alan-mittens}
 {{ image(div_float="right", width="320", localsrc="2022/2022-03-17-alan-mittens.jpg", alt="Photograph of a black and white cat sleeping in a curled-up ball on one side of a bed while a black cat looks lover from the other side of the bed.") }} 
 
 This is a throwback to a picture of Alan (left) and Mittens (right) from [six weeks ago]({filename}/2022-02-03-issue-83-cdl-wwe-childrens-book#cat-fence). 

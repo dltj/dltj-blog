@@ -23,8 +23,7 @@ The threads this week:
 {{ thursday_threads_header() }}
 
 
-## Specification for Media Content Provenance
-{: #content-provenance}
+## Specification for Media Content Provenance {: #content-provenance}
 
 {{ thursday_threads_quote(href="https://c2pa.org/post/release_1_pr/",
  blockquote='Today, the Coalition for Content Provenance and Authenticity (C2PA), an organization established to provide publishers, creators, and consumers with opt-in, flexible ways to understand the authenticity and provenance across various media types, released version 1.0 of its technical specification for digital provenance. This specification is the first of its kind and empowers content creators and editors worldwide to create tamper-evident media, by enabling them to selectively disclose information about who created or changed digital content and how it was altered. The C2PA’s work is the result of industry-wide collaborations focused on digital media transparency that will accelerate progress toward global adoption of content provenance.',
@@ -58,8 +57,7 @@ See how it could be used for digital archives?
 I haven't finished reading the specification, but I have made some Hypothesis annotations on the ["explainer"](https://c2pa.org/specifications/specifications/1.0/explainer/Explainer.html) and ["technical specifications"](https://c2pa.org/specifications/specifications/1.0/specs/C2PA_Specification.html). 
 Join me there, would you?
 
-## Encroaching on Digital Privacy in the Classroom
-{: surveillance-university}
+## Encroaching on Digital Privacy in the Classroom {: surveillance-university}
 
 {{ thursday_threads_quote(href="https://georgetownvoice.com/2022/02/19/welcome-to-surveillance-university-where-privacy-no-longer-matters/",
  blockquote='Perusall, for example, gives professors access to the amount of time a student spends on a reading and how many of the assigned pages they&#39;ve viewed. Despite students feeling like their privacy is compromised with this access and the return of most students to in-person learning, schools are still utilizing proctoring and similar invasive technologies.
@@ -74,8 +72,7 @@ This article is from the Georgetown University student-run newspaper, and it con
 The emergency measures put in place for at-home learning during pandemic closures are weaving their way into the fabric of college life, and not in a good way. 
 This article is a good one to read because it is written by students that are impacted by this technology, but it is just one among many similar articles that describe the technical problems and the cultural impacts. 
 
-## Pixelation for Redaction → bad
-{: pixelation-redation}
+## Pixelation for Redaction → bad {: pixelation-redation}
 
 {{ thursday_threads_quote(href="https://bishopfox.com/blog/unredacter-tool-never-pixelation",
  blockquote='Today, we&#39;re focusing on one such technique – pixelation – and will show you why it&#39;s a no-good, bad, insecure, surefire way to get your sensitive data leaked. To show you why, I wrote a tool called Unredacter that takes redacted pixelized text and reverses it back into its unredacted form. There&#39;s plenty of real-world examples of this in the wild to redact sensitive information, but I won&#39;t name names here. Watch my video for a quick recap of the importance of NEVER using pixelation to redact text, as well as how I unredact Jumpseclabs&#39;s Challenge in real-time.',
@@ -87,8 +84,7 @@ This article is a good one to read because it is written by students that are im
 The solution, in retrospect, seems obvious: figure out the font being used, deduce the offset from where the pixelation starts, build a model of letters of the alphabet pixelated to those parameters, and compare with the source material. 
 I won't be using pixelation again. 
 
-## Google Changes Up In-App Advertising
-{: android-privacy-sandbox}
+## Google Changes Up In-App Advertising {: android-privacy-sandbox}
 
 {{ thursday_threads_quote(href="https://mobiledevmemo.com/rip-gaid-privacy-sandbox-is-coming-to-android-heres-a-summary-of-the-tech/",
  blockquote='it&#39;s a collaborative effort that invites participation from the industry in replacing the existing system for ads targeting on Android with something that is more mindful of consumer privacy. Although Google recently introduced some new privacy initiatives on Android, including the reanimation of its mostly-dormant “Opt Out of Ads Personalization” system setting as an Android-equivalent of Apple&#39;s Limit Ad Tracking setting, it obviously wants to introduce further privacy controls to Android. And it aims to accomplish that with a Privacy Sandbox process for the platform.',
@@ -105,8 +101,7 @@ At the time an app is installed by the smartphone user, the app code and adverti
 Once on the device, the ad-tech runs in a separate sandbox from the browser—it is isolated from the app code and has its own permissions structure. 
 It is not hard to imagine that this technique will be used for other dynamic parts of an app.
 
-## Close Supervision
-{: close-supervision}
+## Close Supervision {: close-supervision}
 
 
 {{ image(div_float="right", width="320", localsrc="2022/2022-02-24-supervising-cat.png", caption="Alan lets me know he is watching.", alt="Two photographs in one image. The top picture is of seedlings that have just sprouted in a growing tray under a bright light. In the bottom image, a white cat with a dark fur outline around his face is on an open staircase eye level and is reaching out and reaching out a paw.") }} 
@@ -123,8 +118,7 @@ The _nerve_ of some beasts!
 
 I should have followed his suggestions, though...I think a couple of the seedlings aren't going to make it.
 
-## Thursday Morning Addition
-{: ukrane-colleagues}
+## Thursday Morning Addition {: ukrane-colleagues}
 
 After I finished writing Wednesday night but before publishing Thursday morning, Russia's president gave the order to invade Ukraine from the north, east, and south. 
 Geopolitics aside (Putin's actions are not warranted and by accounts I've read his interpretation of history is wrong), there are real effects on real people that don't deserve to be caught up in what has happened. 

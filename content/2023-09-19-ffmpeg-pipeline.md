@@ -30,8 +30,7 @@ Some hard-learned lessons along the way:
 
 I'm documenting the steps here in case they are helpful to someone else...perhaps I'll need this pipeline again someday.
 
-## Clip sessions from recordings
-{: #clip}
+## Clip sessions from recordings {: #clip}
 Each room of the conference was assigned a Zoom meeting. 
 These Zoom meetings allowed remote participants to join the session, and the meetings were set to record. 
 This meant, though, that several minutes in the recording at the start and end of the session were not useful content. 
@@ -54,8 +53,7 @@ Each option means:
 4. Re-encode with the x264 codec with a lossless {{ robustlink(href="https://trac.ffmpeg.org/wiki/Encode/H.264#crf", versionurl="https://web.archive.org/web/20230904070629/https://trac.ffmpeg.org/wiki/Encode/H.264#crf", versiondate="2023-09-12", title="H.264 Video Encoding Guide", anchor="Constant Rate Factor") }}.
 5. Output file name
 
-## Rescale recordings
-{: #rescale}
+## Rescale recordings {: #rescale}
 Most of the recordings from Zoom output to Full HD (1920x1080) resolution, but some were recorded to quite squirrely dimensions. 
 (1920 by 1008, 1920 by 1030 ... 1760 by 900, really?)
 To find the resolution of each recording file, I used the `ffprobe` command:
@@ -101,8 +99,7 @@ ffmpeg -y \
 1. Constant Frame Rate of lossless
 1. Output file name
 
-## Create Title Card snippet
-{: #title-card}
+## Create Title Card snippet {: #title-card}
 Each session recording has a 15-second title card with the session's name.
 The 15 second video itself is just a PowerPoint animation of the conference logo sliding to the right half of the frame and a red box fading in on the left side of the frame. 
 Each animation element was assigned a timing, and the resulting "presentation" was exported from PowerPoint to a video file. 
@@ -170,8 +167,7 @@ ffmpeg -y \
 3. Add the `subtitles` video filter with the session-specific ASS file
 4. Output file
 
-## Merge sources to the final file
-{: #merge}
+## Merge sources to the final file {: #merge}
 Now we have all of the pieces to make the final recording
 
 ```shell
@@ -215,8 +211,7 @@ There is an excellent description of the [ffmpeg cross-fade options](https://sup
 16. Sets the codec to lossless and audio to stereo.
 17. The final output file.
 
-## Upload to YouTube
-{: #upload}
+## Upload to YouTube {: #upload}
 With the files ready, it is time to upload them to YouTube. 
 The [youtube-upload](https://github.com/tokland/youtube-upload) script is useful as a tool for batch uploading the videos. 
 There are a couple of caveats to be aware of:

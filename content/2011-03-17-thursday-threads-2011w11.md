@@ -71,8 +71,7 @@ We're taking a break this week from the HarperCollins e-book story; although the
 
 {{ thursday_threads_header() }}
 
-## Open Source, Open Standards, and Health Care Information Systems
-{: #health-care}
+## Open Source, Open Standards, and Health Care Information Systems {: #health-care}
 
 {{ thursday_threads_quote(href="http://technews.acm.org/archives.cfm?fo=2011-03-mar/mar-09-2011.html",
  blockquote='Recognition of the improvements in patient safety, quality of patient care, and efficiency that health care information systems have the potential to bring has led to significant investment. Globally the sale of health care information systems now represents a multibillion dollar industry. As policy makers, health care professionals, and patients, we have a responsibility to maximize the return on this investment. To this end we analyze alternative licensing and software development models, as well as the role of standards. We describe how licensing affects development. We argue for the superiority of open source licensing to promote safer, more effective health care information systems. We claim that open source licensing in health care information systems is essential to rational procurement strategy.',
@@ -84,8 +83,7 @@ We're taking a break this week from the HarperCollins e-book story; although the
 
 This might be a useful data point for libraries considering the adoption of open source for their mission-critical applications.  Two U.K. authors have published a <a href="http://www.jmir.org/2011/1/e24/" title="Open Source, Open Standards, and Health Care Information Systems | Journal of Medical Internet Research">report</a> that reviews general benefits of open source and open standards, noting in one heading that "Open Standards Facilitate Competition Between Open Source Software and Proprietary Software".  They also compare the open source software development practices with those of proprietary software development and look at barriers to the adoption of open source software.  A great deal of the analysis is particular to health care information systems, but the report would be a useful template to applying the same analysis to core library systems.  [Via {{ robustlink(href="http://technews.acm.org/archives.cfm?fo=2011-03-mar/mar-09-2011.html", versiondate="2011-03-17", title="ACM Tech News, 3-Mar-2011", anchor="ACM Tech News") }}]
 
-## The Demise of the Big Deal?
-{: #big-deal}
+## The Demise of the Big Deal? {: #big-deal}
 {{ thursday_threads_quote(href="http://poynder.blogspot.com/2011/03/demise-of-big-deal.html",
  blockquote='<p><i>Interview question: You, however, believe that publishers will simply have to accept that their revenues are going to fall, because there really is no more money?</i></p>
 <p><b>Claudio Aspesi:</b> I have no doubt that &mdash; over time &mdash; adjustments would be made. But it remains to be seen if they need all the 2,200/2,400 journals that the each of the largest publishers maintain today. </p>
@@ -98,8 +96,7 @@ This might be a useful data point for libraries considering the adoption of open
 
 Richard Poynder <a href="">interviews Claudio Aspesi</a>, a financial analyst based at the <a href="http://en.wikipedia.org/wiki/Sell_side" title="Sell side | Wikipedia">sell-side</a> research firm <a href="https://www.bernsteinresearch.com/BRWEB/Public/Login.aspx?ReturnUrl=%2fbrweb%2fHome.aspx" title="Bernstein Research homepage">Sanford Bernstein</a>.  Aspesi issued a report last year that was critical of the financial outlook of Reed Elsevier and more recently has downgraded the outlook to &ldquo;<a href="http://www.investopedia.com/terms/u/underperform.asp" title="Underperform Definition | Investopedia">underperform</a>&rdquo;.  This interview gets into the reasoning behind Aspesi's decision.
 
-## Archives of Dead Web Pages: Wayback, Cache, and More
-{: #web-archive}
+## Archives of Dead Web Pages: Wayback, Cache, and More {: #web-archive}
 {{ thursday_threads_quote(href="http://www.searchengineshowdown.com/others/archive.shtml",
  blockquote='The Web changes constantly, and sometimes that page that had just the information you needed yesterday (or last month or two years ago) is not available today. At other times you may want to see how a page&#039;s content or design has changed. There are several sources for finding Web pages as they used to exist. While Google&#039;s cache is probably the best known, the others are important alternatives that may have pages not available at Google or the Wayback Machine plus they may have an archived page from a different date. The table below notes the name of the service, the way to find the archived page, and some notes that should give some idea as to how old a page the archive may contain.',
  versiondate="2011-03-17",

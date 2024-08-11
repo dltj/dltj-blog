@@ -30,8 +30,7 @@ Don't be a stranger—drop me a line if you find this interesting or come across
 
 {{ thursday_threads_header() }}
 
-## OCLC versus Clarivate: In the Battle for Bibliographic Records, the Winner is ???
-{: #oclc-vs-clarivate}
+## OCLC versus Clarivate: In the Battle for Bibliographic Records, the Winner is ??? {: #oclc-vs-clarivate}
 {{ thursday_threads_quote(href="https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-and-OCLC-Settle-Lawsuit/default.aspx",
  blockquote='Clarivate continues to deny OCLCs allegations of wrong-doing and maintains that the issue lay between OCLC and its customers, who sought to co-create an efficient community platform for sharing of bibliographic records. Clarivate will not develop a record exchange system of MARC records that include records which OCLC has claimed are subject to its policy and contractual limitations. Clarivate will bear its own fees and costs.',
  versiondate="2022-11-12",
@@ -51,8 +50,7 @@ And like 12 years ago, when the Skyriver lawsuit was dismissed in much the same 
 Earlier this month I wrote a more [in-depth article about the open questions from the Clarivate/OCLC lawsuit](https://dltj.org/article/oclc-v-clarivate/). 
 In that post, I go through the court transcripts from the pre-settlement hearings and ask: "what was Clarivate's Metadoor" and "what is an OCLC record".
 
-## Moving On to Mastodon
-{: #mastodon}
+## Moving On to Mastodon {: #mastodon}
 
 {{ thursday_threads_quote(href="https://techcrunch.com/2022/11/08/what-is-mastodon/",
  blockquote='As Twitter users fret over the direction that new owner Elon Musk is taking the company, masses of users have hopped over to Mastodon, an open source Twitter alternative.',
@@ -70,8 +68,7 @@ You can move your Mastodon presence to another location or have more than one Ma
 (At the moment, I'm quite interested in what is going on with [social.coop](https://social.coop/) with its {{ robustlink(href="https://wiki.social.coop/rules-and-bylaws/Operations.html", versionurl="https://web.archive.org/web/20221201023457/https://wiki.social.coop/rules-and-bylaws/Operations.html", versiondate="2022-11-30", title="Operations | social.coop wiki", anchor="strong community governance structure ") }} and {{ robustlink(href="https://wiki.social.coop/rules-and-bylaws/Code-of-conduct.html", versionurl="https://web.archive.org/web/20221201023902/https://wiki.social.coop/rules-and-bylaws/Code-of-conduct.html", versiondate="2022-11-30", title="Code of Conduct | social.coop wiki", anchor="code of conduct") }}, and I might ultimately consider that a home for the non-library-technology side of my persona.) 
 This Mastodon thread is going to get longer in future newsletter issues, but for right now I'm pointing you to this guide to help you move from Twitter (or even Facebook!) to Mastodon...then follow me at [@dltj@code4lib.social](https://code4lib.social/@dltj) when you get there.
 
-## Alan Likes Football Too
-{: #alan-world-cup}
+## Alan Likes Football Too {: #alan-world-cup}
 {{ image(div_float="right", width="320", localsrc="2022/2022-12-01-alan.jpg", alt="Photograph of a white and grey cat sitting on the photographer's lap. On the desk in front of the cat is an iPad that is propped up and showing a World Cup soccer match.") }} 
 In addition to everything else going on, it is World Cup season. 
 Alan joined me one afternoon to watch the group-stage England versus Iran game. 

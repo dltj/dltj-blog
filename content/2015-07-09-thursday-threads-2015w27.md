@@ -28,8 +28,7 @@ Two articles in each of two threads this week:
 
 {{ thursday_threads_header() }}
 
-## If Strong Encryption is Outlawed...
-{: #p26075-encryption}
+## If Strong Encryption is Outlawed... {: #p26075-encryption}
 
 {{ thursday_threads_quote(href="http://www.zdnet.com/article/the-impossible-war-on-encryption/",
  blockquote='<p>Later this year the [U.K.] government intends to introduce legislation that will ensure that any form of communication, whether it&apos;s an email, text message, or video chat, can always be read by the police or intelligence services if they have a warrant.</p>
@@ -50,8 +49,7 @@ Two articles in each of two threads this week:
 
 When I was in my teens, I saw this written on a bathroom stall:  "If freedom is outlawed, only outlaws will be free."  The same idea is being applied to strong encryption.  These two articles come from many published in the recent weeks over the regulation and use of encryption technologies.  I don't envy the task of law enforcement in an age where technology makes covert communication easier.  I would have thought, though, that at least the U.S. government learned from the <a href="https://en.wikipedia.org/wiki/Clipper_chip" title="Clipper Chip | Wikipedia">Clipper Chip</a> fiasco of the 1990s.  Encryption is based on mathematical principles.  Mathematical principles are not subject to legislation.  You might make it illegal to publish encryption algorithms, but you cannot make it illegal for someone to think about encryption algorithms.  And who will have a vested interest in having people think about encryption algorithms?  If strong encryption is outlawed...
 
-## Allocations of IPv4 Internet Addresses Now Restricted; It's a Good Thing IPv6 is Finally Here
-{: #p26075-ipv6}
+## Allocations of IPv4 Internet Addresses Now Restricted; It's a Good Thing IPv6 is Finally Here {: #p26075-ipv6}
 
 {{ thursday_threads_quote(href="http://arstechnica.com/information-technology/2015/07/us-exhausts-new-ipv4-addresses-waitlist-begins/",
  blockquote='<p>Remember how, a decade ago, <a href="http://arstechnica.com/gadgets/2007/03/ipv6/" title="Everything you need to know about IPv6 | Ars Technica">we told you that the Internet was running out of IPv4 addresses</a>? Well, it took a while, but that day is here now: Asia, Europe, and Latin America have been parceling out scraps for a year or more, and now the <a href="http://arstechnica.com/business/2015/05/get-ready-to-wait-in-line-for-more-ipv4-addresses/" title="Get ready to wait in line for more IPv4 addresses | Ars Technica">ARIN wait list</a> is here for the US, Canada, and numerous North Atlantic and Caribbean islands. Only organizations in Africa can still get IPv4 addresses as needed. The good news is that IPv6 seems to be picking up the slack.</p>

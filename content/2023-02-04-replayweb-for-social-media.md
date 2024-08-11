@@ -25,10 +25,9 @@ That looked interesting, so with the help of hints from Ed, I [embedded a tweet 
 
 This is how I did it...plus some helpful advice along the way.
 
-{{ note(note_text="An earlier version of this post described how to setup and use Browsertrix to capture the web archive file. That information has been moved to the <a href='#browsertrix'>bottom of this post</a>; instructions on how to use the desktop <i>ArchiveWeb.page</i> application are now included below.") }}%}
+{{ note(note_text="An earlier version of this post described how to setup and use Browsertrix to capture the web archive file. That information has been moved to the <a href='#browsertrix'>bottom of this post</a>; instructions on how to use the desktop <i>ArchiveWeb.page</i> application are now included below.") }}
 
-## Capture tweet with ArchiveWeb.page application
-{: #archiveweb }
+## Capture tweet with ArchiveWeb.page application {: #archiveweb }
 
 Our goal is to use ReplayWeb to embed a bit of the Twitter experience into a stand-alone web page. 
 (More on ReplayWeb [below](#replayweb).)
@@ -38,7 +37,7 @@ We're going to use <i>ArchiveWeb.page</i> to make the WACZ file.
 {{ robustlink(href="https://archiveweb.page/", versiondate="2023-02-05", title="ArchiveWeb.page homepage", anchor="ArchiveWeb.page") }} creates high-fidelity web archives as either a Google Chrome extension or a desktop application. 
 The desktop application is described as a beta version, but I'm going to use that instead of the Chrome extension because Firefox is my day-to-day browser. 
 
-{{ note(note_text="If you are only capturing one web page in your web archive, the browser-based <a href='https://express.archiveweb.page/'>express.archiveweb.page</a> can be used to generate a WACZ file as well.") }}%}
+{{ note(note_text="If you are only capturing one web page in your web archive, the browser-based <a href='https://express.archiveweb.page/'>express.archiveweb.page</a> can be used to generate a WACZ file as well.") }}
 
 To get an isolated view of the tweet, we're going to use [oembed.link](https://oembed.link).
 "[oEmbed](https://oembed.com/)" is a _de facto_ standard for:
@@ -67,8 +66,7 @@ When you open the extension or launch the application, you'll see these buttons.
 
 First step done!
 
-## Embed the tweet archive onto a page
-{: #replayweb}
+## Embed the tweet archive onto a page {: #replayweb}
 
 Next we're going to use 
 {{ robustlink(href="https://replayweb.page/docs/", versionurl="https://web.archive.org/web/20230204183050/https://replayweb.page/docs/", versiondate="2023-02-04", title="User Guide: replayweb.page", anchor="ReplayWeb") }} to embed the captured archive in a mini-browser running inside our web page. 
@@ -95,8 +93,8 @@ To embed the tweet, add the JavaScript and the &lt;replay-web-page&gt; tag to yo
 </noscript>
 ```
 
+...which looks like this when rendered in the browser: 
 {: #help-needed}
-...which looks like this when rendered in the browser:
 
 <script src="/assets/js/replayweb/ui.js"></script>
 <replay-web-page 
@@ -124,8 +122,7 @@ A little bit convoluted—especially the Browsertrix part to get the WACZ file�
 There is a [web forum for the Webrecorder](https://forum.webrecorder.net/) community working on these ArchiveWeb and ReplayWeb, and that is probably the best place to go if you have questions or observations.
 (I'm not a participant in that community—just a happy user of its projects.)
 
-## Special note for embedding Mastodon posts
-{: #mastodon}
+## Special note for embedding Mastodon posts {: #mastodon}
 
 Mastodon supports oEmbed, too, via an "automatic discovery" mechanism. 
 Unfortunately, [it seems like oembed.link uses the hard-coded list of oEmbed providers rather than automatic discovery](https://github.com/webrecorder/oembed.link/issues/2), so Mastodon instances don't work there at the moment. 
@@ -145,8 +142,7 @@ https://code4lib.social/@dltj/109804263650810404/embed
 
 That is probably better, really, because it isn't relying on an external service to get the content...it looks more legitimate.
 
-## Using Browsertrix to create a WACZ file
-{: #browsertrix}
+## Using Browsertrix to create a WACZ file {: #browsertrix}
 
 {{ robustlink(href="https://browsertrix.cloud/", versionurl="https://web.archive.org/web/20230204204644/https://browsertrix.cloud/", versiondate="2023-02-04", title="Browsertrix Cloud homepage", anchor="Browsertrix Cloud") }} building a hosted service for organizations that want to have high-fidelity web archives, and it is also making its core code available as open source. 
 Its {{ robustlink(href="https://docs.browsertrix.cloud/deploy/local/", versionurl="https://web.archive.org/web/20230204204714/https://docs.browsertrix.cloud/deploy/local/", versiondate="2023-02-04", title="Local Deployment | Browsertrix Cloud Docs", anchor="local deployment instructions") }} instructions are really good, but one of the things that put me off was the Kubernetes requirement. 

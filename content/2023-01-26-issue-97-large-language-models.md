@@ -33,8 +33,7 @@ Also on <i>DLTJ</i> in the past week:
 
 {{ thursday_threads_header() }}
 
-## AI generating news articles, and we're not impressed
-{: #cnet}
+## AI generating news articles, and we're not impressed {: #cnet}
 {{ thursday_threads_quote(href="https://www.theverge.com/2023/1/20/23564311/cnet-pausing-ai-articles-bot-red-ventures",
  blockquote='<p>CNET will pause publication of stories generated using artificial intelligence “for now,” the site’s leadership told employees on a staff call Friday.</p><p>The call, which lasted under an hour, was held a week after CNET came under fire for its use of AI tools on stories and one day after The Verge reported that AI tools had been in use for months, with little transparency to readers or staff. CNET hadn’t formally announced the use of AI until readers noticed a small disclosure.</p><p>“We didn’t do it in secret,” CNET editor-in-chief Connie Guglielmo told the group. “We did it quietly.”</p>',
  versiondate="2023-01-23T23:09:11",
@@ -51,8 +50,7 @@ Oh, and CNET was using the LLM to {{ robustlink(href="https://futurism.com/cnet-
 {{ robustlink(href="https://www.cnet.com/tech/cnet-is-experimenting-with-an-ai-assist-heres-why/", versionurl="https://web.archive.org/20230114051953/https://www.cnet.com/tech/cnet-is-experimenting-with-an-ai-assist-heres-why/", versiondate="2023-01-14T00:19:52", title="CNET Is Experimenting With an AI Assist. Here's Why | CNET", anchor="CNET admitted to using the LLM") }} before ultimately pausing the use of the technology (for now), as <i>The Verge</i> article describes.
 
 
-## Large language models in scholarly publishing
-{: #scholarly-publishing}
+## Large language models in scholarly publishing {: #scholarly-publishing}
 {{ thursday_threads_quote(href="https://www.nature.com/articles/d41586-023-00191-1",
  blockquote='<p><i>Nature</i>, along with all Springer Nature journals, has formulated the following two principles, which have been added to our existing guide to authors (see go.nature.com/3j1jxsw). As <i>Nature</i>’s news team has reported, other scientific publishers are likely to adopt a similar stance.</p><p>First, no LLM tool will be accepted as a credited author on a research paper. That is because any attribution of authorship carries with it accountability for the work, and AI tools cannot take such responsibility.</p><p>Second, researchers using LLM tools should document this use in the methods or acknowledgements sections. If a paper does not include these sections, the introduction or another appropriate section can be used to document the use of the LLM.</p>',
  versiondate="2023-01-25T19:08:24",
@@ -64,8 +62,7 @@ The Springer Nature publisher has set some early ground rules, even as it admits
 Last week <i>Nature</i> noted that at least {{ robustlink(href="https://www.nature.com/articles/d41586-023-00107-z", versionurl="https://web.archive.org/20230120141730/https://www.nature.com/articles/d41586-023-00107-z", versiondate="2023-01-19T23:08:14", title="ChatGPT listed as author on research papers— many scientists disapprove | Nature", anchor="four articles had already been submitted citing ChatGPT as a co-author") }}.
 
 
-## Higher education classrooms prepare for ChatGPT
-{: #higher-education}
+## Higher education classrooms prepare for ChatGPT {: #higher-education}
 {{ thursday_threads_quote(href="https://www.nytimes.com/2023/01/16/technology/chatgpt-artificial-intelligence-universities.html",
  blockquote='<p>Mr. Aumann confronted his student over whether he had written the essay himself. The student confessed to using ChatGPT, a chatbot that delivers information, explains concepts and generates ideas in simple sentences — and, in this case, had written the paper.</p><p>Alarmed by his discovery, Mr. Aumann decided to transform essay writing for his courses this semester. He plans to require students to write first drafts in the classroom, using browsers that monitor and restrict computer activity. In later drafts, students have to explain each revision. Mr. Aumann, who may forgo essays in subsequent semesters, also plans to weave ChatGPT into lessons by asking students to evaluate the chatbot’s responses.</p>',
  versiondate="2023-01-16T13:08:42",
@@ -77,8 +74,7 @@ In [issue 93](https://dltj.org/article/issue-93-ai-chat/#ai-essays), I mentioned
 This <i>New York Times</i> article describes more examples of how instructors are coping with LLMs.
 
 
-## Adapting to the disruptions of generative artificial intelligence
-{: #adapting}
+## Adapting to the disruptions of generative artificial intelligence {: #adapting}
 {{ thursday_threads_quote(href="https://hbr.org/2022/11/how-generative-ai-is-changing-creative-work",
  blockquote='Generative AI models for businesses threaten to upend the world of content creation, with substantial impacts on marketing, software, design, entertainment, and interpersonal communications. These models are able to produce text and images: blog posts, program code, poetry, and artwork. The software uses complex machine learning models to predict the next word based on previous word sequences, or the next image based on words describing previous images. Companies need to understand how these tools work, and how they can add value.',
  versiondate="2023-01-15T17:11:08",
@@ -97,8 +93,7 @@ We will also see these technologies used for "deepfakes" (in {{ robustlink(href=
 Come to think of it, this sort of thread is likely to be quite common in upcoming <i>DLTJ Thursday Threads</i> issues.
 
 
-## Alan in snowy weather
-{: #alan}
+## Alan in snowy weather {: #alan}
 {{ image(width="700", localsrc="2023/2023-01-26-alan-snow.jpg", alt="Photograph of a white cat with black splotches sitting up tall on a paver patio. The ground in front of the cat is covered with snow.") }} 
 We got snow in central Ohio, and Alan just had to check it out. 
 You will note that he is not _in_ the snow, just _next to_ the snow. 
