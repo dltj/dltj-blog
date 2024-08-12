@@ -113,23 +113,23 @@ comments:
 http://drc.ohiolink.edu/schema/schema.xsd"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:dcterms="http://purl.org/dc/terms/">
-<dc :title>Catalpa speciosa, bignonoides and Kampfera seeds.</dc>
-  <dc :creator>Ohio Agricultural Experiment Station.  Dept. of
+<dc:title>Catalpa speciosa, bignonoides and Kampfera seeds.</dc>
+  <dc:creator>Ohio Agricultural Experiment Station.  Dept. of
 Forestry.</dc>
-  <dc :description>Catalpa speciosa, bignonoides and Kampfera seeds.
+  <dc:description>Catalpa speciosa, bignonoides and Kampfera seeds.
 Item #2</dc>
-  <dc :contributor>Ohio Agricultural Research and Development
+  <dc:contributor>Ohio Agricultural Research and Development
 Center</dc>
-  <dc :date>1908-12</dc>
-  <dcterms :available xsi:type="dcterms:W3CDTF">
+  <dc:date>1908-12</dc>
+  <dcterms:available xsi:type="dcterms:W3CDTF">
         2003-04-17T00:00:00
   </dcterms>
-  <dc :type>photographic prints</dc>
-  <dc :identifier>hdl:21151</dc>
-  <dc :source>2</dc>
-  <dmci :spatial>Ohio</dmci>
-  <dc :rights>Copyright: Ohio State University</dc>
-  <dcterms :licence xsi:type="dcterms:URI">
+  <dc:type>photographic prints</dc>
+  <dc:identifier>hdl:21151</dc>
+  <dc:source>2</dc>
+  <dmci:spatial>Ohio</dmci>
+  <dc:rights>Copyright: Ohio State University</dc>
+  <dcterms:licence xsi:type="dcterms:URI">
 	http://library.osu.edu/sites/dlib/terms.html
   </dcterms>
 </metadata>

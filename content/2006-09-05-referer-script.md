@@ -39,6 +39,7 @@ Second, if what was received was not what was expected:
 
 This 'referrer problem' seems to be happening more as a result of personal firewall software and other "helpful" agents.  Setting aside for the moment the question of whether relying on the HTTP Referer <footnote>By the way, "Referer" is not a typo here &mdash; it is arguably a typo in the original HTTP specification</footnote> URL is an acceptable or wise programming choice, if one of your standard troubleshooting tactics doesn't work you may want to try this one.
 
+```perl
 #!/usr/bin/perl
 ##
 ###########################################################################
@@ -261,3 +262,4 @@ sub handle_die {
   print HTMLfooter();
   exit;
 }
+```

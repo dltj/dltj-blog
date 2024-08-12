@@ -35,7 +35,8 @@ comments:
 ---
 <p>Up until about an hour ago, Technorati refused to update <span class="removed_link" title="http://www.technorati.com/blogs/http%3A%2F%2Fdltj.org">its database of postings to DLTJ</span>, and having reached the 31-day point of no updates I was starting to wonder what to do about it.  I came up with two theories for which I put in fixes to the configuration and theme setup of DLTJ, but in the end I'm not sure if either definitively provides a solution for anyone else in the same situation.  In the spirit of helping out one's neighbors, though, here are the theories and fixes.  DLTJ is a standalone (e.g. not hosted) Wordpress 2.0.4 installation, so YMMV.</p>
 <h2>Theory #1:  Technorati Doesn't Like Feedburner</h2>
-<p>I read some blog posts and messages in the Feedburner forums that suggested blogs that use Feedburner were causing Technocrati to hick-up and not index content.  My solution is to let Technorati see the raw feed and not get redirected to Feedburner.  This is accomplished with additions to the Apache mod_rewrite rules in the <code>.htaccess</code> file.<br />
+<p>I read some blog posts and messages in the Feedburner forums that suggested blogs that use Feedburner were causing Technocrati to hick-up and not index content.  My solution is to let Technorati see the raw feed and not get redirected to Feedburner.  This is accomplished with additions to the Apache mod_rewrite rules in the <code>.htaccess</code> file.
+
 ```text
 <ifmodule mod_rewrite.c>
 RewriteEngine On
@@ -64,7 +65,7 @@ if (preg_match("/Technorati/i", "$useragent")) {
    // do the really nice stuff for everyone else
 }
 ```
-(Remember to surround the appropriate parts of the PHP markup with <code><?php</code> and <code>?></code>...)</p>
+(Remember to surround the appropriate parts of the PHP markup with <code>&lt;?php</code> and <code>?&gt;</code>...)</p>
 <h2>Why I May Never Know If Either of These Is Needed</h2>
 <p>Shortly after I put these two changes in place (literally, after a week of sending e-mails to Technorati's tech support and two hours after coding these fixes) I got a note from Technorati saying:</p>
 <blockquote><p>
