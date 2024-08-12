@@ -128,19 +128,15 @@ comments:
 <h2>Kicking MySQL Into Gear</h2>
 <p>Database tuning focuses a great deal on memory management.  Your RAM will always be an order of magnitude faster than reading blocks off a disk.  RAM, of course, costs more per MB than disk, though, so you have to select memory management strategies carefully.  WordPress is, of course, a read-intensive operation.  In other words, the majority of SQL statements are SELECTs rather than INSERTs, UPDATEs, or DELETEs.  With that in mind, we tune MySQL with a read-intensive strategy.  I found some of the best guidance in <a href="http://www.mysqlperformanceblog.com/2006/09/29/what-to-tune-in-mysql-server-after-installation/" title="What to tune in MySQL Server after installation from MySQL Performance Blog"> Peter Zaitsev's "What to tune in MySQL Server after installation"</a> and the ez.no documentation on <a href="http://ez.no/community/articles/tuning_mysql_for_ez_publish/optimizing_for_read_performance">Optimizing for read performance</a>.</p>
 <p>The changes I made to my MySQL configuration file, in the <code>[mysqld]</code> section are:</p>
-<pre>key_buffer = 6M ; (Actually, a decrease from the default since I didn't seem to need as much)
-
+```
+key_buffer = 6M ; (Actually, a decrease from the default since I didn't seem to need as much)
 table_cache = 512
-
 max_connections = 25
-
 thread_cache = 16
-
 query_cache_type = 1
-
 query_cache_limit = 1M
-
-query_cache_size = 20M</pre>
+query_cache_size = 20M
+```
 <p>The 20MB query cache limit seems to be just about the right size for me.  I seem to get very close to the edge of that buffer, but never seem to go over.</p>
 <h2>Finishing Up with a WordPress Plug-in</h2>
 <p>One more thing is needed to make this all come together: Mark Jaquith's <a href="http://txfx.net/code/wordpress/post-query-accelerator/" title="Post Query Accelerator WordPress Plug-in Homepage">Post Query Accelerator</a>.  As Mark points out on his blog, WordPress "always ask[s] for posts with post_date_gmt <= '$now' where $now is set to the current time, to prevent posts in the future from showing up."  If one turns on cache querying as described above, the "problem with $now is that it changes [with each query], so the query is never exactly the same again and the cache doesn&rsquo;t help."  Mark's plug-in "freezes" the value of $now to 15 minute increments or to whenever a post is added/updated, which ever comes first.  That makes the query cache useful again and all is well.  </p>

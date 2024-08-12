@@ -72,46 +72,46 @@ comments:
     interested in SOA and Libraries you might want to subscribe to Planet Library
     SOA (created by Peter Murray) an aggregation of blog postings and<!--%kramer-post%-->'
 ---
-<p>There was a great crowd at the University of Windsor "Future of the ILS" symposium.  The presentation is available from <a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/">http://dltj.org/wp-content/uploads/2006/11/200611-uwindsor-soa/</a>.  An outline of the presentation is given below with links into the presentation slides.  Amanda Etches-Johnson has also posted <a href="http://www.blogwithoutalibrary.net/?p=242" title="17<br />
+<p>There was a great crowd at the University of Windsor "Future of the ILS" symposium.  The presentation is available from <a href="/assets/images/2006/11/200611-uwindsor-soa/">http://dltj.org/wp-content/uploads/2006/11/200611-uwindsor-soa/</a>.  An outline of the presentation is given below with links into the presentation slides.  Amanda Etches-Johnson has also posted <a href="http://www.blogwithoutalibrary.net/?p=242" title="17<br />
 blogwithoutalibrary.net<br />
 78<br />
  &amp;raquo; ILS Symposium: Peter Murray, OhioLINK">a great summary of the presentation</a> on her blog, "Blog Without A Library."</p>
-<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/" title="Creative Commons Deed"><img src="/wp-content/uploads/2006/11/somerights20.png" alt="Creative Commons License" style="border-width: 0; float: left; margin: 5px 15px 15px 0;" /></a>The presentation is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/" title="Creative Commons Deed">Creative Commons Attribution-NonCommercial-ShareAlike 2.5  License</a>.<!--/creative Commons License--> To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" title="Creative Commons Deed">http://creativecommons.org/licenses/by-nc-sa/2.5/</a> or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.  Other rights are available; please contact the author for more information.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/" title="Creative Commons Deed"><img src="/assets/images/2006/11/somerights20.png" alt="Creative Commons License" style="border-width: 0; float: left; margin: 5px 15px 15px 0;" /></a>The presentation is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/" title="Creative Commons Deed">Creative Commons Attribution-NonCommercial-ShareAlike 2.5  License</a>.<!--/creative Commons License--> To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" title="Creative Commons Deed">http://creativecommons.org/licenses/by-nc-sa/2.5/</a> or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.  Other rights are available; please contact the author for more information.</p>
 <ul>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide2">What Is Service Oriented Architecture?</a>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide2">What Is Service Oriented Architecture?</a>
 <ul>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide3">In Summary...</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide4">It's About an Architecture for Designing Systems</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide5">It's About Discrete Business Processes</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide6">It's About Reuse</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide7">It's About Web Services as a Means to an End</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide8">It's About Standards and Open Protocols</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide3">In Summary...</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide4">It's About an Architecture for Designing Systems</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide5">It's About Discrete Business Processes</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide6">It's About Reuse</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide7">It's About Web Services as a Means to an End</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide8">It's About Standards and Open Protocols</a></li>
 </ul>
 </li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide9">Why Should I Care?</a>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide9">Why Should I Care?</a>
 <ul>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide10">'The ILS Market Implodes! Film at 11...'</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide11">Can We Afford Not To Care?</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide12">The Alternatives</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide10">'The ILS Market Implodes! Film at 11...'</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide11">Can We Afford Not To Care?</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide12">The Alternatives</a></li>
 </ul>
 </li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide13">What Might a Library SOA Look Like?</a>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide13">What Might a Library SOA Look Like?</a>
 <ul>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide14">Ground Rules</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide15">The Business Processes of a Traditional ILS</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide16">Traditional and Non-traditional Services for Discovering Content</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide17">Traditional and Non-traditional Services for Describing Content</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide18">Non-traditional Uses of Traditional ILS Functions</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide19">Non-Traditional Locations of Traditional and Non-Traditional ILS Functions</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide14">Ground Rules</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide15">The Business Processes of a Traditional ILS</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide16">Traditional and Non-traditional Services for Discovering Content</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide17">Traditional and Non-traditional Services for Describing Content</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide18">Non-traditional Uses of Traditional ILS Functions</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide19">Non-Traditional Locations of Traditional and Non-Traditional ILS Functions</a></li>
 </ul>
 </li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide20">Who Else Is Talking About This?</a>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide20">Who Else Is Talking About This?</a>
 <ul>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide21">Who Else Is Talking About This? (Blogs)</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide22">Who Else Is Talking About This? (Articles)</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide23">Who Else Is Talking About This? (DLF Project)</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide24">Who Else Is Talking About This? (CDL Project)</a></li>
-<li><a href="/wp-content/uploads/2006/11/200611-uwindsor-soa/#slide25">Who Else Is Talking About This? (eFramework Project)</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide21">Who Else Is Talking About This? (Blogs)</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide22">Who Else Is Talking About This? (Articles)</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide23">Who Else Is Talking About This? (DLF Project)</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide24">Who Else Is Talking About This? (CDL Project)</a></li>
+<li><a href="/assets/images/2006/11/200611-uwindsor-soa/#slide25">Who Else Is Talking About This? (eFramework Project)</a></li>
 </ul>
 </li>
 </ul>

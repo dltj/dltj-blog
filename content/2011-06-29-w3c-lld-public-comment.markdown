@@ -101,7 +101,9 @@ comments:
 </ul>
 <h2>Submitting Comments</h2>
 <p>The incubator group invites comments in one of two ways. Feedback can be posted as comments to individual sections on a <a href="http://blogs.ukoln.ac.uk/w3clld/" title="W3C Library Linked Data Public Comments">dedicated blog</a>.  Comments can also be sent by e-mail to <a href="mailto:public-lld@w3.org">public-lld@w3.org</a> using descriptive subject lines such as:</p>
-<pre>    Subject: [COMMENTS] "Benefits" - section on "Benefits to Developers"</pre>
+```
+Subject: [COMMENTS] "Benefits" - section on "Benefits to Developers"
+```
 <p>Comments sent this way are <a href="http://lists.w3.org/Archives/Public/public-lld/" title="public-lld@w3.org Mail Archives">archived in the public mailing list</a>. </p>
 <p>Comments will be especially welcome in the four weeks from 24 June through 22 July. Reviewers should note that as with Wikipedia, the text may be revised and corrected by its editors in response to comments at any time, but that earlier versions of a document may be viewed by clicking on the History tab.</p>
 <p>It is anticipated that the three reports will be published in final form by 31 August.</p>

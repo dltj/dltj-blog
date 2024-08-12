@@ -138,7 +138,9 @@ comments:
 <li>Put in the WAN IP (listed in the upper right corner of the web page) in the <em>Server IP</em> box.  (Some instructions I have seen said that this can be left blank and the firmware will automatically pick it up.  That didn't work for me.)</li>
 <li>For Client IPs, put in a range of LAN-side IPs that aren't being used by the DHCP server.  In my case I'm using "192.168.68.200-210".</li>
 <li>Put in one or more <em>CHAP-Secrets</em>.  These are the username and passwords used on the PPTP client to connect to this server, and they follow a weird form:  username-space-asterisk-space-password-space-asterisk.  For example:
-<pre>username * password *</pre>
+```
+username * password *
+```
 </li>
 <li>Leave <em>Radius</em> disabled.</li>
 <li>At the bottom of the screen, pick <em>Apply Settings</em>.</li>
@@ -160,7 +162,7 @@ pptpd -c /tmp/pptpd/pptpd.conf -o /tmp/pptpd/options.pptpd
 </ol>
 <p>This script comes from the <a href="http://www.dd-wrt.com/wiki/index.php/PPTP_Server_Configuration" title="PPTP Server Configuration | DD-WRT Wiki">PPTP Server Configuration</a> page.  The bulk of it is from the <a href="http://www.dd-wrt.com/wiki/index.php/PPTP_Server_Configuration#iOS_4.3" title="PPTP Server Configuration | DD-WRT Wiki">iOS 4.3</a> heading with the addition of the <code>sed</code> line to <a href="http://www.dd-wrt.com/wiki/index.php/PPTP_Server_Configuration#Force_Encryption" title="PPTP Server Configuration | DD-WRT Wiki">force encryption</a>.</p>
 <h2>Configuring the iOS Device</h2>
-<p>[caption id="attachment_3029" align="alignright" width="320" caption="iOS PPTP VPN Configuration"]<img src="/wp-content/uploads/2011/06/IMG_0267.png" alt="iOS PPTP VPN Configuration" title="IMG_0267" width="320" height="480" class="size-full wp-image-3029" />[/caption]The iOS device was pretty straight forward (particularly compared to the previous steps):</p>
+<p>[caption id="attachment_3029" align="alignright" width="320" caption="iOS PPTP VPN Configuration"]<img src="/assets/images/2011/06/IMG_0267.png" alt="iOS PPTP VPN Configuration" title="IMG_0267" width="320" height="480" class="size-full wp-image-3029" />[/caption]The iOS device was pretty straight forward (particularly compared to the previous steps):</p>
 <ol type="1" start="1">
 <li>In the <em>Settings</em> app, choose <em>General</em> then <em>Network</em> then <em>VPN</em>.</li>
 <li>Select <em>Add VPN Configuration...</em></li>

@@ -115,7 +115,7 @@ comments:
 <p>For more information about the presentation, including links to the 10 tools that were demonstrated, see the <a href="/article/niso-discovery-presentation-links/">previous <acronym title="Disruptive Library Technology Jester"><i>DLTJ</i></acronym> post</a> on the topic.  Lastly, here are some links to the downloadable form of the presentations:</p>
 <ul>
 <li><a href="http://media.dltj.org/NISO-Discovery-Layer.flv">Presentation video</a> (same as above, in Flash format, 90MB)</li>
-<li><a href="/wp-content/uploads/2008/07/NISO-Discovery-Layer.mp3">Presentation audio</a> (MP3 format, 49MB)</li>
+<li><a href="/assets/images/2008/07/NISO-Discovery-Layer.mp3">Presentation audio</a> (MP3 format, 49MB)</li>
 </ul>
 <p>Thank you to the NISO staff for making the audio available.</p>
 <h2>Update</h2>

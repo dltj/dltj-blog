@@ -43,5 +43,5 @@ comments:
     class="topsy_trackback_content">Murray, Peter: Creative Blog Spam http://bit.ly/cazxPz</span></span>'
 ---
 <p>I have to give the creator of the blog spam below points for trying.  This is what I found in my WordPress spam queue this morning, embedded here as an image so as not to give <a href="http://google.about.com/od/g/g/google_juice.htm" title="Google Juice - What Is Google Juice?">Google juice</a> to the spammer:</p>
-<p><img src="/wp-content/uploads/2010/02/creative-spam.png" alt="A blog spam message including a joke as a creative twist" title="creative spam" width="618" height="396" class="alignnone size-full wp-image-1535" /></p>
+<p><img src="/assets/images/2010/02/creative-spam.png" alt="A blog spam message including a joke as a creative twist" title="creative spam" width="618" height="396" class="alignnone size-full wp-image-1535" /></p>
 <p>Honorable mention?  Yes.  An approved comment?  Sorry.</p>

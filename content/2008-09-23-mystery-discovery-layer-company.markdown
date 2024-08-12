@@ -103,7 +103,7 @@ comments:
 401 S Dewey, Suite 500<br />
 Bartlesville, OK 74003</p></blockquote>
 <p>The survey itself contains a description of the entity conducting the survey and a sample screenshot of the new discovery layer being tested:</p>
-<p>[caption id="attachment_505" align="alignright" width="300" caption="Screenshot from the Survey's Prototype Discovery Tool"]<a href="/article/mystery-discovery-layer-company/screenshot/" rel="attachment wp-att-505"><img src="/wp-content/uploads/2008/09/screenshot-300x227.png" alt="Screenshot from the Survey&#039;s Prototype Discovery Tool" title="Screenshot from the Survey&#039;s Prototype Discovery Tool" width="300" height="227" class="size-medium wp-image-505" /></a>[/caption]<br />
+<p>[caption id="attachment_505" align="alignright" width="300" caption="Screenshot from the Survey's Prototype Discovery Tool"]<a href="/article/mystery-discovery-layer-company/screenshot/" rel="attachment wp-att-505"><img src="/assets/images/2008/09/screenshot-300x227.png" alt="Screenshot from the Survey&#039;s Prototype Discovery Tool" title="Screenshot from the Survey&#039;s Prototype Discovery Tool" width="300" height="227" class="size-medium wp-image-505" /></a>[/caption]<br />
 <blockquote>ABOUT THE VENDOR</p>
 <p>This new discovery service is offered by a major vendor that has been exclusively serving libraries for a matter of decades. This vendor has:</p>
 <ul type="disc">

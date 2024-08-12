@@ -23,7 +23,7 @@ tags:
 - odce07
 comments: []
 ---
-<p><img src="/wp-content/uploads/2006/09/odcelogo.gif" width="168" height="250" alt="[Image: ODCE Logo]" style="float: right;" />Where can faculty, administrators, librarians and technology gurus all meet to discuss learning, libraries, technology and the convergence of these activities? At the <span class="removed_link" title="http://www.oln.org/conferences/ODCE2007/ODCE2007.php">Ohio Digital Commons for Education 2007</span> &ndash; The Convergence of Learning, Libraries and Technology Conference, of course!</p>
+<p><img src="/assets/images/2006/09/odcelogo.gif" width="168" height="250" alt="[Image: ODCE Logo]" style="float: right;" />Where can faculty, administrators, librarians and technology gurus all meet to discuss learning, libraries, technology and the convergence of these activities? At the <span class="removed_link" title="http://www.oln.org/conferences/ODCE2007/ODCE2007.php">Ohio Digital Commons for Education 2007</span> &ndash; The Convergence of Learning, Libraries and Technology Conference, of course!</p>
 <p>Be a part of ODCE 2007! The Ohio Digital Commons for Education partners &mdash; <a href="http://www.oln.org/" title="http://www.oln.org/">Ohio Learning Network</a>, <a href="http://www.ohiolink.edu/" title="OhioLINK - The Ohio Library and Information Network">OhioLINK</a>, and the <a href="http://www.osc.edu/" title="Welcome to OSC!">Ohio Supercomputer Center/OARnet</a> &mdash; are seeking interactive and engaging proposals for presentations, pre-conference workshops and technology demonstrations. Proposals are sought for the following topics:</p>
 <ul>
 <li>E Squared &ndash; Effectiveness and Efficiencies</li>

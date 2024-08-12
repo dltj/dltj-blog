@@ -143,19 +143,13 @@ comments:
 the storage format of the objects on disk isn't really a single serialized XML file.
 </div>
 <p><i>Gasp!</i>  Yep, that's right.  As it turns out, the framework of the object is stored as a single XML (METS-like..."FOXML" to be exact) file in the "objects" directory and each of that object's datastreams is stored as a single binary file in the "datastreams" directory.  (Or, to be completely accurate, the "objects" and "datastreams" directories are further subdivided in to a year, month-day, hour and minute directory structure.)  The FOXML markup refers to a file with type "reference":</p>
-<pre>
-
+```xml
     <foxml:datastream ID="DS1" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
-
         <foxml:datastreamVersion ID="DS1.0" LABEL="DSCN0349" CREATED="2006-03-20T20:58:54.352Z" MIMETYPE="image/jpeg" SIZE="0">
-
             <foxml:contentLocation TYPE="INTERNAL_ID" REF="peter:4+DS1+DS1.0" />
-
         </foxml:datastreamVersion>
-
     </foxml:datastream>
-
-</pre>
+```
 <p>This is a sample piece of a FOXML file for a digital object in FEDORA.  In summary, this snippet defines a datastream called "DS1" with the label "DSCN0349" that is a JPEG file managed by the FEDORA server.  The inner-most tag is a contentLocation with the type "INTERNAL_ID" and a reference attribute of "peter:4+DS1+DS1.0".  That reference corresponds exactly to a file name in the "datastreams" directory (with the exact subdivided directory structure as the "objects" directory) that is the datastream itself.</p>
 <p>So what happened with the server restore?  I thought I could just point the automated ingestion utility at the 'objects' directory and have them all sucked back into the repository.  What happened, though, was a whole bunch of errors like "invalid location" and "no objects loaded" because, of course, the batch loader couldn't resolve the datastream locations.</p>
 <p>(By the way, the reason this isn't so much an issue in v2.1b and beyond is that the core developers added a reindexing tool that can walk the 'objects' and 'datastreams' hierarchies in order to rebuild the triplestore and SQL databases.  The FEDORA process itself, of course, must be stopped while this kind of bulk rebuild is happening.  What we ended up doing was jumping to version 2.1.1 faster than we had planned so we could make use of the reindexing tool.)</p>

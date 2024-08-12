@@ -43,8 +43,6 @@ comments: []
 <p>In tabular form, this could look like:</p>
 <div style="padding: 10px; margin: 0.67em auto; border: thin solid silver; font-size: 85%; color: black; background: #FFC">
 <table>
-    </table>
-</div>
 <tr>
 <th>Subject</th>
 <th>Predicate</th>
@@ -65,9 +63,12 @@ comments: []
 <td>language</td>
 <td>English</td>
 </tr>
+    </table>
+</div>
+
 <p>In XML, this could look like:</p>
 <div style="padding: 10px; margin: 0.67em auto; border: thin solid silver; font-size: 85%; color: black; background: #FFC">
-<pre>
+```xml
  <?xml version="1.0"?>
  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -77,7 +78,7 @@ comments: []
      <dc:language>English</dc:language>
    </rdf:Description>
  </rdf:RDF>
-</pre>
+```
 </div>
 <p>Keep in mind, though, that we expressed the predicate here as Dublin Core; the predicate can be anything -- even something you make up!</p>
 <h2>RDF for Collections in FEDORA</h2>
@@ -86,8 +87,6 @@ comments: []
 <p>FEDORA comes with a <a href="http://www.fedora.info/definitions/1/0/fedora-relsext-ontology.rdfs" title="http://www.fedora.info/definitions/1/0/fedora-relsext-ontology.rdfs">list of common relationships between objects</a>, and other community or user-defined relationships may also be asserted.  These relationships can be expressed in RDF notation:</p>
 <div style="padding: 10px; margin: 0.67em auto; border: thin solid silver; font-size: 85%; color: black; background: #FFC">
 <table>
-    </table>
-</div>
 <tr>
 <th>Subject</th>
 <th>Predicate</th>
@@ -113,7 +112,10 @@ comments: []
 <td>isFromInstitution</td>
 <td>mu3ug</td>
 </tr>
-<pre>
+    </table>
+</div>
+
+```xml
  <?xml version="1.0"?>
  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -125,7 +127,7 @@ comments: []
       <drcns:isFromInstitution>mu3ug</drcns:isFromInstitution>
    </rdf:Description>
  </rdf:RDF>
-</pre>
+```
 <p>"drc:100" is an aggregation object (otherwise known as a "collection object", but I've learned from others in the FEDORA community that "collection" is too loaded of a word) of which "drc:101" is a member.  To put it in terms that we may be familiar with:</p>
 <ul>
 <li>drc:100 is the aggregation object for the "Charles E. Frohman Collection"</li>

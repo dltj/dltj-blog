@@ -56,7 +56,7 @@ Let's get to it, librarians!
 
 ## AI generating news articles {: #ai-news-generator}
 {{ thursday_threads_quote(href="https://twitter.com/GaelBreton/status/1613110185995771905",
- blockquote='<img src="/wp-content/uploads/2023/2023-01-12-ai-image.png" alt="Text of tweet from @GaelBreton: Looks like @CNET (DR 92 tech site) just did their coming out about using AI content for SEO articles. It includes a screenshot of a Google search results page for &ldquo;This article was generated using automation technology and thoroughly edited and fact-checked by an editor on our editorial staff.&rdquo;">',
+ blockquote='<img src="/assets/images/2023/2023-01-12-ai-image.png" alt="Text of tweet from @GaelBreton: Looks like @CNET (DR 92 tech site) just did their coming out about using AI content for SEO articles. It includes a screenshot of a Google search results page for &ldquo;This article was generated using automation technology and thoroughly edited and fact-checked by an editor on our editorial staff.&rdquo;">',
  versiondate="2023-01-11",
  versionurl="https://web.archive.org/web/20230111135416/https://twitter.com/GaelBreton/status/1613110185995771905",
  anchor="Gael Breton",

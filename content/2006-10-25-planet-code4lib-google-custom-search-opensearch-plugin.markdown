@@ -58,7 +58,7 @@ comments:
     \ 厦大现在众望所归，难免人们对她的要求高一些<!--%kramer-post%-->"
 ---
 <p>
-Earlier I mentioned creating a <a href="/article/google-custom-search-for-planet-code4lib/">Google Custom Search for Planet Code4Lib</a>.  The Google-supplied markup puts a form on your web page that leads to Google's server farm.  (Alternatively, you can create a custom URL that points to an HTML page at Google which contains the form.)  Well, that's really neat, but not far enough.  How about an <a href="/wp-content/uploads/2006/10/planet-code4lib-search.xml" title="OpenSearch Description of Planet Code4Lib Search via Google Custom Search">OpenSearch plugin</a> suitable for Firefox and MSIE7?  Here is the plugin markup:</p>
+Earlier I mentioned creating a <a href="/article/google-custom-search-for-planet-code4lib/">Google Custom Search for Planet Code4Lib</a>.  The Google-supplied markup puts a form on your web page that leads to Google's server farm.  (Alternatively, you can create a custom URL that points to an HTML page at Google which contains the form.)  Well, that's really neat, but not far enough.  How about an <a href="/assets/images/2006/10/planet-code4lib-search.xml" title="OpenSearch Description of Planet Code4Lib Search via Google Custom Search">OpenSearch plugin</a> suitable for Firefox and MSIE7?  Here is the plugin markup:</p>
 ```xml
 < ?xml version="1.0" encoding="UTF-8"?>
  <opensearchdescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">

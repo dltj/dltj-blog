@@ -73,10 +73,10 @@ comments:
 <p>[caption id="attachment_788" align="alignnone" width="927" caption="Graphic representation of the Yahoo! Pipes construct to turn a Zotero library web page into an RSS feed."]<br />
 <table width="925" cellpadding="0" cellspacing="0">
 <tr>
-<td colspan="2"><img src="/wp-content/uploads/2009/02/pipes-top.png" alt="" width="923" height="422" class="alignnone size-full wp-image-788" /></td>
+<td colspan="2"><img src="/assets/images/2009/02/pipes-top.png" alt="" width="923" height="422" class="alignnone size-full wp-image-788" /></td>
 </tr>
 <tr>
-<td width="426" valign="top"><img src="/wp-content/uploads/2009/02/pipes-left.png" alt="" width="426" height="681" class="alignnone size-full wp-image-789" /></td>
+<td width="426" valign="top"><img src="/assets/images/2009/02/pipes-left.png" alt="" width="426" height="681" class="alignnone size-full wp-image-789" /></td>
 <td valign="top" style="padding:1em 0 0 1em; text-align:left">
 A couple of things to note:</p>
 <ul type="disc">

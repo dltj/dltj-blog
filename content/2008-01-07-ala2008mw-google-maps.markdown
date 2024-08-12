@@ -45,7 +45,7 @@ comments:
     maps at future meetings...
 ---
 <p>Here is a map of official conference hotels and a link to download the KML file into Google Earth.<br />
-<a href="/wp-content/uploads/2008/ALA-MW-2008.kml">ALA Midwinter 2008 Hotel KML Location file</a></p>
+<a href="/assets/images/2008/ALA-MW-2008.kml">ALA Midwinter 2008 Hotel KML Location file</a></p>
 <p>I'm somewhat disappointed by the display of the KML file through the Google Maps API.  The KML file contains<br />
 <address> tags, which in the <a href="http://earth.google.com/download-earth.html" title="Download Google Earth application">Google Earth desktop application</a> appears to enable the "Directions From" and "Directions To" options.  It is entirely possible that I'm missing something in the KML file -- it was created by exporting a folder of placemarks from the Google Earth application.  The raw KML file, suitable for importing into Google Earth, can be downloaded from the link under the map.</p>
 <p>If you have any suggestions for improving the output, let me know.</p>

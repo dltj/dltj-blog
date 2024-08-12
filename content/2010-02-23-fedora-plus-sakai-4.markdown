@@ -58,20 +58,20 @@ comments:
 <tr style="vertical-align:top;">
 <td style="font-weight:bold;">Issue Type:</td>
 <td>
-                                                                        <a href="http://jira.sakaiproject.org/browse/SAK-7833" title="[#SAK-7833] Fedora as Sakai's Content Repository - Sakai"><img src="/wp-content/uploads/2010/02/newfeature.gif" height="16" width="16" border="0" align="absmiddle" alt="Feature Request"/></a><br />
+                                                                        <a href="http://jira.sakaiproject.org/browse/SAK-7833" title="[#SAK-7833] Fedora as Sakai's Content Repository - Sakai"><img src="/assets/images/2010/02/newfeature.gif" height="16" width="16" border="0" align="absmiddle" alt="Feature Request"/></a><br />
                         Feature Request
                     </td>
 </tr>
 <tr style="vertical-align:top;">
 <td style="font-weight:bold;white-space:nowrap;">Status:</td>
 <td>
-                                                <img src="/wp-content/uploads/2010/02/status_open.gif" height="16" width="16" border="0" align="absmiddle" alt="Open"/>                        Open
+                                                <img src="/assets/images/2010/02/status_open.gif" height="16" width="16" border="0" align="absmiddle" alt="Open"/>                        Open
                     </td>
 </tr>
 <tr style="vertical-align:top;">
 <td style="font-weight:bold;white-space:nowrap;">Priority:</td>
 <td>
-                                                <img src="/wp-content/uploads/2010/02/priority_major.gif" height="16" width="16" border="0" align="absmiddle" alt="Major"/>                        Major
+                                                <img src="/assets/images/2010/02/priority_major.gif" height="16" width="16" border="0" align="absmiddle" alt="Major"/>                        Major
                     </td>
 </tr>
 <tr style="vertical-align:top;">
@@ -96,19 +96,19 @@ comments:
 <table cellpadding="3" cellspacing="0" style="border:0;width:100%;">
 <tr>
 <td>
-                        <img src="/wp-content/uploads/2010/02/bullet_creme.gif" height="8" width="8" border="0" align="absmiddle" alt=""/><br />
+                        <img src="/assets/images/2010/02/bullet_creme.gif" height="8" width="8" border="0" align="absmiddle" alt=""/><br />
                         &nbsp;<b>View <a href='http://jira.sakaiproject.org/browse/SAK-7833?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel' title="[#SAK-7833] Fedora as Sakai's Content Repository - Sakai">all</a></b>
                     </td>
 </tr>
 <tr>
 <td>
-                        <img src="/wp-content/uploads/2010/02/bullet_creme.gif" height="8" width="8" border="0" align="absmiddle" alt=""/><br />
+                        <img src="/assets/images/2010/02/bullet_creme.gif" height="8" width="8" border="0" align="absmiddle" alt=""/><br />
                         &nbsp;<b>View <a href='http://jira.sakaiproject.org/browse/SAK-7833?page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel' title="[#SAK-7833] Fedora as Sakai's Content Repository - Sakai">comments</a></b>
                     </td>
 </tr>
 <tr>
 <td>
-                        <img src="/wp-content/uploads/2010/02/bullet_creme.gif" height="8" width="8" border="0" align="absmiddle" alt=""/><br />
+                        <img src="/assets/images/2010/02/bullet_creme.gif" height="8" width="8" border="0" align="absmiddle" alt=""/><br />
                         &nbsp;<b>View <a href='http://jira.sakaiproject.org/browse/SAK-7833?page=com.atlassian.jira.plugin.system.issuetabpanels:changehistory-tabpanel' title="[#SAK-7833] Fedora as Sakai's Content Repository - Sakai">history</a></b>
                     </td>
 </tr>
@@ -215,7 +215,7 @@ comments:
 </table>
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
-<td height="12" style="background-image:url(http://jira.sakaiproject.org/images/border/border_bottom.gif);border-top:black solid 1px;"><img src="/wp-content/uploads/2010/02/spacer.gif" width="1" height="1" border="0" alt=""/></td>
+<td height="12" style="background-image:url(http://jira.sakaiproject.org/images/border/border_bottom.gif);border-top:black solid 1px;"><img src="/assets/images/2010/02/spacer.gif" width="1" height="1" border="0" alt=""/></td>
 </tr>
 </table>
 </blockquote>

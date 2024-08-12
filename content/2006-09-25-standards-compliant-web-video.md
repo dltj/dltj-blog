@@ -243,11 +243,10 @@ EoMarkup
 ```
 <p>The first part of the script parses the PATH_INFO variable -- everything left over from the <i>blah</i> script name -- and if what is requested is the Real Media or the Quicktime version of the video it sends the redirect back to the client (in the form of the "Location:" header with Apache HTTP daemon handling the 302 response code).  If what is requested is the Windows variety, it further parses the PATH_INFO piece for the file type and acts according to that:  for wmv, it redirects; for asx, it generates the .asx file; and for .smi, it pulls the content off the video server and returns it to the client.</p>
 <h2>The Markup</h2>
-<p>So now that we can serve up the video content with persistent URLs, we need to tackle the HTML markup.  As a general rule, we can't use the <a href="http://www.webstandards.org/learn/articles/askw3c/may2005/" title="Adding Multimedia in Web Documents (part 2) - The Web Standards Project">popular yet non-standard <code><embed></code> tag</a>; since it is not part of any formal specification, validation will always fail.  As a consequence, use in future browsers is less assured.  So we need to use <code><object></code> -- and unfortunately due to varied, if not outright broken implementations of the <code><object></code> tag, we need to be a little tricky in how we code it.  Other tricks are in play here as well -- check the list of "Resources Consulted" below for more information.</p>
+<p>So now that we can serve up the video content with persistent URLs, we need to tackle the HTML markup.  As a general rule, we can't use the <a href="http://www.webstandards.org/learn/articles/askw3c/may2005/" title="Adding Multimedia in Web Documents (part 2) - The Web Standards Project">popular yet non-standard <code><embed></code> tag</a>; since it is not part of any formal specification, validation will always fail.  As a consequence, use in future browsers is less assured.  So we need to use <code>&lt;object&gt;</code> -- and unfortunately due to varied, if not outright broken implementations of the <code>&lt;object&gt;</code> tag, we need to be a little tricky in how we code it.  Other tricks are in play here as well -- check the list of "Resources Consulted" below for more information.</p>
 <p>Also note that many of the recommendations out there start off with something like "if you have media to show, <em>don't</em> embed it into your web page; but if you must, here is one way to do it."  The reason for this is pretty simple, if not obvious after a little thought:  folks using alternate browsing/computing techniques (e.g. keyboard only for limited mobility, auditory only for sight impaired, visual only for the hearing impaired, etc.) lose much of their ability to control the flow of information because it is tied up in the functionally-limited browser rather than the native media player.  These same recommendations go on to say that if you do embed the media into the web page, provide a link for the user to access it using the native media player.</p>
 <p>So based on the URLs to the media objects described above, this is what the HTML markup looks like:</p>
 <h3>Quicktime</h3>
-<p><br clear="all" /></p>
 ```html
 <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="320" height="380">
   <param name="src" value="http://rave.ohiolink.edu/dmc/blah/quicktime/[id].mov" />
@@ -265,7 +264,6 @@ EoMarkup
 ```
 
 <h3>Windows Media</h3>
-<p><br clear="all" /></p>
 ```html
 <object classid="clsid:6bf52a52-394a-11d3-b153-00c04f79faa6" type="application/x-oleobject" width="320" height="304" id="Player1">
   <param name="url" value="http://rave.ohiolink.edu/dmc/blah/windows/asx/[id].asx" />

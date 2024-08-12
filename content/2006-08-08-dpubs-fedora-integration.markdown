@@ -60,7 +60,7 @@ comments:
     at the delay.
 ---
 <p>The August 2006 edition of "The DPubS Report" produced by Cornell University Libraries for the DPubS community announced work underway at the Penn State to bridge the worlds of <span class="removed_link" title="http://dpubs.org/">DPubS</span> and <a href="http://www.fedora.info/" title="Fedora">FEDORA</a>.  Here is the line from the newsletter:</p>
-<pre>
+```
 --------------------------------------------------------------------------
 SOFTWARE DEVELOPMENT UPDATE
 --------------------------------------------------------------------------
@@ -70,5 +70,5 @@ NEAR-TERM SCHEDULED WORK
 * Penn State is working on Fedora interoperability. The plan is to
 have that capability in the September release, with a working version
 for testing in late August.
-</pre>
+```
 <p>The newsletter goes on to say that the work will be made available under an open source license, so I for one can't wait to see what it looks like and how we might apply it to our own needs.</p>

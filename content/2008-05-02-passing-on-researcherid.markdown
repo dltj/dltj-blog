@@ -123,7 +123,7 @@ comments:
 ---
 <p>This morning I got an invitation to join ResearcherID, a new author profile service from Thomson Scientific.  The service sounds nice enough -- who doesn't want to take steps to avoid confusion between authors? -- and if you have access to other Thomson products (like ISI Web of Knowledge or Web of Science) it may be even nicer.  I'm all for the establishment of unique identifiers so we can start to do some interesting things with co-citation analysis and mining the web of connections in journal articles, but I'm not signing up.  At least not yet.<br />
 <!--more--><br />
-<a href="/wp-content/uploads/2008/05/researcher-id-email1.png"><img src="/wp-content/uploads/2008/05/researcher-id-email-150x1501.png" alt="Snapshot of the E-mail Invitation to Join ReseacherID" title="ResearcherID Invitation" width="150" height="150" class="alignright size-thumbnail wp-image-357" /></a></p>
+<a href="/assets/images/2008/05/researcher-id-email1.png"><img src="/assets/images/2008/05/researcher-id-email-150x1501.png" alt="Snapshot of the E-mail Invitation to Join ReseacherID" title="ResearcherID Invitation" width="150" height="150" class="alignright size-thumbnail wp-image-357" /></a></p>
 <h2>"A Unique Identifier"</h2>
 <p>The e-mail invitation starts with this:</p>
 <blockquote><p><span style="font-size:13.0pt;font-family:ArialMT;color:#926637"><b>A unique identifier</b></span></p>

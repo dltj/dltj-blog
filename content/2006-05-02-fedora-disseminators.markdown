@@ -160,39 +160,25 @@ This may not be a practical theory once we get to implementation.</p>
 <li>"getPreview" - return an x-by-y derivative of the datastream</li>
 <li>"getThumb" - in the case of still images, same as "getPreview"</li>
 <li>"viewThumb" - the same derivative as "getThumb" wrapped in an HTML div such as:
-<pre>
 
+```html
 <div class="viewThumb" id="viewThumb[PID][DS]">
-
   <div class="getThumb" id="getThumb[PID][DS]">
-
     <img class="getThumbImg" id="getThumb[PID][DS]Img" alt="Thumbnail of [DS]" src="..." />
-
   </div>
-
   <div class="getThumbOptions" id="getThumbOptions[PID][DS]">
-
     <span class="getThumbOptionScreen" id="getThumbOptionScreen[PID][DS]">
-
       <a href="[URL to getScreen]">View Screen-sized</a>
-
     </span>
-
     <span class="getThumbOptionDescription"
-
 id="getThumbOptionDescription[PID][DS]">
-
       <a href="[URL to getDescription">View Description</a>
-
     </span>
-
     ....
-
   </div>
-
 </div>
+```
 
-</pre>
 <p>   (where [PID] is the Fedora PID and [DS] is the datastream label)</li>
 </ul>
 <p>For non-static images, it gets a little more interesting because:</p>
