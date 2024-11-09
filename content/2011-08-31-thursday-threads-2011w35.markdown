@@ -79,7 +79,11 @@ comments:
 <p>After a longer than intended hiatus, <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads is back</i>.  </p>
 <p>Feel free to send this to others you think might be interested in the topics.  If you find these threads interesting and useful, you might want to add the <a href="http://feeds.dltj.org/thursday-threads/" title="RSS Feed for DLTJ Thursday Threads">Thursday Threads RSS Feed</a> to your feed reader or subscribe to e-mail delivery using the form to the right.  If you would like a more raw and immediate version of these types of stories, watch <a href="http://friendfeed.com/dltj" title="Peter Murray - FriendFeed">my FriendFeed stream</a> (or subscribe to <a href="http://friendfeed.com/dltj?format=atom" title="Atom feed for Peter Murray's FriendFeed account">its feed</a> in your feed reader).  Comments and tips, as always, are <a href="/contact">welcome</a>.</p>
 <h2 id="p3154-pro-library-protest-song">A Pro-Library Protest Song</h2>
-<p>[caption id="youtube-MDi5JtS1H" width="300" align="alignright" caption="Six minute video of Piers Cawley at OSCON 2011"]<iframe width="299" height="168" src="http://www.youtube.com/embed/MDi5JtS1H-g?rel=0" frameborder="0" allowfullscreen></iframe>[/caption]<br />
+<p>{{ captioned(
+    div_float="right",
+    width="300",
+    caption="Six minute video of Piers Cawley at OSCON 2011",
+    contents='<iframe width="299" height="168" src="http://www.youtube.com/embed/MDi5JtS1H-g?rel=0" frameborder="0" allowfullscreen></iframe>') }}<br />
 <blockquote>I&rsquo;m a Child of the Lib&rsquo;ry, it made me who I am, /<br />
 It taught me about freedom and the fellowship of Man /<br />
 A sea of story waits for you behind the lib&rsquo;ry door, /<br />
@@ -89,7 +93,11 @@ Don&rsquo;t say we can&rsquo;t afford them any more.
 </blockquote>
 <p>OSCON is the O'Reilly Open Source Convention, held this year July 25-29, 2011 in Portland, OR.  Normally an event for all things open source software, <a href="http://www.bofh.org.uk/" title="Just A Summary">Piers Cawley</a> stepped outside that box this year by asking attendees if they have ever used a library and if they have used a library in the past month.  He then sung a song he <a href="http://www.bofh.org.uk/2011/02/09/save-our-libraries" title="Save Our Libraries">wrote earlier this year</a> when he learned about the <a href="http://www.bofh.org.uk/2011/02/09/save-our-libraries" title="Save Our Libraries">drastic cuts facing public libraries in the U.K.</a>  Piers has released the song under a Creative Commons license and asks that people spread it far and wide.</p>
 <h2 id="p3154-google-search-algorithm">How Google Makes Improvements to Its Search Algorithm</h2>
-<p>[caption id="youtube-J5RZOU6vK4Q" width="300" align="alignright" caption="Four minute video from Google"]<iframe width="299" height="168" src="http://www.youtube.com/embed/J5RZOU6vK4Q?rel=0" frameborder="0" allowfullscreen></iframe>[/caption]<br />
+<p>{{ captioned(
+    div_float="right",
+    width="300",
+    caption="Four minute video from Google",
+    contents='<iframe width="299" height="168" src="http://www.youtube.com/embed/J5RZOU6vK4Q?rel=0" frameborder="0" allowfullscreen></iframe>') }}<br />
 <blockquote>Here's a short video we put together that gives you a sense of the work that goes into the changes and improvements we make to Google almost every day. While an improvement to the algorithm may start with a creative idea, it always goes through a process of rigorous scientific testing.
 <div style="text-align: right; width: 100%;"><cite>- <a href="http://www.youtube.com/watch?v=J5RZOU6vK4Q" title="How Google makes improvements to its search algorithm - YouTube">How Google makes improvements to its search algorithm - YouTube</a></cite>, Google</div>
 </blockquote>

@@ -55,7 +55,11 @@ comments:
 </blockquote>
 <p>If you are interested at all in how web search engines work, I highly recommend reading this article -- or at least skimming it. A rough breakdown: 3 pages on the history of web search firms and techniques; 4 pages on indexing techniques; 8 pages on storing/retrieving the index; 3 pages on scaling concerns; 2 pages on relevancy signals; and 2 pages on future topics.  You'll learn about inverted indexes, the differences between term-based indexing and phrase-based indexing, and the foundational elements of how user queries are answered.</p>
 <h2 id="p3056-dpla">July 1st update on the Digital Public Library of America from John Palfrey</h2>
-<p>[caption id="ytube_PWrgjRYwTsk" align="alignright" width="300" caption="Update from John Palfrey (9 minutes)"]<iframe width="299" height="170" src="http://www.youtube.com/embed/PWrgjRYwTsk?rel=0" frameborder="0" allowfullscreen></iframe>[/caption]</p>
+{{ captioned(
+    div_float="right",
+    width="300",
+    caption="Update from John Palfrey (9 minutes)",
+    contents='<iframe width="299" height="170" src="http://www.youtube.com/embed/PWrgjRYwTsk?rel=0" frameborder="0" allowfullscreen></iframe>') }}
 <blockquote><p>I wanted to share with you an emerging sense of what the DPLA might be, based on discussions on this list, on the wiki, in various blogs, and in the couple of Steering Committee and related meetings (the notes from all of which we've now posted).  I was prompted to write up this short statement (which we can work into a new "concept note" and workplan shortly) by <a href="http://kcoyle.blogspot.com/2011/05/dystopias.html" title="Coyle's InFormation: Dystopias">Karen Coyle's recent blog post</a>, which made me think about the need to keep saying what the DPLA could be and what it is not, as these things become increasingly apparent.  </p>
 <p>The answer to "what is the DPLA?" is still "a work in progress," but I think several things are coming into relief.  I wanted to try out the description below to see what people thought.  I've also posted a video form of roughly the same thing on YouTube for those who prefer <a href="http://www.youtube.com/watch?v=PWrgjRYwTsk" title="YouTube<br />
         - &amp;#x202a;June update from John Palfrey on The Digital Public Library of America&amp;#x202c;&amp;rlm;">video presentation of ideas</a>. [Light editing to turn raw links into hyperlinks.]

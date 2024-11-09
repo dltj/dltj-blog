@@ -243,16 +243,51 @@ comments:
 Here is how it looks from a user's perspective.</p>
 <h2>Step 1. Finding something to correct</h2>
 <p>Amazon has a pretty good catalog, so for the purposes of demonstrating this feature it took a while to find a record to correct.  I used the suggestions from <a href="http://librarytypos.blogspot.com/" title="Typo of the day for librarians">Typo of the Day for Librarians</a> for ideas of errors to look for in the Amazon catalog.  One of the suggested typos was <a href="http://librarytypos.blogspot.com/2010/03/sucess-etc-for-success-etc.html" title="Typo of the day for librarians: Sucess*, etc. (for Success, etc.)">Sucess*, etc. (for Success , etc.)</a>, and I found a record for <a href="http://www.amazon.com/How-Talk-Anyone-Success-Relationships/dp/1593160267/" title="Amazon product page for &#039;How to Talk to Anyone&#039;">How to Talk to Anyone: 62 Little Tricks for Big Success in Relationships</a> in audio CD format with this misspelling.  As this image shows, the original title was "How to Talk to Anyone: 62 Little Tricks for Big <em>Sucess</em> in Relationships"<br />
-[caption id="attachment_1583" align="aligncenter" width="672" caption="Amazon page for \'How to Talk to Anyone\' with typo"]<a href="/assets/images/2010/05/amazon-page-with-typo.png"><img src="/assets/images/2010/05/amazon-page-with-typo-cropped.png" alt="" title="Amazon page for &#039;How to Talk to Anyone&#039; with typo" class="size-full wp-image-1583" width="672" height="396"/></a>[/caption]</p>
+{{ image(
+    div_float="center",
+    width="672",
+    caption="Amazon page for \'How to Talk to Anyone\' with typo",
+    alt="Amazon page for &#039;How to Talk to Anyone&#039; with typo",
+    localsrc="/assets/images/2010/05/amazon-page-with-typo-cropped.png",
+    localhref="/assets/images/2010/05/amazon-page-with-typo.png") }}
+</p>
 <h2>Step 2. Making the Correction</h2>
 <p>In the "Product Details" section of the Amazon catalog page is a link to "update product info"<br />
-[caption id="attachment_1586" align="aligncenter" width="672" caption="Excerpt of Amazon product information page with the \'update product info\' link highlighted"]<a href="/assets/images/2010/05/amazon-page-with-typo.png"><img src="/assets/images/2010/05/amazon-page-with-typo-cropped-2.png" alt="" title="Excerpt of Amazon product information page with the &#039;update product info&#039; link highlighted" class="size-full wp-image-1586" width="672" height="328"/></a>[/caption]<br />
+{{ image(
+    div_float="center",
+    width="672",
+    caption="Excerpt of Amazon product information page with the \'update product info\' link highlighted",
+    alt="Excerpt of Amazon product information page with the &#039;update product info&#039; link highlighted",
+    localsrc="/assets/images/2010/05/amazon-page-with-typo-cropped-2.png",
+    localhref="/assets/images/2010/05/amazon-page-with-typo.png") }}
+<br />
 Following that link takes you to a form that is prefilled with all of the information from the Amazon catalog.  You can make your corrections here and provide citation URLs to reference the source of the correct information.  (In the excerpt of the form on this page only the Title and Reference sections are show.  Click through the image to see the full version of the form.)<br />
-[caption id="attachment_1587" align="aligncenter" width="820" caption="Excerpt of Amazon Catalog Update Form"]<a href="/assets/images/2010/05/amazon-catalog-update-form.png"><img src="/assets/images/2010/05/amazon-catalog-update-form-cropped.png" alt="" title="Excerpt of Amazon Catalog Update Form" class="size-full wp-image-1587" width="820" height="573"/></a>[/caption]<br />
+{{ image(
+    div_float="center",
+    width="820",
+    caption="Excerpt of Amazon Catalog Update Form",
+    alt="Excerpt of Amazon Catalog Update Form",
+    localsrc="/assets/images/2010/05/amazon-catalog-update-form-cropped.png",
+    localhref="/assets/images/2010/05/amazon-catalog-update-form.png") }}
+<br />
 You are given a chance to preview your changes before submitting them.  Note in this case that the reference URL I'm using is actually a link to the cover image for this item at Amazon.  A bit of neat symmetry there, I figure.<br />
-[caption id="attachment_1589" align="aligncenter" width="820" caption="Preview of Amazon Catalog Updates"]<a href="/assets/images/2010/05/amazon-catalog-update-preview.png"><img src="/assets/images/2010/05/amazon-catalog-update-preview-cropped.png" alt="" title="Preview of Amazon Catalog Updates" class="size-full wp-image-1589" width="820" height="400"/></a>[/caption]<br />
+{{ image(
+    div_float="center",
+    width="820",
+    caption="Preview of Amazon Catalog Updates",
+    alt="Preview of Amazon Catalog Updates",
+    localsrc="/assets/images/2010/05/amazon-catalog-update-preview-cropped.png",
+    localhref="/assets/images/2010/05/amazon-catalog-update-preview.png") }}
+<br />
 After submitting the changes, you get a nice "thank you" from Amazon for making their service better.<br />
-[caption id="attachment_1590" align="aligncenter" width="820" caption="Submission confirmation page from Amazon Catalog Update service"]<a href="/assets/images/2010/05/amazon-catalog-update-submitted.png"><img src="/assets/images/2010/05/amazon-catalog-update-submitted-cropped.png" alt="" title="Submission confirmation page from Amazon Catalog Update service" class="size-full wp-image-1590" width="820" height="145"/></a>[/caption]</p>
+{{ image(
+    div_float="center",
+    width="820",
+    caption="Submission confirmation page from Amazon Catalog Update service",
+    alt="Submission confirmation page from Amazon Catalog Update service",
+    localsrc="/assets/images/2010/05/amazon-catalog-update-submitted-cropped.png",
+    localhref="/assets/images/2010/05/amazon-catalog-update-submitted.png") }}
+</p>
 <h2>Step 3. Getting Confirmation from Amazon</h2>
 <p>After a bit -- mere hours in my case -- Amazon will send you a confirmation back that the correction has been accepted.</p>
 <blockquote><p>From: "gfix-noreply@amazon.com" <gfix -noreply@amazon.com><br />

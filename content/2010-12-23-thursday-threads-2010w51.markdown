@@ -102,7 +102,11 @@ comments:
 <!--more--><br />
 <br clear="all" /></p>
 <h2><a name="ibm_watson">Reference Librarian of the Future? IBM Supercomputer &lsquo;Watson&rsquo; to Challenge &lsquo;Jeopardy&rsquo; Stars</a></h2>
-<p>[caption id="attachment_1895" align="alignright" width="281" caption="IBM 'Watson' Video on YouTube"]<iframe title="YouTube video player" class="youtube-player" type="text/html" width="279" height="187" src="http://www.youtube.com/embed/FC3IryWr4c8?rel=0" frameborder="0"></iframe>[/caption]</p>
+{{ captioned(
+    div_float="right",
+    width="281",
+    caption="IBM 'Watson' Video on YouTube",
+    contents='<iframe title="YouTube video player" class="youtube-player" type="text/html" width="279" height="187" src="http://www.youtube.com/embed/FC3IryWr4c8?rel=0" frameborder="0"></iframe>') }}
 <blockquote><p>An I.B.M. supercomputer system named after the company&rsquo;s founder, Thomas J. Watson Sr., is almost ready for a televised test: a bout of questioning on the quiz show &ldquo;Jeopardy.&rdquo; </p>
 <p>I.B.M. and the producers of &ldquo;Jeopardy&rdquo; will announce on Tuesday [December 14, 2010] that the computer, &ldquo;Watson,&rdquo; will face the two most successful players in &ldquo;Jeopardy&rdquo; history, Ken Jennings and Brad Rutter, in three episodes that will be broadcast Feb. 14-16,  2011.</p>
 <p>For I.B.M., &ldquo;Watson&rdquo; is an important test of artificial intelligence. Scientists there have been talking to &ldquo;Jeopardy&rdquo; about a man vs. machine match-up <a href="http://www.nytimes.com/2009/04/27/technology/27jeopardy.html" title="Computer Program to Take On &lsquo;Jeopardy!&rsquo; | New York Times">for the better part of two years.</a> &ldquo;If the program beats the humans, the field of artificial intelligence will have made a leap forward,&rdquo; <a href="http://www.nytimes.com/2009/04/27/technology/27jeopardy.html" title="Computer Program to Take On &lsquo;Jeopardy!&rsquo; | New York Times">John Markoff of The New York Times wrote in April 2009.</a></p>

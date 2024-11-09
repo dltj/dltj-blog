@@ -67,7 +67,11 @@ comments:
 </blockquote>
 <p>I only worked briefly at an <acronym title="Research Library Group">RLG</acronym> library and in that short time never really got introduced to what it meant to be a member of RLG.  Now that RLG has been OCLC Research for about five years, OCLC is now looking to <a href="http://www.oclc.org/research/partnership/newpartnership.htm" title="OCLC Research Library Partnership | OCLC - RLG Partnership">re-engergize and expand communication</a> between research libraries.  The expanded effort is set to launch on July 1st.</p>
 <h2 id="shelvar">Shelvar, the Augmented Reality Shelf-reading App</h2>
-<p>[caption id="attachment_shelvar_video" align="alignright" width="230" caption="YouTube Video demonstrating the Shelvar app"]<iframe title="YouTube video player" width="229" height="159" src="http://www.youtube.com/embed/NgZVI630SsI" frameborder="0" allowfullscreen></iframe>[/caption]<br />
+<p>{{ captioned(
+    div_float="right",
+    width="230",
+    caption="YouTube Video demonstrating the Shelvar app",
+    contents='<iframe title="YouTube video player" width="229" height="159" src="http://www.youtube.com/embed/NgZVI630SsI" frameborder="0" allowfullscreen></iframe>') }}<br />
 <blockquote>Putting misshelved books back in their proper places is not a library worker&rsquo;s favorite task. It takes time and it&rsquo;s not exactly scintillating. Now a computer-science professor has come up with a way to make the process faster and less burdensome: an augmented-reality shelf-reading app that can scan an entire shelf&rsquo;s worth of books at a time and alert workers which ones are out of place.
 <div style="text-align: right; width: 100%;"><cite>- <a href="http://chronicle.com/blogs/wiredcampus/shelving-made-easy-or-easier/30792" title="Shelving Made Easy (or Easier) | The Chronicle of Higher Education Wired Campus">Shelving Made Easy (or Easier)</a>, Wired Campus - The Chronicle of Higher Education</cite></div>
 </blockquote>

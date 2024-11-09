@@ -104,10 +104,20 @@ comments:
 <p>Now for some assumptions.  First, all proposed amendments (and consequently all roll call votes) were for language that weakened SOPA in some way.  Second, the difference between contributions from the TV/Movies/Music industry category and the Computers/Internet industry category is a measure of how those industries feel about SOPA.  (In other words, there aren't significant contributions from the TV/Movies/Music industry that are opposed to SOPA and <i>vice versa</i>.)</p>
 <h2>Results</h2>
 <p>The best way to analyze this is to plot the ratios of contributions to votes on an X-Y chart and look at the trend line:<br />
-[caption id="attachment_3512" align="aligncenter" width="890" caption="Contributions versus Votes"]<img src="/assets/images/2011/12/Contributions-versus-Votes.png" alt="" title="Contributions versus Votes" width="890" height="827" class="size-full wp-image-3512" />[/caption]<br />
+{{ image(
+    div_float="center",
+    width="890",
+    caption="Contributions versus Votes",
+    alt="",
+    localsrc="/assets/images/2011/12/Contributions-versus-Votes.png") }}<br />
 This chart shows that there was a correlation between campaign contributions and votes (looking at the slope of the line).  What is interesting, though, is the correlation is weaker for representatives that received a higher percentage of contributions from the Computers/Internet sector (as shown by the distance of points to the trend line on the left side of the chart).  The farther to the right on the chart, the closer the points are to the trend line.</p>
 <p>Another interesting point, given today's hyper-polarized political climate, is that the pro-SOPA and anti-SOPA divide was not along party lines:<br />
-[caption id="attachment_3513" align="aligncenter" width="890" caption="Party versus Voting Percentage"]<img src="/assets/images/2011/12/Party-versus-Voting-Percentage.png" alt="" title="Party versus Voting Percentage" width="890" height="536" class="size-full wp-image-3513" />[/caption]<br />
+{{ image(
+    div_float="center",
+    width="890",
+    caption="Party versus Voting Percentage",
+    alt="",
+    localsrc="/assets/images/2011/12/Party-versus-Voting-Percentage.png") }}<br />
 There were two Democrats and two Republicans that consistently voted for amendments to change SOPA.  (Note in reading this chart that there are more Republicans on the House Judiciary Committee than there are Democrats.)</p>
 <h2>Commentary</h2>
 <p>I was surprised at the variability in voting positions.  To watch the video in real time and hear the names of the representatives fly by it would seem that it was always the same people on each side of the issue.  As the voting record shows, that isn't true.   There were four representatives that voted in favor of all eight amendments to the draft legislation (Chaffetz, Issa, Lofgren and Polis) and seven members that voted against all eight amendments (Amodei, Conyers, Deutch, Goodlatte, Smith, Waters, and Watt).  Twenty five representatives had varying voting patterns.  (Three members of the judiciary committee did not vote at all and presumably were not present.)</p>

@@ -56,6 +56,25 @@ def image(
     return output
 
 
+def captioned(
+    div_float: str = None,
+    width: str = None,
+    caption: str = None,
+    contents: str = None,
+) -> str:
+    output: str = "<figure "
+    if div_float:
+        output += f'class="align-{div_float}" '
+    if width:
+        output += f'style="width:{width}px" '
+    output += ">"
+    output += contents
+    if caption:
+        output += f"<figcaption>{caption}</figcaption>"
+    output += "</figure>"
+    return output
+
+
 # <!-- _based on https://stackoverflow.com/a/51682829 s/(  \s*)/\n\1/g to restore template spacing--><figure{%if include.float %} class="align-{{ include.float }}" {% endif %}{%if include.width %} style="width:{{ include.width }}px" {% endif %}>
 #     {% if include.url %}
 #     <a href="{{ include.url }}">

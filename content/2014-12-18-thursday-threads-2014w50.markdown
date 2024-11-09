@@ -25,7 +25,13 @@ tags:
 - Authentication
 comments: []
 ---
-<p>[caption width="360" align="alignright"]<a href="http://digital.lib.ecu.edu/7604" title="Document Moved"><img src="http://150.216.68.252:8080/adore-djatoka/resolver?url_ver=Z39.88-2004&rft_id=http://150.216.68.252/ncgre000/00000008/00007604/00007604_ac_0001.jp2&svc_id=info:lanl-repo/svc/getRegion&svc_val_fmt=info:ofi/fmt:kev:mtx:jpeg2000&svc.format=image/jpeg&svc.level=2" width="360" height="249" class /></a> <a href="http://digital.lib.ecu.edu/7604" title="Document Moved">Looking at maps</a>, Eastern Carolina University Digital Collections.[/caption]</p>
+{{ image(
+    div_float="right",
+    width="255",
+    caption='Looking at maps, Eastern Carolina University Digital Collections.',
+    alt="Black and white photo of four men in suits examine a tabletop map in an office setting, with additional maps displayed on the wall behind them.",
+    abssrc="https://iiif.lib.ecu.edu/cantaloupe/iiif/2/00007604_0001.jp2/full/!225,225/0/default.jpg",
+    ahref="http://digital.lib.ecu.edu/7604") }}
 <div id="feedburner-thursday-threads-email-2014w50" class="wp-caption alignright noprint noFrontPage" style="width: 230px;">
 <form style="border: 1px solid rgb(204, 204, 204); padding: 3px; margin: 0pt; text-align: center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">Receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads:</p>
 <p>by&nbsp;<a href="http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads&amp;loc=en_US" title="D.L.T.J. Thursday Threads Email Subscription">E-mail</a><br /><input style="width: 140px;" name="email" value="Your e-mail address" onfocus="if (this.defaultValue==this.value) this.value = ''" type="text"/><input value="thursday-threads" name="uri" type="hidden"/><input name="loc" value="en_US" type="hidden"/><input value="Subscribe" type="submit"/></p>
