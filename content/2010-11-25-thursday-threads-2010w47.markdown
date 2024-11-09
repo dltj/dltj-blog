@@ -41,13 +41,6 @@ comments:
     class="topsy_trackback_content">#Agile #Software Thursday Threads: Google Scholar
     Coverage, Effective Meetings ...: ... as one commenter says, t... http://bit.ly/e5uTYY</span></span>'
 ---
-<div id="feedburner-thursday-threads-email-w47" class="wp-caption alignright" style="width: 250px;">
-<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-<p><a href="http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads&#038;loc=en_US" title="FeedBurner Email Subscription">Receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads by E-mail!</a></p>
-<p><input type="text" style="width:140px" name="email" value="Your e-mail address" onFocus="if (this.defaultValue==this.value) this.value = ''"/><input type="hidden" value="thursday-threads" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" />
-<p style="font-size: 80%">Delivered by <a href="http://feedburner.google.com" target="_blank" title="Google Feedburner Service">FeedBurner</a></p>
-</form>
-</div>
 <p> No, I am not composing this edition of <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads on the Thanksgiving holiday.  This was written the day before and scheduled for posting on Thursday.  With a significant run of <a href="/category/thursday-threads/">weekly Thursday Threads postings</a>, it seemed a shame to break the trend because of a holiday.  So if it is Thanksgiving Thursday (in the U.S.) and you are looking for something to read, how about an article questioning the need for index and abstract databases in light of Google Scholar?  Or tips for post-holiday effective meetings?  Or how librarians are viewed as obstacles to effective open educational resources?  Or simply be thankful that you are not in the cable TV operator business.<br />
 <!--more--></p>
 <h2><a name="google_scholar">Google Scholar's Dramatic Coverage Improvement Five Years after Debut</a></h2>

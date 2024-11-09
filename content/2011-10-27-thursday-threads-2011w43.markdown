@@ -75,15 +75,9 @@ comments:
     class="topsy_trackback_content">Thursday Threads:Library Linked Data, Shifts in
     Publishing, Questions for Software Migrations, Hypothes.is Announcement http://t.co/ZVrf07WY</span></span>
 ---
-<div id="feedburner-thursday-threads-email-2011w43" class="wp-caption alignright noprint noFrontPage" style="width: 230px;">
-<form style="border: 1px solid rgb(204, 204, 204); padding: 3px; margin: 0pt; text-align: center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">Receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads:</p>
-<p>by&nbsp;<a href="http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads&amp;loc=en_US" title="D.L.T.J. Thursday Threads Email Subscription">E-mail</a><br /><input style="width: 140px;" name="email" value="Your e-mail address" onfocus="if (this.defaultValue==this.value) this.value = ''" type="text"/><input value="thursday-threads" name="uri" type="hidden"/><input name="loc" value="en_US" type="hidden"/><input value="Subscribe" type="submit"/></p>
-<p>by&nbsp;<a href="http://feeds.dltj.org/thursday-threads/" title="D.L.T.J. Thursday Threads RSS Feed">RSS</a>
-<p style="font-size: 80%;">Delivered by <a href="http://feedburner.google.com" target="_blank" title="Google Feedburner Service">FeedBurner</a></p>
-</form>
-</div>
+
 <p>In this weeks thread of topics: the <a href="#p3469-lld">final report of library linked data</a>, an <a href="#p3469-jesse-wiley">interview with one of the executives of Wiley Publishing</a>, <a href="#p3469-migrations">important questions to ask</a> when considering major system migrations, and the announcement of work to begin on a <a href="#p3469-hypothes-is">new comment and evaluation overlay layer</a> for the web.</p>
-<p>Feel free to send this to others you think might be interested in the topics.  If you find these threads interesting and useful, you might want to add the <a href="http://feeds.dltj.org/thursday-threads/" title="RSS Feed for DLTJ Thursday Threads">Thursday Threads RSS Feed</a> to your feed reader or subscribe to e-mail delivery using the form to the right.  If you would like a more raw and immediate version of these types of stories, watch <a href="http://friendfeed.com/dltj" title="Peter Murray - FriendFeed">my FriendFeed stream</a> (or subscribe to <a href="http://friendfeed.com/dltj?format=atom" title="Atom feed for Peter Murray's FriendFeed account">its feed</a> in your feed reader).  Comments and tips, as always, are <a href="/contact">welcome</a>.</p>
+{{ thursday_threads_header() }}
 <h2 id="p3469-lld">Library Linked Data Incubator Group Final Report</h2>
 <blockquote><p>Key recommendations of the report are: </p>
 <ul>

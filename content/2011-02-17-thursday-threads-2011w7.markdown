@@ -41,16 +41,9 @@ comments:
     class="topsy_trackback_content">Murray, Peter: Thursday Threads: Estimating and
     Understanding Big Data, Key Loggers Steal Patron Keystrokes http://bit.ly/faqpKO</span></span>'
 ---
-<div id="feedburner-thursday-threads-email-2011w07" class="wp-caption alignright noprint noFrontPage" style="width: 230px;">
-<form style="border: 1px solid rgb(204, 204, 204); padding: 3px; margin: 0pt; text-align: center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-<p>Receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads:</p>
-<p>by&nbsp;<a href="http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads&amp;loc=en_US" title="D.L.T.J. Thursday Threads Email Subscription">E-mail</a><br /><input style="width: 140px;" name="email" value="Your e-mail address" onfocus="if (this.defaultValue==this.value) this.value = ''" type="text"/><input value="thursday-threads" name="uri" type="hidden"/><input name="loc" value="en_US" type="hidden"/><input value="Subscribe" type="submit"/></p>
-<p>by&nbsp;<a href="http://feeds.dltj.org/thursday-threads/" title="D.L.T.J. Thursday Threads RSS Feed">RSS</a></p>
-<p style="font-size: 80%;">Delivered by <a href="http://feedburner.google.com" target="_blank" title="Google Feedburner Service">FeedBurner</a></p>
-</form>
-</div>
+
 <p> Two entries on big data lead this week's edition of <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads</i>.  The first is at the grandest scale possible: a <a href="#p2647-information">calculation of the amount of information in the world</a>.  Add up all the digital memory (in cell phones, computers, and other devices) and analog media (for instance, paper) and it goes to a very big number.  The authors try to put it in perspective, which for me brought home how insignificant my line of work can be.  (All of our information is still less than 1% of what is encoded in the human DNA?)  The second "big data" entry describes an effort to <a href="#p2647-archives">make sense of huge amounts of data in the National Archives</a> through the use of visualization tools.  Rounding out this week is a warning to those who run public computers -- <a href="#p2647-keyloggers">be on the look-out for key loggers</a> that can be used to steal information from users.</p>
-<p>If you find these threads interesting and useful, you might want to add the <a href="http://feeds.dltj.org/thursday-threads/" title="RSS Feed for DLTJ Thursday Threads">Thursday Threads RSS Feed</a> to your feed reader or subscribe to e-mail delivery using the form to the right.  If you would like a more raw and immediate version of these types of stories, watch <a href="http://friendfeed.com/dltj" title="Peter Murray - FriendFeed">my FriendFeed stream</a> (or subscribe to <a href="http://friendfeed.com/dltj?format=atom" title="Atom feed for Peter Murray's FriendFeed account">its feed</a> in your feed reader).  Comments and tips, as always, are <a href="/contact">welcome</a>.</p>
+{{ thursday_threads_header() }}</p>
 <h2 id="p2647-information">How Much Information Is There in the World?</h2>
 <blockquote><p>{{ captioned(
     div_float="right",

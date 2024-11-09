@@ -55,16 +55,9 @@ comments:
   content: "<!--%kramer-ref-pre%-->[...] Pingback by Thursday Threads: RDF, Digital
     Document Tampering, and Amazon&#8217;s Mechanical Turk | Disruptive L... [...]<!--%kramer-ref-post%-->"
 ---
-<div id="feedburner-thursday-threads-email" class="wp-caption alignright" style="width: 310px;">
-<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-<p>Enter your email address to receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads:</p>
-<p><input type="text" style="width:140px" name="email"/></p>
-<p><input type="hidden" value="thursday-threads" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" />
-<p>Delivered by <a href="http://feedburner.google.com" target="_blank" title="Google Feedburner Service">FeedBurner</a></p>
-</form>
-</div>
-<p>This is definitely becoming a habit...welcome to the fourth edition of <a href="/category/thursday-threads/"><i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym>'s</i> Thursday Threads</a>.  If you find these interesting and useful, you might want to add the <a href="http://feeds.dltj.org/thursday-threads/">Thursday Threads RSS Feed</a> to your feed reader or subscribe to e-mail delivery using the form to the left.  If you would like a more raw and immediate version of these types of stories, watch <a href="http://friendfeed.com/dltj" title="Peter Murray - FriendFeed">my FriendFeed stream</a> (or subscribe to <a href="feed://friendfeed.com/dltj?format=atom" title="Peter Murray - FriendFeed - Atom Feed">its feed</a> in your feed reader).  Comments, as always, are welcome.<br />
-<!--more--></p>
+
+<p>This is definitely becoming a habit...welcome to the fourth edition of <a href="/category/thursday-threads/"><i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym>'s</i> Thursday Threads</a>.  
+{{ thursday_threads_header() }}
 <h2>Defining Linked Data By Analogy</h2>
 <blockquote><p>RDF is the grammar for a language of data.  URIs are the words of that language.  As in natural language, these words (i.e., the URIs) belong to grammatical categories.  RDF properties (such as "isReferencedBy") function a bit like verbs, RDF classes like nouns.</p>
 <p>As in natural languages, where utterances are meaningful only if they follow a sentence grammar, RDF statements follow a simple and consistent three-part grammar of subject, predicate, and object.  Analogously to paragraphs, RDF statements are aggregated into RDF graphs.</p></blockquote>

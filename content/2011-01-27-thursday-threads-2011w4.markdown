@@ -44,14 +44,7 @@ comments:
   content: "<!--%kramer-ref-pre%-->[...] b. Peter Murray eBook Identifier Confusion
     Shakes Book Industry [...]<!--%kramer-ref-post%-->"
 ---
-<div id="feedburner-thursday-threads-email-2011w04" class="wp-caption alignright noprint noFrontPage" style="width: 230px;">
-<form style="border: 1px solid rgb(204, 204, 204); padding: 3px; margin: 0pt; text-align: center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-<p>Receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads:</p>
-<p>by&nbsp;<a href="http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads&amp;loc=en_US" title="D.L.T.J. Thursday Threads Email Subscription">E-mail</a><br /><input style="width: 140px;" name="email" value="Your e-mail address" onfocus="if (this.defaultValue==this.value) this.value = ''" type="text"/><input value="thursday-threads" name="uri" type="hidden"/><input name="loc" value="en_US" type="hidden"/><input value="Subscribe" type="submit"/></p>
-<p>by&nbsp;<a href="http://feeds.dltj.org/thursday-threads/" title="D.L.T.J. Thursday Threads RSS Feed">RSS</a></p>
-<p style="font-size: 80%;">Delivered by <a href="http://feedburner.google.com" target="_blank" title="Google Feedburner Service">FeedBurner</a></p>
-</form>
-</div>
+
 <p> This week Amazon takes center stage of <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads</i> with a report of their new <a href="#kindle-singles">Kindle Singles program</a> for medium-form digital content and a <a href="#kindle-accessibility">screen-reader-aware version</a> of the Kindle reader application for PCs.  After that is a look at how <a href="#trial-by-twitter">scholarly discourse is changing</a> -- radically! -- with the availability and use of near-real-time feedback loops.  And we close out with a peek at <a href="#ebook-isbn">shaky ground</a> in the world of ISBN identifiers.</p>
 <p>As a sidenote to last week's comment about this blog migrating to Amazon's service...there are still a few hiccups.  For instance, last week's edition of <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads</i> wasn't published via the RSS feed until late in the day and it wasn't until Friday that the e-mail subscribers received it.  I think those issues are ironed out now, but if you notice any other problems <a href="/contact">please let me know</a>.</p>
 <h2 id="kindle-singles">Kindle Singles &mdash; Compelling Ideas Expressed at Their Natural Length &mdash; Now Available in the Kindle Store</h2>

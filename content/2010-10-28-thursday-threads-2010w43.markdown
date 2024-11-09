@@ -62,16 +62,8 @@ comments:
   content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
     class="topsy_trackback_content">Murray, Peter: Thursday Threads: http://bit.ly/dlKhx5</span></span>'
 ---
-<div id="feedburner-thursday-threads-email" class="wp-caption alignright" style="width: 310px;">
-<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-<p>Receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads by E-mail!  Enter your email address:</p>
-<p><input type="text" style="width:140px" name="email"/></p>
-<p><input type="hidden" value="thursday-threads" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" />
-<p style="font-size: 80%">Delivered by <a href="http://feedburner.google.com" target="_blank" title="Google Feedburner Service">FeedBurner</a></p>
-</form>
-</div>
-<p>This week's  <a href="/category/thursday-threads/">Thursday Threads</a> looks at a big hole in the security model of most internet sites that require you to log into them with a username and password plus a pair of stories about "big media" battles.  If you find these interesting and useful, you might want to add the <a href="http://feeds.dltj.org/thursday-threads/">Thursday Threads RSS Feed</a> to your feed reader or subscribe to e-mail delivery using the form to the right.  If you would like a more raw and immediate version of these types of stories, watch <a href="http://friendfeed.com/dltj" title="Peter Murray - FriendFeed">my FriendFeed stream</a> (or subscribe to <a href="feed://friendfeed.com/dltj?format=atom">its feed</a> in your feed reader).  Comments, as always, are welcome.<br />
-<!--more--></p>
+<p>This week's  <a href="/category/thursday-threads/">Thursday Threads</a> looks at a big hole in the security model of most internet sites that require you to log into them with a username and password plus a pair of stories about "big media" battles.</p>
+{{ thursday_threads_header() }}
 <h2>Users of Non-SSL Sites are Prone to Hijacking</h2>
 <blockquote><p>When logging into a website you usually start by submitting your username and password. The server then checks to see if an account matching this information exists and if so, replies back to you with a "cookie" which is used by your browser for all subsequent requests.</p>
 <p>It's extremely common for websites to protect your password by encrypting the initial login, but surprisingly uncommon for websites to encrypt everything else. This leaves the cookie (and the user) vulnerable. HTTP session hijacking (sometimes called "sidejacking") is when an attacker gets a hold of a user's cookie, allowing them to do anything the user can do on a particular website. On an open wireless network, cookies are basically shouted through the air, making these attacks extremely easy.</p>

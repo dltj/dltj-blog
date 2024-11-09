@@ -36,14 +36,7 @@ comments:
     class="topsy_trackback_content">Thursday Threads: So-called &ldquo;Internet Kill-switch&rdquo;,
     IP address exhaustion, demographics of P2P piracy http://bit.ly/hJ0hIS</span></span>'
 ---
-<div id="feedburner-thursday-threads-email-2011w05" class="wp-caption alignright noprint noFrontPage" style="width: 230px;">
-<form style="border: 1px solid rgb(204, 204, 204); padding: 3px; margin: 0pt; text-align: center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-<p>Receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads:</p>
-<p>by&nbsp;<a href="http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads&amp;loc=en_US" title="D.L.T.J. Thursday Threads Email Subscription">E-mail</a><br /><input style="width: 140px;" name="email" value="Your e-mail address" onfocus="if (this.defaultValue==this.value) this.value = ''" type="text"/><input value="thursday-threads" name="uri" type="hidden"/><input name="loc" value="en_US" type="hidden"/><input value="Subscribe" type="submit"/></p>
-<p>by&nbsp;<a href="http://feeds.dltj.org/thursday-threads/" title="D.L.T.J. Thursday Threads RSS Feed">RSS</a></p>
-<p style="font-size: 80%;">Delivered by <a href="http://feedburner.google.com" target="_blank" title="Google Feedburner Service">FeedBurner</a></p>
-</form>
-</div>
+
 <p>This week of <i><a href="/category/thursday-threads/"><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads</a></i> covers a wide range of topics.  First, from a public policy perspective, is news that the U.S. Senate has a bill proposing the <a href="#p2525-inet-kill-switch">study of an internet "kill-switch"</a> that some are speculating could behave like what happened in Egypt last week.  Next, from a technical perspective, is the fact that we're <a href="#p2525-ipv4-addresses">running out of IP addresses</a>, which is going to make some engineers' lives pretty messy before it is ultimately fixed.  Lastly, from a research perspective, is a paper that characterizes the <a href="#p2525-p2p-piracy">demographics of users using peer-to-peer for piracy</a>.</p>
 <p>Continuing last week's sidenote, I think I have found the fundamental problem of why Thursday Threads hasn't been coming out via e-mail on, well, Thursday.  Although the <a href="http://wordpress.org/support/topic/w3-total-cache-prevents-rss-updating" title="WordPress &amp;#8250; Support &amp;raquo; W3 Total Cache Prevents RSS Updating">underlying issue</a> still remains, a workaround has been put in place that will hopefully eliminate the symptomps.</p>
 <h2 id="p2525-inet-kill-switch">Internet &lsquo;Kill Switch&rsquo; Legislation Back in Play</h2>

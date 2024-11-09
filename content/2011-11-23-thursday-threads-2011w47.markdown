@@ -58,16 +58,9 @@ comments:
   content: 'RT @DataG: New blog post: Thursday Threads: Thanksgiving Edition 2011
     -- What I''m Thankful For http://t.co/oPyaJkXZ'
 ---
-<div id="feedburner-thursday-threads-email-2011w47" class="wp-caption alignright noprint noFrontPage" style="width: 230px;">
-<form style="border: 1px solid rgb(204, 204, 204); padding: 3px; margin: 0pt; text-align: center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-<p>Receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads:</p>
-<p>by&nbsp;<a href="http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads&amp;loc=en_US" title="D.L.T.J. Thursday Threads Email Subscription">E-mail</a><br /><input style="width: 140px;" name="email" value="Your e-mail address" onfocus="if (this.defaultValue==this.value) this.value = ''" type="text"/><input value="thursday-threads" name="uri" type="hidden"/><input name="loc" value="en_US" type="hidden"/><input value="Subscribe" type="submit"/></p>
-<p>by&nbsp;<a href="http://feeds.dltj.org/thursday-threads/" title="D.L.T.J. Thursday Threads RSS Feed">RSS</a></p>
-<p style="font-size: 80%;">Delivered by <a href="http://feedburner.google.com" target="_blank" title="Google Feedburner Service">FeedBurner</a></p>
-</form>
-</div>
+
 <p>With <i>Thursday Threads</i> coming on a Thanksgiving Thursday, it seems appropriate to use a theme of what I'm thankful for.  So, in this edition of <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads</i> I'm offering three things: <a href="#p3489-open-source">open source software</a>, <a href="#p3489-sopa">the internet</a>, and <a href="#p3489-public-libraries">public libraries</a>.  Reading this on Thanksgiving?  Feel free to offer what you are thankful for in the comments.</p>
-<p>Feel free to send this to others you think might be interested in the topics.  If you find these threads interesting and useful, you might want to add the <a href="http://feeds.dltj.org/thursday-threads/" title="RSS Feed for DLTJ Thursday Threads">Thursday Threads RSS Feed</a> to your feed reader or subscribe to e-mail delivery using the form to the right.  If you would like a more raw and immediate version of these types of stories, watch <a href="http://friendfeed.com/dltj" title="Peter Murray - FriendFeed">my FriendFeed stream</a> (or subscribe to <a href="http://friendfeed.com/dltj?format=atom" title="Atom feed for Peter Murray's FriendFeed account">its feed</a> in your feed reader).  Comments and tips, as always, are <a href="/contact">welcome</a>.</p>
+{{ thursday_threads_header() }}
 <p>Have a Happy Thanksgiving.</p>
 <h2 id="p3489-open-source">Doc Summit Wrap up: 4 Books written in 3 days!</h2>
 <blockquote><p>In mid October a Document Summit was held at Google headquarters in Mountain View, California where documentation teams from 4 open source projects, KDE, OpenStreetMap, OpenMRS and Sahana Eden as well as a few documentation &lsquo;free agents&rsquo; gathered to a write 4 books in the course of three days and take part in a two day unconference. [In this blog post], one of the dedicated documentation volunteers and the FLOSS Manuals founder/organizer recount their experiences over the course of the week.
