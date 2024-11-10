@@ -6,10 +6,11 @@ authors = [
     {name = "Peter Murray", email = "jester@dltj.org"},
 ]
 dependencies = [
-    "pelican[markdown] @ file:///${PROJECT_ROOT}/../pelican-personal",
+    "pelican[markdown] @ git+https://github.com/dltj/pelican.git",
     "pelican-jinja2content @ git+https://github.com/pelican-plugins/jinja2content.git",
     "pelican-yaml-metadata @ git+https://github.com/pelican-plugins/yaml-metadata.git",
-    "zygote-reader @ file:///${PROJECT_ROOT}/../zygote-reader",
+    "pelican-dltj-plugin @ git+https://github.com/dltj/pelican-dltj-plugin.git",
+    "zygote-reader @ git+https://github.com/dltj/zygote-reader",
 ]
 requires-python = "==3.12.*"
 readme = "README.md"
@@ -21,7 +22,6 @@ distribution = false
 
 [tool.pdm.dev-dependencies]
 dev = [
-    "-e file:///${PROJECT_ROOT}/../pelican-personal",
     "invoke>=2.2.0",
     "livereload>=2.7.0",
 ]

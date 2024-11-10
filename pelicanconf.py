@@ -2,10 +2,8 @@
 """
 
 import os
-import sys
 
-sys.path.append("./util")
-import macros
+import pelican.plugins.dltj_plugin as macros
 
 AUTHOR = "Peter Murray"
 SITENAME = "Disruptive Library Technology Jester"

@@ -68,5 +68,14 @@ devserver-global:
 publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
+docker-build:
+	docker build -t 202092910073.dkr.ecr.us-east-1.amazonaws.com/codebuild/dltj-pelican-runner\:latest -t dltj-pelican-runner\:latest .
 
-.PHONY: html help clean regenerate serve serve-global devserver devserver-global publish 
+docker-serve:
+	docker run --rm -v "$(CURDIR)/assets:/app/assets" -v "$(CURDIR)/content:/app/content" -v "$(CURDIR)/output:/app/output" -v "$(CURDIR)/root-content:/app/root-content" -p 8000\:8000 dltj-pelican-runner -lr content -s pelicanconf.py -o output -t /app/pelican-themes/pelican-hyde -b 0.0.0.0
+
+docker-push:
+	aws --profile dltj-admin ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 202092910073.dkr.ecr.us-east-1.amazonaws.com
+	docker push 202092910073.dkr.ecr.us-east-1.amazonaws.com/codebuild/dltj-pelican-runner:latest
+
+.PHONY: html help clean regenerate serve serve-global devserver devserver-global publish docker-build docker-serve docker-push
