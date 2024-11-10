@@ -1,0 +1,53 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: '10 Great Reasons to Attend ODCE 2008'
+modified: 2008-01-16T17:37:43+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 313
+wordpress_url: http://dltj.org/2008/01/odce2008-10reasons/
+date: '2008-01-16 12:37:43 -0500'
+date_gmt: '2008-01-16 16:37:43 -0500'
+category: Meeting
+categories:
+- Meeting
+tags:
+- conference
+- odcecon
+- odce08
+comments: []
+---
+<p>Still deciding whether to attend the <i><span class="removed_link" title="http://oln.org/conferences/ODCE2008/">Ohio Digital Commons for Education 2008 Conference</span> &ndash; The Convergence of Learning, Libraries and Technology</i>? Here are 10 great reasons to register today.</p>
+<ol type="1" start="1">
+<li><strong>Meet, connect and share success stories with colleagues from across Ohio.</strong> ODCE 2008 will provide endless opportunities to talk with 300+ faculty, librarians, administrators, IT gurus and others facing the exact same challenges you do.</li>
+<li><strong>Get ideas, practical knowledge and tools you can use on your campus right away.</strong> With its focus on teaching and learning, student success, moving Ohio forward, and transforming technologies, you'll leave ODCE 2008 with many new ideas and best practices to try.</li>
+<li><strong>Find out about the future of Ohio higher education.</strong> Learn more about <a href="https://www.ohiohighered.org/" title="The University System of Ohio homepage">The University System of Ohio</a> and its master plan from Chancellor Eric Fingerhut on Monday, March 3. Go to the Ohio Education Panel on Tuesday and hear a range of Ohio voices discuss key issues facing Ohio higher education.</li>
+<li><strong>Get affordable, hands-on training via a pre-conference workshop.</strong> Choose from: Creating Accessible MS Word, MS PowerPoint and PDF Documents; Second Life Bootcamp; Introduction to Multimedia Production for Classroom, Web-Based and Distance Instruction; Redesigning Courses Using the NCAT Approach, Integrating Quality Matters in the Course Development Process, and Social Networking for Dummies!</li>
+<li><strong>View the innovative ways Ohio institutions are using technology for teaching and learning</strong> with exhibits on virtual worlds, podcasts, learning objects, lab experience at a distance, developing digital content and more at Innovation Island. (Monday, 4:30-5:30 p.m.)</li>
+<li><strong>Learn more about Second Life, online professional development, the latest digital learning tools</strong> and other hot topics featured in 45 engaging sessions.</li>
+<li><strong>Get great ideas from high school teachers on how to engage more students in STEM disciplines</strong> at the <i>Preparing Students to Succeed in STEM Disciplines</i> poster sessions (Monday). Both high school teachers looking for ideas, as well college and university administrators wanting tips on recruiting more STEM students, should attend. <i>(special rate available for high school teachers and students)</i></li>
+<li><strong>Engage with leading vendors.</strong> Speak frankly with leading higher education vendors and partners at the exhibits, vendor presentations and vendor reception.</li>
+<li><strong>Unwind after a hard day of learning</strong> at our vendor reception from 4:30-5:30 p.m. on Monday. Then, enjoy the delights of <a href="http://www.eastontowncenter.com/" title="Easton Town Center homepage">Easton Town Center</a> including great restaurants, a variety of shopping and entertainment.</li>
+<li><strong>The learning doesn&rsquo;t end March 4!</strong> Begin discussing, sharing and learning now and continue long after the conference ends with the ODCE Conference <span class="removed_link" title="http://blog.conference.oln.org/">blog</span> and <span class="removed_link" title="http://wiki.conference.oln.org/">wiki</span>.</li>
+</ol>
+<p>ODCE 2008 will be held March 2-4, 2008 in Columbus. View the <span class="removed_link" title="http://oln.org/conferences/ODCE2008/pdf/ODCE2008PrelProgWS.pdf">preliminary program</span> [PDF] and <span class="removed_link" title="https://secure.oln.org/ODCE2008/ODCE2008registration.php">register</span> for ODCE 2008 online. Register by February 7 to <span class="removed_link" title="http://oln.org/conferences/ODCE2008/ODCE2008fees.php">receive $50 off regular conference rates</span>.</p>
+<div style="border: 1px solid black; margin: 2em 0pt 0pt; padding: 0.25em;">
+<div class="vevent" id="hcalendar-ODCE-10reasons" style="display: inline;">
+<div style="padding: 0.5em 1.5em 3em 0pt; float: left;"><a href="http://suda.co.uk/projects/microformats/hcalendar/get-cal.php?uri=http://dltj.org/2008/01/odce2008-10reasons"><img src="/assets/images/2008/01/microformat_hcalendar1.png" alt="hCalendar Encoded Microformat" height="15" width="80" /><br />Download iCal file</a></div>
+<p><span class="removed_link" title="http://www.oln.org/conferences/ODCE2008/"><abbr class="dtstart" title="20080302">March 2th</abbr> &ndash; <abbr class="dtend" title="20080305">4th, 2008</abbr> &mdash; <span class="summary">ODCE 2008</span></span> &mdash; <abbr class="geo" title="40.04896;-82.91219"><a href="http://www.columbusoh.hilton.com/" title="http://www.columbusoh.hilton.com/">Columbus Hilton</a></abbr> at <span class="location"><a href="http://www.eastontowncenter.com/" title="Easton Town Center homepage">Easton Town Center</a> in Columbus, Ohio</span></p>
+<div class="description">ODCE 2008 is the ninth annual Ohio Digital Commons for Education Conference - The Convergence of Learning, Libraries and Technology. The conference will feature submitted and invited presentations, technology demonstrations, pre-conference workshops and plenary presentations on the themes of Teaching and Learning in the 21st Century, Student Success, Moving Ohio Forward, and Transforming Technologies.</div>
+<p><a href="http://suda.co.uk/projects/microformats/hcalendar/get-cal.php?uri=http://dltj.org/2008/01/odce2008-10reasons/" title="hCalendar microformat to iCal converter">Add this event to your desktop calendar program.</a></p>
+</div>
+</div>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to https://secure.oln.org/ODCE2008/ODCE2008registration.php on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://www.oln.org/conferences/ODCE2008/ on July 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://oln.org/conferences/ODCE2008/ on July 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://oln.org/conferences/ODCE2008/ODCE2008fees.php on July 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://oln.org/conferences/ODCE2008/pdf/ODCE2008PrelProgWS.pdf on July 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://blog.conference.oln.org/ on November 6th, 2012.</p>
+<p><</p>
+<p>p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://universitysystem.ohio.gov/ to https://www.ohiohighered.org/ on November 8th, 2012.</p>

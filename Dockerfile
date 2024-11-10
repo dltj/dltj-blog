@@ -1,71 +1,52 @@
-# Ruby image to use, change with [--build-arg RUBY_VERSION="3.3.0"]
-ARG RUBY_VERSION="3.3.0"
-# Alpine image to use, change with [--build-arg ALPINE_VERSION="3.19"]
-ARG ALPINE_VERSION="3.19"
+# Use Python as the base image
+FROM python:3.12.7-slim
+
 # s3deploy version to use
-ARG S3DEPLOY_VERSION="2.11.0"
+ARG S3DEPLOY_VERSION="2.12.1"
 
+# Set the working directory
+WORKDIR /app
 
-FROM ruby:${RUBY_VERSION}-alpine${ALPINE_VERSION} AS dltj-jekyll-builder
-
-# Install build dependencies
-RUN set -eux; \
-  apk add --no-cache --virtual build-deps \
-  build-base \
-  zlib-dev \
-  git 
-
-# Install Bundler
-RUN set -eux; gem install bundler
-
-COPY Gemfile-docker ./Gemfile
-
-ENV BUNDLE_HOME=/usr/local/bundle \
-  BUNDLE_APP_CONFIG=/usr/local/bundle \
-  BUNDLE_DISABLE_PLATFORM_WARNINGS=true \
-  BUNDLE_BIN=/usr/local/bundle/bin
-
-# Install gems from `Gemfile` via Bundler
-RUN set -eux; \
-  bundler install
-
-
-FROM ruby:${RUBY_VERSION}-alpine${ALPINE_VERSION} AS dltj-jekyll-runner
-# Repeat ARG here because [Docker is stupid](https://docs.docker.com/reference/dockerfile/#understand-how-arg-and-from-interact)
-ARG S3DEPLOY_VERSION
-
-# `git` is needed by the last-modified-at plugin
-# `nodejs` is needed by one of the gems
-# `jemalloc` is the malloc replacement
-RUN set -eux; \
-  apk add --no-cache --virtual runner-deps \
+# Install necessary system dependencies and PDM
+RUN apt-get update && apt-get install -y \
   git \
-  nodejs \
-  jemalloc \
-  aws-cli \
   curl \
-  jq
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/* \
+  # Install PDM
+  && curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
 
+# Ensure /root/.local/bin is in PATH
+ENV PATH="/root/.local/bin:$PATH"
+
+# Get the `s3deploy` program
 RUN set -eux; \
   curl -s -S -L -f https://github.com/bep/s3deploy/releases/download/v${S3DEPLOY_VERSION}/s3deploy_${S3DEPLOY_VERSION}_linux-amd64.tar.gz  -o /tmp/s3deploy.tar.gz; \
   tar -xzf /tmp/s3deploy.tar.gz --directory /usr/local/bin s3deploy; \
   rm /tmp/s3deploy.tar.gz
 
-# Install jemalloc — see https://github.com/jemalloc/jemalloc/issues/1443#issuecomment-1895891270
-RUN set -eux; \ 
-  apk add --no-cache patchelf; \
-  patchelf --add-needed libjemalloc.so.2 /usr/local/bin/ruby; \
-  apk del patchelf
+# Copy the pyproject.toml and pdm.lock files
+COPY pyproject.toml pdm.lock* util /app/
 
-ENV RUBY_YJIT_ENABLE=1 \
-  MALLOC_CONF="background_thread:true,metadata_thp:auto,dirty_decay_ms:500,muzzy_decay_ms:5000,narenas:2"
+# Install the dependencies
+RUN pdm install --prod --no-self
 
-COPY --from=dltj-jekyll-builder /usr/local/bundle /usr/local/bundle
-COPY --from=dltj-jekyll-builder /Gemfile* /
+# Clone the specified Pelican source repository
+RUN git clone https://github.com/dltj/pelican.git /app/pelican
 
-# Clean up
-WORKDIR /srv/jekyll
+# Clone the specified theme repository
+RUN git clone https://github.com/dltj/pelican-hyde.git /app/pelican-themes/pelican-hyde
 
-EXPOSE 4000
-ENTRYPOINT ["bundler", "exec", "jekyll"]
+# Install Pelican from the cloned source
+RUN pip install /app/pelican
+
+# Copy your Pelican configuration files to the container
+COPY pelicanconf.py /app/pelicanconf.py
+COPY publishconf.py /app/publishconf.py
+
+# Expose port 8000 for serving
+EXPOSE 8000
+
+# Let's get into it!
+ENTRYPOINT ["pdm", "run", "pelican"]
 CMD ["--version"]

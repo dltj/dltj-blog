@@ -1,0 +1,78 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Textbook Affordability at the Student Success Assessment Summit'
+modified: 2009-06-23T20:19:05+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 1051
+wordpress_url: http://dltj.org/?p=1051
+date: '2009-06-23 16:19:05 -0400'
+date_gmt: '2009-06-23 20:19:05 -0400'
+category: Campus Technology
+categories:
+- Textbooks
+tags:
+- higher education
+- textbook
+- University System of Ohio
+- open educational resources
+comments:
+- id: 159973
+  author: Peter Murray
+  author_email: ''
+  author_url: ''
+  date: '2009-06-23 20:19:18 -0400'
+  date_gmt: '2009-06-24 00:19:18 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">New blog post: Textbook Affordability at the Student
+    Success Assessment Summit http://dltj.org/article/ssas-2009/</span></span>'
+- id: 162042
+  author: Chris
+  author_email: chris@textbookrebellion.org
+  author_url: http://www.textbookrebellion.org
+  date: '2011-08-08 23:26:28 -0400'
+  date_gmt: '2011-08-09 03:26:28 -0400'
+  content: "Please help us reach like minded advocates for textbook affordability.
+    http://www.textbookrebellion.org/petition\r\n\r\nAbout the Textbook Rebellion:\r\n\r\nTextbookRebellion.org
+    is a movement of students, parents, professors and organizations inspired to take
+    action against skyrocketing college textbook prices. Textbook publishing is broken.
+    We&rsquo;re making a difference by raising awareness of the problem and shining
+    some light on emerging solutions, like open-license textbooks.\r\n\r\nWe enlist
+    the support of students and campus associations, as well as parents, faculty,
+    administrators, legislators, and creators of open educational resources."
+- id: 165385
+  author: 'Home - Textbook Affordability: A Guide for Faculty - LibGuides at Bowling
+    Green State University'
+  author_email: ''
+  author_url: http://libguides.bgsu.edu/aecontent.php?pid=8525&amp;sid=54583
+  date: '2011-08-23 16:16:32 -0400'
+  date_gmt: '2011-08-23 20:16:32 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] are to studies and reports produced by university
+    systems around the U.S. and the U.S. government.Making Textbooks Affordable for
+    the University System of Ohio, June 2009University System of Ohio: Making Textbooks
+    More AffordableReport of the CSU Textbook Affordability [...]<!--%kramer-ref-post%-->"
+---
+<p>I had the pleasure of presenting on a panel at the Ohio Student Success Assessment Summit this morning on the topic of textbooks and open educational resources.  Specifically, I was talking about the plans and desires of the <a href="http://www.uso.edu/" title="University System of Ohio homepage" rel="homepage">University System of Ohio</a> to help faculty help students with the escalating of costs of learning materials.  My talk (below and on SlideShare) gives a background of the problem in the context of the State of Ohio, principles upon which a working plan for statewide support is forming, and strategic themes<br />
+<!--more--><br />
+[caption id="ssas_presentation_embed" align="aligncenter" width="604" caption="Presentation slides"]
+<div style="width:600px;text-align:left;margin-left:4px" id="__ss_1627565"><object style="margin:0px" width="600" height="500"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=200906studentsuccesssummit-090623142941-phpapp02&stripped_title=making-textbooks-affordable-for-the-university-system-of-ohio" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=200906studentsuccesssummit-090623142941-phpapp02&stripped_title=making-textbooks-affordable-for-the-university-system-of-ohio" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="500"/></object></div>
+<p>[/caption]<br />
+<del datetime="2009-10-07T00:35:12+00:00">An audio track for the presentation will follow later.</del> The SlideShare version now has the embedded <a href="/assets/images/2009/06/PMurray-ssas-2009.mp3" title="Recorded audio from presentation in MP3 format">audio recording</a> from the presentation.</p>
+<h2>Some Things, In Retrospect, I Wish I Had Mentioned</h2>
+<p>In talking about the CourseSmart option to further reduce the cost of commercially produced materials (the second bullet of <a href="http://www.slideshare.net/DataGazetteer/making-textbooks-affordable-for-the-university-system-of-ohio/23" title="http://www.slideshare.net/DataGazetteer/making-textbooks-affordable-for-the-university-system-of-ohio/23">slide #20</a>), OBR will be subsidizing the additional discount to test the 35% price level for digital editions of textbooks.  If you are an instructor at an Ohio school teaching a high-enrollment course and are interested in participating in this test, please get in contact with <a href="/contact">me</a> or <a href="http://telr.osu.edu/acker/Acker_vita/pages/professional_experience.htm" title="Steve Acker Vita">Steve Acker</a>.</p>
+<p>I didn't have time to talk about the various sources of open educational resources -- that would be an entire presentation by itself.  Some places to start are:</p>
+<ul type="disc">
+<li><b>Community College Consortium for Open Educational Resources and the Community College Open Textbook project</b>:  These complimentary initiatives are undertaken by interested community colleges and faculty with an interest toward expanding the development and use of open educational resources, including textbooks.  A variety of textbooks are available through these efforts (<a href="http://oerconsortium.org/" title="Community College Consortium for Open Educational Resources">http://oerconsortium.org/</a> and <a href="http://www.collegeopentextbooks.org/" title="Community College Open Textbook Project homepage">http://www.collegeopentextbooks.org/</a>).</li>
+<li><b>Wikibooks</b>:  This site allows for the joint creation and customization of textbooks and other educational resources (<a href="http://en.wikibooks.org/wiki/Main_Page" title="Wikibooks">http://en.wikibooks.org/wiki/Main_Page</a>).</li>
+<li><b>Flat World Knowledge</b>:  This commercial site offers online access to free textbooks as well as the ability for students to download black and white, color, or audio versions of texts at reduced prices. Flatworld Knowledge supports editing procedures that allow faculty to add and delete materials to the textbooks (<a href="http://www.flatworldknowledge.com/" title="Flat World Knowledge">http://www.flatworldknowledge.com/</a>).</li>
+<li><b>Connexions</b>:  This site allows for the creation and dissemination of modularized educational resources including textbooks following the Open Educational Resources Model (<a href="http://cnx.org/" title="Connexions homeage">http://cnx.org/</a>).</li>
+<li><b>BookBoon</b>:  Texts available on this site are financed by in-book advertisements (<a href="http://bookboon.com/us/textbooks" title="BookBoon homepage">http://bookboon.com/us/student</a>).</li>
+<li><b>Global Text Project</b>:  This site offers a variety of free text materials (<a href="http://globaltext.terry.uga.edu/" title="Global Text Project">http://globaltext.terry.uga.edu/</a>).</li>
+<li><b>Textbook Revolution</b>:  This site offers a variety of free text materials and is open for contributions by faculty and others  (<a href="http://textbookrevolution.org/index.php/Main_Page" title="Textbook Revolution">http://textbookrevolution.org/index.php/Main_Page</a>).</li>
+</ul>
+<p>This is just a short list; you'll find many more places where open educational resources are featured by going through these sites.
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://bookboon.com/us/student to http://bookboon.com/us/textbooks on January 28th, 2011.</p>

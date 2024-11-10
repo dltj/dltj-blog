@@ -1,0 +1,24 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Pointless Mid-Week, Mid-Morning Fun'
+modified: 2007-11-29T16:01:20+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 297
+wordpress_url: http://dltj.org/2007/11/html-quiz/
+date: '2007-11-29 11:01:20 -0500'
+date_gmt: '2007-11-29 15:01:20 -0500'
+category: Meta Category
+categories:
+- Meta Category
+tags:
+- humor
+- html
+comments: []
+---
+<p><a id="mingle2_badge" href="http://www.justsayhi.com/bb/html_quiz" style="display: block; background:url(http://assets.justsayhi.com/badges/968/388/html_elements.p5hywa4wvg.jpg) no-repeat top left; height: 147px; width: 335px; text-decoration: none; color: #fff;" title="How Many HTML Elements Can You Name in 5 Minutes?"><strong id="mingle2_badge_score" style="display: block; padding-left: 125px; padding-top: 44px; font-weight: normal; font-family: Times New Roman, Arial; font-size: 45px;">57</strong></a><br clear="all" /></p>
+<p>How did you do?</p>

@@ -1,0 +1,38 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: '"Teaching with Digital Texts" presentation'
+modified: 2008-03-05T16:36:09+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 335
+wordpress_url: https://dltj.org/article/odce2008-etexts/
+date: '2008-03-05 11:36:09 -0500'
+date_gmt: '2008-03-05 16:36:09 -0500'
+category: Campus Technology
+categories:
+- Textbooks
+tags:
+- higher education
+- conference
+- odcecon
+- textbook
+- odce08
+comments: []
+---
+<p>At the <span class="removed_link" title="http://oln.org/conferences/ODCE2008/ODCE2008.php">Ohio Digital Commons for Education conference</span> yesterday I had the privilege of chairing a panel for a session called "<a href="http://web.archive.org/web/20080723214441/http://wiki.conference.oln.org/page/Teaching+with+Digital+Texts" title="Teaching with Digital Texts - ODCE Conference">Teaching with Digital Texts: Comparative Experiences from the Field</a>".  The panel was a mixture of the principle investigators and the publisher representatives from two pilot projects that ran last fall testing the economics and suitability of enhanced digital learning materials.  The abstract of the session and the participants were:</p>
+<blockquote><p>The eText Ohio project piloted the use of digital learning materials in two large undergraduate courses in 2007: Introduction to Psychology at Miami University and Introductory Biology for non-majors at the University of Dayton. This panel -- made up of the faculty, learning technologists, researchers, and publishers involved in the pilots -- will share data and experiences regarding teaching strategies, student learning, and opportunities and issues associated with using non-print resources as the fundamental texts of instruction.</p>
+<ul type="square">
+<li>Daniel Bartell / Pearson Publishing</li>
+<li>Kevin Feyen / Bedford, Freeman &amp; Worth Publishing</li>
+<li><a href="http://www.units.muohio.edu/psychology/people/markls.html" title="Dr. Leonard S. Mark -- Dept. of Psychology -- Miami University">Leonard S. Mark</a>, Professor of Psychology / Miami University</li>
+<li><a href="http://biology.udayton.edu/content.php?id=28" title="David Wright&#039;s page at the University of Dayton Biology Department">David J. Wright</a>, Director of Curriculum Innovation and E-Learning / University of Dayton</li>
+</ul>
+</blockquote>
+<p>A <a href="http://web.archive.org/web/20081122053858/http://wiki.conference.oln.org/page/Introduction+to+Digital+Text+Pilot" title="Introduction to Digital Text Pilot - ODCE Conference">longer introduction and description of the pilot projects</a> is on the conference wiki.  Some of the data points we learned through the pilots are in that document and in the <a href="/assets/images/2008/03/odce-e-text.pdf" title="Presentation slides from &#039;Teaching with Digital Texts: Comparative Experiences from the Field&#039;">presentation slides from the session</a>.  We plan to published a longer exploration of the data, but the short version is that students appeared to do as well on examinations in classes where the enhanced digital materials were used, and the price of the content to the student was roughly half that of the purchase price of a new paper textbook.</p>
+<p>Update 2008-03-10T11:11 : The <a href="http://web.archive.org/web/20080828160220/http://www.daytondailynews.com/n/content/oh/story/news/local/2008/03/09/ddn031008textbooks.html" title="Schools, publishers experiment to cut textbook prices">Dayton Daily News has an article today</a> on the e-textbook pilot program at the University of of Dayton.  Thanks, Nicole, for sending me the link.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://oln.org/conferences/ODCE2008/ODCE2008.php on July 13th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://www.daytondailynews.com/n/content/oh/story/news/local/2008/03/09/ddn031008textbooks.html to http://web.archive.org/web/20080828160220/http://www.daytondailynews.com/n/content/oh/story/news/local/2008/03/09/ddn031008textbooks.html on November 13th, 2012.</p>

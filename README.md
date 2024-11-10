@@ -1,22 +1,43 @@
-# DLTJ Blog with Jekyll on AWS CodeBuild/ECR/S2/CloudFront
+# DLTJ Blog with Pelican
 
-## Build the Docker image 
+Using PDM as a Python manager. Use `pdm run zsh` to activate a shell.
 
-docker build -t dltj-jekyll-runner:latest .
+## Basic setup 
 
+1. `pdm python install` — install Python venv
+1. `pdm install` — install prereq
 
-## Local blog generation
+## View site
 
-docker run --rm \
-    -v ${PWD}:/srv/jekyll \
-    -p 4000:4000 \
-    {aws_acct_id}.dkr.ecr.us-east-1.amazonaws.com/codebuild/dltj-jekyll-runner:latest serve --host 0.0.0.0
+1. `invoke serve` or `invoke liveupdate`
 
+## Historic Notes
 
-## Upload the CodeBuild custom build environment image
+- Files with `.markdown` extensions were converted from the Wordpress site (and still may need some manual editing)
 
-aws --profile dltj-admin ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin {aws_acct_id}.dkr.ecr.us-east-1.amazonaws.com
+## Macros
 
-docker tag dltj-jekyll-runner:latest {aws_acct_id}.dkr.ecr.us-east-1.amazonaws.com/codebuild/dltj-jekyll-runner:latest
+### Image
 
-docker push {aws_acct_id}.dkr.ecr.us-east-1.amazonaws.com/codebuild/dltj-jekyll-runner:latest
+```
+{{ image(
+    div_float: str = None,
+    width: str = None,
+    localsrc: str = None,
+    abssrc: str = None,
+    caption: str = None,
+    alt: str = None,
+    ahref: str = None,
+    localhref: str = None) }}
+```
+
+### Captioned section
+Used for things other than an image to get the same rendered output 
+
+```
+{{ captioned(
+    div_float: str = None,
+    width: str = None,
+    caption: str = None,
+    contents: str = None) }}
+```

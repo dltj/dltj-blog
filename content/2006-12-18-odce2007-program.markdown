@@ -1,0 +1,49 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'ODCE 2007: Preliminary Program, Online Registration Now Available'
+modified: 2006-12-18T19:50:50+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 156
+wordpress_url: http://dltj.org/2006/12/odce2007-program/
+date: '2006-12-18 14:50:50 -0500'
+date_gmt: '2006-12-18 19:50:50 -0500'
+category: Meeting
+categories:
+- OhioLINK
+- Meeting
+tags:
+- OhioLINK
+- higher education
+- conference
+- odce07
+comments: []
+---
+<p><span class="removed_link" title="http://www.oln.org/conferences/ODCE2007/ODCE2007.php">ODCE 2007: The Convergence of Learning, Libraries and Technology</span> conference is set for March 4-6, 2007. You can view the <span class="removed_link" title="http://www.oln.org/conferences/ODCE2007/ODCE2007PrelimProgram.pdf">preliminary program and pre-conference workshop descriptions</span> as well as <span class="removed_link" title="https://home2.oln.org/ODCE2007/ODCE2007registration.php">register online</span> for ODCE 2007, Ohio's premier higher education conference.</p>
+<p>This year's conference will feature five pre-conference workshops, more than 40 sessions, technology demonstrations at Innovation Island, keynote speakers and more, covering:</p>
+<ul>
+<li>E Squared: Effectiveness and Efficiencies</li>
+<li>STEM2: Science, Technology, Engineering, Mathematics and Medicine</li>
+<li>Who are the Learners? -- Serving New Audiences</li>
+<li>WMP: Wireless, Mobile and Personal</li>
+<li>Reinventing the Learning Environment: Walking the Walk</li>
+<li>What's The Buzz? -- Vendor Presentations</li>
+</ul>
+<p>Five pre-conference workshops will be offered on Sunday, March 4:</p>
+<ul>
+<li>Demystifying Tech Apps for Busy Educators</li>
+<li>Are Students Too Old to Hear a Story?</li>
+<li>Laptops in the Classroom: Next Generation Learning Environments</li>
+<li>Breaking the Barriers of Distance Learning for Healthcare Programs</li>
+<li>Options in Electronic Bibliographic Management</li>
+</ul>
+<p>Registration fees are $325 for the entire two-day conference or $200 for only one day. There is a reduced fee for students. Register by February 8 and receive $50 off regular registration fees. Pre-conference workshop fees are $100 each.  The face-to-face meeting is supplemented by a <span class="removed_link" title="http://blog.conference.oln.org/">conference blog</span>, a <span class="removed_link" title="http://wiki.conference.oln.org/">conference wiki</span> and a <span class="removed_link" title="http://hitchhikr.com/index.php?conf_id=84">HitchHikr aggregation point</span>.</p>
+<p>ODCE 2007 is a project of the Ohio Digital Commons for Education, a partnership of the <a href="http://www.oln.org/">Ohio Learning Network</a>, <a href="http://www.ohiolink.edu/" title="OhioLINK - The Ohio Library and Information Network">OhioLINK</a> and the <a href="http://www.osc.edu/" title="Ohio Supercomputer Center (OSC)">Ohio Supercomputer Center</a> in concert with Ohio's public and private institutions for higher education.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://www.oln.org/conferences/ODCE2007/ODCE2007PrelimProgram.pdf on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to https://home2.oln.org/ODCE2007/ODCE2007registration.php on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://hitchhikr.com/index.php?conf_id=84 on November 6th, 2012.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://blog.conference.oln.org/ on November 6th, 2012.</p>

@@ -1,0 +1,357 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: '"Is the Writing On The Wall?" &mdash; Take 2'
+modified: 2006-06-15T00:34:59+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 72
+wordpress_url: http://dltj.org/2006/06/dis-ils-2/
+date: '2006-06-14 20:34:59 -0400'
+date_gmt: '2006-06-15 01:34:59 -0400'
+category: Library Technology
+categories:
+- Blue Sky
+- Disruption in Libraries
+- Library SOA
+tags:
+- library service-oriented architecture
+- opac
+- ngc4lib
+- library 2.0
+- libraries
+comments:
+- id: 456
+  author: walt crawford
+  author_email: waltcrawford@gmail.com
+  author_url: http://walt.lishost.org
+  date: '2006-06-15 10:50:09 -0400'
+  date_gmt: '2006-06-15 15:50:09 -0400'
+  content: "Thanks for the clarification and narrowing of the discussion. I don't
+    doubt that online catalog use within (many) (academic) libraries is declining,
+    just as circulation in (some) (academic) libraries seems to be declining. \r\n\r\nI
+    certainly don't argue that catalogs work as well as they should. Does it continue
+    to make sense for academic libraries to have online catalogs as such? That's a
+    tougher question...one that I think needs some fairly subtle discussion, involving
+    a lot of issues/tradeoffs.\r\n\r\nAs to the three questions: I'd say \"absolutely
+    not\" for the first, \"requires loads of discussion\" for the second, and \"it's
+    happened more often than you might expect,\" but of course Eureka serves/served
+    several hundred libraries.\r\n\r\nYou say I don't run an OPAC. That's true, but
+    I have been lead designer for a search system that includes the second largest
+    bibliographic database in the world, and I probably know more about use of that
+    system than anyone else. Back in the day (not that many years ago), we used log
+    analysis, statistical returns, and focus groups to redesign the sequence of defaults
+    and options, based on the clear finding that if there's a default search option,
+    that will be used far more than any other search option, even if it's the \"wrong\"
+    search option. (And, given the rest of the Eureka interface, it seemed needlessly
+    user-hostile *not* to have a default option: We thought it should be feasible
+    for at least 40-50% of searchers to do no more than key in a term and hit Enter.)
+    So title browse is the default for bibliographic databases, because it's the fastest
+    way to find known items; author browse is second, subject browse third, keyword
+    is fourth. (If we had a properly-working full-record phrase-sensitive keyword
+    index, I'd argue that keyword should be third and subject should only be on advanced
+    search). Sure enough, 51% of RLG Union Catalog searches via Eureka are title,
+    and those are overwhelmingly successful, 88% yielding 1 to 10 records. (As you
+    might guess, author searches are second most frequent--but, because Eureka for
+    the RLG Union Catalog tends to be used heavily by reference folks, I think, Boolean
+    searches are third.)\r\n\r\nOn the other hand, for articles, \"title as the default\"
+    would be, well, dumb. Since we do have full-record keyword for all other databases,
+    and since we know what's likely to work best (or \"least badly\"), keyword is
+    the default, followed by author (browse), title *word* (not a browse), subject
+    *word*, and journal (browse). And, guess what, keyword is significantly more than
+    half of all searches in most of those databases...\r\n\r\nThat's probably more
+    of a comment than you were looking for. I don't think there's anything new about
+    the \"default gets used most\" finding. I won't comment on systems that don't
+    have defaults; I choose my battles..."
+- id: 645
+  author: the jester
+  author_email: jester@DLTJ.org
+  author_url: http://dltj.org/
+  date: '2006-06-19 14:39:30 -0400'
+  date_gmt: '2006-06-19 19:39:30 -0400'
+  content: "Thanks for the detailed and informed reply, Walt.  I'm not sure what I
+    was looking for in a comment but your writing was certainly more than I had hoped.\r\n\r\nAs
+    you might guess, I think this discussion is absolutely key.  The \"Integrated\"
+    part of the ILS used to be a real asset -- there was only one system you needed
+    for buying, describing, discovering and lending items.  Today, though, I offer
+    than 'integrated' is manifested as 'silo' and as such we are locked into 30-year-old
+    ways of doing things with 30-year-old architectures.  Of course, if something
+    is time tested and works for you, one wouldn't change it.\r\n\r\nMy argument would
+    be that the ILS-as-we-know-it is no longer working for us now.  Some examples:\r\n\r\nWe
+    debate whether biblographic records should mix formats or not (while working libraries
+    wait for FRBR to catch on and vendors wait for working libraries to ask-for/demand
+    FRBR).\r\nWe try to smoosh the electronic resources acquisitions process into
+    existing systems and processes.  Is an Britannica Online an electronic resource
+    or a serial or a monographic set or an electronic book?  It is, of course, a little
+    bit of all three, but in many technical services departments it seems like the
+    answer to that question would drive the purchase into a particular workflow that,
+    because of the other facets of Britannica Online, are ill-suited for the material
+    type.\r\nUsers want to find, not search (the classic distinction between librarians
+    and our constituency) and they are getting used to interfaces out on the wild
+    wild web that return decent results from a single search box.  As demonstrated
+    by the likes of Amazon and others, we can build enough intelligence and usability
+    into systems to enable the single search box to find known or nearly-known items.\r\n\r\n\r\nIf
+    we can agree on that much -- ILS performance over-supply plus models/workflows
+    that no longer exist (#1 and #2 above) plus underserved users (#3) -- let's get
+    started on the \"loads of discussion\" because we have a long way to go."
+- id: 4515
+  author: 'Disruptive Library Technology Jester :: Taking a Day&#8217;s Break from
+    SOA'
+  author_email: ''
+  author_url: http://dltj.org/2006/09/soa-break/
+  date: '2006-09-21 17:21:24 -0400'
+  date_gmt: '2006-09-21 21:21:24 -0400'
+  content: "[...] a somewhat related note, I wanted to tie up a loose end from this
+    summer: &#182;  In academic libraries, in my experience, there has been a decline
+    in the use of library catalogs.This experience could be verified in the ARL supplementary
+    statistics for at least that population of libraries (I think those numbers are
+    password-protected, so it might be a challenge to try to use them). When I get
+    back on the ground and have some time, I will either offer confirmation of that
+    supposition or retract it. DLTJ &#8220;Is the Writing On The Wall?&#8221; &#8212;
+    Take 2, Wednesday, June 14th, 2006 &#182; [...]"
+- id: 5577
+  author: OPAC Blog Posts - A List &laquo; Life as I Know It
+  author_email: ''
+  author_url: http://scruffynerf.wordpress.com/2006/07/05/opac-blog-posts-a-list/
+  date: '2006-07-13 22:49:04 -0400'
+  date_gmt: ''
+  content: "<!--%kramer-pre%-->THE USER IS NOT BROKEN: A MEME MASQUERDING AS A MANIFESTO
+    in which Jane adds several of her own points to Karen&rsquo;s.   Library Garden
+    \  Catching Up   Disruptive Library Technology Jester  Is the Writing on the Wall
+    for the Integrated Library System?  &ldquo;Is the Writing on the Wall?&rdquo;
+    - Take 2   Lis.dom  dream of the children&rsquo;s materials OPAC across the great
+    divide   What I Learned Today  State of Our ILS Touched a Nerve   Librarian.net
+    \ OPAC Manifesto my tag cloud and forcing an OPAC solution<!--%kramer-post%-->"
+- id: 6974
+  author: 'Life as I know it: OPAC Blog Posts - A List'
+  author_email: ''
+  author_url: http://scruffynerf.blogspot.com/2006/07/opac-blog-posts-list.html
+  date: '2006-11-15 04:09:34 -0500'
+  date_gmt: '2006-11-15 09:09:34 -0500'
+  content: "<!--%kramer-ref-pre%-->[...] July 11, 2206 - I am no longer updating this
+    list of OPAC Blog posts on this site. For the most recent version of this post,
+    please visit the OPAC Blog Posts - A List via WordPress. It has become too difficult
+    to update the list in both places.The latest assignment for my summer class is
+    a 10-15 page paper about one cataloging related subject that we choose from a
+    list of 15 suggested topics (due on July 17th). Although I haven&rsquo;t made
+    my final choice about the theme of the paper, many of the suggestions on the professor&rsquo;s
+    list deal with the automated library catalog and the user&rsquo;s experience of
+    searching. I&rsquo;m interested in using some of the recent blog discussions about
+    the OPAC/library catalog/ILS as part of my paper. As such, I&rsquo;ve started
+    putting together a list of relevant blog posts. This list is a work in progress.
+    I intend to update the list - and start annotating it as part of my research.
+    LibrarianInBlack Karen and the Sucky OPAC - The LibrarianInBlack comments on Karen
+    Schneider&rsquo;s &ldquo;How OPACs Suck, Part 1: Relevance Rank (Or the Lack of
+    It),&rdquo; The LIB comments that &rdquo; This relevancy ranking issue is one
+    of those changes I&rsquo;d like to see happen. I agree with Karen that this is
+    something that librarians should be demanding&hellip;not simply wishing for.&rdquo;
+    Library website goals - The LIB agrees about the importance of single sign on
+    (which isn&rsquo;t something that we are even close to at my small library either!!)
+    and references John Blyberg&rsquo;s post Library 2.0 websites: Where to begin?
+    Family Man Librarian Library online catalogs and relevancy ranking[updated] -
+    A post in which the Family Man Librarian disagrees with Karen Schneiders&rsquo;
+    post How OPACs Suck, Part 1: Relevance Rank (Or the Lack of It). The FML takes
+    issue with Karen&rsquo;s points that most online catalogs don&rsquo;t have relevance
+    ranking and that ILS vendors are wholly to blame for this lack of relevance ranking.
+    FML contends that we need to &ldquo;look at both sides of the issue and especially
+    do not be so quick to lay blame without truly understanding the reality of what
+    vendors provide and what they do.&rdquo; Blyberg.net 2006: the year of the phoenix
+    OPAC? - In this post, John Blyberg points to several significant developments
+    in OPACs: NCSU&rsquo;s new online catalog, Casey Bisson&rsquo;s WordPress OPAC
+    project, Ed Vielmetti&rsquo;s third-party library apps with RSS feeds and Dave
+    Pattern&rsquo;s work with a new patron-oriented presentation layer to the OPAC.
+    Blyberg&rsquo;s own experiences also lead him to conclude that the public is &ldquo;hungry&rdquo;
+    for social additives to the catalog. Blyberg writes that 2006 &ldquo;is shaping
+    up to be the year a new OPAC vision is created.&rdquo; ILS Customer Bill of Rights
+    - John Blyberg details &ldquo;four simple, but fundamental&rdquo; needs from ILS
+    vendors: 1) Open, read-only, direct access to the database, 2)A full-blown, W3C
+    standards-based API to all read-write functions, 3)The option to run the ILS on
+    hardware of our choice, on servers that we administer and 4) High security standards.
+    Library 2.0 websites: Where to begin? - John suggests five directives to help
+    redesign library web sites: social software, open-source software, single sign-on,
+    open standards and an integrated OPAC. Why bother: the impact of social OPACs
+    - Blyberg makes is clear that he does not &ldquo;think we are doomed if we choose
+    not to implement social software in our OPAC.&rdquo; He contends that by adding
+    social software and/or applications we can create a feeling of community within
+    our OPACs. One key point is that &ldquo;findability is not the goal, but the activity
+    and the experience which is why I say that OPACs have the potential to be fascinating
+    places to visit and browse.&rdquo; OPACs in the frying pan, Vendors in the fires
+    - A round up of blog posts about OPACs, ILS and vendors for early June 2006. A
+    Wandering Eyre Actual Reasons Why My OPAC Sucks - Jane offers 16 actual reasons
+    why her OPAC sucks in response to an actual comment. OPACS (everyone together
+    now) SUCK - Jane reflects about the the concepts of tracking and finding in relation
+    to the OPAC and about how they are different. She suggests that these two concepts
+    intersect at the point where we need to locate an item at a specific moment in
+    time and that this is a good starting point for the conversation about how to
+    make things easier to find. We Are Broken, Not Them - A response to Karen Schneider&rsquo;s
+    post THE USER IS NOT BROKEN: A MEME MASQUERDING AS A MANIFESTO in which Jane adds
+    several of her own points to Karen&rsquo;s. ALA TechSource From Swine to Divine:
+    NCSU Unveils New Online Catalog - by Teresa Koltzenburg The Revolution Will be
+    Folksonomied - by Karen G. Schneider Measuring My First CIL - by Tom Peters How
+    OPACs Suck, Part 1: Relevance Rank (Or the Lack of It) - by Karen G. Schneider
+    How OPACs Suck, Part 2: The Checklist of Shame - by Karen G. Schneider How OPACs
+    Suck, Part 3: The Big Picture - by Karen G. Scheider Maison Bisson &hellip;And
+    Then You Realize You Wasted Your Life Raging Arguments About The Future of the
+    ILS Presentation: Designing an OPAC for Web 2.0 WPopac: An OPAC 2.0 Testbed WPopac
+    Gets Googled Free Markets, Bad Products, Slow Change Rates Library Garden Catching
+    Up Disruptive Library Technology Jester Is the Writing on the Wall for the Integrated
+    Library System? &ldquo;Is the Writing on the Wall?&rdquo; - Take 2 Lis.dom dream
+    of the children&rsquo;s materials OPAC across the great divide What I Learned
+    TodayState of Our ILS Touched a Nerve Librarian.netOPAC Manifesto my tag cloud
+    and forcing an OPAC solution Science Library Paddear OPAC: change or die full
+    text is coming . . . OPAC is going? academic libraries dislocated by technology
+    Confessions of a Science LibrarianYour ignorance will not protect you ex librisgetting
+    stuff into the opac Swem Review of TechnologyThe Catalog Under Scrutiny &ndash;
+    Part 1, a look at the OPAC The Catalog Under Scrutiny - Part 2, Open Source and
+    the ILS Librarian 1.5Talis white paper on Library 2.0 RFID, books and Library
+    2.0 - The Missing Link? ebyblogGoal Based Information Retrieval Experiences The
+    Flexible OPAC Plenty of Suckage to Go Around This Old Library Spamming Google
+    with the OPAC Library Laws are meant to be brokenMore reasons OPACs suck And so
+    begins the law library OPAC discussion Participation LiteracyLibrary 2.0 LawLibTechHow
+    OPACs Suck, Parts 1, 2 &#38; 3 Enhancing Library Catalogs with Tags Crossed WiresWhat
+    Web Users Hate Part 1: Search and Browse What Web Users Hate Part 2: Scanning
+    the Site What Web Users Hate Part 3: Reading Library clipsOPAC in a blog and library
+    2.0 SLE feeds for Library OPACs Librarian in the MiddleTEACHING OPAC SKILLS The
+    Goblin in the LibrarySlouching Towards OPAC 2.0 PanlibusPity the poor OPAC? Where
+    is the edge of the OPAC? The OPAC is not an end in itself ACRLogMore on XC from
+    David Lindahl Free Range LibrarianThe user is not broken: a meme masquerading
+    as a manifesto Information Wants to Be FreeCasey Bisson Speaks! We should all
+    listen. Dumb down the catalog? Yes, lets! The Failure of Middleware, Part 1: What&rsquo;s
+    the problem? The Failure of Middleware, Part 2: Who are our users? The Failure
+    of Middleware, Part 3: How do we measure up? The Failure of Middleware, Part 4:
+    What Works? The Failure of Middleware, Part 5: The Unintegrated Library System
+    &amp; Federated Search The Failure of Middleware, Part 6: Link Resolvers The Failure
+    of Middleware, Part 7: OAI and Google Scholar Affording the Rock-N-Roll LifestyleOPAC
+    Laments OPAC Laments CatalogablogOPAC iPod OPAChydermThe cost of switching LibDevILS
+    Architecture: Open vs Turnkey The OPAC: In What Age? Lorcan Dempsey&rsquo;s weblogLifting
+    out the catalog discovery experience Thinking about the catalog A service-able
+    catalogue Discover, locate, &hellip; vertical and horizontal integration LibraryCrunchOPAC
+    Wishlist, Continued OPAC Wishlist, more Where&rsquo;s MY OPAC browser? Walt at
+    randomWhat&rsquo;s a known item? TechEssence.InfoForcing Users to Learn the Catalog
+    - by Thomas Dowling Rethink the role of the library catalog - by Eric Lease Morgan
+    Pegasus LibrarianEmpathy, But Not Sympathy for Innovative Changing Nature of the
+    Catalog Search Motivation and the Expert/Novice One Big LibraryOn the Clarifying
+    of a Few Things The Problem with the ILS Bill of Rights My postsThe OPAC Strikes
+    Back Additional Thoughts on the OPAC The OPAC Debate Continues . . . Are We Really
+    Ready to Say Goodbye to the Sucky OPAC? The Main Reason I Think OPACs are a Problem
+    The Motivation Behind the Search The User Isn&rsquo;t Broken - But Neither is
+    the Library Library Users &amp; the Catalog Updates:7/6/2006 - I added some additional
+    blog posts to the list and started to annotate the entries.7/7/2006 - I continued
+    annotating some entries. I changed the formatting of the post to (I hope) make
+    the post easier to read (using bold for blog names and bullets for posts). [...]<!--%kramer-ref-post%-->"
+- id: 11496
+  author: blyberg.net &raquo; OPACs in the frying pan, Vendors in the fire
+  author_email: ''
+  author_url: http://www.blyberg.net/2006/06/18/opacs-in-the-frying-pan-vendors-in-the-fire
+  date: '2007-01-21 18:48:13 -0500'
+  date_gmt: '2007-01-21 23:48:13 -0500'
+  content: "<!--%kramer-ref-pre%-->[...] There is much to be disagreed with in my
+    posting (and be sure to take a look at the follow up based on some similar comments
+    from Walt Crawford), but there is one clarification that I would like to offer
+    here: The ILS is a suite of applications that, hopefully, facilitate everything
+    from the art of cataloging (not inventorying) to finding material and information.
+    [...]<!--%kramer-ref-post%-->"
+- id: 15283
+  author: Rene
+  author_email: rene.odeay@gmail.com
+  author_url: http://blog.talesofkingtut.com
+  date: '2007-05-14 04:43:57 -0400'
+  date_gmt: '2007-05-14 08:43:57 -0400'
+  content: "From a avid user of libraries for research and pleasure, <strong>I now
+    find the online catalogs a pain</strong>. I used to be able to look something
+    up and find related books in one-fourth the time it now takes on computers, using
+    the old fashioned card catalogs. \n\nTo my dismay my libraries are getting rid
+    of these paper records. Why have the libraries done this? Now there is no going
+    back, and no backup if all their systems crash and burn. Could happen, what if
+    a solar flare burns up all our electrical systems?\n\nThere is ONE good use for
+    these really slow computer catalogs, if you're online! and not IN the library.\n\nWhen
+    I want to find something now, after a few minutes on the computer catalog and
+    finding the sections my topic is in, I just go to the stacks and look at the books
+    shelved together. Course you don't always find all the related books you want
+    that way. But it is sometimes faster than using the computer. And that may be
+    a major cause of declining use of the digital catalogs. They are not effective
+    or quick. \n\nIf you can't find what you want in the library, guess what? You
+    go back to the internet cause you can find it faster there! Another reason for
+    the decline in use of the library itelf may be that they are getting rid of too
+    many books! \n\nI found you on favorite.me and am going to fave you.\nBut this
+    is intriguing as I never would have found you otherwise and I am ready to give
+    user input to librarians about this issue. So what if kids don't have a clue?
+    Teach them. They learn fast if they want to. If you don't surrender to the fads
+    yourselves.\n\nWhat do you have to say to users like me who are totally unhappy
+    with the new digital catalogs? And the new library policies?\n\nBill Gates was
+    totally wrong about \"Business at the Speed of Thought.\" It ain't.\nDo check
+    out my attempts at scholarliness and some fun from all the research that went
+    into my novel about King Tut:\nat http://blog.talesofkingtut.com\n\nWhat is this
+    option/plugin to get real-time preview of your comment as you write it? I want
+    it!\nRene"
+- id: 15340
+  author: the jester
+  author_email: jester@DLTJ.org
+  author_url: http://dltj.org/
+  date: '2007-05-14 22:28:58 -0400'
+  date_gmt: '2007-05-15 02:28:58 -0400'
+  content: "Rene --\r\n\r\nOut of curiosity, do you use Amazon.com or BarnesAndNoble.com
+    to look for books?  Does that user interface work better for you than the typical
+    library catalog?  There is a growing contingent in the library profession that
+    are seeking to apply the techniques and technologies in those book store catalogs
+    to our library catalogs.  (For example, the <a href=\"http://www.aadl.org/catalog\"
+    rel=\"nofollow\">Ann Arbor (MI) District Library</a>, the <a href=\"http://www.lib.ncsu.edu/catalog/\"
+    rel=\"nofollow\">North Carolina State University Library</a>, and the <a href=\"http://gapines.org/opac/en-US/skin/default/xml/index.xml\"
+    rel=\"nofollow\">Georgia PINES service</a>.)\r\n\r\nI don't think the economics
+    of printing, shipping, filing, unfiling, and shifting physical cards are viable
+    anymore.    Last year, OCLC produced 2.6 million physical cards ((<a href=\"http://web.archive.org/web/20070704162855/http://www.oclc.org/news/publications/annualreports/2006/2006.pdf\"
+    rel=\"nofollow\">OCLC 2006 Annual Report</a>, page 8)) down from 25.1 million
+    cards a year in 1996  ((<a href=\"http://digitalarchive.oclc.org/da/ViewObject.jsp?objid=0000004071\"
+    rel=\"nofollow\">OCLC 1995-1996 annual report</a>)) and 2.2 million catalog cards
+    each week in 1980 ((Headline of <a href=\"http://www.oclc.org/news/publications/newsletters/newsletter_index.htm\"
+    rel=\"nofollow\">May 1980 OCLC Newsletter</a> No. 129)).  Library automation started
+    with back-room functions &mdash; the printing of cards along with acquisitions,
+    serials control, and circulation; the public interface to the electronic holdings
+    of the library was historically one of the last modules to be developed.\r\n\r\nI
+    have no doubt that you find the existing catalog interfaces cumbersome and awkward.
+    \ Usability testing tells us that they fail.  It could be argued that it is easier
+    to perform the kinds of serendipitous discovery you were describing using the
+    online catalog; there are more access points with which to browse now &mdash;
+    all of the subject headings (not just the first one or two or three), all of the
+    additional authors and alternate titles, and even a \"shelf browse\" based on
+    call number order.\r\n\r\nProper computer system maintenance is a concern, and
+    the professionals running the library catalog should be following best practices
+    for off-site storage of backup tapes and regularly testing the backup media.  (I
+    don't share your concern for solar flares &mdash; if we have solar flares big
+    enough to wipe out library computer systems then we're going to have much bigger
+    problems on our hands.)\r\n\r\nLibraries serve at the pleasure of their patrons.
+    \ If the computer system at your local library is too slow and/or its collection
+    policies mean that it is getting rid of too many books, I'd encourage your to
+    voice your opinion to the leadership of your library.  Just please be aware that
+    the economics of asking for more books (which take up more space) and the physical
+    card catalog (which also takes up a great deal of space) may be diametrically
+    opposed.\r\n\r\nAs for myself, I can only speak first hand about two libraries.
+    \ First is <a href=\"http://www.ohiolink.edu/\" rel=\"nofollow\">my employer</a>
+    &mdash; where we engage daily with our consortium members (academic libraries)
+    and suppliers (publishers) to maximize the utility of money spent for raw content
+    and the delivery systems used by our patrons.  Second is <a href=\"http://columbuslibrary.org/\"
+    rel=\"nofollow\">my public library</a> where I and my family (especially the five-year-old)
+    are quite happy with the level of service on most accounts.  (\"most\" because
+    their catalog interface needs quite a bit of work, too.)\r\n\r\nThanks for the
+    conversation starter.  Feel free to continue.  The Wordpress plug-in generating
+    the comment preview is <a href=\"http://dev.wp-plugins.org/wiki/LiveCommentPreview\"
+    rel=\"nofollow\">Live Comment Preview</a>.  I wish I could '<span class=\"removed_link\"
+    title=\"http://www.favorite.me.uk/\">favorite.me</span>' you as well, but unfortunately
+    I don't have my authentication cookie in my browser anymore. Hopefully the author
+    of that site will fix this problem soon.<p style=\"padding:0;margin:0;font-style:italic;\"
+    class=\"removed_link\">The text was modified to remove a link to http://www.favorite.me.uk/
+    on November 19th, 2012.</p>"
+---
+<p>Walt Crawford <a href="/article/dis-ils#comment-432">chided me</a> &mdash; rightly so &mdash; for yesterday's <a href="/article/dis-ils/">Is the Writing on the Wall for the Integrated Library System?</a> post.  My choice of language was, admittedly, sloppy.  I was fired up last night...distracted, if you will, by what was happening at <a href="http://web.archive.org/web/20060605000000/http://www.jcdl2006.org/" title="http://web.archive.org/web/20060605000000/http://www.jcdl2006.org/">a really good conference</a>.  Please allow me the chance to redeem my argument.</p>
+<p>In academic libraries, in my experience, there has been a decline in the use of library catalogs.  This experience could be verified in the ARL supplementary statistics for at least that population of libraries (I think those numbers are password-protected, so it might be a challenge to try to use them).  When I get back on the ground and have some time, I will either offer confirmation of that supposition or retract it.</p>
+<p>I will dismiss the notion of asking reference librarians how they see users using the catalog because they are too close to the issue.  I believe, to use a phrase from Clayton Christensen's <i>Innovator's Dilemma</i>, that the library community is facing <strong>disruptive innovation</strong> &mdash; the first it has had to deal with in quite some time.  And, according to Christensen's model, one of the traps encountered when faced with disruptive innovation is listening too closely to customers (implying here that reference librarians are one of the key customers of the catalog).  Listening to customers tends to drive a product into "performance oversupply" with lots of features and tweaks that most customers don't really want yet still pay for because there is not yet an alternative.  The suppliers are acting rationally, too &mdash; after all, what supplier wouldn't want to meet all of the desires of its squeakiest wheels?</p>
+<p>I ask you &mdash; does that sound at all like your most favorite (or least favorite, as the case might be) OPAC supplier?  Therein lies the trap -- not only for libraries but also for the library software vendors.</p>
+<blockquote><p>
+Listening to ourselves (librarians in general) is what is getting us into this situation in the first place. We keep focusing on increasingly small improvements with a relatively low return on investment while users of a whole new modality of communication (call it "Web 2.0", if you will) look over their shoulder (if we&rsquo;re lucky) and wonder why we&rsquo;re not keeping up.
+</p></blockquote>
+<p>You stated: "I frankly find it unbelievable that OPACs aren&rsquo;t being used. Of course they are."  Agreed.  They are being used.  OPACs are very effective at figuring out whether your library has a known item as well as what titles your library holds by a known author.</p>
+<p>You asked: "Are they being used as often or in the ways librarians might like them to be?"  Well, I don't know about the profession in general but I'm guessing not because instructional sessions surrounding the use of the catalog continue (again, primarily in the academic library space) and even librarians will admit to using Amazon or BN.com or the like to find an item they are looking for.</p>
+<p>[Since you are not running an OPAC, Walt, I suspect these three questions will have to be in the abstract for you (should you choose to comment).]  I'll ask: "Are they being used as effectively as they could be?"  And related: "Does their current use justify their on-going expense?"  And lastly:  "When is the last time someone thanked you for a new feature you worked hard to get into your system?"  If it has been too long, what should we do about it?</p>

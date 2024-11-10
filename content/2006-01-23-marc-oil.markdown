@@ -1,0 +1,56 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'The MARC format:  the Library Equivalent to Reliance on Oil?'
+modified: 2006-01-23T14:02:33+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 17
+wordpress_url: http://dltj.org/?p=17
+date: '2006-01-23 09:02:33 -0500'
+date_gmt: '2006-01-23 14:02:33 -0500'
+category: Disruption in Libraries
+categories:
+- Disruption in Libraries
+tags: []
+comments:
+- id: 6
+  author: 12 frogs &raquo; Blog Archive &raquo; Some geek with my whine
+  author_email: ''
+  author_url: http://12frogs.com/12/archives/2006/01/some-geek-with-my-whine/
+  date: '2006-01-31 18:03:01 -0500'
+  date_gmt: '2006-01-31 23:03:01 -0500'
+  content: "[...] New-to-me blog Disruptive Library Technology Jester asks The MARC
+    format: the Library Equivalent to Reliance on Oil? [...]"
+- id: 12666
+  author: 'Disruptive Library Technology Jester :: Do I Want to be a Warrior in ALA&#8217;s
+    Battle?'
+  author_email: ''
+  author_url: http://dltj.org/2007/02/ala-renewal/
+  date: '2007-02-28 14:17:41 -0500'
+  date_gmt: '2007-02-28 19:17:41 -0500'
+  content: "[...] Admittedly, I was not in Seattle last month so I may be a little
+    out of tune with the workings of my association, but has there been a declaration
+    of war that I missed? Is there really a battle underway for the hearts and minds
+    of our patrons? Is this the only reason ALA exists? Perhaps this is a personal
+    bias, but this message conjures up mental images of feuding over MARC tags and
+    mind-numbing debate of resolutions during ALA membership sessions that would seem
+    to have very little to do with the real world. [...]"
+---
+<p><a href="http://www.thomaslfriedman.com/" title="Home | Thomas L. Friedman">Thomas Friedman</a>, author of <a href="http://www.worldcat.org/title/longitudes-and-attitudes-exploring-the-world-after-september-11/oclc/51936686" title="301 Moved Permanently">Longitudes and Attitudes</a> and <a href="http://www.worldcat.org/title/world-is-flat-a-brief-history-of-the-twenty-first-century/oclc/57202171" title="301 Moved Permanently">The World Is Flat</a>, has a column in Friday's New York Times called <a href="http://select.nytimes.com/2006/01/20/opinion/20friedman.html?_r=4&amp;" title="http://select.nytimes.com/2006/01/20/opinion/20friedman.html">The New 'Sputnik' Challenges: They All Run on Oil</a>.  In it he talks about an energy crisis brought on by four factors:  the high price of oil, emerging markets in China and India, the need for "green" energy, and the effect on western democracies of all of the above.  He then goes on:</p>
+<blockquote><p>
+The one thing we can do now to cope with all four of these trends is to create a tax that fixes the pump price at $3.50 to $4 a gallon -- no matter where the OPEC price goes. Because if consumers know that the price of oil is never coming down, they will change their behavior. And when consumers change their behavior in a big way, G.M., Ford and DaimlerChrysler will change their cars in a big way, and it is cars and trucks that consume a vast majority of the world's oil.</p>
+<p>The more Detroit goes green, the faster it will be propelled down the innovation curve, making it more likely that Detroit -- and not Toyota or Honda or the Chinese -- will dominate the green technologies of the 21st century. A permanent gasoline tax will also make solar, wind and biofuels so competitive with oil that it will drive their innovations as well.
+</p></blockquote>
+<p>Well, my thoughts linger not on the energy crisis (this is a blog about disruptive <em>library</em> technologies after all), but on what it would take to propel library practice down a new road.  There are factors that buffet our profession as well: the high cost of labor to create descriptive cataloging records, emerging commercial and open source systems competing in the information management space, rival standards like ONIX for <a href="http://www.editeur.org/onix.html" title="EDItEUR">books</a> and <a href="http://www.editeur.org/onixserials.html" title="EDItEUR">serials</a>, and a momentum that, from the outside looking in, seems like <a href="http://litablog.org/2006/01/marbi-matters-2/" title="http://litablog.org/?p=172">a lot</a> of <a href="http://litablog.org/2006/01/marbi-matters-pt-2/" title="http://litablog.org/?p=178">proprietary</a> <a href="http://litablog.org/2006/01/marbi-matters-pt-3/" title="http://litablog.org/?p=179">minutia</a>.</p>
+<p>Please don't get me wrong -- I can appreciate the hard word that goes into maintaining a standard like MARC and am not denigrating the people doing that hard work.  I do wonder, however, if it is the right work to be done.  Especially given this bit from the <a href="http://litablog.org/2006/01/marbi-matters-pt-2/" title="http://litablog.org/?p=178">well-written notes</a> by Diane Hillmann of Cornell from a MARBI meeeting at Midwinter 2006:</p>
+<blockquote><p>
+Gary Smith from OCLC pointed out that though fixed fields are marginally better for processing they&rsquo;re also harder to get right, and he advocated that we &ldquo;stop using the technology of the sixties&rdquo; to accomplish our aims (to which statement one of my Peanut Gallery companions said, &ldquo;Amen, brother.&rdquo;)
+</p></blockquote>
+<p>Is our reliance on MARC equivalent to reliance on oil?  Okay, maybe a stretch -- but that is what is going through my mind as I read Thomas Friedman's article and I look at the general direction of our profession with the rest of the world...</p>
+<p>PS:  I think my "Clayton Christensen" category, where these thoughts are being placed, probably does need to be renamed.  Thoughts?<br />
+Update -- this has been weighing on my mind, so there is now a <a href="/category/disruption-in-libraries/">Disruption in Libraries</a> category, which will be used for the application of Christensen's theories on (mostly academic) libraries.  The <a href="/category/christensen/">Christensen</a> category will now be for commentary on works by him or his colleagues.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://dltj.org/category/christensen to http://dltj.org/category/christensen/ on September 26th, 2013.</p>

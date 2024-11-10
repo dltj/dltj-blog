@@ -1,7 +1,9 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-vendor/
-.bundle/config
+.pdm-python
 webmentions-cache/*
+__pycache__
+.venv/
+.vscode/
+cache/
+output/
+src/
+tests/

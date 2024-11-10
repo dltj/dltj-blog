@@ -1,0 +1,62 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Latest Views on JPEG2000 for Presentation and Archiving'
+modified: 2010-11-29T20:22:17+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 1874
+wordpress_url: http://dltj.org/?p=1874
+date: '2010-11-29 15:22:17 -0500'
+date_gmt: '2010-11-29 20:22:17 -0500'
+category: JPEG2000
+categories:
+- JPEG2000
+tags:
+- jpeg2000
+- preservation
+- imaging
+- presentation
+comments:
+- id: 159927
+  author: bill lefurgy
+  author_email: ''
+  author_url: http://twitter.com/blefurgy/status/9620738034110464
+  date: '2010-11-30 14:52:17 -0500'
+  date_gmt: '2010-11-30 19:52:17 -0500'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">RT @digitalkoans: Latest Views on JPEG2000 for
+    Practitioners, Presentation and Archiving http://icio.us/d1p1nc</span></span>'
+- id: 159928
+  author: DigitalKoans
+  author_email: ''
+  author_url: http://twitter.com/digitalkoans/status/9619864415109120
+  date: '2010-11-30 14:48:49 -0500'
+  date_gmt: '2010-11-30 19:48:49 -0500'
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">Latest Views on JPEG2000 for Presentation and
+    Archiving http://icio.us/d1p1nc</span></span>
+- id: 159929
+  author: Simon Tanner
+  author_email: ''
+  author_url: http://twitter.com/simontanner/status/9575692249341952
+  date: '2010-11-30 11:53:17 -0500'
+  date_gmt: '2010-11-30 16:53:17 -0500'
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">Latest Views on JPEG2000 for Presentation and
+    Archiving | Disruptive Library Technology Jester http://bit.ly/g0Tn98</span></span>
+- id: 159930
+  author: infopeep
+  author_email: ''
+  author_url: http://twitter.com/infopeep/status/9350297046482944
+  date: '2010-11-29 20:57:39 -0500'
+  date_gmt: '2010-11-30 01:57:39 -0500'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">Murray, Peter: Latest Views on JPEG2000 for Presentation
+    and Archiving http://bit.ly/hpI8Z5</span></span>'
+---
+<p>Earlier this month, the <a href="http://jp2k-uk.wikidot.com/" title="JP2K-UK Working Group wiki">JPEG 2000 Implementation Working Group</a>, the <a href="http://library.wellcome.ac.uk/" title="The Wellcome Library">Wellcome Trust Library</a>, and the <a href="http://www.dpconline.org/" title="Digital Preservation Coalition homepage">U.K. Digital Preservation Coalition</a> hosted a free one-day seminar called <a href="http://www.dpconline.org/events/details/19-jpeg-2000-for-the-practioner" title="Events - JPEG 2000 for the Practioner | Digital Preservation Coalition">JPEG2000 for the Practitioner</a>.  The presentation slides are now linked to the <a href="http://www.dpconline.org/events/details/19-jpeg-2000-for-the-practioner" title="Events - JPEG 2000 for the Practioner | Digital Preservation Coalition">seminar program</a> and is a <a href="http://jpeg2000wellcomelibrary.blogspot.com/2010/11/jpeg-2000-seminar-edited-highlights-1.html" title="JPEG 2000 at the Wellcome Library: JPEG 2000 seminar - edited highlights #1">short</a> <a href="http://jpeg2000wellcomelibrary.blogspot.com/2010/11/jpeg-2000-seminar-edited-highlights-2.html" title="JPEG 2000 at the Wellcome Library: JPEG 2000 seminar - edited highlights #2">report</a> of the event by Christy Henshaw of Wellcome Library.  The presentation slides by themselves carry a great deal of depth even without a recording of the audio.  In particular I can recommend "<a href="http://www.dpconline.org/component/docman/doc_download/525-jp2knov2010tanner" title="Presentation slides from &039;What did JPEG 2000 ever do for us?&039; by Simon Tanner">What did JPEG 2000 ever do for us?</a>" by Simon Tanner and "<a href="http://www.dpconline.org/component/docman/doc_download/522-jp2knov2010clark" title="Presentation slides from &039;JPEG 2000 standardization - a pragmatic viewpoint&039; by Richard Clark">JPEG 2000 standardization - a pragmatic viewpoint</a>" by Richard Clark.  As brief introductions to where we've been with JPEG 2000 and where we could go.</p>
+<p>Hat tip to Ron Murray for pointing this out to me.</p>

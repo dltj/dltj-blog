@@ -1,0 +1,51 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'OAI-ORE Alpha Specifications Updated'
+modified: 2008-04-16T02:20:33+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 350
+wordpress_url: https://dltj.org/?p=350
+date: '2008-04-15 22:20:33 -0400'
+date_gmt: '2008-04-14 14:11:07 -0400'
+category: Linking Technologies
+categories:
+- Linking Technologies
+tags:
+- Open Archives Initiative
+- atompub
+comments:
+- id: 33016
+  author: DigitalKoans &raquo; Blog Archive &raquo; Updated Alpha Version of ORE Specification
+    and User Guide Released
+  author_email: ''
+  author_url: http://digital-scholarship.org/digitalkoans/2007/12/12/alpha-release-of-the-ore-specification-and-user-guide/
+  date: '2008-04-14 21:02:27 -0400'
+  date_gmt: '2008-04-15 01:02:27 -0400'
+  content: <!--%kramer-ref-pre%-->[...] more about it at "OAI-ORE Alpha Specifications
+    Updated." Latest posts in Digital RepositoriesDigital Repository Case Studies
+    - April 14th, 2008Two [...]<!--%kramer-ref-post%-->
+- id: 33024
+  author: DigitalKoans &raquo; Blog Archive &raquo; Updated Alpha Version of ORE Specification
+    and User Guide Released
+  author_email: ''
+  author_url: http://digital-scholarship.org/digitalkoans/2008/04/14/updated-alpha-version-of-ore-specification-and-user-guide-released/
+  date: '2008-04-16 14:31:21 -0400'
+  date_gmt: '2008-04-16 18:31:21 -0400'
+  content: '<!--%kramer-ref-pre%-->[...] more about it at "OAI-ORE Alpha Specifications
+    Updated." Latest posts in Digital RepositoriesRepositories Support Project Releases
+    Briefing Papers: [...]<!--%kramer-ref-post%-->'
+---
+<p>As a result of discussions coming from the <abbrev title="Open Archives Initiative">OAI</abbrev>-<abbrev title="Object Reuse and Exchange">ORE</abbrev> open meeting in Baltimore in the first week of March, the document editors released <a href="http://www.openarchives.org/ore/0.3/toc" title="ORE Specification and User Guide - Table of Contents">a new version of the ORE alpha specifications</a> (labeled "0.3") earlier this month to coincide with the open meeting at Southampton, UK.  In a message to the technical committee, Herbert Van de Sompel summarized the changes as:</p>
+<ul type="square">
+<li><a href="http://www.openarchives.org/ore/0.3/datamodel" title="ORE Specification - Abstract Data Model">Data Model</a>: changes in the relationship between Resource Map and Aggregation; introduction of a solution regarding the reference in context; revised approach regarding nesting aggregations.</li>
+<li><a href="http://www.openarchives.org/ore/0.3/atom" title="http://www.openarchives.org/ore/0.3/atom">Atom serialization</a>: Significant revision of the mapping from the ORE Model to Atom.</li>
+<li>Introduction of <a href="http://www.openarchives.org/ore/0.3/primer" title="ORE User Guide - Primer">an ORE Primer</a> (formerly called the data model overview)</li>
+<li>Introduction of a <a href="http://www.openarchives.org/ore/0.3/http" title="ORE User Guide - HTTP Implementation and Multiple Serializations">document describing implementation issues regarding HTTP URIs for Aggregations and Resource Maps</a>.</li>
+<li><a href="http://www.openarchives.org/ore/0.3/rdfsyntax" title="http://www.openarchives.org/ore/0.3/rdfsyntax">RDF serialization document</a>: This document was first made available in alpha 0.2. It deals with RDF/XML but also RDFa that can, for example be used, in splash pages.</li>
+</ul>
+<p>Comments are still welcome, and the <a href="http://groups.google.com/group/oai-ore" title="OAI-ORE discussion list on Google Groups">OAI-ORE discussion list</a> has been quite active the past few weeks.  The document editors are aiming for a beta release of the specification in mid-May.</p>

@@ -1,0 +1,40 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Ohio Digital Commons for Education Conference Announcement'
+modified: 2006-09-12T18:54:31+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 115
+wordpress_url: http://dltj.org/2006/09/odce2007/
+date: '2006-09-12 14:54:31 -0400'
+date_gmt: '2006-09-12 19:54:31 -0400'
+category: Meeting
+categories:
+- OhioLINK
+- Meeting
+tags:
+- OhioLINK
+- library 2.0
+- higher education
+- odce07
+comments: []
+---
+<p><img src="/assets/images/2006/09/odcelogo.gif" width="168" height="250" alt="[Image: ODCE Logo]" style="float: right;" />Where can faculty, administrators, librarians and technology gurus all meet to discuss learning, libraries, technology and the convergence of these activities? At the <span class="removed_link" title="http://www.oln.org/conferences/ODCE2007/ODCE2007.php">Ohio Digital Commons for Education 2007</span> &ndash; The Convergence of Learning, Libraries and Technology Conference, of course!</p>
+<p>Be a part of ODCE 2007! The Ohio Digital Commons for Education partners &mdash; <a href="http://www.oln.org/" title="http://www.oln.org/">Ohio Learning Network</a>, <a href="http://www.ohiolink.edu/" title="OhioLINK - The Ohio Library and Information Network">OhioLINK</a>, and the <a href="http://www.osc.edu/" title="Welcome to OSC!">Ohio Supercomputer Center/OARnet</a> &mdash; are seeking interactive and engaging proposals for presentations, pre-conference workshops and technology demonstrations. Proposals are sought for the following topics:</p>
+<ul>
+<li>E Squared &ndash; Effectiveness and Efficiencies</li>
+<li>STEM2: Science, Technology, Engineering, Mathematics and Medicine</li>
+<li>Who are the Learners? - Serving New Audiences</li>
+<li>WMP: Wireless, Mobile and Personal</li>
+<li>Reinventing the Learning Environment: Walking the Walk</li>
+<li>What&rsquo;s The Buzz? &ndash; Vendor Presentations</li>
+</ul>
+<p>Visit <span class="removed_link" title="http://www.oln.org/conferences/ODCE2007/ODCE2007.php">http://www.oln.org/conferences/ODCE2007/ODCE2007.php</span> to review the <span class="removed_link" title="http://www.oln.org/conferences/ODCE2007/ODCE2007_Final_CALL.pdf">complete call for presentations</span> [PDF] or to <span class="removed_link" title="http://www.oln.org/conferences/ODCE2007/ODCE2007proposal.php">submit a proposal</span>. The deadline for proposal submission is Friday, November 17, 2006.</p>
+<p>ODCE 2007 will include keynote speakers, vendor exhibits and technology demonstrations. It will be held March 4-6, 2007, at the <a href="http://www.hilton.com/en/hi/hotels/index.jhtml?ctyhocn=CMHCHHF" title="Columbus Hilton at Easton Town Center home page">Columbus Hilton at Easton Town Center</a> in Columbus, Ohio. Online registration will be available in December.</p>
+<p><span class="removed_link" title="http://hitchhikr.com/index.php?conf_id=84">Track the conference at Hitchhikr</span>.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://www.oln.org/conferences/ODCE2007/ODCE2007_Final_CALL.pdf on December 30th, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://hitchhikr.com/index.php?conf_id=84 on November 6th, 2012.</p>

@@ -1,0 +1,53 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Presentation Summary: "Cross-Repository Semantic Interoperability: the MIT SIMILE Project"'
+modified: 2007-01-29T19:32:33+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 177
+wordpress_url: http://dltj.org/2007/01/simile/
+date: '2007-01-29 14:32:33 -0500'
+date_gmt: '2007-01-29 19:32:33 -0500'
+category: Meeting
+categories:
+- Meeting
+- Raw Technology
+tags:
+- metadata
+- icor2007
+- DSpace
+- RDF
+- digital libraries
+- semantic web
+comments:
+- id: 11960
+  author: NSDL Road Reports &raquo; Blog Archive &raquo; NSDL Presentations at Open
+    Repositories 2007
+  author_email: ''
+  author_url: ''
+  date: '2007-02-01 14:42:15 -0500'
+  date_gmt: '2007-02-01 19:42:15 -0500'
+  content: "[...] Rogers, Smith, Cross-Repository Semantic Interoperability: the MIT
+    SIMILE Project http://dltj.org/2007/01/simile/ [...]"
+---
+<p>Richard Rodgers presented this talk based on the work of he and MacKenzie Smith in the Digital Library Research Group at MIT.  The original abstract of the presentation was:</p>
+<blockquote><p>Many questions are raised as previously unreachable digital content is found in and among new repositories--is each repository an island or a separately searchable resource? SIMILE (Semantic Interoperability of Metadata and Information in Unlike Environments) has developed an extensive 'tool chain' for gathering and manipulating data assets. Richard Rodgers and MacKenzie Smith, MIT, will demonstrate how tools developed by the SIMILE project can be used as powerful instruments for the federation, discovery, exploration, and curation of metadata.</p></blockquote>
+<p>The mission of the <a href="http://simile.mit.edu/" title="SIMILE Project homepage">SIMILE suite of projects</a> is to build tools for data interoperability.  Dealing with heterogeneous metadata in repository design and use is a complex challenge, and the position that SIMILE takes is that no matter what single metadata scheme you select at the start of a repository project, one runs into trouble as subsequent collections come in with other semantically-rich collection-specific metadata schemes.  This puts the repository designer between a rock (semantic reduction and loss because metadata crosswalks are "lossy") and a hard place (one has serious scalability problems -- does one construct separate queries for each metadata schema -- if all of the uniqueness of the metadata coming to the repository is embraced.</p>
+<p>SIMILE uses RDF and other semantic web technologies contributing to the solution of heterogeneous metadata problem.  Statements about documents are inherently more mixable than the documents themselves, and RDF is a more mixable language than trying to harmonize metadata.  RDF represents data as a graph, not as a table (RDBMS) or tree (XML).  The tools created by SIMILE fall into four categories:</p>
+<ul>
+<li>Convert: RDFizers (for converting structured data to RDF, such as MARC into RDF), Babel</li>
+<li>Visualize: Gadget (a data graph viewer for XML; it constructs all of the XPATHS in a document and projects them along with frequency of occurrences as a way to look at XML documents from a structural level), Welkin (same as Gadget except for RDF)</li>
+<li>Browse: Longwell (see below), Piggy Bank (Firefox plugin; RDFizes an HTML page by using JavaScript to scrape metadata from websites and putting it into your personal repository), Semantic Bank (a way to publish RDF and  create communities of RDF content)</li>
+<li>Lightweight UI:  Timeline, exhibit widgets (highly interactive faceted browse displays that divide the processing between client and server through the use of AJAX)</li>
+</ul>
+<p>Richard went into detail on Longwell, a faceted browser web application.  Using a RDF triple-store backend (Sesame), Longwell presents data in a configurable, extensible user interface.  One of the interesting technologies it uses is the W3C-defined Fresnel Display Vocabulary.  There is not anything equivalent to CSS in the RDF world to a layout styling language.  The W3C thought they could spur development of RDF tools if there was a way of expressing a display vocabulary in RDF, hence the Fresnel Display Vocabulary.  Longwell has been embedded into DSpace as an <span class="removed_link" title="http://dspace.mit.edu/dwell/advanced-search">optional advanced search engine called "DWell"</span>.</p>
+<p>Update at 20070129T1646 &mdash; also see Dorothea Salo summary: </p>
+<p>Source: Caveat Lector &raquo; SIMILE<br />
+Address : <a href="http://web.archive.org/web/20081121161752/http://cavlec.yarinareth.net/archives/2007/01/28/simile/" title="403 Forbidden">http://cavlec.yarinareth.net/archives/2007/01/28/simile/</a><br />
+Date Visited: Mon Jan 29 2007 16:43:35 GMT-0500 (EST)
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://dspace.mit.edu/dwell/advanced-search on August 22nd, 2013.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://cavlec.yarinareth.net/archives/2007/01/28/simile/ to http://web.archive.org/web/20081121161752/http://cavlec.yarinareth.net/archives/2007/01/28/simile/ on August 22nd, 2013.</p>

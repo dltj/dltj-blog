@@ -1,0 +1,100 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'CDL''s XTF as a Front End to Fedora'
+modified: 2006-08-22T12:29:09+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 105
+wordpress_url: http://dltj.org/2006/08/xtf-fedora-1/
+date: '2006-08-22 08:29:09 -0400'
+date_gmt: '2006-08-22 13:29:09 -0400'
+category: Library Technology
+categories:
+- DRC
+- Fedora
+tags:
+- DRC
+- OhioLINK
+- digital libraries
+- California Digital Library
+- xtf
+- libraries
+- Fedora Repository
+comments:
+- id: 2986
+  author: Martin Haye
+  author_email: m1@snyder-haye.com
+  author_url: ''
+  date: '2006-08-22 15:42:37 -0400'
+  date_gmt: '2006-08-22 20:42:37 -0400'
+  content: "For the dynaXML side of things, I think it will be pretty straightforward
+    to implement (in Java) a DocLocator that downloads a document from Fedora and
+    creates a lazy file. The existing DefaultDocLocator would be a pretty good starting
+    place.\r\n\r\nIssues for the long-term would be timestamp checking to update the
+    lazy tree when the source document changes, and flushing long-unused lazy tree
+    files to bound disk space. Though nowadays, with disk sizes growing so quickly,
+    perhaps the latter isn't even a concern.\r\n\r\nFor textIndexer, there is actually
+    a straightforward Java API. In the XMLTextProcessor class, see these methods:
+    open(homepath, idxInfo, clean), close(), queueText(idxSrc), processQueuedTexts(),
+    removeSingleDoc(), and optimizeIndex(). \r\n\r\nYou'd just need to write a driver
+    program that creates an XMLIndexSource for each source document and passes it
+    to XMLTextProcessor. XMLIndexSource needs a Saxon InputSource, and the file path
+    is optional.\r\n\r\nOne downside of this route is that it won't take advantage
+    of the textIndexer's incremental facilities. If you wanted incremental indexing,
+    you'd probably have to roll your own to some extent."
+- id: 5848
+  author: Search - IU Digital Library Program Confluence
+  author_email: ''
+  author_url: http://wiki.dlib.indiana.edu/confluence/pages/viewpage.action;jsessionid=E9047556F819B382215BF01036AE5783?pageId=491
+  date: '2006-10-21 09:22:43 -0400'
+  date_gmt: '2006-10-21 13:22:43 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] Peter Murray has written a series of blog
+    articles on combining XTF with Fedora. [...]<!--%kramer-ref-post%-->"
+---
+<p>We're experimenting pretty heavily now with the <a href="http://cdlib.org/" title="California Digital Library">California Digital Library</a>'s <a href="http://sourceforge.net/projects/xtf" title="SourceForge.net: eXtensible Text Framework (XTF)">XTF</a> framework as a front-end to a <a href="http://www.fedora.info/" title="Fedora">FEDORA object repository</a>.  Initial efforts look promising -- thanks go out to Brian Tingle and Kirk Hastings of CDL; Jeff Cousens, Steve DiDomenico, and Bill Parod from Northwestern; and Ross Wayland from UVa for helping us along in the right direction.</p>
+<h2>XTF into Eclipse How-To</h2>
+<p>As we get more serious about XTF, I wrote up a <span class="removed_link" title="http://drc-dev.ohiolink.edu/wiki/EclipseXTFHowTo">How-To document for bringing XTF into Eclipse</span> so that it can be deployed as a dynamic web application.  Let me know if you find it useful.  Definitely let me know if you find it in error.  We haven't put a version of XTF into OhioLINK's source code repository, but that might follow shortly.</p>
+<h2>Points of Integration</h2>
+<p>In its base configuration, XTF reads documents out of a "data" directory that is in the application's Tomcat context directory.  It looks like two of the XTF components will need to be modified to successfully converse with a FEDORA-based object repository:  DynaXML and textIndexer.  Of the two, DynaXML seems to be the most straight forward.</p>
+<h3>DynaXML</h3>
+<p>First I went looking for where XTF's DynaXML reads documents and found the <a href="http://xtf.hg.sourceforge.net/hgweb/xtf/xtf/file/549e4167039e/WEB-INF/src/org/cdlib/xtf/dynaXML/DocLocator.java">DocLocator interface</a> with one <a href="http://xtf.hg.sourceforge.net/hgweb/xtf/xtf/file/de7d8a406bef/WEB-INF/src/org/cdlib/xtf/dynaXML/DefaultDocLocator.java">implementation that looks into the file system</a>.  John Davison, one of the DRC programmers, figured out (with help from the CDL folks) that in fact it is possible to pass a FEDORA API-A URL to DefaultDocLocator and have it do the right thing.  Its 'getInputSource()' method has this signature:</p>
+```java
+public InputSource getInputSource( String sourcePath,
+     boolean removeDoctypeDecl ) throws IOException
+```
+<p>...followed shortly by:</p>
+```java
+// If it's non-local, load the URL.
+if( sourcePath.startsWith("http:") ||
+      sourcePath.startsWith("https:") )
+{
+      return new InputSource( sourcePath );
+}
+```
+where "InputSource" is the <a href="http://www.docjar.com/docs/api/org/xml/sax/InputSource.html" title="InputSource">entry point into the SAX parser</a>, which will accept a URI as a parameter.</p>
+<p>Unfortunately, using DefaultDocLocator in this way negates the use of <span class="removed_link" title="http://xtf.sourceforge.net/WebDocs/HTML/XTF_Under_Hood/XTFUnderHood.html#LazyFiles">CDL's "Lazy Trees"</span> (a binary version of each XML document containing all the original contents of the document, plus an index telling XTF where each element starts and ends).  Lazy Trees are a good thing because they speed up parsing of the XML document and the resulting rendering to the user.</p>
+<p>When dealing with local files (as opposed to the URL method described above), DefaultDocLocator will build a Lazy Tree in its index directory the first time the XML document is called up.  In implementing a FEDORA interface for XTF's DynaXML, what is required is a mixture of URL (or, in the case of FEDORA, a PID plus API-A call) to get the document and then create/store its lazy tree in the XTF index directory for subsequent retrieval.  This does seem pretty straight forward, does it not?</p>
+<h3>textIndexer</h3>
+<p>XTF's textIndexer, on the other hand, really wants the XML it is indexing to be files on the local hard drive.  The XTF programming guide speaks of a <span class="removed_link" title="http://xtf.sourceforge.net/WebDocs/HTML/XTF_Programming_Guide/XTFProgGuide.html#textIndexer_DocSelector_Prog">textIndexer Document Selector</span> whose job it is to create a single XML file with the specifications of which documents to index and how to do it:</p>
+<blockquote><p>
+It is the responsibility of the <b>Document Selector</b> XSLT code to output an XML fragment that identifies which of the files in the directory should be indexed. This output XML fragment should take the following form:<br />
+```xml
+<indexfiles>
+    <indexfile fileName      = "FileName"
+               {format       = "FileFormatID"}
+               {preFilter    = "PreFilterPath"}
+               {displayStyle = "DocumentFormatterPath"}>
+</indexfile></indexfiles>
+```
+</p></blockquote>
+<p>Now the trick seems to be to build an alternate Document Selector that will not use filenames but rather URIs to build the index.  That'll be the subject of the next round of investigations.</p>
+<p>Comments and observations are welcome!
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://drc-dev.ohiolink.edu/wiki/EclipseXTFHowTo on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://xtf.sourceforge.net/WebDocs/HTML/XTF_Under_Hood/XTFUnderHood.html#LazyFiles on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://xtf.sourceforge.net/WebDocs/HTML/XTF_Programming_Guide/XTFProgGuide.html#textIndexer_DocSelector_Prog on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://xtf.cvs.sourceforge.net/xtf/xtf/WEB-INF/src/org/cdlib/xtf/dynaXML/DocLocator.java?revision=1.5&view=markup to http://xtf.hg.sourceforge.net/hgweb/xtf/xtf/file/549e4167039e/WEB-INF/src/org/cdlib/xtf/dynaXML/DocLocator.java on January 28th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://xtf.cvs.sourceforge.net/xtf/xtf/WEB-INF/src/org/cdlib/xtf/dynaXML/DefaultDocLocator.java?revision=1.10&view=markup to http://xtf.hg.sourceforge.net/hgweb/xtf/xtf/file/de7d8a406bef/WEB-INF/src/org/cdlib/xtf/dynaXML/DefaultDocLocator.java on January 28th, 2011.</p>

@@ -1,0 +1,184 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Truly Lossless JPEG2000 Compression'
+modified: 2007-05-03T14:15:01+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 231
+wordpress_url: http://dltj.org/2007/05/almost-lossless-jpeg2000/
+date: '2007-05-03 10:15:01 -0400'
+date_gmt: '2007-05-03 14:15:01 -0400'
+category: JPEG2000
+categories:
+- JPEG2000
+tags:
+- jpeg2000
+- preservation
+- Kakadu Software
+- photoshop
+- imaging
+- imagemagick
+- jasper
+comments:
+- id: 14687
+  author: JPEG 2000 in Archives and Libraries
+  author_email: ''
+  author_url: ''
+  date: '2007-05-04 13:02:04 -0400'
+  date_gmt: '2007-05-04 17:02:04 -0400'
+  content: "<!--%kramer-pre%--> Truly Lossless JPEG2000 Compression &mdash; Except
+    for Grayscale? GeoJPEG2000 and JPEG2000 Info, by Greg Coats JPSEC: Security for
+    JPEG-2000 images JPEG 2000: Good Things in Smaller Packages - Geospatial Solutions
+    <!--%kramer-post%-->"
+- id: 15172
+  author: Ron Murray
+  author_email: rmur@loc.gov
+  author_url: ''
+  date: '2007-05-12 17:25:04 -0400'
+  date_gmt: '2007-05-12 21:25:04 -0400'
+  content: "Now that parties in the Cultural Heritage community can verify to their
+    satisfaction that the lossless feature of JPEG 2000 is indeed lossless, they can
+    focus on what the image encoding results tell them.\r\n\r\nFor example, large
+    differences in file size between the uncompresssed TIFF and the lossless JPEG
+    2000 can be indicative of \"oversampling\" of the digital image. This can occur
+    when the ability of the scanner to resolve actual detail in the image falls below
+    the ability to sample the available detail with scanner driver software. While
+    the actual content of the image strongly determines compression savings with the
+    JPEG 2000 wavelet method, one should start getting a little suspicious when compression
+    savings are greater than 1.5:1 \r\n\r\nNote: Sampled image resolution is not identical
+    to available image resolution. The latter is bound by the laws of Physics and
+    hardware design, while the former is a characteristic of the driver software.\r\n\r\nOversampling
+    conditions can be measured using image quality target analyses like those based
+    on the ISO 16067 standard, and have notable consequences for digitizers (and their
+    clients, if the task is outsourced): \r\n\r\n* The image is not as resolute as
+    it is supposed to be.\r\n* The file sizes for uncompressed delivered and/or archived
+    formats (like TIFF) is much larger than it needs to be to support the actual quality
+    captured.\r\n\r\nThis phenomenon is not necessarily detectable if target-based
+    methods have not been used to establish the capabilities of in-house or vendor
+    operated scanning systems."
+- id: 33360
+  author: ImageMagick &bull; View topic - Lossless JPEG2000 isn't lossless in IM
+  author_email: ''
+  author_url: http://www.imagemagick.org/discourse-server/viewtopic.php?f=1&amp;t=11349&amp;p=36419
+  date: '2008-05-30 09:18:34 -0400'
+  date_gmt: '2008-05-30 13:18:34 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] and ImageMagic looked like a good solution.Before
+    I tried anything I came accross this info:http://dltj.org/article/lossless-jpeg2000/Quote:it
+    would appear Jasper/ImageMagick is not using the reversible (integer) wavelet
+    transform.I [...]<!--%kramer-ref-post%-->"
+- id: 229350
+  author: ''
+  author_email: ''
+  author_url: http://forum.ru-board.com/topic.cgi?forum=4&amp;active=2&amp;topic=4551
+  date: '2012-03-06 15:23:39 -0500'
+  date_gmt: '2012-03-06 20:23:39 -0500'
+  content: "<!--%kramer-ref-pre%-->[...]  [...]<!--%kramer-ref-post%-->"
+- id: 412849
+  author: ImageMagick &bull; View topic - Lossless JPEG2000 isn't lossless in IM
+  author_email: ''
+  author_url: http://www.wizards-toolkit.org/discourse-server/viewtopic.php?f=1&amp;t=11349&amp;start=0
+  date: '2013-01-06 10:28:04 -0500'
+  date_gmt: '2013-01-06 15:28:04 -0500'
+  content: "<!--%kramer-ref-pre%-->[...] and ImageMagic looked like a good solution.Before
+    I tried anything I came accross this info:http://dltj.org/article/lossless-jpeg2000/it
+    would appear Jasper/ImageMagick is not using the reversible (integer) wavelet
+    transform.I have [...]<!--%kramer-ref-post%-->"
+- id: 531213
+  author: raster - Wavelet vs Discrete compression for imagery - Geographic Information
+    Systems Stack Exchange
+  author_email: ''
+  author_url: http://gis.stackexchange.com/questions/28066/wavelet-vs-discrete-compression-for-imagery/28101?noredirect=1
+  date: '2013-04-22 12:46:48 -0400'
+  date_gmt: '2013-04-22 16:46:48 -0400'
+  content: <!--%kramer-ref-pre%-->[...] last comment is not valid for "lossless JPEG2000".
+    See this article for HowTo with Kakadu. Lossless is have the same exact information
+    than a TIFF image. The option for "quality [...]<!--%kramer-ref-post%-->
+- id: 652025
+  author: ''
+  author_email: ''
+  author_url: http://gallery.ru-board.com/topic.cgi?forum=4&amp;topic=4551
+  date: '2013-11-14 10:17:28 -0500'
+  date_gmt: '2013-11-14 15:17:28 -0500'
+  content: "<!--%kramer-ref-pre%-->[&#8230;]  [&#8230;]<!--%kramer-ref-post%-->"
+- id: 654226
+  author: Tormaid
+  author_email: tormaid@live.com
+  author_url: ''
+  date: '2013-12-31 22:02:24 -0500'
+  date_gmt: '2014-01-01 03:02:24 -0500'
+  content: Did this problem ever get resolved in ImageMagick?
+- id: 654260
+  author: Peter Murray
+  author_email: jester@dltj.org
+  author_url: http://dltj.org/about
+  date: '2014-01-02 10:00:12 -0500'
+  date_gmt: '2014-01-02 15:00:12 -0500'
+  content: Hello, Tormaid.  I haven't kept up on what is happening with Jasper and
+    ImageMagick.  I hope it would be addressed by now!
+- id: 679353
+  author: Enabling Reversible Integer Transforms in JPEG 2K Encoder - ImageMagick
+  author_email: ''
+  author_url: http://imagemagick.com/discourse-server/viewtopic.php?f=3&amp;t=24718
+  date: '2015-05-15 10:56:08 -0400'
+  date_gmt: '2015-05-15 14:56:08 -0400'
+  content: "<!--%kramer-ref-pre%-->[&#8230;] and none of the archiving professions
+    invested in JPEG 2000 recommend ImageMagick for this reason (this article in particular,
+    and this follow-up).I would like to be able to write .jp2 sequences piped [&#8230;]<!--%kramer-ref-post%-->"
+---
+<p>This posting used to have the tag "-- Except for Grayscale?" appended to the end of the title.  That is no longer needed; see the bottom of the post for an explanation.  We have been implementing University of Michigan's DLXS software, and DLXS uses JPEG2000 for its image masters.  We have been investigating reports of perceived changes in images in the conversion from our old media server to DLXS, and along the way I discovered an important fact:  the default parameters for two popular JPEG2000 codecs results in an irreversible transformation.  Here is how to address that.</p>
+<h2>Testing For Equivalence</h2>
+<p>We performed four tests to determine whether the source image was equivalent to the converted image.  Three tests use Photoshop:</p>
+<ul>
+<li>On a pixel-by-pixel basis, at high magnification, we looked for differences in the RGB and CMYK values between the source TIFF and the converted JPEG2000 image.</li>
+<li>Comparison by copying and pasting the JP2 on top of the TIF image and selecting "Difference" blending mode between the layers.  We then look at the histogram of the resulting image.  It should be all black, which shows as a black bar on the far left of the histogram view with the mean, median and standard deviation values all exactly 0.</li>
+<li>Using "Images > Calculations..." with 100% opacity difference blending between source images (the TIFF and the JP2) with the results put into a new document shows in a completely black image.  (This is likely equivalent to the test above, but we do it just to be sure).</li>
+</ul>
+<p>Another test uses <code>geoimgcmp</code>, which is <span class="removed_link" title="http://homepage.mac.com/gregcoats/jp2.html">part of GeoJasPer version</span> 1.3.2.  This command should return "0":</p>
+```bash
+geoimgcmp -f source.tif -F destination.jp2 -m rmse
+```
+<h2>Jasper via ImageMagick</h2>
+<p>The first thing we tried was <a href="http://www.ece.uvic.ca/~mdadams/jasper/" title="Jasper homepage">Jasper</a> 1.701 as compiled into <a href="http://www.imagemagick.org/" title="ImageMagick homepage">ImageMagick</a> 6.2.9.  The command looked something like this:</p>
+```bash
+convert source.tif -o destination.jp2
+```
+<p>I ran though the tests, though, and it would appear Jasper/ImageMagick is not using the reversible (integer) wavelet transform.</p>
+<h2>Kakadu</h2>
+<p>Next we tried <a href="http://www.kakadusoftware.com/" title="Kakadu Software homepage">Kakadu</a>.  Although it is commercial software, it is relatively inexpensive and we acquired a developer's license for our work on the Ohio Digital Resource Commons.   A straight compress doesn't get one a reversible transformation:</p>
+```bash
+kdu_compress -i source.tif -o destination.jp2
+```
+<p>A colleague did offer some help in the form of parameters that he uses to achieve truly lossless compression:</p>
+```bash
+kdu_compress -i source.tif -o destination.jp2 \
+       Creversible=yes -rate -,1,0.5,0.25 Clevels=5
+```
+<p>The parameters mean this (from the Kakadu usage documentation):</p>
+<dl>
+<dt><code>Creversible=yes</code></dt>
+<dd>Reversible compression?</dd>
+<dt><code>-rate -,1,0.5,0.25</code></dt>
+<dd>One or more bit-rates, expressed in terms of the ratio between the total number of compressed bits (including headers) and the product of the largest horizontal and  vertical image component dimensions.  A dash, "-", may be used in place of the first bit-rate in the list to indicate that the final quality layer should include all compressed bits.  Specifying a very large rate target is fundamentally different to using the dash, "-", because the former approach may cause the incremental rate allocator to discard terminal coding passes which do not lie on the rate-distortion convex hull.  This means that reversible compression might not yield a truly lossless representation if you specify `-rate' without a dash for the first rate target, no matter how large the largest rate target is.</dd>
+<dt><code>Clevels=5</code></dt>
+<dd>Number of wavelet decomposition levels, or stages.</dd>
+</dl>
+<p>Note that this implies this important default as well.</p>
+<dl>
+<dt><code>Corder=LRCP</code></dt>
+<dd>Default progression order.  The four character identifiers have the following interpretation: L=layer; R=resolution; C=component; P=position. The first character in the identifier refers to the index which progresses most slowly, while the last refers to the index which progresses most quickly.</dd>
+</dl>
+<h2>Conclusions</h2>
+<ol>
+<li>Although one might expect the default options for image conversion programs to be lossless, ImageMagick's 'convert' and Kakadu's 'kdu_compress' commands do result in lossy transformations.</li>
+<li>For our sample images, using the Kakadu command line options "<code>Creversible=yes -rate -,1,0.5,0.25 Clevels=5</code>" do appear to result in lossless transformations for source TIFF images.</li>
+</ol>
+<p>Thanks go out to Rob Buckley, Ron Murray, Kevin DeVorsey, Greg Coats, and David Taubman for their help in figuring this out.</p>
+<h2>4-May-2007 Update</h2>
+<p>There used to be a third conclusion above that said:  "For our sample greyscale images, we have not yet found a way to perform a lossless transformation to JPEG2000 when a downstream derivative is JPEG; there are perceptible differences between the JPEG created from the TIFF file versus the JPEG created from the losslessly compressed JPEG2000 file."  <a href="http://tech.groups.yahoo.com/group/kakadu_jpeg2000/message/4751" title="Message posted to the &#039;kakadu_jpeg2000&#039; mailing list">David Taubman's message on the Kakadu mailing list</a> caused me to go back and look at this again.  I think I found an error in the way I was creating the test images.  With that fixed, I can show empirically that a JPEG derived from the lossless JP2 <em>is exactly the same</em> as the JPEG derived from the TIFF (when using identical parameters for the conversion).  That, along with the earlier finding that the TIFF and the JP2 are identical would seem to mean that the differences in the RGB/CMYK values displayed in Photoshop were a <a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&amp;o0=1&amp;o7=&amp;o5=&amp;o1=1&amp;o6=&amp;o4=&amp;o3=&amp;s=red+herring&amp;i=1&amp;h=1000#c" title="Wordnet Entry for &#039;red herring&#039;">red herring</a>.</p>
+<p>In response to the question of the lossy settings as a default, Dr. Taubman also notes "that quality is somewhat better (particularly at reduced resolutions) when viewing lossy compressed images using the irreversible options rather than the reversible."  There are reasons for this, primarily due with what I understand as the elimination of image signal noise through through the act of lossly compression, but they are too complicated to address in this already-too-large correction text.
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://wordnet.princeton.edu/perl/webwn?s=red+herring to http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o7=&o5=&o1=1&o6=&o4=&o3=&s=red+herring&i=1&h=1000#c on January 20th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://homepage.mac.com/gregcoats/jp2.html on November 8th, 2012.</p>

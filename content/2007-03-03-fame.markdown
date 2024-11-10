@@ -1,0 +1,41 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Resource for Improving Higher Education Instruction'
+modified: 2007-03-03T22:14:22+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 192
+wordpress_url: http://dltj.org/2007/03/fame/
+date: '2007-03-03 17:14:22 -0500'
+date_gmt: '2007-03-03 22:14:22 -0500'
+category: Meta Category
+categories:
+- Meta Category
+tags:
+- higher education
+- section508
+- accessibility
+comments: []
+---
+<p>A few months back I referred to a project that used video to present information about accessibility needs in the classroom.  That article was about <a href="/article/standards-compliant-web-video/">how difficult it is to create markup for embedded video that is universally accessible and valid HTML</a>.  Late last month the larger project that used that work was released.  Called the <span class="removed_link" title="http://www.oln.org/ILT/ada/Fame/">Faculty &amp; Administrator Modules in Higher Education</span>, or FAME, it is a professional development tool for use in higher education with information on how college faculty, administrators, disability service providers, and students can work individually and collaboratively to improve the accommodations, teaching-learning process, and overall campus environment for students with disabilities.  The content on the website is broken up into five modules:</p>
+<ul>
+<li><a href="http://web.archive.org/web/20120628022658/http://fame.oln.org:80/rr/f1_1_1.html" title="FAME: Introductory Video < Introduction < Rights &amp; Responsibilities">Rights and responsibilities</a> of faculty, students, and disability service providers in the accommodations and instructional process;</li>
+<li><a href="http://web.archive.org/web/20120628022719/http://fame.oln.org:80/udl/f2_11_145.html" title="FAME: Introductory Video < Introduction < Universal Design for Learning">Universal Design for Learning</a> (UDL) approach to instruction;</li>
+<li><a href="http://web.archive.org/web/20120628022845/http://fame.oln.org:80/web/f3_13_150.html" title="FAME: Introductory Video < Introduction < Web Accessibility &amp; Assistive Technology">Web accessibility</a> and assistive technology;</li>
+<li><a href="http://web.archive.org/web/20120628022813/http://fame.oln.org:80/cw/f4_14_151.html" title="FAME: Introductory Video < Introduction < College Writing">College writing</a> challenges and effective teaching practices; and</li>
+<li><a href="http://web.archive.org/web/20120628011122/http://fame.oln.org:80/ca/f5_15_152.html" title="FAME: Introductory Video < Introduction < Climate Assessment">Assessment of the campus climate</a> towards students with disabilities.</li>
+</ul>
+<p>Each module contains a video introduction, practitioner-oriented commentary, interactive case studies, and references to other material.  One can even <span class="removed_link" title="http://fame.oln.org/help_5.html">download the FAME content</span> to be personalized and mounted on an institution's own site.  (OhioLINK has offered to host the streaming video content for FAME even if an institution downloads and personalizes the content, and we can also make the video files available to institutions in Quicktime, Windows Media, and Real Media formats to mount on their own servers as well.)</p>
+<p>I invite you to take a look at the site.  It was a pleasure to work with the project team to bring the work of the researchers, writers, editors and technologists to bring the project to this stage.  The FAME Project came about through training grant awarded to The Ohio State University from the Office of Post-Secondary Education, U.S. Department of Education (P333A020033-03).  The FAME Project Director was <a href="http://replay.web.archive.org/20080705040726/http://nisonger.osu.edu/bios/izzo.htm" title="The Nisonger Center - Dr. Margo Izzo Bio">Dr. Margo Izzo</a> at The Ohio State University.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://www.oln.org/ILT/ada/Fame/rr/f1_1_1.html to http://fame.oln.org//rr/f1_1_1.html on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://www.oln.org/ILT/ada/Fame/udl/f2_11_145.html to http://fame.oln.org/udl/f2_11_145.html on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://www.oln.org/ILT/ada/Fame/web/f3_13_150.html to http://fame.oln.org/web/f3_13_150.html on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://www.oln.org/ILT/ada/Fame/cw/f4_14_151.html to http://fame.oln.org/cw/f4_14_151.html on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://www.oln.org/ILT/ada/Fame/ca/f5_15_152.html to http://fame.oln.org/ca/f5_15_152.html on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://www.oln.org/ILT/ada/Fame/help_5.html to http://fame.oln.org/help_5.html on December 31st, 2010.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://nisonger.osu.edu/izzo.htm to http://nisonger.osu.edu/bios/izzo.htm on January 20th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://nisonger.osu.edu/bios/izzo.htm to http://replay.web.archive.org/20080705040726/http://nisonger.osu.edu/bios/izzo.htm on May 17th, 2011.</p>

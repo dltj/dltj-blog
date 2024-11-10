@@ -1,0 +1,87 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'JPEG2000 Activity in the Google Summer of Code'
+modified: 2007-04-16T14:24:46+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 210
+wordpress_url: http://dltj.org/2007/04/j2k-in-gsoc/
+date: '2007-04-16 10:24:46 -0400'
+date_gmt: '2007-04-16 14:24:46 -0400'
+category: Google Summer of Code
+categories:
+- JPEG2000
+- Google Summer of Code
+tags:
+- jpeg2000
+- Google
+- ffmpeg
+- Firefox
+- Mozilla
+- Google Summer of Code
+comments:
+- id: 14532
+  author: ffmpeg - SWiK
+  author_email: ''
+  author_url: http://web.archive.org/web/20071018195921/http://swik.net:80/ffmpeg?popular
+  date: '2007-04-29 12:12:37 -0400'
+  date_gmt: '2007-04-29 16:12:37 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] JPEG2000 Activity in the Google Summer of
+    Code [...]<!--%kramer-ref-post%-->"
+- id: 19065
+  author: 'John Nack on Adobe: JPEG 2000 - Do you use it?'
+  author_email: ''
+  author_url: http://blogs.adobe.com/jnack/2007/04/jpeg_2000_do_yo.html
+  date: '2007-07-13 19:19:30 -0400'
+  date_gmt: '2007-07-13 23:19:30 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] and make it easier to test out the plugin's
+    (check your bugfix lists!) capabilities.    Peter Murray &#x2014; 07:36 AM on
+    April 16, [...]<!--%kramer-ref-post%-->"
+- id: 23603
+  author: brewster
+  author_email: brewster@archive.org
+  author_url: http://archive.org
+  date: '2007-09-23 10:29:26 -0400'
+  date_gmt: '2007-09-23 14:29:26 -0400'
+  content: |-
+    did the jpeg2000 (.jp2) support ever make it into firefox? this
+    would be very very useful for the Internet Archive's book scanning
+    project. -brewster
+- id: 23816
+  author: the jester
+  author_email: jester@DLTJ.org
+  author_url: http://dltj.org/
+  date: '2007-09-25 09:12:01 -0400'
+  date_gmt: '2007-09-25 13:12:01 -0400'
+  content: "Brewster,\r\n\r\nBen has some <a href=\"http://eschew.org/test/jp2/xpi/\"
+    rel=\"nofollow\">experimental Firefox extensions</a> for download and installation,
+    but I can't quite make them work.  There hasn't been a public blog posting by
+    him or his mentor on the status of the project (or the FFmpeg project either,
+    for that matter); I'll modify this blog posting's text when there is...\r\n\r\nIt
+    looks like a case of \"close, but not quite...\""
+- id: 27909
+  author: '"Results of JPEG2000 Activity in the Google Summer of Code 2007" in Disruptive
+    Library Technology Jester'
+  author_email: ''
+  author_url: http://dltj.org/2007/10/j2k-in-gsoc-2007/
+  date: '2007-10-23 10:59:36 -0400'
+  date_gmt: '2007-10-23 14:59:36 -0400'
+  content: |-
+    [...] this year I posted a summary of planned JPEG2000 activity in
+    the Google Summer of Code. As you may recall, there were two
+    project: one mentored by the Mozilla Foundation and another by
+    [...]
+---
+<p>OhioLINK is not participating in the <a href="http://code.google.com/soc/" title="Google Summer of Code">Google Summer of Code</a> this year (too many other things going on for our staff to be effective mentors), which is why it is refreshing to see work on the wider adoption of JPEG2000 &mdash; one of our core goals &mdash; continue on other fronts.  Among this year's <span class="removed_link" title="http://www.third-bit.com/soc2007.html">900 projects accepted by mentors</span> are two that involve J2K.  All of this is welcome news, coming in the same month that <a href="/article/j2k-in-photoshop/">Adobe is questioning the need for JPEG2000 support in Photoshop</a>.  My public gratitude goes out to Google for their third year of offering financial and logistical support to their Summer of Code program.</p>
+<h2>JPEG2000 in Firefox</h2>
+<p>Ben Karel, a Computer Science undergraduate student at the University of Delaware, will be working on <span class="removed_link" title="http://code.google.com/soc/mozilla/appinfo.html?csaid=C7B9CCBBF96648B3">JPEG2000 Support for Firefox</span>.   His <a href="http://eschew.org/projects/soc/2007/application.html" title="JPEG2000 Proposal">proposal page</a> has details about how he seeks to accomplish this, either as a part of the Mozilla code base or as a third-party extension.  His mentor is <span class="removed_link" title="http://www.pavlov.net/blog/">Stuart Parmenter</span>, owner of Mozilla "ImageLib" module and co-owner of the Mozilla "gfx" module.</p>
+<h2>JPEG2000 in FFMPEG</h2>
+<p>Kamil Nowosad of Warsaw University in Poland will be working on <span class="removed_link" title="http://code.google.com/soc/ffmpeg/appinfo.html?csaid=1CBF43B104682F6">a JPEG2000 decoder and encoder for FFMPEG</span>.  Mentored by Loren Merritt, there doesn't seem to be much information about this project that is publicly available, so I'm looking forward to hearing more about it.  (For one, since it is working on the <a href="http://ffmpeg.mplayerhq.hu/" title="FFmpeg homepage">FFmpeg media system</a> I presume the work is on <em>Motion</em> JPEG2000.)
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://www.third-bit.com/soc2007.html on January 19th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://code.google.com/soc/ffmpeg/appinfo.html?csaid=1CBF43B104682F6 on January 20th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://code.google.com/soc/mozilla/appinfo.html?csaid=C7B9CCBBF96648B3 on January 20th, 2011.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://www.pavlov.net/blog/ on November 8th, 2012.</p>

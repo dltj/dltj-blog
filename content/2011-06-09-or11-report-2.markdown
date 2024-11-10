@@ -1,0 +1,93 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Open Repositories 2011 Report: Day 1 with Apache, Technology Trends, and Bolded Labels'
+modified: 2011-06-09T04:16:30+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 2959
+wordpress_url: http://dltj.org/?p=2959
+date: '2011-06-09 00:16:30 -0400'
+date_gmt: '2011-06-09 04:16:30 -0400'
+category: Meeting
+categories:
+- Meeting
+tags:
+- web design
+- emerging technology
+- Open Repositories 2011
+- Apache Foundation
+comments:
+- id: 159778
+  author: OA Tracking Project
+  author_email: ''
+  author_url: http://twitter.com/oatp/status/79730748462088193
+  date: '2011-06-12 02:04:26 -0400'
+  date_gmt: '2011-06-12 06:04:26 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">Open Repositories 2011 Report: Day 1 with Apache,
+    Technology Trends, and Bolded Labels: ""Today was the first ma... http://bit.ly/j5RSa6</span></span>'
+- id: 159779
+  author: bill lefurgy
+  author_email: ''
+  author_url: http://twitter.com/blefurgy/status/78969835802992640
+  date: '2011-06-09 23:40:50 -0400'
+  date_gmt: '2011-06-10 03:40:50 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">RT @DigitalKoans: Open Repositories 2011 Report:
+    Day 1 with Apache, Technology Trends, and Bolded Labels, http://bit.ly/kVyn0O</span></span>'
+- id: 159780
+  author: Library Feed
+  author_email: ''
+  author_url: http://twitter.com/libraryfeed/status/78687225415606272
+  date: '2011-06-09 04:57:51 -0400'
+  date_gmt: '2011-06-09 08:57:51 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">Open Repositories 2011 Report: Day 1 with Apache,
+    Technology Trends, and Bolded Labels http://bit.ly/mzHE3K</span></span>'
+- id: 201132
+  author: 'Open Repositories 2011: Community Meet-up in the "Live Music Capital of
+    the World"'
+  author_email: ''
+  author_url: http://www.dlib.org/dlib/july11/morris/07morris.html
+  date: '2011-12-30 14:14:55 -0500'
+  date_gmt: '2011-12-30 19:14:55 -0500'
+  content: "<!--%kramer-ref-pre%-->[...] Open Repositories 2011 Report: Day 1 with
+    Apache, Technology Trends, and Bolded Labels: http://dltj.org/article/or11-report-2/
+    [...]<!--%kramer-ref-post%-->"
+---
+<p>Today was the first main conference day of the <a href="https://conferences.tdl.org/or/index.php/OR2011/OR2011main">Open Repositories conference</a> in Austin, Texas.  There are 300 developers here from 20 countries and 30 states.  I have lots of notes from the sessions, and I've tried to make sense of some of them below before I lose track of the entire context.</p>
+<p>The meeting opened with the a keynote by <a href="http://www.jimjag.com/" title="Excuse me, do I know you?">Jim Jagielski</a>, president of the <a href="http://www.apache.org/" title="Welcome to The Apache Software Foundation!">Apache Software Foundation</a>.  He gave a <a href="http://people.apache.org/~jim/presos/OR2011/Open_Source_NotJust.pdf" title="Presentation Slides from Open Source: It's Not Just for IT Anymore">presentation</a> on what it means to be open source project with a focus on how Apache creates a community of developers and users around its projects.</p>
+<p>{{ image(
+    div_float="right",
+    width="300",
+    caption="Slides 50 and 51 of 'Open Source: It&#039;s Not Just for IT Anymore'",
+    alt="Slide 50 of Open Source: It&#039;s Not Just for IT Anymore",
+    localsrc="2011/06/Open_Source_NotJust-slide50-300x224.jpg") }}
+One of the take-a-ways was a characterization of Open Source Licenses from <a href="http://rollerweblogger.org/roller/entry/gimme_credit_gimme_fixes_gimme" title="Blogging Roller: Gimme credit, gimme fixes, gimme it ALL!">Dave Johnson</a>.  Although it is a basic shorthand, it is useful in understanding the broad classes of licenses:</p>
+<ul type="disc">
+<li>Give Me Credit ("You can use, modify and redistribute my code in your product but give me credit"): <a href="http://www.opensource.org/licenses/apachepl.php" title="Apache Public Licenses | Open Source Initiative">Apache License</a>, <a href="http://www.opensource.org/licenses/bsd-license.php" title="Open Source Initiative OSI - The BSD License:Licensing | Open Source Initiative">Berkeley License</a>, and <a href="http://www.opensource.org/licenses/mit-license.php" title="Open Source Initiative OSI - The MIT License (MIT):Licensing | Open Source Initiative">MIT License</a></li>
+<li>Give Me Fixes ("You can use, modify and redistribute my code in your product but give me the source for any fixes you make to it."):  <a href="http://www.opensource.org/licenses/mozilla1.1.php" title="Open Source Initiative OSI - Mozilla Public License 1.1 (MPL-1.1) :Licensing | Open Source Initiative">Mozilla Public License</a>, <a href="http://www.opensource.org/licenses/EPL-1.0" title="Open Source Initiative OSI - Eclipse Public License 1.0 (EPL-1.0):Licensing | Open Source Initiative">Eclipse Public License</a>, and <a href="http://www.opensource.org/licenses/lgpl-license.php" title="LGPL Licenses | Open Source Initiative">GNU Library or "Lesser" General Public License</a></li>
+<li>Give Me Everything ("You can use, modify and redistribute my code in your product but give me your entire product's source code."): <a href="http://www.opensource.org/licenses/gpl-license.php" title="GNU General Public License Versions | Open Source Initiative">GPL</a></li>
+</ul>
+<p>He also explained why community and code are at peer levels in Apache.  One is not possible without the other; it takes an engaged community to create great code and great code can only be created by a healthy community.  He also described how the primary communications tool for projects is not new-fangled technologies like wikis and conference calls and IRC.  The official record of a project is its e-mail lists.  This enables the broadest possible inclusion of participants across many time zones and the list archives enable people to look into the history of decisions.  If discussions take place in other forums or tools, the summary is always brought back to the e-mai list.</p>
+<p>Jim's concluding thoughts were a great summary of the presentation, and I've inserted them in on the right.</p>
+<p>I missed the first concurrent session of the day due to work conflict, so the first session I went to was the after lunch 24x7 presentations.  That is no more than 24 slides in no more than seven minutes.  I like this format because it forces the presenters to be concise, and if the topic is not one that interests you it isn't long until the next topic comes up.  The short presentations are also great for generating discussion points with the speakers during breaks and the reception.  Two of these in particular struck a cord with me.</p>
+<p>The first was "Technology Trends Influencing Repository Design" by Brad McLean of DuraSpace.  His list of four trends were:</p>
+<ol type="1" start="1">
+<li><strong>Design for mobile, not just PCs.</strong>  The model of a mobile app -- local computation and page rendering backed by web services for retrieving data -- is having several impacts on design:  a reinforcement of the need for lightweight web services and UIs; accounting for how screen size has shrunk again; and having a  strategy for multi-platform apps will become critical.</li>
+<li><strong>More programming language(s) than you need/want.</strong>  Java, Python, Ruby, Scala, LISP, Groovy, JavaScript and the list goes on.  This proliferation of languages has forced looser coupling between components (e.g. a JavaScript based script can consume data from and write data to a Java-based servlet engine).  The implications he listed for this are that it is even clearer that true integration challenges are in the data modeling and policy domains; harder to draw neat boxes around required skill sets; and that you might lose control of your user experience (and it might be a good thing).</li>
+<li><strong>Servers and clusters.</strong>  Clusters are not just for high-performance computing and search engines anymore.  Techniques like map/reduce are available to all.  He said that Ebay was the last major internet company to deploy its infrastructure on "big iron" but he didn't attribute that statement to a source.  (Seems kind of hard to believe...)  The implications are that we should look to replicated and distributed SOLR indexing (hopefully stealing a page from "noSQL" handbook); keep an eye on Map/Reduce-based triple stores (interesting idea!); and repository storage will be spanning multple systems.</li>
+<li><strong>What is a filesystem.</strong> Brad noted that with filesystems what was once hidden from the end user (think the large systems of the 1960s, 1970s and 1980s) became visible (the familiar desktop file folder structure) and is now becoming hidden again (as with mobile device apps).  Applications are now storing opaque objects again; how do we effectively ingest them into our repositories?</li>
+</ol>
+<p>[caption id="tweet_78539910046425089" align="alignright" width="300" caption="Tweet from Dorothea Salo"]<!-- https://twitter.com/reporat/statuses/78539910046425089 --><br />
+<style type='text/css'>.bbpBox78539910046425089 {background:url(http://a1.twimg.com/images/themes/theme8/bg.gif) #8B542B;padding:20px;margin:0px;} p.bbpTweet{background:#fff;padding:10px 12px 10px 12px;margin:0;min-height:48px;color:#000;font-size:18px !important;line-height:22px;-moz-border-radius:5px;-webkit-border-radius:5px} p.bbpTweet span.metadata{display:block;width:100%;clear:both;margin-top:8px;padding-top:12px;height:40px;border-top:1px solid #fff;border-top:1px solid #e6e6e6} p.bbpTweet span.metadata span.author{line-height:19px} p.bbpTweet span.metadata span.author img{float:left;margin:0 7px 0 0px;width:38px;height:38px} p.bbpTweet a:hover{text-decoration:underline}p.bbpTweet span.timestamp{font-size:12px;display:block}</style>
+<div class='bbpBox78539910046425089'>
+<p class='bbpTweet'>Takeaways from Simeon: think about what to present sans label; find cues you can use instead of labels; use labels for 2ndary info. <a href="http://twitter.com/search?q=%23or11" title="#or11" class="tweet-url hashtag" rel="nofollow">#or11</a><span class='timestamp'><a title='Wed Jun 08 19:12:28 +0000 2011' href='https://twitter.com/reporat/statuses/78539910046425089'>less than a minute ago</a> via <a href="http://www.tweetdeck.com" rel="nofollow" title="TweetDeck - Your social world">TweetDeck</a> <a href='http://twitter.com/intent/favorite?tweet_id=78539910046425089' title="http://twitter.com/intent/favorite?tweet_id=78539910046425089"><img src="/assets/images/2011/06/favorite.png" /> Favorite</a> <a href='http://twitter.com/intent/retweet?tweet_id=78539910046425089' title="http://twitter.com/intent/retweet?tweet_id=78539910046425089"><img src="/assets/images/2011/06/retweet.png" /> Retweet</a> <a href='http://twitter.com/intent/tweet?in_reply_to=78539910046425089' title="http://twitter.com/intent/tweet?in_reply_to=78539910046425089"><img src="/assets/images/2011/06/reply.png" /> Reply</a></span><span class='metadata'><span class='author'><span class="removed_link" title="http://twitter.com/RepoRat"><img src="/assets/images/2011/06/rat_normal.jpg" /></span><strong><span class="removed_link" title="http://twitter.com/RepoRat">Rattus repositor</span></strong><br />RepoRat</span></span></p>
+</div>
+<p> <!-- end of tweet -->[/caption]<br />
+The second 24x7 talk that struck a chord was "Don&rsquo;t Bold the Field Name" by Simeon Warner.  And by that he literally meant "Don't Bold the Field Name".  He walked through a series of library interfaces and noted how we have a tendancy to display bolded field labels.  He then pointed out how this draws the eye's attention to the labels and not the record content beside the labels.  Amazon doesn't do this (at least with the metadata at the top of the page), Ebay doesn't do this, and the search engines don't do this.  He did note -- pointing to the case of the "Product Details" section of an Amazon item page -- that "the task of finding the piece of information is more important than consuming it."  (Again, in the Amazon case, the purpose of bolding the label is to draw the eye to the location of data like publisher and shipping weight on the page.)  I think <a href="https://twitter.com/reporat/statuses/78539910046425089">Dorothea Salo's tweet</a> summed it up best:  "Takeaways from Simeon: think about what to present sans label; find cues you can use instead of labels; use labels for 2ndary info. #or11"</p>
+<p>I also attended the two sessions on identifiers in the afternoon (Peter Sefton's "A Hint of Mint: Linked Authority Control Service" and Richard Rodgers's "ORCID: Open Research and Contributor ID -- An Open Registry of Scholarly IDs"), but the time is late and tomorrow's events will come soon enough.  Given eough time and energy, I'll try to summarize those sessions later.</p>

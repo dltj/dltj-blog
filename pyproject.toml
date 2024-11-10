@@ -1,0 +1,27 @@
+[project]
+name = "dltj-blog"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Peter Murray", email = "jester@dltj.org"},
+]
+dependencies = [
+    "pelican[markdown] @ git+https://github.com/dltj/pelican.git",
+    "pelican-jinja2content @ git+https://github.com/pelican-plugins/jinja2content.git",
+    "pelican-yaml-metadata @ git+https://github.com/pelican-plugins/yaml-metadata.git",
+    "pelican-dltj-plugin @ git+https://github.com/dltj/pelican-dltj-plugin.git",
+    "zygote-reader @ git+https://github.com/dltj/zygote-reader",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "invoke>=2.2.0",
+    "livereload>=2.7.0",
+]

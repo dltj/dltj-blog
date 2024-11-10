@@ -1,0 +1,380 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'EBSCO in Cahoots With Harvard Business Press'
+modified: 2009-06-28T18:10:20+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 1072
+wordpress_url: http://dltj.org/?p=1072
+date: '2009-06-28 14:10:20 -0400'
+date_gmt: '2009-06-28 18:10:20 -0400'
+category: Policy
+categories:
+- Policy
+tags:
+- publishing
+- copyright
+- Ebsco
+- licensing
+comments:
+- id: 36842
+  author: Nate Thomas
+  author_email: exectoledo@yahoo.com
+  author_url: ''
+  date: '2009-06-28 21:46:36 -0400'
+  date_gmt: '2009-06-29 01:46:36 -0400'
+  content: "Not surprising.  That's why I have always been leery of EBSCO's exclusive
+    with HBR and the fact that they are a subscription agent as well as an aggregator.
+    \ Naturally, the publisher's interests are more important to EBSCO than ours are.
+    \ They pay a ridiculous amount to HBR to keep other aggregators out and will do
+    whatever HBR says in order to keep the contract and continue to win our money.
+    \ We shouldn't reward their actions.  This is reminiscent of EBSCO's recent falling
+    out with Boston Public Library, where they decided to cut off remote access when
+    they discovered that BPL was giving e-cards to Massachusetts residents.  This
+    company has gotten greedy and arrogant and we're to blame.  Where were they when
+    our budgets got cut?  The kept increasing prices.\r\n\r\nI will be cancelling
+    my EBSCO subs and encourage others to do the same."
+- id: 36844
+  author: 'HotStuff 2.0 &raquo; Blog Archive &raquo; Word of the Day: &#8220;harvardbusiness&#8221;'
+  author_email: ''
+  author_url: ''
+  date: '2009-06-28 22:02:55 -0400'
+  date_gmt: '2009-06-29 02:02:55 -0400'
+  content: "[...] in Cahoots With Harvard Business Press [web link]Disruptive Library
+    Technology Jester (28/Jun/2009)&#8220;&#8230;and permission contact permissions
+    [...]"
+- id: 36864
+  author: thorn
+  author_email: odeames@gmail.com
+  author_url: ''
+  date: '2009-06-29 13:39:23 -0400'
+  date_gmt: '2009-06-29 17:39:23 -0400'
+  content: "um. how about if we just ignore this publisher, then. contracts are negotiable;
+    negotiate for identical terms for all publications supplied by the aggregator.
+    if harvard's stuff ceases to be read, it will cease to be important, lose its
+    prestige,  and faculty will cease to submit their work to that publication. problem
+    solved. so freaking what if it's harvard.\r\n\r\neveryone panics so terribly when
+    publishers place unreasonable restrictions on content. try this out once.\r\n\r\npublisher:
+    \"our content is so great and desirable, we're going to charge for its every possible
+    use.\" librarian: \"guess we'll have to pass that cost on to our community, with
+    a clear statement of your requirements. library budget just can't cover it, I'm
+    afraid. oh. and harvard, do let us know how that works out for your bottom line.\"
+    library does not deny access; just cannot afford the complexity of some terms
+    for one publisher, other terms for others. and we seriously cannot possibly further
+    erode the monographs budget by paying unforecastable amounts of money for your
+    content.\r\n\r\non the part of harvard, the desire to add complexity is such a
+    weird business decision, i have to wonder about the quality of their business
+    content anyway. but i'm not a business librarian, so what do i know."
+- id: 36876
+  author: 'The Distant Librarian: Yet another followup post on Harvard and EBSCO linking'
+  author_email: ''
+  author_url: http://distlib.blogs.com/distlib/2009/06/yet-another-followup-post-on-harvard-and-ebsco-linking.html
+  date: '2009-06-29 19:15:05 -0400'
+  date_gmt: '2009-06-29 23:15:05 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] to allow the use of persistent URLs in course
+    reserves and content management systems. in his post, EBSCO in Cahoots With Harvard
+    Business Press, he goes in to detail about how Harvard is likely determining whether
+    links are coming from course [...]<!--%kramer-ref-post%-->"
+- id: 36879
+  author: the Jester
+  author_email: jester@dltj.org
+  author_url: http://dltj.org/about
+  date: '2009-06-29 19:33:35 -0400'
+  date_gmt: '2009-06-29 23:33:35 -0400'
+  content: "Nate -- I didn't realize that the HBP deal was exclusive to EBSCO.  That
+    certainly gives HBP a lot more leverage than they would otherwise have as a content
+    provider.\r\n\r\nThorn -- Simply canceling an EBSCOhost contract will not cause
+    the Harvard Business School content not to be read.  It will more likely cause
+    more individual subscriptions to be made to HBP to get to the content, probably
+    at a higher aggregate cost than the existing content.  I'm not a business librarian
+    either, but it is <a href=\"http://www.eigenfactor.org/rankings.php?search=0017-8012&amp;searchby=issn&amp;orderby=year#20060017-8012\"
+    rel=\"nofollow\">a widely regarded journal</a> (if, interestingly, decreasing
+    in influence).  I think a library's leverage is with EBSCO more than HBP to reject
+    the added complexity (good phrase).  Whether enough libraries come together to
+    push back, however, is a different matter entirely.<p style=\"padding:0;margin:0;font-style:italic;\">The
+    text was modified to update a link from http://www.eigenfactor.org/detail.php?year=2006&jrlname=HARVARD%20BUS%20REV&issnnum=0017-8012
+    to http://www.eigenfactor.org/rankings.php?search=0017-8012&searchby=issn&orderby=year#20060017-8012
+    on November 19th, 2012.</p>"
+- id: 36900
+  author: JamesBlunt
+  author_email: jb22@aol.com
+  author_url: ''
+  date: '2009-06-30 10:42:27 -0400'
+  date_gmt: '2009-06-30 14:42:27 -0400'
+  content: Hmmm... maybe link to a search result where the article you want to link
+    to is the first item in the search results... it's not deep linking and they couldn't
+    use HTTP referer to check
+- id: 36901
+  author: the Jester
+  author_email: jester@dltj.org
+  author_url: http://dltj.org/about
+  date: '2009-06-30 13:09:20 -0400'
+  date_gmt: '2009-06-30 17:09:20 -0400'
+  content: "James -- That might work; it depends on how sophisticated EBSCO's algorithms
+    are.  They still might note a persistent link to a search results screen.  Whether
+    their software is sophisticated enough to tie that to the first hit or so of the
+    results set is another matter.\r\n\r\nOf course, now that we've mentioned it here,
+    they might be updating their algorithm to account for it.  (Nah -- <acronym title=\"Disruptive
+    Library Technology Jester\"><i>DLTJ</i></acronym> isn't that high on anyone's
+    radar.)"
+- id: 36902
+  author: 'Disruptive Library Technology Jester: EBSCO in Cahoots With Harvard Business
+    Press | LISNews'
+  author_email: ''
+  author_url: http://lisnews.org/node/33952/
+  date: '2009-06-30 13:12:43 -0400'
+  date_gmt: '2009-06-30 17:12:43 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] A controversy is starting to pick up in the
+    business librarian community &mdash; primarily in the U.K. it would seem &mdash;
+    regarding the licensing demands of Harvard Business PressL1 (HBP) for the inclusion
+    of Harvard Business Review articles in EBSCOhost. HBP content in EBSCOhost carries
+    a publisher-specific rider that says use is limited to &ldquo;private individual
+    use&rdquo; and explicitly bars the practice of putting &ldquo;deep links&rdquo;
+    of articles from EBSCOhost (so called &ldquo;persistent linksL2&ldquo;) into learning
+    management systems. In my words, HBP is attempting to limit access to its content
+    in EBSCOhost to those who find it through the serendipity of searching. And now
+    HBP is going after schools that are using persistent linking, and this raises
+    all sorts of troubling questions. Technorati Tags: Vendors     Vendors   Email
+    this Story   Comments [...]<!--%kramer-ref-post%-->"
+- id: 37310
+  author: Lizz
+  author_email: e.jennings@bath.ac.uk
+  author_url: ''
+  date: '2009-07-22 05:24:46 -0400'
+  date_gmt: '2009-07-22 09:24:46 -0400'
+  content: I wonder if links through a link resolver would trigger in the same way.  I'm
+    guessing that if you provided an open URL  in your course pack rather than a permalink,
+    it might work?
+- id: 37370
+  author: the Jester
+  author_email: jester@dltj.org
+  author_url: http://dltj.org/about
+  date: '2009-07-26 21:53:37 -0400'
+  date_gmt: '2009-07-27 01:53:37 -0400'
+  content: Good question; I don't know if a path through a link resolver would trigger
+    the same thing on EBSCO's end.  It might because I think it is the page that has
+    the link resolver URL on it that is still transmitted in the 'referrer' header.  It
+    wouldn't get replaced with the link resolver URL.  So a direct link and a link
+    resolver link would still have the same 'referrer' header.
+- id: 37986
+  author: 'Copyright Advisory Network &raquo; Copyright Hall of Janus? : Harvard University&#8217;s
+    Two-Faced Approach to Copyright'
+  author_email: ''
+  author_url: http://thelearnedfangirl.com/2009/08/31/copyright-hall-of-janus-harvard-universitys-two-faced-approach-to-copyright/
+  date: '2009-08-31 22:10:03 -0400'
+  date_gmt: '2009-09-01 02:10:03 -0400'
+  content: "[...] was reminded of the practical difficulty of working within this
+    policy, based on the EBSCO database forbidding deep linking directly to specific
+    [...]"
+- id: 37987
+  author: 'Copyright Hall of Janus? : Harvard University&#8217;s Two-Faced Approach
+    to Copyright &laquo; The Learned Fangirl'
+  author_email: ''
+  author_url: http://thelearnedfangirl.com/2009/08/31/copyright-hall-of-janus-harvard-universitys-two-faced-approach-to-copyright/
+  date: '2009-08-31 22:17:26 -0400'
+  date_gmt: '2009-09-01 02:17:26 -0400'
+  content: "[...] was reminded of the practical difficulty of working within this
+    policy, based on the EBSCO database forbidding deep linking directly to specific
+    [...]"
+- id: 42041
+  author: "&raquo; EBSCO&#8217;s Exclusive Content Deals Reference at Newman Library"
+  author_email: ''
+  author_url: http://blsciblogs.baruch.cuny.edu/newmanreference/2010/01/21/ebscos-exclusive-content-deals/
+  date: '2010-01-21 14:52:08 -0500'
+  date_gmt: '2010-01-21 19:52:08 -0500'
+  content: "[...] It is worth remembering here the exclusive deal that Harvard Business
+    Review had struck with EBSCO that prevents EBSCO customers from creating stable
+    URLs to records for HBR articles. For details on that, read Paul Pival&#8217;s
+    posts on his Distant Library blog and Peter Murray&#8217;s post on his Distributed
+    Library Technology Jester blog. [...]"
+- id: 42050
+  author: 'Gale: An open letter to the library community - LSW - FriendFeed'
+  author_email: ''
+  author_url: http://friendfeed.com/lsw/6e7a6d57/gale-open-letter-to-library-community
+  date: '2010-01-21 17:38:43 -0500'
+  date_gmt: '2010-01-21 22:38:43 -0500'
+  content: "<!--%kramer-ref-pre%-->[...] - D0r0th34      After last year&#39;s Harvard
+    Business Review/EBSCO thing, I&#39;ve got no love for EBSCO. http://dltj.org/article...
+    - Stephen Francoeur      oh, me neither -- let &#39;em fry. but I feel that way
+    about MOST purveyors of [...]<!--%kramer-ref-post%-->"
+- id: 50031
+  author: Harvard Business School open access policy &laquo; Bibliographic Wilderness
+  author_email: ''
+  author_url: http://bibwild.wordpress.com/2010/03/02/harvard-business-school-open-access-policy/
+  date: '2010-03-02 16:35:06 -0500'
+  date_gmt: '2010-03-02 21:35:06 -0500'
+  content: "[...] (and especially HBR Case Studies) are known to be some of (the)
+    (strictest) (publishers) (around) when it comes to controlling their intellectual
+    property. They [...]"
+- id: 50056
+  author: 'Cognitive dissonance : The Book of Trogool'
+  author_email: ''
+  author_url: http://scienceblogs.com/bookoftrogool/2010/03/cognitive_dissonance.php
+  date: '2010-03-02 17:44:06 -0500'
+  date_gmt: '2010-03-02 22:44:06 -0500'
+  content: "<!--%kramer-ref-pre%-->[...] is the same school that plays horrendous
+    anti-library, anti-education games with their flagship Harvard Business [...]<!--%kramer-ref-post%-->"
+- id: 62873
+  author: 'HSLIC Web Advisory Committee: Has EBSCO become the new evil empire?'
+  author_email: ''
+  author_url: ''
+  date: '2010-04-04 09:02:09 -0400'
+  date_gmt: '2010-04-04 13:02:09 -0400'
+  content: '<!--%kramer-ref-pre%-->[...]  Has EBSCO become the new evil empire?: "Absolutely.I
+    was less than thrilled with the way EBSCO has dealt with some of its customers
+    vis-&agrave;-vis Harvard Business Review. I thought it was pretty evil that they
+    signed exclusive deals for all of those Time, Inc. [...]<!--%kramer-ref-post%-->'
+- id: 63720
+  author: So Big It Fails | Peer to Peer Review - 4/8/2010 - Library Journal
+  author_email: ''
+  author_url: http://www.libraryjournal.com/article/CA6725617.html
+  date: '2010-04-09 16:25:06 -0400'
+  date_gmt: '2010-04-09 20:25:06 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] was provoked to criticize EBSCO because,
+    after a series of unfortunate events, her Rubicon was crossed: a scholarly society
+    that publishes a journal [...]<!--%kramer-ref-post%-->"
+- id: 77240
+  author: Has EBSCO become the new evil empire? | Information Wants To Be Free
+  author_email: ''
+  author_url: http://meredith.wolfwater.com/wordpress/2010/04/02/has-ebsco-become-the-new-evil-empire/
+  date: '2010-07-08 13:02:57 -0400'
+  date_gmt: '2010-07-08 17:02:57 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] was less than thrilled with the way EBSCO
+    has dealt with some of its customers vis-&agrave;-vis Harvard Business Review.
+    I thought it was pretty evil that they signed exclusive deals for all of those
+    Time, Inc. [...]<!--%kramer-ref-post%-->"
+- id: 157777
+  author: Jail? For downloading too many articles??? - Copyright Librarian
+  author_email: ''
+  author_url: http://blog.lib.umn.edu/copyrightlibn/2011/07/jail-for-downloading-too-many-articles.html
+  date: '2011-07-21 10:50:04 -0400'
+  date_gmt: '2011-07-21 14:50:04 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] that subscription resources impose on legitimate
+    users is probably the Harvard Business Review&#039;s prohibition on linking to
+    articles even from within password-protected campus networks. But the usage limitation
+    [...]<!--%kramer-ref-post%-->"
+- id: 161506
+  author: Stephen Francoeur
+  author_email: ''
+  author_url: http://twitter.com/s_francoeur/status/3253977947
+  date: '2009-08-11 22:58:57 -0400'
+  date_gmt: '2009-08-12 02:58:57 -0400'
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">@adr See Peter Murray's post on HBR and linking
+    http://dltj.org/article/ebsco-hbp/</span></span>
+- id: 161507
+  author: Laura Gutierrez
+  author_email: ''
+  author_url: http://twitter.com/elleplaster/status/2651837870
+  date: '2009-07-15 14:43:23 -0400'
+  date_gmt: '2009-07-15 18:43:23 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">EBSCO and Harvard Business Review restrict permalinking
+    for course reserve materials: http://dltj.org/article/ebsco-hbp/</span></span>'
+- id: 161508
+  author: Copycense
+  author_email: ''
+  author_url: http://twitter.com/copycense/status/2404106678
+  date: '2009-06-30 14:28:00 -0400'
+  date_gmt: '2009-06-30 18:28:00 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">Why Posner''s proposal is unnecessary: EBSCO allows
+    Harvard Business Press to restrict linking to content: http://bit.ly/djF2e</span></span>'
+- id: 161509
+  author: Peter Murray
+  author_email: ''
+  author_url: http://twitter.com/datag/status/2395136762
+  date: '2009-06-29 23:18:00 -0400'
+  date_gmt: '2009-06-30 03:18:00 -0400'
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">@ppival Gack!  Corrected.  Thanks Paul and sorry
+    @librarianmer http://bit.ly/Z9uab</span></span>
+- id: 161510
+  author: Paul R. Pival
+  author_email: ''
+  author_url: http://twitter.com/ppival/status/2394063126
+  date: '2009-06-29 21:54:01 -0400'
+  date_gmt: '2009-06-30 01:54:01 -0400'
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">@DataG btw - it's Meredith Farkas, not Meredith
+    Wolfwater ;-)   http://bit.ly/Z9uab</span></span>
+- id: 161513
+  author: infopeep
+  author_email: ''
+  author_url: http://twitter.com/infopeep/status/2374932390
+  date: '2009-06-28 19:06:25 -0400'
+  date_gmt: '2009-06-28 23:06:25 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">Murray, Peter: EBSCO in Cahoots With Harvard Business
+    Press http://snipurl.com/l22ea</span></span>'
+- id: 161514
+  author: Peter Murray
+  author_email: ''
+  author_url: http://twitter.com/datag/status/2374242721
+  date: '2009-06-28 18:10:45 -0400'
+  date_gmt: '2009-06-28 22:10:45 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">New blog post: EBSCO in Cahoots With Harvard Business
+    Press http://dltj.org/article/ebsco-hbp/</span></span>'
+- id: 227510
+  author: Some Strategies...
+  author_email: ''
+  author_url: http://www.softchalkconnect.com/lesson/files/NC1qOawyBPrk6E/JouleCopyright331.html
+  date: '2012-03-01 12:52:53 -0500'
+  date_gmt: '2012-03-01 17:52:53 -0500'
+  content: "<!--%kramer-ref-pre%-->[...] HCC pays for access to these licensed resources,
+    using the PURLS is usually permissible. Here&#039;s an interesting exception to
+    this in Harvard Business [...]<!--%kramer-ref-post%-->"
+- id: 245500
+  author: Dave Pattern
+  author_email: ''
+  author_url: http://twitter.com/daveyp/status/194495806672338946
+  date: '2012-04-23 18:39:48 -0400'
+  date_gmt: '2012-04-23 22:39:48 -0400'
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">@paulwalk I bloomin&#39; well hope so -- Harvard
+    even tried to stop deep linking to it&#39;s journals http://t.co/lYLFOWbd</span></span>
+---
+<p>A controversy is starting to pick up in the business librarian community -- primarily in the U.K. it would seem -- regarding the licensing demands of <a href="http://harvardbusiness.org/" title="HarvardBusiness.org homepage">Harvard Business Press</a> (HBP) for the inclusion of <i>Harvard Business Review</i> articles in EBSCOhost.  HBP content in EBSCOhost carries a publisher-specific rider that says use is limited to "private individual use" and explicitly bars the practice of putting "deep links" of articles from EBSCOhost (so called "<a href="http://support.epnet.com/knowledge_base/detail.php?faq=272" title="What are EBSCOhost Persistent Links? -- EBSCO Support">persistent links</a>") into learning management systems.  In my words, HBP is attempting to limit access to its content in EBSCOhost to those who find it through the serendipity of searching.  And now HBP is going after schools that are using persistent linking, and this raises all sorts of troubling questions.<br />
+<!--more--><br />
+The only visible sign of the publisher-specific rider (that I can find) is text appended to the end of each article from <i>Harvard Business Review</i> in EBSCOhost (copied from a <a href="http://distlib.blogs.com/distlib/2009/06/a-little-more-info-on-the-harvard-linking-bs.html" title="The Distant Librarian: A little more info on the Harvard linking BS">post by Paul Pival</a>):<br />
+<blockquote>Harvard Business Review Notice of Use Restrictions, May 2009 Harvard Business Review and Harvard Business Publishing Newsletter content on EBSCOhost is licensed for the private individual use of authorized EBSCOhost users. It is not intended for use as assigned course material in academic institutions nor as corporate learning or training materials in businesses. Academic licensees may not use this content in electronic reserves, electronic course packs, persistent linking from syllabi or by any other means of incorporating the content into course resources. Business licensees may not host this content on learning management systems or use persistent linking or other means to incorporate the content into learning management systems. Harvard Business Publishing will be pleased to grant permission to make this content available through such means. For rates and permission, contact permissions@harvardbusiness.org.</p></blockquote>
+<p>It was Pival's next statement, though, in that same post where he relays a conversation with a colleague at a different institution that raised my eyebrows (emphasis added):<br />
+<blockquote>He also mentioned that <strong>HBSP [Harvard Business School Publishing] had leaned on his school</strong> and when they decided not to pay, EBSCO turned off the ability for them to create PURLs for that publisher.</p></blockquote>
+<p>  Huh?  How does HBP know that deep links are being used in that way?</p>
+<h2>EBSCO Information Services Website Privacy Policy</h2>
+<p>{{ image(
+    div_float="right",
+    width="322",
+    caption="Graphical representation of the HTTP Referer Header",
+    alt="HTTP referer graphic",
+    localsrc="/assets/images/2009/06/HTTP-referer-graphic.gif") }} Pival asks "So how does Harvard BSP know whether a given link is being used for 'private individual use' or for within electronic reserves, electronic course packs, a syllabi, or within a learning management system?"  The answer is probably the <a href="http://en.wikipedia.org/wiki/HTTP_referrer" title="HTTP referrer - Wikipedia, the free encyclopedia">HTTP "referer" ((Yes, they know they misspelled the word "referrer")) header</a>.  With every page, your web browser sends the address of the page you came from to the remote web server.  You can see this with the <a href="http://browserspy.dk/headers.php" title="BrowserSPY Header Information" target="_blank">BrowserSPY service</a>.  If you follow that link, you'll see that the page you came from was this <acronym title="Disruptive Library Technology Jester"><i>DLTJ</i></acronym> page (<code>http://dltj.org/article/ebsco-hbp/</code> in the HTTP_REFERER row).  Whether you know it or not (or have blocked the HTTP referer header before it gets to the remote server), you leave these traces of where you came from with every web request you make.  So what I'm surmising is that the EBSCOhost servers record and process the HTTP referer information for deep links, and can see patterns when a number of people come to EBSCOhost from the same web page -- that web page is probably a reading list in a course management system, an electronic reserves page, or something similar. ((This is probably the kind of business intelligence that EBSCO already collected about how its service is used.  I doubt that the recording and processing of HTTP referer headers is something specific to HBP content.))</p>
+<p>So now that we know <em>how</em> it is probably happening, we can ask "Is there anything in EBSCO's terms-of-use that permits them to share usage information with content suppliers?"  The answer would seem to be "probably yes".  The place to look is the <a href="http://support.epnet.com/ehost/privacy.html" title="EBSCOhost Privacy Policy">EBSCO privacy policy</a>.  Here is an extract from the policy dated December 26, 2006 (the current version as of the time of writing).  The HTTP Referer header seems to fall in the category of "Non-Personal Identifying Information:<br />
+<blockquote>B.    Collection of Non-Personal Identifying Information<br />
+We collect and use non-personal identifying information, including IP addresses and web server log files to track trends, administer the website, track user movement, and gather demographic information. We use this non-personal identifying information in the aggregate. We do not combine these types of non-personal identifying information with personal identifying information [a term defined earlier in the privacy policy; e.g. user's name, address]. We may also share aggregated demographic information with our business partners, sponsors, advertisers, and companies that control, are controlled by, or are under common control with EBSCO Information Services. </p></blockquote>
+<p>The HTTP referer information comes from the web server log files (it is a byproduct of running a web server), and HBP is probably considered a "business partner", so HBP can make a request of EBSCO like "Give me all of the HTTP referer addresses that link to HBP articles, and the number of times each referer addresses is used."  It would be pretty simple then for HBP to determine which institutions were deep linking directly to <i>Harvard Business Review</i> articles.</p>
+<h2>EBSCO Publishing License Agreement (Terms of Use)</h2>
+<p>So the next logical question might be "Can Harvard Business Publishing create these added restrictions?"  The answer to that question is most definitely "yes".  As librarians, we may not like the fact that publishers can put added restrictions on content in our aggregation databases, but EBSCO's <a href="http://support.epnet.com/ehost/terms.html" title="EBSCOhost Terms of Use">Terms of Use</a> certainly allow for it (emphasis added):<br />
+<blockquote>C. Licensee and Authorized Users agree to abide by the Copyright Act of 1976 as well as any contractual restrictions, copyright restrictions, or other restrictions provided by publishers and specified in the Databases. [...] <strong>Publishers may impose their own conditions of use applicable only to their content.</strong> Such conditions of use shall be displayed on the computer screen displays associated with such content. The Licensee shall take all reasonable precautions to limit the usage of the Databases(s) to those specifically authorized by this Agreement.</p></blockquote>
+<p>And the repercussions of violating the Terms of Use?  They are spelled out in the "Termination" section:<br />
+<blockquote>A. In the event of a breach of any of its obligations under this Agreement, Licensee shall have the right to remedy the breach within thirty (30) days upon receipt of written notice from EBSCO. Within the period of such notice Licensee shall make every reasonable effort and document said effort to remedy such a breach and shall institute any reasonable procedures to prevent future occurrences of such breaches. If the Licensee fails to remedy such a breach within the period of thirty (30) days, EBSCO may (at its option) terminate this Agreement upon written notice to the Licensee.</p>
+<p>B. If EBSCO becomes aware of a material breach of Licensee's obligations under this Agreement or a breach by Licensee or Authorized Users of the rights of EBSCO or its licensors or an infringement on the rights of EBSCO or its licensors, then EBSCO will notify the Licensee immediately in writing and shall have the right to temporarily suspend the Licensee's access to the Product(s). Licensee shall be given the opportunity to remedy the breach or infringement within thirty (30) days following receipt of written notice from EBSCO. Once the breach or infringement has been remedied or the offending activity halted, EBSCO shall reinstate access to the Databases. If the Licensee does not satisfactorily remedy the offending activity within thirty (30) days, EBSCO may terminate this Agreement upon written notice to the Licensee.</p></blockquote>
+<p>I haven't seen mention of EBSCO going so far as to terminate access to all or part of EBSCOhost, but there are indications that EBSCO is disabling the deep links to HBP content.  There are <a href="http://librarystaff.blogs.lincoln.ac.uk/2009/04/20/the-business-of-persistent-links/" title="The Business of persistent links at L&amp;amp;LR staff blog">reports</a> of <a href="http://replay.waybackmachine.org/20091003235023/http://www.caul.edu.au/datasets/hbr2008course-use.pdf" title="Harvard Business Review for Course Use [PDF]">HBP asking libraries</a> to pay an additional fee to EBSCO for the ability to have deep linking for HBP content.  By <a href="http://librarystaff.blogs.lincoln.ac.uk/2009/04/20/the-business-of-persistent-links/" title="The Business of persistent links at L&amp;amp;LR staff blog">one account</a>, a UK university might have to pay an additional &pound;15,000 (<a href="http://www.google.com/search?hl=en&amp;q=15%2C000+british+pounds+to+U.S.+dollars" title="302 Moved">about $25,000</a> at current conversion rates) to "create persistent links for use in teaching."</p>
+<h2>Do We Have to Take It?</h2>
+<p>So that is the technical and the legal perspectives on this controversy.  The final logical question is "Do we have to put up with it"?  Andy Priestner, Judge Business School's Head Librarian (at Cambridge University), <a href="http://libreaction.wordpress.com/2009/06/18/drop-the-pilot-why-business-librarians-should-not-give-in-to-harvard-business-school-publishings-new-scheme/" title="&#039;Drop the pilot: why business librarians should not give in to Harvard Business School Publishing&#8217;s new scheme&#039; in Libreaction: a business librarian&#8217;s blog">asks several good questions</a> about this twist of electronic article publishing and distribution.  In an article a few months ago, Jon Rochkind <a href="http://bibwild.wordpress.com/2009/01/27/hbs_right/" title="&#039;Harvard Business School, expanding the bounds of copyright&#039; in Bibliographic Wilderness">talks about</a> the eroding of rights associated with the <a href="http://en.wikipedia.org/wiki/First-sale_doctrine" title="First-sale doctrine - Wikipedia">'first sale doctrine'</a> in U.S. Copyright.  </p>
+<p>{{ image(
+    div_float="right",
+    width="322",
+    caption="Screen capture of a record for a Harvard Business Review article on EBSCOhost",
+    alt="hbr-article-on-ebscohost",
+    localsrc="/assets/images/2009/06/hbr-article-on-ebscohost-251x300.png") }}I'm of mixed minds about the issue.  HBP can license its content however it likes, and it probably does make a lot of money from <a href="http://hbsp.harvard.edu/he-main/resources/documents/web-files/academic_permission_form.pdf" title"Harvard Business Publishing Academic Permission form [PDF]" title="http://hbsp.harvard.edu/he-main/resources/documents/web-files/academic_permission_form.pdf">reselling articles</a> ((In its "<a href="http://hbsp.harvard.edu/he-main/resources/documents/web-files/academic_permission_form.pdf" title"Harvard Business Publishing Academic Permission form [PDF]" title="http://hbsp.harvard.edu/he-main/resources/documents/web-files/academic_permission_form.pdf">Academic Permission Form</a>", HBP says the cost of permission to reproduce and distribute articles is $3 per copy.  In addition, high-quality hard copies can be purchased from HBP for $3.42 each in quantities of 10 or more.)) in course packs and the like -- revenue that is lost by the sorts of deep linking that can happen into a journal aggregtor's service (like EBSCOhost).  On the other hand, the added restrictions by the publisher are not clearly spelled out on the page where the permanent link is displayed.  (See the figure to the right; click on it to open up to a larger screen capture of an EBSCOhost record display.)  Unless an instructor knows of the special conditions through some other channel (or reads the mind-numbing text at the end of the article PDF -- mind-numbing text that never seems to change from article to article, except in these special circumstances), they won't know that they are doing something that violates the publisher-specific terms of use.  And more to the point, the library -- the one paying the bills -- won't know that terms have been broken until the publisher comes knocking on the door asking for more money.  And if the library balks, who looks like the bad guy?</p>
+<p>And what is EBSCO's role in this?  Isn't a library's contract with EBSCO, not Harvard Business Publishing?  Is EBSCO earning more revenue from this HBP license requirement to enable deep linking to article content?  If so, isn't that just an incentive for EBSCO to do the same with other high-profile publishers?</p>
+<p>I don't have answers to these last questions, but I do get a very uncomfortable feeling.</p>
+<h2>Update</h2>
+<p><i>June 28, 2009:</i> I missed <a href="http://meredith.wolfwater.com/wordpress/2009/06/26/do-you-link-to-harvard-business-review-from-ebsco/" title="Do you link to Harvard Business Review from EBSCO? | Information Wants To Be Free">this post</a> from Meredith Farkas when I was looking for reactions to Paul Pival's post.  She says her university has had their deep links into EBSCOhost for <i>Harvard Business Review</i> turned off, although it wasn't for links in the course management system.</p>
+<p><i>August 28, 2009:</i> An <a href="http://www.libraryjournal.com/article/CA6678797.html" title="http://www.libraryjournal.com/article/CA6678797.html">opinion piece in Library Journal</a> from Chris Flegg, Bodleian Business Librarian of the Sa&iuml;d Business School at the University of Oxford (UK) goes into more depth, and includes Oxford's response -- not to pay and have deep linking turned off.
+<p style="padding:0;margin:0;font-style:italic;">The text was modified to update a link from http://www.caul.edu.au/datasets/hbr2008course-use.pdf to http://replay.waybackmachine.org/20091003235023/http://www.caul.edu.au/datasets/hbr2008course-use.pdf on February 11th, 2011.</p>

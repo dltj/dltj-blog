@@ -1,0 +1,42 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Fedora Advanced Applications Panel at JCDL2006'
+modified: 2006-06-06T01:13:49+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 63
+wordpress_url: http://dltj.org/2006/06/jcdl2006/
+date: '2006-06-05 21:13:49 -0400'
+date_gmt: '2006-06-06 02:13:49 -0400'
+category: Library Technology
+categories:
+- DRC
+- Fedora
+tags:
+- DRC
+- Joint Conference on Digital Libraries 2006
+- Fedora Repository
+comments: []
+---
+<p>I am excited almost beyond description to be sharing a panel with Sandy Payette (Cornell<br />
+University, USA), Andrew Treloar (Monash University, Australia), Matthias Razum (Fiz<br />
+Karlsruhe, Germany),  and Carl Lagoze (Cornell University, USA) at the upcoming <a href="http://jcdl2006.org/" title="http://jcdl2006.org/">Joint Conference on Digital Libraries</a>.  The tutorial is on Sunday afternoon (Sunday, June 11, 2006, 1:30-5:00pm local time) with the title "The Fedora Service Framework - Advanced Applications and Panel Discussion".  Sandy's recent announcement include this abstract:</p>
+<blockquote><p>
+This tutorial will focus on advanced application areas in which Fedora is being applied.  The first application area is institutional repositories, with a focus on why a service-oriented architecture approach is desirable, as well as issues around workflow and access control.  The second is the emerging area often characterized as"e-scholarship" with a focus on data modeling, workflows, and essential features of advanced scholarly publication systems.  The third area will focus on the use of Fedora to create a unified knowledge environment for higher education and e-research.  The fourth will discuss the use of Fedora to enable collaborative digital libraries, with a focus on the use of RDF to create rich information landscapes the push beyond the standard "search and access" paradigm.   The presenters will then participate in an hour long panel discussion taking on significant issues and challenges that cut across these application areas.
+</p></blockquote>
+<p>I'll be talking primarily about OhioLINK's vision for a common digital object repository and how we are going about it with a hosted repository service for all of the colleges and universities in Ohio.</p>
+<p>The presenters have been e-mailing back-and-forth now for a few days, and we've decided to limit ourselves to just 30 minutes a piece a leave a large block of time at the end for questions, answers, speculation, <a href="http://www2.merriam-webster.com/cgi-bin/mwdictsn?va=pontificating" title="http://www2.merriam-webster.com/cgi-bin/mwdictsn?va=pontificating">pontificating</a>,  and anything else that might happen.  I'm really looking forward to the audience participation at the end -- it will be a good way to validate our ideas to a wider audience.  (Plus I'll get to meet Andrew and Matthias in person to put a face to the e-mail address!)</p>
+<p>Online registration is closed since the program begins this weekend, but <a href="http://web.archive.org/web/20060605000000/http://jcdl2006.org:80/registration/" title="http://web.archive.org/web/20060605000000/http://jcdl2006.org:80/registration/">onsite registration is still available</a>.</p>
+<h2>Tutorial Agenda</h2>
+<ul>
+<li>Introduction  (Sandy Payette, Co-Director of Fedora Project, Cornell University, USA)</li>
+<li>Fedora for Institutional Repositories (Andrew Treloar, Monash University, Australia)</li>
+<li>Fedora for e-scholarship and scholarly publication  (Matthias Razum, Fiz Karlsruhe, Germany)</li>
+<li>Fedora for Unified Knowledge Repository for Higher Education (Peter Murray, OhioLINK, USA)</li>
+<li> Fedora for Collaborative Digital Libraries  (Carl Lagoze, Cornell Information Science, USA)</li>
+<li>Panel Discussion:  Hot Topics for Repositories</li>
+</ul>

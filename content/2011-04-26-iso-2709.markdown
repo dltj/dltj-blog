@@ -1,0 +1,91 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'What To Do With ISO 2709:2008?'
+modified: 2011-04-27T01:43:48+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 2822
+wordpress_url: http://dltj.org/?p=2822
+date: '2011-04-26 21:43:48 -0400'
+date_gmt: '2011-04-27 01:43:48 -0400'
+category: Raw Technology
+categories:
+- Raw Technology
+tags:
+- standards
+- MARC
+- National Information Standards Organization
+- ISO2709
+comments:
+- id: 137227
+  author: Dorothea Salo
+  author_email: dorothea.salo@gmail.com
+  author_url: ''
+  date: '2011-04-26 21:50:34 -0400'
+  date_gmt: '2011-04-27 01:50:34 -0400'
+  content: Vote to withdraw. It's past time.
+- id: 160378
+  author: DiPot
+  author_email: ''
+  author_url: http://twitter.com/digitalpot/status/63136462073368576
+  date: '2011-04-27 07:04:40 -0400'
+  date_gmt: '2011-04-27 11:04:40 -0400'
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">What To Do With ISO 2709:2008? | Disruptive Library
+    Technology Jester http://ff.im/-C3xKt</span></span>
+- id: 179617
+  author: zenodotus
+  author_email: ''
+  author_url: http://twitter.com/zenodotus/status/119079509172559872
+  date: '2011-09-28 16:02:22 -0400'
+  date_gmt: '2011-09-28 20:02:22 -0400'
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">http://dltj.org/article/iso-2709/</span></span>
+- id: 411128
+  author: Jakob Voss
+  author_email: voss@gbv.de
+  author_url: http://jakoblog.de
+  date: '2013-01-04 07:00:17 -0500'
+  date_gmt: '2013-01-04 12:00:17 -0500'
+  content: So what happend about ISO 2709? As other instances of the standard  move
+    to MARC21 I see no need to keep ISO 2709, because no relevant implementations
+    exist anymore.
+- id: 411200
+  author: Peter Murray
+  author_email: jester@dltj.org
+  author_url: http://dltj.org/about
+  date: '2013-01-04 08:38:14 -0500'
+  date_gmt: '2013-01-04 13:38:14 -0500'
+  content: Voting closed on September 1, 2011.  There were 19 votes to confirm (retain
+    as-is) and 4 abstentions out of 66 eligible organizations.  So (presumably) the
+    U.S. vote to ISO was to confirm the standard.  I believe it will be up for review
+    in another five years.
+- id: 679828
+  author: UGC NET Dec 2014 Ans Key (Unofficial). - Library and Information Science
+    Links (LIS Links)
+  author_email: ''
+  author_url: http://lislinks.com/forum/topics/ugc-net-dec-2014-ans-key-unofficial?id=2013205%3ATopic%3A712050&amp;page=1
+  date: '2015-06-29 02:03:02 -0400'
+  date_gmt: '2015-06-29 06:03:02 -0400'
+  content: "<!--%kramer-ref-pre%-->[&#8230;] http://dltj.org/article/iso-2709/ [&#8230;]<!--%kramer-ref-post%-->"
+---
+<div>
+<p>My employer recently became a member of NISO and I was made the primary representative.  This is my first formal interaction with the standards organization heirarchy (<abbr title="National Information Standards Organization">NISO</abbr> &rarr; <abbr title="American National Standards Institute">ANSI</abbr> &rarr; <abbr title="International Standards Organization">ISO</abbr>) and as one of the side effects I'm being asked to provide advice to NISO on how its vote should be cast on relevant ISO ballots.  Much of it has been pretty routine so far, but today one jumped out at me -- the systematic review for the standard <a href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=41319" title="ISO 2709:2008 - Information and documentation -- Format for information exchange">ISO 2709:2008</a>, otherwise blandly known as <a href="http://en.wikipedia.org/wiki/ISO_2709" title="ISO 2709 - Wikipedia, the free encyclopedia">Information and documentation &mdash; Format for information exchange</a>.  You might know it as the underlying structure of MARC.  (Though, to describe it accurately, MARC is a subset or profile of ISO 2709.)  And the voting options are: Confirm (as is), Revise/Amend, Withdraw (the standard), or Abstain (from the vote).<br />
+<!--more--></p>
+<h2>What is ISO 2709?</h2>
+<p>The scope statement of the standard is:<br />
+<blockquote>
+<p>This International Standard specifies the requirements for a generalized exchange format which will hold records describing all forms of material capable of bibliographic description as well as other types of records. It does not define the length or the content of individual records and does not assign any meaning to tags, indicators or identifiers, these specifications being the functions of an implementation format.</p>
+<p>This International Standard describes a generalized structure, a framework designed specially for communications between data processing systems and not for use as a processing format within systems.</p>
+</blockquote>
+<p>  The <a href="http://en.wikipedia.org/wiki/ISO_2709" title="ISO 2709 | Wikipedia">Wikipedia page for ISO 2709</a> pretty much sums up what is in the standard itself without all of the gory definitions and details, and if you are used to dealing with MARC records, it'll look familiar.</p>
+<p>According to the documentation I can find, ISO 2709 was last revised in 2008 when it was "technically revised to incorporate specification of the use of ISO/IEC 10646 using 8-bit Unicode Transformation Format (UTF-8) encoding."  The ballot in play now is a "systematic review" (("In addition to the continuous maintenance of the standard described above, a comprehensive review of a database standard at regular intervals may be necessary which is organized in accordance with the rules in the ISO/IEC Directives and the ISO Supplement for the systematic review process." <span class="removed_link" title="http://www.iso.org/sites/ConsumersStandards/en/pdf/ISO%20Supplement%20-%20Annex%20.pdf">Procedure for the development and maintenance of standards in database format</span>. Annex ST of the <a href="http://www.iso.org/directives" title="ISO/IEC Directives and ISO supplement ">ISO supplement to the ISO/IEC Directives</a>.)) of the 2008 revision of the standard.</p>
+<h2>What are my choices again?</h2>
+<p>As a member of NISO, I can cast an advisory vote to recommend how NISO -- the U.S. representative to ISO for this <a href="http://www.iso.org/iso/iso_technical_committee.html?commid=48798" title="ISO - Technical committees - TC 46/SC 4 - Technical interoperability">technical committee</a> -- casts it single vote among all of the voting countries of this technical committee.  And in my capacity as a NISO member, I can vote to confirm the standard, revise it, or ask that it be withdrawn.  And so here is my quandry.  As a standard for "generalized exchange format which will hold records describing all forms of material capable of bibliographic description" it works okay, but I think it is hard to argue with the fact that information exchange formats have moved well beyond this sort of format.  (My favorite interchange format is XML, but there are some that advocate now for JSON as a universal exchange format.)</p>
+<p>So here is where I need help.  Should I vote to confirm the <i>status quo</i>?  Or should I vote to revise/amend with a comment that says it is time to take this interchange format into XML, and in doing so set a path for the eventual deprecation of what we know as ISO 2709:2008?  Should I take the bold step and vote to withdraw the standard (which itself seems extreme given its current wide use in the library and closely related fields)?</p>
+<p>What would you do with ISO 2709?</p></div>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://www.iso.org/sites/ConsumersStandards/en/pdf/ISO%20Supplement%20-%20Annex%20.pdf on December 4th, 2012.</p>

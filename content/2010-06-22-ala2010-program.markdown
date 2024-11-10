@@ -1,0 +1,84 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: '"What Is Your Library Doing about Emerging Technologies?"'
+modified: 2010-06-23T01:38:06+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+excerpt: "<p>At the American Library Association conference this weekend, I'll be
+  part of a panel presentation from the <acronym title=\"Library and Information Technology
+  Association\"><a href=\"http://www.lita.org/\" title=\"Library and Information Technology
+  Association homepage\" rel=\"homepage\">LITA</a></acronym> <a href=\"http://connect.ala.org/node/66489\"
+  title=\"Emerging Technologies Interest Group (LITA - Library &amp; Information Technology
+  Association) | ALA Connect\">Emerging Technologies Interest Group</a> with the title
+  \"<a href=\"http://connect.ala.org/node/104303\" title=\"ALA 2010 Program: \"What
+  Is Your Library Doing about Emerging Technologies?\" | ALA Connect\">What Is Your
+  Library Doing about Emerging Technologies?</a>\"  The presentation will be on Saturday,
+  June 26 from 1:30pm to 3:30pm in room 103B of the Washington Convention Center.
+  \ The publicity blurb: <blockquote>A new job title of &ldquo;Emerging Technology
+  Librarian&rdquo; seems to reflect an awareness among today&rsquo;s libraries that
+  there is a need for a librarians whose main role is to explore, evaluate, promote,
+  and implement various emerging technologies.  19 librarians in different fields
+  of librarianship at academic, school, and public libraries will discuss the topic
+  of emerging technologies at libraries, their evaluation, implementation, adoption,
+  and management challenges. </blockquote></p>\r\n"
+more_anchor: more
+wordpress_id: 1638
+wordpress_url: http://dltj.org/?p=1638
+date: '2010-06-22 21:38:06 -0400'
+date_gmt: '2010-06-23 01:38:06 -0400'
+category: Meeting
+categories:
+- Meeting
+tags:
+- Library and Information Technology Association
+- conference
+- presentation
+- emerging technology
+- ALA Annual Conference 2010
+comments:
+- id: 159978
+  author: 'techise '
+  author_email: ''
+  author_url: ''
+  date: '2010-06-23 01:57:15 -0400'
+  date_gmt: '2010-06-23 05:57:15 -0400'
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">&ldquo;What Is Your Library Doing about Emerging
+    Technologies ... http://bit.ly/bT5Ezi</span></span>
+- id: 161311
+  author: khaled Noubani
+  author_email: ''
+  author_url: http://twitter.com/kynoubani/status/16835255354
+  date: '2010-06-23 08:18:00 -0400'
+  date_gmt: '2010-06-23 12:18:00 -0400'
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">&ldquo;What Is Your Library Doing about Emerging
+    Technologies?&rdquo; | Disruptive Library Technology Jester http://shar.es/mEeqZ</span></span>
+- id: 161312
+  author: Patricia Hswe
+  author_email: ''
+  author_url: http://twitter.com/pmhswe/status/16817719864
+  date: '2010-06-23 02:31:20 -0400'
+  date_gmt: '2010-06-23 06:31:20 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">RT @infopeep: Murray, Peter: &ldquo;What Is Your
+    Library Doing about Emerging Technologies?&rdquo; http://bit.ly/94YX1D</span></span>'
+- id: 161313
+  author: infopeep
+  author_email: ''
+  author_url: http://twitter.com/infopeep/status/16817006205
+  date: '2010-06-23 02:19:52 -0400'
+  date_gmt: '2010-06-23 06:19:52 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">Murray, Peter: &ldquo;What Is Your Library Doing
+    about Emerging Technologies?&rdquo; http://bit.ly/94YX1D</span></span>'
+---
+<p>At the American Library Association conference this weekend, I'll be part of a panel presentation from the <acronym title="Library and Information Technology Association"><a href="http://www.lita.org/" title="Library and Information Technology Association homepage" rel="homepage">LITA</a></acronym> <a href="http://connect.ala.org/node/66489" title="Emerging Technologies Interest Group (LITA - Library &amp; Information Technology Association) | ALA Connect">Emerging Technologies Interest Group</a> with the title "<a href="http://connect.ala.org/node/104303" title="ALA 2010 Program: "What Is Your Library Doing about Emerging Technologies?" | ALA Connect">What Is Your Library Doing about Emerging Technologies?</a>"  The presentation will be on Saturday, June 26 from 1:30pm to 3:30pm in room 103B of the Washington Convention Center.  The publicity blurb:<br />
+<blockquote>A new job title of &ldquo;Emerging Technology Librarian&rdquo; seems to reflect an awareness among today&rsquo;s libraries that there is a need for a librarians whose main role is to explore, evaluate, promote, and implement various emerging technologies.  19 librarians in different fields of librarianship at academic, school, and public libraries will discuss the topic of emerging technologies at libraries, their evaluation, implementation, adoption, and management challenges. </p></blockquote>
+<p><a id="more"></a><a id="more-1638"></a><br />
+My panel group met by conference call this afternoon to discuss the topic, and I came away feeling great about the synergy of this group.  The panel style is the panelists responding to a question from the moderator and reactions from each other with time for questions from the audience.  No canned presentations!</p>
+<p>Thanks to <a href="http://connect.ala.org/user/68988" title="Bohyun Kim | ALA Connect">Bohyun Kim</a> from Florida International University for setting up the panel discussion.</p>

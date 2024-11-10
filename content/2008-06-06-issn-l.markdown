@@ -1,0 +1,98 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Collocating Serial Formats Via "Linking ISSN"'
+modified: 2008-06-06T16:12:55+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 374
+wordpress_url: https://dltj.org/?p=374
+date: '2008-06-06 12:12:55 -0400'
+date_gmt: '2008-06-06 16:12:55 -0400'
+category: Linking Technologies
+categories:
+- Linking Technologies
+tags:
+- metadata
+- ISSN
+- identifier
+- openurl
+comments:
+- id: 33408
+  author: Ron Murray
+  author_email: rmur@loc.gov
+  author_url: ''
+  date: '2008-06-06 15:14:30 -0400'
+  date_gmt: '2008-06-06 19:14:30 -0400'
+  content: "It's less of a kludge than it is revealing a data modeling convention.
+    From a conceptual data modeling perspective, it suggests how one could independently
+    (no compound object etc.) identify an resource that is: (1.) typed, and (2) can
+    either be a resource in its own right, or can be composed of other resources (i.e,
+    a nested resource definition). \r\n\r\nAn identifier for a typed nested resource
+    is only part of the design solution, though. FRBR-like relationships defined between
+    these two types of serial resources (addressable using the ISSN-x number) could
+    then capture succession (historical) information, etc."
+- id: 33553
+  author: 'The FRBR Blog: Blog Archive &raquo; Catching up'
+  author_email: ''
+  author_url: http://www.frbr.org/2008/07/09/catching-up
+  date: '2008-07-09 10:21:52 -0400'
+  date_gmt: '2008-07-09 14:21:52 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] as part of the ISSN standard revision that
+    was approved last year. I talk a little bit about it in a post on my blog, DLTJ.
+    Comment by Peter Murray &#8212; 9 July 2008 @ 9:08 [...]<!--%kramer-ref-post%-->"
+- id: 33608
+  author: Ramon Pacheco Sanche
+  author_email: rpachecosanchez@hotmail.com
+  author_url: ''
+  date: '2008-07-20 20:02:17 -0400'
+  date_gmt: '2008-07-21 00:02:17 -0400'
+  content: "I am a director for a group of investigation of human rights at libre
+    university in colombia south america,I like to know if is any way possible to
+    register our magazine of  investigation in to your page of publication,\r\nplease
+    send to me all the steps needed for the inscription . for your attention to this
+    matter I give my thanks.so give to me a positive o negative answer"
+- id: 33616
+  author: the Jester
+  author_email: jester@dltj.org
+  author_url: http://dltj.org/about
+  date: '2008-07-21 22:15:57 -0400'
+  date_gmt: '2008-07-22 02:15:57 -0400'
+  content: Ramon -- If you are looking for an ISSN assignment, you'd need to contact
+    <a href="http://www.issn.org/2-22666-National-Centres.php?id=19" rel="nofollow">your
+    local ISSN centre</a>.
+---
+<p>Earlier this week I received an e-mail from the director of the <acronym title="International Standard Serials Number">ISSN</acronym> International Center announcing a session at the <acronym title="American Library Association">ALA</acronym> Annual Conference in Anaheim to talk about the "linking ISSN".  Abbreviated ISSN-L, this is a new addition to the revised ISSN standard (ISO 3297, published last August) that allows for the collocation of separate ISSNs under a single ISSN-L.  The ISSN standard now explicitly states that an <q>ISSN is a unique identifier for a specific serial in a defined medium.</q>  In other words, separate ISSN should be assigned to each different medium version of a serial.  The ISSN-L table brings these separate ISSNs together.</p>
+<p>The FAQ I received that goes along with the e-mail announcement has several interesting statements.  I've extracted the most interesting, at least from my perspective, here:</p>
+<blockquote><p>The purpose of the linking ISSN is to provide a tool for grouping, or collocating, the various medium versions of a resource, for instance, the print and online versions of a journal. ... Those involved in the production, distribution, management of, and access to serial resources have expressed the strong desire that the ISSN system meet two different needs:  </p>
+<ul type="disc">
+<li>The need for the ISSN to identify the various medium versions of a continuing resource, for product management purposes. To meet this need, separate ISSN are assigned to the various medium versions of a resource.  </li>
+<li>The need for a collocating, or grouping mechanism that would bring together various medium versions, and thus facilitate content management. The linking ISSN (ISSN-L) has been defined to meet this currently unmet need. </li>
+</ul>
+<p>The linking ISSN is a new function for the ISSN system -- not a new identifier. ... The first ISSN assigned in the ISSN Register to any medium version of a continuing resource is designated by default to function also as the linking ISSN and applies to all other medium versions of that resource identified in the ISSN Register.  The linking ISSN is labelled (for eye-readable purposes) as &ldquo;linking ISSN&rdquo; or &ldquo;ISSN-L&rdquo;.   A linking ISSN is designated for each continuing resource identified in the ISSN Register, even if the continuing resource is issued in only one medium. Only one linking ISSN is designated regardless of how many different medium versions of a continuing resource exist. </p>
+<p>The ISSN-L should always be treated, for computer processing purposes, as a separate data element. For example, in MARC formats, which are used in the ISSN Register, ISSN-L is input in a separately tagged subfield in each of the ISSN Register metadata records to which it pertains. It is important to note that ISSN-L should be processed and used separately from medium-specific ISSN. In applications based on tables or indexes, ISSN-L should not be included in the same tables or indexes as medium-specific ISSN. </p>
+<p>The designated ISSN-L is made available in several different ways: </p>
+<ul type="disc">
+<li>via a table which lists the ISSN-L and the corresponding ISSN linked to the ISSN-L. This table is available free of charge on the ISSN IC web site.  <i>[See note below.]</i></li>
+<li>via the ISSN Register: (each metadata record in the ISSN Register includes the medium-specific ISSN assigned to the resource described in the record, and the designated linking ISSN, as separate data elements); </li>
+<li>via the ISSN National Centres, which communicates to publishers the ISSN-L designated for newly-assigned ISSN, </li>
+<li>via the resources themselves, provided that publishers print or display this information according to the recommendations in  the standard. </li>
+</ul>
+<p>In order for the ISSN-L to work effectively, publishers will need to clearly indicate when they are using an ISSN-L as opposed to an ISSN.  The ISO standard&rsquo;s recommendations for printing and displaying ISSN-L are as follows: <q>the linking ISSN shall be clearly distinguished as such by use of the label ISSN-L. In such cases, the label ISSN-L shall be written in uppercase and a space shall precede the 8 digits of the linking ISSN. Example: 'ISSN-L 0251-1479'.</q> </p>
+<p>No programmatic method can be used to determine ISSN-L on the basis of one of the medium-specific ISSN, nor is there a programmatic way to determine the group of medium-specific ISSN associated with one ISSN-L. This is due to fundamental characteristics of the ISSN system: ISSN have no inherent meaning, and they are distributed sequentially. ISSN are assigned by national centres around the world, and a new medium version may appear at any time, perhaps published in a different country; this cannot be predicted and thus there is no programmatic way to associate an ISSN with its corresponding ISSN-L.</p>
+<p>The assignment policy of the Standard now explicitly specifies that <q>ISSN is a unique identifier for a specific serial in a defined medium</q>. Therefore separate ISSN are assigned to each particular medium version of a serial. ... If some publishers use the same ISSN for different medium versions of a serial, they deprive their users of the means to identify the medium- specific versions of that serial for ordering, claiming, etc. However, this should not interfere with the ISSN-L. The single ISSN will become the ISSN-L that can be used for collocating functions. </p>
+<p>ISSN-L is a tool that aims at facilitating collocating functions. To perform these functions adequately, ISSN-L and the related ISSN have to be present in OpenURL knowledge bases. At this time, various scenarios can be envisaged. The desired end result is described as follows: <q>The request must use the data available in the citation. It is the job of the resolver to match the identifier to the appropriate resource. It is the resolver that will make use of ISSN-L to relate the various medium of an ISSN to each other and find one to satisfy the request.  One should be able to put in a request (for example an OpenURL) using any of the ISSN and separately and additionally request that the electronic copy is desired.</q></p></blockquote>
+<p>One note: I can't find the ISSN-L table on the <a href="http://www.issn.org/" title="ISSN International Centre homepage">http://www.issn.org/</a> website.  In a follow up discussion with Fran&ccedil;oise Pell&eacute; (Director of the ISSN International Centre) I learned that it isn't there yet, but they intend to put it there.</p>
+<p>This is an interesting, well, kluge.  It provides a neat amount of backwards compatibility -- for publications that only have one medium, that publication's ISSN automatically becomes its ISSN-L.  The publishers (presumably) would need to take proactive action to tell the ISSN registrar that two ISSN are two mediums of the same publication; hopefully the word will get out and all affected publishers will do so.  </p>
+<p>It doesn't effectively replace the <a href="http://xissn.worldcat.org/xissnadmin/index.htm" title="WorldCat Web service: xISSN [OCLC - WorldCat Affiliate tools]: Home">xISSN service from OCLC</a> because the ISSN-L table only gives <em>current</em> links.  The description of xISSN says <q>ISSNs are related in two different ways: different editions of same serial (such as print and online editions) and historical relationships (ISSN changes that result from title changes, mergers, splits, etc.).</q>  ISSN-L only handles the former (different editions) relationship type, not the latter (historical) relationship type.  The ISSN-L table is (reportedly) free, however, and the xID service require an OCLC network membership.  (While this posting was in draft form, Tim McCormick of OCLC announced that <q>effective immediately, xID services from OCLC -- that is, xISBN, and the forthcoming xISSN -- will be included at no additional cost with all OCLC cataloguing subscriptions.</q></p>
+<p>I hope to hear more after ALA Annual.  Unfortunately, I think I have a conflict with the proposed meeting on Friday afternoon of ALA, so if anyone else hears anything please blog about it.  (Trackbacks to here would be appreciated.)</p>
+<h2>Updates from Information at ALA</h2>
+<p>I heard some more about linking ISSN during the <span class="removed_link" title="http://ala.org/ala/lita/litamembership/litaigs/igstandards/standards.cfm"><acronym title="Library and Information Technology Association">LITA</acronym> Standards interest group</span> meeting on Saturday afternoon.</p>
+<p>MARC codes were approved by MARBI a few months ago.  Current ISSN-L identifiers will be put in MARC21 field 022 subfield 'l'.  Cancelled ISSN-L identifiers will be put in MARC21 field 022 subfield 'm'.  (Every record will have a subfield 'l' or a subfield 'm', even if it is in a single format.)</p>
+<p>Retrospective designation uses lowest ISSN from the cluster linked via 776 field.  As on-going ISSN assignments are made, the ISSN-L will be the first assigned out of any media.  (May not always be the lowest in numerical order because of how ISSNs are allocated to ISSN centers.)</p>
+<p>The crossreferencing linking table for ISSN-L has not yet been published.  The international ISSN center is also considering a web service that would send back all of the associated ISSNs for an ISSN-L.  </p>
+<p>Launch is at IFLA in August 2008.  Expected implementation before end of 2008.  (There is of course some catch-up time as library automation vendors add this capability to individual systems.)
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://ala.org/ala/lita/litamembership/litaigs/igstandards/standards.cfm on June 9th, 2011.</p>

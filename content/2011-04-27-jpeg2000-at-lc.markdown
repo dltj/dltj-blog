@@ -1,0 +1,38 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'JPEG2000 Summit at Library of Congress, May 12-13, 2011'
+modified: 2011-04-27T19:25:26+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 2826
+wordpress_url: http://dltj.org/?p=2826
+date: '2011-04-27 15:25:26 -0400'
+date_gmt: '2011-04-27 19:25:26 -0400'
+category: JPEG2000
+categories:
+- JPEG2000
+tags:
+- jpeg2000
+- Library of Congress
+comments:
+- id: 160048
+  author: infopeep
+  author_email: ''
+  author_url: http://twitter.com/infopeep/status/63330642036920320
+  date: '2011-04-27 19:56:16 -0400'
+  date_gmt: '2011-04-27 23:56:16 -0400'
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
+    class="topsy_trackback_content">Murray, Peter: JPEG2000 Summit at Library of Congress,
+    May 12-13, 2011 http://bit.ly/lq7aPS</span></span>'
+---
+<p>It has been years since I've done meaningful work with JPEG2000, but I still try to keep tabs on what is happening in that community.  In that vein, <a href="http://www.linkedin.com/pub/rob-buckley/0/290/354" title="Rob Buckley  | LinkedIn">Rob Buckley</a> -- formerly of Xerox Research and now on his own with a consulting business -- pointed me to an announcement about a <span class="removed_link" title="http://www.nccsite.com/jpeg2000/">JPEG2000 Summit happening at the Library of Congress next month</span>.<br />
+<!--more--><br />
+The plan for the meeting is:<br />
+<blockquote>The program starts with a half-day tutorial on JPEG 2000 on the morning of the first day, followed by two sessions of presentations. The program will conclude on the afternoon of the second day with a small invitation-only working session to identify key objectives and collaborations for broadening the understanding and use of the technology.</p></blockquote>
+<p>  <span class="removed_link" title="http://www.nccsite.com/jpeg2000/registration/">Registration</span> is free but required because of the limited space.  If I were in or near D.C., I'd surely be there but my day job doesn't align well enough to the agenda to justify the trip.  I continue to think that use of JPEG2000 is a significant enough upgrade to TIFF practices for archiving and presentation to justify the cost of making a transition.  (That statement says nothing about a wholesale conversion of archive TIFFs to JPEG2000s; existing TIFFs can stay as they are but current practice should take advantage of the features offered with JPEG2000.)  The organizers are ending the summit with "a small invitation-only working session to identify key objectives and collaborations for broadening the understanding and use of the technology."  I'm looking forward to the output of that working group.
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://www.nccsite.com/jpeg2000/ on December 4th, 2012.</p>
+<p style="padding:0;margin:0;font-style:italic;" class="removed_link">The text was modified to remove a link to http://www.nccsite.com/jpeg2000/registration/ on December 4th, 2012.</p>

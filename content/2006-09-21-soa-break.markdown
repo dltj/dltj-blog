@@ -1,0 +1,52 @@
+---
+layout: wordpress-import
+status: published
+published: true
+title: 'Taking a Day''s Break from SOA'
+modified: 2006-09-21T21:21:16+00:00
+author: Peter Murray
+author_login: lyrdor
+author_email: jester@dltj.org
+author_url: http://dltj.org/about
+wordpress_id: 127
+wordpress_url: http://dltj.org/2006/09/soa-break/
+date: '2006-09-21 17:21:16 -0400'
+date_gmt: '2006-09-21 21:21:16 -0400'
+category: Meta Category
+categories:
+- Meta Category
+tags:
+- library service-oriented architecture
+- ngc4lib
+comments:
+- id: 4564
+  author: walt crawford
+  author_email: waltcrawford@gmail.com
+  author_url: http://walt.lishost.org
+  date: '2006-09-22 10:43:02 -0400'
+  date_gmt: '2006-09-22 14:43:02 -0400'
+  content: "You're welcome, although with the \"in my experience\" qualifier there's
+    no need to retract. I suspect the actual situation is complex enough to be difficult
+    to prove one way or the other. (E.g., the situation with ARL-class libraries may
+    be different than the situation with liberal arts colleges which may be different
+    than the situation with...and so on.) \r\n\r\nI'm finding the SOA series fascinating
+    and informative. Keep it up!"
+- id: 4651
+  author: NACO normalization &laquo; schenizzle
+  author_email: ''
+  author_url: http://schenizzle.wordpress.com/2006/07/11/naco-normalization/
+  date: '2006-09-24 19:11:12 -0400'
+  date_gmt: '2006-09-24 23:11:12 -0400'
+  content: "<!--%kramer-ref-pre%-->[...] Thoughts on The Last ColonyProfiling XML
+    SchemaThe Meaning of CPI BiasLucene Summit: Next Gen CatalogsTaking a Day&rsquo;s
+    Break from SOAThe Dis-integration of the ILS into a SOA EnvironmentHiring a systems
+    librarianServices in a Service Oriented ArchitectureGuidelines for Electronic
+    Reservesthe importance of making packages [...]<!--%kramer-ref-post%-->"
+---
+<p>No Service Oriented Architecture posting today, but here is a glimpse of the topic of the next one -- the title is:  "Web Services: A means to a Service Oriented Architecture end."  In the meantime I wanted to thank everyone for their public and private comments, and to ask to keep 'em coming.  The big push for writing about SOA this week was a lead up to a meeting of the OhioLINK Technical Advisory Council (TAC) today.  On TAC's agenda was a question about looking at SOA as a design strategy for new and migrated services.  These blog postings served several purposes:  1) propel the topic a little further in the library community [presupposing that it was a worthy topic]; 2) serve as background information for today's meeting; 3) flush out comments from the library community [which it did -- thanks again!]; and 4) form the basis of a whitepaper on SOA at OhioLINK.  TAC agreed to keep looking at it and endorsed the writing of the whitepaper.  Keep the comments and observations coming!</p>
+<p>On a somewhat related note, I wanted to tie up a loose end from this summer:</p>
+<blockquote><p>
+In academic libraries, in my experience, there has been a decline in the use of library catalogs. This experience could be verified in the ARL supplementary statistics for at least that population of libraries (I think those numbers are password-protected, so it might be a challenge to try to use them). When I get back on the ground and have some time, I will either offer confirmation of that supposition or retract it.</p>
+<address>DLTJ <a href="/article/dis-ils-2/">"Is the Writing On The Wall?" -- Take 2</a>, Wednesday, June 14th, 2006</address>
+</blockquote>
+<p>I retract the statement.  Although it has been true in my direct experience, I cannot find any statistics &mdash; for either academic libraries or the broader community &mdash; to back up that experience.  Thanks, Walt, for calling me on it and keeping me on the straight-and-narrow.</p>
