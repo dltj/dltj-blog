@@ -21,11 +21,13 @@ phases:
       - export LANGUAGE="en_US.UTF-8"
   build:
     commands:
-      - bundler exec jekyll build --trace
+      - ls -la
+      - pdm install --prod
+      - pdm run pelican content -o output -s publishconf.py -t /app/pelican-themes/pelican-hyde
   post_build:
     commands:
       - aws s3 cp webmentions-cache s3://org.dltj.webmentions-cache --recursive
-      - cp ./assets/js/JekyllWebmentionIO.js _site/assets/js/JekyllWebmentionIO.js
+      - cp ./assets/js/JekyllWebmentionIO.js output/assets/js/JekyllWebmentionIO.js
       # - aws s3 sync --delete --size-only --cache-control max-age=7201 _site/ "s3://${BUCKET_NAME}"
-      - s3deploy -bucket org.dltj.blog -region us-east-1 -source _site/ -distribution-id ${DISTRIBUTION_ID} -key $AWS_ACCESS_KEY_ID -secret $AWS_SECRET_ACCESS_KEY
+      - s3deploy -bucket org.dltj.blog -region us-east-1 -source output/ -distribution-id ${DISTRIBUTION_ID} -key $AWS_ACCESS_KEY_ID -secret $AWS_SECRET_ACCESS_KEY
       - aws s3api put-bucket-website --bucket "${BUCKET_NAME}" --website-configuration file://s3-website-config.json

@@ -9,10 +9,10 @@ dependencies = [
     "pelican[markdown] @ git+https://github.com/dltj/pelican.git",
     "pelican-jinja2content @ git+https://github.com/pelican-plugins/jinja2content.git",
     "pelican-yaml-metadata @ git+https://github.com/pelican-plugins/yaml-metadata.git",
-    "pelican-dltj-plugin @ git+https://github.com/dltj/pelican-dltj-plugin.git",
     "zygote-reader @ git+https://github.com/dltj/zygote-reader",
+    "dltj-plugin @ git+https://github.com/dltj/pelican-dltj-plugin.git",
 ]
-requires-python = "==3.12.*"
+requires-python = "==3.12.7"
 readme = "README.md"
 license = {text = "MIT"}
 

@@ -11,6 +11,8 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y \
   git \
   curl \
+  jq \
+  awscli \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* \
   # Install PDM
@@ -26,7 +28,7 @@ RUN set -eux; \
   rm /tmp/s3deploy.tar.gz
 
 # Copy the pyproject.toml and pdm.lock files
-COPY pyproject.toml pdm.lock* util /app/
+COPY pyproject.toml pdm.lock* /app/
 
 # Install the dependencies
 RUN pdm install --prod --no-self

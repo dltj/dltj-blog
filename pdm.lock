@@ -5,10 +5,10 @@
 groups = ["default", "dev"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:b6643b02879e7991ad25d2d363a11165fb631a622f43ad5431965bf7745f9d40"
+content_hash = "sha256:aeeb193cf5e09341c598d74faf63573164ef1cc05bf57b208a83bf075da4754f"
 
 [[metadata.targets]]
-requires_python = "==3.12.*"
+requires_python = "==3.12.7"
 
 [[package]]
 name = "anyio"
@@ -36,6 +36,18 @@ groups = ["default"]
 files = [
     {file = "blinker-1.8.2-py3-none-any.whl", hash = "sha256:1779309f71bf239144b9399d06ae925637cf6634cf6bd131104184531bf67c01"},
     {file = "blinker-1.8.2.tar.gz", hash = "sha256:8f77b09d3bf7c795e969e9486f39c2c5e9c39d4ee07424be2bc594ece9642d83"},
+]
+
+[[package]]
+name = "dltj-plugin"
+version = "1.0.0"
+requires_python = ">=3.8.1,<4.0"
+git = "https://github.com/dltj/pelican-dltj-plugin.git"
+revision = "f33d3ea2ca2c3422a5d95da868a1d7042e17456c"
+summary = "Stuff specific to the DLTJ blog"
+groups = ["default"]
+dependencies = [
+    "pelican>=4.5",
 ]
 
 [[package]]
@@ -188,7 +200,7 @@ name = "pelican"
 version = "4.10.1"
 requires_python = ">=3.8.1,<4.0"
 git = "https://github.com/dltj/pelican.git"
-revision = "882cd16e114cac40f0bc39e0b317981939b598d7"
+revision = "73115fb6f9beeb9c0e96c90f1efce9739fb5cd6a"
 summary = "Static site generator supporting Markdown and reStructuredText"
 groups = ["default"]
 dependencies = [
@@ -204,18 +216,6 @@ dependencies = [
     "tzdata; sys_platform == \"win32\"",
     "unidecode>=1.3.7",
     "watchfiles>=0.21.0",
-]
-
-[[package]]
-name = "pelican-dltj-plugin"
-version = "1.0.0"
-requires_python = ">=3.8.1,<4.0"
-git = "https://github.com/dltj/pelican-dltj-plugin.git"
-revision = "f33d3ea2ca2c3422a5d95da868a1d7042e17456c"
-summary = "Stuff specific to the DLTJ blog"
-groups = ["default"]
-dependencies = [
-    "pelican>=4.5",
 ]
 
 [[package]]
@@ -250,7 +250,7 @@ version = "4.10.1"
 extras = ["markdown"]
 requires_python = ">=3.8.1,<4.0"
 git = "https://github.com/dltj/pelican.git"
-revision = "882cd16e114cac40f0bc39e0b317981939b598d7"
+revision = "73115fb6f9beeb9c0e96c90f1efce9739fb5cd6a"
 summary = "Static site generator supporting Markdown and reStructuredText"
 groups = ["default"]
 dependencies = [
