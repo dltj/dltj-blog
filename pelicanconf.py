@@ -1,6 +1,7 @@
 """ Configuration file for DLTJ blog
 """
 
+import os
 import sys
 
 sys.path.append("./util")
@@ -13,6 +14,18 @@ DEFAULT_CATEGORY = "Meta Category"
 
 PATH = "content"
 STATIC_PATHS = ["assets"]
+ROOT_CONTENT = "root-content"
+EXTRA_PATH_METADATA = {}
+static_basedir = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), ROOT_CONTENT + os.sep
+)
+for root, dirs, files in os.walk(static_basedir):
+    for file in files:
+        dst_path = os.path.relpath(os.path.join(root, file), static_basedir)
+        src_path = os.path.join(ROOT_CONTENT, dst_path)
+        STATIC_PATHS.append(src_path)
+        EXTRA_PATH_METADATA[src_path] = {"path": dst_path}
+
 
 # Put articles in their own directory, see
 # https://github.com/getpelican/pelican/discussions/3362#discussioncomment-9988666
