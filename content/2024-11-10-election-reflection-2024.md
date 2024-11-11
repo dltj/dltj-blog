@@ -100,4 +100,4 @@ This number is starting to get big, so before I start forgetting places, here ar
 - March 2024, Thomas Elementary School, Voting Location Manager
 - November 2024, Thomas Elementary School, Voting Location Manager
 
-&dagger;: The aborted election at the start of the COVID pandemic. We got part of the way set up, then got the call from the Board of Elections to pack it in...there would be no election in March 2022.
+&dagger;: The aborted election at the start of the COVID pandemic. We got part of the way through the Monday night setup, then got the call from the Board of Elections to pack it in...there would be no election in March 2020.
