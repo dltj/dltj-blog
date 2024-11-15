@@ -23,7 +23,7 @@ phases:
     commands:
       - ls -la
       - pdm install --prod
-      - pdm run pelican content -o output -s publishconf.py -t /app/pelican-themes/pelican-hyde
+      - pdm run pelican content -o output -s publishconf.py -t /app/pelican-themes/pelican-papyrus-theme
   post_build:
     commands:
       - aws s3 cp webmentions-cache s3://org.dltj.webmentions-cache --recursive
