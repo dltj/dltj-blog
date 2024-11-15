@@ -2,21 +2,23 @@
 layout: single
 status: published
 published: true
-title: 'About the Jester'
+slug: about
+title: "About the Jester"
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 55
 wordpress_url: http://dltj.org/about-the-jester/
-date: '2006-05-14 18:42:37 -0400'
-date_gmt: '2006-05-14 23:42:37 -0400'
+date: "2006-05-14 18:42:37 -0400"
+date_gmt: "2006-05-14 23:42:37 -0400"
 category: Meta Category
 categories:
-- Meta Category
+  - Meta Category
 tags: []
 comments: []
 ---
+
 <h1>Peter E. Murray</h1>
 <div class="about-main-left">
 <img src="/assets/images/2006/05/pmurray.jpg" height="175" width="150" style="float: left; padding-right: 2em;" alt="Picture of Peter Murray" /><br />
@@ -42,10 +44,9 @@ comments: []
 </div>
 
 > Of at least equal importance with his entertainer's cap was the jester's function as adviser and critic. This is what distinguishes him from a pure entertainer who would juggle batons, swallow swords, or strum on a lute or a clown who would play the fool simply to amuse people. The jester everywhere employed the same techniques to carry out this delicate role, and it would take an obtuse king or emperor not to realize what he was driving at, since "other court functionaries cooked up the king's facts for him before delivery; the jester delivered them raw." An informal survey of the man in the street has shown that most people will pinpoint the jester's right to speak his mind as one of his salient characteristics.<br />
-Beatrice K. Otto<br />
-_[Fools Are Everywhere: The Court Jester Around the World](http://www.press.uchicago.edu/ucp/books/book/chicago/F/bo3615397.html)_<br>
-ISBN: 0-226-64091-4, &copy;2001, [<img src="/assets/images/2005/12/libraries_worldcat.gif" alt="" width="12" height="11" border="0" />&nbsp;Find in your library](http://www.worldcat.org/title/fools-are-everywhere-the-court-jester-around-the-world/oclc/44425502)
-
+> Beatrice K. Otto<br />
+> _[Fools Are Everywhere: The Court Jester Around the World](http://www.press.uchicago.edu/ucp/books/book/chicago/F/bo3615397.html)_<br>
+> ISBN: 0-226-64091-4, &copy;2001, [<img src="/assets/images/2005/12/libraries_worldcat.gif" alt="" width="12" height="11" border="0" />&nbsp;Find in your library](http://www.worldcat.org/title/fools-are-everywhere-the-court-jester-around-the-world/oclc/44425502)
 
 Does one need to mention anymore that the world is changing?
 At least in libraries and in higher education, the question is moot &mdash; if you haven't felt the change, then you should get out of the office more often.
@@ -73,10 +74,11 @@ A time when they came, seemingly eagerly, to bibliographic instruction sessions 
 A time when the library was a place to do serious research and the social hub atmosphere was secondary; not the reverse as is sometimes described today.
 A time when we were "in the loop" of research because our scholars had no choice but to come to us for some of the raw materials as they build new knowledge.
 
-Well, [the times, they are a-changing](http://www.bobdylan.com/us/songs/times.html "Bob Dylan: The Times They Are A-Changin&#039;").
+Well, [the times, they are a-changing](http://www.bobdylan.com/us/songs/times.html "Bob Dylan: The Times They Are A-Changin'").
 
 Over the course of the past decade or so, I've put thoughts to bits-on-disk on why, in <a href="/category/christensen/">Christensen</a> meaning of the term, the library profession is facing time of disruptive technology.
 But if you take for granted for a moment that you feel disrupted -- a kind of loss -- where do you fit in these stages?
+
 <dl>
 <dt>Denial</dt>
 <dd>Perhaps you don't think you are being disrupted. Or perhaps you think it is only happening to the institution down the road, or across the state, or to only the public/academic/school librarian (pick one you are not). Yet how do you account for the drop in gate counts? Or the decrease in reference questions, yet the ones you get are of a more sophisticated nature than you used to get ([anecdotally](http://web.archive.org/web/20090710200048/http://chronicle.com/free/v48/i12/12a03501.htm "The Chronicle: 11/16/2001: As Students Work Online, Reading Rooms Empty Out -- Leading Some Campuses to Add Starbucks"), at least)? Or the [decline of circulation in the median ARL Library](http://fisher.lib.virginia.edu/cgi-local/arlbin/arl.cgi?task=rungraph&#038;version=multivar&#038;begin=1995&#038;end=2004&#038;id=9999&#038;var=totcirc&#038;denom=NONE)?</dd>
