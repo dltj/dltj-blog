@@ -37,7 +37,7 @@ RUN pdm install --prod --no-self
 RUN git clone https://github.com/dltj/pelican.git /app/pelican
 
 # Clone the specified theme repository
-RUN git clone https://github.com/dltj/pelican-hyde.git /app/pelican-themes/pelican-hyde
+RUN git clone https://github.com/dltj/pelican-papyrus-theme.git /app/pelican-themes/pelican-papyrus-theme
 
 # Install Pelican from the cloned source
 RUN pip install /app/pelican

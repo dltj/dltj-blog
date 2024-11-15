@@ -53,7 +53,7 @@ TIMEZONE = "US/Eastern"
 
 DEFAULT_LANG = "en"
 
-THEME = "pelican-hyde"
+THEME = "pelican-papyrus-theme"
 PROFILE_IMAGE = "PMurray_2016_square_98x98.webp"
 
 # These macros are available on all content pages
@@ -92,12 +92,8 @@ AUTHOR_FEED_RSS = None
 BIO = "Library technologist, open source advocate, striving to think globally while acting locally"
 
 # Menu Items
-MENUITEMS = (
-    ("Categories", "/category"),
-    ("Tags", "/tag"),
-    ("Résumé / CV", "/resume"),
-)
-DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = (("Résumé / CV", "/resume"), ("Newsletter", "https://newsletter.dltj.org/"))
+DISPLAY_PAGES_ON_MENU = True
 
 # Blogroll
 LINKS = (
