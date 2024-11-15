@@ -11,6 +11,17 @@ Using PDM as a Python manager. Use `pdm run zsh` to activate a shell.
 
 1. `invoke serve` or `invoke liveupdate`
 
+## Editable modules
+
+This isn't clean, but it is a [work-around suggested on GitHub](https://github.com/pdm-project/pdm/issues/2256#issuecomment-1717984339):
+
+```bash
+pdm run python -m pip install -e ../pelican-personal
+pdm run python -m pip install -e ../pelican-dltj-plugin
+```
+
+`pdm sync --no-editable` will restore the virtual environment to what's in pyproject.toml.
+
 ## Historic Notes
 
 - Files with `.markdown` extensions were converted from the Wordpress site (and still may need some manual editing)
