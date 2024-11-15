@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:aeeb193cf5e09341c598d74faf63573164ef1cc05bf57b208a83bf075da4754f"
+content_hash = "sha256:b8689c9119a8e978bce5c2f4c96f460ae1f4d8e047cb3e747a766595a5a50569"
 
 [[metadata.targets]]
 requires_python = "==3.12.7"
@@ -228,6 +228,32 @@ summary = "Pelican plugin for using Jinja template code within post content"
 groups = ["default"]
 dependencies = [
     "pelican>=4.5",
+]
+
+[[package]]
+name = "pelican-neighbors"
+version = "1.2.0"
+requires_python = ">=3.6.2,<4.0"
+summary = "Neighbors is a Pelican plugin that adds Next/Previous links to articles"
+groups = ["default"]
+dependencies = [
+    "pelican<5,>=3",
+]
+files = [
+    {file = "pelican-neighbors-1.2.0.tar.gz", hash = "sha256:1cbeee08f4d2e135452c044924c3f8e5e39ff083dcfb7485e8eeafdab9d2e445"},
+    {file = "pelican_neighbors-1.2.0-py3-none-any.whl", hash = "sha256:963df1d27dd8b34ac7b85320e63184d3f4e396e4570a3d49f5911246387a35bb"},
+]
+
+[[package]]
+name = "pelican-readtime"
+version = "0.2.0"
+summary = "Plugin for Pelican that computes average read time."
+groups = ["default"]
+dependencies = [
+    "pelican>=3.6",
+]
+files = [
+    {file = "pelican-readtime-0.2.0.tar.gz", hash = "sha256:e0e48e0abcb4b14a287cc24a89b236221e5999033ce81965004f03ff38aae9c5"},
 ]
 
 [[package]]
