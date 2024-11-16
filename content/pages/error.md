@@ -1,5 +1,7 @@
 ---
-layout: default
+Title: Not Found
+Status: hidden
+Save_as: error.html
 ---
 
 <style type="text/css" media="screen">
