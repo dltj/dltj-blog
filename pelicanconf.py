@@ -69,7 +69,11 @@ JINJA_GLOBALS = {
 MARKDOWN = {
     "extension_configs": {
         "markdown.extensions.fenced_code": {},
-        "markdown.extensions.codehilite": {"css_class": "highlight"},
+        "markdown.extensions.codehilite": {
+            "css_class": "highlight",
+            "linenos": True,
+            "linenospecial": 2,
+        },
         "markdown.extensions.extra": {},
         "markdown.extensions.meta": {},
         "markdown.extensions.toc": {},
