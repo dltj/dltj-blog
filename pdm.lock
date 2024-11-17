@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:b8689c9119a8e978bce5c2f4c96f460ae1f4d8e047cb3e747a766595a5a50569"
+content_hash = "sha256:627702a6a245ca8bd95b68cbd6c1d665bc41ba9ec0594da0facb5a79eb564baa"
 
 [[metadata.targets]]
 requires_python = "==3.12.7"
@@ -43,7 +43,7 @@ name = "dltj-plugin"
 version = "1.0.0"
 requires_python = ">=3.8.1,<4.0"
 git = "https://github.com/dltj/pelican-dltj-plugin.git"
-revision = "f33d3ea2ca2c3422a5d95da868a1d7042e17456c"
+revision = "ff92765f387576bfd77e5ebae9c660a0626599be"
 summary = "Stuff specific to the DLTJ blog"
 groups = ["default"]
 dependencies = [
@@ -247,13 +247,12 @@ files = [
 [[package]]
 name = "pelican-readtime"
 version = "0.2.0"
+git = "https://github.com/dltj/pelican-readtime.git"
+revision = "96c90d5b298e6751f85bcd811ce86a5da68a3fb0"
 summary = "Plugin for Pelican that computes average read time."
 groups = ["default"]
 dependencies = [
     "pelican>=3.6",
-]
-files = [
-    {file = "pelican-readtime-0.2.0.tar.gz", hash = "sha256:e0e48e0abcb4b14a287cc24a89b236221e5999033ce81965004f03ff38aae9c5"},
 ]
 
 [[package]]

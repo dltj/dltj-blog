@@ -2,10 +2,10 @@
 
 Using PDM as a Python manager. Use `pdm run zsh` to activate a shell.
 
-## Basic setup 
+## Basic setup
 
-1. `pdm python install` — install Python venv
 1. `pdm install` — install prereq
+1. `pdm run pelican-themes -s ../pelican-papyrus-theme`
 
 ## View site
 
@@ -16,6 +16,7 @@ Using PDM as a Python manager. Use `pdm run zsh` to activate a shell.
 This isn't clean, but it is a [work-around suggested on GitHub](https://github.com/pdm-project/pdm/issues/2256#issuecomment-1717984339):
 
 ```bash
+pdm run python -m ensurepip --upgrade
 pdm run python -m pip install -e ../pelican-personal
 pdm run python -m pip install -e ../pelican-dltj-plugin
 ```
@@ -43,7 +44,8 @@ pdm run python -m pip install -e ../pelican-dltj-plugin
 ```
 
 ### Captioned section
-Used for things other than an image to get the same rendered output 
+
+Used for things other than an image to get the same rendered output
 
 ```
 {{ captioned(
