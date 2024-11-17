@@ -1,6 +1,6 @@
 ---
 title: 'Mastodon Instance Operators Report on the Impact of the #TwitterMigration'
-modified: 2022-12-04T23:14:12-05:00
+modified: '2022-12-05T19:38:01-05:00'
 category: Raw Technology
 categories:
 - Raw Technology

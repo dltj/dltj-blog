@@ -1,14 +1,14 @@
 ---
-title: 'DLTJ Now Uses Webmention and Bridgy to Aggregate Social Media Commentary'
-modified: 2021-07-11T22:54:57-04:00
+title: DLTJ Now Uses Webmention and Bridgy to Aggregate Social Media Commentary
+modified: '2021-07-11T22:54:57-04:00'
 category: Raw Technology
 categories:
-  - Meta Category
+- Meta Category
 tags:
-  - jekyll
-  - web architecture
-  - microformats
-  - webmention
+- jekyll
+- web architecture
+- microformats
+- webmention
 ---
 
 When I converted this blog from WordPress to a static site generated with {{ robustlink(href="https://jekyllrb.com/", versionurl="https://web.archive.org/web/20210709084250/https://jekyllrb.com/", versiondate="2021-07-09", title="Jekyll project homepage", anchor="Jekyll") }} in 2018, I lost the ability for readers to make comments. 

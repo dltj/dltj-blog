@@ -1,6 +1,6 @@
 ---
-title: 'Managing Remote Conference Presenters with Zoom'
-modified: 2020-03-14T20:08:19-04:00
+title: Managing Remote Conference Presenters with Zoom
+modified: '2021-04-03T21:45:55-04:00'
 category: Raw Technology
 categories:
 - Raw Technology

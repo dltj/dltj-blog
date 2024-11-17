@@ -2,15 +2,15 @@
 status: published
 published: true
 title: Embedding Graphics in Jaspersoft Report Files
-modified: 2018-12-31T21:13:40-05:00
+modified: '2018-12-31T21:13:40-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 26977
 wordpress_url: http://dltj.org/?p=26977
-date: '2015-12-30 12:27:54 -0500'
-date_gmt: '2015-12-30 17:27:54 -0500'
+date: 2015-12-30 12:27:54 -0500
+date_gmt: 2015-12-30 17:27:54 -0500
 category: Raw Technology
 categories:
 - Raw Technology
@@ -23,68 +23,57 @@ comments:
   author: Joe
   author_email: taepoop12@gmail.com
   author_url: ''
-  date: '2017-01-06 00:49:51 -0500'
-  date_gmt: '2017-01-06 05:49:51 -0500'
-  content: "when i started to paste \r\n\r\nit gives me an error:\r\n\"The method
-    decodeBase64(byte[]) is underfined for the type Base64"
+  date: 2017-01-06 00:49:51 -0500
+  date_gmt: 2017-01-06 05:49:51 -0500
+  content: "when i started to paste \r\n\r\nit gives me an error:\r\n\"The method decodeBase64(byte[]) is underfined for the type Base64"
 - id: 687039
   author: Joe
   author_email: taepoop12@gmail.com
   author_url: ''
-  date: '2017-01-06 00:50:42 -0500'
-  date_gmt: '2017-01-06 05:50:42 -0500'
+  date: 2017-01-06 00:50:42 -0500
+  date_gmt: 2017-01-06 05:50:42 -0500
   content: "\"\"\r\nthis is what i paste when i am getting the error, STEP 4"
 - id: 687040
   author: Peter Murray
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2017-01-06 15:18:15 -0500'
-  date_gmt: '2017-01-06 20:18:15 -0500'
-  content: I'm not seeing your entire message, I think.  You might try using a service
-    list gist.github.com to post the details of the error you are seeing.  I haven't
-    looked at this in a while, but as far as I know nothing extra is needed to include
-    the Base64 classes in Jaspersoft.
+  date: 2017-01-06 15:18:15 -0500
+  date_gmt: 2017-01-06 20:18:15 -0500
+  content: I'm not seeing your entire message, I think.  You might try using a service list gist.github.com to post the details of the error you are seeing.  I haven't looked at this in a while, but as far as I know nothing extra is needed to include the Base64 classes in Jaspersoft.
 - id: 688212
   author: Dawei
   author_email: riodavid@hotmail.com
   author_url: ''
-  date: '2017-08-30 03:54:47 -0400'
-  date_gmt: '2017-08-30 07:54:47 -0400'
-  content: This is a very good one. But unfortunately if we download it into excel,
-    the pictures are gone.
+  date: 2017-08-30 03:54:47 -0400
+  date_gmt: 2017-08-30 07:54:47 -0400
+  content: This is a very good one. But unfortunately if we download it into excel, the pictures are gone.
 - id: 688706
   author: Marc Schambers
   author_email: marcschambers6@gmail.com
   author_url: http://www.TeamADR.com
-  date: '2017-12-01 14:26:20 -0500'
-  date_gmt: '2017-12-01 19:26:20 -0500'
-  content: "Hi Joe,\r\nI had the exact same error.  I moved the statement, in the
-    'Source' tag, to below the grouping of property names and it worked:\r\n \t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\r\nAlso,
-    I changed the Evaluation Time to 'Report' on the image properties screen.  (Weird
-    that after that change, is when it worked.  Setting it back to Report, works now
-    too.)"
+  date: 2017-12-01 14:26:20 -0500
+  date_gmt: 2017-12-01 19:26:20 -0500
+  content: "Hi Joe,\r\nI had the exact same error.  I moved the statement, in the 'Source' tag, to below the grouping of property names and it worked:\r\n \t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\r\nAlso, I changed the Evaluation Time to 'Report' on the image properties screen.  (Weird that after that change, is when it worked.  Setting it back to Report, works now too.)"
 - id: 688707
   author: Marc Schambers
   author_email: marcschambers6@gmail.com
   author_url: http://www.TeamADR.com
-  date: '2017-12-01 14:28:13 -0500'
-  date_gmt: '2017-12-01 19:28:13 -0500'
+  date: 2017-12-01 14:28:13 -0500
+  date_gmt: 2017-12-01 19:28:13 -0500
   content: Make that change back to 'Now' :-)
 - id: 688708
   author: Marc Schambers
   author_email: marcschambers6@gmail.com
   author_url: http://www.TeamADR.com
-  date: '2017-12-01 14:33:59 -0500'
-  date_gmt: '2017-12-01 19:33:59 -0500'
-  content: "Hello Dawei,\r\nBy moving the -import- tag, I successfully imported the
-    image into both .xls and .xlsx.  Give it a try and let me know if it works for
-    you."
+  date: 2017-12-01 14:33:59 -0500
+  date_gmt: 2017-12-01 19:33:59 -0500
+  content: "Hello Dawei,\r\nBy moving the -import- tag, I successfully imported the image into both .xls and .xlsx.  Give it a try and let me know if it works for you."
 - id: 688722
   author: Peter Murray
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2017-12-06 11:09:50 -0500'
-  date_gmt: '2017-12-06 16:09:50 -0500'
+  date: 2017-12-06 11:09:50 -0500
+  date_gmt: 2017-12-06 16:09:50 -0500
   content: Awesome!  Thanks for sharing your experience, Marc.
 ---
 One of the features of [Jaspersoft Reports](http://www.jaspersoft.com/reporting-software "Reporting Software - TIBCO Jaspersoft") is the ability to include static graphics -- logos, for instance -- in the completed reports. These graphic files are normally listed in the JRXML configuration file by reference -- meaning that what is stored in the configuration is a file name and not the graphic itself. Most times the configuration file and the ancillary graphics files are uploaded to a JasperReports Server for execution. In the environment that I'm working in, [CollectionSpace](http://collectionspace.org/ "http://collectionspace.org/"), the report generator is embedded in the application without the JasperReports Server endpoint. The JRXML files must be compiled into the application, which makes keeping track of the ancillary graphics files somewhat troublesome.

@@ -1,16 +1,16 @@
 ---
 status: published
 published: true
-title: 'Why Fedora?  Because You Don''t Need Fedora'
-modified: 2021-06-23T21:15:00-04:00
+title: Why Fedora?  Because You Don't Need Fedora
+modified: '2021-06-23T21:15:50-04:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 38
 wordpress_url: http://dltj.org/2006/04/why-fedora-because-you-dont-need-fedora/
-date: '2006-04-10 20:39:17 -0400'
-date_gmt: '2006-04-11 01:39:17 -0400'
+date: 2006-04-10 20:39:17 -0400
+date_gmt: 2006-04-11 01:39:17 -0400
 category: Library Technology
 categories:
 - DRC
@@ -21,34 +21,19 @@ tags:
 - Fedora Repository
 comments:
 - id: 49
-  author: "&tau;&epsilon;&chi;&nu;&omicron;&sigma;&omicron;&phi;&iota;&alpha; &raquo;
-    The Jester&#8217;s Case for Fedora"
+  author: '&tau;&epsilon;&chi;&nu;&omicron;&sigma;&omicron;&phi;&iota;&alpha; &raquo; The Jester&#8217;s Case for Fedora'
   author_email: ''
   author_url: http://www.lackoftalent.org/michael/blog/2006/05/02/the-jesters-case-for-fedora/
-  date: '2006-05-02 16:54:13 -0400'
-  date_gmt: '2006-05-02 21:54:13 -0400'
-  content: "[...] An advantage of using the Fedora system, as outlined in Why Fedora?
-    Because You Don&#8217;t Need Fedora, is that due to modular design and adherence
-    to more or less open standards, one is not necessarily wedded to Fedora for the
-    foreseeable future.  Items in a Fedora repository are serialized as XML objects,
-    either in the Fedora-METS or FOXML format.  While some of this information is
-    copied into a relational database system and an RDF triplestore for speed and
-    convenience, it is all intact within the serialized XML objects which reside in
-    a predictable directory hierarchy on the local filesystem.  There are at least
-    two advantages to this design: [...]"
+  date: 2006-05-02 16:54:13 -0400
+  date_gmt: 2006-05-02 21:54:13 -0400
+  content: '[...] An advantage of using the Fedora system, as outlined in Why Fedora? Because You Don&#8217;t Need Fedora, is that due to modular design and adherence to more or less open standards, one is not necessarily wedded to Fedora for the foreseeable future.  Items in a Fedora repository are serialized as XML objects, either in the Fedora-METS or FOXML format.  While some of this information is copied into a relational database system and an RDF triplestore for speed and convenience, it is all intact within the serialized XML objects which reside in a predictable directory hierarchy on the local filesystem.  There are at least two advantages to this design: [...]'
 - id: 77
-  author: Fedora, Objects, Datastreams, Filesystems, and a Correction in Disruptive
-    Library Technology Jester
+  author: Fedora, Objects, Datastreams, Filesystems, and a Correction in Disruptive Library Technology Jester
   author_email: ''
   author_url: http://dltj.org/2006/05/preservation-in-fedora-revisited/
-  date: '2006-05-14 16:02:27 -0400'
-  date_gmt: '2006-05-14 21:02:27 -0400'
-  content: "[...] In an earlier post, I extolled the virtues of Fedora as an ideal
-    candidate for digital preservation because &#8220;[a]ll of the metadata (descriptive,
-    preservation, and relationship to other objects) and managed datastreams that
-    make up a digital object are &#8217;serialized&#8217; to a single XML file on
-    a file system.&#8221; Well, as I found out last week, it isn&#8217;t quite that
-    straight forward. &#182; [...]"
+  date: 2006-05-14 16:02:27 -0400
+  date_gmt: 2006-05-14 21:02:27 -0400
+  content: '[...] In an earlier post, I extolled the virtues of Fedora as an ideal candidate for digital preservation because &#8220;[a]ll of the metadata (descriptive, preservation, and relationship to other objects) and managed datastreams that make up a digital object are &#8217;serialized&#8217; to a single XML file on a file system.&#8221; Well, as I found out last week, it isn&#8217;t quite that straight forward. &#182; [...]'
 ---
 I'm often asked "Why is OhioLINK using FEDORA?" (Just to eliminate any confusion at the start, I'm referring to the {{ robustlink(href="http://fedora.info/", versiondate="2006-04-10", title="Fedora", anchor="FEDORA Digital Object Repository") }}, a project of Cornell's computer science department and the University of Virginia Libraries, and not the Linux operating system distribution by Redhat.)
 There are many reasons, but I was reminded of one recently while reading through the {{ robustlink(href="http://web.archive.org/web/20140328025312/http://fedora.info/download/2.1.1/userdocs/distribution/migration.html", versiondate="2006-04-10", title="Fedora Upgrade and Migration Guide", anchor="migration documentation") }} for the 2.1.1 release that came out today.

@@ -1,18 +1,18 @@
 ---
 title: 'Issue 98: Time Standards - leap seconds forwards and backwards, moon time, internet time (then and now), and aliens'
-modified: 2023-02-01T23:59:05-05:00
+modified: '2023-02-02T12:32:01-05:00'
 category: Thursday Threads
 categories:
 - Thursday Threads
 mastodon:
-- "Saint Augustine wrote: 'What then is time? If no one asks me, I know: if I wish to explain it to one that asketh, I know not' This week's DLTJ Thursday Threads looks at time standards. https://dltj.org/article/issue-98-time-standards/ 1/7"
+- 'Saint Augustine wrote: ''What then is time? If no one asks me, I know: if I wish to explain it to one that asketh, I know not'' This week''s DLTJ Thursday Threads looks at time standards. https://dltj.org/article/issue-98-time-standards/ 1/7'
 - There is a faction of Earthlings that want to eliminate the leap second as a distinct unit of time. Instead, they propose "smearing" that second across an entire day so software developers can avoid having to think about a quirky minute that has 61 seconds. https://dltj.org/article/issue-98-time-standards/#leap-second 2/7
 - If you thought adding a second was bad, what are we going to do when we have to remove a second from our clocks to keep solar time in sync with caesium time. https://dltj.org/article/issue-98-time-standards/#backwards-second 3/7
 - And what if we leave Earth for the Moon. How are we going to keep track of time there? https://dltj.org/article/issue-98-time-standards/#moon-time 4/7
 - Synchronizing time is "black magic" according to one of the pioneers of the internet. Why is it like that? https://dltj.org/article/issue-98-time-standards/#ntp-black-magic 5/7
 - Synchronizing clocks to millisecond accuracy isn't good enough for some applications. Read about the move to nanosecond accuracy. https://dltj.org/article/issue-98-time-standards/#ptp 6/7
 - Now that we have this time thing sorted out, could we explain it to an alien visitor? Perhaps we don't have time thought through after all. https://dltj.org/article/issue-98-time-standards/#aliens 7/7
-- And the weekly addition to #CatsOfMastodon. Mittens invades the groceries looking to rub her face against the strawberry container. bonus/7
+- And the weekly addition to
 ---
 {{ image(width="700", localsrc="2023/2023-02-02-confessions.jpg", caption="Augustine, Saint, Bishop of Hippo. <cite>The Confessions of St. Augustine</cite>. New York: Grosset & Dunlap, 1931, <a href='https://babel.hathitrust.org/cgi/pt?id=uc1.b3945012&view=1up&seq=281&q1=what+then+is+time'>page 267</a>. Translation of the Latin original from circa 397 CE.", alt="Scan of a book page with this quote highlighted: What then is time? If no one asks me, I know: if I wish to explain it to one that asketh, I know not") }} 
 

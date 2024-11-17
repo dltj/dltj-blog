@@ -1,6 +1,6 @@
 ---
 title: 'Issue 81: Controlled Digital Interlibrary Lending, Gamers Revolt Against NFTs, and Cats'
-modified: 2022-01-19T22:13:28-05:00
+modified: '2022-01-20T08:49:28-05:00'
 category: Thursday Threads
 categories:
 - Thursday Threads

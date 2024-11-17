@@ -1,6 +1,6 @@
 ---
-title: 'Thoughts on Growing Up'
-modified: 2021-05-28T15:32:44-04:00
+title: Thoughts on Growing Up
+modified: '2021-05-28T15:32:44-04:00'
 categories:
 - Personal
 ---

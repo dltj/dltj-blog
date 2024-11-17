@@ -1,6 +1,6 @@
 ---
 title: 'Trip Report: NISO Plus Forum 2022'
-modified: 2022-09-22T22:24:51-04:00
+modified: '2022-10-05T17:07:19-04:00'
 category: L/IS Profession
 categories:
 - L/IS Profession

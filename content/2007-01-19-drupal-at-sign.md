@@ -3,15 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: Getting Around Drupal's Prohibition of @ Characters in User Ids
-modified: 2018-01-15T22:38:08-05:00
+modified: '2018-01-15T22:38:08-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 169
 wordpress_url: http://dltj.org/2007/01/drupal-at-sign/
-date: '2007-01-19 11:46:06 -0500'
-date_gmt: '2007-01-19 16:46:06 -0500'
+date: 2007-01-19 11:46:06 -0500
+date_gmt: 2007-01-19 16:46:06 -0500
 category: Raw Technology
 categories:
 - Raw Technology

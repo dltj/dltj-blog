@@ -2,15 +2,15 @@
 status: published
 published: true
 title: 'Thursday Threads: Google Books Settlement, Cornell on NDAs, Hans Rosling on Literacy'
-modified: 2011-03-24T06:40:29+00:00
+modified: '2018-01-15T15:47:28-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 2747
 wordpress_url: http://dltj.org/?p=2747
-date: '2011-03-24 06:40:29 -0400'
-date_gmt: '2011-03-24 10:40:29 -0400'
+date: 2011-03-24 06:40:29 -0400
+date_gmt: 2011-03-24 10:40:29 -0400
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -24,44 +24,33 @@ tags:
 - literacy
 comments:
 - id: 130031
-  author: 'Booked! Libraries, eBooks and Their Collections! | TeleRead: News and views
-    on e-books, libraries, publishing and related topics'
+  author: 'Booked! Libraries, eBooks and Their Collections! | TeleRead: News and views on e-books, libraries, publishing and related topics'
   author_email: ''
   author_url: http://www.teleread.com/ebooks/booked-libraries-ebooks-and-their-collections/
-  date: '2011-03-26 11:18:41 -0400'
-  date_gmt: '2011-03-26 15:18:41 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] it seems there is still no clear answer!
-    &nbsp;Given the recent Google Books decision (info via the Disruptive Library
-    Technology Jester blog) and the public discussions from both OverDrive and Harper
-    Collins,&nbsp;I don&rsquo;t think any [...]<!--%kramer-ref-post%-->"
+  date: 2011-03-26 11:18:41 -0400
+  date_gmt: 2011-03-26 15:18:41 -0400
+  content: <!--%kramer-ref-pre%-->[...] it seems there is still no clear answer! &nbsp;Given the recent Google Books decision (info via the Disruptive Library Technology Jester blog) and the public discussions from both OverDrive and Harper Collins,&nbsp;I don&rsquo;t think any [...]<!--%kramer-ref-post%-->
 - id: 159702
   author: ALA_TechSource
   author_email: ''
   author_url: http://twitter.com/ala_techsource/status/50960087879135232
-  date: '2011-03-24 16:40:06 -0400'
-  date_gmt: '2011-03-24 20:40:06 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Via @DataG Thursday Threads: Google Books Settlement,
-    Cornell on NDAs, Hans Rosling on Literacy http://bit.ly/eeYOB3</span></span>'
+  date: 2011-03-24 16:40:06 -0400
+  date_gmt: 2011-03-24 20:40:06 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Via @DataG Thursday Threads: Google Books Settlement, Cornell on NDAs, Hans Rosling on Literacy http://bit.ly/eeYOB3</span></span>'
 - id: 159703
   author: Library Feed
   author_email: ''
   author_url: http://twitter.com/libraryfeed/status/50873201798037504
-  date: '2011-03-24 10:54:51 -0400'
-  date_gmt: '2011-03-24 14:54:51 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: Google Books Settlement, Cornell
-    on NDAs, Hans Rosling on Literacy http://bit.ly/dZNdKE</span></span>'
+  date: 2011-03-24 10:54:51 -0400
+  date_gmt: 2011-03-24 14:54:51 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: Google Books Settlement, Cornell on NDAs, Hans Rosling on Literacy http://bit.ly/dZNdKE</span></span>'
 - id: 650462
-  author: 'Thursday Threads: HarperCollins, Google Book Search Settlement, DPLA, Juggling
-    Robots | Disruptive Library Technology Jester'
+  author: 'Thursday Threads: HarperCollins, Google Book Search Settlement, DPLA, Juggling Robots | Disruptive Library Technology Jester'
   author_email: ''
   author_url: http://dltj.org/article/thursday-threads-2011w13/
-  date: '2013-09-26 12:06:31 -0400'
-  date_gmt: '2013-09-26 16:06:31 -0400'
-  content: "[&#8230;] few more things have been written since last week&#8217;s DLTJ
-    summary on the Google Book Search settlement rejection. Publisher&#8217;s Weekly
-    has a high-level overview of impact and plausable desires of the various [&#8230;]"
+  date: 2013-09-26 12:06:31 -0400
+  date_gmt: 2013-09-26 16:06:31 -0400
+  content: '[&#8230;] few more things have been written since last week&#8217;s DLTJ summary on the Google Book Search settlement rejection. Publisher&#8217;s Weekly has a high-level overview of impact and plausable desires of the various [&#8230;]'
 ---
 <p>This week's big news is hard to miss -- we have a <a href="#p2747-gbs">decision</a> by the judge evaluating the settlement agreement in the Google Book Search lawsuit.  This is probably the first of many follow-ups in <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> as this case keeps taking interesting twists and turns.  Also of note this week is Cornell Library's statement that it will <a href="#p2747-nda">no longer sign contracts that include non-disclosure agreements</a>.  Lastly is a pointer to a 10 minute video of <a href="#p2747-rosling">Hans Rosling's TED talk on machines leading to increased literacy</a>.</p>
 

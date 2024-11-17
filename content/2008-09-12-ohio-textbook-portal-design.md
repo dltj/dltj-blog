@@ -3,15 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: Drupal as the Foundation of Ohio Textbook Portal
-modified: 2018-01-15T22:38:08-05:00
+modified: '2018-01-15T22:38:08-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 487
 wordpress_url: http://dltj.org/?p=487
-date: '2008-09-12 16:34:03 -0400'
-date_gmt: '2008-09-12 20:34:03 -0400'
+date: 2008-09-12 16:34:03 -0400
+date_gmt: 2008-09-12 20:34:03 -0400
 category: Campus Technology
 categories:
 - Textbooks
@@ -24,108 +24,79 @@ comments:
   author: rob casson
   author_email: cassonrd@muohio.edu
   author_url: ''
-  date: '2008-09-13 14:09:02 -0400'
-  date_gmt: '2008-09-13 18:09:02 -0400'
-  content: "excellent write-up, and particular thanks for the pointer to hook_search_page!
-    \r\n\r\n i've been avoiding using some of the _search hooks, mainly b/c i couldn't
-    figure out a proper way to control the display of search results...and of course,
-    i must have skimmed over the relevant section in \"Pro Drupal Development\" too
-    ;)"
+  date: 2008-09-13 14:09:02 -0400
+  date_gmt: 2008-09-13 18:09:02 -0400
+  content: "excellent write-up, and particular thanks for the pointer to hook_search_page! \r\n\r\n i've been avoiding using some of the _search hooks, mainly b/c i couldn't figure out a proper way to control the display of search results...and of course, i must have skimmed over the relevant section in \"Pro Drupal Development\" too ;)"
 - id: 33843
   author: the Jester
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2008-09-16 12:17:29 -0400'
-  date_gmt: '2008-09-16 16:17:29 -0400'
-  content: You're welcome, Rob.  I can't remember where I first ran across mention
-    of hook_search_page.  I do know that it was out of <a href="http://drupal.org/node/286448"
-    rel="nofollow">frustration</a> that <a href="http://api.drupal.org/api/function/hook_search_item/4.6"
-    rel="nofollow">hook_search_item</a> was <a href="http://drupal.org/node/163046#comment-257318"
-    rel="nofollow">removed</a>.  It has done the trick, though, for what I needed
-    -- even if it did take more code than I though should be required.
+  date: 2008-09-16 12:17:29 -0400
+  date_gmt: 2008-09-16 16:17:29 -0400
+  content: You're welcome, Rob.  I can't remember where I first ran across mention of hook_search_page.  I do know that it was out of <a href="http://drupal.org/node/286448" rel="nofollow">frustration</a> that <a href="http://api.drupal.org/api/function/hook_search_item/4.6" rel="nofollow">hook_search_item</a> was <a href="http://drupal.org/node/163046#comment-257318" rel="nofollow">removed</a>.  It has done the trick, though, for what I needed -- even if it did take more code than I though should be required.
 - id: 33854
   author: Drupal as the Foundation of Ohio Textbook Portal | LISNews
   author_email: ''
   author_url: http://lisnews.org/node/31214/
-  date: '2008-09-17 13:16:18 -0400'
-  date_gmt: '2008-09-17 17:16:18 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] as the Foundation of Ohio Textbook Portal
-    \ Wed, 09/17/2008 - 08:17 &mdash; Blake  Disruptive Library Technology Jester:
-    The textbook portal is based on the Drupal (version 6) content management system.
-    In particular, [...]<!--%kramer-ref-post%-->"
+  date: 2008-09-17 13:16:18 -0400
+  date_gmt: 2008-09-17 17:16:18 -0400
+  content: '<!--%kramer-ref-pre%-->[...] as the Foundation of Ohio Textbook Portal  Wed, 09/17/2008 - 08:17 &mdash; Blake  Disruptive Library Technology Jester: The textbook portal is based on the Drupal (version 6) content management system. In particular, [...]<!--%kramer-ref-post%-->'
 - id: 33858
-  author: 'The OPLIN 4cast &raquo; Blog Archive &raquo; OPLIN 4Cast #118: Amazon,
-    Book logs, More from Google, Drupal'
+  author: 'The OPLIN 4cast &raquo; Blog Archive &raquo; OPLIN 4Cast #118: Amazon, Book logs, More from Google, Drupal'
   author_email: ''
   author_url: http://www.oplin.org/4cast/?p=226
-  date: '2008-09-18 12:32:35 -0400'
-  date_gmt: '2008-09-18 16:32:35 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] Drupal as the Foundation of Ohio Textbook
-    Portal [...]<!--%kramer-ref-post%-->"
+  date: 2008-09-18 12:32:35 -0400
+  date_gmt: 2008-09-18 16:32:35 -0400
+  content: <!--%kramer-ref-pre%-->[...] Drupal as the Foundation of Ohio Textbook Portal [...]<!--%kramer-ref-post%-->
 - id: 34175
   author: Tiffany
   author_email: tmille26@kent.edu
   author_url: ''
-  date: '2008-11-01 14:49:43 -0400'
-  date_gmt: '2008-11-01 18:49:43 -0400'
-  content: I am a student at Kent State, and I have yet to be told about the Ohio
-    Textbook Portal via our university communications.  That is disappointing, especially
-    since I am in the instructional technology program.  You would think this would
-    be something my department supported.
+  date: 2008-11-01 14:49:43 -0400
+  date_gmt: 2008-11-01 18:49:43 -0400
+  content: I am a student at Kent State, and I have yet to be told about the Ohio Textbook Portal via our university communications.  That is disappointing, especially since I am in the instructional technology program.  You would think this would be something my department supported.
 - id: 34211
   author: the Jester
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2008-11-03 10:19:49 -0500'
-  date_gmt: '2008-11-03 15:19:49 -0500'
-  content: Tiffany -- I certainly don't think it was the intention of the Board of
-    Regents to keep this a secret.  There were perhaps some holes in the strategies
-    to promote the portal.  I've forwarded your observations on to those that can
-    do something with them.  (Me?  I just keep the technological end of it going...)
+  date: 2008-11-03 10:19:49 -0500
+  date_gmt: 2008-11-03 15:19:49 -0500
+  content: Tiffany -- I certainly don't think it was the intention of the Board of Regents to keep this a secret.  There were perhaps some holes in the strategies to promote the portal.  I've forwarded your observations on to those that can do something with them.  (Me?  I just keep the technological end of it going...)
 - id: 34370
   author: Sources | drupal.org
   author_email: ''
   author_url: http://drupal.org/aggregator/sources/
-  date: '2008-12-13 16:52:38 -0500'
-  date_gmt: '2008-12-13 21:52:38 -0500'
-  content: "<!--%kramer-ref-pre%-->[...] Library Technology Jester Drupal as the Foundation
-    of Ohio Textbook Portal 13 weeks 1 day old [...]<!--%kramer-ref-post%-->"
+  date: 2008-12-13 16:52:38 -0500
+  date_gmt: 2008-12-13 21:52:38 -0500
+  content: <!--%kramer-ref-pre%-->[...] Library Technology Jester Drupal as the Foundation of Ohio Textbook Portal 13 weeks 1 day old [...]<!--%kramer-ref-post%-->
 - id: 89046
   author: Jacob
   author_email: jacobdanes@gmail.com
   author_url: http://www.milblogging.com//profile.php?mode=viewp
-  date: '2010-09-19 01:16:12 -0400'
-  date_gmt: '2010-09-19 05:16:12 -0400'
-  content: "Just wanted to shoot you a quick thanks.\r\n\r\nI've really been wrestling
-    with drupal as of late and I've been looking for models to look over. Had no idea
-    the Ohio TB portal was built on this.\r\n\r\nThis helped me alot.\r\nThanks a
-    million!"
+  date: 2010-09-19 01:16:12 -0400
+  date_gmt: 2010-09-19 05:16:12 -0400
+  content: "Just wanted to shoot you a quick thanks.\r\n\r\nI've really been wrestling with drupal as of late and I've been looking for models to look over. Had no idea the Ohio TB portal was built on this.\r\n\r\nThis helped me alot.\r\nThanks a million!"
 - id: 125559
   author: Kool Aid
   author_email: purplefilms@hotmail.com
   author_url: ''
-  date: '2011-03-08 20:00:54 -0500'
-  date_gmt: '2011-03-09 01:00:54 -0500'
-  content: Well Drupal still confuses me a bit. Can't beat Wordpress and the ability
-    to "look under the hood" and do some tweaking :) Anyway, the _search hooks are
-    like anything riding a bicycle. Keep trying at it...
+  date: 2011-03-08 20:00:54 -0500
+  date_gmt: 2011-03-09 01:00:54 -0500
+  content: Well Drupal still confuses me a bit. Can't beat Wordpress and the ability to "look under the hood" and do some tweaking :) Anyway, the _search hooks are like anything riding a bicycle. Keep trying at it...
 - id: 187143
   author: Drupal web sites with case studies | Listology
   author_email: ''
   author_url: http://www.listology.com/jwalling/list/drupal-web-sites-case-studies
-  date: '2011-11-22 09:16:02 -0500'
-  date_gmt: '2011-11-22 14:16:02 -0500'
-  content: "<!--%kramer-ref-pre%-->[...] Series | Ubercart http://drupal.org/node/933052http://textbooks.uso.edu/
-    Ohio Textbook Portal http://dltj.org/article/ohio-textbook-portal-design/http://themis.asu.edu/
-    Mars Odyssey Mission [...]<!--%kramer-ref-post%-->"
+  date: 2011-11-22 09:16:02 -0500
+  date_gmt: 2011-11-22 14:16:02 -0500
+  content: <!--%kramer-ref-pre%-->[...] Series | Ubercart http://drupal.org/node/933052http://textbooks.uso.edu/ Ohio Textbook Portal http://dltj.org/article/ohio-textbook-portal-design/http://themis.asu.edu/ Mars Odyssey Mission [...]<!--%kramer-ref-post%-->
 - id: 570482
-  author: 請問有沒有類似管理電子書的模組 如Calibre | Drupal Taiwan 正體中文支援站
+  author: "\u8ACB\u554F\u6709\u6C92\u6709\u985E\u4F3C\u7BA1\u7406\u96FB\u5B50\u66F8\u7684\u6A21\u7D44 \u5982Calibre | Drupal Taiwan \u6B63\u9AD4\u4E2D\u6587\u652F\u63F4\u7AD9"
   author_email: ''
   author_url: http://drupaltaiwan.org/forum/20130510/7298
-  date: '2013-05-10 08:00:24 -0400'
-  date_gmt: '2013-05-10 12:00:24 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] 我在網路上搜尋有關 Drupal用來管理 電子書的套件，找到 這個網頁比較相關 http://dltj.org/article/ohio-textbook-portal-design/
-    [...]<!--%kramer-ref-post%-->"
+  date: 2013-05-10 08:00:24 -0400
+  date_gmt: 2013-05-10 12:00:24 -0400
+  content: "<!--%kramer-ref-pre%-->[...] \u6211\u5728\u7DB2\u8DEF\u4E0A\u641C\u5C0B\u6709\u95DC Drupal\u7528\u4F86\u7BA1\u7406 \u96FB\u5B50\u66F8\u7684\u5957\u4EF6\uFF0C\u627E\u5230 \u9019\u500B\u7DB2\u9801\u6BD4\u8F03\u76F8\u95DC http://dltj.org/article/ohio-textbook-portal-design/ [...]<!--%kramer-ref-post%-->"
 ---
 At the end of last month, the Ohio Board of Regents announced the University System of Ohio Textbook Portal. The service has been talked about in the [media](http://www.columbusdispatch.com/live/content/local_news/stories/2008/08/27/e-books.ART_ART_08-27-08_A1_U5B58IR.html?sid=101), in [trade publications](http://www.insidehighered.com/news/2008/08/26/etextbooks), and in [numerous](http://thecite.blogspot.com/2008/08/university-system-of-ohio-and.html) [blog](http://web.archive.org/web/20081211220047/http://www.ljndawson.com/permalink/2008/09/03/USO_and_CourseSmart.html) [postings](http://library.duke.edu/blogs/scholcomm/2008/08/29/state-of-play/). Enough time has passed now that word has gotten out, and I won't be taking any of the chancellor's thunder about the project. I did the back-end development work for the portal and wrote this document as an introduction to the project for our development team and anyone else interested about the project.
 

@@ -3,15 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: Idea for an NPR Twitter bot -- Tweet me about that story I just heard
-modified: 2018-01-15T17:35:29-05:00
+modified: '2018-01-15T17:35:29-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 27145
 wordpress_url: http://dltj.org/?p=27145
-date: '2016-02-17 21:07:51 -0500'
-date_gmt: '2016-02-18 02:07:51 -0500'
+date: 2016-02-17 21:07:51 -0500
+date_gmt: 2016-02-18 02:07:51 -0500
 category: Raw Technology
 categories:
 - Raw Technology

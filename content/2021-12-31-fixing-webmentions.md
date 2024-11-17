@@ -1,14 +1,14 @@
 ---
 title: 'Refactoring DLTJ, Winter 2021 Part 2.5: Fixing the Webmentions Cache'
-modified: 2021-12-31T12:39:33-05:00
+modified: '2022-02-19T18:17:49-05:00'
 category: Raw Technology
 categories:
-  - Meta Category
+- Meta Category
 tags:
-  -  webmention
-  -  AWS CodeBuild
-  -  jekyll
-  -  static website
+- webmention
+- AWS CodeBuild
+- jekyll
+- static website
 ---
 Okay, a half-step backward to fix something I broke yesterday. 
 As I [described earlier this year](https://dltj.org/article/dltj-with-webmention/), this static website blog uses the {{ robustlink(href="https://www.w3.org/TR/webmention/", versionurl="https://web.archive.org/web/20210711010105/https://www.w3.org/TR/webmention/", versiondate="2021-07-11", title="Webmention, a W3C Recommendation", anchor="Webmention protocol") }} to notify others when I link to their content and receive notifications from others. 

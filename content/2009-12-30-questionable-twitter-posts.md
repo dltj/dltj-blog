@@ -3,15 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: On Being Fodder for Questionable Twitter Posts
-modified: 2018-01-15T22:38:08-05:00
+modified: '2018-01-15T22:43:16-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 1397
 wordpress_url: http://dltj.org/?p=1397
-date: '2009-12-30 15:44:29 -0500'
-date_gmt: '2009-12-30 20:44:29 -0500'
+date: 2009-12-30 15:44:29 -0500
+date_gmt: 2009-12-30 20:44:29 -0500
 category: Meta Category
 categories:
 - Meta Category
@@ -23,84 +23,65 @@ comments:
   author: 'The Medium is the Message: Is a Twitterfarm Pranking the Jester?'
   author_email: ''
   author_url: http://ericschnell.blogspot.com/2010/01/is-twitterfarm-pranking-jester.html
-  date: '2010-01-04 13:24:05 -0500'
-  date_gmt: '2010-01-04 18:24:05 -0500'
-  content: "<!--%kramer-ref-pre%-->[...] feed using Twitterfeed and are then syndicating
-    it into their own Twitter streams. He has since analyzed this hypothesis and uncovered
-    other blogs which are also being tweeted by others.What is interesting is that
-    the [...]<!--%kramer-ref-post%-->"
+  date: 2010-01-04 13:24:05 -0500
+  date_gmt: 2010-01-04 18:24:05 -0500
+  content: <!--%kramer-ref-pre%-->[...] feed using Twitterfeed and are then syndicating it into their own Twitter streams. He has since analyzed this hypothesis and uncovered other blogs which are also being tweeted by others.What is interesting is that the [...]<!--%kramer-ref-post%-->
 - id: 159979
   author: Danny Dunmore
   author_email: ''
   author_url: ''
-  date: '2009-12-31 04:45:24 -0500'
-  date_gmt: '2009-12-31 09:45:24 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">On Being Fodder for Questionable Twitter Posts
-    | Disruptive ...: I&#39;m pretty much a newbie when it comes to .. http://bit.ly/6v3Tux</span></span>'
+  date: 2009-12-31 04:45:24 -0500
+  date_gmt: 2009-12-31 09:45:24 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">On Being Fodder for Questionable Twitter Posts | Disruptive ...: I&#39;m pretty much a newbie when it comes to .. http://bit.ly/6v3Tux</span></span>'
 - id: 161616
   author: Ross aka PI Illios
   author_email: ''
   author_url: http://twitter.com/rossanaisabel/status/7663638641
-  date: '2010-01-12 09:24:28 -0500'
-  date_gmt: '2010-01-12 14:24:28 -0500'
-  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">On Being Fodder for Questionable Twitter Posts
-    | Disruptive Library Technology Jester http://ow.ly/VymU</span></span>
+  date: 2010-01-12 09:24:28 -0500
+  date_gmt: 2010-01-12 14:24:28 -0500
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">On Being Fodder for Questionable Twitter Posts | Disruptive Library Technology Jester http://ow.ly/VymU</span></span>
 - id: 161619
   author: Best Tweets
   author_email: ''
   author_url: http://twitter.com/tweet_center/status/7235814974
-  date: '2009-12-31 14:52:09 -0500'
-  date_gmt: '2009-12-31 19:52:09 -0500'
-  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">#Twitter On Being Fodder for Questionable Twitter
-    Posts | Disruptive ... http://url4.eu/11LKh</span></span>
+  date: 2009-12-31 14:52:09 -0500
+  date_gmt: 2009-12-31 19:52:09 -0500
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">#Twitter On Being Fodder for Questionable Twitter Posts | Disruptive ... http://url4.eu/11LKh</span></span>
 - id: 161620
   author: Internet Marketers
   author_email: ''
   author_url: http://twitter.com/powermarketers/status/7235812801
-  date: '2009-12-31 14:52:05 -0500'
-  date_gmt: '2009-12-31 19:52:05 -0500'
-  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">#Twitter On Being Fodder for Questionable Twitter
-    Posts | Disruptive ... http://url4.eu/11LKd</span></span>
+  date: 2009-12-31 14:52:05 -0500
+  date_gmt: 2009-12-31 19:52:05 -0500
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">#Twitter On Being Fodder for Questionable Twitter Posts | Disruptive ... http://url4.eu/11LKd</span></span>
 - id: 161621
   author: 'Josh Stanley '
   author_email: ''
   author_url: http://twitter.com/jstanley54/status/7235812055
-  date: '2009-12-31 14:52:04 -0500'
-  date_gmt: '2009-12-31 19:52:04 -0500'
-  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">#Twitter On Being Fodder for Questionable Twitter
-    Posts | Disruptive ... http://url4.eu/11LKb</span></span>
+  date: 2009-12-31 14:52:04 -0500
+  date_gmt: 2009-12-31 19:52:04 -0500
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">#Twitter On Being Fodder for Questionable Twitter Posts | Disruptive ... http://url4.eu/11LKb</span></span>
 - id: 161622
   author: Carol Gratz
   author_email: ''
   author_url: http://twitter.com/tweetyoutweetme/status/7235501794
-  date: '2009-12-31 14:41:40 -0500'
-  date_gmt: '2009-12-31 19:41:40 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">On Being Fodder for Questionable Twitter Posts
-    | Disruptive ...: Okay, I know this is starting to seem like an obse... http://bit.ly/7I9hSD</span></span>'
+  date: 2009-12-31 14:41:40 -0500
+  date_gmt: 2009-12-31 19:41:40 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">On Being Fodder for Questionable Twitter Posts | Disruptive ...: Okay, I know this is starting to seem like an obse... http://bit.ly/7I9hSD</span></span>'
 - id: 161623
   author: Barbara Wilson
   author_email: ''
   author_url: http://twitter.com/barbsblvd/status/7227416796
-  date: '2009-12-31 08:03:36 -0500'
-  date_gmt: '2009-12-31 13:03:36 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">On Being Fodder for Questionable Twitter Posts
-    | Disruptive ...: ... view of miskatonic.org/2009/12/21/dchud-and-nu... http://bit.ly/7I9hSD</span></span>'
+  date: 2009-12-31 08:03:36 -0500
+  date_gmt: 2009-12-31 13:03:36 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">On Being Fodder for Questionable Twitter Posts | Disruptive ...: ... view of miskatonic.org/2009/12/21/dchud-and-nu... http://bit.ly/7I9hSD</span></span>'
 - id: 161624
   author: lfabert
   author_email: ''
   author_url: http://twitter.com/lfabert/status/7226650034
-  date: '2009-12-31 07:27:37 -0500'
-  date_gmt: '2009-12-31 12:27:37 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">On Being Fodder for Questionable Twitter Posts
-    | Disruptive ...: ... Ubervu service view of futurearchives.blogspot... http://bit.ly/7I9hSD</span></span>'
+  date: 2009-12-31 07:27:37 -0500
+  date_gmt: 2009-12-31 12:27:37 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">On Being Fodder for Questionable Twitter Posts | Disruptive ...: ... Ubervu service view of futurearchives.blogspot... http://bit.ly/7I9hSD</span></span>'
 ---
 Okay, I know this is starting to seem like an obsession, but I can't figure out why [someone(s) would be constructing tweets that consist of my blog post headlines and links back to my postings](/article/twitter-spam/). I'm wondering how wide spread this problem is, so I constructed a list of URLs to blog posts based on the [Planet Code4Lib](http://planet.code4lib.org/) [Atom feed](http://planet.code4lib.org/atom.xml) and pointed them to the Ubervu service. Ubervu has a view into the Twitter firehose, and constructs reports of Twitter mentions of URLs. For instance, I can see all of the odd headline tweets for my previous postings through this service. I can then easily scan through the list for other people that seem to be affected by this strange phenomenon.
 

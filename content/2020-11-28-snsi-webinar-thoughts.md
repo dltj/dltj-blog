@@ -1,6 +1,6 @@
 ---
-title: 'User Behavior Access Controls at a Library Proxy Server are Okay'
-modified: 2020-11-27T23:21:42-05:00
+title: User Behavior Access Controls at a Library Proxy Server are Okay
+modified: '2020-11-30T14:49:40-05:00'
 category: Raw Technology
 categories:
 - Raw Technology

@@ -1,6 +1,6 @@
 ---
-title: 'Sanctioning Governments on the Internet'
-modified: 2022-03-10T22:39:24-05:00
+title: Sanctioning Governments on the Internet
+modified: '2022-03-10T23:19:17-05:00'
 category: Meta Category
 categories:
 - Meta Category

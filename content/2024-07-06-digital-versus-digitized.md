@@ -1,6 +1,7 @@
 ---
-title: 'Digital versus Digitized: On the Hachette v. Internet Archive Appeal Oral Argument'
-modified: 2024-07-06T15:52:12-04:00
+title: 'Digital versus Digitized: On the Hachette v. Internet Archive 
+Appeal Oral Argument'
+modified: '2024-07-06T18:44:34-04:00'
 category: L/IS Profession
 categories: L/IS Profession
 tags:
@@ -10,9 +11,10 @@ tags:
 - publishers
 - copyright
 ---
+
 One thing that would dramatically clarify the controlled digital lending concept in general and the _Hachette v. Internet Archive_ lawsuit in particular is having distinct terms for types of ebooks. I propose that we refer to them as _digital_ and _digitized_. A _digital book_ is one that is born digital, where the publisher has the original "source code". Alternatively, a _digitized book_ originates as a physical copy, which is then converted into a sequence of printed page images. Given the differences in the way they are created by the publisher and the capabilities offered to the reader, distinguishing the two types of books is appropriate. I'm not a marketer, but I suspect _digital_ and _digitized_ might be too similar for an average person to notice the subtle differences. As technical descriptors, these terms help clarify some of the misunderstandings (or even willful obfuscations?) I heard during the circuit court oral arguments.
 
-On June 28, 2024, the oral arguments in the {{ robustlink(href="https://www.courtlistener.com/docket/67801014/hachette-book-group-inc-v-internet-archive/?order_by=desc", versionurl="https://web.archive.org/web/20240706193105/https://www.courtlistener.com/docket/67801014/hachette-book-group-inc-v-internet-archive/?order_by=desc", versiondate="2024-07-06", title=" Hachette Book Group, Inc. v. Internet Archive (23-1260) | Court of Appeals for the Second Circuit via CourtListener", anchor="Hachette Book Group, Inc. v. Internet Archive case") }} took place. Shortly after, a [recording was made readily available on the Internet Archive](https://archive.org/details/20240628-appeal-oral-argument-second-circuit-88min). I created an [unofficial transcript of this recording](https://media.dltj.org/unchecked-transcript/20240703T204937-united-states-court-appeals-second-circuit-via-internet-archive--hachette-book-group-inc-v-internet-archive-appeal-oral-argument/index.html), which I posted on my media site with [Hypothesis](https://hypothes.is/) enabled. I made 30 notable annotations in the transcript, comprising key points, personal comments, and several references to external materials. (Feel free to annotate specific points alongside me on Hypothesis, if you wish.) This post consolidates those ideas and remarks into a coherent form. 
+On June 28, 2024, the oral arguments in the {{ robustlink(href="https://www.courtlistener.com/docket/67801014/hachette-book-group-inc-v-internet-archive/?order_by=desc", versionurl="https://web.archive.org/web/20240706193105/https://www.courtlistener.com/docket/67801014/hachette-book-group-inc-v-internet-archive/?order_by=desc", versiondate="2024-07-06", title=" Hachette Book Group, Inc. v. Internet Archive (23-1260) | Court of Appeals for the Second Circuit via CourtListener", anchor="Hachette Book Group, Inc. v. Internet Archive case") }} took place. Shortly after, a [recording was made readily available on the Internet Archive](https://archive.org/details/20240628-appeal-oral-argument-second-circuit-88min). I created an [unofficial transcript of this recording](https://media.dltj.org/unchecked-transcript/20240703T204937-united-states-court-appeals-second-circuit-via-internet-archive--hachette-book-group-inc-v-internet-archive-appeal-oral-argument/index.html), which I posted on my media site with [Hypothesis](https://hypothes.is/) enabled. I made 30 notable annotations in the transcript, comprising key points, personal comments, and several references to external materials. (Feel free to annotate specific points alongside me on Hypothesis, if you wish.) This post consolidates those ideas and remarks into a coherent form.
 
 _Disclosures:_ Despite not being a lawyer, I find the intersection of copyright, fair use, library services, and societal welfare intriguing, and often reflect and write about them professionally. This is not legal advice. I'm currently employed by a software company that's developing a controlled digital lending system. In addition to my professional ties, I believe controlled digital lending is a tremendous benefit for library patrons, libraries, and society at large.
 
@@ -24,21 +26,21 @@ The federal court in the Southern District of New York ruled in favor of Hachett
 
 Because I started trying to draw a distinction between various terms, I'm going to carefully chose my words in this post:
 
-* **Digital book**: A digital book, born from electronic files. ePub, Daisy, and the Kindle format are common file formats for these books, which use digital typesetting to arrange words on a screen.
-* **Digitized book**: A book with pages that are images of a physical item. Originally digitally typeset on a printed page, these pages are then scanned and sequenced into a file.
-* **E-book**: An umbrella term encompassing both _Digital_ or _Digitized_ books as defined above.
-* **Physical book**: As simple as it sounds: a book that exists in a physical, human-readable format.
-* **Book**: If I refer to a "book" without any of the modifiers above, it applies to any type of book: digital, digitized, or physical.
+- **Digital book**: A digital book, born from electronic files. ePub, Daisy, and the Kindle format are common file formats for these books, which use digital typesetting to arrange words on a screen.
+- **Digitized book**: A book with pages that are images of a physical item. Originally digitally typeset on a printed page, these pages are then scanned and sequenced into a file.
+- **E-book**: An umbrella term encompassing both _Digital_ or _Digitized_ books as defined above.
+- **Physical book**: As simple as it sounds: a book that exists in a physical, human-readable format.
+- **Book**: If I refer to a "book" without any of the modifiers above, it applies to any type of book: digital, digitized, or physical.
 
 ## Digital versus Digitized Marketplaces {: #digital-versus-digitized}
 
 I led this blog post with a discussion of _digital books_ versus _digitized books_, and it wasn't long into the Internet Archive's presentation that we get to the matter.
 
-> [15:25] under [fair use] factor 4 you say that actually there's one reason there's still be a market for e-books is because e-books are more attractive than digitized versions of physical books. Right? Because they have features and they're more user friendly or whatever. So what that kind of means is what you're saying is that your digital copies are more convenient or more attractive, I guess more convenient than physical books, but less convenient than e-books. 
+> [15:25] under [fair use] factor 4 you say that actually there's one reason there's still be a market for e-books is because e-books are more attractive than digitized versions of physical books. Right? Because they have features and they're more user friendly or whatever. So what that kind of means is what you're saying is that your digital copies are more convenient or more attractive, I guess more convenient than physical books, but less convenient than e-books.
 
-The judge is asking about the three kinds of books: "physical books", "digitized versions of physical books", and "ebooks". So, we are already recognizing that digitized books and digital "ebooks" are different and that digitized books are "more convenient than physical books but less convenient than ebooks." 
+The judge is asking about the three kinds of books: "physical books", "digitized versions of physical books", and "ebooks". So, we are already recognizing that digitized books and digital "ebooks" are different and that digitized books are "more convenient than physical books but less convenient than ebooks."
 
-There seems to be a legal concept here about "markets", and specifically whether digitized books (from libraries through CDL) and digital books (from publishers through Overdrive and other programs) are in the same "market".  It seems undisputed that the market for physical books and the market for something digital/digitized are different...even though they hold the same basic content. It does seem disputed whether digitized books (which are facsimiles of the content in physical books) and digital books (with capabilities only possible in the digital realm) are in the same market or are different markets. To my eye, a digitized book is mostly akin to a physical book with the exception that the digitized book can be more easily distributed via electronic devices. The real difference lies in the capabilities of the born-digital book on an electronic device. But I don't know how the law defines "markets" in this case.
+There seems to be a legal concept here about "markets", and specifically whether digitized books (from libraries through CDL) and digital books (from publishers through Overdrive and other programs) are in the same "market". It seems undisputed that the market for physical books and the market for something digital/digitized are different...even though they hold the same basic content. It does seem disputed whether digitized books (which are facsimiles of the content in physical books) and digital books (with capabilities only possible in the digital realm) are in the same market or are different markets. To my eye, a digitized book is mostly akin to a physical book with the exception that the digitized book can be more easily distributed via electronic devices. The real difference lies in the capabilities of the born-digital book on an electronic device. But I don't know how the law defines "markets" in this case.
 
 In the "ebook" marketplace, publishers will license "digital" books to libraries using a service like {{ robustlink(href="https://company.overdrive.com/company-profile/who-we-are/", versionurl="https://web.archive.org/web/20240706194012/https://company.overdrive.com/company-profile/who-we-are/", versiondate="2024-07-06", title="Who is Overdrive and what do they do? | Overdrive", anchor="Overdrive") }}. A publisher is unlikely to sell or license a "digitized" book to libraries. (I last heard of a publisher doing this early digital days of the 1990s.) Also in the "ebook" marketplace, a library will use CDL to lend a "digitized" book to patrons. It is conceivable that a library could lend a "digital" book if it has purchased the rights to do so, but that is unusual at this stage.
 
@@ -64,7 +66,7 @@ Internet Archives' counsel points out here that in licensing e-books, the librar
 
 Late in the publisher's arguments comes this bit:
 
-> [1:08:29] Control digital lending is a contrived construct that was put together at the behest of Internet Archive back in 2018 when they confronted the fact that libraries didn't want to deal with them. Libraries didn't want to give copies of their works to be digitized because they were concerned about copyright arguments. So they got in a room together with various people and contrived this principle of control digital lending to rationalize what they were doing. 
+> [1:08:29] Control digital lending is a contrived construct that was put together at the behest of Internet Archive back in 2018 when they confronted the fact that libraries didn't want to deal with them. Libraries didn't want to give copies of their works to be digitized because they were concerned about copyright arguments. So they got in a room together with various people and contrived this principle of control digital lending to rationalize what they were doing.
 
 CDL is _much_ older than 2018. IA's version of CDL predates the first discussion of it by over half a decade (see the [origins of Controlled Digital Lending](https://dltj.org/article/issue-94-controlled-digital-lending/#cdl-origins) in issue 94), and there are earlier implementations. I don't remember seeing this claim from the publishers in their district court complaint, so I hope there is evidence for this statement on the record in the evidence presented to the lower court.
 
@@ -72,15 +74,15 @@ CDL is _much_ older than 2018. IA's version of CDL predates the first discussion
 
 Starting with the publisher's lawyer:
 
-> [1:15:20] That IA's brief and amici try to create the impression that the public interest is on their side. And it is not. The protection of copyright is in the US Constitution and federal law because it creates an incentive for writers and artists to create new works to benefit our broader society. Internet Archives' control digital lending is in direct conflict with that basic principle. And as I previously... 
+> [1:15:20] That IA's brief and amici try to create the impression that the public interest is on their side. And it is not. The protection of copyright is in the US Constitution and federal law because it creates an incentive for writers and artists to create new works to benefit our broader society. Internet Archives' control digital lending is in direct conflict with that basic principle. And as I previously...
 >
-> You don't really think people are going to stop writing books because of the control digital lending to you? 
+> You don't really think people are going to stop writing books because of the control digital lending to you?
 >
-> Well, I think publishers are going to go down the tubes if they do not have the revenues. 
-> 
-> You think that that's really... 
+> Well, I think publishers are going to go down the tubes if they do not have the revenues.
 >
-> I do, Your Honor. There's no question. I mean, and the standard here is not, will this eliminate... 
+> You think that that's really...
+>
+> I do, Your Honor. There's no question. I mean, and the standard here is not, will this eliminate...
 >
 > No, I understand. It's just a part. But this question about balancing the incentive to create a work with the larger distribution of it, that is the question to be decided in this case.
 
@@ -92,11 +94,11 @@ A judge make a good point about the potential market effect of library's CDL:
 
 > [1:18:32] But you're reducing the market from the number of people who might want to read... Let's look at even the paper books. They'll pretend like take out the digital market for a second. The number of people who might want to read it ever, down to the number of people who might want to read it simultaneously. And if you put digital books into the mix, it's the same idea, right?
 
-At the extreme, the workflow efficiencies that come with CDL (or, a "reduction in friction" as I think it is referred to in the oral arguments) could mean that there is only a market as big as those who want physical books for their personal collection and libraries collectively purchasing a number of physical items to fulfill digitized book needs. (There is still a market for digital books that publishers won't sell to libraries.) There is some nuance here, but the point is interesting. 
+At the extreme, the workflow efficiencies that come with CDL (or, a "reduction in friction" as I think it is referred to in the oral arguments) could mean that there is only a market as big as those who want physical books for their personal collection and libraries collectively purchasing a number of physical items to fulfill digitized book needs. (There is still a market for digital books that publishers won't sell to libraries.) There is some nuance here, but the point is interesting.
 
 And it is here that I think we see the first substantive discussion of _digital_ versus _digitized_:
 
->  [1:19:48] that efficiency may or may not have an effect on either the number of copies that get sold or on the market for the Overdrive service, which has a variety of different sort of different aspects and benefits over and above CDL. I mean, CDL is largely sort of scanned images of pages of paper books because it's the paper book. The Overdrive service has a lot of benefits. You can flow the text. You can do different features and that is one reason why...that is one explanation for the data that you see—that there is no reduction in demand for Overdrive.
+> [1:19:48] that efficiency may or may not have an effect on either the number of copies that get sold or on the market for the Overdrive service, which has a variety of different sort of different aspects and benefits over and above CDL. I mean, CDL is largely sort of scanned images of pages of paper books because it's the paper book. The Overdrive service has a lot of benefits. You can flow the text. You can do different features and that is one reason why...that is one explanation for the data that you see—that there is no reduction in demand for Overdrive.
 
 ## My informed but not expert opinion {: #my-opinion}
 

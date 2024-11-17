@@ -1,6 +1,6 @@
 ---
 title: 'Ghost Newsletter Software Findings: Got Past the Mailgun Problem, but Got Stuck On Ugly HTML'
-modified: 2024-07-14T21:16:00-04:00
+modified: '2024-07-14T21:16:00-04:00'
 category: Raw Technology
 categories:
 - Raw Technology

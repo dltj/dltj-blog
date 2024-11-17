@@ -1,6 +1,6 @@
 ---
 title: 'Issue 94: Controlled Digital Lending'
-modified: 2022-12-28T16:16:06-05:00
+modified: '2022-12-28T16:16:06-05:00'
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -8,7 +8,7 @@ tags:
 - ebooks
 - controlled digital lending
 mastodon:
-- 
+- null
 ---
 E-books are a prominent theme looking back at a couple of year-end issues of _DLTJ Thursday Threads_. 
 In [2010](https://dltj.org/article/thursday-threads-2010w52/#books_after_amazon), a writer in _Boston Review_ wondered about "books after Amazon."

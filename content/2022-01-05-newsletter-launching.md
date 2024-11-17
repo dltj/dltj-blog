@@ -1,11 +1,11 @@
 ---
 title: 'Refactoring DLTJ, Winter 2021 Part 3: "Serverless" Newsletter System'
-modified: 2022-01-05T21:09:02-05:00
+modified: '2022-01-06T21:47:47-05:00'
 category: Linking Technologies
 categories:
-  - Meta Category
+- Meta Category
 tags:
-  - Amazon Web Services
+- Amazon Web Services
 ---
 So it has been quiet here for a couple of days.
 Rest assured: the quietness comes from heads-down work, not from giving up.

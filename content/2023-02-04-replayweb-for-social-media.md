@@ -1,6 +1,6 @@
 ---
-title: 'ReplayWeb for Embedding Social Media Posts (Twitter, Mastodon) in Web Pages'
-modified: 2023-02-04T19:09:55-05:00
+title: ReplayWeb for Embedding Social Media Posts (Twitter, Mastodon) in Web Pages
+modified: '2023-02-05T20:33:42-05:00'
 category: Raw Technology
 categories:
 - Raw Technology

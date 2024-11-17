@@ -1,6 +1,6 @@
 ---
-title: DLTJ in another #NEWWWYEAR
-modified: 2018-12-31T19:49:51-05:00
+title: DLTJ in another
+modified: '2018-12-31T19:49:51-05:00'
 category: Meta Category
 categories:
 - Meta Category

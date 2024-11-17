@@ -3,15 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way
-modified: 2018-01-15T22:38:08-05:00
+modified: '2018-01-15T22:38:08-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 128
 wordpress_url: http://dltj.org/2006/09/standards-compliant-web-video/
-date: '2006-09-25 20:59:14 -0400'
-date_gmt: '2006-09-26 00:59:14 -0400'
+date: 2006-09-25 20:59:14 -0400
+date_gmt: 2006-09-26 00:59:14 -0400
 category: Raw Technology
 categories:
 - Raw Technology
@@ -25,97 +25,58 @@ comments:
   author: 'AccessBlog - Nachrichten '
   author_email: ''
   author_url: http://www.einfach-fuer-alle.de/blog/index.php?id=P1867
-  date: '2006-09-27 11:01:03 -0400'
-  date_gmt: '2006-09-27 15:01:03 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] Peter Murray: &raquo;Embedded Web Video in
-    a Standards-Compliant, Accessible, and Successful Way&laquo; [...]<!--%kramer-ref-post%-->"
+  date: 2006-09-27 11:01:03 -0400
+  date_gmt: 2006-09-27 15:01:03 -0400
+  content: '<!--%kramer-ref-pre%-->[...] Peter Murray: &raquo;Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way&laquo; [...]<!--%kramer-ref-post%-->'
 - id: 5164
   author: Login | mister-wong.de | Social Bookmarking Tool
   author_email: ''
   author_url: http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http3A2F2Fdltj.org2F20062F092Fstandards-compliant-web-video2F&amp;bm_description=Embedded20Web20Video20in20a20Standards-Compliant2C20Access
-  date: '2006-10-01 10:24:27 -0400'
-  date_gmt: '2006-10-01 14:24:27 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] Bookmark hinzuf&uuml;gen Du m&ouml;chtest
-    folgenden Link zu Mister Wong hinzuf&uuml;gen: Embedded Web Video in a Standards-Compliant,
-    Accessible, and Successful Way in Disruptive Library Technology Jester (http://dltj.org/2006/09/standards-compliant-web-video/)
-    - Falls du noch nicht angemeldet bist, kannst du dich hier kostenlos registrieren
-    - Hier kannst du dich einloggen.   Was kann, hat und macht Mister Wong? &raquo;
-    [...]<!--%kramer-ref-post%-->"
+  date: 2006-10-01 10:24:27 -0400
+  date_gmt: 2006-10-01 14:24:27 -0400
+  content: '<!--%kramer-ref-pre%-->[...] Bookmark hinzuf&uuml;gen Du m&ouml;chtest folgenden Link zu Mister Wong hinzuf&uuml;gen: Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way in Disruptive Library Technology Jester (http://dltj.org/2006/09/standards-compliant-web-video/) - Falls du noch nicht angemeldet bist, kannst du dich hier kostenlos registrieren - Hier kannst du dich einloggen.   Was kann, hat und macht Mister Wong? &raquo; [...]<!--%kramer-ref-post%-->'
 - id: 5190
   author: 'TangognaT &raquo; Carnival of the Infosciences #56'
   author_email: ''
   author_url: http://www.tangognat.com/2006/10/01/carnival-of-the-infosciences-56-2/
-  date: '2006-10-01 23:10:33 -0400'
-  date_gmt: '2006-10-02 03:10:33 -0400'
-  content: "[...] You get all the details you would ever want about embedding video
-    in a web page in a standards-compliant way at Disruptive Library Technology Jester.
-    Perl code is included, and I don&#8217;t know how much more fun it gets than that.
-    [...]"
+  date: 2006-10-01 23:10:33 -0400
+  date_gmt: 2006-10-02 03:10:33 -0400
+  content: '[...] You get all the details you would ever want about embedding video in a web page in a standards-compliant way at Disruptive Library Technology Jester. Perl code is included, and I don&#8217;t know how much more fun it gets than that. [...]'
 - id: 6026
-  author: 'Walt at Random &raquo; Blog Archive &raquo; Printability: It&#8217;s not
-    just for Firefox anymore'
+  author: 'Walt at Random &raquo; Blog Archive &raquo; Printability: It&#8217;s not just for Firefox anymore'
   author_email: ''
   author_url: http://walt.lishost.org/?p=397
-  date: '2006-10-24 22:30:31 -0400'
-  date_gmt: '2006-10-25 02:30:31 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] I tried your site and was pleased to find
-    a nice print media CSS declaration. (Or, in the case of WaR, I think what is happening
-    when the page is printed is the absence of a CSS declaration because you are using
-    media=&#8221;screen&#8221; attribute.) How your page appears when printed (and
-    given your typography interest, this comes as no surprise to you) is very important.
-    I worked for a number of hours to make sure it came out right on DLTJ as well.
-    Try printing a random posting on DLTJ and you&#8217;ll see what I mean. [...]<!--%kramer-ref-post%-->"
+  date: 2006-10-24 22:30:31 -0400
+  date_gmt: 2006-10-25 02:30:31 -0400
+  content: <!--%kramer-ref-pre%-->[...] I tried your site and was pleased to find a nice print media CSS declaration. (Or, in the case of WaR, I think what is happening when the page is printed is the absence of a CSS declaration because you are using media=&#8221;screen&#8221; attribute.) How your page appears when printed (and given your typography interest, this comes as no surprise to you) is very important. I worked for a number of hours to make sure it came out right on DLTJ as well. Try printing a random posting on DLTJ and you&#8217;ll see what I mean. [...]<!--%kramer-ref-post%-->
 - id: 12516
-  author: 'Disruptive Library Technology Jester :: Update to &#8220;Embedded Web Video
-    in a Standards-Compliant, Accessible, and Successful Way&#8221;'
+  author: 'Disruptive Library Technology Jester :: Update to &#8220;Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way&#8221;'
   author_email: ''
   author_url: http://dltj.org/2007/02/update-to-embedded-web-video/
-  date: '2007-02-21 15:41:32 -0500'
-  date_gmt: '2007-02-21 20:41:32 -0500'
-  content: "[...] Last year I published an entry called Embedded Web Video in a Standards-Compliant,
-    Accessible, and Successful Way on how to embed (without using the non-standard
-    <EMBED> tag) video on an HTML page. It has been one of the most widely read articles
-    on DLTJ.org, and so I wanted to publish an updated version of the script from
-    that article to take into account this new wrinkle from Microsoft. The change
-    is at line #41 below: Code (perl)#!/usr/bin/perl -w [...]"
+  date: 2007-02-21 15:41:32 -0500
+  date_gmt: 2007-02-21 20:41:32 -0500
+  content: '[...] Last year I published an entry called Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way on how to embed (without using the non-standard <EMBED> tag) video on an HTML page. It has been one of the most widely read articles on DLTJ.org, and so I wanted to publish an updated version of the script from that article to take into account this new wrinkle from Microsoft. The change is at line #41 below: Code (perl)#!/usr/bin/perl -w [...]'
 - id: 12754
-  author: 'Disruptive Library Technology Jester :: Resource for Improving Higher Education
-    Instruction'
+  author: 'Disruptive Library Technology Jester :: Resource for Improving Higher Education Instruction'
   author_email: ''
   author_url: http://dltj.org/2007/03/fame/
-  date: '2007-03-03 17:14:33 -0500'
-  date_gmt: '2007-03-03 22:14:33 -0500'
-  content: "[...] A few months back I referred to a project that used video to present
-    information about accessibility needs in the classroom. That article was about
-    how difficult it is to create markup for embedded video that is universally accessible
-    and valid HTML. Late last month the larger project that used that work was released.
-    Called the Faculty &#38; Administrator Modules in Higher Education, or FAME, it
-    is a professional development tool for use in higher education with information
-    on how college faculty, administrators, disability service providers, and students
-    can work individually and collaboratively to improve the accommodations, teaching-learning
-    process, and overall campus environment for students with disabilities. The content
-    on the website is broken up into five modules: [...]"
+  date: 2007-03-03 17:14:33 -0500
+  date_gmt: 2007-03-03 22:14:33 -0500
+  content: '[...] A few months back I referred to a project that used video to present information about accessibility needs in the classroom. That article was about how difficult it is to create markup for embedded video that is universally accessible and valid HTML. Late last month the larger project that used that work was released. Called the Faculty &#38; Administrator Modules in Higher Education, or FAME, it is a professional development tool for use in higher education with information on how college faculty, administrators, disability service providers, and students can work individually and collaboratively to improve the accommodations, teaching-learning process, and overall campus environment for students with disabilities. The content on the website is broken up into five modules: [...]'
 - id: 20091
   author: Jacobs Media - jacoBLOG
   author_email: ''
   author_url: http://jacobsmedia.typepad.com/jacobs/2007/08/theater-of-the-.html
-  date: '2007-08-07 00:00:00 -0400'
-  date_gmt: '2007-08-07 04:00:00 -0400'
-  content: "<!--%kramer-pre%--> This translates to 132 million Americans watching
-    streaming video, with YouTube leading the way.  And of those consumers, they average
-    two videos a day.  So what does this tell us about our content and our business?
-    \ Video needs to be a component of everything we do.  It needs to be integrated
-    into our personality shows, whether it's via webcams or listener-submitted videos.
-    \ Events need to be covered with video to capture the excitement of station events,
-    contests, interviews, etc.<!--%kramer-post%-->"
+  date: 2007-08-07 00:00:00 -0400
+  date_gmt: 2007-08-07 04:00:00 -0400
+  content: <!--%kramer-pre%--> This translates to 132 million Americans watching streaming video, with YouTube leading the way.  And of those consumers, they average two videos a day.  So what does this tell us about our content and our business?  Video needs to be a component of everything we do.  It needs to be integrated into our personality shows, whether it's via webcams or listener-submitted videos.  Events need to be covered with video to capture the excitement of station events, contests, interviews, etc.<!--%kramer-post%-->
 - id: 33776
   author: Embedding audio and video
   author_email: ''
   author_url: ''
-  date: '2008-08-23 12:17:26 -0400'
-  date_gmt: '2008-08-23 16:17:26 -0400'
-  content: "<!--%kramer-ref-pre%-->[...]  http://dltj.org/article/standards-compliant-web-video/
-    Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way [...]<!--%kramer-ref-post%-->"
+  date: 2008-08-23 12:17:26 -0400
+  date_gmt: 2008-08-23 16:17:26 -0400
+  content: <!--%kramer-ref-pre%-->[...]  http://dltj.org/article/standards-compliant-web-video/ Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way [...]<!--%kramer-ref-post%-->
 ---
 The word "Successful" in the title, when juxtaposed with "Standards-Compliant" and "Accessible," should be big, bold and flashing (except that the flashing style would then go against web accessibility best practice). The goal is to embed a video clip into a web page that validates as "XHTML4.01 Transitional", includes a Closed Captioning text track to be displayed in the web page, and could be viewed in one of three flavors: Windows Media, QuickTime, and Real. And the content being presented is about using accessible technologies in the classroom, so it had to be "right." This task was much harder than I thought, and I'll offer much harder than it should have been. Piecing together sources too numerous to mention, I managed to make it happen ... with just a few caveats. Here, documented for all time, or at least until dltj.org goes away or the next major browser/streaming-client revision (which ever comes first) is how it can be done.
 

@@ -2,7 +2,7 @@
 layout: single
 status: skip
 published: false
-title: "DLTJ Comment Policy"
+title: DLTJ Comment Policy
 author: Peter Murray
 login: lyrdor
 email: jester@dltj.org
@@ -12,13 +12,14 @@ author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 149
 wordpress_url: http://dltj.org/2006/12/dltj-comment-policy/
-date: "2006-12-11 13:13:49 -0500"
-date_gmt: "2006-12-11 18:13:49 -0500"
+date: 2006-12-11 13:13:49 -0500
+date_gmt: 2006-12-11 18:13:49 -0500
 category: Meta Category
 categories:
-  - Meta Category
+- Meta Category
 tags: []
 comments: []
+modified: '2024-11-14T21:49:18-05:00'
 ---
 
 Welcome to _<acronym title="Disruptive Library Technology Jester">DLTJ</acronym>_.

@@ -3,20 +3,21 @@ layout: single
 status: published
 published: true
 slug: about
-title: "About the Jester"
+title: About the Jester
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 55
 wordpress_url: http://dltj.org/about-the-jester/
-date: "2006-05-14 18:42:37 -0400"
-date_gmt: "2006-05-14 23:42:37 -0400"
+date: 2006-05-14 18:42:37 -0400
+date_gmt: 2006-05-14 23:42:37 -0400
 category: Meta Category
 categories:
-  - Meta Category
+- Meta Category
 tags: []
 comments: []
+modified: '2024-11-14T21:49:18-05:00'
 ---
 
 <h1>Peter E. Murray</h1>

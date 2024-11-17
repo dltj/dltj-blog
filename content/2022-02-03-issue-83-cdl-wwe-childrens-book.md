@@ -1,6 +1,6 @@
 ---
 title: 'Issue 83: Author''s CDL Thoughts, WWE''s Monopsony, Child''s Library Book'
-modified: 2022-02-02T18:19:33-05:00
+modified: '2022-02-02T18:19:33-05:00'
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -9,7 +9,6 @@ tags:
 - ebooks
 - public library
 - self-publishing
-
 ---
 Greetings from the wintery mix that is central Ohio. 
 The local school district called off school yesterday afternoon in preparation for what came today. 

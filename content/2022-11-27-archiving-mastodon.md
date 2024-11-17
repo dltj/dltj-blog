@@ -1,6 +1,6 @@
 ---
-title: 'With Mastodon on the Rise, Who Archives the Digital Public Square?'
-modified: 2022-11-27T19:35:54-05:00
+title: With Mastodon on the Rise, Who Archives the Digital Public Square?
+modified: '2022-11-27T19:35:54-05:00'
 category: Raw Technology
 categories:
 - Raw Technology

@@ -1,13 +1,13 @@
 ---
 title: 'Refactoring DLTJ, Winter 2021 Part 2: Adopt AWS Amplify'
-modified: 2021-12-30T20:06:46-05:00
+modified: '2022-02-19T18:17:49-05:00'
 category: Thursday Threads
 categories:
-  - Meta Category
+- Meta Category
 tags:
-  -  Amazon Web Services
-  -  jekyll
-  -  static website
+- Amazon Web Services
+- jekyll
+- static website
 ---
 Look at that! 
 Progress is being made down the list of to-dos for this blog in order to start the new year on a fresh footing. 

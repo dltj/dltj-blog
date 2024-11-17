@@ -1,6 +1,6 @@
 ---
-title: 'Restoring Obsidian Knowledgebase from MacOS Time Machine at the Command Line'
-modified: 2023-12-31T19:22:21-05:00
+title: Restoring Obsidian Knowledgebase from MacOS Time Machine at the Command Line
+modified: '2023-12-31T19:22:21-05:00'
 category: Raw Technology
 categories:
 - Raw Technology

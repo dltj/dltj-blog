@@ -3,15 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: Getting a Hyperlink of the Last Sent Message from Mail.app using Applescript
-modified: 2018-01-15T22:38:08-05:00
+modified: '2018-01-15T22:43:16-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 363
 wordpress_url: https://dltj.org/?p=363
-date: '2008-05-15 12:15:15 -0400'
-date_gmt: '2008-05-15 16:15:15 -0400'
+date: 2008-05-15 12:15:15 -0400
+date_gmt: 2008-05-15 16:15:15 -0400
 category: Raw Technology
 categories:
 - Raw Technology
@@ -23,44 +23,33 @@ tags:
 - OmniFocus
 comments:
 - id: 33290
-  author: Getting a Hyperlink of the Last Sent Message from Mail.app using Applescript
-    - The Omni Group Forums
+  author: Getting a Hyperlink of the Last Sent Message from Mail.app using Applescript - The Omni Group Forums
   author_email: ''
   author_url: http://forums.omnigroup.com/showthread.php?goto=lastpost&amp;t=8028
-  date: '2008-05-21 18:45:36 -0400'
-  date_gmt: '2008-05-21 22:45:36 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] I can easily refer back to the e-mail I sent
-    that is waiting for a reply.  Details can be found at http://dltj.org/article/copy-last-se...e-as-rtf-link/.
-    \        Post 1     [...]<!--%kramer-ref-post%-->"
+  date: 2008-05-21 18:45:36 -0400
+  date_gmt: 2008-05-21 22:45:36 -0400
+  content: <!--%kramer-ref-pre%-->[...] I can easily refer back to the e-mail I sent that is waiting for a reply.  Details can be found at http://dltj.org/article/copy-last-se...e-as-rtf-link/.         Post 1     [...]<!--%kramer-ref-post%-->
 - id: 33628
   author: Applescript Forums | MacScripter / convert link in HTML to link in RTF
   author_email: ''
   author_url: ''
-  date: '2008-07-24 13:16:03 -0400'
-  date_gmt: '2008-07-24 17:16:03 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] to see if I could find an answer to. I located
-    something close to what you were trying to do from http://dltj.org/article/copy-last-sent-
-    &hellip; -rtf-link/ but needed to modify it a bit.Re-creating the .sh file that
-    Brett Terpstra had written was easy [...]<!--%kramer-ref-post%-->"
+  date: 2008-07-24 13:16:03 -0400
+  date_gmt: 2008-07-24 17:16:03 -0400
+  content: <!--%kramer-ref-pre%-->[...] to see if I could find an answer to. I located something close to what you were trying to do from http://dltj.org/article/copy-last-sent- &hellip; -rtf-link/ but needed to modify it a bit.Re-creating the .sh file that Brett Terpstra had written was easy [...]<!--%kramer-ref-post%-->
 - id: 36379
   author: Alfred Fazio
   author_email: alfred.fazio@gmail.com
   author_url: ''
-  date: '2009-06-09 22:35:26 -0400'
-  date_gmt: '2009-06-10 02:35:26 -0400'
-  content: "This is fucking AMAZING.\r\n\r\nAfter hours of pulling my hair out trying
-    to find a way to create a hyperlink in Numbers 09, this was the ONLY way I could
-    get it to work.  Absolutely perfect.  Can't thank you enough!"
+  date: 2009-06-09 22:35:26 -0400
+  date_gmt: 2009-06-10 02:35:26 -0400
+  content: "This is fucking AMAZING.\r\n\r\nAfter hours of pulling my hair out trying to find a way to create a hyperlink in Numbers 09, this was the ONLY way I could get it to work.  Absolutely perfect.  Can't thank you enough!"
 - id: 173684
   author: MacScripter / convert link in HTML to link in RTF
   author_email: ''
   author_url: http://macscripter.net/viewtopic.php?id=26498
-  date: '2011-10-03 18:25:11 -0400'
-  date_gmt: '2011-10-03 22:25:11 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] to see if I could find an answer to. I located
-    something close to what you were trying to do from http://dltj.org/article/copy-last-sent-
-    &hellip; -rtf-link/ but needed to modify it a bit.Re-creating the .sh file that
-    Brett Terpstra had written was easy [...]<!--%kramer-ref-post%-->"
+  date: 2011-10-03 18:25:11 -0400
+  date_gmt: 2011-10-03 22:25:11 -0400
+  content: <!--%kramer-ref-pre%-->[...] to see if I could find an answer to. I located something close to what you were trying to do from http://dltj.org/article/copy-last-sent- &hellip; -rtf-link/ but needed to modify it a bit.Re-creating the .sh file that Brett Terpstra had written was easy [...]<!--%kramer-ref-post%-->
 ---
 I've been a fan of [Getting Things Done](http://en.wikipedia.org/wiki/Getting_Things_Done) as a technique for managing projects, but it was only recently that I settled on OmniFocus as the "trusted system" collecting all of my next actions. One of the things I like about [OmniFocus](http://www.omnigroup.com/applications/omnifocus/) -- as a rich, Mac-only application -- is its ability to hold links to messages from Mail.app as notes for each action. This occurs, for instance, when you use the "Clippings" function of OmniFocus to create a new action based on the message that you are currently viewing in Mail.app. (There are other ways to do it, such as the method described by [Adam Sneller](http://www.earth2adam.com/omnifocus-gtd-actions-from-mail-redux/).)
 

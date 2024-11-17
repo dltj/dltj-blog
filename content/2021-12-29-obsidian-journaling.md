@@ -1,12 +1,12 @@
 ---
 title: 'Refactoring DLTJ, Winter 2021 Part 1: Picking up Obsidian'
-modified: 2021-12-29T21:07:35-05:00
+modified: '2022-01-06T21:47:47-05:00'
 category: Thursday Threads
 categories:
-  - Raw Technology
+- Raw Technology
 tags:
-  -  obsidian
-  -  personal knowledge management
+- obsidian
+- personal knowledge management
 ---
 As 2021 comes to a close, I've been thinking about this blog and my own "personal knowledge management" tools. 
 It is time for some upgrades to both. 

@@ -2,15 +2,15 @@
 status: published
 published: true
 title: 'Thursday Threads: Open Source in Health Care, The Big Deal, Archives of Web Pages'
-modified: 2011-03-17T06:46:53+00:00
+modified: '2018-01-15T15:47:28-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 2719
 wordpress_url: http://dltj.org/?p=2719
-date: '2011-03-17 06:46:53 -0400'
-date_gmt: '2011-03-17 10:46:53 -0400'
+date: 2011-03-17 06:46:53 -0400
+date_gmt: 2011-03-17 10:46:53 -0400
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -23,48 +23,37 @@ comments:
   author: Sarkis Dallakian
   author_email: dallakyans@gmail.com
   author_url: http://www.google.com/profiles/dallakyans
-  date: '2011-03-17 15:41:31 -0400'
-  date_gmt: '2011-03-17 19:41:31 -0400'
-  content: 'Thanks for this post. I completely agree with open source licensing arument.
-    A case in point: I wrote an app that lets you search for clinical trials  (http://clismap.appspot.com)
-    using open source software from Google and Yahoo. It would take years and lots
-    of money to build the same with proprietary software.'
+  date: 2011-03-17 15:41:31 -0400
+  date_gmt: 2011-03-17 19:41:31 -0400
+  content: 'Thanks for this post. I completely agree with open source licensing arument. A case in point: I wrote an app that lets you search for clinical trials  (http://clismap.appspot.com) using open source software from Google and Yahoo. It would take years and lots of money to build the same with proprietary software.'
 - id: 159942
   author: Anne Moon
   author_email: ''
   author_url: ''
-  date: '2011-03-22 08:24:41 -0400'
-  date_gmt: '2011-03-22 12:24:41 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: Open Source in Health Care,
-    The Big Deal, Archives... http://lnkd.in/jbH3mx</span></span></span>'
+  date: 2011-03-22 08:24:41 -0400
+  date_gmt: 2011-03-22 12:24:41 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: Open Source in Health Care, The Big Deal, Archives... http://lnkd.in/jbH3mx</span></span></span>'
 - id: 159943
   author: ALA_TechSource
   author_email: ''
   author_url: http://twitter.com/ala_techsource/status/48405799558578176
-  date: '2011-03-17 15:30:16 -0400'
-  date_gmt: '2011-03-17 19:30:16 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Via @DataG Thursday Threads: Open Source in Health
-    Care, The Big Deal, Archives of Web Pages http://bit.ly/fplOB7</span></span>'
+  date: 2011-03-17 15:30:16 -0400
+  date_gmt: 2011-03-17 19:30:16 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Via @DataG Thursday Threads: Open Source in Health Care, The Big Deal, Archives of Web Pages http://bit.ly/fplOB7</span></span>'
 - id: 159944
   author: Jordi Serrano
   author_email: ''
   author_url: http://twitter.com/jserranom/status/48381897079922688
-  date: '2011-03-17 13:55:17 -0400'
-  date_gmt: '2011-03-17 17:55:17 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: Open Source in Health Care,
-    The Big Deal, Archives of Web Pages | Disruptive Library Technology Jester http://t.co/ApYsP1C</span></span>'
+  date: 2011-03-17 13:55:17 -0400
+  date_gmt: 2011-03-17 17:55:17 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: Open Source in Health Care, The Big Deal, Archives of Web Pages | Disruptive Library Technology Jester http://t.co/ApYsP1C</span></span>'
 - id: 159946
   author: infopeep
   author_email: ''
   author_url: http://twitter.com/infopeep/status/48350926339194880
-  date: '2011-03-17 11:52:13 -0400'
-  date_gmt: '2011-03-17 15:52:13 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Murray, Peter: Thursday Threads: Open Source in
-    Health Care, The Big Deal,  Archives of Web Pages http://bit.ly/fqh5Ai</span></span>'
+  date: 2011-03-17 11:52:13 -0400
+  date_gmt: 2011-03-17 15:52:13 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Murray, Peter: Thursday Threads: Open Source in Health Care, The Big Deal,  Archives of Web Pages http://bit.ly/fqh5Ai</span></span>'
 ---
 
 We're taking a break this week from the HarperCollins e-book story; although the {{ robustlink(href="https://web.archive.org/web/20110318043451/http://scienceblogs.com/confessions/2011/03/around_the_web_harpercollins_l.php", originalurl="http://scienceblogs.com/confessions/2011/03/around_the_web_harpercollins_l.php", versiondate="2011-03-17", title="Around the Web: HarperCollins library ebook linkdump apocalypse (#hcod 'r us) (Updated!) | Confessions of a Science Librarian", anchor="commentary continues") }} from librarians (and a few authors), there hasn't been anything new (that I've seen) from HarperCollins itself.  There is still plenty more to look at, though.  First up is a <a href="#health-care">report from the health care sector</a> on the applicability of open source and open systems.  Next is an <a href="#big-deal">interview with a financial analyst</a> that sees the end of the "big deal" for library journal subscriptions.  And lastly is a list of <a href="#web-archive">web archive services</a> that you could use to find old copies of web pages.

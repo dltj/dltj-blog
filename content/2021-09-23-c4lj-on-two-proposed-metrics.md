@@ -1,12 +1,12 @@
 ---
-title: 'On the Code4Lib Journal''s Two Proposed Metrics article'
-modified: 2021-09-23T17:13:08-04:00
+title: On the Code4Lib Journal's Two Proposed Metrics article
+modified: '2021-09-23T17:29:01-04:00'
 category: Meta Category
 categories:
-  - L/IS Profession
+- L/IS Profession
 tags:
-  - code4lib Journal
-  - privacy
+- code4lib Journal
+- privacy
 ---
 Code4Lib Journal (C4LJ) editor here. Becky Yoose's Twitter thread has stirred up a great deal of attention to an article published yesterday. This post has my own thoughts on the issue...[published on Twitter](https://twitter.com/DataG/status/1441152347992846340) to match Becky's medium and here on my blog for posterity.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Issue 90: When Machine Learning Goes Wrong'
-modified: 2022-03-24T08:30:41-04:00
+modified: '2022-03-24T08:30:41-04:00'
 category: Thursday Threads
 categories:
 - Thursday Threads

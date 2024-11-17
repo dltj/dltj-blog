@@ -1,6 +1,6 @@
 ---
-title: 'A Better Structlog Processor for Python for CloudWatch Logs Using AWS Lambda'
-modified: 2022-01-22T22:31:52-05:00
+title: A Better Structlog Processor for Python for CloudWatch Logs Using AWS Lambda
+modified: '2022-01-22T22:41:29-05:00'
 category: Raw Technology
 categories:
 - Raw Technology

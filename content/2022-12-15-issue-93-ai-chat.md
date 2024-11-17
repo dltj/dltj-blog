@@ -1,6 +1,6 @@
 ---
 title: 'Issue 93: Chat-bots Powered by Artificial Intelligence'
-modified: 2022-12-14T22:50:19-05:00
+modified: '2023-01-25T21:41:24-05:00'
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -11,12 +11,13 @@ tags:
 - algorithm bias
 mastodon:
 - Happy Thursday! An issue of DLTJ Thursday Threads was just published: https://dltj.org/article/issue-93-ai-chat This week is a dive into the new artificial intelligence language models and their impacts. 1/7
-- The first story introduces #ChatGPT — the latest in a line of tools that distills the English-language-world's corpus of texts and attempts to make something smart from it https://dltj.org/article/issue-93-ai-chat#chatgpt 2/7
-- A high-school English teacher tries out #ChatGPT and discovers that it does a pretty good job. Such a good job that maybe essay-writing is a thing of the past? https://dltj.org/article/issue-93-ai-chat#ai-essays 3/7
-- A business owner with dyslexia is worred that his writing will be off-putting to potential customers. With the help of a friend, he hooks up #GPT3 to Gmail to write better emails. https://dltj.org/article/issue-93-ai-chat#business-use @drewharwell@mastodon.social @mastodon.social@willoremus 4/7
-- #ChatGPT tries to improve on its #GPT3 predecessor by gently refusing to give biased answers, but the underlying bias is still in the language model. https://dltj.org/article/issue-93-ai-chat#builtin-bias 5/7
-- A graduate with a masters degree in English sets out to improve the training of a language model for apartment leasing companies. Her story: https://dltj.org/article/issue-93-ai-chat#human-trainer 6/7
-- And we end the issue with two cats contently sleeping on their thrones #CatsOfMastodon #Cats 7/7
+- The first story introduces
+- A high-school English teacher tries out
+- A business owner with dyslexia is worred that his writing will be off-putting to potential customers. With the help of a friend, he hooks up
+- null
+- ? A graduate with a masters degree in English sets out to improve the training of a language model for apartment leasing companies. Her story
+  : https://dltj.org/article/issue-93-ai-chat#human-trainer 6/7
+- And we end the issue with two cats contently sleeping on their thrones
 ---
 This week we jump into the world of chat-bots driven by new artificial intelligence language models. 
 The pace of announcements about general-purpose tools driven by large training sets of texts or images has quickened, and the barrier to experimenting with these tools has dropped. 

@@ -3,15 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: 'Thursday Threads: HarperCollins/OverDrive (still), Wikimedia Survey, Microsoft Academic Search'
-modified: 2011-04-07T06:10:52+00:00
+modified: '2018-01-15T15:47:28-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 2784
 wordpress_url: http://dltj.org/?p=2784
-date: '2011-04-07 06:10:52 -0400'
-date_gmt: '2011-04-07 10:10:52 -0400'
+date: 2011-04-07 06:10:52 -0400
+date_gmt: 2011-04-07 10:10:52 -0400
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -25,57 +25,37 @@ comments:
   author: Ted
   author_email: lawlesst@gmail.com
   author_url: ''
-  date: '2011-04-07 07:31:02 -0400'
-  date_gmt: '2011-04-07 11:31:02 -0400'
-  content: Thanks for the pointer to Microsoft Academic Search.  Have any libraries
-    successfully integrated this with their link resolver?
+  date: 2011-04-07 07:31:02 -0400
+  date_gmt: 2011-04-07 11:31:02 -0400
+  content: Thanks for the pointer to Microsoft Academic Search.  Have any libraries successfully integrated this with their link resolver?
 - id: 132984
   author: Peter Murray
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2011-04-07 09:18:49 -0400'
-  date_gmt: '2011-04-07 13:18:49 -0400'
-  content: Ted -- that would be a great thing to try, but Microsoft Research hasn't
-    released an API into the service.  (Same problem with Google Scholar, too.)  One
-    can construct a URL based on the keyword search pattern (e.g. <a href="http://academic.research.microsoft.com/Search?query=Murray,+Peter+E.+Borealis+Image+Server"
-    rel="nofollow">http://academic.research.microsoft.com/Search?query=Murray,+Peter+E.+Borealis+Image+Server</a>),
-    but you'd be left scraping the resulting HTML page.
+  date: 2011-04-07 09:18:49 -0400
+  date_gmt: 2011-04-07 13:18:49 -0400
+  content: Ted -- that would be a great thing to try, but Microsoft Research hasn't released an API into the service.  (Same problem with Google Scholar, too.)  One can construct a URL based on the keyword search pattern (e.g. <a href="http://academic.research.microsoft.com/Search?query=Murray,+Peter+E.+Borealis+Image+Server" rel="nofollow">http://academic.research.microsoft.com/Search?query=Murray,+Peter+E.+Borealis+Image+Server</a>), but you'd be left scraping the resulting HTML page.
 - id: 133011
   author: Ted
   author_email: lawlesst@gmail.com
   author_url: ''
-  date: '2011-04-07 12:04:21 -0400'
-  date_gmt: '2011-04-07 16:04:21 -0400'
-  content: "One more promising thing with the Microsoft service is that your search
-    can be generated as an RSS feed too:\r\n\r\nhttp://academic.research.microsoft.com/Rss/12182657\r\n\r\nAnd,
-    if I want to track articles by a specific atuhor:\r\nhttp://academic.research.microsoft.com/Rss/12182657\r\n\r\nI
-    can't seem to find the feed notation for an individual article given an ID but
-    that would be better yet. \r\n\r\n Exciting to see more competition in open web
-    academic search."
+  date: 2011-04-07 12:04:21 -0400
+  date_gmt: 2011-04-07 16:04:21 -0400
+  content: "One more promising thing with the Microsoft service is that your search can be generated as an RSS feed too:\r\n\r\nhttp://academic.research.microsoft.com/Rss/12182657\r\n\r\nAnd, if I want to track articles by a specific atuhor:\r\nhttp://academic.research.microsoft.com/Rss/12182657\r\n\r\nI can't seem to find the feed notation for an individual article given an ID but that would be better yet. \r\n\r\n Exciting to see more competition in open web academic search."
 - id: 133234
   author: Peter Murray
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2011-04-08 09:30:07 -0400'
-  date_gmt: '2011-04-08 13:30:07 -0400'
-  content: "Yes, the RSS feed is a nice feature.  I subscribed to the feed of my own
-    author page and have started curating the papers that get assigned to the ID.
-    \ One downside seems to be that there is still a human in the loop at Microsoft
-    that is approving changes to author pages.  (I can't fix the latest overnight
-    mismatches because I still have some changes in the queue.)\r\n\r\nOn the <a href=\"http://code4lib.org/irc\"
-    rel=\"nofollow\">Code4Lib IRC channel</a> this morning, Dan Scott pointed out
-    that <a href=\"http://academic.research.microsoft.com/About/Help.htm#5\" rel=\"nofollow\">Microsoft
-    announced that an Academic Search API is in testing right now</a>.  There is also
-    a <a href=\"http://social.microsoft.com/Forums/en-US/mas/thread/860ffc64-755d-46d5-a2ab-c55cbbe959dd\"
-    rel=\"nofollow\">brief thread</a> about it in the Microsoft Research forums."
+  date: 2011-04-08 09:30:07 -0400
+  date_gmt: 2011-04-08 13:30:07 -0400
+  content: "Yes, the RSS feed is a nice feature.  I subscribed to the feed of my own author page and have started curating the papers that get assigned to the ID.  One downside seems to be that there is still a human in the loop at Microsoft that is approving changes to author pages.  (I can't fix the latest overnight mismatches because I still have some changes in the queue.)\r\n\r\nOn the <a href=\"http://code4lib.org/irc\" rel=\"nofollow\">Code4Lib IRC channel</a> this morning, Dan Scott pointed out that <a href=\"http://academic.research.microsoft.com/About/Help.htm#5\" rel=\"nofollow\">Microsoft announced that an Academic Search API is in testing right now</a>.  There is also a <a href=\"http://social.microsoft.com/Forums/en-US/mas/thread/860ffc64-755d-46d5-a2ab-c55cbbe959dd\" rel=\"nofollow\">brief thread</a> about it in the Microsoft Research forums."
 - id: 230236
-  author: 'meta.wikimedia.org - How popular is meta.wikimedia.org? :: Website Traffic
-    Ranking'
+  author: 'meta.wikimedia.org - How popular is meta.wikimedia.org? :: Website Traffic Ranking'
   author_email: ''
   author_url: http://urlfan.com/site/meta_wikimedia_org/164809.html
-  date: '2012-03-09 17:38:09 -0500'
-  date_gmt: '2012-03-09 22:38:09 -0500'
-  content: "<!--%kramer-ref-pre%-->[...]  [...]<!--%kramer-ref-post%-->"
+  date: 2012-03-09 17:38:09 -0500
+  date_gmt: 2012-03-09 22:38:09 -0500
+  content: <!--%kramer-ref-pre%-->[...]  [...]<!--%kramer-ref-post%-->
 ---
 <div id="feedburner-thursday-threads-email-2011w14" class="wp-caption alignright noprint noFrontPage" style="width: 230px;">
 <form style="border: 1px solid rgb(204, 204, 204); padding: 3px; margin: 0pt; text-align: center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">Receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads:</p>

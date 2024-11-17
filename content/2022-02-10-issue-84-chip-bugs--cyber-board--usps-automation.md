@@ -1,6 +1,6 @@
 ---
 title: 'Issue 84: Chips Go Bad, Learn From Our Cyber Mistakes, Automation at the USPS'
-modified: 2022-02-10T08:05:10-05:00
+modified: '2022-02-10T08:05:10-05:00'
 categories:
 - Thursday Threads
 ---

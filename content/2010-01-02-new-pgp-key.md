@@ -1,16 +1,16 @@
 ---
 status: published
 published: true
-title: 'A New Year, a New PGP Key'
-modified: 2020-10-13T09:47:19-04:00
+title: A New Year, a New PGP Key
+modified: '2020-10-13T10:03:08-04:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 1406
 wordpress_url: http://dltj.org/?p=1406
-date: '2010-01-02 21:16:30 -0500'
-date_gmt: '2010-01-03 02:16:30 -0500'
+date: 2010-01-02 21:16:30 -0500
+date_gmt: 2010-01-03 02:16:30 -0500
 category: Raw Technology
 categories:
 - Raw Technology
@@ -24,12 +24,9 @@ comments:
   author: Password managers - Rubber Duck
   author_email: ''
   author_url: http://www.rubberduckdistillery.com/blog/2013/04/26/password-managers/
-  date: '2013-08-08 08:22:45 -0400'
-  date_gmt: '2013-08-08 12:22:45 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] to delve more into how and why you should
-    use PGP, good citizen Peter E. Murray wrote an articulate post about it on his
-    blog. In the above case, I am only using PGP for encryption, Peter talks about
-    [...]<!--%kramer-ref-post%-->"
+  date: 2013-08-08 08:22:45 -0400
+  date_gmt: 2013-08-08 12:22:45 -0400
+  content: <!--%kramer-ref-pre%-->[...] to delve more into how and why you should use PGP, good citizen Peter E. Murray wrote an articulate post about it on his blog. In the above case, I am only using PGP for encryption, Peter talks about [...]<!--%kramer-ref-post%-->
 ---
 It is the start of a new year ((Some have even said it is the start of a new decade, but of course that isn't true.  We won't start a new decade until 2011, just like we didn't actually start a new millennium until 2001.)), and it seems like a good time to update my public encryption key.  My previous one -- created in 2004 -- is both a little weaker, cryptographically speaking, than the ones newly created (1024-bit versus 2048-bit) and also an uncomfortable mixing of my professional and personal lives.  For my previous key, I attached all of my professional and personal user ids (e.g. e-mail addresses) to the same [key](http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0xE3EB78A927CF2072).  This time I decided to split my work-related user ids from my other ones.  My reasoning for the split is that I might be compelled by my employer to turn over my private key to decrypt messages and files sent in the course of my work.  If my personal user ids are also attached to that private key, my employer (and who ever else got ahold of that key), would be able to decrypt my personal messages and files as well.  That is not necessarily a good thing.  So my solution was to create two keys and cross-sign them.  I've outlined the process below.
 

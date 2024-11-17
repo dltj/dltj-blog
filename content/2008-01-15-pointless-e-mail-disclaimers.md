@@ -2,15 +2,15 @@
 status: published
 published: true
 title: Pointless E-mail Disclaimers
-modified: 2018-12-31T20:15:24-05:00
+modified: '2022-08-10T11:43:36-04:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 207
 wordpress_url: http://dltj.org/2008/01/pointless-e-mail-disclaimers/
-date: '2008-01-15 21:26:48 -0500'
-date_gmt: '2008-01-16 01:26:48 -0500'
+date: 2008-01-15 21:26:48 -0500
+date_gmt: 2008-01-16 01:26:48 -0500
 category: Meta Category
 categories:
 - Meta Category
@@ -25,267 +25,177 @@ comments:
   author: David F
   author_email: david@fiander.info
   author_url: http://lisletters.fiander.info
-  date: '2008-01-15 22:08:31 -0500'
-  date_gmt: '2008-01-16 02:08:31 -0500'
-  content: "The \"Bogus Agreements\" \"disclaimer\" is actually a reaction to\r\noutrageous
-    EULAs and other non-contracts. See this <a href=\"http://www.boingboing.net/2007/01/25/reasonableagreemento.html\"
-    rel=\"nofollow\">BoingBoing article</a> for the info."
+  date: 2008-01-15 22:08:31 -0500
+  date_gmt: 2008-01-16 02:08:31 -0500
+  content: "The \"Bogus Agreements\" \"disclaimer\" is actually a reaction to\r\noutrageous EULAs and other non-contracts. See this <a href=\"http://www.boingboing.net/2007/01/25/reasonableagreemento.html\" rel=\"nofollow\">BoingBoing article</a> for the info."
 - id: 29414
   author: the jester
   author_email: jester@DLTJ.org
   author_url: http://dltj.org/
-  date: '2008-01-16 10:44:11 -0500'
-  date_gmt: '2008-01-16 14:44:11 -0500'
-  content: David -- Interesting.  I didn't know about the <a href="http://reasonableagreement.org/"
-    rel="nofollow">Reasonable Agreement</a> website.  The text in that e-mail signature
-    is straight from the language that Cory Doctorow created.
+  date: 2008-01-16 10:44:11 -0500
+  date_gmt: 2008-01-16 14:44:11 -0500
+  content: David -- Interesting.  I didn't know about the <a href="http://reasonableagreement.org/" rel="nofollow">Reasonable Agreement</a> website.  The text in that e-mail signature is straight from the language that Cory Doctorow created.
 - id: 31345
   author: David Nagy
   author_email: david.nagy@freemail.hu
   author_url: ''
-  date: '2008-02-22 08:04:07 -0500'
-  date_gmt: '2008-02-22 13:04:07 -0500'
-  content: E-mail disclaimers may be useless and stupid. What is even more useless
-    and stupid is to read them and collect them on a website. And your comments...
-    Did you really think this would be entertaining for anyone?
+  date: 2008-02-22 08:04:07 -0500
+  date_gmt: 2008-02-22 13:04:07 -0500
+  content: E-mail disclaimers may be useless and stupid. What is even more useless and stupid is to read them and collect them on a website. And your comments... Did you really think this would be entertaining for anyone?
 - id: 31348
   author: the Jester
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2008-02-22 08:48:53 -0500'
-  date_gmt: '2008-02-22 13:48:53 -0500'
-  content: Thanks for stopping by, David.  Since you obviously arrived here from <a
-    href="http://www.google.hu/search?client=firefox-a&amp;rls=org.mozilla%3Ahu%3Aofficial&amp;channel=s&amp;hl=hu&amp;q=This+email+and+any+attachment%28s%29+is+intended+for+and+confidential+to+the+addressee.+If+you+are+neither+the+addressee+nor+an+authorised+recipient+for+the+add"
-    rel="nofollow">your Google search</a> (looking at my logs, the search string was
-    "This email and any attachment(s) is intended for and confidential to the addressee.
-    If you are neither the addressee nor an authorised recipient for the add") and
-    read this post -- which it would seem you did -- and didn't like what your read
-    -- which it would seem you didn't -- I'm glad you felt better in the end by taking
-    the time to let me know exactly how pointless you thought the whole exercise was.  Szervusz!
+  date: 2008-02-22 08:48:53 -0500
+  date_gmt: 2008-02-22 13:48:53 -0500
+  content: Thanks for stopping by, David.  Since you obviously arrived here from <a href="http://www.google.hu/search?client=firefox-a&amp;rls=org.mozilla%3Ahu%3Aofficial&amp;channel=s&amp;hl=hu&amp;q=This+email+and+any+attachment%28s%29+is+intended+for+and+confidential+to+the+addressee.+If+you+are+neither+the+addressee+nor+an+authorised+recipient+for+the+add" rel="nofollow">your Google search</a> (looking at my logs, the search string was "This email and any attachment(s) is intended for and confidential to the addressee. If you are neither the addressee nor an authorised recipient for the add") and read this post -- which it would seem you did -- and didn't like what your read -- which it would seem you didn't -- I'm glad you felt better in the end by taking the time to let me know exactly how pointless you thought the whole exercise was.  Szervusz!
 - id: 31354
   author: Scott
   author_email: deathboy@deathboy.co.uk
   author_url: http://www.deathboy.co.uk
-  date: '2008-02-22 10:30:32 -0500'
-  date_gmt: '2008-02-22 15:30:32 -0500'
-  content: Just to balance our friend, Mr Nagy there, I thought I'd drop you a comment
-    to say that I was indeed entertained by the article - I'd been googling pointless
-    disclaimers and am trying to find out if they've ever been used in court successfully
-    (purely because they annoy me so much). cheers!
+  date: 2008-02-22 10:30:32 -0500
+  date_gmt: 2008-02-22 15:30:32 -0500
+  content: Just to balance our friend, Mr Nagy there, I thought I'd drop you a comment to say that I was indeed entertained by the article - I'd been googling pointless disclaimers and am trying to find out if they've ever been used in court successfully (purely because they annoy me so much). cheers!
 - id: 31357
   author: David Nagy
   author_email: david.nagy@freemail.hu
   author_url: ''
-  date: '2008-02-22 11:09:11 -0500'
-  date_gmt: '2008-02-22 16:09:11 -0500'
-  content: In fact I was trying to find out if the company I received an email from
-    stole that stupid disclaimer from someone or they drafted it themselves. What
-    I found was this blog with a heap of stupid disclaimers. I still don't see the
-    point in collecting them, but yeah, you're right, I'm still here posting another
-    comment, which is sort of entertaining. Maybe I'll finally get to like the site...
+  date: 2008-02-22 11:09:11 -0500
+  date_gmt: 2008-02-22 16:09:11 -0500
+  content: In fact I was trying to find out if the company I received an email from stole that stupid disclaimer from someone or they drafted it themselves. What I found was this blog with a heap of stupid disclaimers. I still don't see the point in collecting them, but yeah, you're right, I'm still here posting another comment, which is sort of entertaining. Maybe I'll finally get to like the site...
 - id: 31363
   author: the Jester
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2008-02-22 13:24:26 -0500'
-  date_gmt: '2008-02-22 18:24:26 -0500'
-  content: "Fear not, David.  The posting of e-mail disclaimers was just a diversion
-    (admittedly a long time running diversion) from more interesting matters discussed
-    here: namely, the impact of technology on libraries.  Although I'm pretty close
-    to the topic itself, I'd venture to say most would find it more interesting than
-    e-mail disclaimers.\r\n\r\nThanks for stopping by, Scott, and for your comment.
-    \ I don't know if these disclaimers have ever been tested in court, but they do
-    seem very close to the \"shrink-wrap licenses\" that have been invalid in many
-    U.S. courts."
+  date: 2008-02-22 13:24:26 -0500
+  date_gmt: 2008-02-22 18:24:26 -0500
+  content: "Fear not, David.  The posting of e-mail disclaimers was just a diversion (admittedly a long time running diversion) from more interesting matters discussed here: namely, the impact of technology on libraries.  Although I'm pretty close to the topic itself, I'd venture to say most would find it more interesting than e-mail disclaimers.\r\n\r\nThanks for stopping by, Scott, and for your comment.  I don't know if these disclaimers have ever been tested in court, but they do seem very close to the \"shrink-wrap licenses\" that have been invalid in many U.S. courts."
 - id: 44031
   author: Rich
   author_email: rich@workevolved.com
   author_url: ''
-  date: '2010-02-10 21:25:33 -0500'
-  date_gmt: '2010-02-11 02:25:33 -0500'
-  content: "I use the Bogus Agreements Signature very rarely, and only in response
-    to really nutty Disclaimers...\r\n\r\nLike, just now, I got one along with a CV
-    when applying for a job at my company. I included it just to make a point.\r\n\r\n
-    I can't share the CV and Portfolio with the recruiting team without violating
-    the disclaimer.  This we sent via a link on my Company's website... a mailto:
-    link, so there was no confusion about what was up.\r\n\r\n"
+  date: 2010-02-10 21:25:33 -0500
+  date_gmt: 2010-02-11 02:25:33 -0500
+  content: "I use the Bogus Agreements Signature very rarely, and only in response to really nutty Disclaimers...\r\n\r\nLike, just now, I got one along with a CV when applying for a job at my company. I included it just to make a point.\r\n\r\n I can't share the CV and Portfolio with the recruiting team without violating the disclaimer.  This we sent via a link on my Company's website... a mailto: link, so there was no confusion about what was up.\r\n\r\n"
 - id: 62538
   author: You've been Stumbled!
   author_email: ''
   author_url: http://www.stumbleupon.com/url/dltj.org/article/pointless-e-mail-disclaimers/
-  date: '2010-04-01 23:06:52 -0400'
-  date_gmt: '2010-04-02 03:06:52 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] You&#39;ve been Stumbled! [...]<!--%kramer-ref-post%-->"
+  date: 2010-04-01 23:06:52 -0400
+  date_gmt: 2010-04-02 03:06:52 -0400
+  content: <!--%kramer-ref-pre%-->[...] You&#39;ve been Stumbled! [...]<!--%kramer-ref-post%-->
 - id: 102870
   author: John
   author_email: jpcbiggs@gmail.com
   author_url: ''
-  date: '2010-11-26 17:54:31 -0500'
-  date_gmt: '2010-11-26 22:54:31 -0500'
-  content: "Hi there, can you tell me if any of these disclaimers are legal in any
-    sense? also the disclaimers that tell you to contact them if you get an email
-    in error by telephone!!! (who picks up this cost?) and also who pays for the time?\r\nI
-    may draw a similarity here with a Fax I received from Barclays Investments in
-    UK......which ate up three sheets of paper....I sent the private contractual info
-    about someone (not me) back through the fax and a bill for 15 pounds as admin
-    cost payable 28 days....after a reminder and and additional 20 pounds admin I
-    was sent a cheque.....do you think that this activity would get rid of these stupid
-    disclaimers from Pseudo wannabee lawyers in ICT positions?"
+  date: 2010-11-26 17:54:31 -0500
+  date_gmt: 2010-11-26 22:54:31 -0500
+  content: "Hi there, can you tell me if any of these disclaimers are legal in any sense? also the disclaimers that tell you to contact them if you get an email in error by telephone!!! (who picks up this cost?) and also who pays for the time?\r\nI may draw a similarity here with a Fax I received from Barclays Investments in UK......which ate up three sheets of paper....I sent the private contractual info about someone (not me) back through the fax and a bill for 15 pounds as admin cost payable 28 days....after a reminder and and additional 20 pounds admin I was sent a cheque.....do you think that this activity would get rid of these stupid disclaimers from Pseudo wannabee lawyers in ICT positions?"
 - id: 103492
   author: Peter Murray
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2010-11-29 16:34:03 -0500'
-  date_gmt: '2010-11-29 21:34:03 -0500'
-  content: John -- I am not a lawyer, and certainly not experienced in U.K. or Australian
-    law.  That said, I don't think these sorts of statements are enforcable.  The
-    problem is that, as a "contract" of sorts, you were not given the opportunity
-    to challenge or reject it before you received the e-mail message.  I tend to view
-    them as a courtesy -- if an unnecessary and sometimes annoying one -- and just
-    ignore them.  Except for these, of course, which were just too humorous to ignore.
+  date: 2010-11-29 16:34:03 -0500
+  date_gmt: 2010-11-29 21:34:03 -0500
+  content: John -- I am not a lawyer, and certainly not experienced in U.K. or Australian law.  That said, I don't think these sorts of statements are enforcable.  The problem is that, as a "contract" of sorts, you were not given the opportunity to challenge or reject it before you received the e-mail message.  I tend to view them as a courtesy -- if an unnecessary and sometimes annoying one -- and just ignore them.  Except for these, of course, which were just too humorous to ignore.
 - id: 160129
   author: Deepak Shenoy
   author_email: ''
   author_url: http://twitter.com/deepakshenoy/status/58232913908609024
-  date: '2011-04-13 18:19:43 -0400'
-  date_gmt: '2011-04-13 22:19:43 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">RT @gkjohn: @shr1k More good ones here: http://j.mp/egDC2t
-    and from @doctorow http://j.mp/fbQ6sQ  @deepakshenoy</span></span>'
+  date: 2011-04-13 18:19:43 -0400
+  date_gmt: 2011-04-13 22:19:43 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">RT @gkjohn: @shr1k More good ones here: http://j.mp/egDC2t and from @doctorow http://j.mp/fbQ6sQ  @deepakshenoy</span></span>'
 - id: 161231
   author: Nikhil Pahwa
   author_email: ''
   author_url: http://twitter.com/nixxin/status/9186701266
-  date: '2010-02-16 14:28:07 -0500'
-  date_gmt: '2010-02-16 19:28:07 -0500'
-  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Are these even enforceable? RT @gkjohn @nixxin
-    Then you must see this! http://dltj.org/article/pointless-e-mail-disclaimers/</span></span>
+  date: 2010-02-16 14:28:07 -0500
+  date_gmt: 2010-02-16 19:28:07 -0500
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Are these even enforceable? RT @gkjohn @nixxin Then you must see this! http://dltj.org/article/pointless-e-mail-disclaimers/</span></span>
 - id: 161232
   author: Gautam John
   author_email: ''
   author_url: http://twitter.com/gkjohn/status/9184512740
-  date: '2010-02-16 13:24:43 -0500'
-  date_gmt: '2010-02-16 18:24:43 -0500'
-  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">@nixxin Then you must see this! http://dltj.org/article/pointless-e-mail-disclaimers/</span></span>
+  date: 2010-02-16 13:24:43 -0500
+  date_gmt: 2010-02-16 18:24:43 -0500
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">@nixxin Then you must see this! http://dltj.org/article/pointless-e-mail-disclaimers/</span></span>
 - id: 161233
   author: Brian Wetjen
   author_email: ''
   author_url: http://twitter.com/wetchman/status/7167543702
-  date: '2009-12-29 18:40:09 -0500'
-  date_gmt: '2009-12-29 23:40:09 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Email disclaimer showcase of worthlessness: http://bit.ly/6FDkQ9</span></span>'
+  date: 2009-12-29 18:40:09 -0500
+  date_gmt: 2009-12-29 23:40:09 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Email disclaimer showcase of worthlessness: http://bit.ly/6FDkQ9</span></span>'
 - id: 670007
-  author: Pointless E-mail Disclaimers | Disruptive Library Technology Jester | A
-    Litigator&#039;s Blog | MKT Law, PLC
+  author: Pointless E-mail Disclaimers | Disruptive Library Technology Jester | A Litigator&#039;s Blog | MKT Law, PLC
   author_email: ''
   author_url: http://mktlawblog.com/2014/11/27/pointless-e-mail-disclaimers-disruptive-library-technology-jester/
-  date: '2014-11-26 23:16:31 -0500'
-  date_gmt: '2014-11-27 04:16:31 -0500'
-  content: "[&#8230;] Pointless E-mail Disclaimers | Disruptive Library Technology
-    Jester. [&#8230;]"
+  date: 2014-11-26 23:16:31 -0500
+  date_gmt: 2014-11-27 04:16:31 -0500
+  content: '[&#8230;] Pointless E-mail Disclaimers | Disruptive Library Technology Jester. [&#8230;]'
 - id: 679425
   author: Peter
   author_email: littlep@orcon.net.nz
   author_url: ''
-  date: '2015-05-22 00:33:22 -0400'
-  date_gmt: '2015-05-22 04:33:22 -0400'
-  content: "My own personal favorite: \r\nThis email or attachments may contain confidential
-    or legally privileged information intended for the sole use of the addressee(s).
-    Any use, redistribution, disclosure, or reproduction of this message, except as
-    intended, is prohibited. If you received this email in error, please notify the
-    sender and reformat your hard drive to remove all copies of the message, including
-    any attachments; failure to do so may result in your floppy drive being filled
-    with jelly. Any views or opinions expressed in this email (unless otherwise stated)
-    may not represent those of the Vatican City, George W Bush, or the Sisters of
-    the Perpetual Motion."
+  date: 2015-05-22 00:33:22 -0400
+  date_gmt: 2015-05-22 04:33:22 -0400
+  content: "My own personal favorite: \r\nThis email or attachments may contain confidential or legally privileged information intended for the sole use of the addressee(s). Any use, redistribution, disclosure, or reproduction of this message, except as intended, is prohibited. If you received this email in error, please notify the sender and reformat your hard drive to remove all copies of the message, including any attachments; failure to do so may result in your floppy drive being filled with jelly. Any views or opinions expressed in this email (unless otherwise stated) may not represent those of the Vatican City, George W Bush, or the Sisters of the Perpetual Motion."
 - id: 686266
   author: Aldamarte
   author_email: info@aldamarte.com
   author_url: http://www.aldamarte.com
-  date: '2016-05-27 17:11:44 -0400'
-  date_gmt: '2016-05-27 21:11:44 -0400'
-  content: how funny, good selection. I was googling something completely different
-    when I arrived here so this must be a favorite article to come up that high on
-    google... Every 1st of April I read through disclaimers because I am still hoping
-    to one day find one which has some funny twist or humor but I guess nobody plays
-    with their legal disclaimer...
+  date: 2016-05-27 17:11:44 -0400
+  date_gmt: 2016-05-27 21:11:44 -0400
+  content: how funny, good selection. I was googling something completely different when I arrived here so this must be a favorite article to come up that high on google... Every 1st of April I read through disclaimers because I am still hoping to one day find one which has some funny twist or humor but I guess nobody plays with their legal disclaimer...
 - id: 686456
   author: josette
   author_email: Josettebailey95@yahoo.com
   author_url: ''
-  date: '2016-08-04 15:02:34 -0400'
-  date_gmt: '2016-08-04 19:02:34 -0400'
-  content: "Account Investigator \r\n\r\nStone and Associates, LLC\r\nTrussville,
-    AL\r\n\r\nDirect: 205.683.1603\r\nToll Free: 866.293.3811 xt 303\r\nFax: 205.278.1455\r\n\r\nTHIS
-    IS AN ATTEMPT TO COLLECT A DEBT AND ANY INFORMATION OBTAINED WILL BE USED FOR
-    THAT PURPOSE.\r\n\r\nDISCLAIMER:\r\nTHE INFORMATION CONTAINED IN THIS EMAIL MESSAGE
-    IS INTENDED FOR THE SOLE CONFIDENTIAL USE OF THE DESIGNATED RECIPIENTS AND MAY
-    CONTAIN CONFIDENTIAL INFORMATION.  IF YOU HAVE RECEIVED THIS INFORMATION IN ERROR,
-    ANY REVIEW, DISSEMINATION, DISTRIBUTION OR COPYING OF THIS INFORMATION IS STRICTLY
-    PROHIBITED.  IF YOU HAVE RECEIVED THIS COMMUNICATION IN ERROR, PLEASE NOTIFY US
-    IMMEDIATELY BY TELEPHONE AND RETURN THE ORIGINAL MESSAGE TO US BY MAIL OR IF ELECTRONIC,
-    REROUTE BACK TO THE SENDER.  THANK YOU.\r\n\r\n\r\n( lmao I am dying)"
+  date: 2016-08-04 15:02:34 -0400
+  date_gmt: 2016-08-04 19:02:34 -0400
+  content: "Account Investigator \r\n\r\nStone and Associates, LLC\r\nTrussville, AL\r\n\r\nDirect: 205.683.1603\r\nToll Free: 866.293.3811 xt 303\r\nFax: 205.278.1455\r\n\r\nTHIS IS AN ATTEMPT TO COLLECT A DEBT AND ANY INFORMATION OBTAINED WILL BE USED FOR THAT PURPOSE.\r\n\r\nDISCLAIMER:\r\nTHE INFORMATION CONTAINED IN THIS EMAIL MESSAGE IS INTENDED FOR THE SOLE CONFIDENTIAL USE OF THE DESIGNATED RECIPIENTS AND MAY CONTAIN CONFIDENTIAL INFORMATION.  IF YOU HAVE RECEIVED THIS INFORMATION IN ERROR, ANY REVIEW, DISSEMINATION, DISTRIBUTION OR COPYING OF THIS INFORMATION IS STRICTLY PROHIBITED.  IF YOU HAVE RECEIVED THIS COMMUNICATION IN ERROR, PLEASE NOTIFY US IMMEDIATELY BY TELEPHONE AND RETURN THE ORIGINAL MESSAGE TO US BY MAIL OR IF ELECTRONIC, REROUTE BACK TO THE SENDER.  THANK YOU.\r\n\r\n\r\n( lmao I am dying)"
 - id: 686457
   author: josette
   author_email: Josettebailey95@yahoo.com
   author_url: ''
-  date: '2016-08-04 15:03:30 -0400'
-  date_gmt: '2016-08-04 19:03:30 -0400'
+  date: 2016-08-04 15:03:30 -0400
+  date_gmt: 2016-08-04 19:03:30 -0400
   content: I agree Peter- it is very humorous though ;)
 - id: 686473
   author: Tracey M
   author_email: melizcpei@gmail.com
   author_url: ''
-  date: '2016-08-12 12:07:59 -0400'
-  date_gmt: '2016-08-12 16:07:59 -0400'
-  content: Yes, I am loving this! Thank you, the jester, for taking time to show us
-    how stupid we can be as human beings! I love this!
+  date: 2016-08-12 12:07:59 -0400
+  date_gmt: 2016-08-12 16:07:59 -0400
+  content: Yes, I am loving this! Thank you, the jester, for taking time to show us how stupid we can be as human beings! I love this!
 - id: 686639
   author: Ryan
   author_email: ryanweiss724@gmail.org
   author_url: ''
-  date: '2016-09-25 22:46:13 -0400'
-  date_gmt: '2016-09-26 02:46:13 -0400'
-  content: 'NOTICE: The information transmitted, including attachments, is intended
-    only for the person(s) or entity to which it is addressed and may contain confidential
-    and/or privileged material. Any review, transmission, dissemination or other use
-    of, or taking of any action in reliance upon, this information by any person(s)
-    or entities other than the intended recipient is prohibited. If you received this
-    in error, please contact the sender and destroy any copies of this information.'
+  date: 2016-09-25 22:46:13 -0400
+  date_gmt: 2016-09-26 02:46:13 -0400
+  content: 'NOTICE: The information transmitted, including attachments, is intended only for the person(s) or entity to which it is addressed and may contain confidential and/or privileged material. Any review, transmission, dissemination or other use of, or taking of any action in reliance upon, this information by any person(s) or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender and destroy any copies of this information.'
 - id: 686672
   author: IDrive Media Group
   author_email: mark@idrivemediagroup.com
   author_url: http://idrivemediagroup.com
-  date: '2016-10-15 22:48:07 -0400'
-  date_gmt: '2016-10-16 02:48:07 -0400'
+  date: 2016-10-15 22:48:07 -0400
+  date_gmt: 2016-10-16 02:48:07 -0400
   content: LOL this was a great post thanks
 - id: 688298
   author: Uzzies
   author_email: uzziesuncensored@gmail.com
   author_url: https://uzziesuncensored.com
-  date: '2017-09-15 11:50:00 -0400'
-  date_gmt: '2017-09-15 15:50:00 -0400'
-  content: "Here is one that I received from an ex-consultant of an MLM. Isn't it
-    the company's job to remove inactive consultants from their internal e-mail blasts?
-    How is this their responsibility?\r\n\r\nCONFIDENTIALITY NOTICE: This email is
-    intended only for the person(s) named in the message header. Unless otherwise
-    indicated, it contains information that is confidential, privileged and/or exempt
-    from disclosure under applicable law. If you have received this message in error,
-    please notify the sender of the error and delete the message. If you are no longer
-    an active consultant, click UNSUBSCRIBE at the bottom of this email. Thank you."
+  date: 2017-09-15 11:50:00 -0400
+  date_gmt: 2017-09-15 15:50:00 -0400
+  content: "Here is one that I received from an ex-consultant of an MLM. Isn't it the company's job to remove inactive consultants from their internal e-mail blasts? How is this their responsibility?\r\n\r\nCONFIDENTIALITY NOTICE: This email is intended only for the person(s) named in the message header. Unless otherwise indicated, it contains information that is confidential, privileged and/or exempt from disclosure under applicable law. If you have received this message in error, please notify the sender of the error and delete the message. If you are no longer an active consultant, click UNSUBSCRIBE at the bottom of this email. Thank you."
 - id: 688496
   author: nate
   author_email: nscinreddeer@hotmail.com
   author_url: ''
-  date: '2017-10-19 23:00:08 -0400'
-  date_gmt: '2017-10-20 03:00:08 -0400'
-  content: some of these are useful in terms of dealing with business, if you receive
-    account info it is often specific to you, such as material pricing sheets as many
-    companies have different pricing levels, if you reveal your price to another company
-    they can close your account
+  date: 2017-10-19 23:00:08 -0400
+  date_gmt: 2017-10-20 03:00:08 -0400
+  content: some of these are useful in terms of dealing with business, if you receive account info it is often specific to you, such as material pricing sheets as many companies have different pricing levels, if you reveal your price to another company they can close your account
 ---
 I've been collecting disclaimers that appear on the bottom of e-mail messages in a draft post on <acronym title="Disruptive Library Technology Jester">_DLTJ_</acronym> for about a year now -- every time I'd get a new one with a different twist, I'd save it anticipating the day would come that there would be enough humor here to share with the rest of you.  That day has come.  There wasn't one that disclaimer that finally pushed the publication of this post over the edge; just the accumulation of examples.  Identifying information has been removed, but the humor was left intact.  If you recognize your institution/company in these examples, please laugh along with me.  If you are the lawyer or pseudo-lawyer that drafted these, please do us all a favor and find something else to work on.  Like drafting disclaimers for toothpicks and such.
 

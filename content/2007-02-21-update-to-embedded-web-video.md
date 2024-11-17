@@ -2,16 +2,16 @@
 layout: wordpress-import
 status: published
 published: true
-title: 'Update to "Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way"'
-modified: 2018-01-15T22:38:08-05:00
+title: Update to "Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way"
+modified: '2018-01-15T22:43:16-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 187
 wordpress_url: http://dltj.org/2007/02/update-to-embedded-web-video/
-date: '2007-02-21 15:41:09 -0500'
-date_gmt: '2007-02-21 20:41:09 -0500'
+date: 2007-02-21 15:41:09 -0500
+date_gmt: 2007-02-21 20:41:09 -0500
 category: Raw Technology
 categories:
 - Raw Technology
@@ -24,25 +24,19 @@ tags:
 - web standards
 comments:
 - id: 12693
-  author: 'Barrierefreies Webdesign: Einfach f&uuml;r Alle - eine Initiative der Aktion
-    Mensch'
+  author: 'Barrierefreies Webdesign: Einfach f&uuml;r Alle - eine Initiative der Aktion Mensch'
   author_email: ''
   author_url: ''
-  date: '2007-03-02 12:03:11 -0500'
-  date_gmt: '2007-03-02 17:03:11 -0500'
-  content: '<!--%kramer-pre%-->Wie man Videos trotzdem sauber einbettet beschreibt
-    Peter Murray in dem aktualisierten Artikel: &raquo;Update to &rsaquo;Embedded
-    Web Video in a Standards-Compliant, Accessible, and Successful Way&lsaquo;&laquo;.  <i>(<a
-    href="http://translate.google.com/translate?u=http://www.einfach-fuer-alle.de/blog/index.php%3Fid%3DP2007"
-    rel="nofollow">translated</a>)</i><!--%kramer-post%-->'
+  date: 2007-03-02 12:03:11 -0500
+  date_gmt: 2007-03-02 17:03:11 -0500
+  content: '<!--%kramer-pre%-->Wie man Videos trotzdem sauber einbettet beschreibt Peter Murray in dem aktualisierten Artikel: &raquo;Update to &rsaquo;Embedded Web Video in a Standards-Compliant, Accessible, and Successful Way&lsaquo;&laquo;.  <i>(<a href="http://translate.google.com/translate?u=http://www.einfach-fuer-alle.de/blog/index.php%3Fid%3DP2007" rel="nofollow">translated</a>)</i><!--%kramer-post%-->'
 - id: 29158
   author: Webrichtlijnen over online audio en video - Stichting Bartim
   author_email: ''
   author_url: http://accessibility.nl/internet/artikelen/audiovideo
-  date: '2008-01-11 09:31:06 -0500'
-  date_gmt: '2008-01-11 13:31:06 -0500'
-  content: "<!--%kramer-ref-pre%-->[...] http://dltj.org/2007/02/update-to-embedded-web-video/
-    [...]<!--%kramer-ref-post%-->"
+  date: 2008-01-11 09:31:06 -0500
+  date_gmt: 2008-01-11 13:31:06 -0500
+  content: <!--%kramer-ref-pre%-->[...] http://dltj.org/2007/02/update-to-embedded-web-video/ [...]<!--%kramer-ref-post%-->
 ---
 With the release of Microsoft's [Windows Media Player version 11](http://www.microsoft.com/windows/windowsmedia/player/11/default.aspx), the Microsoft Media Server (MMS) protocol is [officially no longer supported](http://web.archive.org/web/20121021035215/http://www.microsoft.com/windows/windowsmedia/licensing/netprokit.aspx). (Except, of course, for the confusing/amusing footnote on that page that says 'mms://' URIs are "highly recommended" as a [protocol rollover URL](http://msdn2.microsoft.com/en-gb/library/aa390673.aspx) — only Microsoft can at the same time make something deprecated and highly recommended.) As Ryan Eby noted earlier this year, those generating ASX files for Windows Media Player need to adjust their scripts.
 

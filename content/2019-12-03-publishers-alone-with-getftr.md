@@ -1,6 +1,6 @@
 ---
-title: 'Publishers going-it-alone (for now?) with GetFTR'
-modified: 2019-12-03T19:18:03-05:00
+title: Publishers going-it-alone (for now?) with GetFTR
+modified: '2021-04-03T22:00:17-04:00'
 category: Linking Technologies
 categories:
 - Linking Technologies

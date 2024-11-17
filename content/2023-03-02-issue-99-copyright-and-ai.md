@@ -1,6 +1,6 @@
 ---
-title: 'Issue 99: Copyright for Generative Artificial Intelligence (ChatGPT, DALL·E 2, and the like)'
-modified: 2023-03-01T23:00:24-05:00
+title: "Issue 99: Copyright for Generative Artificial Intelligence (ChatGPT, DALL\xB7E 2, and the like)"
+modified: '2023-03-01T23:00:24-05:00'
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -11,16 +11,16 @@ tags:
 - open source
 - artificial intelligence
 mastodon:
-- This week's DLTJ Thursday Threads looks at the intersection of #copyright and the explosion of new #AI tools like #ChatGPT and #DALLE2. Can works created by an AI algorithm be copyrighted? Do the creators of AI models have an obligation to respect the copyright of works they use in their algorithms? https://dltj.org/article/issue-99-copyright-and-ai 1/9
-- Let's set the stage of whether the output of #AI algorithms can be copyrighted, and it starts with this image. It is a selfie of a monkey, and _Naruto v. Slater_ the courts determined that a monkey cannot hold a copyright. https://dltj.org/article/issue-99-copyright-and-ai#humans 2/9
-- Based on the _Naruto v. Slater_ precedent, the fact that an AI algorithm isn't human seems to be enough to say that the output of #ChatGPT and other #LargeLanguageModel #AI algorithms cannot be copyrighted. https://dltj.org/article/issue-99-copyright-and-ai#copyright-office 3/9
-- So what is a #LargeLanguageModel and how does it work. It is a statistical model of how words and phrases follow each other but analyzing huge sets of textual works. This is part of how #ChatGPT works. https://dltj.org/article/issue-99-copyright-and-ai#llm 4/9
-- Despite the word "Language" in the #LargeLanguageModel name, the same technique can be applied to images when you have a good description of the images in your training set. This is how #DALLE2 works. https://dltj.org/article/issue-99-copyright-and-ai#images 5/9
-- It is easy to say that #LargeLanguageModels are a statistical analysis of huge sets of textual works. But that really doesn't describe how "unimaginably complex" this models are. https://dltj.org/article/issue-99-copyright-and-ai#complexity 6/9
-- Despite the complexity, the source of the training data can easily leak through. In this court case, #GettyImages charges that #StableAI violated #copyright and its terms of service when it built the #StableDiffusion service...and it has the pictures to prove it. https://dltj.org/article/issue-99-copyright-and-ai#getty-images 7/9
-- Given the right training set and user prompts, it is even possible to regenerate an image that looks a great deal like the source. To say nothing about the #copyright implications, what are the #privacy implications? https://dltj.org/article/issue-99-copyright-and-ai#regeneration 8/9
-- Source code is another area where there are questions of copyright, and this time with the terms of #OpenSource licenses as #GitHub launches its Copilot service to generate code snippets. https://dltj.org/article/issue-99-copyright-and-ai#copilot 9/10
-- And the weekly addition to #CatsOfMastodon. Alan stretches and roars in my lap. bonus/9
+- This week's DLTJ Thursday Threads looks at the intersection of
+- Let's set the stage of whether the output of
+- Based on the _Naruto v. Slater_ precedent, the fact that an AI algorithm isn't human seems to be enough to say that the output of
+- So what is a
+- Despite the word "Language" in the
+- It is easy to say that
+- Despite the complexity, the source of the training data can easily leak through. In this court case,
+- Given the right training set and user prompts, it is even possible to regenerate an image that looks a great deal like the source. To say nothing about the
+- Source code is another area where there are questions of copyright, and this time with the terms of
+- And the weekly addition to
 ---
 {{ image(div_float="right", width="300", localsrc="2023/2023-03-02-cmf.png", caption="Cecil Mae Feather, 1929–2023") }} 
 This issue is offered in honor of {{ robustlink(href="https://www.legacy.com/us/obituaries/hickoryrecord/name/cecil-feather-obituary?id=45099704", versionurl="https://web.archive.org/web/20230302030520/https://www.legacy.com/us/obituaries/hickoryrecord/name/cecil-feather-obituary?id=45099704", versiondate="2023-03-01", title="Cecil Feather Obituary (1929 - 2023) - Newton, NC | Hickory Daily Record", anchor="Cecil Mae Thornburg Feather") }}, my mother-in-law. 

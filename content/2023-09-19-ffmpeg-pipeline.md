@@ -1,6 +1,6 @@
 ---
-title: 'Processing WOLFcon Conference Recordings with FFMPEG'
-modified: 2023-09-19T17:13:03-04:00
+title: Processing WOLFcon Conference Recordings with FFMPEG
+modified: '2023-09-19T17:13:03-04:00'
 category: Raw Technology
 categories:
 - Raw Technology
@@ -9,7 +9,8 @@ tags:
 - ffmpeg
 - video
 mastodon:
-- You've got a stack of recordings of Zoom meetings from a conference that you need to upload to YouTube. What do you do? Hopefully this roadmap will help... New blog post: Processing WOLFcon Conference Recordings with FFMPEG https://dltj.org/article/ffmpeg-pipeline
+- ? You've got a stack of recordings of Zoom meetings from a conference that you need to upload to YouTube. What do you do? Hopefully this roadmap will help... New blog post
+  : Processing WOLFcon Conference Recordings with FFMPEG https://dltj.org/article/ffmpeg-pipeline
 ---
 WOLFcon—the World Open Library Foundation Conference—was held last month, and all of the meetings were recorded using Zoom. 
 Almost all of the sessions were presentations and knowledge-sharing, so giving the recordings a wider audience on YouTube make sense. 

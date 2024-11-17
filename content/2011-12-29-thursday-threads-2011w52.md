@@ -2,15 +2,15 @@
 status: published
 published: true
 title: 'Thursday Threads: Looking Backwards and Looking Forwards'
-modified: 2011-12-29T14:42:09+00:00
+modified: '2018-01-15T15:47:28-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 3560
 wordpress_url: http://dltj.org/?p=3560
-date: '2011-12-29 14:42:09 -0500'
-date_gmt: '2011-12-29 19:42:09 -0500'
+date: 2011-12-29 14:42:09 -0500
+date_gmt: 2011-12-29 19:42:09 -0500
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -24,56 +24,44 @@ comments:
   author: Library Feed
   author_email: ''
   author_url: http://twitter.com/libraryfeed/status/152475617420517376
-  date: '2011-12-29 19:46:34 -0500'
-  date_gmt: '2011-12-30 00:46:34 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: Looking Backwards and Looking
-    Forwards http://t.co/AAE0FVgq</span></span>'
+  date: 2011-12-29 19:46:34 -0500
+  date_gmt: 2011-12-30 00:46:34 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: Looking Backwards and Looking Forwards http://t.co/AAE0FVgq</span></span>'
 - id: 200667
   author: infopeep
   author_email: ''
   author_url: http://twitter.com/infopeep/status/152483124008329217
-  date: '2011-12-29 20:16:24 -0500'
-  date_gmt: '2011-12-30 01:16:24 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Murray, Peter: Thursday Threads: Looking Backwards
-    and Looking Forwards http://t.co/TM6UFvwO</span></span>'
+  date: 2011-12-29 20:16:24 -0500
+  date_gmt: 2011-12-30 01:16:24 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Murray, Peter: Thursday Threads: Looking Backwards and Looking Forwards http://t.co/TM6UFvwO</span></span>'
 - id: 200683
   author: Jill Hurst-Wahl
   author_email: ''
   author_url: http://twitter.com/jill_hw/status/152505400237895681
-  date: '2011-12-29 21:44:55 -0500'
-  date_gmt: '2011-12-30 02:44:55 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">G+: Outstanding blog post from Peter Murray. https://t.co/lEXnAaJf
-    http://t.co/JgVMt53y</span></span>'
+  date: 2011-12-29 21:44:55 -0500
+  date_gmt: 2011-12-30 02:44:55 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">G+: Outstanding blog post from Peter Murray. https://t.co/lEXnAaJf http://t.co/JgVMt53y</span></span>'
 - id: 200694
   author: Peter Murray
   author_email: ''
   author_url: http://twitter.com/datag/status/152513737042046976
-  date: '2011-12-29 22:18:03 -0500'
-  date_gmt: '2011-12-30 03:18:03 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: Looking Backwards and Looking
-    Forwards http://t.co/3VjqNukf</span></span>'
+  date: 2011-12-29 22:18:03 -0500
+  date_gmt: 2011-12-30 03:18:03 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: Looking Backwards and Looking Forwards http://t.co/3VjqNukf</span></span>'
 - id: 202553
   author: Kris Lange
   author_email: ''
   author_url: http://twitter.com/chieffool/status/154018309577248769
-  date: '2012-01-03 01:56:41 -0500'
-  date_gmt: '2012-01-03 06:56:41 -0500'
-  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Worth pondering the changes we&#39;ve had &amp;
-    those to come... "Looking Backwards and Looking Forwards http://t.co/SCHiM5OW"</span></span>
+  date: 2012-01-03 01:56:41 -0500
+  date_gmt: 2012-01-03 06:56:41 -0500
+  content: <span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Worth pondering the changes we&#39;ve had &amp; those to come... "Looking Backwards and Looking Forwards http://t.co/SCHiM5OW"</span></span>
 - id: 229917
   author: ''
   author_email: ''
   author_url: ''
-  date: '2011-12-29 21:44:55 -0500'
-  date_gmt: '2011-12-30 02:44:55 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">G+: Outstanding blog post from Peter Murray. https://t.co/lEXnAaJf
-    http://t.co/JgVMt53y</span></span>'
+  date: 2011-12-29 21:44:55 -0500
+  date_gmt: 2011-12-30 02:44:55 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">G+: Outstanding blog post from Peter Murray. https://t.co/lEXnAaJf http://t.co/JgVMt53y</span></span>'
 ---
 
 As the last <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads</i> of the year, the stories in this post look back to what we saw in 2011 and look forward to what we may see in 2012.  Looking backwards is a list of <a href="#p3560-publishing">five things we learned about publishing</a> from O'Reilly Media and <a href="#p3560-zeitgeist">Google's 3-minute Zeitgeist video</a>.  Looking forward are a list of predictions <a href="#p3560-tech">from Fast Company</a> and <a href="#p3560-nesta">from the National Endowment for Science Technology and the Arts</a> in the UK.  At this high point when 2011 is slowing and we start down the hill of 2012, I wish you a happy and prosperous new year.

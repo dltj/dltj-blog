@@ -1,6 +1,6 @@
 ---
 title: 'The ILS without patron data: a thought experiment'
-modified: 2024-06-20T21:57:11-04:00
+modified: '2024-07-06T16:09:51-04:00'
 category: L/IS Profession
 categories:
 - L/IS Profession

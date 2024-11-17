@@ -6,6 +6,7 @@ categories:
 tags:
 - Columbus OH
 - elections
+modified: '2024-11-11T07:56:19-05:00'
 ---
 Four years ago I [posted my reflections here on the 2020 presidential election]({filename}/2020-11-04-election-reflection). 
 This year, I worked the election again as a precinct election official ("PEO"—a poll worker) for Franklin County, Ohio. 

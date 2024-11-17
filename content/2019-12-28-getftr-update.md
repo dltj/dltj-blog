@@ -1,6 +1,6 @@
 ---
-title: 'What is known about GetFTR at the end of 2019'
-modified: 2019-12-28T22:48:51-05:00
+title: What is known about GetFTR at the end of 2019
+modified: '2021-04-03T22:00:17-04:00'
 category: Linking Technologies
 categories:
 - Linking Technologies

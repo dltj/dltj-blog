@@ -3,15 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: Managing a Gentoo Linux Server Configuration with Subversion, GLCU, and Trac
-modified: 2018-01-15T22:38:08-05:00
+modified: '2018-01-15T22:38:08-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 164
 wordpress_url: http://dltj.org/2006/12/gentoo-config-subversion-glcu-trac/
-date: '2006-12-22 12:49:00 -0500'
-date_gmt: '2006-12-22 17:49:00 -0500'
+date: 2006-12-22 12:49:00 -0500
+date_gmt: 2006-12-22 17:49:00 -0500
 categories:
 - Raw Technology
 tags:
@@ -23,135 +23,100 @@ comments:
   author: Ma.gnolia.com - Find Web Sites &amp; Build Community Online
   author_email: ''
   author_url: ''
-  date: '2006-12-25 02:48:14 -0500'
-  date_gmt: '2006-12-25 07:48:14 -0500'
-  content: "<!--%kramer-ref-pre%-->[...] Managing a Gentoo Linux Server Configuration
-    with Subversion, GLCU, and Trac in Disruptive Library Technology Jester [...]<!--%kramer-ref-post%-->"
+  date: 2006-12-25 02:48:14 -0500
+  date_gmt: 2006-12-25 07:48:14 -0500
+  content: <!--%kramer-ref-pre%-->[...] Managing a Gentoo Linux Server Configuration with Subversion, GLCU, and Trac in Disruptive Library Technology Jester [...]<!--%kramer-ref-post%-->
 - id: 11092
   author: Server:ServerSetup - Kpautomation.com
   author_email: ''
   author_url: http://www.kpautomation.com/wiki/index.php?title=Server:ServerSetup#Backup_schemes
-  date: '2007-01-14 22:56:33 -0500'
-  date_gmt: '2007-01-15 03:56:33 -0500'
-  content: "<!--%kramer-ref-pre%-->[...] Look at setting up Subversion repository
-    to keep track of Linux conf file changes. [...]<!--%kramer-ref-post%-->"
+  date: 2007-01-14 22:56:33 -0500
+  date_gmt: 2007-01-15 03:56:33 -0500
+  content: <!--%kramer-ref-pre%-->[...] Look at setting up Subversion repository to keep track of Linux conf file changes. [...]<!--%kramer-ref-post%-->
 - id: 12360
   author: Stephan Wehner
   author_email: stephanwehner@gmail.com
   author_url: http://stephansmap.org
-  date: '2007-02-15 13:35:31 -0500'
-  date_gmt: '2007-02-15 18:35:31 -0500'
-  content: "This will add .svn directories under /etc and all others. Wouldn't it
-    be nice to avoid that? Any idea?\r\n\r\nThanks --\r\n\r\nStephan"
+  date: 2007-02-15 13:35:31 -0500
+  date_gmt: 2007-02-15 18:35:31 -0500
+  content: "This will add .svn directories under /etc and all others. Wouldn't it be nice to avoid that? Any idea?\r\n\r\nThanks --\r\n\r\nStephan"
 - id: 12361
   author: the jester
   author_email: jester@DLTJ.org
   author_url: http://dltj.org/
-  date: '2007-02-15 14:23:55 -0500'
-  date_gmt: '2007-02-15 19:23:55 -0500'
-  content: "[quote comment=\"12360\"]This will add .svn directories under /etc and
-    all others. Wouldn't it be nice to avoid that? Any idea?[/quote]\r\n\r\nIt would
-    be nice, but I think it is unavoidable..."
+  date: 2007-02-15 14:23:55 -0500
+  date_gmt: 2007-02-15 19:23:55 -0500
+  content: "[quote comment=\"12360\"]This will add .svn directories under /etc and all others. Wouldn't it be nice to avoid that? Any idea?[/quote]\r\n\r\nIt would be nice, but I think it is unavoidable..."
 - id: 13661
   author: Andrew Premdas
   author_email: apremdas@yahoo.co.uk
   author_url: ''
-  date: '2007-04-03 23:18:07 -0400'
-  date_gmt: '2007-04-04 03:18:07 -0400'
-  content: Any thoughts on file permissions and retrieving/merging back files from
-    the repository. My experiments indicate that things comeing back from the repository
-    will lose Group permissions.
+  date: 2007-04-03 23:18:07 -0400
+  date_gmt: 2007-04-04 03:18:07 -0400
+  content: Any thoughts on file permissions and retrieving/merging back files from the repository. My experiments indicate that things comeing back from the repository will lose Group permissions.
 - id: 13667
   author: the jester
   author_email: jester@DLTJ.org
   author_url: http://dltj.org/
-  date: '2007-04-04 08:36:24 -0400'
-  date_gmt: '2007-04-04 12:36:24 -0400'
-  content: "Andrew --\r\n\r\nThat may be true.  Since Subversion does not store group
-    (nor owner) information, a merged file would take on the ownership of the person
-    doing the merge.  I can't think of a way around that at the moment..."
+  date: 2007-04-04 08:36:24 -0400
+  date_gmt: 2007-04-04 12:36:24 -0400
+  content: "Andrew --\r\n\r\nThat may be true.  Since Subversion does not store group (nor owner) information, a merged file would take on the ownership of the person doing the merge.  I can't think of a way around that at the moment..."
 - id: 14407
   author: Bartosz Brewinski
   author_email: bartosz.brewinski@post.pl
   author_url: ''
-  date: '2007-04-24 12:04:50 -0400'
-  date_gmt: '2007-04-24 16:04:50 -0400'
-  content: you must remember to use svn commands instead of traditional ones, "svn
-    rm" instead of "rm" for example.
+  date: 2007-04-24 12:04:50 -0400
+  date_gmt: 2007-04-24 16:04:50 -0400
+  content: you must remember to use svn commands instead of traditional ones, "svn rm" instead of "rm" for example.
 - id: 14415
   author: the jester
   author_email: jester@DLTJ.org
   author_url: http://dltj.org/
-  date: '2007-04-24 16:55:50 -0400'
-  date_gmt: '2007-04-24 20:55:50 -0400'
-  content: "[quote comment=\"14407\"]you must remember to use svn commands instead
-    of traditional ones, \"svn rm\" instead of \"rm\" for example.[/quote]\r\n\r\nPerhaps,
-    but if one does an 'svn status' before the 'svn commit' to see what is about to
-    change, the files that were deleted with simply the `rm` command would be marked
-    with exclamation marks.  In such cases, I find that this little shell ditty does
-    the trick to synchronize things.\r\n\r\n<code>svn status | egrep '^!' | cut -c8-
-    | xargs svn rm</code>\r\n\r\nSimilarly, files that were added are marked with
-    a question mark, and this shell pipe will fix that, too:\r\n\r\n<code>svn status
-    | egrep '^?' | cut -c8- | xargs svn add</code>"
+  date: 2007-04-24 16:55:50 -0400
+  date_gmt: 2007-04-24 20:55:50 -0400
+  content: "[quote comment=\"14407\"]you must remember to use svn commands instead of traditional ones, \"svn rm\" instead of \"rm\" for example.[/quote]\r\n\r\nPerhaps, but if one does an 'svn status' before the 'svn commit' to see what is about to change, the files that were deleted with simply the `rm` command would be marked with exclamation marks.  In such cases, I find that this little shell ditty does the trick to synchronize things.\r\n\r\n<code>svn status | egrep '^!' | cut -c8- | xargs svn rm</code>\r\n\r\nSimilarly, files that were added are marked with a question mark, and this shell pipe will fix that, too:\r\n\r\n<code>svn status | egrep '^?' | cut -c8- | xargs svn add</code>"
 - id: 18843
-  author: 'Zupełnie inna beczka: Ubuntu. Kontrola wersji plik&oacute;w konfiguracyjnych.'
+  author: "Zupe\u0142nie inna beczka: Ubuntu. Kontrola wersji plik&oacute;w konfiguracyjnych."
   author_email: ''
   author_url: ''
-  date: '2007-07-10 02:34:03 -0400'
-  date_gmt: '2007-07-10 06:34:03 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] je do kontroli zmian w plikach konfiguracyjnych.
-    Bardzo przystępnie zostało to opisane w tym blogu. Osobiście wprowadziłem do powyższej
-    procedury trochę zmian pod kątem Ubuntu. Przedstawię [...]<!--%kramer-ref-post%-->"
+  date: 2007-07-10 02:34:03 -0400
+  date_gmt: 2007-07-10 06:34:03 -0400
+  content: "<!--%kramer-ref-pre%-->[...] je do kontroli zmian w plikach konfiguracyjnych. Bardzo przyst\u0119pnie zosta\u0142o to opisane w tym blogu. Osobi\u015Bcie wprowadzi\u0142em do powy\u017Cszej procedury troch\u0119 zmian pod k\u0105tem Ubuntu. Przedstawi\u0119 [...]<!--%kramer-ref-post%-->"
 - id: 33624
   author: Tom
   author_email: tetra604@gmail.com
   author_url: ''
-  date: '2008-07-23 17:17:10 -0400'
-  date_gmt: '2008-07-23 21:17:10 -0400'
-  content: For system-wide configuration under version control, try SVK which doesn't
-    leave .svn directories across the hierarchy. All version-control information is
-    held in a single ~/.svk location. Commands are mostly the same as svn, see http://svk.bestpractical.com/
-    for more information and emerge -uv svk.
+  date: 2008-07-23 17:17:10 -0400
+  date_gmt: 2008-07-23 21:17:10 -0400
+  content: For system-wide configuration under version control, try SVK which doesn't leave .svn directories across the hierarchy. All version-control information is held in a single ~/.svk location. Commands are mostly the same as svn, see http://svk.bestpractical.com/ for more information and emerge -uv svk.
 - id: 33625
   author: the Jester
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2008-07-23 21:40:39 -0400'
-  date_gmt: '2008-07-24 01:40:39 -0400'
-  content: "Tom --\r\n\r\nInteresting concept.  I've heard of 'svk' but only in the
-    context of using it to mirror CVS and SVN revision control trees by manipulating
-    the contents of the depot with its 'smerge' command.  I hadn't considered using
-    it to apply revision control to the /etc directory.  You wouldn't happen to know
-    of someone that has written up a HOWTO on the topic, would you?"
+  date: 2008-07-23 21:40:39 -0400
+  date_gmt: 2008-07-24 01:40:39 -0400
+  content: "Tom --\r\n\r\nInteresting concept.  I've heard of 'svk' but only in the context of using it to mirror CVS and SVN revision control trees by manipulating the contents of the depot with its 'smerge' command.  I hadn't considered using it to apply revision control to the /etc directory.  You wouldn't happen to know of someone that has written up a HOWTO on the topic, would you?"
 - id: 35438
   author: Morten Lied Johansen
   author_email: mortenjo@ifi.uio.no
   author_url: http://ibidem.homeip.net/
-  date: '2009-05-02 19:10:31 -0400'
-  date_gmt: '2009-05-02 23:10:31 -0400'
-  content: "I've used this method to get some control over my configuration changes,
-    and it works great except for one thing. The trick to get a sorted version of
-    the portage world file doesn't seem to be working.\r\n\r\nAny clues on why that
-    is? Has something changed in the way portage works perhaps?"
+  date: 2009-05-02 19:10:31 -0400
+  date_gmt: 2009-05-02 23:10:31 -0400
+  content: "I've used this method to get some control over my configuration changes, and it works great except for one thing. The trick to get a sorted version of the portage world file doesn't seem to be working.\r\n\r\nAny clues on why that is? Has something changed in the way portage works perhaps?"
 - id: 35440
   author: the Jester
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2009-05-02 19:50:46 -0400'
-  date_gmt: '2009-05-02 23:50:46 -0400'
-  content: This still works (although I see reading back through the post that some
-    upgrades to the WordPress database along the way have corrupted some of the shell
-    syntax).  I'll correct the posting.
+  date: 2009-05-02 19:50:46 -0400
+  date_gmt: 2009-05-02 23:50:46 -0400
+  content: This still works (although I see reading back through the post that some upgrades to the WordPress database along the way have corrupted some of the shell syntax).  I'll correct the posting.
 - id: 77003
-  author: SYSADMINS.BIZ &bull; Просмотр темы - Журналирование действий нескольких
-    СА на серверах *nix
+  author: "SYSADMINS.BIZ &bull; \u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440 \u0442\u0435\u043C\u044B - \u0416\u0443\u0440\u043D\u0430\u043B\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u0445 \u0421\u0410 \u043D\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0430\u0445 *nix"
   author_email: ''
   author_url: http://sysadmins.biz/viewtopic.php?f=11&amp;t=7561
-  date: '2010-07-06 09:24:31 -0400'
-  date_gmt: '2010-07-06 13:24:31 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] hanzhin.stas писал(а):Хммм, если у вас получится
-    - отпишитесь здесь рецептом. А чего тут делиться? Все уже придумано до нас.Например:
-    http://dltj.org/article/gentoo-config-subversion-glcu-trac/ [...]<!--%kramer-ref-post%-->"
+  date: 2010-07-06 09:24:31 -0400
+  date_gmt: 2010-07-06 13:24:31 -0400
+  content: "<!--%kramer-ref-pre%-->[...] hanzhin.stas \u043F\u0438\u0441\u0430\u043B(\u0430):\u0425\u043C\u043C\u043C, \u0435\u0441\u043B\u0438 \u0443 \u0432\u0430\u0441 \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u0441\u044F - \u043E\u0442\u043F\u0438\u0448\u0438\u0442\u0435\u0441\u044C \u0437\u0434\u0435\u0441\u044C \u0440\u0435\u0446\u0435\u043F\u0442\u043E\u043C. \u0410 \u0447\u0435\u0433\u043E \u0442\u0443\u0442 \u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F? \u0412\u0441\u0435 \u0443\u0436\u0435 \u043F\u0440\u0438\u0434\u0443\u043C\u0430\u043D\u043E \u0434\u043E \u043D\u0430\u0441.\u041D\u0430\u043F\u0440\u0438\u043C\u0435\u0440: http://dltj.org/article/gentoo-config-subversion-glcu-trac/ [...]<!--%kramer-ref-post%-->"
 ---
 Keeping track of configuration changes to servers is a tough job made tougher when some of the sysadmins work from home. Questions of who did what when and why can be exacerbated by the lack of physical proximity --- in other words, I can't simply yell over the cubical wall to the colleague down the hall to ask him about the new package installed on the server. Besides, that oral history tradition is difficult to maintain and harder to sustain as the number of machines grows. This essay describes a practice for maintaining a [Gentoo Linux distribution][0] using GLCU, Subversion, and Trac that is lightweight (doesn't impose a large burden on the sysadmin staff), effective (although it is lightweight it better documents and makes accessible the state of our systems over the oral history tradition), and cheap (no operating budget dollars were harmed in the creation of this process --- only staff time overhead).
 

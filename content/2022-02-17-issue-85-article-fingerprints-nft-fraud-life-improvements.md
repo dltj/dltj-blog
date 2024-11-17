@@ -1,6 +1,6 @@
 ---
 title: 'Issue 85: Privacy-busting Journal Article Fingerprints, Fraud in NFTs, Improve Your Life'
-modified: 2022-02-16T20:12:51-05:00
+modified: '2022-02-16T20:12:51-05:00'
 category: Thursday Threads
 categories:
 - Thursday Threads

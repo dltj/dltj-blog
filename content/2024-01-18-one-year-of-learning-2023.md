@@ -1,6 +1,6 @@
 ---
-title: 'One Year of Learning 2023'
-modified: 2024-01-18T18:12:17-05:00
+title: One Year of Learning 2023
+modified: '2024-01-18T18:12:17-05:00'
 categories:
 - Personal
 ---

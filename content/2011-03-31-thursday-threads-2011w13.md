@@ -2,15 +2,15 @@
 status: published
 published: true
 title: 'Thursday Threads: HarperCollins, Google Book Search Settlement, DPLA, Juggling Robots'
-modified: 2022-03-28T20:44:19-04:00
+modified: '2022-03-28T21:39:22-04:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 2768
 wordpress_url: http://dltj.org/?p=2768
-date: '2011-03-31 06:40:19 -0400'
-date_gmt: '2011-03-31 10:40:19 -0400'
+date: 2011-03-31 06:40:19 -0400
+date_gmt: 2011-03-31 10:40:19 -0400
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -26,57 +26,44 @@ comments:
   author: eBooks Store
   author_email: ''
   author_url: http://twitter.com/ebooksstore/status/53631501081907200
-  date: '2011-04-01 01:35:20 -0400'
-  date_gmt: '2011-04-01 05:35:20 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: HarperCollins, Google Book Search
-    Settlement ... http://tinyurl.com/47f9vqw</span></span>'
+  date: 2011-04-01 01:35:20 -0400
+  date_gmt: 2011-04-01 05:35:20 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: HarperCollins, Google Book Search Settlement ... http://tinyurl.com/47f9vqw</span></span>'
 - id: 159863
   author: eBooks Store
   author_email: ''
   author_url: http://twitter.com/ebooksstore/status/53615957884669952
-  date: '2011-04-01 00:33:35 -0400'
-  date_gmt: '2011-04-01 04:33:35 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: HarperCollins, Google Book Search
-    Settlement ... http://bit.ly/et0CzL</span></span>'
+  date: 2011-04-01 00:33:35 -0400
+  date_gmt: 2011-04-01 04:33:35 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: HarperCollins, Google Book Search Settlement ... http://bit.ly/et0CzL</span></span>'
 - id: 159864
   author: ALA_TechSource
   author_email: ''
   author_url: http://twitter.com/ala_techsource/status/53555934194171904
-  date: '2011-03-31 20:35:04 -0400'
-  date_gmt: '2011-04-01 00:35:04 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Via @DataG Thursday Threads: HarperCollins, Google
-    Book Search Settlement, DPLA, Juggling Robots http://bit.ly/dPaBA3</span></span>'
+  date: 2011-03-31 20:35:04 -0400
+  date_gmt: 2011-04-01 00:35:04 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Via @DataG Thursday Threads: HarperCollins, Google Book Search Settlement, DPLA, Juggling Robots http://bit.ly/dPaBA3</span></span>'
 - id: 159865
   author: eBooks Store
   author_email: ''
   author_url: http://twitter.com/ebooksstore/status/53417691939221504
-  date: '2011-03-31 11:25:44 -0400'
-  date_gmt: '2011-03-31 15:25:44 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: HarperCollins, Google Book Search
-    Settlement ... http://tinyurl.com/4kec7t6</span></span>'
+  date: 2011-03-31 11:25:44 -0400
+  date_gmt: 2011-03-31 15:25:44 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: HarperCollins, Google Book Search Settlement ... http://tinyurl.com/4kec7t6</span></span>'
 - id: 159866
   author: Library Feed
   author_email: ''
   author_url: http://twitter.com/libraryfeed/status/53409001806905344
-  date: '2011-03-31 10:51:12 -0400'
-  date_gmt: '2011-03-31 14:51:12 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: HarperCollins, Google Book Search
-    Settlement, DPLA, Juggling Robots http://bit.ly/h2Ely2</span></span>'
+  date: 2011-03-31 10:51:12 -0400
+  date_gmt: 2011-03-31 14:51:12 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: HarperCollins, Google Book Search Settlement, DPLA, Juggling Robots http://bit.ly/h2Ely2</span></span>'
 - id: 636285
-  author: 'Digital Public Library of America &raquo; Blog Archive &raquo; Press: &#8220;Thursday
-    Threads: HarperCollins, Google Book Search Settlement, DPLA, Juggling Robots&#8221;'
+  author: 'Digital Public Library of America &raquo; Blog Archive &raquo; Press: &#8220;Thursday Threads: HarperCollins, Google Book Search Settlement, DPLA, Juggling Robots&#8221;'
   author_email: ''
   author_url: http://dp.la/info/2011/03/31/thursday-threads-harpercollins-google-book-search-settlement-dpla-juggling-robots/
-  date: '2013-07-19 11:24:16 -0400'
-  date_gmt: '2013-07-19 15:24:16 -0400'
-  content: "<!--%kramer-ref-pre%-->[...] From the post on&nbsp;Disruptive Library
-    Technology Jester, &#8220;Thursday Threads: HarperCollins, Google Book Search
-    Settlement, DPLA, Juggling Robots&rdquo; [...]<!--%kramer-ref-post%-->"
+  date: 2013-07-19 11:24:16 -0400
+  date_gmt: 2013-07-19 15:24:16 -0400
+  content: '<!--%kramer-ref-pre%-->[...] From the post on&nbsp;Disruptive Library Technology Jester, &#8220;Thursday Threads: HarperCollins, Google Book Search Settlement, DPLA, Juggling Robots&rdquo; [...]<!--%kramer-ref-post%-->'
 ---
 
 

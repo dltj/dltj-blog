@@ -3,15 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: 'Thursday Threads:  Open Source Advocates Twitch at Blackboard''s Strategy and Effect of Copyright/DRM on Access'
-modified: 2012-04-05T06:22:06+00:00
+modified: '2018-01-15T15:47:28-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 3644
 wordpress_url: http://dltj.org/?p=3644
-date: '2012-04-05 06:22:06 -0400'
-date_gmt: '2012-04-05 10:22:06 -0400'
+date: 2012-04-05 06:22:06 -0400
+date_gmt: 2012-04-05 10:22:06 -0400
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -28,51 +28,37 @@ comments:
   author: Library Feed
   author_email: ''
   author_url: http://twitter.com/libraryfeed/status/187855078529572864
-  date: '2012-04-05 10:51:55 -0400'
-  date_gmt: '2012-04-05 14:51:55 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads:  Open Source Advocates Twitch
-    at Blackboard&rsquo;s Strategy and Effect of Copyright/DRM on Access http://t.co/RCxkaWt9</span></span>'
+  date: 2012-04-05 10:51:55 -0400
+  date_gmt: 2012-04-05 14:51:55 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads:  Open Source Advocates Twitch at Blackboard&rsquo;s Strategy and Effect of Copyright/DRM on Access http://t.co/RCxkaWt9</span></span>'
 - id: 239389
   author: Peter Murray
   author_email: ''
   author_url: http://twitter.com/datag/status/187920551308836864
-  date: '2012-04-05 15:12:05 -0400'
-  date_gmt: '2012-04-05 19:12:05 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: Open Source Advocates Twitch
-    at Blackboard&#39;s Strategy and Effect of Copyright/DRM on Access http://t.co/YIg579xx</span></span>'
+  date: 2012-04-05 15:12:05 -0400
+  date_gmt: 2012-04-05 19:12:05 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: Open Source Advocates Twitch at Blackboard&#39;s Strategy and Effect of Copyright/DRM on Access http://t.co/YIg579xx</span></span>'
 - id: 241444
   author: blackboard announcement and copyright and drm
   author_email: ''
   author_url: ''
-  date: '2012-04-10 15:01:06 -0400'
-  date_gmt: '2012-04-10 19:01:06 -0400'
-  content: "[...] Here, a post from the disruptive library technology jester regarding
-    both blackboard&#8217;s announcement to join the open source community, and links
-    to a couple of views on copyright and drm issues. &nbsp;i especially find helpful
-    the graph, provided by blogger eric crampton in response to u of illinois professor
-    paul heald&#8217;s seminar on &#8220;the stagnating effects of extended copyright
-    terms in the us,&#8221; illustrating the number of new us books to be printed
-    by amazon from 1800-2000. [...]"
+  date: 2012-04-10 15:01:06 -0400
+  date_gmt: 2012-04-10 19:01:06 -0400
+  content: '[...] Here, a post from the disruptive library technology jester regarding both blackboard&#8217;s announcement to join the open source community, and links to a couple of views on copyright and drm issues. &nbsp;i especially find helpful the graph, provided by blogger eric crampton in response to u of illinois professor paul heald&#8217;s seminar on &#8220;the stagnating effects of extended copyright terms in the us,&#8221; illustrating the number of new us books to be printed by amazon from 1800-2000. [...]'
 - id: 241616
-  author: Khaled Mimoune خالد
+  author: "Khaled Mimoune \u062E\u0627\u0644\u062F"
   author_email: ''
   author_url: http://twitter.com/dailybarid/status/189927976798916608
-  date: '2012-04-11 04:08:53 -0400'
-  date_gmt: '2012-04-11 08:08:53 -0400'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">@dailybarid RT: Thursday Threads: Open Source
-    Advocates Twitch at Blackboard&#39;s ...: First is the ann... http://t.co/uZEpgmgX
-    #opensource</span></span>'
+  date: 2012-04-11 04:08:53 -0400
+  date_gmt: 2012-04-11 08:08:53 -0400
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">@dailybarid RT: Thursday Threads: Open Source Advocates Twitch at Blackboard&#39;s ...: First is the ann... http://t.co/uZEpgmgX #opensource</span></span>'
 - id: 337289
   author: kgs
   author_email: twitter.823621@example.com
   author_url: http://twitter.com/kgs
-  date: '2012-04-05 07:51:30 -0400'
-  date_gmt: '2012-04-05 11:51:30 -0400'
-  content: 'RT @DataG: New blog post: Thursday Threads:  Open Source Advocates Twitch
-    at Blackboard''s Strategy and Effect of Copyright/DRM http://t. ...'
+  date: 2012-04-05 07:51:30 -0400
+  date_gmt: 2012-04-05 11:51:30 -0400
+  content: 'RT @DataG: New blog post: Thursday Threads:  Open Source Advocates Twitch at Blackboard''s Strategy and Effect of Copyright/DRM http://t. ...'
 ---
 <div id="feedburner-thursday-threads-email-2012w14" class="wp-caption alignright noprint noFrontPage" style="width: 230px;">
 <form style="border: 1px solid rgb(204, 204, 204); padding: 3px; margin: 0pt; text-align: center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=thursday-threads', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">Receive <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym></i> Thursday Threads:</p>

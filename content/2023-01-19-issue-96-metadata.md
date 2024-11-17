@@ -1,6 +1,6 @@
 ---
 title: 'Issue 96: Metadata'
-modified: 2023-01-18T21:05:11-05:00
+modified: '2023-01-18T21:05:11-05:00'
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -8,9 +8,9 @@ tags:
 - metadata
 - OCLC
 mastodon:
-- #Libraries love #metadata. This week's issue of the DLTJ Thursday Threads #newsletter gives a glimpse of how much we love it and what librarians go through to make it the best it can be. https://dltj.org/article/issue-96-metadata 1/4
-- 12 years ago, #OCLC Research conducted a study on the most common fields in #WorldCat. Everything has a title, of course, but then the number of fields that library records have in common drops off quickly. https://dltj.org/article/issue-96-metadata#most-important 2/4
-- Bibliographic metadata is the lifeblood of libraries, and libraries have a long history of cooperating on its creation and maintenance. #ICOLC wants to be sure that tradition continues. https://dltj.org/article/issue-96-metadata#icolc-statement 3/4
+- null
+- 12 years ago,
+- Bibliographic metadata is the lifeblood of libraries, and libraries have a long history of cooperating on its creation and maintenance.
 - Everyone has a personal name, and personal names are among the most trickiest bits of description that libraries deal with. Last year, @kcoyle@mstdn.social showed us how tricky names can be. https://dltj.org/article/issue-96-metadata#names 4/4
 - And the weekly cat. This week, Alan looks back as if to say, "who me?" Yes you, Alan. bonus/4
 ---

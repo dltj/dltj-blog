@@ -1,11 +1,11 @@
 ---
-title: 'Router Behind a Uverse/Pace 5268ac Gateway Loses its Mind Every 10 Minutes'
-modified: 2022-01-13T20:09:15-05:00
+title: Router Behind a Uverse/Pace 5268ac Gateway Loses its Mind Every 10 Minutes
+modified: '2022-01-13T20:09:15-05:00'
 category: Thursday Threads
 categories:
-  - Raw Technology
+- Raw Technology
 tags:
-  -  networking
+- networking
 ---
 Late last year, I had my AT&T Uverse residential gateway replaced. 
 For reasons that truly baffle me, AT&T has decided that [they are going to run unsupported equipment on their residential customer network](https://twitter.com/DataG/status/1462819555005374470). 

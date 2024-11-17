@@ -1,6 +1,6 @@
 ---
 title: 'Issue 97: Again with the AI Chatbots'
-modified: 2023-01-25T21:41:24-05:00
+modified: '2023-01-25T21:41:24-05:00'
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -10,12 +10,12 @@ tags:
 - generative artificial intelligence
 - educational technology
 mastodon:
-- #LargeLanguageModels such as those used in ChatGPT are become a very thick thread in recent issues of DLTJ Thursday Threads. This week's issue has four threads—with two updates from previous threads—that cover this topic. Read on to hear more... https://dltj.org/article/issue-97-large-language-models 1/5
-- Two weeks ago we learned that CNET was using #LargeLanguageModels to generate monotonous, click-baity articles. ("What is Zelle and How Does It Work" anyone?) This week, the source that broke that story uncovered how bad the practice really was. https://dltj.org/article/issue-97-large-language-models#cnet 2/5
-- Beyond the mainstream press, #LargeLanguageModels are being used in #ScholarlyCommunication now, and #SpringerNature is trying to set some rules on the use of #ChatGPT and similar tools in journal articles https://dltj.org/article/issue-97-large-language-model#scholarly-publishing 3/5
-- Sticking with a #HigherEducation theme, #ChatGPT came to common usage very fast and instructors are still trying to cope. What does homework look like when #LargeLanguageModels are easily available? https://dltj.org/article/issue-97-large-language-model#higher-education 4/5
-- Beyond higher education, how does society adapt to #AI...opportunities (new types of jobs) and challenges (detecting when AI is used where it should be). https://dltj.org/article/issue-97-large-language-model#adapting 5/5
-- And the weekly addition to #CatsOfMastodon. Alan desperately wants to be an outdoor cat, but that is hard when there is snow on the ground. bonus/5
+- null
+- Two weeks ago we learned that CNET was using
+- Beyond the mainstream press,
+- Sticking with a
+- Beyond higher education, how does society adapt to
+- And the weekly addition to
 ---
 The hot technology in the news now is chatbots driven by artificial intelligence. 
 (This specific field of artificial intelligence is "large language models" or LLM). 

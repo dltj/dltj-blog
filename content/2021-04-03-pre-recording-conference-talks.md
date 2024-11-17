@@ -1,8 +1,8 @@
 ---
-title: 'Should All Conference Talks be Pre-recorded?'
-modified: 2021-04-03T20:34:29-04:00
-date: '2021-04-03 20:34:00 -0500'
-date_gmt: '2021-04-04 00:34:00 -0000'
+title: Should All Conference Talks be Pre-recorded?
+modified: '2021-04-08T21:28:16-04:00'
+date: 2021-04-03 20:34:00 -0500
+date_gmt: 2021-04-04 00:34:00 -0000
 category: L/IS Profession
 categories:
 - L/IS Profession

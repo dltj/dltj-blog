@@ -1,10 +1,10 @@
 ---
-title: 'Ensuring System Interoperability: Readers and Ebooks — A NISO/BISG Forum'
-modified: 2019-06-20T21:40:05-04:00
+title: "Ensuring System Interoperability: Readers and Ebooks \u2014 A NISO/BISG Forum"
+modified: '2021-04-03T21:45:55-04:00'
 category: L/IS Profession
 categories:
 - L/IS Profession
-tags: 
+tags:
 - conference
 - standards
 ---

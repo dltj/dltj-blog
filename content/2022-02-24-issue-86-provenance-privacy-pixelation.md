@@ -1,6 +1,6 @@
 ---
 title: 'Issue 86: Tracking Media Provenance, Digital Classroom Surveillance, Don''t Pixelate to Redact, Android In-App Advertising'
-modified: 2022-02-24T09:20:09-05:00
+modified: '2022-02-24T10:09:31-05:00'
 category: Thursday Threads
 categories:
 - Thursday Threads

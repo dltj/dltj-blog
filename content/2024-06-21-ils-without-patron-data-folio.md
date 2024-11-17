@@ -1,6 +1,6 @@
 ---
 title: 'The ILS without patron data: a thought experiment realized with FOLIO'
-modified: 2024-06-21T20:09:40-04:00
+modified: '2024-07-06T16:09:51-04:00'
 category: L/IS Profession
 categories:
 - L/IS Profession

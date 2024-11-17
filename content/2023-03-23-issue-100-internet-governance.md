@@ -1,6 +1,6 @@
 ---
 title: 'Issue 100: Internet Governance'
-modified: 2023-03-22T22:42:03-04:00
+modified: '2023-03-22T22:42:03-04:00'
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -18,7 +18,7 @@ mastodon:
 - Earlier this week, India shut down mobile networks in a portion of its country as the security services sought the capture of a dissident. https://dltj.org/article/issue-100-internet-governance#india 6/8
 - At what point does internet access become a life necessity next to clean water and electricity? https://dltj.org/article/issue-100-internet-governance#access-now 7/8
 - In 2011, the U.S. Congress considered imposing a "kill switch" for the country's internet. 12 years later, the U.S. Congress is considering action against a specific internet app. https://dltj.org/article/issue-100-internet-governance#kill-switch 8/8
-- And the weekly addition to #CatsOfMastodon. Mittens. bonus/8
+- And the weekly addition to
 ---
 Russia's invasion of Ukraine is just over a year old, and shortly after the war started there were calls to cut Russia off from the internet as a punitive action. 
 (See _[Can the Internet Sanction a Country? Should It?](https://dltj.org/article/issue-89-ukraine-libraries-russia-internet/#internet-sanctions)_, Thursday Threads issue 89.) 

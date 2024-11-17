@@ -1,6 +1,6 @@
 ---
 title: 'OCLC v. Clarivate: What was MetaDoor? What is an OCLC Record?'
-modified: 2022-11-13T21:38:47-05:00
+modified: '2022-11-13T21:38:47-05:00'
 category: Raw Technology
 categories:
 - Raw Technology

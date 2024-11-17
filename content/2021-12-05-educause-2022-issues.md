@@ -1,16 +1,16 @@
 ---
-title: 'What EDUCAUSE''s 2022 Top 10 IT Issues Mean for Libraries'
-modified: 2021-12-05T23:17:46-05:00
+title: What EDUCAUSE's 2022 Top 10 IT Issues Mean for Libraries
+modified: '2021-12-05T23:17:46-05:00'
 category: L/IS Profession
 categories:
-  - Meta Category
+- Meta Category
 tags:
-  - Educause
-  - instructional design
-  - higher education
-  - academic libraries
-  - privacy
-  - trends
+- Educause
+- instructional design
+- higher education
+- academic libraries
+- privacy
+- trends
 ---
 
 Last month, EDUCAUSE published its {{ robustlink(href="https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve", versionurl="e", versiondate="2021-11-12", anchor="Top 10 IT Issues for 2022") }} with the subtitle "The Higher Education We Deserve".

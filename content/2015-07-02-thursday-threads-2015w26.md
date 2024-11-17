@@ -2,15 +2,15 @@
 status: published
 published: true
 title: 'Issue 77: New and Interesting from ALA Exhibits'
-modified: 2015-07-02T06:51:45+00:00
+modified: '2018-01-15T15:47:28-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 26028
 wordpress_url: http://dltj.org/?p=26028
-date: '2015-07-02 06:51:45 -0400'
-date_gmt: '2015-07-02 10:51:45 -0400'
+date: 2015-07-02 06:51:45 -0400
+date_gmt: 2015-07-02 10:51:45 -0400
 category: Thursday Threads
 categories:
 - Thursday Threads

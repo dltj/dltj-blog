@@ -2,15 +2,15 @@
 status: published
 published: true
 title: 'Thursday Threads: Amazon Pressures Publishers, Academic Spam, Mechanical Turk Spam, Multispectral Imaging'
-modified: 2010-12-30T07:07:28+00:00
+modified: '2018-01-02T22:34:57-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 1931
 wordpress_url: http://dltj.org/?p=1931
-date: '2010-12-30 07:07:28 -0500'
-date_gmt: '2010-12-30 12:07:28 -0500'
+date: 2010-12-30 07:07:28 -0500
+date_gmt: 2010-12-30 12:07:28 -0500
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -29,30 +29,23 @@ comments:
   author: Garrett
   author_email: geastman@gmail.com
   author_url: http://quittakingitpersonal.blogspot.com
-  date: '2010-12-30 15:24:19 -0500'
-  date_gmt: '2010-12-30 20:24:19 -0500'
-  content: 'I really enjoy reading your weekly list in your excellent blog.  Re: your
-    mechanical turk post, seems the writer wrote a recent followup about Amazon addressing
-    spam: http://behind-the-enemy-lines.blogspot.com/2010/12/amazon-reacts-spammers-kicked-out-of.html'
+  date: 2010-12-30 15:24:19 -0500
+  date_gmt: 2010-12-30 20:24:19 -0500
+  content: 'I really enjoy reading your weekly list in your excellent blog.  Re: your mechanical turk post, seems the writer wrote a recent followup about Amazon addressing spam: http://behind-the-enemy-lines.blogspot.com/2010/12/amazon-reacts-spammers-kicked-out-of.html'
 - id: 109158
   author: Peter Murray
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2010-12-30 17:15:13 -0500'
-  date_gmt: '2010-12-30 22:15:13 -0500'
-  content: Thanks, Garrett!  I hadn't caught that Amazon responded.  They even have
-    a <a href="http://mechanicalturk.typepad.com/blog/2010/12/some-thoughts-on-invalid-hits-.html"
-    rel="nofollow">post on the service blog</a> about how to report HITs that appear
-    to violate the terms of service.
+  date: 2010-12-30 17:15:13 -0500
+  date_gmt: 2010-12-30 22:15:13 -0500
+  content: Thanks, Garrett!  I hadn't caught that Amazon responded.  They even have a <a href="http://mechanicalturk.typepad.com/blog/2010/12/some-thoughts-on-invalid-hits-.html" rel="nofollow">post on the service blog</a> about how to report HITs that appear to violate the terms of service.
 - id: 159773
   author: Library Feed
   author_email: ''
   author_url: http://twitter.com/libraryfeed/status/20487447259389952
-  date: '2010-12-30 14:32:42 -0500'
-  date_gmt: '2010-12-30 19:32:42 -0500'
-  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span
-    class="topsy_trackback_content">Thursday Threads: Amazon Pressures Publishers,
-    Academic Spam, Mechanical Turk Spam, Multispectral Imaging http://bit.ly/eTY9TE</span></span>'
+  date: 2010-12-30 14:32:42 -0500
+  date_gmt: 2010-12-30 19:32:42 -0500
+  content: '<span class="topsy_trackback_comment"><span class="topsy_twitter_username"><span class="topsy_trackback_content">Thursday Threads: Amazon Pressures Publishers, Academic Spam, Mechanical Turk Spam, Multispectral Imaging http://bit.ly/eTY9TE</span></span>'
 ---
 With the close of the year approaching, this issue marks the 14th week of <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads</i>.  This issue has a publisher's view of Amazon's strong-arm tactics in book pricing, research into the possibility that academic authors could game Google Scholar with spam, demonstrations of how Amazon's Mechanical Turk drives down the cost of enlisting humans to overwhelm anti-spam systems, and a story of multispectral imaging adding information in the process of digital preservation.
 

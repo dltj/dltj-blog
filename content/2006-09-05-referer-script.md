@@ -3,15 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: Script for Testing HTTP Referer Headers
-modified: 2018-01-15T22:38:08-05:00
+modified: '2018-01-15T22:38:08-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 111
 wordpress_url: http://dltj.org/2006/09/referer-script/
-date: '2006-09-05 16:12:59 -0400'
-date_gmt: '2006-09-05 21:12:59 -0400'
+date: 2006-09-05 16:12:59 -0400
+date_gmt: 2006-09-05 21:12:59 -0400
 category: Raw Technology
 categories:
 - Raw Technology

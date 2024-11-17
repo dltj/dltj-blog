@@ -3,16 +3,15 @@ layout: wordpress-import
 status: published
 published: true
 title: Slight Tweak to WordPress Broken Link Checker Plugin
-modified: 2018-01-15T22:38:08-05:00
+modified: '2018-01-15T22:38:08-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 1805
 wordpress_url: http://dltj.org/?p=1805
-date: '2010-10-27 22:34:38 -0400'
-date_gmt: '2010-10-28 02:34:38 -0400'
-category: Raw Technology
+date: 2010-10-27 22:34:38 -0400
+date_gmt: 2010-10-28 02:34:38 -0400
 category: Raw Technology
 categories:
 - Raw Technology
@@ -24,19 +23,16 @@ comments:
   author: Ken Varnum
   author_email: rss4lib@gmail.com
   author_url: http://www.rss4lib.com/
-  date: '2010-10-28 11:51:04 -0400'
-  date_gmt: '2010-10-28 15:51:04 -0400'
-  content: As long as you're tweaking...  a date the change was made might be helpful,
-    too (for you for diagnostics if suddenly links start getting borked, but also
-    for future readers).
+  date: 2010-10-28 11:51:04 -0400
+  date_gmt: 2010-10-28 15:51:04 -0400
+  content: As long as you're tweaking...  a date the change was made might be helpful, too (for you for diagnostics if suddenly links start getting borked, but also for future readers).
 - id: 96297
   author: Peter Murray
   author_email: jester@dltj.org
   author_url: http://dltj.org/about
-  date: '2010-10-28 13:25:28 -0400'
-  date_gmt: '2010-10-28 17:25:28 -0400'
-  content: Ah, that is a good suggestion, and should be simple enough to do.  I'll
-    just tack <code>.' on '.date('F jS, Y')</code> on to the end of each line.
+  date: 2010-10-28 13:25:28 -0400
+  date_gmt: 2010-10-28 17:25:28 -0400
+  content: Ah, that is a good suggestion, and should be simple enough to do.  I'll just tack <code>.' on '.date('F jS, Y')</code> on to the end of each line.
 ---
 In a futile effort to fight link rot on _DLTJ_, I installed the [Broken Link Checker](http://wordpress.org/extend/plugins/broken-link-checker)plugin by ["White Shadow"](http://w-shadow.com/blog/2007/08/05/broken-link-checker-for-wordpress/). I like the way it scans the entire content of this blog -- posts, pages, comments, etc. -- looking for pages linked from here that don't respond with an [HTTP 200 "Ok"](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes#2xx_Success) status code. The dashboard of problem links has a nice interface for updating or deleting these links, including the ability to add a CSS style deleted links to note that they were formerly there. One of the things I wished it did, though, was to add a message to posts/pages that noted a link was changed or deleted. You know -- just to document that something changed since the page was first published. Tonight I hacked into the code to add this function. And with apologies to the original author of this beautifully structured object-oriented PHP code, it is a gruesome hack.  
 

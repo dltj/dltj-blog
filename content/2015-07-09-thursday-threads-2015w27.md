@@ -2,15 +2,15 @@
 status: published
 published: true
 title: 'Issue 78: Battles over strong encryption, IPv4 addresses exhausted while IPv6 surges'
-modified: 2015-07-09T06:43:13+00:00
+modified: '2018-01-15T15:47:28-05:00'
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
 author_url: http://dltj.org/about
 wordpress_id: 26075
 wordpress_url: http://dltj.org/?p=26075
-date: '2015-07-09 06:43:13 -0400'
-date_gmt: '2015-07-09 10:43:13 -0400'
+date: 2015-07-09 06:43:13 -0400
+date_gmt: 2015-07-09 10:43:13 -0400
 category: Thursday Threads
 categories:
 - Thursday Threads

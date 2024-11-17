@@ -1,17 +1,17 @@
 ---
 title: 'Digital Repository Software: How Far Have We Come? How Far Do We Have to Go?'
-modified: 2021-06-23T21:15:50-04:00
+modified: '2021-06-23T21:15:50-04:00'
 category: Raw Technology
 categories:
-  - Unified Content Repository
+- Unified Content Repository
 tags:
-  - Fedora
-  - standards
-  - preservation
-  - web architecture
-  - html
-  - http
-  - static website
+- Fedora
+- standards
+- preservation
+- web architecture
+- html
+- http
+- static website
 ---
 
 {{ robustlink(href="https://twitter.com/bryjbrown/status/1407336107159822341", versionurl="1", versiondate="2021-06-23", anchor="Bryan Brown's tweet") }} led me to {{ robustlink(href="https://ruthtillman.com/post/repository-ouroboros/", versionurl="/", versiondate="2021-06-23", anchor="Ruth Kitchin Tillman's <i>Repository Ouroboros</i> post") }} about the treadmill of software development/deployment.
