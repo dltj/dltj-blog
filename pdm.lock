@@ -43,7 +43,7 @@ name = "dltj-plugin"
 version = "1.0.0"
 requires_python = ">=3.8.1,<4.0"
 git = "https://github.com/dltj/pelican-dltj-plugin.git"
-revision = "ff92765f387576bfd77e5ebae9c660a0626599be"
+revision = "dbcaddd9dca25add4136f1152e4da86143bd706f"
 summary = "Stuff specific to the DLTJ blog"
 groups = ["default"]
 dependencies = [
