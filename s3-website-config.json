@@ -21,22 +21,6 @@
       "Redirect": {
         "ReplaceKeyWith": "article/ils-without-patron-data-details"
       }
-    },
-    {
-      "Condition": {
-        "KeyPrefixEquals": ".well-known/host-meta"
-      },
-      "Redirect": {
-        "ReplaceKeyWith": "https://fed.brid.gy/.well-known/host-meta"
-      }
-    },
-    {
-      "Condition": {
-        "KeyPrefixEquals": ".well-known/webfinger"
-      },
-      "Redirect": {
-        "ReplaceKeyWith": "https://fed.brid.gy/.well-known/webfinger"
-      }
     }
   ]
 }
