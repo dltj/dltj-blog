@@ -33,11 +33,12 @@ COPY pyproject.toml pdm.lock* /app/
 # Install the dependencies
 RUN pdm install --prod --no-self
 
+ARG CACHEBUST
 # Clone the specified Pelican source repository
-RUN git clone https://github.com/dltj/pelican.git /app/pelican
+RUN git clone --depth 1 https://github.com/dltj/pelican.git /app/pelican
 
 # Clone the specified theme repository
-RUN git clone https://github.com/dltj/pelican-papyrus-theme.git /app/pelican-themes/pelican-papyrus-theme
+RUN git clone --depth 1 https://github.com/dltj/pelican-papyrus-theme.git /app/pelican-themes/pelican-papyrus-theme
 
 # Install Pelican from the cloned source
 RUN pip install /app/pelican

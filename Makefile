@@ -26,6 +26,7 @@ ifneq ($(PORT), 0)
 	PELICANOPTS += -p $(PORT)
 endif
 
+TIMESTAMP := $(shell date +"%s")
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -71,7 +72,7 @@ publish:
 docker-build:
 	pdm sync --no-editable
 	pdm update
-	docker build -t 202092910073.dkr.ecr.us-east-1.amazonaws.com/codebuild/dltj-pelican-runner\:latest -t dltj-pelican-runner\:latest .
+	docker build --build-arg CACHEBUST=$(TIMESTAMP) -t 202092910073.dkr.ecr.us-east-1.amazonaws.com/codebuild/dltj-pelican-runner\:latest -t dltj-pelican-runner\:latest .
 	pdm run python -m pip install -e ../pelican-personal
 	pdm run python -m pip install -e ../pelican-dltj-plugin
 	pdm run python -m pip install -e ../pelican-papyrus-theme
