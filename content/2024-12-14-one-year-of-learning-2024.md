@@ -1,5 +1,6 @@
 ---
 title: "One Year of Learning 2024"
+modified: 2024-12-31 11:35:00 -0400
 categories:
 - Personal
 ---

@@ -3,7 +3,7 @@ layout: wordpress-import
 status: published
 published: true
 title: 'Thursday Threads: Cloud Computing and Data Centers -- Amazon, Facebook, and Google'
-modified: 2011-04-28T10:22:29+00:00
+modified: 2025-01-01 19:58:48 -0400
 author: Peter Murray
 author_login: lyrdor
 author_email: jester@dltj.org
@@ -20,7 +20,7 @@ tags:
 - Google
 - Amazon Web Services
 - renewable energy
-- datacenters
+- data center infrastructure
 - Facebook
 comments:
 - id: 138001
@@ -165,26 +165,37 @@ comments:
 
 <p>This week's <i><acronym title="Disruptive Library Technology Jester">DLTJ</acronym> Thursday Threads</i> is about data centers -- those dark rooms with all of the blinking lights of computers doing our bidding.  Data centers hit the mainstream news this week with the <a href="#p2831-ec2-outage">outage at one of Amazon's cloud computing clusters</a>.  And since computers and their associated peripherals consume a lot of energy, researchers are proposing to <a href="#p2831-renewable">run data centers on renewable energy</a>.  And finally Facebook and Google release separate videos that give <a href="#p2831-running-datacenters">glimpses into how large data centers are run</a>.</p>
 {{ thursday_threads_header() }}
+
 <h2 id="p2831-ec2-outage">Amazon EC2 Outage Hobbles Websites</h2>
-<blockquote><p>Amazon Web Services' Elastic Compute Cloud, which offers computation as a service to thousands of businesses, and its Relational Database Service, began experiencing errors shortly before 2 a.m. PDT on Thursday at Amazon's US-EAST data center in Virginia and the service interruption has been ongoing for more than nine hours now.</p>
-<p>The technical problems have slowed or disabled access to the websites of customers utilizing AWS US-East resources, including Engine Yard, Foursquare, Hootsuite, Heroku, Quora, and Reddit, to name a few.</p>
-<div style="text-align: right; width: 100%;"><cite>- <a href="http://www.informationweek.com/articles/229402054" title="Amazon EC2 Outage Hobbles Websites | InformationWeek">Amazon EC2 Outage Hobbles Websites</a>, by Thomas Claburn, InformationWeek</cite></div>
-</blockquote>
+{{ thursday_threads_quote(href="http://www.informationweek.com/articles/229402054",
+ blockquote="Amazon Web Services' Elastic Compute Cloud, which offers computation as a service to thousands of businesses, and its Relational Database Service, began experiencing errors shortly before 2 a.m. PDT on Thursday at Amazon's US-EAST data center in Virginia and the service interruption has been ongoing for more than nine hours now.",
+ versiondate="2011-04-28",
+ versionurl="https://web.archive.org/web/20110424050122/http://www.informationweek.com/articles/229402054",
+ anchor="Amazon EC2 Outage Hobbles Websites",
+ post=", InformationWeek, 21-Apr-2011") }}
 <p>Failures of Amazon's Elastic Compute Cloud service -- think of it as renting virtual computer servers somewhere out there on the internet -- last week caused major internet sites to shut down.  As of this writing, the root cause analysis hasn't been published, but signs are pointing to a cascade of events starting with a minor failure that snowballed into system overload as the rented servers tried to restart themselves in other areas of Amazon's cloud capacity.  The questions being raised though are leading to a darkening of the puffy white cloud computing promise.  Ultimately, though, use of computing in the cloud seems to be a trade-off where you can save money by not owning your own computing infrastructure with the downside that you don't have as much control when something goes wrong.</p>
+
 <h2 id="p2831-renewable">Far-flung Data Centers Could Use Otherwise Unharvestable Renewable Energy For Computation</h2>
-<blockquote><div style="text-align: right; width: 100%;">Researchers at Cambridge University want to put data centers in places so remote they aren't on any power grid. Their models indicate that moving data-hungry computation to places such as scorching deserts, windswept peaks, and the middle of the Atlantic Ocean &mdash; all rich in sunlight and wind energy &mdash; could allow this otherwise unharvestable energy to do useful work.<cite>- <a href="http://www.technologyreview.com/computing/37460/?a=f" title="Really Remote Data&nbsp;| MIT Technology Review">Really Remote Data</a>, by Christopher Mims, MIT Technology Review</cite></div>
-</blockquote>
+{{ thursday_threads_quote(href="http://www.technologyreview.com/computing/37460/?a=f",
+ blockquote="Researchers at Cambridge University want to put data centers in places so remote they aren't on any power grid. Their models indicate that moving data-hungry computation to places such as scorching deserts, windswept peaks, and the middle of the Atlantic Ocean &mdash; all rich in sunlight and wind energy &mdash; could allow this otherwise unharvestable energy to do useful work.",
+ versiondate="2011-04-28",
+ versionurl="https://web.archive.org/web/20120109141213/http://www.technologyreview.com/computing/37460/",
+ anchor="Really Remote Data",
+ post=", MIT Technology Review, 25-Apr-2011") }}
 <p>The second thread comes by way of MIT Technology Review and points to a paper by Sherif Akoush, Ripduman Sohan, Andrew Rice, Andrew W. Moore and Andy Hopper -- all of Cambridge University called <a href="http://www.cl.cam.ac.uk/~sa497/akoush-hotos11.pdf" title="Free Lunch: Exploiting Renewable Energy For Computing [PDF]">Free Lunch: Exploiting Renewable Energy For Computing</a>, to be presented at the USENIX-sponsored the <a href="http://www.usenix.org/events/hotos11/" title="HotOS 13">13th Workshop on Hot Topics in Operating Systems</a> next month.  The "Free Lunch" part comes from using renewable energy sources at these various locations to power data centers where compute jobs are shuffled around the locations depending on the available energy -- and consequently computing capacity -- at each center.  A neat idea, and one that is probably valuable for compute-intensive jobs like video conversion and data mining.  </p>
+
 <h2 id="p2831-p2831-running-datacenters">What Goes Into Running Large Data Centers</h2>
-<div id="p2831-videos" class="wp-caption alignright" style="width: 230px;"><object width="230" height="135" ><param name="allowfullscreen" value="true" /><param name="movie" value="http://www.facebook.com/v/10150555918930484" /><embed src="http://www.facebook.com/v/10150555918930484" type="application/x-shockwave-flash" allowfullscreen="true" width="230" height="135"></embed></object>
-<p class="wp-caption-text">Facebook's Open Compute Project</p>
-<p><iframe title="YouTube video player" width="230" height="159" src="http://www.youtube.com/embed/1SCZzgfdTBo?rel=0" frameborder="0" allowfullscreen></iframe>
-<p class="wp-caption-text">Google's Data Center Security</p>
-</div>
-<blockquote><p>Inspired by the model of open source software, we want to share the innovations in our data center for the entire industry to use and improve upon. Today we&rsquo;re also announcing the formation of the Open Compute Project, an industry-wide initiative to share specifications and best practices for creating the most energy efficient and economical data centers.>
-<div style="text-align: right; width: 100%;"><cite>- <a href="http://www.facebook.com/notes/facebook-engineering/building-efficient-data-centers-with-the-open-compute-project/10150144039563920" title="Building Efficient Data Centers with the Open Compute Project | Facebook">Building Efficient Data Centers with the Open Compute Project</a>, Facebook</cite></div>
-</blockquote>
-<blockquote><p>This video tour of a Google data center highlights the security and data protections that are in place at our data centers.
-<div style="text-align: right; width: 100%;"><cite>- <a href="http://www.youtube.com/watch?v=1SCZzgfdTBo&feature=player_embedded" title="Security and Data Protection in a Google Data Center | YouTube">Security and Data Protection in a Google Data Center</a>, YouTube</cite></div>
-</blockquote>
+{{ thursday_threads_quote(href="http://www.facebook.com/notes/facebook-engineering/building-efficient-data-centers-with-the-open-compute-project/10150144039563920",
+ blockquote="Inspired by the model of open source software, we want to share the innovations in our data center for the entire industry to use and improve upon. Today we&rsquo;re also announcing the formation of the Open Compute Project, an industry-wide initiative to share specifications and best practices for creating the most energy efficient and economical data centers.",
+ versiondate="2011-04-28",
+ versionurl="https://web.archive.org/web/20110422015146/http://www.facebook.com/notes/facebook-engineering/building-efficient-data-centers-with-the-open-compute-project/10150144039563920",
+ anchor="Building Efficient Data Centers with the Open Compute Project",
+ post=",Facebook, 7-Apr-2011") }}
+{{ thursday_threads_quote(href="http://www.youtube.com/watch?v=1SCZzgfdTBo",
+ blockquote="This video tour of a Google data center highlights the security and data protections that are in place at our data centers.",
+ versiondate="2011-04-28",
+ anchor="Security and Data Protection in a Google Data Center",
+ post=", YouTube") }}
+{{ note(note_text='When checked on 1-Jan-2025, the videos at these two URLs are no longer available at their original links and were not found in the Internet Archive Wayback Machine.') }}
+
 <p>For two entirely different purposes, Facebook and Google released videos recently that give glimpses into what each does to run a data center.  The four-and-a-half-minute Facebook video introduces us to their <a href="http://opencompute.org/" title="Open Compute Project">Open Compute Project</a>: a set of plans for server hardware and for physical buidings to creating the most efficient computer clusters possible.  In the seven-minute Google video, we see part of what Google does to keep data safe that is stored in the cloud (including a pair of hard drive crushing machines!).</p>
