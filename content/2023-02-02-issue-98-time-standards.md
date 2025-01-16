@@ -116,6 +116,7 @@ An imaginary conversation in 68 tweets, including bits like:
 - "yep! Our 9th month is named after the number 7, and so on for 10, 11, and 12."
 - "yeah so cultures before then had a 12 month system, because of the moon. But they had been using a 10 month system, before switching to 12 and giving them the modern names"
 
+{{ note(note_text='That quote above is a web archive of the first tweet in a thread, and I had originally intended the reader to follow that tweet onto twitter-dot-com to read the rest. Well, "Twitter" is now "Ex-Twitter", and anything beyond the first tweet isn&apos;t readable anymore unless you have a paid account on X. Fortunately, I used Thread-Reader-App and the Wayback Machine to <a href="https://web.archive.org/web/20220920180435/https://threadreaderapp.com/thread/1572260363764400129.html">save a copy</a> of that writing.')}}
 
 ## Mittens in the Groceries {: #mittens}
 {{ image(width="700", localsrc="2023/2023-02-02-mittens.jpg", alt="Two pictures of a black cat with a white bib. In the top picture, the cat has her head through the handles of a canvas bag full of groceries. In the bottom picture, she is rubbing her face against the edges of a plastic container of strawberries.") }} 
