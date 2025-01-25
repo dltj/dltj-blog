@@ -34,8 +34,8 @@ This week:
 
 Those are in addition to last week's:
 
-- How the placement of data centers [impacts the local power grid]({2025-01-02-issue-101-data-centers}#power-grid)
-- [Nuclear power is of interest again to feed into data centers]({2025-01-02-issue-101-data-centers}#nuclear-power)
+- How the placement of data centers [impacts the local power grid]({filename}2025-01-02-issue-101-data-centers#power-grid)
+- [Nuclear power is of interest again to feed into data centers]({filename}2025-01-02-issue-101-data-centers#nuclear-power)
 
 {{ thursday_threads_header() }}
 
