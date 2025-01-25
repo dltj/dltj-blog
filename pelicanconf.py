@@ -2,8 +2,11 @@
 """
 
 import os
+import sys
 
-import pelican.plugins.dltj_plugin as macros
+sys.path.append(os.path.join(os.path.dirname(__file__), "plugins"))
+
+import dltj_plugin as macros
 
 AUTHOR = "Peter Murray"
 SITENAME = "Disruptive Library Technology Jester"
@@ -81,9 +84,6 @@ MARKDOWN = {
     },
     "output_format": "html5",
 }
-
-# PLUGINS = ["jinja2content", "yaml_metadata"]
-# PLUGINS = ["zygote_reader"]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

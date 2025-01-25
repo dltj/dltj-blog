@@ -10,7 +10,6 @@ dependencies = [
     "pelican-jinja2content @ git+https://github.com/pelican-plugins/jinja2content.git",
     "pelican-yaml-metadata @ git+https://github.com/pelican-plugins/yaml-metadata.git",
     "zygote-reader @ git+https://github.com/dltj/zygote-reader",
-    "dltj-plugin @ git+https://github.com/dltj/pelican-dltj-plugin.git",
     "pelican-neighbors>=1.2.0",
     "pelican-readtime @ git+https://github.com/dltj/pelican-readtime.git",
 ]
