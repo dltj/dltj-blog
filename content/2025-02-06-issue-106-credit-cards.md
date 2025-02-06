@@ -27,7 +27,7 @@ Plus, one thing I learned this week and a cat picture.
 - Have you stopped to think about how much your credit card issuer knows about you based on what you buy and where? [The card issuer has]({filename}#data).
 - Mastercard sells your purchase history to advertisers, and [you can opt out]({filename}#mastercard-data).
 - Not all credit card accounts are repaid. [The dark world of debt collection]({filename}#collections) is the result.
-- [ExTwitter adding digital wallet functionality]({filename}#extwitter). In case you want that company to be more involved in your everyday life.
+- [ExTwitter is adding digital wallet functionality]({filename}#extwitter). In case you want that company to be more involved in your everyday life.
 - [This Week I Learned]({filename}#twil): The origin of the computer term "mainframe" comes from "main frame" — the 1952 name of an IBM computer's central processing section.
 - [This week's cat]({filename}#cats)
 
@@ -175,6 +175,7 @@ Now, whether you trust Musk with that kind of access to your bank accounts is an
 "Mainframe" is such a common word in my lexicon that it didn't occur to me that its origins was from "main frame" — as in the primary frame in which everything else connected.
 I've heard "frame" used to describe a rack of telecommunications equipment as well, but a quick [Kagi search](https://kagi.com/search?q=what+is+the+origin+of+the+telecommunications+word+%22Frame%22%3F&r=us&sh=S1wjO-hCWatv4U-FDqKamg) couldn't find the origins of the word "frame" from a telecom perspective.
 
+What did you learn this week? Let me know on [Mastodon](https://code4lib.social/@dltj/113957049724787035) or [Bluesky](https://bsky.app/profile/dltj.org/post/3lhj5alcywe26).
 
 ## Mittens explores the toilet {: #cats}
-{{ image(width="600", localsrc="2025/2025-02-06-mittens-toilet.jpg", alt="Black cat curiously leans into an open toilet bowl, with its head hidden and tail extended in a bathroom setting.") }} 
+ {{ image(width="600", localsrc="2025/2025-02-06-mittens-toilet.jpg", alt="Black cat curiously leans into an open toilet bowl, with its head hidden and tail extended in a bathroom setting.") }} 
