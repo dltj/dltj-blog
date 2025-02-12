@@ -67,8 +67,7 @@ def image(
     """
     alt = alt or ""
     output: str = "<figure "
-    if div_float:
-        output += f'class="align-{div_float}" '
+        output += f'class="image-{div_float}" '
     if width:
         output += f'style="width:{width}px" '
     output += ">"
