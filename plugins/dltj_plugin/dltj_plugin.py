@@ -41,6 +41,7 @@ def robustlink(
 
 
 def image(
+    fig_class: str = None,
     div_float: str = None,
     width: str = None,
     localsrc: str = None,
@@ -49,10 +50,13 @@ def image(
     alt: str = None,
     ahref: str = None,
     localhref: str = None,
+    picclass: str = None,
+    imgclass: str = None,
 ) -> str:
     """Output HTML of an image inside a <figure> tag
 
     Args:
+        fig_class (str, optional): Class(es) to add to the surrounding figure tag.
         div_float (str, optional): Float the figure 'left' or 'right'. Defaults to None.
         width (str, optional): width of the figure tag. Defaults to None.
         localsrc (str, optional): path to image file relative to `assets/images/`. Defaults to None.
@@ -67,6 +71,9 @@ def image(
     """
     alt = alt or ""
     output: str = "<figure "
+    if fig_class:
+        output += f'class="{fig_class}" '
+    elif div_float:
         output += f'class="image-{div_float}" '
     if width:
         output += f'style="width:{width}px" '
