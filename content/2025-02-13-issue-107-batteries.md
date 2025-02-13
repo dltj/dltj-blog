@@ -1,7 +1,6 @@
 ---
 title: 'Issue 107: A Power Packed Thread of Articles about the Humble Battery'
 modified: 
-status: draft
 category: Thursday Threads
 categories:
 - Thursday Threads
