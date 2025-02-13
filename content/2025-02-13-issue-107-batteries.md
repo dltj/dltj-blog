@@ -28,10 +28,10 @@ Plus, one thing I learned this week and a cat picture.
 
 - [New battery tech]({filename}#new-tech) is improving the cost, efficiency, and environmental impact of manufacturing.
 - One innovation is ["harvesting" nickel metal from plant roots]({filename}#plants), particularly around spoils from traditional mining operations.
-- Battery technology has improved, so you might need to update you knowledge about these [battery myths]({filename}#battery-myths).
+- Battery technology has improved, so you might need to update your knowledge about these [battery myths]({filename}#battery-myths).
 - Remember how the EU required devices to use USB-C? [It is doing the same thing for user-replaceable batteries by 2027]({filename}#eu-regulation).
 - Batteries are starting to have an outsized influence on power generation. [How battery technology impacts the electrical grid]({filename}#grid).
-- A [fire at battery facility in California]({filename}#fire) points to the real dangers in relying on batteries for energy storage.
+- A [fire at a battery facility in California]({filename}#fire) points to the real dangers in relying on batteries for energy storage.
 - [What about devices without batteries?]({filename}#batteryless)
 - [This Week I Learned]({filename}#twil): It takes nearly 3¢ to make a penny, but almost 14¢ to make a nickel!
 - [This week's cat]({filename}#cats)
