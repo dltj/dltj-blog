@@ -115,7 +115,7 @@ Generative AI was just a part of the press release, though, and there has been {
 I would beg to differ if they thought they found the "pulse of the libraries" in their survey last year.
 
 
-## What to consider when your are considering AI for your library {: #edsu}
+## What to consider when you are considering AI for your library {: #edsu}
 {{ thursday_threads_quote(href="https://inkdroid.org/2024/03/12/ai/",
  blockquote='I was asked to participate in a panel at work about AI. I initially declined, but once it became clear that I would be allowed to get on my soapbox and rant for 15 minutes I agreed. Below are my notes and some slides. This was not a fun post to write or present. I’m sure it rubbed some people the wrong way, and I am genuinely sorry for that.',
  versiondate="2024-03-17",
