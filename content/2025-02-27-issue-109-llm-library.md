@@ -21,7 +21,7 @@ While "big data" was about understanding and interpreting past data, "generative
 So this week's _DLTJ Thursday Threads_ is looking at the application of generative AI — sometimes called "large language models" or "foundational models" as a more descriptive term for the technology — in libraries.
 
 - OCLC is using machine learning models for [detecting duplicate records]({filename}#oclc).
-- JSTOR tries out [generative AI features in its journal article database]({filename}jstor).
+- JSTOR tries out [generative AI features in its journal article database]({filename}#jstor).
 - EBSCO tries out [generative AI features in its discovery products]({filename}#ebsco).
 - Clarivate [surveys libraries worldwide about generative AI]({filename}#clarivate).
 - ProQuest [introduces generative AI features in its ebooks]({filename}#proquest).
@@ -144,7 +144,7 @@ post=', New York Times, 24-Feb-2025') }}
 The pictures that accompany this article from the New York Times are stunning ([gift link](https://www.nytimes.com/2025/02/24/science/astronomy-dark-sky-rum.html?unlocked_article_code=1.0E4.vEP7.52N9PTn4ZqOV&smid=url-share)). 
 And to think that there are only 23 places in the world that have reached this level of commitment to the environment.
 
-What did you learn this week? Let me know on [Mastodon](https://code4lib.social/@dltj/) or [Bluesky](https://bsky.app/profile/dltj.org/).
+What did you learn this week? Let me know on [Mastodon](https://code4lib.social/@dltj/114076031842113104) or [Bluesky](https://bsky.app/profile/dltj.org/post/3lj5y2qej3t2a).
 
 
 ## Alan is waiting for spring {: #cats}
