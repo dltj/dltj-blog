@@ -86,7 +86,7 @@ def image(
     if abssrc:
         output += f'src="{abssrc}" '
     else:
-        output += f'src="/assets/images/{localsrc}" '
+        output += f'src="https://dltj.org/assets/images/{localsrc}" '
     output += f'alt="{alt}">'
     if ahref or localhref:
         output += "</a>"
