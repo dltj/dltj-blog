@@ -131,8 +131,8 @@ And not only is there one gun store, the single store in Mexico is located on an
 At Mexico’s lone gun store, even the boss discourages sales
  | AP News", anchor="an article in the Associated Press from 2016") }}.
 
-What did you learn this week? Let me know on [Mastodon](https://code4lib.social/@dltj/) or [Bluesky](https://bsky.app/profile/dltj.org/).
+What did you learn this week? Let me know on [Mastodon](https://code4lib.social/@dltj/114115691324065369) or [Bluesky](https://bsky.app/profile/dltj.org/post/3ljplnw73ol2a).
 
 
 ## Pickle supervising over my shoulder {: #cats}
-{{ image(width="600", localsrc="2025/2025-03-06-pickle.jpg", alt="Black and white cat playfully perched in a wooden shelf cubby, surrounded by stacks of CDs and various clutter.") }} 
+ {{ image(width="600", localsrc="2025/2025-03-06-pickle.jpg", alt="Black and white cat playfully perched in a wooden shelf cubby, surrounded by stacks of CDs and various clutter.") }} 
