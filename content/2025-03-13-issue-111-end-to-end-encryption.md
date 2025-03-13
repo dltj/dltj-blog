@@ -12,14 +12,14 @@ summary: "This Thursday Threads explores global security issues, encryption refo
 bluesky: "Navigating the complex landscape of digital security, today's Thursday Threads post discusses recent global incidents including cyberattacks, government demands for data access, and encryption reforms. Amid these challenges, tech giants like Apple and the Signal Foundation are preparing for quantum computing threats and integrating AI technologies. The critical role of end-to-end encryption in protecting privacy and ensuring secure communications is a continuing focus."
 ---
 
-This week's thread of articles look at the ever-evolving landscape of digital security and privacy though end-to-end encryption. 
+This week's thread of articles looks at the ever-evolving landscape of digital security and privacy through end-to-end encryption. 
 End-to-end encryption is a method of securing communication where only the people communicating can read the messages. 
 In principle, it prevents potential eavesdroppers — including telecom providers, Internet providers, and even the provider of the communication service — from being able to access the cryptographic keys needed to decrypt the conversation. 
 In practice, governments and others want to be able to put themselves in the middle of those conversations for both noble and dishonorable reasons. 
 From unprecedented cyberattacks leading US officials to urge citizens to use encrypted messaging apps, to tech companies like Apple butting heads with the UK government over data privacy, the balance of power and privacy is under constant tension. 
 
-- As much as the U.S. government fights for ways to bypass commercial encryption, I thought I'd never see [that same government urge the use of encrypted messaging apps]({filename}#salt-typhoon) in wake of a major telecom breach.
-- [Apple takes on UK government]({filename}#apple-uk) over data access demands that would break the end-to-end encryption of its most secure systems.
+- As much as the U.S. government fights for ways to bypass commercial encryption, I thought I'd never see [that same government urge the use of encrypted messaging apps]({filename}#salt-typhoon) in the wake of a major telecom breach.
+- [Apple takes on the UK government]({filename}#apple-uk) over data access demands that would break the end-to-end encryption of its most secure systems.
 - [Sweden's proposed backdoor law]({filename}#sweden) for encrypted messaging apps ignites global privacy concerns.
 - Signal Foundation president warns of [threat to privacy]({filename}#whittaker) as an EU proposal to scan encrypted messages sparks cybersecurity concerns.
 - The [Signal Foundation]({filename}#signal-post-quantum) and [Apple]({filename}#imessage-post-quantum) announce revisions to their messaging systems to deal with a post-quantum encryption threat.
@@ -34,7 +34,7 @@ Also on DLTJ this past week:
 {{ thursday_threads_header() }}
 
 
-## U.S. government urges use of encrypted messaging apps in wake of a major telecom breach {: #salt-typhoon}
+## U.S. government urges use of encrypted messaging apps in the wake of a major telecom breach {: #salt-typhoon}
 {{ thursday_threads_quote(href="https://www.nbcnews.com/tech/security/us-officials-urge-americans-use-encrypted-apps-cyberattack-rcna182694",
  blockquote='Amid an unprecedented cyberattack on telecommunications companies such as AT&T and Verizon, U.S. officials have recommended that Americans use encrypted messaging apps to ensure their communications stay hidden from foreign hackers. The hacking campaign, nicknamed Salt Typhoon by Microsoft, is one of the largest intelligence compromises in U.S. history, and it has not yet been fully remediated. Officials on a news call Tuesday refused to set a timetable for declaring the country’s telecommunications systems free of interlopers. Officials had told NBC News that China hacked AT&T, Verizon and Lumen Technologies to spy on customers.',
  versiondate="2024-12-10",
@@ -51,7 +51,7 @@ It was these backdoors that were used by the Salt Typhoon attackers.
 _There is no such thing as an encryption backdoor that will only be used by authorized law enforcement._
 
 
-## Apple takes on UK government over data access demands {: #apple-uk}
+## Apple takes on the UK government over data access demands {: #apple-uk}
 {{ thursday_threads_quote(href="https://www.bbc.com/news/articles/c8rkpv50x01o",
  blockquote='Apple is taking legal action to try to overturn a demand made by the UK government to view its customers&apos; private data if required... It is the latest development in an unprecedented row between one of the world&apos;s biggest tech firms and the UK government over data privacy. In January, Apple was issued with a secret order by the Home Office to share encrypted data belonging to Apple users around the world with UK law enforcement in the event of a potential national security threat. Data protected by Apple&apos;s standard level of encryption is still accessible by the company if a warrant is issued, but the firm cannot view or share data encrypted using its toughest privacy tool, Advanced Data Protection (ADP). ADP is an opt-in feature and it is not known how many people use it.',
  versiondate="2025-03-11",
@@ -144,8 +144,8 @@ And it meets up with another separate living thing to make a seed!
 Weird!
 The video is only three and a half minutes long, and it is well worth checking out at some point today.
 
-What did you learn this week? Let me know on [Mastodon](https://code4lib.social/@dltj/) or [Bluesky](https://bsky.app/profile/dltj.org/).
+What did you learn this week? Let me know on [Mastodon](https://code4lib.social/@dltj/114155067449618484) or [Bluesky](https://bsky.app/profile/dltj.org/post/3lkb37al3ql2c).
 
 
 ## Pickle and Mittens bask in a sunspot {: #cats}
- {{ image(width="600", localsrc="2025/2025-03-13-pickle-mittens-sunspot.jpg", alt="Two cats basking in a sunbeam on a carpeted floor. One black and white cat lies on its back, while the other stretches out comfortably. A woven basket and a cat toy are nearby, enhancing the cozy scene.") }} 
+  {{ image(width="600", localsrc="2025/2025-03-13-pickle-mittens-sunspot.jpg", alt="Two cats basking in a sunbeam on a carpeted floor. One black and white cat lies on its back, while the other stretches out comfortably. A woven basket and a cat toy are nearby, enhancing the cozy scene.") }} 
