@@ -22,6 +22,7 @@ These articles highlight the growing tension between content creators and techno
 - Meta's training of its AI with pirated LibGen books [sparks legal and ethical debate]({filename}#meta).
 - [Nvidia denies copyright infringement]({filename}#nvidia) in the use of shadow libraries for AI training.
 - Getty Images launched an [AI image generator]({filename}#getty) using its licensed library in 2023.
+- [This Week I Learned]({filename}#twil): "But where is everybody?!?" — the origins of Fermi's Paradox
 - [This week's cat]({filename}#cats)
 
 Also on DLTJ this past week:
@@ -140,7 +141,24 @@ Getty plans to compensate creators whose images are used to train the AI model a
 Unlike traditional stock images, AI-generated photos will not be included in Getty’s existing content libraries. 
 
 
+## This Week I Learned: "But where is everybody?!?" — the origins of Fermi's Paradox {: #twil}
+{{ thursday_threads_quote(href="https://arstechnica.com/science/2025/03/all-by-ourselves-the-great-filter-and-our-attempts-to-find-life/",
+ blockquote='The eminent physicist Enrico Fermi was visiting his colleagues at Los Alamos National Laboratory in New Mexico that summer, and the mealtime conversation turned to the subject of UFOs. Very quickly, the assembled physicists realized that if UFOs were alien machines, that meant it was possible to travel faster than the speed of light. Otherwise, those alien craft would have never made it here. At first, Fermi boisterously participated in the conversation, offering his usual keen insights. But soon, he fell silent, withdrawing into his own ruminations. The conversation drifted to other subjects, but Fermi stayed quiet. Sometime later, long after the group had largely forgotten about the issue of UFOs, Fermi sat up and blurted out: “But where is everybody!?”',
+ versiondate="2025-03-27",
+ versionurl="https://web.archive.org/20250327063230/https://arstechnica.com/science/2025/03/all-by-ourselves-the-great-filter-and-our-attempts-to-find-life/",
+ anchor="All by ourselves? The Great Filter and our attempts to find life",
+ post=", Ars Technica, 26-Mar-2025") }}
+
+This retelling of the Fermi Paradox coms from this story about why, despite the vastness of the universe, we have yet to encounter evidence of extraterrestrial civilizations. 
+Enrico Fermi famously posed the question, "Where is everybody?" suggesting a disconnect between the expectation of abundant intelligent life and the lack of observable evidence. 
+The concept of the Great Filter is introduced, proposing that there may be significant barriers preventing intelligent life from becoming spacefaring. 
+The article goes on to speculate where we are relative to the "Great Filter" — are we past it, or is it yet in front of us?
+In other words, have we survived the filter or is our biggest challenge ahead of us?
+
+What did you learn this week? Let me know on [Mastodon](https://code4lib.social/@dltj/114234324982258386) or [Bluesky](https://bsky.app/profile/dltj.org/post/3llebliw5n324).
+
+
 ## It is hard to write with a cat on your lap {: #cats}
-{{ image(width="600", localsrc="2025/2025-03-27-pickle.jpg", alt="Black and white cat curled up and sleeping on a person's denim-clad lap. The room is cozy, with furniture and soft lighting in the background.") }} 
+ {{ image(width="600", localsrc="2025/2025-03-27-pickle.jpg", alt="Black and white cat curled up and sleeping on a person's denim-clad lap. The room is cozy, with furniture and soft lighting in the background.") }} 
 This issue is a little rushed because I couldn't do my usual writing and editing. 
 This cute ball of fuzz is the reason.
