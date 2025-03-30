@@ -1,6 +1,6 @@
 ---
 title: 'Issue 113: More on Copyright and Foundational AI Models'
-modified: 
+modified: 2025-03-29
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -28,7 +28,7 @@ These articles highlight the growing tension between content creators and techno
 Also on DLTJ this past week:
 
 - [In OCLC v Anna's Archive, New/Novel Issues Sent to State Court]({filename}2025-03-21-oclc-v-annasarchive-certified-to-ohio-court): The case of OCLC against Anna's Archive, accused of “data scraping” from OCLC's WorldCat, takes a turn as the U.S. District Court for the Southern District of Ohio decides to certify several “novel and unsettled” legal questions to the Supreme Court of Ohio.
-- [My protest signage improved at this week's #TeslaTakedown]({filename}2023-02-tesla-takedown-march-22): My improved sign said "Our GOVERNMENT was fine. Now it is MUSKed UP! FIRE ELON!" Read the post for instructions on printing your own copy of this protest sign.
+- [My protest signage improved at this week's #TeslaTakedown]({filename}2025-03-22-tesla-takedown-march-22): My improved sign said "Our GOVERNMENT was fine. Now it is MUSKed UP! FIRE ELON!" Read the post for instructions on printing your own copy of this protest sign.
 
 {{ thursday_threads_header() }}
 
