@@ -8,9 +8,10 @@ tags:
 - politics
 summary: "At the Easton #TeslaTakedown, 600 protesters or more covered all four corners for the first time. The pleasant weather brought more families and supportive drivers. High energy. My sign read, 'The SIGNAL is coming from INSIDE the house!' and is available for download."
 ---
+
 I don't know how many there were at the protest today in front of the [Easton Tesla store](https://www.openstreetmap.org/way/374886272), but for the first time we covered all four corners of the intersection.
 
-{{ image(width="600", localsrc="2025/2025-03-29-protest-panorama.jpg", alt="The panorama view captures a large protest in front of a Tesla store. The crowd lines the sidewalk, holding various signs in support of their cause. Cars drive by as some protesters wave flags. The scene includes a large, decorative giraffe sculpture on the corner, adding a whimsical touch to the setting. The atmosphere is active and engaged, with participants covering all four corners of the intersection.") }} 
+{{ image(width="600", localsrc="2025/2025-03-29-protest-panorama.jpg", ahref="https://dltj.org/assets/images/2025/2025-03-29-protest-panorama.jpg", alt="The panorama view captures a large protest in front of a Tesla store. The crowd lines the sidewalk, holding various signs in support of their cause. Cars drive by as some protesters wave flags. The scene includes a large, decorative giraffe sculpture on the corner, adding a whimsical touch to the setting. The atmosphere is active and engaged, with participants covering all four corners of the intersection.") }} 
 
 I think there were at least 600 people...maybe more. 
 Some observations:
