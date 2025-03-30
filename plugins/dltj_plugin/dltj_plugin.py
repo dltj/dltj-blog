@@ -70,6 +70,10 @@ def image(
         str: HTML fragment
     """
     alt = alt or ""
+    if abssrc:
+        img_path = abssrc
+    else:
+        img_path = f"https://dltj.org/assets/images/{localsrc}"
     output: str = "<figure "
     if fig_class:
         output += f'class="{fig_class}" '
@@ -78,16 +82,21 @@ def image(
     if width:
         output += f'style="width:{width}px" '
     output += ">"
-    if ahref or localhref:
-        output = f'<a href="{ahref}{localhref}">'
+    if ahref:
+        output = f'<a href="{ahref}">'
+    elif localhref:
+        output = f'<a href="{localhref}">'
+    output += "<picture>"
+    if picclass:
+        output += f'<source class="{picclass}" src="{img_path}"></source>'
     output += "<img "
     if width:
         output += f'width="{width}" '
-    if abssrc:
-        output += f'src="{abssrc}" '
-    else:
-        output += f'src="https://dltj.org/assets/images/{localsrc}" '
+    if imgclass:
+        output += f'class="{imgclass}" '
+    output += f'src="{img_path}" '
     output += f'alt="{alt}">'
+    output += "</picture>"
     if ahref or localhref:
         output += "</a>"
     if caption:
