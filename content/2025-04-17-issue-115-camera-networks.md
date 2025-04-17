@@ -17,12 +17,12 @@ These are often municipal-sponsored systems of license plate readers, but there 
 So that is the focus of this week's _Thursday Threads_ issue:
 
 - An investigation by a newspaper editor highlights privacy concerns and legal challenges in rural [Virginia's use of license plate reading cameras]({filename}#va-lpr). (2025)
-- Debate over the privacy concerns and legal challenges of license plate readers is nothing new, as [this 2012 article shows]({filename}#lprs}).
-- What happens when you put equipment not meant for the internet onto the internet? A security flaw in Motorola's automated license-plate-recognition systems [exposes real-time vehicle data and video feeds online]({filename}#motorola) (2025)
-- A license plate reader in every tow truck? Privacy concerns of a [private surveillance network of 9 billion license plate scans]({filename}#dnr) enable widespread vehicle tracking (2019)
-- Similar to "the call is coming from inside the house", the surveillance is coming from inside your community. Privacy Concerns Emerge as [HOAs Nationwide Install Flock Safety's License Plate Readers]({filename}#hoa), Facilitating Police Surveillance (2023)
+- Debate over the privacy concerns and legal challenges of license plate readers is nothing new, as [this 2012 article shows]({filename}#lprs).
+- What happens when you put equipment not meant for the internet onto the internet? A security flaw in Motorola's automated license-plate-recognition systems [exposes real-time vehicle data and video feeds online]({filename}#motorola). (2025)
+- A license plate reader in every tow truck? Privacy concerns of a [private surveillance network of 9 billion license plate scans]({filename}#dnr) enable widespread vehicle tracking. (2019)
+- Similar to "the call is coming from inside the house", the surveillance is coming from inside your community. Privacy concerns emerge as [HOAs nationwide install Flock Safety's license plate readers]({filename}#hoa), facilitating police surveillance. (2023)
 - How about we network all of these cameras together? [AI-powered surveillance system]({filename}#fusus) spurs privacy concerns as adoption grows in U.S. (2023)
-- If we've got to have this tech, we might as well have some fun with it. [Artist's Traffic Cam Photobooth]({filename}#tcp) sparks controversy and cease-and-desist over creative use of NYC traffic cameras (2024)
+- If we've got to have this tech, we might as well have some fun with it. [Artist's Traffic Cam Photobooth]({filename}#tcp) sparks controversy and cease-and-desist over creative use of NYC traffic cameras. (2024)
 - [This Week I Learned]({filename}#twil): The word "scapegoat" was coined in a 1530 translation of the bible.
 - [This week's cat]({filename}#cats})
 
