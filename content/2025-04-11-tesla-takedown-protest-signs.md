@@ -1,6 +1,6 @@
 ---
 title: "My Public Archive of #TeslaTakedown Protest Signs"
-modified: 
+modified: 2025-04-25
 category: Personal
 categories:
 - Personal
@@ -12,6 +12,31 @@ summary: "A running list of the protest signs I'm using on #TeslaTakedown days. 
 The {{ robustlink(href="https://www.teslatakedown.com/", versionurl="https://web.archive.org/web/20250410232846/https://www.teslatakedown.com/", versiondate="2025-04-10", title="Tesla Takedown homepage", anchor="#TeslaTakedown protests") }} have gone on long enough that it is time to make a public archive of signs. 
 For the latest signs, I've included a link where you can download a PDF to print your own. 
 Please use these if you'd like; if you want to give me something in exchange, just tag me on [Mastodon](https://code4lib.social/@dltj/) or [Bluesky](https://bsky.app/profile/dltj.org/) so I know how far these have spread. 
+
+Also, Marc Lee from {{ robustlink(href="https://freeprotestsigns.org/", versionurl="https://web.archive.org/web/20250424000611/https://freeprotestsigns.org/", versiondate="2025-04-24", title="Free Protest Signs homepage", anchor="Free Protest Signs") }} reached out on Bluesky to let me know about his website of signs. 
+If you don't like something below, maybe one of his will suit your mood!
+
+
+## All of the ABOVE! {: #all-of-the-above}
+{{ image(width="600", localsrc="2025/2025-04-26-protest-sign.jpg", alt='The image features the &ldquo;Disaster Girl&rdquo; meme with a twist: the face of Elon Musk is pasted over the girl’s. In the background, a house is engulfed in flames, with firefighters and onlookers nearby. The expression conveys a sense of mischievous calm amid chaos, adding humor to the scene.', caption="<i>All of the ABOVE!</i> protest sign, first used on 26-Apr-2025") }} 
+
+The meanness, the illegality, the stupidity...it is all more than I thought possible and it is certainly not what deserve from our government. 
+And it is not just one of these attributes, but all of them coming from all of this administration's elected, confirmed, and senior leaders. 
+
+[Download](https://dltj.org/assets/attachments/All%20of%20the%20ABOVE!%20protest%20sign.pdf) and print your own 26" by 16" version of this sign. 
+
+
+## Elected Assholes {: #elected-assholes}
+{{ image(width="600", localsrc="2025/2025-04-19a-protest-sign.jpg", alt='The image features the &ldquo;Disaster Girl&rdquo; meme with a twist: the face of Elon Musk is pasted over the girl’s. In the background, a house is engulfed in flames, with firefighters and onlookers nearby. The expression conveys a sense of mischievous calm amid chaos, adding humor to the scene.', caption="<i>Elected Assholes</i> protest sign, not used by the author") }} 
+
+This crap is well past getting out of hand, and I wanted a sign that reflected that. 
+The government—in my name as one of its citizens—is deporting people without due process? 
+It is bullying foreign leaders in the Oval Office? 
+It is recklessly dismantling medical research, food safety programs, and environmental controls?
+This doesn't represent my values, nor—I'd wager—the values of most of the country.
+
+[Download](https://dltj.org/assets/attachments/Assholes%20protest%20sign.pdf) and print your own 26" by 16" version of this sign. 
+Or download [its more vulgar companion](https://dltj.org/assets/attachments/Vulgar%20Assholes%20protest%20sign.pdf).
 
 
 ## Disaster Musk {: #disaster-musk}
