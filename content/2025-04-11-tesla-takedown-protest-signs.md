@@ -18,7 +18,7 @@ If you don't like something below, maybe one of his will suit your mood!
 
 
 ## All of the ABOVE! {: #all-of-the-above}
-{{ image(width="600", localsrc="2025/2025-04-26-protest-sign.jpg", alt='The image features the &ldquo;Disaster Girl&rdquo; meme with a twist: the face of Elon Musk is pasted over the girl’s. In the background, a house is engulfed in flames, with firefighters and onlookers nearby. The expression conveys a sense of mischievous calm amid chaos, adding humor to the scene.', caption="<i>All of the ABOVE!</i> protest sign, first used on 26-Apr-2025") }} 
+{{ image(width="600", localsrc="2025/2025-04-26-protest-sign.jpg", alt='The protest sign presents a multiple-choice question format. Options are labeled: "A: Hateful?", "B: Corrupt?", and "C: Ignorant?". Along the right side of these options are the heads of Donald Trump. Elon Musk in a black ball cap, and JD Vance. The final choice, "D: ALL of the ABOVE!" is accompanied by a large green check mark. The design conveys a critical stance using bold black text on a white background, emphasizing the collective critique across all options.', caption="<i>All of the ABOVE!</i> protest sign, first used on 26-Apr-2025") }} 
 
 The meanness, the illegality, the stupidity...it is all more than I thought possible and it is certainly not what deserve from our government. 
 And it is not just one of these attributes, but all of them coming from all of this administration's elected, confirmed, and senior leaders. 
@@ -27,13 +27,16 @@ And it is not just one of these attributes, but all of them coming from all of t
 
 
 ## Elected Assholes {: #elected-assholes}
-{{ image(width="600", localsrc="2025/2025-04-19a-protest-sign.jpg", alt='The image features the &ldquo;Disaster Girl&rdquo; meme with a twist: the face of Elon Musk is pasted over the girl’s. In the background, a house is engulfed in flames, with firefighters and onlookers nearby. The expression conveys a sense of mischievous calm amid chaos, adding humor to the scene.', caption="<i>Elected Assholes</i> protest sign, not used by the author") }} 
+{{ image(width="600", localsrc="2025/2025-04-19a-protest-sign.jpg", alt='The protest sign features bold black text on a white background stating, "My GOVERNMENT did WHAT?!? Who ELECTED these ASSHOLES!" Images of four men—Donald Trump, JD Vance, Elon Musk, and Marco Rubio—are aligned under the words. The design expresses frustration and disbelief, capturing a critical and provocative stance on governance and electoral choices.', caption="<i>Elected Assholes</i> protest sign, not used by the author") }} 
 
 This crap is well past getting out of hand, and I wanted a sign that reflected that. 
 The government—in my name as one of its citizens—is deporting people without due process? 
 It is bullying foreign leaders in the Oval Office? 
 It is recklessly dismantling medical research, food safety programs, and environmental controls?
 This doesn't represent my values, nor—I'd wager—the values of most of the country.
+
+The focus group (my family members) weren't a fan of the unnecessary crassness of the sign. 
+I want to so something with the concept of "My GOVERNMENT did WHAT?!?", so I'll probably revisit this. 
 
 [Download](https://dltj.org/assets/attachments/Assholes%20protest%20sign.pdf) and print your own 26" by 16" version of this sign. 
 Or download [its more vulgar companion](https://dltj.org/assets/attachments/Vulgar%20Assholes%20protest%20sign.pdf).
