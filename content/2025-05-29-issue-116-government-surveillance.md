@@ -1,6 +1,5 @@
 ---
 title: 'Issue 116: Government Surveillance'
-posted: 2025-05-01
 modified: 
 category: Thursday Threads
 categories:
@@ -9,8 +8,8 @@ tags:
 - government surveillance
 - digital privacy
 - location privacy
-summary: ""
-bluesky: ""
+summary: "U.S. surveillance is escalating: Trump’s order to scrap inter-agency data silos and Musk’s DOGE unite federal databases; Oracle’s Ellison envisions AI cameras and drones; the Pentagon’s Locomotive tracks phones via app data; and brokers sell personal records to law enforcement. As LexisNexis lobbied for hands-off regulation and Apple battled over data access, pressing issues of oversight, due process, and privacy are emerging."
+bluesky: "US surveillance is surging: Trump unites agency data; Musk’s DOGE centralizes federal databases; Ellison backs AI cameras and drones; the Pentagon tracks phones via “Locomotive”; data brokers sell personal records—raising urgent privacy and oversight concerns."
 ---
 After _DTLJ Thursday Threads_  issues on [digital privacy]({filename}2025-04-10-issue-114-digital-privacy) and [surveillance camera systems]({filename}2025-04-17-issue-115-camera-networks), I'm focusing this week on the more general topic of government-sponsored or -enabled surveillance. 
 In an era defined by ubiquitous data collection and ever-advancing technologies, the line between public safety and individual privacy is growing alarmingly thin. 
@@ -160,9 +159,9 @@ First posted on May 10, 2005, this month marks the 20th anniversary of {{ robust
 I remember when this first came out, and I totally believed it was real until earlier this year.
 
 
-What did you learn this week? Let me know on [Mastodon](https://code4lib.social/@dltj/) or [Bluesky](https://bsky.app/profile/dltj.org/).
+What did you learn this week? Let me know on [Mastodon](https://code4lib.social/@dltj/114591093966405498) or [Bluesky](https://bsky.app/profile/dltj.org/post/3lqcpmmgdep2q).
 
 
 ## Another season of outdoor cat activity begins {: #cats}
-{{ image(width="600", localsrc="2025/2025-05-29-alan.jpg", alt="White and gray cat with black collar sitting attentively in a mulched garden bed, surrounded by green lawn and suburban homes in the background. In front of the cat is the dead remnants of last year's catnip patch with new green sprouts shooting up.") }} 
+{{ image(width="600", localsrc="2025/2025-05-29-alan.jpg", alt="White and gray cat with purple collar sitting attentively in a mulched garden bed, surrounded by green lawn and suburban homes in the background. In front of the cat is the dead remnants of last year's catnip patch with new green sprouts shooting up.") }} 
 
