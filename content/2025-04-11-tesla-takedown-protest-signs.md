@@ -6,15 +6,33 @@ categories:
 - Personal
 tags:
 - politics
-summary: "A running list of the protest signs I'm using on #TeslaTakedown days. Many of them include links to PDFs that you can download to make your own."
+summary: "A running list of the protest signs I'm using to protest. Many of them include links to PDFs that you can download to make your own."
 ---
 
-The {{ robustlink(href="https://www.teslatakedown.com/", versionurl="https://web.archive.org/web/20250410232846/https://www.teslatakedown.com/", versiondate="2025-04-10", title="Tesla Takedown homepage", anchor="#TeslaTakedown protests") }} have gone on long enough that it is time to make a public archive of signs. 
-For the latest signs, I've included a link where you can download a PDF to print your own. 
+Formerly just {{ robustlink(href="https://www.teslatakedown.com/", versionurl="https://web.archive.org/web/20250410232846/https://www.teslatakedown.com/", versiondate="2025-04-10", title="Tesla Takedown homepage", anchor="#TeslaTakedown protest") }} signs, this post is now more general — protest signs against the growing authoritarianism that Donald Trump is trying to normalize. 
+For all except the two at the bottom, I've included a link where you can download a PDF to print your own. 
 Please use these if you'd like; if you want to give me something in exchange, just tag me on [Mastodon](https://code4lib.social/@dltj/) or [Bluesky](https://bsky.app/profile/dltj.org/) so I know how far these have spread. 
 
 Also, Marc Lee from {{ robustlink(href="https://freeprotestsigns.org/", versionurl="https://web.archive.org/web/20250424000611/https://freeprotestsigns.org/", versiondate="2025-04-24", title="Free Protest Signs homepage", anchor="Free Protest Signs") }} reached out on Bluesky to let me know about his website of signs. 
 If you don't like something below, maybe one of his will suit your mood!
+
+## Respect My Authoritah! {: #respect-my-authoritah}
+{{ image(width="600", localsrc="2025/2025-06-12-respect-my-authoritah-sign.png", alt="The protest sign features a cartoon character with the body of Eric Cartman from South Park, dressed in a police uniform, and a face resembling Donald Trump. The character is angrily shouting. Next to the character, the text reads 'RESPECT MY AUTHORITAH!' in bold teal letters. Below, in stylized orange and yellow text, it states 'No Kings in America.' The design humorously critiques authority, blending pop culture with a political message.", caption="<i>Respect My Authoritah!</i> protest sign, first used on 14-Jun-2025") }} 
+
+Of the two signs that I'm bringing to the {{ robustlink(href="https://www.nokings.org/", versionurl="https://web.archive.org/web/20250613035003/https://www.nokings.org/", versiondate="2025-06-13", title="No Kings In America homepage", anchor="#NoKingsInAmerica protest") }}, this is the snarky one. 
+Trump's attitude and actions in the ICE raid protests in Los Angeles and elsewhere reminded me of Eric Cartman from South Park screaming, "{{ robustlink(href="https://www.youtube.com/watch?v=KKJprZqU_oU", versiondate="2025-06-13", title="Respect My Authority! | SOUTH PARK on YouTube", anchor="Respect My Authoritah!") }}"
+
+[Download](https://dltj.org/assets/attachments/Respect%20My%20Authoritah%20protest%20sign.pdf) and print your own 26" by 16" version of this sign. 
+
+
+## Three Branches {: #three-branches}
+{{ image(width="600", localsrc="2025/2025-06-12-three-branches-sign.png", alt="The protest sign emphasizes the roles of the three government branches with phrases: 'Legislative: Investigate!' and 'Executive: Follow the Law!' and 'Judicial: Defend the Bench!' in blue and red lettering. Below, 'Three Co-Equal Branches' is displayed in a mix of blue and red. The background features alternating gray and white stripes, reinforcing the message of balance and cooperation among the branches.", caption="<i>Three Branches</i> protest sign, first used on 14-Jun-2025") }} 
+
+I've had this one in my protest design document for a while, and now seems like a very good time to make it real. 
+The U.S. Constitution lays out three branches of government, and right now we are seeing inaction (the legislature), abuse (the executive), and under siege (the judicial). 
+We need the legislature to step up, support the judiciary, and tell the executive to knock it off.
+ 
+[Download](https://dltj.org/assets/attachments/Three%20Branches%20protest%20sign.pdf) and print your own 26" by 16" version of this sign. 
 
 
 ## All of the ABOVE! {: #all-of-the-above}

@@ -1,6 +1,6 @@
 ---
 title: 'Issue 117: Local Government Surveillance'
-modified: 
+modified: 2025-06-13
 category: Thursday Threads
 categories:
 - Thursday Threads
@@ -30,8 +30,8 @@ The Trump administration is using modern-day authoritarian tactics to frighten c
 I am more angry at what my national leaders have done than I am frightened, and I hope you will express your outrage, too, at a {{ robustlink(href="https://www.nokings.org/", versionurl="https://web.archive.org/web/20250611012930/https://www.nokings.org/", versiondate="2025-06-11", title="No Kings homepage", anchor="No Kings in America protest this weekend") }}.
 These are drafts of the two signs I'll be waving:
 
-{{ image(width="300", div_float="left", localsrc="2025/2025-06-12-three-branches-sign.png", alt="The protest sign emphasizes the roles of the three government branches with phrases: 'Legislative: Investigate!' and 'Executive: Follow the Law!' and 'Judicial: Defend the Bench!' in blue and red lettering. Below, 'Three Co-Equal Branches' is displayed in a mix of blue and red. The background features alternating gray and white stripes, reinforcing the message of balance and cooperation among the branches.") }} 
-{{ image(width="300", div_float="left", localsrc="2025/2025-06-12-respect-my-authoritah-sign.png", alt="The protest sign features a cartoon character with the body of Eric Cartman from South Park, dressed in a police uniform, and a face resembling Donald Trump. The character is angrily shouting. Next to the character, the text reads 'RESPECT MY AUTHORITAH!' in bold teal letters. Below, in stylized orange and yellow text, it states 'No Kings in America.' The design humorously critiques authority, blending pop culture with a political message.") }} 
+{{ image(width="300", div_float="left", localsrc="2025/2025-06-12-three-branches-sign.png", alt="The protest sign emphasizes the roles of the three government branches with phrases: 'Legislative: Investigate!' and 'Executive: Follow the Law!' and 'Judicial: Defend the Bench!' in blue and red lettering. Below, 'Three Co-Equal Branches' is displayed in a mix of blue and red. The background features alternating gray and white stripes, reinforcing the message of balance and cooperation among the branches.", ahref="https://dltj.org/article/tesla-takedown-protest-signs/#three-branches") }} 
+{{ image(width="300", div_float="left", localsrc="2025/2025-06-12-respect-my-authoritah-sign.png", alt="The protest sign features a cartoon character with the body of Eric Cartman from South Park, dressed in a police uniform, and a face resembling Donald Trump. The character is angrily shouting. Next to the character, the text reads 'RESPECT MY AUTHORITAH!' in bold teal letters. Below, in stylized orange and yellow text, it states 'No Kings in America.' The design humorously critiques authority, blending pop culture with a political message.", ahref="https://dltj.org/article/tesla-takedown-protest-signs/#respect-my-authoritah") }} 
 
 In light of Elon Musk stepping back from a public role in the administration, I'll retitle my [#TeslaTakedown protest sign blog post]({filename}2025-04-11-tesla-takedown-protest-signs) (although, in keeping with cool-URLs-don't-change practice, it is at the same web link) and will be adding these two signs when they are finalized. 
 You are welcome to visit that post to download printable versions of these signs or any other ones that I've made. 
