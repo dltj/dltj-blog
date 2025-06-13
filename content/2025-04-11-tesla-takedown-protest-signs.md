@@ -1,12 +1,12 @@
 ---
-title: "My Public Archive of #TeslaTakedown Protest Signs"
-modified: 2025-04-25
+title: "My Public Archive of Protest Signs"
+modified: 2025-06-13
 category: Personal
 categories:
 - Personal
 tags:
 - politics
-summary: "A running list of the protest signs I'm using to protest. Many of them include links to PDFs that you can download to make your own."
+summary: "A running list of the protest signs I'm using to protest. Many of them include links to PDFs that you can download to make using your home printer."
 ---
 
 Formerly just {{ robustlink(href="https://www.teslatakedown.com/", versionurl="https://web.archive.org/web/20250410232846/https://www.teslatakedown.com/", versiondate="2025-04-10", title="Tesla Takedown homepage", anchor="#TeslaTakedown protest") }} signs, this post is now more general — protest signs against the growing authoritarianism that Donald Trump is trying to normalize. 
@@ -33,6 +33,16 @@ The U.S. Constitution lays out three branches of government, and right now we ar
 We need the legislature to step up, support the judiciary, and tell the executive to knock it off.
  
 [Download](https://dltj.org/assets/attachments/Three%20Branches%20protest%20sign.pdf) and print your own 26" by 16" version of this sign. 
+
+
+## Dictators Hold Parades {: #dictators-hold-parades}
+{{ image(width="600", localsrc="2025/2025-06-13-dictators-hold-parades-sign.jpg", alt="The protest sign shows a composite image of Donald Trump and Kim Jong Un shaking hands with rows of marching soldiers in the background. Bold text at the top reads 'Dictators Hold Parades' and at the bottom, 'Not Democracies.' The image critiques authoritarian displays of power, contrasting them with democratic values. The military parade emphasizes the message against dictatorial practices.", caption="<i>Dictators Hold Parades</i> protest sign, first used on 14-Jun-2025") }} 
+
+My daughter was listening to {{ robustlink(href="https://www.nytimes.com/2025/06/13/podcasts/the-daily/israel-iran-trump-military-parade.html", versionurl="https://web.archive.org/web/20250613232144/https://www.nytimes.com/2025/06/13/podcasts/the-daily/israel-iran-trump-military-parade.html", versiondate="2025-06-13", title="Israel’s Massive Attack on Iran — and Why Tomorrow’s Military Parade Is So Fraught | The New York Times", anchor="a story from <i>The Daily</i>") }} from the New York Times and shouted out, "that's my sign!" 
+The guest had been talking about how Trump's parade in Washington, DC, is un-American and something that dictatorships do. 
+A little photo searching and editing later...this sign was born.
+
+[Download](https://dltj.org/assets/attachments/Dictators%20Hold%20Parades%20protest%20sign.pdf) and print your own 26" by 16" version of this sign. 
 
 
 ## All of the ABOVE! {: #all-of-the-above}
