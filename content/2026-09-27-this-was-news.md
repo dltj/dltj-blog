@@ -1,10 +1,11 @@
 ---
 title: "This Was News: a time capsule of yesterday's headlines"
-summary: 
+category: Personal
 categories:
 - Personal
 tags:
 - This Was News
+summary: A behind-the-scenes look at This Was News — a bot and website built to slow down the news cycle by resurfacing old headlines for reflection. Covers the project's origins, how it gathers and ranks stories from multiple outlets, and the challenges of anti-scraping measures two years in.
 ---
 Earlier this month, I added a [post here about Five Thank Yous]({filename}2026-09-13-five-thank-yous)...this year's summer vacation project. 
 This weekend I was working on last summer's vacation project and realized I hadn't posted about it here.
