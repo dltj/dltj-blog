@@ -1,7 +1,9 @@
----
+ ---
 title: "Five Thank Yous: a quiet gratitude project"
 categories:
 - Personal
+tags:
+- Five Thank Yous
 ---
 I’ve made a small website called **[Five Thank Yous](https://fivethankyous.org/)**. 
 It is a quiet, curated collection of anonymous gratitude threads: short reflections that begin with one specific good thing and trace it back through the people, labor, nature, place, memory, timing, chance, and care that made it possible.
